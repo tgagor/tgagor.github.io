@@ -1,0 +1,6 @@
+User-agent: *
+
+Allow: /
+Disallow: /authors/*
+
+Sitemap: https://timor.site//sitemap.xml

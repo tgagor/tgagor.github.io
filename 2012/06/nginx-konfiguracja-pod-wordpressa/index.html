@@ -1,0 +1,309 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="To raczej nie jest podstawowy konfig i próżno szukać go na stronie WordPress&rsquo;a, więc odradzam tę zabawę jeśli nie zna się zbyt dobrze nginx&rsquo;a.
+Ponieważ serwerek, na którym działa stronka to sprzęcik z Atomem 330 i mocy na CPU zbyt wiele nie ma to popularne pluginy (np. W3 Total Cache) potencjalnie zwiększające wydajność tak na prawdę zmulały stronkę jeszcze bardziej. Pluginów sprawdziłem kilka i każdorazowo efekt był podobny - stronka działała wolniej niż bez ich pomocy."><meta name=theme-color content="#c64858"><meta property="og:title" content="Nginx - konfiguracja pod WordPress’a • TiMoR"><meta property="og:description" content="To raczej nie jest podstawowy konfig i próżno szukać go na stronie WordPress&rsquo;a, więc odradzam tę zabawę jeśli nie zna się zbyt dobrze nginx&rsquo;a.
+Ponieważ serwerek, na którym działa stronka to sprzęcik z Atomem 330 i mocy na CPU zbyt wiele nie ma to popularne pluginy (np. W3 Total Cache) potencjalnie zwiększające wydajność tak na prawdę zmulały stronkę jeszcze bardziej. Pluginów sprawdziłem kilka i każdorazowo efekt był podobny - stronka działała wolniej niż bez ich pomocy."><meta property="og:url" content="https://timor.site/2012/06/nginx-konfiguracja-pod-wordpressa/"><meta property="og:site_name" content="timor's site"><meta property="og:type" content="article"><meta property="og:image" content="https://www.gravatar.com/avatar/cfa9a17577371083824a78c303cc8ed7?s=256"><meta property="article:section" content="posts"><meta property="article:tag" content="nginx"><meta property="article:tag" content="reverse proxy"><meta property="article:tag" content="Wordpress"><meta property="article:published_time" content="2012-06-29T00:00:00Z"><meta property="article:modified_time" content="2012-06-29T00:00:00Z"><meta name=twitter:card content="summary"><meta name=generator content="Hugo 0.76.5"><title>Nginx - konfiguracja pod WordPress’a • TiMoR</title><link rel=canonical href=https://timor.site/2012/06/nginx-konfiguracja-pod-wordpressa/><link rel=icon href=/favicon.ico><link rel=stylesheet href=/assets/css/main.ab98e12b.css><style>:root{--color-accent:#c64858}</style><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-88996819-1','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script></head><body class="page type-posts layout-post has-sidebar"><div class=site><div id=sidebar class=sidebar><a class=screen-reader-text href=#main-menu>Skip to Main Menu</a><div class=container><section class="widget widget-about sep-after"><header><div class=logo><a href=/><img src=/favicon.ico></a></div><h2 class="title site-title"><a href=/>timor's site</a></h2><div class=desc>Linux configuration, Automation, Security - Sysadmin/DevOps blog</div></header></section><section class="widget widget-search sep-after"><header><h4 class="title widget-title">Search</h4></header><form action=/search id=search-form class=search-form><label><span class=screen-reader-text>Search</span>
+<input id=search-term class=search-term type=search name=q placeholder=Search&mldr;></label></form></section><section class="widget widget-sidebar_menu sep-after"><nav id=sidebar-menu class="menu sidebar-menu" aria-label="Sidebar Menu"><div class=container><ul><li class=item><a href=/></a></li><li class=item><a href=/>Home</a></li><li class="item has-children"><a href=/categories/howto/>HOWTO</a><button class=sub-menu-toggler>
+<span class=screen-reader-text>expand sub menu</span>
+<span class=sign></span></button><ul class=sub-menu><li class=item><a href=/categories/tip/>Tips</a></li></ul></li><li class=item><a href=/categories/off-topic/>Off-topic</a></li><li class=item><a href=/categories/gotowanie/>Gotowanie</a></li><li class=item><a href=/about/>About</a></li></ul></div></nav></section></div><div class=sidebar-overlay></div></div><div class=main><a class=screen-reader-text href=#content>Skip to Content</a>
+<button id=sidebar-toggler class=sidebar-toggler aria-controls=sidebar>
+<span class=screen-reader-text>Toggle Sidebar</span>
+<span class=open><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></span><span class=close><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span></button><div class=header-widgets><div class=container><style>.widget-breadcrumbs li:after{content:'\2f '}</style><section class="widget widget-breadcrumbs sep-after"><nav id=breadcrumbs><ol><li><a href=/>Home</a></li><li><a href=/posts/>Posts</a></li><li><span>Nginx - konfiguracja pod WordPress’a</span></li></ol></nav></section></div></div><header id=header class="header site-header"><div class="container sep-after"><div class=header-info><p class="site-title title">timor's site</p><p class="desc site-desc">Linux configuration, Automation, Security - Sysadmin/DevOps blog</p></div></div></header><main id=content><article lang=en class=entry><header class="header entry-header"><div class="container sep-after"><div class=header-info><h1 class=title>Nginx - konfiguracja pod WordPress’a</h1></div><div class=entry-meta><span class=posted-on><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span class=screen-reader-text>Posted on</span>
+<time class=entry-date datetime=2012-06-29T00:00:00Z>2012-06-29</time></span>
+<span class=byline><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M21 21V20c0-2.76-4-5-9-5s-9 2.24-9 5v1"/><path d="M16 6.37A4 4 0 1112.63 3 4 4 0 0116 6.37z"/></svg><span class=screen-reader-text>by </span><a href=/authors/timor>TiMoR</a></span>
+<span class=reading-time><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 15 15"/></svg>8 mins read</span></div></div></header><div class="container entry-content"><p>To raczej nie jest podstawowy konfig i próżno szukać go na stronie WordPress&rsquo;a, więc odradzam tę zabawę jeśli nie zna się zbyt dobrze nginx&rsquo;a.</p><p>Ponieważ serwerek, na którym działa stronka to sprzęcik z Atomem 330 i mocy na CPU zbyt wiele nie ma to popularne pluginy (np. W3 Total Cache) potencjalnie zwiększające wydajność tak na prawdę zmulały stronkę jeszcze bardziej. Pluginów sprawdziłem kilka i każdorazowo efekt był podobny - stronka działała wolniej niż bez ich pomocy.</p><p>Druga sprawa to zwiększony ruch - w takiej konfiguracji już przy kilku osobach równocześnie przeglądających blog, serwerek zwyczajnie nie radził sobie z dynamicznym generowaniem strony.</p><p>Pomysł na rozwiązanie problemu z wydajnością polegał na odpaleniu cache&rsquo;ującego reverse proxy przed właściwą stroną, z krótkim okresem ważności cache&rsquo;u (max kilka sekund) tak by przy dużym obciążeniu strony serwować głównie z cache&rsquo;u (tylko co pewien czas ktoś będzie miał niefart i będzie musiał zaczekać na wygenerowanie strony), przy czym komentarze i panel administracyjny działają z pominięciam cache&rsquo;owania (czyli każdorazowo trafiają przez proxy do aplikacji).</p><p>Ważne jednak by osoba wysyłająca komentarz mogła wynik swojego działania zobaczyć od razu na stronie. Ponieważ komentarze wysyłane są metodą HTTP POST to w momencie odebrania takiego połączenia będzie ustawiane ciasteczko dezaktywujące cache dla danego połączenia na kilka sekund (do momentu jego wygaśnięcia).</p><p>Poniżej plik konfiguracyjny, który należy zapisać np. w: <code>/etc/nginx/sites-available/wordpress</code></p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#75715e># na początek ustawiamy lokalizację dla cache&#39;u
+</span><span style=color:#75715e></span><span style=color:#66d9ef>proxy_cache_path</span> <span style=color:#e6db74>/var/cache/nginx/wordpress</span> <span style=color:#e6db74>levels=1:2</span> <span style=color:#e6db74>keys_zone=WORDPRESS:10m</span> <span style=color:#e6db74>inactive=24h</span> <span style=color:#e6db74>max_size=100m</span>;
+<span style=color:#75715e># nie chcę stronki z www na początku więc cały ruch przekierowują
+</span><span style=color:#75715e># na stronkę bez www
+</span><span style=color:#75715e></span><span style=color:#66d9ef>server</span> {
+  <span style=color:#f92672>listen</span> 10.0.1.2:<span style=color:#ae81ff>80</span>;
+  <span style=color:#f92672>server_name</span> <span style=color:#e6db74>www.example.com</span>;
+  <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>^</span> <span style=color:#e6db74>http://example.com</span>$request_uri? <span style=color:#e6db74>permanent</span>;
+}
+<span style=color:#75715e># tutaj ma miejsce magia - główny host obsługujący stronkę
+</span><span style=color:#75715e># to tak na prawdę cache&#39;ujące proxy serwujące okresowo
+</span><span style=color:#75715e># generowane pliki
+</span><span style=color:#75715e></span><span style=color:#66d9ef>server</span> {
+  <span style=color:#f92672>listen</span> 10.0.1.2:<span style=color:#ae81ff>80</span> <span style=color:#e6db74>default</span>;
+  <span style=color:#f92672>access_log</span> <span style=color:#e6db74>/var/log/nginx/wordpress.access.log</span>;
+  <span style=color:#f92672>server_name</span> <span style=color:#e6db74>example.com</span>;
+
+  <span style=color:#75715e># ten rewrite przerzuca do panelu admina nawet jeśli
+</span><span style=color:#75715e></span>  <span style=color:#75715e># na końcu nie wpiszemy ukośnika
+</span><span style=color:#75715e></span>  <span style=color:#75715e># bez niego też to działa ale przekierowanie jest przetwarzane
+</span><span style=color:#75715e></span>  <span style=color:#75715e># przez skrypt stronki i działa wolniej
+</span><span style=color:#75715e></span>  <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>^/wp-admin</span>$ <span style=color:#e6db74>/wp-admin/</span> <span style=color:#e6db74>last</span>;
+
+  <span style=color:#75715e># cache&#39;ujemy tylko odpowiedzi 200 i przez 60s
+</span><span style=color:#75715e></span>  <span style=color:#75715e># (moja stronka nie obsługuje zbyt dużego ruchu i rzadko
+</span><span style=color:#75715e></span>  <span style=color:#75715e># jest modyfikowana - np. przez komentarze - więc 60s jest OK,
+</span><span style=color:#75715e></span>  <span style=color:#75715e># na bardziej aktywnych stronkach można się pokusić o ustawienie
+</span><span style=color:#75715e></span>  <span style=color:#75715e># 1~3s przez co stronka jest praktycznie dynamiczna ale mimo to
+</span><span style=color:#75715e></span>  <span style=color:#75715e># cache zapewni obsługę nawet kilku tys. zapytań na sekundę
+</span><span style=color:#75715e></span>  <span style=color:#f92672>proxy_cache_valid</span> <span style=color:#ae81ff>200</span> <span style=color:#e6db74>60s</span>;
+
+  <span style=color:#75715e># informacje dla backendu na jakiego host się wbijamy
+</span><span style=color:#75715e></span>  <span style=color:#75715e># i z jakiego &#34;prawdziwego&#34; IP
+</span><span style=color:#75715e></span>  <span style=color:#f92672>proxy_set_header</span> <span style=color:#e6db74>Host</span> $http_host;
+  <span style=color:#f92672>proxy_set_header</span> <span style=color:#e6db74>X-Real-IP</span> $remote_addr;
+  <span style=color:#f92672>proxy_set_header</span> <span style=color:#e6db74>X-Forwarded-For</span> $proxy_add_x_forwarded_for;
+
+  <span style=color:#75715e># możemy ukryć niektóre nagłówki np. by nie podpowiadać
+</span><span style=color:#75715e></span>  <span style=color:#75715e># z jakich pluginów korzystamy w WordPressie
+</span><span style=color:#75715e></span>  <span style=color:#f92672>proxy_hide_header</span> <span style=color:#e6db74>X-Powered-By</span>;
+
+  <span style=color:#75715e># kilka ustawień timeout&#39;ów
+</span><span style=color:#75715e></span>  <span style=color:#f92672>proxy_connect_timeout</span> <span style=color:#ae81ff>60</span>;
+  <span style=color:#f92672>proxy_read_timeout</span> <span style=color:#ae81ff>120</span>;
+  <span style=color:#f92672>proxy_send_timeout</span> <span style=color:#ae81ff>120</span>;
+
+  <span style=color:#75715e># Ważne - poniższa opcja ustawia w jaki sposób generowane są
+</span><span style=color:#75715e></span>  <span style=color:#75715e># nazwy plików w cache&#39;u,
+</span><span style=color:#75715e></span>  <span style=color:#75715e># dodając np. kolejne zmienne możemy zróżnicować cache dla
+</span><span style=color:#75715e></span>  <span style=color:#75715e># pewnych grup użytkowników
+</span><span style=color:#75715e></span>  <span style=color:#f92672>proxy_cache_key</span> <span style=color:#e6db74>&#34;</span>$scheme$request_method$host$request_uri&#34;;
+
+  <span style=color:#75715e># domyślna lokalizacja
+</span><span style=color:#75715e></span>  <span style=color:#f92672>location</span> <span style=color:#e6db74>/</span> {
+    <span style=color:#75715e># ustawiamy domyślną wartość zmiennej
+</span><span style=color:#75715e></span>    <span style=color:#f92672>set</span> $no_cache <span style=color:#e6db74>&#34;&#34;</span>;
+
+    <span style=color:#75715e># If non GET/HEAD, don&#39;t cache &amp; mark user as uncacheable for 1 second via cookie
+</span><span style=color:#75715e></span>    <span style=color:#75715e># jeśli metoda inna niż GET/HEAD to oznacz usera przez cookie jako niecachowanego
+</span><span style=color:#75715e></span>    <span style=color:#75715e># na czas 60s (ustawiany poniżej)
+</span><span style=color:#75715e></span>    <span style=color:#f92672>if</span> <span style=color:#e6db74>(</span>$request_method <span style=color:#e6db74>!~</span> <span style=color:#e6db74>^(GET|HEAD)</span>$<span style=color:#e6db74>)</span> {
+      <span style=color:#f92672>set</span> $no_cache <span style=color:#e6db74>&#34;1&#34;</span>;
+    }
+
+    <span style=color:#75715e># jeśli zalogowany to nie cache&#39;uj
+</span><span style=color:#75715e></span>    <span style=color:#f92672>if</span> <span style=color:#e6db74>(</span>$http_cookie ~<span style=color:#e6db74>*</span> <span style=color:#e6db74>&#34;comment_author_|wordpress_(?!test_cookie)|wp-postpass_&#34;</span> <span style=color:#e6db74>)</span> {
+      <span style=color:#f92672>set</span> $no_cache <span style=color:#e6db74>&#34;1&#34;</span>;
+    }
+
+    <span style=color:#75715e># jeżeli któryś z wcześniejszych warunków jest spełniony
+</span><span style=color:#75715e></span>    <span style=color:#75715e># to ustawiamy cookie, które poinformuje nas by nie cachować
+</span><span style=color:#75715e></span>    <span style=color:#75715e># kolejnych zapytań
+</span><span style=color:#75715e></span>    <span style=color:#75715e># (z powodu &#34;dziwnego&#34; zachowania if w nginx&#39;ie ustawienie
+</span><span style=color:#75715e></span>    <span style=color:#75715e># tego bezpośrednio we wcześniejszych warunkach nie działa)
+</span><span style=color:#75715e></span>    <span style=color:#f92672>if</span> <span style=color:#e6db74>(</span>$no_cache = <span style=color:#e6db74>&#34;1&#34;)</span> {
+      <span style=color:#f92672>add_header</span> <span style=color:#e6db74>Set-Cookie</span> <span style=color:#e6db74>&#34;_mcnc=1</span>; <span style=color:#f92672>Max-Age=61</span>; <span style=color:#f92672>Path=/&#34;</span>;
+      <span style=color:#f92672>add_header</span> <span style=color:#e6db74>X-Microcachable</span> <span style=color:#e6db74>&#34;0&#34;</span>;
+    }
+
+    <span style=color:#75715e># jeśli cookie jest ustawione to pomijamy cache i serwujemy
+</span><span style=color:#75715e></span>    <span style=color:#75715e># świeżą treść
+</span><span style=color:#75715e></span>    <span style=color:#f92672>if</span> <span style=color:#e6db74>(</span>$http_cookie ~<span style=color:#e6db74>*</span> <span style=color:#e6db74>&#34;_mcnc&#34;)</span> {
+      <span style=color:#f92672>set</span> $no_cache <span style=color:#e6db74>&#34;1&#34;</span>;
+    }
+
+    <span style=color:#75715e># dwie poniższe opcje zapewniają pominięcia cache&#39;owania
+</span><span style=color:#75715e></span>    <span style=color:#75715e># w przypadku gdy wystąpi któryś z wcześniejszych warunków
+</span><span style=color:#75715e></span>    <span style=color:#f92672>proxy_no_cache</span> $no_cache;
+    <span style=color:#f92672>proxy_cache_bypass</span> $no_cache;
+
+    <span style=color:#75715e># Serwujemy cache jeśli strona jest obecnie odświeżana
+</span><span style=color:#75715e></span>    <span style=color:#75715e># lub wystąpi błąd
+</span><span style=color:#75715e></span>    <span style=color:#f92672>proxy_cache_use_stale</span> <span style=color:#e6db74>error</span> <span style=color:#e6db74>timeout</span> <span style=color:#e6db74>invalid_header</span> <span style=color:#e6db74>updating</span>
+        <span style=color:#e6db74>http_500</span> <span style=color:#e6db74>http_502</span> <span style=color:#e6db74>http_503</span> <span style=color:#e6db74>http_504</span>;
+
+    <span style=color:#75715e># pliki większe niż 1M nie będą cache&#39;owane
+</span><span style=color:#75715e></span>    <span style=color:#f92672>proxy_max_temp_file_size</span> <span style=color:#e6db74>1M</span>;
+    <span style=color:#75715e># cache&#39;ujemy tylko odpowiedzi 200 i przez 60s
+</span><span style=color:#75715e></span>    <span style=color:#75715e># (moja stronka nie obsługuje zbyt dużego ruchu i rzadko
+</span><span style=color:#75715e></span>    <span style=color:#75715e># jest modyfikowana - np. przez komentarze - więc 60s jest OK,
+</span><span style=color:#75715e></span>    <span style=color:#75715e># na bardziej aktywnych stronkach można się pokusić o ustawienie
+</span><span style=color:#75715e></span>    <span style=color:#75715e># 1~3s przez co stronka jest praktycznie dynamiczna ale mimo to
+</span><span style=color:#75715e></span>    <span style=color:#75715e># cache zapewni obsługę nawet kilku tys. zapytań na sekundę
+</span><span style=color:#75715e></span>    <span style=color:#f92672>proxy_cache_valid</span> <span style=color:#ae81ff>200</span> <span style=color:#e6db74>60s</span>;
+    <span style=color:#75715e># zmieniamy domyślny klucz cache&#39;owania tak by uwzględniał
+</span><span style=color:#75715e></span>    <span style=color:#75715e># naszą zmienną
+</span><span style=color:#75715e></span>    <span style=color:#f92672>proxy_cache_key</span> <span style=color:#e6db74>&#34;</span>$scheme://$host$request_uri $no_cache&#34;;
+
+    <span style=color:#75715e># wskazujemy konkretną lokalizację cache&#39;u
+</span><span style=color:#75715e></span>    <span style=color:#f92672>proxy_cache</span> <span style=color:#e6db74>WORDPRESS</span>;
+    <span style=color:#75715e># podajemy lokalizację backendu (nie widziałem sensu
+</span><span style=color:#75715e></span>    <span style=color:#75715e># by udostępniać go na zewnętrznym adresie)
+</span><span style=color:#75715e></span>    <span style=color:#f92672>proxy_pass</span> <span style=color:#e6db74>http://127.0.0.1:81</span>;
+
+    <span style=color:#75715e># można ustawić dodatkowo cache&#39;owanie strony w przeglądarce
+</span><span style=color:#75715e></span>    <span style=color:#75715e># (całkiem niezależnie od tego co będzie w cache&#39;u na serwerze)
+</span><span style=color:#75715e></span>    <span style=color:#f92672>expires</span> <span style=color:#e6db74>60s</span>;
+  }
+
+  <span style=color:#75715e># dla panelu administracyjnego ustawiamy proxy bez cache&#39;u
+</span><span style=color:#75715e></span>  <span style=color:#f92672>location</span> ~<span style=color:#e6db74>*</span> <span style=color:#e6db74>wp\-(admin|login)</span> {
+    <span style=color:#75715e># dostęp do panelu administracyjnego dodatkowo chronimy
+</span><span style=color:#75715e></span>    <span style=color:#75715e># hasłem - po co?
+</span><span style=color:#75715e></span>    <span style=color:#75715e># bo w tym katalogu są różne fajne skrypty, w których już
+</span><span style=color:#75715e></span>    <span style=color:#75715e># nie raz znaleziono dziury
+</span><span style=color:#75715e></span>    <span style=color:#f92672>auth_basic</span> <span style=color:#e6db74>&#34;Go</span> <span style=color:#e6db74>Away&#34;</span>;
+    <span style=color:#f92672>auth_basic_user_file</span> <span style=color:#e6db74>htpasswd</span>;
+
+    <span style=color:#75715e># proxy bez cache&#39;u
+</span><span style=color:#75715e></span>    <span style=color:#f92672>proxy_pass</span> <span style=color:#e6db74>http://127.0.0.1:81</span>;
+  }
+
+  <span style=color:#75715e># statykę cache&#39;ujemy mocniej niż treści dynamiczne
+</span><span style=color:#75715e></span>  <span style=color:#75715e># a czemu nie puszczam jej bezpośrednio? bo wyplute przez
+</span><span style=color:#75715e></span>  <span style=color:#75715e># backend zostaną skompresowane i w takiej postaci zachowają
+</span><span style=color:#75715e></span>  <span style=color:#75715e># się w cache&#39;u - gdybym serwował je bezpośrednio to nginx
+</span><span style=color:#75715e></span>  <span style=color:#75715e># kompresowałby np. css&#39;y/js&#39;y przy każdym dostępie do nich
+</span><span style=color:#75715e></span>  <span style=color:#f92672>location</span> ~<span style=color:#e6db74>*</span> <span style=color:#e6db74>\.(jpg|png|gif|jpeg|css|js|mp3|wav|swf|mov|doc|pdf|xls|ppt|docx|pptx|xlsx)</span>$ {
+    <span style=color:#75715e># cache&#39;ujemy statykę przez 2 godziny
+</span><span style=color:#75715e></span>    <span style=color:#f92672>proxy_cache_valid</span> <span style=color:#ae81ff>200</span> <span style=color:#ae81ff>120m</span>;
+    <span style=color:#75715e># dodatkowo ustawiamy długie cache&#39;owanie w przeglądarkach
+</span><span style=color:#75715e></span>    <span style=color:#f92672>expires</span> <span style=color:#ae81ff>864000</span>;
+
+    <span style=color:#75715e># puszczamy wszystko w proxy + cache
+</span><span style=color:#75715e></span>    <span style=color:#f92672>proxy_pass</span> <span style=color:#e6db74>http://127.0.0.1:81</span>;
+    <span style=color:#f92672>proxy_cache</span> <span style=color:#e6db74>WORDPRESS</span>;
+
+    <span style=color:#75715e># wyłączam logowanie dostępu do statyki nawet w przypadku błędów
+</span><span style=color:#75715e></span>    <span style=color:#75715e># to mało istotne
+</span><span style=color:#75715e></span>    <span style=color:#f92672>log_not_found</span> <span style=color:#66d9ef>off</span>;
+    <span style=color:#f92672>access_log</span> <span style=color:#66d9ef>off</span>;
+  }
+  <span style=color:#75715e># jeszcze inaczej ustawiam cache dla RSS&#39;ów
+</span><span style=color:#75715e></span>  <span style=color:#f92672>location</span> ~<span style=color:#e6db74>*</span> <span style=color:#e6db74>\/[^\/]+\/(feed|\.xml)\/?</span> {
+    <span style=color:#75715e># cache&#39;ujemy RSS&#39;y przez 45 minut
+</span><span style=color:#75715e></span>    <span style=color:#f92672>if</span> <span style=color:#e6db74>(</span>$http_cookie ~<span style=color:#e6db74>*</span> <span style=color:#e6db74>&#34;comment_author_|wordpress_(?!test_cookie)|wp-postpass_&#34;</span> <span style=color:#e6db74>)</span> {
+      <span style=color:#f92672>set</span> $no_cache <span style=color:#ae81ff>1</span>;
+    }
+
+    <span style=color:#f92672>proxy_cache_key</span> <span style=color:#e6db74>&#34;</span>$scheme://$host$request_uri $no_cache&#34;;
+    <span style=color:#f92672>proxy_cache_valid</span> <span style=color:#ae81ff>200</span> <span style=color:#ae81ff>45m</span>;
+    <span style=color:#f92672>proxy_cache</span> <span style=color:#e6db74>MYSITE</span>;
+    <span style=color:#f92672>proxy_pass</span> <span style=color:#e6db74>http://127.0.0.1:81</span>;
+  }
+}
+<span style=color:#75715e># to teraz konfiguracja serwera serwującego treści dynamiczne
+</span><span style=color:#75715e></span><span style=color:#66d9ef>server</span> {
+  <span style=color:#75715e># nasłuchujemy lokalnie bo z zewnątrz strona dostępna
+</span><span style=color:#75715e></span>  <span style=color:#75715e># jest przez proxy
+</span><span style=color:#75715e></span>  <span style=color:#f92672>listen</span> 127.0.0.1:<span style=color:#ae81ff>81</span>;
+  <span style=color:#f92672>error_log</span> <span style=color:#e6db74>/var/log/nginx/mysite.error.log</span>;
+
+  <span style=color:#f92672>root</span> <span style=color:#e6db74>/var/www/wordpress</span>;
+  <span style=color:#f92672>index</span> <span style=color:#e6db74>index.php</span>;
+
+  <span style=color:#75715e># logujemy prawdziwe IP dzięki odpowiednim nagłówkom
+</span><span style=color:#75715e></span>  <span style=color:#75715e># przesyłanym przez proxy
+</span><span style=color:#75715e></span>  <span style=color:#f92672>set_real_ip_from</span> <span style=color:#ae81ff>127</span><span style=color:#e6db74>.0.0.0/24</span>;
+  <span style=color:#f92672>real_ip_header</span> <span style=color:#e6db74>X-Real-IP</span>;
+
+  <span style=color:#75715e># tutaj praktycznie klasyka - z tym że zamiast na końcu
+</span><span style=color:#75715e></span>  <span style=color:#75715e># wskazywać index.php robię najpierw kilka rewrite&#39;ów
+</span><span style=color:#75715e></span>  <span style=color:#75715e># np. dla przeniesionych stron, itp
+</span><span style=color:#75715e></span>  <span style=color:#f92672>location</span> <span style=color:#e6db74>/</span> {
+    <span style=color:#f92672>try_files</span> $uri $uri/ <span style=color:#e6db74>@rewrites</span>;
+  }
+
+  <span style=color:#f92672>location</span> <span style=color:#e6db74>@rewrites</span> {
+    <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>/main</span>           <span style=color:#e6db74>http://example.com/about/?</span> <span style=color:#e6db74>permanent</span>;
+    <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>/projekty</span>       <span style=color:#e6db74>http://example.com/category/projects/?</span> <span style=color:#e6db74>permanent</span>;
+    <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>/tag/gd</span>         <span style=color:#e6db74>http://example.com?</span> <span style=color:#e6db74>permanent</span>;
+    <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>/category/hobby</span> <span style=color:#e6db74>http://roman.com?</span> <span style=color:#e6db74>permanent</span>;
+    <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>^</span> <span style=color:#e6db74>/index.php</span> <span style=color:#e6db74>last</span>;
+  }
+
+<span style=color:#75715e># na bardziej obleganych stronach limitowanie wyszukiwania może
+</span><span style=color:#75715e># pomóc, ale to nie mój przypadek
+</span><span style=color:#75715e># location /search { limit_req zone=mysitesearch burst=3 nodelay; rewrite ^ /index.php; }
+</span><span style=color:#75715e></span>
+  <span style=color:#f92672>location</span> ~<span style=color:#e6db74>*</span> <span style=color:#e6db74>\.(?:ico|css|js|gif|jpe?g|png)</span>$ {
+    <span style=color:#75715e># cache&#39;owanie atrybutów statycznych plików
+</span><span style=color:#75715e></span>    <span style=color:#f92672>open_file_cache</span> <span style=color:#e6db74>max=1000</span> <span style=color:#e6db74>inactive=120s</span>;
+    <span style=color:#f92672>open_file_cache_valid</span> <span style=color:#e6db74>45s</span>;
+    <span style=color:#f92672>open_file_cache_min_uses</span> <span style=color:#ae81ff>2</span>;
+    <span style=color:#f92672>open_file_cache_errors</span> <span style=color:#66d9ef>off</span>;
+    <span style=color:#75715e># maksymalne cache&#39;owanie statyki w przeglądarkach
+</span><span style=color:#75715e></span>    <span style=color:#f92672>expires</span> <span style=color:#e6db74>max</span>;
+  }
+
+  <span style=color:#75715e># no i na końcu obsługa skryptów php
+</span><span style=color:#75715e></span>  <span style=color:#f92672>location</span> ~<span style=color:#e6db74>*</span> <span style=color:#e6db74>\.php</span>$ {
+    <span style=color:#75715e># albo plik istnieje i go serwujemy albo dajemy Forbidden
+</span><span style=color:#75715e></span>    <span style=color:#f92672>try_files</span> $uri =<span style=color:#ae81ff>403</span>;
+
+    <span style=color:#75715e># kilka standardowych ustawień
+</span><span style=color:#75715e></span>    <span style=color:#f92672>include</span> <span style=color:#e6db74>fastcgi_params</span>;
+    <span style=color:#f92672>fastcgi_param</span> <span style=color:#e6db74>SCRIPT_FILENAME</span> $document_root$fastcgi_script_name;
+    <span style=color:#75715e># blokujemy możliwość wykonywania skryptów z katalogu upload
+</span><span style=color:#75715e></span>    <span style=color:#75715e># (nawet jeśli komuś uda się je wepchnąć)
+</span><span style=color:#75715e></span>    <span style=color:#f92672>if</span> <span style=color:#e6db74>(</span>$uri <span style=color:#e6db74>!~</span> <span style=color:#e6db74>&#34;^/wp-content/uploads/&#34;)</span> {
+      <span style=color:#f92672>fastcgi_pass</span> <span style=color:#e6db74>php-fastcgi</span>;
+    }
+
+    <span style=color:#75715e># informacje dla proxy jak długo może cache&#39;ować
+</span><span style=color:#75715e></span>    <span style=color:#f92672>add_header</span> <span style=color:#e6db74>Cache-Control</span> <span style=color:#e6db74>&#34;max-age:60,</span> <span style=color:#e6db74>public&#34;</span>;
+    <span style=color:#f92672>expires</span> <span style=color:#e6db74>60s</span>;
+  }
+
+  <span style=color:#75715e># blokuję dostęp do plików zaczynających się od kropki
+</span><span style=color:#75715e></span>  <span style=color:#f92672>location</span> ~ <span style=color:#e6db74>/\.</span> { <span style=color:#f92672>access_log</span> <span style=color:#66d9ef>off</span>; <span style=color:#f92672>log_not_found</span> <span style=color:#66d9ef>off</span>; <span style=color:#f92672>deny</span> <span style=color:#e6db74>all</span>; }
+
+  <span style=color:#75715e># wyłączam logowanie do nieistotnych plików
+</span><span style=color:#75715e></span>  <span style=color:#f92672>location</span> = <span style=color:#e6db74>/robots.txt</span> { <span style=color:#f92672>allow</span> <span style=color:#e6db74>all</span>; <span style=color:#f92672>access_log</span> <span style=color:#66d9ef>off</span>; <span style=color:#f92672>log_not_found</span> <span style=color:#66d9ef>off</span>; }
+  <span style=color:#f92672>location</span> = <span style=color:#e6db74>/favicon.ico</span> { <span style=color:#f92672>access_log</span> <span style=color:#66d9ef>off</span>; <span style=color:#f92672>log_not_found</span> <span style=color:#66d9ef>off</span>; }
+}
+</code></pre></div><p>Konfiguracja potrzebuje jednego folderu na cache, do którego dostęp do zapisu ma nginx (użytkownik na którym działa proces):</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>mkdir -p /var/cache/nginx/wordpress
+chown -R www-data:www-data /var/cache/nginx/wordpress
+</code></pre></div><p>A żeby zaczął działać trzeba go &ldquo;włączyć&rdquo; i przeładować nginx&rsquo;a:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>cd /etc/nginx/sites-available/
+ln -s wordpress /etc/nginx/sites-enabled/wordpress
+service nginx reload
+</code></pre></div><p>Jedyna rzecz, której brakuje w tym configu to konfiguracja backend&rsquo;u do PHP&rsquo;a (u mnie nazwana php-fastcgi) - może kiedyś zrobię HOWTO o konfiguracji NGINX+PHP, ale na tą chwilę zakładam że sobie poradzisz 😃</p><h2 id=benchmark>Benchmark</h2><p>Sprawdźmy jak to wygląda teraz:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>ab -n <span style=color:#ae81ff>1000</span> -c <span style=color:#ae81ff>10</span> https://gagor.pl/
+This is ApacheBench, Version 2.3 &lt; $Revision: <span style=color:#ae81ff>1430300</span> $&gt;
+Copyright <span style=color:#ae81ff>1996</span> Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking gagor.pl <span style=color:#f92672>(</span>be patient<span style=color:#f92672>)</span>
+Completed <span style=color:#ae81ff>100</span> requests
+Completed <span style=color:#ae81ff>200</span> requests
+Completed <span style=color:#ae81ff>300</span> requests
+Completed <span style=color:#ae81ff>400</span> requests
+Completed <span style=color:#ae81ff>500</span> requests
+Completed <span style=color:#ae81ff>600</span> requests
+Completed <span style=color:#ae81ff>700</span> requests
+Completed <span style=color:#ae81ff>800</span> requests
+Completed <span style=color:#ae81ff>900</span> requests
+Completed <span style=color:#ae81ff>1000</span> requests
+Finished <span style=color:#ae81ff>1000</span> requests
+
+
+Server Software:        nginx
+Server Hostname:        gagor.pl
+Server Port:            <span style=color:#ae81ff>80</span>
+
+Document Path:          /
+Document Length:        <span style=color:#ae81ff>36263</span> bytes
+
+Concurrency Level:      <span style=color:#ae81ff>10</span>
+Time taken <span style=color:#66d9ef>for</span> tests:   8.716 seconds
+Complete requests:      <span style=color:#ae81ff>1000</span>
+Failed requests:        <span style=color:#ae81ff>22</span>
+   <span style=color:#f92672>(</span>Connect: 0, Receive: 0, Length: 22, Exceptions: 0<span style=color:#f92672>)</span>
+Write errors:           <span style=color:#ae81ff>0</span>
+Total transferred:      <span style=color:#ae81ff>36601094</span> bytes
+HTML transferred:       <span style=color:#ae81ff>36263088</span> bytes
+Requests per second:    114.73 <span style=color:#f92672>[</span><span style=color:#75715e>#/sec] (mean)</span>
+Time per request:       87.159 <span style=color:#f92672>[</span>ms<span style=color:#f92672>]</span> <span style=color:#f92672>(</span>mean<span style=color:#f92672>)</span>
+Time per request:       8.716 <span style=color:#f92672>[</span>ms<span style=color:#f92672>]</span> <span style=color:#f92672>(</span>mean, across all concurrent requests<span style=color:#f92672>)</span>
+Transfer rate:          4100.91 <span style=color:#f92672>[</span>Kbytes/sec<span style=color:#f92672>]</span> received
+
+Connection Times <span style=color:#f92672>(</span>ms<span style=color:#f92672>)</span>
+              min  mean<span style=color:#f92672>[</span>+/-sd<span style=color:#f92672>]</span> median   max
+Connect:        <span style=color:#ae81ff>1</span>   <span style=color:#ae81ff>16</span>   7.1     <span style=color:#ae81ff>15</span>      <span style=color:#ae81ff>55</span>
+Processing:    <span style=color:#ae81ff>17</span>   <span style=color:#ae81ff>67</span>  97.0     <span style=color:#ae81ff>53</span>     <span style=color:#ae81ff>789</span>
+Waiting:        <span style=color:#ae81ff>5</span>   <span style=color:#ae81ff>28</span>  55.6     <span style=color:#ae81ff>19</span>     <span style=color:#ae81ff>456</span>
+Total:         <span style=color:#ae81ff>37</span>   <span style=color:#ae81ff>83</span>  98.0     <span style=color:#ae81ff>68</span>     <span style=color:#ae81ff>803</span>
+
+Percentage of the requests served within a certain time <span style=color:#f92672>(</span>ms<span style=color:#f92672>)</span>
+  50%     <span style=color:#ae81ff>68</span>
+  66%     <span style=color:#ae81ff>74</span>
+  75%     <span style=color:#ae81ff>78</span>
+  80%     <span style=color:#ae81ff>80</span>
+  90%     <span style=color:#ae81ff>87</span>
+  95%     <span style=color:#ae81ff>95</span>
+  98%    <span style=color:#ae81ff>665</span>
+  99%    <span style=color:#ae81ff>755</span>
+ 100%    <span style=color:#ae81ff>803</span> <span style=color:#f92672>(</span>longest request<span style=color:#f92672>)</span>
+</code></pre></div><p>Dla mnie bomba 😃</p><p>Pomysł na taki rodzaj cache&rsquo;owania zaczerpnąłem <a href=http://fennb.com/microcaching-speed-your-app-up-250x-with-no-n>stąd</a>.</p></div><footer class=entry-footer><div class="container sep-before"><div class=categories><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5A2 2 0 014 3H9l2 3h9a2 2 0 012 2z"/></svg><span class=screen-reader-text>Categories: </span><a class=category href=/categories/howto/>HOWTO</a></div><div class=tags><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2H12l8.59 8.59A2 2 0 0120.59 13.41z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=screen-reader-text>Tags: </span><a class=tag href=/tags/nginx/>nginx</a>, <a class=tag href=/tags/reverse-proxy/>reverse proxy</a>, <a class=tag href=/tags/wordpress/>Wordpress</a></div></div></footer></article><nav class=entry-nav><div class=container><div class="prev-entry sep-before"><a href=/2012/06/xen-podstawowe-polecenia/><span aria-hidden=true><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="20" y1="12" x2="4" y2="12"/><polyline points="10 18 4 12 10 6"/></svg>Previous</span>
+<span class=screen-reader-text>Previous post: </span>Xen - Podstawowe polecenia</a></div><div class="next-entry sep-before"><a href=/2012/08/przeszukiwanie-plikow-danego-typu-pod-katem-tekstu/><span class=screen-reader-text>Next post: </span>Przeszukiwanie plików danego typu pod kątem tekstu<span aria-hidden=true>Next<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="14 6 20 12 14 18"/></svg></span></a></div></div></nav></main><footer id=footer class=footer><div class="container sep-before"><section class="widget widget-social_menu sep-after"><nav aria-label="Social Menu"><ul><li><a href=https://github.com/tgagor target=_blank rel="noopener me"><span class=screen-reader-text>Open Github account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77a5.44 5.44.0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg></a></li><li><a href=https://linkedin.com/in/tgagor target=_blank rel="noopener me"><span class=screen-reader-text>Open Linkedin account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a></li><li><a href=https://timor.site/index.xml target=_blank rel="noopener me"><span class=screen-reader-text>Open Rss account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></li></ul></nav></section><div class=copyright><p>&copy; 2011-2020 TiMoR</p></div></div></footer></div></div><script>window.__assets_js_src="/assets/js/"</script><script src=/assets/js/main.c3bcf2df.js></script></body></html>
