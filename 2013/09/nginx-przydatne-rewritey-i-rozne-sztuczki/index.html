@@ -1,20 +1,130 @@
-<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Polubiłem Nginx&rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach 😃
+<!doctype html><html lang=en dir=auto><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Polubiłem Nginx&rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach 😃
 Słowo wstępu Niektóre rewrite&rsquo;y kończą się znakiem ? - czemu?
-Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną $request_uri to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku ?"><meta name=theme-color content="#c64858"><meta property="og:title" content="Nginx - przydatne rewrite’y i różne sztuczki • TiMoR"><meta property="og:description" content="Polubiłem Nginx&rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach 😃
+Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną $request_uri to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku ?">
+<meta name=theme-color content="#c64858">
+<meta property="og:title" content="Nginx - przydatne rewrite’y i różne sztuczki • TiMoR">
+<meta property="og:description" content="Polubiłem Nginx&rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach 😃
 Słowo wstępu Niektóre rewrite&rsquo;y kończą się znakiem ? - czemu?
-Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną $request_uri to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku ?"><meta property="og:url" content="https://timor.site/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/"><meta property="og:site_name" content="timor's site"><meta property="og:type" content="article"><meta property="og:image" content="https://www.gravatar.com/avatar/cfa9a17577371083824a78c303cc8ed7?s=256"><meta property="article:section" content="posts"><meta property="article:tag" content="Linux"><meta property="article:tag" content="nginx"><meta property="article:published_time" content="2013-09-09T00:00:00Z"><meta property="article:modified_time" content="2013-09-09T00:00:00Z"><meta name=twitter:card content="summary"><meta name=generator content="Hugo 0.76.5"><title>Nginx - przydatne rewrite’y i różne sztuczki • TiMoR</title><link rel=canonical href=https://timor.site/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/><link rel=icon href=/favicon.ico><link rel=stylesheet href=/assets/css/main.ab98e12b.css><style>:root{--color-accent:#c64858}</style><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-88996819-1','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script></head><body class="page type-posts layout-post has-sidebar"><div class=site><div id=sidebar class=sidebar><a class=screen-reader-text href=#main-menu>Skip to Main Menu</a><div class=container><section class="widget widget-about sep-after"><header><div class=logo><a href=/><img src=/favicon.ico></a></div><h2 class="title site-title"><a href=/>timor's site</a></h2><div class=desc>Linux configuration, Automation, Security - Sysadmin/DevOps blog</div></header></section><section class="widget widget-search sep-after"><header><h4 class="title widget-title">Search</h4></header><form action=/search id=search-form class=search-form><label><span class=screen-reader-text>Search</span>
-<input id=search-term class=search-term type=search name=q placeholder=Search&mldr;></label></form></section><section class="widget widget-sidebar_menu sep-after"><nav id=sidebar-menu class="menu sidebar-menu" aria-label="Sidebar Menu"><div class=container><ul><li class=item><a href=/></a></li><li class=item><a href=/>Home</a></li><li class="item has-children"><a href=/categories/howto/>HOWTO</a><button class=sub-menu-toggler>
+Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną $request_uri to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku ?">
+<meta property="og:url" content="https://timor.site/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/">
+<meta property="og:site_name" content="timor's site">
+<meta property="og:type" content="article"><meta property="og:image" content="https://www.gravatar.com/avatar/cfa9a17577371083824a78c303cc8ed7?s=256"><meta property="article:section" content="posts"><meta property="article:tag" content="Linux"><meta property="article:tag" content="nginx"><meta property="article:published_time" content="2013-09-09T00:00:00Z"><meta property="article:modified_time" content="2013-09-09T00:00:00Z"><meta name=twitter:card content="summary">
+<meta name=generator content="Hugo 0.88.1">
+<title>Nginx - przydatne rewrite’y i różne sztuczki • TiMoR</title>
+<link rel=canonical href=https://timor.site/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/>
+<link rel=icon href=/favicon.ico>
+<link rel=stylesheet href=/assets/css/main.ab98e12b.css><style>:root{--color-accent:#c64858}</style>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-88996819-1','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+</head>
+<body class="page type-posts layout-post has-sidebar">
+<div class=site><div id=sidebar class=sidebar>
+<a class=screen-reader-text href=#main-menu>Skip to Main Menu</a>
+<div class=container><section class="widget widget-about sep-after">
+<header>
+<div class=logo>
+<a href=/>
+<img src=/favicon.ico>
+</a>
+</div>
+<h2 class="title site-title">
+<a href=/>
+timor's site
+</a>
+</h2>
+<div class=desc>
+Linux configuration, Automation, Security - Sysadmin/DevOps blog
+</div>
+</header>
+</section>
+<section class="widget widget-search sep-after">
+<header>
+<h4 class="title widget-title">Search</h4>
+</header>
+<form action=/search id=search-form class=search-form>
+<label>
+<span class=screen-reader-text>Search</span>
+<input id=search-term class=search-term type=search name=q placeholder=Search&mldr;>
+</label></form>
+</section>
+<section class="widget widget-sidebar_menu sep-after"><nav id=sidebar-menu class="menu sidebar-menu" aria-label="Sidebar Menu">
+<div class=container>
+<ul><li class=item>
+<a href=/></a></li><li class=item>
+<a href=/>Home</a></li><li class="item has-children">
+<a href=/categories/howto/>HOWTO</a><button class=sub-menu-toggler>
 <span class=screen-reader-text>expand sub menu</span>
-<span class=sign></span></button><ul class=sub-menu><li class=item><a href=/categories/tip/>Tips</a></li></ul></li><li class=item><a href=/categories/off-topic/>Off-topic</a></li><li class=item><a href=/categories/gotowanie/>Gotowanie</a></li><li class=item><a href=/about/>About</a></li></ul></div></nav></section></div><div class=sidebar-overlay></div></div><div class=main><a class=screen-reader-text href=#content>Skip to Content</a>
+<span class=sign></span>
+</button>
+<ul class=sub-menu><li class=item>
+<a href=/categories/tip/>Tips</a></li></ul></li><li class=item>
+<a href=/categories/off-topic/>Off-topic</a></li><li class=item>
+<a href=/categories/gotowanie/>Gotowanie</a></li><li class=item>
+<a href=/about/>About</a></li></ul>
+</div>
+</nav>
+</section></div>
+<div class=sidebar-overlay></div>
+</div><div class=main><a class=screen-reader-text href=#content>Skip to Content</a>
 <button id=sidebar-toggler class=sidebar-toggler aria-controls=sidebar>
 <span class=screen-reader-text>Toggle Sidebar</span>
-<span class=open><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></span><span class=close><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span></button><div class=header-widgets><div class=container><style>.widget-breadcrumbs li:after{content:'\2f '}</style><section class="widget widget-breadcrumbs sep-after"><nav id=breadcrumbs><ol><li><a href=/>Home</a></li><li><a href=/posts/>Posts</a></li><li><span>Nginx - przydatne rewrite’y i różne sztuczki</span></li></ol></nav></section></div></div><header id=header class="header site-header"><div class="container sep-after"><div class=header-info><p class="site-title title">timor's site</p><p class="desc site-desc">Linux configuration, Automation, Security - Sysadmin/DevOps blog</p></div></div></header><main id=content><article lang=en class=entry><header class="header entry-header"><div class="container sep-after"><div class=header-info><h1 class=title>Nginx - przydatne rewrite’y i różne sztuczki</h1></div><div class=entry-meta><span class=posted-on><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span class=screen-reader-text>Posted on</span>
-<time class=entry-date datetime=2013-09-09T00:00:00Z>2013-09-09</time></span>
-<span class=byline><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M21 21V20c0-2.76-4-5-9-5s-9 2.24-9 5v1"/><path d="M16 6.37A4 4 0 1112.63 3 4 4 0 0116 6.37z"/></svg><span class=screen-reader-text>by </span><a href=/authors/timor>TiMoR</a></span>
-<span class=reading-time><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 15 15"/></svg>6 mins read</span></div></div></header><div class="container entry-content"><p>Polubiłem Nginx&rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach 😃</p><h2 id=słowo-wstępu>Słowo wstępu</h2><p>Niektóre rewrite&rsquo;y kończą się znakiem <code>?</code> - czemu?</p><p>Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną <code>$request_uri</code> to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku <code>?</code>) i właśnie dodanie pytajnika tuż za tą zmienną powoduje że argumenty nie są dublowane.</p><p>Ma to też zastosowanie gdy chcemy by <code>rewrite</code> kierował np. na główną stronę beż żadnych dodatkowych argumentów (zostaną one obcięte).<br><a href=http://wiki.nginx.org/HttpRewriteModule#rewrite>Więcej na ten temat można znaleźć w dokumentacji Nginx</a>.</p><p>Inna warta wspomnienia uwaga dotyczy drobnej optymalizacji, o której warto pamiętać na etapie tworzenia rewrite&rsquo;ów (można znaleźć masę kiepskich przykładów w sieci): na początku najlepiej jest stworzyć coś co działa (i przy małym ruchu może to być wystarczające) a później optymalizować - moje przykłady starałem się zoptymalizować według zalecanych praktyk.<br>Dlatego zamiast pisać:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>rewrite</span> <span style=color:#e6db74>^(.*)</span>$ $scheme://www.domain.com$1 <span style=color:#e6db74>permanent</span>;
-</code></pre></div><p>lepiej napisać:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>rewrite</span> <span style=color:#e6db74>^</span> $scheme://www.domain.com$request_uri? <span style=color:#e6db74>permanent</span>;
-</code></pre></div><p>(nie wykorzystujemy przechowywania wartości dopasowania - mniejsze zużycie pamięci i lżejsza interpretacja REGEXP&rsquo;a).<br>A jeszcze lepiej napisać:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>return</span> <span style=color:#ae81ff>301</span> $scheme://www.domain.com$request_uri;
-</code></pre></div><p>(w ogóle nie wykorzystujemy REGEXP&rsquo;ów praktycznie zerowy narzut na przetwarzanie) - dzięki za uwagę: lukasamd.</p><h2 id=przekierowanie-starej-domeny-na-nową>Przekierowanie starej domeny na nową</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>server</span> {
+<span class=open><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</span>
+<span class=close><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+</span>
+</button><div class=header-widgets>
+<div class=container>
+<style>.widget-breadcrumbs li:after{content:'\2f '}</style>
+<section class="widget widget-breadcrumbs sep-after">
+<nav id=breadcrumbs>
+<ol><li><a href=/>Home</a></li><li><a href=/posts/>Posts</a></li><li><span>Nginx - przydatne rewrite’y i różne sztuczki</span></li></ol>
+</nav>
+</section></div>
+</div>
+<header id=header class="header site-header">
+<div class="container sep-after">
+<div class=header-info><p class="site-title title">timor's site</p><p class="desc site-desc">Linux configuration, Automation, Security - Sysadmin/DevOps blog</p>
+</div>
+</div>
+</header>
+<main id=content>
+<article lang=en class=entry>
+<header class="header entry-header">
+<div class="container sep-after">
+<div class=header-info>
+<h1 class=title>Nginx - przydatne rewrite’y i różne sztuczki</h1>
+</div>
+<div class=entry-meta>
+<span class=posted-on><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+<span class=screen-reader-text>Posted on </span>
+<time class=entry-date datetime=2013-09-09T00:00:00Z>2013-09-09</time>
+</span>
+<span class=byline><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M21 21V20c0-2.76-4-5-9-5s-9 2.24-9 5v1"/><path d="M16 6.37A4 4 0 1112.63 3 4 4 0 0116 6.37z"/></svg>
+<span class=screen-reader-text> by </span><a href=/authors/timor>TiMoR</a></span>
+<span class=reading-time><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 15 15"/></svg>
+6 mins read
+</span>
+</div>
+</div>
+</header>
+<div class="container entry-content">
+<p>Polubiłem Nginx&rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach 😃</p>
+<h2 id=słowo-wstępu>Słowo wstępu</h2>
+<p>Niektóre rewrite&rsquo;y kończą się znakiem <code>?</code> - czemu?</p>
+<p>Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną <code>$request_uri</code> to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku <code>?</code>) i właśnie dodanie pytajnika tuż za tą zmienną powoduje że argumenty nie są dublowane.</p>
+<p>Ma to też zastosowanie gdy chcemy by <code>rewrite</code> kierował np. na główną stronę beż żadnych dodatkowych argumentów (zostaną one obcięte).<br> <a href=http://wiki.nginx.org/HttpRewriteModule#rewrite>Więcej na ten temat można znaleźć w dokumentacji Nginx</a>.</p>
+<p>Inna warta wspomnienia uwaga dotyczy drobnej optymalizacji, o której warto pamiętać na etapie tworzenia rewrite&rsquo;ów (można znaleźć masę kiepskich przykładów w sieci): na początku najlepiej jest stworzyć coś co działa (i przy małym ruchu może to być wystarczające) a później optymalizować - moje przykłady starałem się zoptymalizować według zalecanych praktyk.<br> Dlatego zamiast pisać:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>rewrite</span> <span style=color:#e6db74>^(.*)</span>$ $scheme://www.domain.com$1 <span style=color:#e6db74>permanent</span>;
+</code></pre></div><p>lepiej napisać:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>rewrite</span> <span style=color:#e6db74>^</span> $scheme://www.domain.com$request_uri? <span style=color:#e6db74>permanent</span>;
+</code></pre></div><p>(nie wykorzystujemy przechowywania wartości dopasowania - mniejsze zużycie pamięci i lżejsza interpretacja REGEXP&rsquo;a).<br> A jeszcze lepiej napisać:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>return</span> <span style=color:#ae81ff>301</span> $scheme://www.domain.com$request_uri;
+</code></pre></div><p>(w ogóle nie wykorzystujemy REGEXP&rsquo;ów praktycznie zerowy narzut na przetwarzanie) - dzięki za uwagę: lukasamd.</p>
+<h2 id=przekierowanie-starej-domeny-na-nową>Przekierowanie starej domeny na nową</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>server</span> {
     <span style=color:#f92672>listen</span> <span style=color:#ae81ff>80</span>;
     <span style=color:#f92672>server_name</span> <span style=color:#e6db74>old-domain.com</span> <span style=color:#e6db74>www.old-domain.com</span>;
     <span style=color:#f92672>return</span> <span style=color:#ae81ff>301</span> $scheme://www.new-domain.com$request_uri;
@@ -22,7 +132,11 @@ Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego ad
 </span><span style=color:#75715e></span>    <span style=color:#75715e># or
 </span><span style=color:#75715e></span>    <span style=color:#75715e># rewrite ^ $scheme://www.new-domain.com? permanent;
 </span><span style=color:#75715e></span>}
-</code></pre></div><p>Wykorzystanie return w tej sytuacji jest nieco bardziej optymalne gdyż nie angażuje w ogóle silnika REGEXP a w tej sytuacji jest wystarczające.<br>Pierwsza linia z rewrite i $request_uri spowoduje przepisywanie też parametrów wywołań do nowej lokalizacji co jest jak najbardziej sensowne gdy pomimo domeny nie zmieniła się zbytnio struktura strony.</p><p>Jeśli strona jednak się zmieniła to możemy zdecydować o przekierowaniu bez parametrów - po prostu na główną stronę - i to robi druga linia.</p><p>W obu przypadkach parametr <code>permanent</code> nakazuje użycie kodu przekierowania HTTP 301 (Moved Permanently), co ułatwi zorientowanie się crawlerom że ta zmiana jest już na stałe.</p><h2 id=dodanie-www-na-początku-domeny>Dodanie WWW na początku domeny</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>server</span> {
+</code></pre></div><p>Wykorzystanie return w tej sytuacji jest nieco bardziej optymalne gdyż nie angażuje w ogóle silnika REGEXP a w tej sytuacji jest wystarczające.<br> Pierwsza linia z rewrite i $request_uri spowoduje przepisywanie też parametrów wywołań do nowej lokalizacji co jest jak najbardziej sensowne gdy pomimo domeny nie zmieniła się zbytnio struktura strony.</p>
+<p>Jeśli strona jednak się zmieniła to możemy zdecydować o przekierowaniu bez parametrów - po prostu na główną stronę - i to robi druga linia.</p>
+<p>W obu przypadkach parametr <code>permanent</code> nakazuje użycie kodu przekierowania HTTP 301 (Moved Permanently), co ułatwi zorientowanie się crawlerom że ta zmiana jest już na stałe.</p>
+<h2 id=dodanie-www-na-początku-domeny>Dodanie WWW na początku domeny</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>server</span> {
     <span style=color:#f92672>listen</span> <span style=color:#ae81ff>80</span>;
     <span style=color:#f92672>server_name</span> <span style=color:#e6db74>domaim.com</span>;
     <span style=color:#f92672>return</span> <span style=color:#ae81ff>301</span> $scheme://www.domain.com$request_uri;
@@ -30,20 +144,25 @@ Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego ad
 </span><span style=color:#75715e></span>    <span style=color:#75715e># or
 </span><span style=color:#75715e></span>    <span style=color:#75715e>#rewrite ^(.*)$ $scheme://www.domain.com$1 permanent;
 </span><span style=color:#75715e></span>}
-</code></pre></div><p>Przykład zakomentowany jest według dokumentacji mniej optymalny ale również zadziała. Reszta jest prosta i samoopisująca się 😃</p><p>A to jeszcze bardziej ogólna wersja dla wielu domen:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>server</span> {
+</code></pre></div><p>Przykład zakomentowany jest według dokumentacji mniej optymalny ale również zadziała. Reszta jest prosta i samoopisująca się 😃</p>
+<p>A to jeszcze bardziej ogólna wersja dla wielu domen:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>server</span> {
     <span style=color:#f92672>listen</span> 195.117.254.80:<span style=color:#ae81ff>80</span>;
     <span style=color:#f92672>server_name</span> <span style=color:#e6db74>domain.pl</span> <span style=color:#e6db74>domain.eu</span> <span style=color:#e6db74>domain.com</span>;
 
     <span style=color:#f92672>return</span> <span style=color:#ae81ff>301</span> $scheme://www.$http_host$request_uri;
     <span style=color:#75715e>#rewrite ^ $scheme://www.$http_host$request_uri? permanent;
 </span><span style=color:#75715e></span>}
-</code></pre></div><p>Ta wersja wykorzystuje zmienną <code>$http_host</code> do przekierowania na domenę z zapytania (zmienna ta zawiera też numer portu jeśli jest niestandardowy np. 8080, w przeciwieństwie do zmiennej <code>$host</code>, która zawiera tylko domenę).</p><h2 id=usunięcie-www-z-początku-domeny>Usunięcie WWW z początku domeny</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>server</span> {
+</code></pre></div><p>Ta wersja wykorzystuje zmienną <code>$http_host</code> do przekierowania na domenę z zapytania (zmienna ta zawiera też numer portu jeśli jest niestandardowy np. 8080, w przeciwieństwie do zmiennej <code>$host</code>, która zawiera tylko domenę).</p>
+<h2 id=usunięcie-www-z-początku-domeny>Usunięcie WWW z początku domeny</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>server</span> {
     <span style=color:#f92672>listen</span> <span style=color:#ae81ff>80</span>;
     <span style=color:#f92672>server_name</span> <span style=color:#e6db74>www.domain.com</span>;
     <span style=color:#f92672>return</span> <span style=color:#ae81ff>301</span> $scheme://domain.com$request_uri;
     <span style=color:#75715e>#rewrite ^ $scheme://domain.com$request_uri? permanent;
 </span><span style=color:#75715e></span>}
-</code></pre></div><p>Czasami może się przydać jeszcze inny kawałek, gdy strona działa na wielu domenach i chcemy przekierować wszystkie:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>server</span> {
+</code></pre></div><p>Czasami może się przydać jeszcze inny kawałek, gdy strona działa na wielu domenach i chcemy przekierować wszystkie:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>server</span> {
     <span style=color:#f92672>server_name</span> <span style=color:#e6db74>www.domain.com</span> <span style=color:#e6db74>_</span> ;
     <span style=color:#75715e># server_name www.domain1.com www.domain2.com www.domain3.eu www.domain.etc.com;
 </span><span style=color:#75715e></span>
@@ -54,13 +173,18 @@ Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego ad
 </span><span style=color:#75715e></span>        <span style=color:#75715e>#rewrite ^(.*)$ $scheme://$pure_host$1 permanent;
 </span><span style=color:#75715e></span>    }
 }
-</code></pre></div><p>Choć to podejście nie jest zalecane (pomimo zwięzłości). Lepiej zdefiniować dwa bloki server z domenami www.* i domenami bez www na początku. Ale z drugiej strony to cholernie wygodne&mldr; 😃</p><h2 id=przekierowanie-pozostałych-zapytań-na-domyślną-domenę>Przekierowanie &ldquo;pozostałych&rdquo; zapytań na domyślną domenę</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>server</span> {
+</code></pre></div><p>Choć to podejście nie jest zalecane (pomimo zwięzłości). Lepiej zdefiniować dwa bloki server z domenami www.* i domenami bez www na początku. Ale z drugiej strony to cholernie wygodne&mldr; 😃</p>
+<h2 id=przekierowanie-pozostałych-zapytań-na-domyślną-domenę>Przekierowanie &ldquo;pozostałych&rdquo; zapytań na domyślną domenę</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>server</span> {
     <span style=color:#f92672>listen</span> <span style=color:#ae81ff>80</span> <span style=color:#e6db74>default</span>;
     <span style=color:#f92672>server_name</span> <span style=color:#e6db74>_</span>;
     <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>^</span> $scheme://www.domena.com;
     <span style=color:#75715e>#rewrite ^ $scheme://www.domena.com/search/$host;
 </span><span style=color:#75715e></span>}
-</code></pre></div><p>To bardzo przydatny przykład - czyli domyślny vhost, który &ldquo;przyjmie&rdquo; wszystkie zapytania do domen nie zdefiniowanych w konfiguracji i przekieruje na naszą &ldquo;główną stronę&rdquo;.</p><p>Zakomentowany przykład jest nieco bardziej przekombinowany bo próbuje wykorzystać wyszukiwarkę na naszej stronie do wyszukania &ldquo;czegoś&rdquo; pomocnego - z tym przykładem należy uważać bo jeśli do serwera trafi dużo błędnych zapytań to może zostać przeciążony &ldquo;bzdetnymi&rdquo; wyszukiwaniami.</p><h2 id=przekierowanie-pewnych-podstron-po-zmianie-struktury-strony>Przekierowanie pewnych podstron po zmianie struktury strony</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>server</span> {
+</code></pre></div><p>To bardzo przydatny przykład - czyli domyślny vhost, który &ldquo;przyjmie&rdquo; wszystkie zapytania do domen nie zdefiniowanych w konfiguracji i przekieruje na naszą &ldquo;główną stronę&rdquo;.</p>
+<p>Zakomentowany przykład jest nieco bardziej przekombinowany bo próbuje wykorzystać wyszukiwarkę na naszej stronie do wyszukania &ldquo;czegoś&rdquo; pomocnego - z tym przykładem należy uważać bo jeśli do serwera trafi dużo błędnych zapytań to może zostać przeciążony &ldquo;bzdetnymi&rdquo; wyszukiwaniami.</p>
+<h2 id=przekierowanie-pewnych-podstron-po-zmianie-struktury-strony>Przekierowanie pewnych podstron po zmianie struktury strony</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>server</span> {
     <span style=color:#f92672>listen</span> <span style=color:#ae81ff>80</span>;
     <span style=color:#f92672>server_name</span> <span style=color:#e6db74>www.domain.com</span>;
 
@@ -76,13 +200,21 @@ Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego ad
         <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>^</span> <span style=color:#e6db74>/index.php</span> <span style=color:#e6db74>last</span>;
     }
 }
-</code></pre></div><p>Im starsza strona tym więcej zbiera się linków, których po prostu nie można usunąć, a które z racji wprowadzonych zmian nie mają prawa bytu w nowym układzie. Warto je przekierować w nowe miejsca, lub najbardziej odpowiadające/bliskie tym starym. Problemem może się wkrótce stać duża lista przekierowań, która zaciemni konfigurację.<br>Powyższy sposób w dość optymalny sposób porządkuje takie przekierowania - najpierw sprawdza czy przypadkiem nie próbujemy pobrać istniejących plików, jeśli nie to wrzuca nas nas na listę przekierowań, a jeśli i tu nic nie znajdzie to zapytanie przekazywane jest do głównego skryptu strony.</p><h2 id=przekierowanie-w-zależności-od-wartości-parametru-w-uri>Przekierowanie w zależności od wartości parametru w URI</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>if</span> <span style=color:#e6db74>(</span>$args ~ <span style=color:#e6db74>producent=toyota)</span>{
+</code></pre></div><p>Im starsza strona tym więcej zbiera się linków, których po prostu nie można usunąć, a które z racji wprowadzonych zmian nie mają prawa bytu w nowym układzie. Warto je przekierować w nowe miejsca, lub najbardziej odpowiadające/bliskie tym starym. Problemem może się wkrótce stać duża lista przekierowań, która zaciemni konfigurację.<br> Powyższy sposób w dość optymalny sposób porządkuje takie przekierowania - najpierw sprawdza czy przypadkiem nie próbujemy pobrać istniejących plików, jeśli nie to wrzuca nas nas na listę przekierowań, a jeśli i tu nic nie znajdzie to zapytanie przekazywane jest do głównego skryptu strony.</p>
+<h2 id=przekierowanie-w-zależności-od-wartości-parametru-w-uri>Przekierowanie w zależności od wartości parametru w URI</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>if</span> <span style=color:#e6db74>(</span>$args ~ <span style=color:#e6db74>producent=toyota)</span>{
     <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>^</span> $scheme://toyota.domena.com$request_uri? <span style=color:#e6db74>permanent</span>;
 }
-</code></pre></div><p>To rzadko stosowane przekierowanie a w dodatku mało czytelnie i ponoć mało wydajne&mldr; Ale potrafi być bardzo przydatne gdy chcemy przepisać adres w zależności od wartości parametru np. gdy pewna podstrona doczeka się rozbudowy w zupełnie nowym serwisie lub gdy chcemy ładnie przekierować adresy ze starej strony na nową.</p><h2 id=blokowanie-dostępu-do-ukrytych-plików>Blokowanie dostępu do ukrytych plików</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>location</span> ~ <span style=color:#e6db74>/\.</span> { <span style=color:#f92672>access_log</span> <span style=color:#66d9ef>off</span>; <span style=color:#f92672>log_not_found</span> <span style=color:#66d9ef>off</span>; <span style=color:#f92672>deny</span> <span style=color:#e6db74>all</span>; }
-</code></pre></div><p>Przyznaję - to nie rewrite&mldr; Ale ta linijka jest równie przydatna - pozwala zablokować możliwość pobierania ukrytych plików (np. .htaccess&rsquo;ów po konfiguracji z Apachego).</p><h2 id=wyłączenie-logowania-dla-robotstxt-i-faviconico>Wyłączenie logowania dla robots.txt i favicon.ico</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>location</span> = <span style=color:#e6db74>/favicon.ico</span> { <span style=color:#f92672>try_files</span> <span style=color:#e6db74>/favicon.ico</span> =<span style=color:#ae81ff>204</span>; <span style=color:#f92672>access_log</span> <span style=color:#66d9ef>off</span>; <span style=color:#f92672>log_not_found</span> <span style=color:#66d9ef>off</span>; }
+</code></pre></div><p>To rzadko stosowane przekierowanie a w dodatku mało czytelnie i ponoć mało wydajne&mldr; Ale potrafi być bardzo przydatne gdy chcemy przepisać adres w zależności od wartości parametru np. gdy pewna podstrona doczeka się rozbudowy w zupełnie nowym serwisie lub gdy chcemy ładnie przekierować adresy ze starej strony na nową.</p>
+<h2 id=blokowanie-dostępu-do-ukrytych-plików>Blokowanie dostępu do ukrytych plików</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>location</span> ~ <span style=color:#e6db74>/\.</span> { <span style=color:#f92672>access_log</span> <span style=color:#66d9ef>off</span>; <span style=color:#f92672>log_not_found</span> <span style=color:#66d9ef>off</span>; <span style=color:#f92672>deny</span> <span style=color:#e6db74>all</span>; }
+</code></pre></div><p>Przyznaję - to nie rewrite&mldr; Ale ta linijka jest równie przydatna - pozwala zablokować możliwość pobierania ukrytych plików (np. .htaccess&rsquo;ów po konfiguracji z Apachego).</p>
+<h2 id=wyłączenie-logowania-dla-robotstxt-i-faviconico>Wyłączenie logowania dla robots.txt i favicon.ico</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>location</span> = <span style=color:#e6db74>/favicon.ico</span> { <span style=color:#f92672>try_files</span> <span style=color:#e6db74>/favicon.ico</span> =<span style=color:#ae81ff>204</span>; <span style=color:#f92672>access_log</span> <span style=color:#66d9ef>off</span>; <span style=color:#f92672>log_not_found</span> <span style=color:#66d9ef>off</span>; }
 <span style=color:#66d9ef>location</span> = <span style=color:#e6db74>/robots.txt</span>  { <span style=color:#f92672>try_files</span> <span style=color:#e6db74>/robots.txt</span> =<span style=color:#ae81ff>204</span>; <span style=color:#f92672>access_log</span> <span style=color:#66d9ef>off</span>; <span style=color:#f92672>log_not_found</span> <span style=color:#66d9ef>off</span>; }
-</code></pre></div><p>To też nie rewrite - ale bardzo fajnie obsługuje sytuację gdy mamy i gdy nie mamy powyższych dwóch pliczków. Po pierwsze wyłącza logowanie i serwuje je gdy są dostępne. Gdy nie istnieją to serwuje puste pliki (kod 204) dzięki czemu nie przeszkadzają nam 404-ki 😃</p><h2 id=blokowanie-dostępu-do-obrazków-dla-nieznanych-referererów>Blokowanie dostępu do obrazków dla nieznanych referererów</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>location</span> ~<span style=color:#e6db74>*</span> <span style=color:#e6db74>^.+\.(?:jpg|png|css|gif|jpeg|js|swf)</span>$ {
+</code></pre></div><p>To też nie rewrite - ale bardzo fajnie obsługuje sytuację gdy mamy i gdy nie mamy powyższych dwóch pliczków. Po pierwsze wyłącza logowanie i serwuje je gdy są dostępne. Gdy nie istnieją to serwuje puste pliki (kod 204) dzięki czemu nie przeszkadzają nam 404-ki 😃</p>
+<h2 id=blokowanie-dostępu-do-obrazków-dla-nieznanych-referererów>Blokowanie dostępu do obrazków dla nieznanych referererów</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>location</span> ~<span style=color:#e6db74>*</span> <span style=color:#e6db74>^.+\.(?:jpg|png|css|gif|jpeg|js|swf)</span>$ {
     <span style=color:#75715e># definiujemy poprawnych refererow
 </span><span style=color:#75715e></span>    <span style=color:#f92672>valid_referers</span> <span style=color:#e6db74>none</span> <span style=color:#e6db74>blocked</span> <span style=color:#e6db74>*.domain.com</span> <span style=color:#e6db74>domain.com</span>;
     <span style=color:#f92672>if</span> <span style=color:#e6db74>(</span>$invalid_referer<span style=color:#e6db74>)</span>  {
@@ -92,9 +224,78 @@ Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego ad
     <span style=color:#f92672>break</span>;
 }
 
-</code></pre></div><p>Zabezpieczenie warte tyle co nic bo banalne do ominięcia - ale jeśli zdarzy się że ktoś postanowi wykorzystać grafikę z naszej stronki np. w aukcji na allegro czy własnym sklepie to tą prostą sztuczką możemy go przyciąć i przeważnie jest to wystarczające.<br>Muszę też zaznaczyć szczególne znaczenie wartości kodu błędu 444 w Nginx&rsquo;ie - powoduje on zerwanie połączenia bez wysyłania jakiejkolwiek odpowiedzi. Jeśli nie chcemy być tak okrutni to możemy użyć innego kodu, np.: <a href=http://pl.wikipedia.org/wiki/Kod_odpowiedzi_HTTP>403 albo 402</a> 😃</p><h2 id=przekierowanie-ciekawskich-w-ciemną-dupę>Przekierowanie ciekawskich w &ldquo;ciemną dupę&rdquo;</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>location</span> ~<span style=color:#e6db74>*</span> <span style=color:#e6db74>^/(wp-)?admin(istrator)?/?</span>  {
+</code></pre></div><p>Zabezpieczenie warte tyle co nic bo banalne do ominięcia - ale jeśli zdarzy się że ktoś postanowi wykorzystać grafikę z naszej stronki np. w aukcji na allegro czy własnym sklepie to tą prostą sztuczką możemy go przyciąć i przeważnie jest to wystarczające.<br> Muszę też zaznaczyć szczególne znaczenie wartości kodu błędu 444 w Nginx&rsquo;ie - powoduje on zerwanie połączenia bez wysyłania jakiejkolwiek odpowiedzi. Jeśli nie chcemy być tak okrutni to możemy użyć innego kodu, np.: <a href=http://pl.wikipedia.org/wiki/Kod_odpowiedzi_HTTP>403 albo 402</a> 😃</p>
+<h2 id=przekierowanie-ciekawskich-w-ciemną-dupę>Przekierowanie ciekawskich w &ldquo;ciemną dupę&rdquo;</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=color:#66d9ef>location</span> ~<span style=color:#e6db74>*</span> <span style=color:#e6db74>^/(wp-)?admin(istrator)?/?</span>  {
     <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>^</span> <span style=color:#e6db74>http://whatismyipaddress.com/ip/</span>$remote_addr <span style=color:#e6db74>redirect</span>;
 }
-</code></pre></div><p>Ten prosty redirect odwodzi wielu amatorów zbyt głębokiego penetrowania naszej strony&mldr; A pozostałych na pewno rozbawi 😃</p><p>Inne przykłady konfiguracji na mojej stronie:</p><ul><li><a href=/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/>Nginx - hide server version and name in Server header and error pages</a></li><li><a href=/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/>Nginx - kompresowanie plików dla gzip_static</a></li><li><a href=/2012/06/nginx-konfiguracja-pod-wordpressa/>Nginx - konfiguracja pod WordPress’a</a></li><li><a href=/2012/06/nginx-ustawienie-domyslnego-vhosta/>Nginx - ustawienie domyślnego vhosta</a></li><li><a href=/2012/06/nginx-moj-domyslny-config/>Nginx - mój domyślny config</a></li></ul><h5 id=źródła>Źródła</h5><p><a href=http://www.engineyard.com/blog/2011/useful-rewrites-for-nginx/>http://www.engineyard.com/blog/2011/useful-rewrites-for-nginx/</a><br><a href=http://wiki.nginx.org/HttpRewriteModule>http://wiki.nginx.org/HttpRewriteModule</a></p></div><footer class=entry-footer><div class="container sep-before"><div class=categories><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5A2 2 0 014 3H9l2 3h9a2 2 0 012 2z"/></svg><span class=screen-reader-text>Categories: </span><a class=category href=/categories/howto/>HOWTO</a></div><div class=tags><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2H12l8.59 8.59A2 2 0 0120.59 13.41z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=screen-reader-text>Tags: </span><a class=tag href=/tags/linux/>Linux</a>, <a class=tag href=/tags/nginx/>nginx</a></div></div></footer></article><nav class=entry-nav><div class=container><div class="prev-entry sep-before"><a href=/2013/09/tor-generowanie-milszej-nazwy-dla-hidden-service/><span aria-hidden=true><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="20" y1="12" x2="4" y2="12"/><polyline points="10 18 4 12 10 6"/></svg>Previous</span>
-<span class=screen-reader-text>Previous post: </span>tor: generowanie milszej nazwy dla hidden service</a></div><div class="next-entry sep-before"><a href=/2013/09/raspberry-pi-pierwsze-kroki/><span class=screen-reader-text>Next post: </span>Raspberry Pi: pierwsze kroki<span aria-hidden=true>Next<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="14 6 20 12 14 18"/></svg></span></a></div></div></nav><section id=comments class=comments><div class="container sep-before"><div class=comments-area><div id=disqus_thread></div><script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return;}
-var d=document,s=d.createElement('script');s.async=true;s.src='//'+"gagor-pl"+'.disqus.com/embed.js';s.setAttribute('data-timestamp',+new Date());(d.head||d.body).appendChild(s);})();</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div></div></section></main><footer id=footer class=footer><div class="container sep-before"><section class="widget widget-social_menu sep-after"><nav aria-label="Social Menu"><ul><li><a href=https://github.com/tgagor target=_blank rel="noopener me"><span class=screen-reader-text>Open Github account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77a5.44 5.44.0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg></a></li><li><a href=https://linkedin.com/in/tgagor target=_blank rel="noopener me"><span class=screen-reader-text>Open Linkedin account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a></li><li><a href=https://timor.site/index.xml target=_blank rel="noopener me"><span class=screen-reader-text>Open Rss account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></li></ul></nav></section><div class=copyright><p>&copy; 2011-2021 TiMoR Licensed under <a rel=license href="https://creativecommons.org/licenses/by-sa/4.0?ref=chooser-v1" target=_blank rel="license noopener noreferrer" style=display:inline-block>CC BY-SA 4.0<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p></div></div></footer></div></div><script>window.__assets_js_src="/assets/js/"</script><script src=/assets/js/main.c3bcf2df.js></script></body></html>
+</code></pre></div><p>Ten prosty redirect odwodzi wielu amatorów zbyt głębokiego penetrowania naszej strony&mldr; A pozostałych na pewno rozbawi 😃</p>
+<p>Inne przykłady konfiguracji na mojej stronie:</p>
+<ul>
+<li><a href=/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/>Nginx - hide server version and name in Server header and error pages</a></li>
+<li><a href=/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/>Nginx - kompresowanie plików dla gzip_static</a></li>
+<li><a href=/2012/06/nginx-konfiguracja-pod-wordpressa/>Nginx - konfiguracja pod WordPress’a</a></li>
+<li><a href=/2012/06/nginx-ustawienie-domyslnego-vhosta/>Nginx - ustawienie domyślnego vhosta</a></li>
+<li><a href=/2012/06/nginx-moj-domyslny-config/>Nginx - mój domyślny config</a></li>
+</ul>
+<h5 id=źródła>Źródła</h5>
+<p><a href=http://www.engineyard.com/blog/2011/useful-rewrites-for-nginx/>http://www.engineyard.com/blog/2011/useful-rewrites-for-nginx/</a><br>
+<a href=http://wiki.nginx.org/HttpRewriteModule>http://wiki.nginx.org/HttpRewriteModule</a></p>
+</div>
+<footer class=entry-footer>
+<div class="container sep-before"><div class=categories><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5A2 2 0 014 3H9l2 3h9a2 2 0 012 2z"/></svg>
+<span class=screen-reader-text>Categories: </span><a class=category href=/categories/howto/>HOWTO</a></div>
+<div class=tags><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2H12l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg>
+<span class=screen-reader-text>Tags: </span><a class=tag href=/tags/linux/>Linux</a>, <a class=tag href=/tags/nginx/>nginx</a></div>
+</div>
+</footer>
+</article>
+<nav class=entry-nav>
+<div class=container><div class="prev-entry sep-before">
+<a href=/2013/09/tor-generowanie-milszej-nazwy-dla-hidden-service/>
+<span aria-hidden=true><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="20" y1="12" x2="4" y2="12"/><polyline points="10 18 4 12 10 6"/></svg>
+Previous</span>
+<span class=screen-reader-text>Previous post: </span>tor: generowanie milszej nazwy dla hidden service</a>
+</div><div class="next-entry sep-before">
+<a href=/2013/09/raspberry-pi-pierwsze-kroki/>
+<span class=screen-reader-text>Next post: </span>Raspberry Pi: pierwsze kroki<span aria-hidden=true>Next<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="14 6 20 12 14 18"/></svg>
+</span>
+</a>
+</div></div>
+</nav>
+<section id=comments class=comments>
+<div class="container sep-before">
+<div class=comments-area><div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//gagor-pl.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</div>
+</div>
+</section>
+</main>
+<footer id=footer class=footer>
+<div class="container sep-before"><section class="widget widget-social_menu sep-after"><nav aria-label="Social Menu">
+<ul><li>
+<a href=https://github.com/tgagor target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Github account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg>
+</a>
+</li><li>
+<a href=https://linkedin.com/in/tgagor target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Linkedin account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+</a>
+</li><li>
+<a href=https://timor.site/index.xml target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Rss account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg>
+</a>
+</li></ul>
+</nav>
+</section><div class=copyright>
+<p> &copy; 2011-2021 TiMoR Licensed under <a rel=license href="https://creativecommons.org/licenses/by-sa/4.0?ref=chooser-v1" target=_blank rel="license noopener noreferrer" style=display:inline-block>CC BY-SA 4.0<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+</div>
+</div>
+</footer>
+</div>
+</div><script>window.__assets_js_src="/assets/js/"</script>
+<script src=/assets/js/main.c3bcf2df.js></script>
+</body>
+</html>

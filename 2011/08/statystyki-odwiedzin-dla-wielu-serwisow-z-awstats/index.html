@@ -1,25 +1,146 @@
-<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Co prawda na swojej stronie zrobiłem kilka podstawowych statystyk i coś tam sobie loguję do bazy danych, ale gdyby się chwilę zastanowić to przecież to samo robi serwer www - wrzuca do logów każde zapytanie HTTP, kod błędu, nazwę agenta, itd. Dublowanie tych danych nie jest najbardziej optymalne.
-Stąd też chwilę pogooglałem i znalazłem świetny Open Source&rsquo;owy projekt: AWStats, który jest webowym analizatorem logów dla serwerów HTTP, FTP i SMTP."><meta name=theme-color content="#c64858"><meta property="og:title" content="Statystyki odwiedzin dla wielu serwisów z AWStats • TiMoR"><meta property="og:description" content="Co prawda na swojej stronie zrobiłem kilka podstawowych statystyk i coś tam sobie loguję do bazy danych, ale gdyby się chwilę zastanowić to przecież to samo robi serwer www - wrzuca do logów każde zapytanie HTTP, kod błędu, nazwę agenta, itd. Dublowanie tych danych nie jest najbardziej optymalne.
-Stąd też chwilę pogooglałem i znalazłem świetny Open Source&rsquo;owy projekt: AWStats, który jest webowym analizatorem logów dla serwerów HTTP, FTP i SMTP."><meta property="og:url" content="https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/"><meta property="og:site_name" content="timor's site"><meta property="og:type" content="article"><meta property="og:image" content="https://www.gravatar.com/avatar/cfa9a17577371083824a78c303cc8ed7?s=256"><meta property="article:section" content="posts"><meta property="article:tag" content="Apache"><meta property="article:tag" content="AWStats"><meta property="article:tag" content="CGI"><meta property="article:tag" content="Debian"><meta property="article:tag" content="Linux"><meta property="article:published_time" content="2011-08-29T00:00:00Z"><meta property="article:modified_time" content="2011-08-29T00:00:00Z"><meta name=twitter:card content="summary"><meta name=generator content="Hugo 0.76.5"><title>Statystyki odwiedzin dla wielu serwisów z AWStats • TiMoR</title><link rel=canonical href=https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/><link rel=icon href=/favicon.ico><link rel=stylesheet href=/assets/css/main.ab98e12b.css><style>:root{--color-accent:#c64858}</style><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-88996819-1','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script></head><body class="page type-posts layout-post has-sidebar"><div class=site><div id=sidebar class=sidebar><a class=screen-reader-text href=#main-menu>Skip to Main Menu</a><div class=container><section class="widget widget-about sep-after"><header><div class=logo><a href=/><img src=/favicon.ico></a></div><h2 class="title site-title"><a href=/>timor's site</a></h2><div class=desc>Linux configuration, Automation, Security - Sysadmin/DevOps blog</div></header></section><section class="widget widget-search sep-after"><header><h4 class="title widget-title">Search</h4></header><form action=/search id=search-form class=search-form><label><span class=screen-reader-text>Search</span>
-<input id=search-term class=search-term type=search name=q placeholder=Search&mldr;></label></form></section><section class="widget widget-sidebar_menu sep-after"><nav id=sidebar-menu class="menu sidebar-menu" aria-label="Sidebar Menu"><div class=container><ul><li class=item><a href=/></a></li><li class=item><a href=/>Home</a></li><li class="item has-children"><a href=/categories/howto/>HOWTO</a><button class=sub-menu-toggler>
+<!doctype html><html lang=en dir=auto><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Co prawda na swojej stronie zrobiłem kilka podstawowych statystyk i coś tam sobie loguję do bazy danych, ale gdyby się chwilę zastanowić to przecież to samo robi serwer www - wrzuca do logów każde zapytanie HTTP, kod błędu, nazwę agenta, itd. Dublowanie tych danych nie jest najbardziej optymalne.
+Stąd też chwilę pogooglałem i znalazłem świetny Open Source&rsquo;owy projekt: AWStats, który jest webowym analizatorem logów dla serwerów HTTP, FTP i SMTP.">
+<meta name=theme-color content="#c64858">
+<meta property="og:title" content="Statystyki odwiedzin dla wielu serwisów z AWStats • TiMoR">
+<meta property="og:description" content="Co prawda na swojej stronie zrobiłem kilka podstawowych statystyk i coś tam sobie loguję do bazy danych, ale gdyby się chwilę zastanowić to przecież to samo robi serwer www - wrzuca do logów każde zapytanie HTTP, kod błędu, nazwę agenta, itd. Dublowanie tych danych nie jest najbardziej optymalne.
+Stąd też chwilę pogooglałem i znalazłem świetny Open Source&rsquo;owy projekt: AWStats, który jest webowym analizatorem logów dla serwerów HTTP, FTP i SMTP.">
+<meta property="og:url" content="https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/">
+<meta property="og:site_name" content="timor's site">
+<meta property="og:type" content="article"><meta property="og:image" content="https://www.gravatar.com/avatar/cfa9a17577371083824a78c303cc8ed7?s=256"><meta property="article:section" content="posts"><meta property="article:tag" content="Apache"><meta property="article:tag" content="AWStats"><meta property="article:tag" content="CGI"><meta property="article:tag" content="Debian"><meta property="article:tag" content="Linux"><meta property="article:published_time" content="2011-08-29T00:00:00Z"><meta property="article:modified_time" content="2011-08-29T00:00:00Z"><meta name=twitter:card content="summary">
+<meta name=generator content="Hugo 0.88.1">
+<title>Statystyki odwiedzin dla wielu serwisów z AWStats • TiMoR</title>
+<link rel=canonical href=https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/>
+<link rel=icon href=/favicon.ico>
+<link rel=stylesheet href=/assets/css/main.ab98e12b.css><style>:root{--color-accent:#c64858}</style>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-88996819-1','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+</head>
+<body class="page type-posts layout-post has-sidebar">
+<div class=site><div id=sidebar class=sidebar>
+<a class=screen-reader-text href=#main-menu>Skip to Main Menu</a>
+<div class=container><section class="widget widget-about sep-after">
+<header>
+<div class=logo>
+<a href=/>
+<img src=/favicon.ico>
+</a>
+</div>
+<h2 class="title site-title">
+<a href=/>
+timor's site
+</a>
+</h2>
+<div class=desc>
+Linux configuration, Automation, Security - Sysadmin/DevOps blog
+</div>
+</header>
+</section>
+<section class="widget widget-search sep-after">
+<header>
+<h4 class="title widget-title">Search</h4>
+</header>
+<form action=/search id=search-form class=search-form>
+<label>
+<span class=screen-reader-text>Search</span>
+<input id=search-term class=search-term type=search name=q placeholder=Search&mldr;>
+</label></form>
+</section>
+<section class="widget widget-sidebar_menu sep-after"><nav id=sidebar-menu class="menu sidebar-menu" aria-label="Sidebar Menu">
+<div class=container>
+<ul><li class=item>
+<a href=/></a></li><li class=item>
+<a href=/>Home</a></li><li class="item has-children">
+<a href=/categories/howto/>HOWTO</a><button class=sub-menu-toggler>
 <span class=screen-reader-text>expand sub menu</span>
-<span class=sign></span></button><ul class=sub-menu><li class=item><a href=/categories/tip/>Tips</a></li></ul></li><li class=item><a href=/categories/off-topic/>Off-topic</a></li><li class=item><a href=/categories/gotowanie/>Gotowanie</a></li><li class=item><a href=/about/>About</a></li></ul></div></nav></section></div><div class=sidebar-overlay></div></div><div class=main><a class=screen-reader-text href=#content>Skip to Content</a>
+<span class=sign></span>
+</button>
+<ul class=sub-menu><li class=item>
+<a href=/categories/tip/>Tips</a></li></ul></li><li class=item>
+<a href=/categories/off-topic/>Off-topic</a></li><li class=item>
+<a href=/categories/gotowanie/>Gotowanie</a></li><li class=item>
+<a href=/about/>About</a></li></ul>
+</div>
+</nav>
+</section></div>
+<div class=sidebar-overlay></div>
+</div><div class=main><a class=screen-reader-text href=#content>Skip to Content</a>
 <button id=sidebar-toggler class=sidebar-toggler aria-controls=sidebar>
 <span class=screen-reader-text>Toggle Sidebar</span>
-<span class=open><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></span><span class=close><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span></button><div class=header-widgets><div class=container><style>.widget-breadcrumbs li:after{content:'\2f '}</style><section class="widget widget-breadcrumbs sep-after"><nav id=breadcrumbs><ol><li><a href=/>Home</a></li><li><a href=/posts/>Posts</a></li><li><span>Statystyki odwiedzin dla wielu serwisów z AWStats</span></li></ol></nav></section></div></div><header id=header class="header site-header"><div class="container sep-after"><div class=header-info><p class="site-title title">timor's site</p><p class="desc site-desc">Linux configuration, Automation, Security - Sysadmin/DevOps blog</p></div></div></header><main id=content><article lang=en class=entry><header class="header entry-header"><div class="container sep-after"><div class=header-info><h1 class=title>Statystyki odwiedzin dla wielu serwisów z AWStats</h1></div><div class=entry-meta><span class=posted-on><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span class=screen-reader-text>Posted on</span>
-<time class=entry-date datetime=2011-08-29T00:00:00Z>2011-08-29</time></span>
-<span class=byline><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M21 21V20c0-2.76-4-5-9-5s-9 2.24-9 5v1"/><path d="M16 6.37A4 4 0 1112.63 3 4 4 0 0116 6.37z"/></svg><span class=screen-reader-text>by </span><a href=/authors/timor>TiMoR</a></span>
-<span class=reading-time><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 15 15"/></svg>5 mins read</span></div></div></header><div class="container entry-content"><p>Co prawda na swojej stronie zrobiłem kilka podstawowych statystyk i coś tam sobie loguję do bazy danych, ale gdyby się chwilę zastanowić to przecież to samo robi serwer www - wrzuca do logów każde zapytanie HTTP, kod błędu, nazwę agenta, itd. Dublowanie tych danych nie jest najbardziej optymalne.<br>Stąd też chwilę pogooglałem i znalazłem świetny Open Source&rsquo;owy projekt: <strong>AWStats</strong>, który jest webowym analizatorem logów dla serwerów HTTP, FTP i SMTP.</p><h2 id=instalacja-i-konfiguracja>Instalacja i konfiguracja</h2><p>Najpierw instalacja, na moim Debianie leci to tak:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo apt-get install awstats
-</code></pre></div><p>Teraz trzeba się chwilę zastanowić nad konfiguracją serwera i celem, który chcemy osiągnąć:</p><ul><li>czy staty będą dostępne publicznie?</li><li>czy tylko dla ograniczonego grona zainsteresowanych (np. w pewnej sieci)?</li><li>a może zabezpieczenie hasłem?</li></ul><p>Wiedząc, że AWStats działają jako skrypt CGI wystawianie takiego serwisu &ldquo;na świat&rdquo; nie wydaje mi się bezpiecznym rozwiązaniem. Wolę np. skonfigurować serwis tak aby był dostępny tylko w LAN&rsquo;ie, gdzie mam większą władzę i szybciej poradzę sobie z namierzeniem i zablokowaniem ewentualnego napastnika 😉</p><p>Opiszę tylko dwa pierwsze przypadki (jak ktoś chce hasło to szybko znajdzie jak je ustawić) - pierwsza dla leniwych, druga dla ambitnych 😉</p><h2 id=przygotowania>Przygotowania</h2><p>Bez względu na wybraną metodę konfiguracji (leniwą, bądź nie) do działania serwisu potrzebny jest włączony w Apache moduł CGI. Jest tak w domyślnej konfiguracji ale jeśli nie masz pewności to odpal:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>a2enmod cgi
-</code></pre></div><p>Musi też być zdefiniowany katalog ze skryptami CGI z uaktywnioną interpretacją CGI - domyślnie w pliku /etc/apache2/sites-available w pliku default jest poniższa konfiguracja:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/
+<span class=open><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</span>
+<span class=close><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+</span>
+</button><div class=header-widgets>
+<div class=container>
+<style>.widget-breadcrumbs li:after{content:'\2f '}</style>
+<section class="widget widget-breadcrumbs sep-after">
+<nav id=breadcrumbs>
+<ol><li><a href=/>Home</a></li><li><a href=/posts/>Posts</a></li><li><span>Statystyki odwiedzin dla wielu serwisów z AWStats</span></li></ol>
+</nav>
+</section></div>
+</div>
+<header id=header class="header site-header">
+<div class="container sep-after">
+<div class=header-info><p class="site-title title">timor's site</p><p class="desc site-desc">Linux configuration, Automation, Security - Sysadmin/DevOps blog</p>
+</div>
+</div>
+</header>
+<main id=content>
+<article lang=en class=entry>
+<header class="header entry-header">
+<div class="container sep-after">
+<div class=header-info>
+<h1 class=title>Statystyki odwiedzin dla wielu serwisów z AWStats</h1>
+</div>
+<div class=entry-meta>
+<span class=posted-on><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+<span class=screen-reader-text>Posted on </span>
+<time class=entry-date datetime=2011-08-29T00:00:00Z>2011-08-29</time>
+</span>
+<span class=byline><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M21 21V20c0-2.76-4-5-9-5s-9 2.24-9 5v1"/><path d="M16 6.37A4 4 0 1112.63 3 4 4 0 0116 6.37z"/></svg>
+<span class=screen-reader-text> by </span><a href=/authors/timor>TiMoR</a></span>
+<span class=reading-time><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 15 15"/></svg>
+5 mins read
+</span>
+</div>
+</div>
+</header>
+<div class="container entry-content">
+<p>Co prawda na swojej stronie zrobiłem kilka podstawowych statystyk i coś tam sobie loguję do bazy danych, ale gdyby się chwilę zastanowić to przecież to samo robi serwer www - wrzuca do logów każde zapytanie HTTP, kod błędu, nazwę agenta, itd. Dublowanie tych danych nie jest najbardziej optymalne.<br> Stąd też chwilę pogooglałem i znalazłem świetny Open Source&rsquo;owy projekt: <strong>AWStats</strong>, który jest webowym analizatorem logów dla serwerów HTTP, FTP i SMTP.</p>
+<h2 id=instalacja-i-konfiguracja>Instalacja i konfiguracja</h2>
+<p>Najpierw instalacja, na moim Debianie leci to tak:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo apt-get install awstats
+</code></pre></div><p>Teraz trzeba się chwilę zastanowić nad konfiguracją serwera i celem, który chcemy osiągnąć:</p>
+<ul>
+<li>czy staty będą dostępne publicznie?</li>
+<li>czy tylko dla ograniczonego grona zainsteresowanych (np. w pewnej sieci)?</li>
+<li>a może zabezpieczenie hasłem?</li>
+</ul>
+<p>Wiedząc, że AWStats działają jako skrypt CGI wystawianie takiego serwisu &ldquo;na świat&rdquo; nie wydaje mi się bezpiecznym rozwiązaniem. Wolę np. skonfigurować serwis tak aby był dostępny tylko w LAN&rsquo;ie, gdzie mam większą władzę i szybciej poradzę sobie z namierzeniem i zablokowaniem ewentualnego napastnika 😉</p>
+<p>Opiszę tylko dwa pierwsze przypadki (jak ktoś chce hasło to szybko znajdzie jak je ustawić) - pierwsza dla leniwych, druga dla ambitnych 😉</p>
+<h2 id=przygotowania>Przygotowania</h2>
+<p>Bez względu na wybraną metodę konfiguracji (leniwą, bądź nie) do działania serwisu potrzebny jest włączony w Apache moduł CGI. Jest tak w domyślnej konfiguracji ale jeśli nie masz pewności to odpal:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>a2enmod cgi
+</code></pre></div><p>Musi też być zdefiniowany katalog ze skryptami CGI z uaktywnioną interpretacją CGI - domyślnie w pliku /etc/apache2/sites-available w pliku default jest poniższa konfiguracja:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>ScriptAlias /cgi-bin/ /usr/lib/cgi-bin/
 &lt;Directory &#34;/usr/lib/cgi-bin&#34;&gt;
     AllowOverride None
     Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch
     Order allow,deny
     Allow from all
 &lt;/Directory&gt;
-</code></pre></div><p>Na potrzeby metody leniwej jest to wystarczająca konfiguracja, dla ambitnych zalecam trochę inne umiejscowienie tego kodu.</p><h2 id=metoda-dla-leniwych>Metoda dla leniwych</h2><p>Ponieważ pakiet AWStats instaluje się przykładową konfiguracją można bardzo szybko uruchomić staty, wystarczy skopiować jeden plik:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>cp /usr/share/doc/awstats/examples/apache.conf /etc/apache2/conf.d/awstats
-</code></pre></div><p>No i tyle 😉</p><h2 id=metoda-dla-ambitnych>Metoda dla ambitnych</h2><p>Ambitnym zalecam nieco inną konfigurację: z ograniczeniem dostępu do statystyk wyłącznie z LAN&rsquo;u i tak samo z dostępem do skryptów CGI. W moim przypadku żaden z wystawianych przezemnie serwisów nie korzysta z CGI, więc udostępnianie tych skryptów wszystkim &ldquo;zainteresowanym&rdquo; nie ma sensu.</p><p>Proponuję wykorzystać taki lub podobny plik konfiguracyjny dla hosta serwującego statystyki:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>&lt;VirtualHost *:80&gt;
+</code></pre></div><p>Na potrzeby metody leniwej jest to wystarczająca konfiguracja, dla ambitnych zalecam trochę inne umiejscowienie tego kodu.</p>
+<h2 id=metoda-dla-leniwych>Metoda dla leniwych</h2>
+<p>Ponieważ pakiet AWStats instaluje się przykładową konfiguracją można bardzo szybko uruchomić staty, wystarczy skopiować jeden plik:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>cp /usr/share/doc/awstats/examples/apache.conf /etc/apache2/conf.d/awstats
+</code></pre></div><p>No i tyle 😉</p>
+<h2 id=metoda-dla-ambitnych>Metoda dla ambitnych</h2>
+<p>Ambitnym zalecam nieco inną konfigurację: z ograniczeniem dostępu do statystyk wyłącznie z LAN&rsquo;u i tak samo z dostępem do skryptów CGI. W moim przypadku żaden z wystawianych przezemnie serwisów nie korzysta z CGI, więc udostępnianie tych skryptów wszystkim &ldquo;zainteresowanym&rdquo; nie ma sensu.</p>
+<p>Proponuję wykorzystać taki lub podobny plik konfiguracyjny dla hosta serwującego statystyki:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>&lt;VirtualHost *:80&gt;
         ServerName staty.domena.pl
         ServerAdmin webmaster@domena.pl
 
@@ -76,12 +197,31 @@ Stąd też chwilę pogooglałem i znalazłem świetny Open Source&rsquo;owy pr
         RewriteRule ^/awstats.pl(.*?) /cgi-bin/awstats.pl$1 [QSA,R,L]
     &lt;/IfModule&gt;
 &lt;/VirtualHost&gt;
-</code></pre></div><p>Z ważnych rzeczy do personalizacji:</p><ul><li>ServerName - wpisz swoją nazwę serwisu,</li><li>Allow from 192.168.1.0/24 - zamień na adres/adresy, które Tobie odpowiadają,</li><li>mod_rewrite - ostatnich kilka linijek wykorzystuje mod_rewrite do uproszczenia odwołań do statystyk, wystarczy wtedy wpisać adres np. tak: <a href=http://staty.domena.pl/nazwa.domeny.ktora.nas.interesuje.pl>http://staty.domena.pl/nazwa.domeny.ktora.nas.interesuje.pl</a></li><li>plik zapisujemy jako /etc/apache2/sites-available/awstats</li></ul><p>Teraz zostało nam uaktywnienie site&rsquo;a:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>a2ensite awstats
-</code></pre></div><h2 id=część-wspólna-konfiguracji>Część wspólna konfiguracji</h2><p>Teraz tworzymy katalog na skrypt, który wypisze nam dostępne statystyki:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>mkdir /var/www/stats
+</code></pre></div><p>Z ważnych rzeczy do personalizacji:</p>
+<ul>
+<li>ServerName - wpisz swoją nazwę serwisu,</li>
+<li>Allow from 192.168.1.0/24 - zamień na adres/adresy, które Tobie odpowiadają,</li>
+<li>mod_rewrite - ostatnich kilka linijek wykorzystuje mod_rewrite do uproszczenia odwołań do statystyk, wystarczy wtedy wpisać adres np. tak: <a href=http://staty.domena.pl/nazwa.domeny.ktora.nas.interesuje.pl>http://staty.domena.pl/nazwa.domeny.ktora.nas.interesuje.pl</a></li>
+<li>plik zapisujemy jako /etc/apache2/sites-available/awstats</li>
+</ul>
+<p>Teraz zostało nam uaktywnienie site&rsquo;a:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>a2ensite awstats
+</code></pre></div><h2 id=część-wspólna-konfiguracji>Część wspólna konfiguracji</h2>
+<p>Teraz tworzymy katalog na skrypt, który wypisze nam dostępne statystyki:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>mkdir /var/www/stats
 chown -R www-data:www-data /var/www/stats/
-</code></pre></div><h2 id=właściwa-konfiguracja-awstats>Właściwa konfiguracja AWStats</h2><p>Pliki konfiguracyjne AWStats znajdują się w katalogu /etc/awstats. Jest ich dokładnie 2 szt.:</p><ul><li><code>awstats.conf</code></li><li><code>awstats.conf.local</code></li></ul><p>Plik <code>awstats.conf</code> zawiera przykładową konfigurację wystarczającą do odpalenia statystyk dla pojedynczego hosta. Z kolei plik <code>awstats.conf.local</code> jest miejscem gdzie można wrzucić wspólną konfigurację dla kilku plików hostów.</p><p>Jeżeli mamy wiele hostów (a taki przypadek tutaj omawiam) to wygodniej będzie nam wrzucić cały plik awstats.conf do awstats.conf.local i w kolejnych plikach konfiguracyjnych zmieniać tylko parametry rozróżniające poszczególne hosty. Robimy więc tak:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>mv /etc/awstats/awstats.conf.local /etc/awstats/awstats.conf.local.orig
+</code></pre></div><h2 id=właściwa-konfiguracja-awstats>Właściwa konfiguracja AWStats</h2>
+<p>Pliki konfiguracyjne AWStats znajdują się w katalogu /etc/awstats. Jest ich dokładnie 2 szt.:</p>
+<ul>
+<li><code>awstats.conf</code></li>
+<li><code>awstats.conf.local</code></li>
+</ul>
+<p>Plik <code>awstats.conf</code> zawiera przykładową konfigurację wystarczającą do odpalenia statystyk dla pojedynczego hosta. Z kolei plik <code>awstats.conf.local</code> jest miejscem gdzie można wrzucić wspólną konfigurację dla kilku plików hostów.</p>
+<p>Jeżeli mamy wiele hostów (a taki przypadek tutaj omawiam) to wygodniej będzie nam wrzucić cały plik awstats.conf do awstats.conf.local i w kolejnych plikach konfiguracyjnych zmieniać tylko parametry rozróżniające poszczególne hosty. Robimy więc tak:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>mv /etc/awstats/awstats.conf.local /etc/awstats/awstats.conf.local.orig
 mv /etc/awstats/awstats.conf /etc/awstats/awstats.conf.local
-</code></pre></div><p>Teraz musimy zmienić kilka linijek w pliku awstats.conf.local:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback># musimy odszukać i zakomentować poniższe linie
+</code></pre></div><p>Teraz musimy zmienić kilka linijek w pliku awstats.conf.local:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback># musimy odszukać i zakomentować poniższe linie
 
 LogFile=&#34;/var/log/apache/access.log&#34;
 SiteDomain=&#34;&#34;
@@ -99,13 +239,19 @@ Include &#34;/etc/awstats/awstats.conf.local&#34;
 LogFormat=4
 # i zamieniamy na
 LogFormat=1
-</code></pre></div><p>Teraz możemy utworzyć pliki konfiguracyjne dla naszych vhostów raptem w kilku linijkach, np.:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>LogFile=&#34;/var/log/apache2/access.log&#34;
+</code></pre></div><p>Teraz możemy utworzyć pliki konfiguracyjne dla naszych vhostów raptem w kilku linijkach, np.:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>LogFile=&#34;/var/log/apache2/access.log&#34;
 SiteDomain=&#34;domena.pl&#34;
 HostAliases=&#34;www.domena.pl&#34;
 
 Include &#34;/etc/awstats/awstats.conf.local&#34;
-</code></pre></div><p>Oczywiście trzeba wpisać własną lokalizację pliku access.log. W powyższym przypadku jest to lokalizacja domyślna, wspólna dla wszystkich vhostów - rozróżnienie ruchu do poszczególnych vhostów następuje dzięki podaniu parametrów SiteDomain (podstawowej domeny danej strony) oraz HostAliases (innych domen wskazujących na tego samego vhosta).</p><p>Ostatnim elementem jest załadowanie pliku ze wspólną konfiguracją.</p><h2 id=zmiana-uprawnień-do-logów>Zmiana uprawnień do logów</h2><p>Aby umożliwić dostęp AWStats do logów serwera Apache musimy wykonać dwie czynności. Na początek zmiana atrybutu dla aktualnego pliku log:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>chmod o+r /var/log/apache2/access.log
-</code></pre></div><p>Później musimy zadbać aby logi po rotacji przez logrotate również zachowywały atrybuty, oraz aby przed rotacją AWStats wygenerowało statystyki, których nie zebrało wcześniej. W tym celu zmieniamy plik /etc/logrotate.d/apache2 tak by wyglądał jak poniżej:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>/var/log/apache2/*.log {
+</code></pre></div><p>Oczywiście trzeba wpisać własną lokalizację pliku access.log. W powyższym przypadku jest to lokalizacja domyślna, wspólna dla wszystkich vhostów - rozróżnienie ruchu do poszczególnych vhostów następuje dzięki podaniu parametrów SiteDomain (podstawowej domeny danej strony) oraz HostAliases (innych domen wskazujących na tego samego vhosta).</p>
+<p>Ostatnim elementem jest załadowanie pliku ze wspólną konfiguracją.</p>
+<h2 id=zmiana-uprawnień-do-logów>Zmiana uprawnień do logów</h2>
+<p>Aby umożliwić dostęp AWStats do logów serwera Apache musimy wykonać dwie czynności. Na początek zmiana atrybutu dla aktualnego pliku log:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>chmod o+r /var/log/apache2/access.log
+</code></pre></div><p>Później musimy zadbać aby logi po rotacji przez logrotate również zachowywały atrybuty, oraz aby przed rotacją AWStats wygenerowało statystyki, których nie zebrało wcześniej. W tym celu zmieniamy plik /etc/logrotate.d/apache2 tak by wyglądał jak poniżej:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>/var/log/apache2/*.log {
         weekly
         missingok
         rotate 52
@@ -123,7 +269,71 @@ Include &#34;/etc/awstats/awstats.conf.local&#34;
                 fi
         endscript
 }
-</code></pre></div><h2 id=przeładowanie-konfiguracji-apache>Przeładowanie konfiguracji Apache</h2><p>Po tych wszystkich zmianach w konfiguracji musimy zrestartować Apache:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>invoke-rc.d apache2 restart
-</code></pre></div><h2 id=testy-konfiguracji>Testy konfiguracji</h2><p>Aby sprawdzić konfigurację AWStats spróbujemy wejść na stronę:http://staty.domena.pl/cgi-bin/awstats.pl?config=domena.pl</p><p>Jeżeli na żadnym z etapów nie popełniliśmy błędu to naszym oczom powinny ukazać się &ldquo;wspaniałe i upragnione statystyki&rdquo; 😃</p><p>Jedyną delikatną wadą awstats jest &ldquo;brzydki&rdquo; i długi link z cgi w środku&mldr; Nieco mnie to irytowało, więc przysiadłem chwilę przy mod_rewrite i przygotowałem regułki (były podane w konfiguracji dla ambitnych), które pozwalają rozpocząć przeglądanie statystyk z uproszczonego linku postaci:</p><p><a href=http://staty.domena.pl/domena.pl>http://staty.domena.pl/domena.pl</a></p><p>Proste, czyste i klarowne, bez zbędnych śmieci.</p><p>Co prawda koniec tutora, ale nie koniec samej konfiguracji - proponuję aby przejrzeć przykładowy plik z konfiguracją i zapoznać się z zawartymi tam opcjami.</p></div><footer class=entry-footer><div class="container sep-before"><div class=categories><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5A2 2 0 014 3H9l2 3h9a2 2 0 012 2z"/></svg><span class=screen-reader-text>Categories: </span><a class=category href=/categories/howto/>HOWTO</a></div><div class=tags><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2H12l8.59 8.59A2 2 0 0120.59 13.41z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=screen-reader-text>Tags: </span><a class=tag href=/tags/apache/>Apache</a>, <a class=tag href=/tags/awstats/>AWStats</a>, <a class=tag href=/tags/cgi/>CGI</a>, <a class=tag href=/tags/debian/>Debian</a>, <a class=tag href=/tags/linux/>Linux</a></div></div></footer></article><nav class=entry-nav><div class=container><div class="prev-entry sep-before"><a href=/2011/08/certyfikaty-selfsigned/><span aria-hidden=true><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="20" y1="12" x2="4" y2="12"/><polyline points="10 18 4 12 10 6"/></svg>Previous</span>
-<span class=screen-reader-text>Previous post: </span>Certyfikaty SelfSigned</a></div><div class="next-entry sep-before"><a href=/2011/08/optymalizacja-php-z-eacceleratorem/><span class=screen-reader-text>Next post: </span>Optymalizacja PHP z eAccelerator’em<span aria-hidden=true>Next<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="14 6 20 12 14 18"/></svg></span></a></div></div></nav><section id=comments class=comments><div class="container sep-before"><div class=comments-area><div id=disqus_thread></div><script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return;}
-var d=document,s=d.createElement('script');s.async=true;s.src='//'+"gagor-pl"+'.disqus.com/embed.js';s.setAttribute('data-timestamp',+new Date());(d.head||d.body).appendChild(s);})();</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div></div></section></main><footer id=footer class=footer><div class="container sep-before"><section class="widget widget-social_menu sep-after"><nav aria-label="Social Menu"><ul><li><a href=https://github.com/tgagor target=_blank rel="noopener me"><span class=screen-reader-text>Open Github account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77a5.44 5.44.0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg></a></li><li><a href=https://linkedin.com/in/tgagor target=_blank rel="noopener me"><span class=screen-reader-text>Open Linkedin account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a></li><li><a href=https://timor.site/index.xml target=_blank rel="noopener me"><span class=screen-reader-text>Open Rss account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></li></ul></nav></section><div class=copyright><p>&copy; 2011-2021 TiMoR Licensed under <a rel=license href="https://creativecommons.org/licenses/by-sa/4.0?ref=chooser-v1" target=_blank rel="license noopener noreferrer" style=display:inline-block>CC BY-SA 4.0<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p></div></div></footer></div></div><script>window.__assets_js_src="/assets/js/"</script><script src=/assets/js/main.c3bcf2df.js></script></body></html>
+</code></pre></div><h2 id=przeładowanie-konfiguracji-apache>Przeładowanie konfiguracji Apache</h2>
+<p>Po tych wszystkich zmianach w konfiguracji musimy zrestartować Apache:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>invoke-rc.d apache2 restart
+</code></pre></div><h2 id=testy-konfiguracji>Testy konfiguracji</h2>
+<p>Aby sprawdzić konfigurację AWStats spróbujemy wejść na stronę:http://staty.domena.pl/cgi-bin/awstats.pl?config=domena.pl</p>
+<p>Jeżeli na żadnym z etapów nie popełniliśmy błędu to naszym oczom powinny ukazać się &ldquo;wspaniałe i upragnione statystyki&rdquo; 😃</p>
+<p>Jedyną delikatną wadą awstats jest &ldquo;brzydki&rdquo; i długi link z cgi w środku&mldr; Nieco mnie to irytowało, więc przysiadłem chwilę przy mod_rewrite i przygotowałem regułki (były podane w konfiguracji dla ambitnych), które pozwalają rozpocząć przeglądanie statystyk z uproszczonego linku postaci:</p>
+<p><a href=http://staty.domena.pl/domena.pl>http://staty.domena.pl/domena.pl</a></p>
+<p>Proste, czyste i klarowne, bez zbędnych śmieci.</p>
+<p>Co prawda koniec tutora, ale nie koniec samej konfiguracji - proponuję aby przejrzeć przykładowy plik z konfiguracją i zapoznać się z zawartymi tam opcjami.</p>
+</div>
+<footer class=entry-footer>
+<div class="container sep-before"><div class=categories><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5A2 2 0 014 3H9l2 3h9a2 2 0 012 2z"/></svg>
+<span class=screen-reader-text>Categories: </span><a class=category href=/categories/howto/>HOWTO</a></div>
+<div class=tags><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2H12l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg>
+<span class=screen-reader-text>Tags: </span><a class=tag href=/tags/apache/>Apache</a>, <a class=tag href=/tags/awstats/>AWStats</a>, <a class=tag href=/tags/cgi/>CGI</a>, <a class=tag href=/tags/debian/>Debian</a>, <a class=tag href=/tags/linux/>Linux</a></div>
+</div>
+</footer>
+</article>
+<nav class=entry-nav>
+<div class=container><div class="prev-entry sep-before">
+<a href=/2011/08/certyfikaty-selfsigned/>
+<span aria-hidden=true><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="20" y1="12" x2="4" y2="12"/><polyline points="10 18 4 12 10 6"/></svg>
+Previous</span>
+<span class=screen-reader-text>Previous post: </span>Certyfikaty SelfSigned</a>
+</div><div class="next-entry sep-before">
+<a href=/2011/08/optymalizacja-php-z-eacceleratorem/>
+<span class=screen-reader-text>Next post: </span>Optymalizacja PHP z eAccelerator’em<span aria-hidden=true>Next<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="14 6 20 12 14 18"/></svg>
+</span>
+</a>
+</div></div>
+</nav>
+<section id=comments class=comments>
+<div class="container sep-before">
+<div class=comments-area><div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//gagor-pl.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</div>
+</div>
+</section>
+</main>
+<footer id=footer class=footer>
+<div class="container sep-before"><section class="widget widget-social_menu sep-after"><nav aria-label="Social Menu">
+<ul><li>
+<a href=https://github.com/tgagor target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Github account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg>
+</a>
+</li><li>
+<a href=https://linkedin.com/in/tgagor target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Linkedin account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+</a>
+</li><li>
+<a href=https://timor.site/index.xml target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Rss account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg>
+</a>
+</li></ul>
+</nav>
+</section><div class=copyright>
+<p> &copy; 2011-2021 TiMoR Licensed under <a rel=license href="https://creativecommons.org/licenses/by-sa/4.0?ref=chooser-v1" target=_blank rel="license noopener noreferrer" style=display:inline-block>CC BY-SA 4.0<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+</div>
+</div>
+</footer>
+</div>
+</div><script>window.__assets_js_src="/assets/js/"</script>
+<script src=/assets/js/main.c3bcf2df.js></script>
+</body>
+</html>

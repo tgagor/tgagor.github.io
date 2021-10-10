@@ -1,38 +1,209 @@
-<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Większość systemów plików w linuksie pozwala na ustawienie quoty na dwóch poziomach: na użytkownika lub na grupę użytkowników. W wielu przypadkach taki podział jest sensowny i wystarczający. Ale zdarzają się scenariusze, w których to za mało.
-Dobrym przykładem jest serwer FTP z wirtualnymi kontami użytkowników. Czyli usługa serwera działa jako pewien nieuprzywilejowany użytkownik systemowy (przeważnie ftp) przypisany do nieuprzywilejowanej grupy (np. nogroup). Konta użytkowników serwera FTP są zdefiniowane w bazie danych lub serwerze LDAP."><meta name=theme-color content="#c64858"><meta property="og:title" content="Quota na katalog w XFS’ie • TiMoR"><meta property="og:description" content="Większość systemów plików w linuksie pozwala na ustawienie quoty na dwóch poziomach: na użytkownika lub na grupę użytkowników. W wielu przypadkach taki podział jest sensowny i wystarczający. Ale zdarzają się scenariusze, w których to za mało.
-Dobrym przykładem jest serwer FTP z wirtualnymi kontami użytkowników. Czyli usługa serwera działa jako pewien nieuprzywilejowany użytkownik systemowy (przeważnie ftp) przypisany do nieuprzywilejowanej grupy (np. nogroup). Konta użytkowników serwera FTP są zdefiniowane w bazie danych lub serwerze LDAP."><meta property="og:url" content="https://timor.site/2011/08/quota-na-katalog-w-xfsie/"><meta property="og:site_name" content="timor's site"><meta property="og:type" content="article"><meta property="og:image" content="https://www.gravatar.com/avatar/cfa9a17577371083824a78c303cc8ed7?s=256"><meta property="article:section" content="posts"><meta property="article:tag" content="FTP"><meta property="article:tag" content="quota"><meta property="article:tag" content="XFS"><meta property="article:published_time" content="2011-08-27T00:00:00Z"><meta property="article:modified_time" content="2011-08-27T00:00:00Z"><meta name=twitter:card content="summary"><meta name=generator content="Hugo 0.76.5"><title>Quota na katalog w XFS’ie • TiMoR</title><link rel=canonical href=https://timor.site/2011/08/quota-na-katalog-w-xfsie/><link rel=icon href=/favicon.ico><link rel=stylesheet href=/assets/css/main.ab98e12b.css><style>:root{--color-accent:#c64858}</style><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-88996819-1','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script></head><body class="page type-posts layout-post has-sidebar"><div class=site><div id=sidebar class=sidebar><a class=screen-reader-text href=#main-menu>Skip to Main Menu</a><div class=container><section class="widget widget-about sep-after"><header><div class=logo><a href=/><img src=/favicon.ico></a></div><h2 class="title site-title"><a href=/>timor's site</a></h2><div class=desc>Linux configuration, Automation, Security - Sysadmin/DevOps blog</div></header></section><section class="widget widget-search sep-after"><header><h4 class="title widget-title">Search</h4></header><form action=/search id=search-form class=search-form><label><span class=screen-reader-text>Search</span>
-<input id=search-term class=search-term type=search name=q placeholder=Search&mldr;></label></form></section><section class="widget widget-sidebar_menu sep-after"><nav id=sidebar-menu class="menu sidebar-menu" aria-label="Sidebar Menu"><div class=container><ul><li class=item><a href=/></a></li><li class=item><a href=/>Home</a></li><li class="item has-children"><a href=/categories/howto/>HOWTO</a><button class=sub-menu-toggler>
+<!doctype html><html lang=en dir=auto><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Większość systemów plików w linuksie pozwala na ustawienie quoty na dwóch poziomach: na użytkownika lub na grupę użytkowników. W wielu przypadkach taki podział jest sensowny i wystarczający. Ale zdarzają się scenariusze, w których to za mało.
+Dobrym przykładem jest serwer FTP z wirtualnymi kontami użytkowników. Czyli usługa serwera działa jako pewien nieuprzywilejowany użytkownik systemowy (przeważnie ftp) przypisany do nieuprzywilejowanej grupy (np. nogroup). Konta użytkowników serwera FTP są zdefiniowane w bazie danych lub serwerze LDAP.">
+<meta name=theme-color content="#c64858">
+<meta property="og:title" content="Quota na katalog w XFS’ie • TiMoR">
+<meta property="og:description" content="Większość systemów plików w linuksie pozwala na ustawienie quoty na dwóch poziomach: na użytkownika lub na grupę użytkowników. W wielu przypadkach taki podział jest sensowny i wystarczający. Ale zdarzają się scenariusze, w których to za mało.
+Dobrym przykładem jest serwer FTP z wirtualnymi kontami użytkowników. Czyli usługa serwera działa jako pewien nieuprzywilejowany użytkownik systemowy (przeważnie ftp) przypisany do nieuprzywilejowanej grupy (np. nogroup). Konta użytkowników serwera FTP są zdefiniowane w bazie danych lub serwerze LDAP.">
+<meta property="og:url" content="https://timor.site/2011/08/quota-na-katalog-w-xfsie/">
+<meta property="og:site_name" content="timor's site">
+<meta property="og:type" content="article"><meta property="og:image" content="https://www.gravatar.com/avatar/cfa9a17577371083824a78c303cc8ed7?s=256"><meta property="article:section" content="posts"><meta property="article:tag" content="FTP"><meta property="article:tag" content="quota"><meta property="article:tag" content="XFS"><meta property="article:published_time" content="2011-08-27T00:00:00Z"><meta property="article:modified_time" content="2011-08-27T00:00:00Z"><meta name=twitter:card content="summary">
+<meta name=generator content="Hugo 0.88.1">
+<title>Quota na katalog w XFS’ie • TiMoR</title>
+<link rel=canonical href=https://timor.site/2011/08/quota-na-katalog-w-xfsie/>
+<link rel=icon href=/favicon.ico>
+<link rel=stylesheet href=/assets/css/main.ab98e12b.css><style>:root{--color-accent:#c64858}</style>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-88996819-1','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+</head>
+<body class="page type-posts layout-post has-sidebar">
+<div class=site><div id=sidebar class=sidebar>
+<a class=screen-reader-text href=#main-menu>Skip to Main Menu</a>
+<div class=container><section class="widget widget-about sep-after">
+<header>
+<div class=logo>
+<a href=/>
+<img src=/favicon.ico>
+</a>
+</div>
+<h2 class="title site-title">
+<a href=/>
+timor's site
+</a>
+</h2>
+<div class=desc>
+Linux configuration, Automation, Security - Sysadmin/DevOps blog
+</div>
+</header>
+</section>
+<section class="widget widget-search sep-after">
+<header>
+<h4 class="title widget-title">Search</h4>
+</header>
+<form action=/search id=search-form class=search-form>
+<label>
+<span class=screen-reader-text>Search</span>
+<input id=search-term class=search-term type=search name=q placeholder=Search&mldr;>
+</label></form>
+</section>
+<section class="widget widget-sidebar_menu sep-after"><nav id=sidebar-menu class="menu sidebar-menu" aria-label="Sidebar Menu">
+<div class=container>
+<ul><li class=item>
+<a href=/></a></li><li class=item>
+<a href=/>Home</a></li><li class="item has-children">
+<a href=/categories/howto/>HOWTO</a><button class=sub-menu-toggler>
 <span class=screen-reader-text>expand sub menu</span>
-<span class=sign></span></button><ul class=sub-menu><li class=item><a href=/categories/tip/>Tips</a></li></ul></li><li class=item><a href=/categories/off-topic/>Off-topic</a></li><li class=item><a href=/categories/gotowanie/>Gotowanie</a></li><li class=item><a href=/about/>About</a></li></ul></div></nav></section></div><div class=sidebar-overlay></div></div><div class=main><a class=screen-reader-text href=#content>Skip to Content</a>
+<span class=sign></span>
+</button>
+<ul class=sub-menu><li class=item>
+<a href=/categories/tip/>Tips</a></li></ul></li><li class=item>
+<a href=/categories/off-topic/>Off-topic</a></li><li class=item>
+<a href=/categories/gotowanie/>Gotowanie</a></li><li class=item>
+<a href=/about/>About</a></li></ul>
+</div>
+</nav>
+</section></div>
+<div class=sidebar-overlay></div>
+</div><div class=main><a class=screen-reader-text href=#content>Skip to Content</a>
 <button id=sidebar-toggler class=sidebar-toggler aria-controls=sidebar>
 <span class=screen-reader-text>Toggle Sidebar</span>
-<span class=open><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></span><span class=close><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span></button><div class=header-widgets><div class=container><style>.widget-breadcrumbs li:after{content:'\2f '}</style><section class="widget widget-breadcrumbs sep-after"><nav id=breadcrumbs><ol><li><a href=/>Home</a></li><li><a href=/posts/>Posts</a></li><li><span>Quota na katalog w XFS’ie</span></li></ol></nav></section></div></div><header id=header class="header site-header"><div class="container sep-after"><div class=header-info><p class="site-title title">timor's site</p><p class="desc site-desc">Linux configuration, Automation, Security - Sysadmin/DevOps blog</p></div></div></header><main id=content><article lang=en class=entry><header class="header entry-header"><div class="container sep-after"><div class=header-info><h1 class=title>Quota na katalog w XFS’ie</h1></div><div class=entry-meta><span class=posted-on><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span class=screen-reader-text>Posted on</span>
-<time class=entry-date datetime=2011-08-27T00:00:00Z>2011-08-27</time></span>
-<span class=byline><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M21 21V20c0-2.76-4-5-9-5s-9 2.24-9 5v1"/><path d="M16 6.37A4 4 0 1112.63 3 4 4 0 0116 6.37z"/></svg><span class=screen-reader-text>by </span><a href=/authors/timor>TiMoR</a></span>
-<span class=reading-time><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 15 15"/></svg>2 mins read</span></div></div></header><div class="container entry-content"><p>Większość systemów plików w linuksie pozwala na ustawienie quoty na dwóch poziomach: na użytkownika lub na grupę użytkowników. W wielu przypadkach taki podział jest sensowny i wystarczający. Ale zdarzają się scenariusze, w których to za mało.</p><p>Dobrym przykładem jest serwer FTP z wirtualnymi kontami użytkowników. Czyli usługa serwera działa jako pewien nieuprzywilejowany użytkownik systemowy (przeważnie ftp) przypisany do nieuprzywilejowanej grupy (np. nogroup). Konta użytkowników serwera FTP są zdefiniowane w bazie danych lub serwerze LDAP. Takie konta nazywa się wirtualnymi ponieważ po autoryzacji w pewnym systemie (bazie danych, LDAP&rsquo;ie) działają z uprawnieniami pewnego systemowego konta (w tym przypadku ftp) - nie ma więc odzwierciedlenia pomiędzy użytkownikami korzystającymi z ftp a kontami systemowymi.</p><p>Problemem w takim układzie jest to, że nie można rozróżnić poszczególnych użytkowników wirtualnych, ponieważ wszystkie operacje są wykonywane przez systemowego użytkownika ftp i to on jest właścicielem wszystich plików utworzonych przez użytkowników wirtualnych.</p><p>Rozwiązania są dwa:</p><ul><li>sewer FTP ma zaimplementowaną obsługę quot dla użytkowników wirtualnych, z czego możemy skorzystać,</li><li>tworzymy quotę na katalog domowy użytkownika wirtualnego.</li></ul><p>Mnie bardziej odpowiadała druga metoda.</p><p>O ile mi wiadomo w ext3 nie można tworzyć quoty per katalog, na moje szczęscie taką możliwość oferuje xfs, z którego korzystałem.</p><p>Jeżeli jeszcze nie masz dysku sformatowanego jako xfs to jest to dobry moment aby to zrobić:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># sdaX zastap nazwa urzadzenia ktore TY chcesz sformatowac</span>
+<span class=open><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</span>
+<span class=close><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+</span>
+</button><div class=header-widgets>
+<div class=container>
+<style>.widget-breadcrumbs li:after{content:'\2f '}</style>
+<section class="widget widget-breadcrumbs sep-after">
+<nav id=breadcrumbs>
+<ol><li><a href=/>Home</a></li><li><a href=/posts/>Posts</a></li><li><span>Quota na katalog w XFS’ie</span></li></ol>
+</nav>
+</section></div>
+</div>
+<header id=header class="header site-header">
+<div class="container sep-after">
+<div class=header-info><p class="site-title title">timor's site</p><p class="desc site-desc">Linux configuration, Automation, Security - Sysadmin/DevOps blog</p>
+</div>
+</div>
+</header>
+<main id=content>
+<article lang=en class=entry>
+<header class="header entry-header">
+<div class="container sep-after">
+<div class=header-info>
+<h1 class=title>Quota na katalog w XFS’ie</h1>
+</div>
+<div class=entry-meta>
+<span class=posted-on><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+<span class=screen-reader-text>Posted on </span>
+<time class=entry-date datetime=2011-08-27T00:00:00Z>2011-08-27</time>
+</span>
+<span class=byline><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M21 21V20c0-2.76-4-5-9-5s-9 2.24-9 5v1"/><path d="M16 6.37A4 4 0 1112.63 3 4 4 0 0116 6.37z"/></svg>
+<span class=screen-reader-text> by </span><a href=/authors/timor>TiMoR</a></span>
+<span class=reading-time><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 15 15"/></svg>
+2 mins read
+</span>
+</div>
+</div>
+</header>
+<div class="container entry-content">
+<p>Większość systemów plików w linuksie pozwala na ustawienie quoty na dwóch poziomach: na użytkownika lub na grupę użytkowników. W wielu przypadkach taki podział jest sensowny i wystarczający. Ale zdarzają się scenariusze, w których to za mało.</p>
+<p>Dobrym przykładem jest serwer FTP z wirtualnymi kontami użytkowników. Czyli usługa serwera działa jako pewien nieuprzywilejowany użytkownik systemowy (przeważnie ftp) przypisany do nieuprzywilejowanej grupy (np. nogroup). Konta użytkowników serwera FTP są zdefiniowane w bazie danych lub serwerze LDAP. Takie konta nazywa się wirtualnymi ponieważ po autoryzacji w pewnym systemie (bazie danych, LDAP&rsquo;ie) działają z uprawnieniami pewnego systemowego konta (w tym przypadku ftp) - nie ma więc odzwierciedlenia pomiędzy użytkownikami korzystającymi z ftp a kontami systemowymi.</p>
+<p>Problemem w takim układzie jest to, że nie można rozróżnić poszczególnych użytkowników wirtualnych, ponieważ wszystkie operacje są wykonywane przez systemowego użytkownika ftp i to on jest właścicielem wszystich plików utworzonych przez użytkowników wirtualnych.</p>
+<p>Rozwiązania są dwa:</p>
+<ul>
+<li>sewer FTP ma zaimplementowaną obsługę quot dla użytkowników wirtualnych, z czego możemy skorzystać,</li>
+<li>tworzymy quotę na katalog domowy użytkownika wirtualnego.</li>
+</ul>
+<p>Mnie bardziej odpowiadała druga metoda.</p>
+<p>O ile mi wiadomo w ext3 nie można tworzyć quoty per katalog, na moje szczęscie taką możliwość oferuje xfs, z którego korzystałem.</p>
+<p>Jeżeli jeszcze nie masz dysku sformatowanego jako xfs to jest to dobry moment aby to zrobić:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># sdaX zastap nazwa urzadzenia ktore TY chcesz sformatowac</span>
 mkfs.xfs /dev/sdaX
 
 <span style=color:#75715e># aby dzialala quoata per katalog trzeba zamonowac</span>
 <span style=color:#75715e># dysk z opcja prjquota</span>
 mount /dev/sdaX /mnt/ftp -o prjquota
-</code></pre></div><p>Logika quot per katalog w xfs&rsquo;ie jest taka, że najpierw tworzymy projekt z powiązanym z nim id, a później wiążemy poprzez id projekt z katalogiem. Przez co quota nałożona na projekt ma zastosowanie do katalogu. Konfiguracja projektów i przypisanych im katalogów znajduje się w dwóch plikach: /etc/projid i /etc/projects.</p><p>Utwórzymy teraz projekt i konfigurację dla niego:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># nazwa projektu i jego id - w naszym przypadku</span>
+</code></pre></div><p>Logika quot per katalog w xfs&rsquo;ie jest taka, że najpierw tworzymy projekt z powiązanym z nim id, a później wiążemy poprzez id projekt z katalogiem. Przez co quota nałożona na projekt ma zastosowanie do katalogu. Konfiguracja projektów i przypisanych im katalogów znajduje się w dwóch plikach: /etc/projid i /etc/projects.</p>
+<p>Utwórzymy teraz projekt i konfigurację dla niego:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># nazwa projektu i jego id - w naszym przypadku</span>
 <span style=color:#75715e># konto uzytkownika romana :)</span>
 echo ftproman:10 &gt;&gt; /etc/projid
 
 <span style=color:#75715e># projektowi z id 10 przypisujemy katalog /mnt/ftp/roman</span>
 echo 10:/mnt/ftp/roman &gt;&gt; /etc/projects
-</code></pre></div><p>Pozostało uruchomić quotę wpisująć komendy:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># wiazemy projekt z punktem montowania</span>
+</code></pre></div><p>Pozostało uruchomić quotę wpisująć komendy:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># wiazemy projekt z punktem montowania</span>
 xfs_quota -x -c <span style=color:#e6db74>&#39;poject -s ftproman&#39;</span> /mnt/ftp
 
 <span style=color:#75715e># ustawiamy wlasiwa quote 1 gigabajt dla projektu</span>
 xfs_quota -x -c <span style=color:#e6db74>&#39;limit -p bhard=1g ftproman&#39;</span> /mnt/ftp
-</code></pre></div><p>To tyle - quota na katalog jest założona i działa. Aby zobaczyć jaka część miejsca jest już wykorzystana wystarczy uruchomić polecenie:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>xfs_quota -x -c <span style=color:#e6db74>&#39;report -h /mnt/ftp&#39;</span>
+</code></pre></div><p>To tyle - quota na katalog jest założona i działa. Aby zobaczyć jaka część miejsca jest już wykorzystana wystarczy uruchomić polecenie:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>xfs_quota -x -c <span style=color:#e6db74>&#39;report -h /mnt/ftp&#39;</span>
 
 Project quota on /mnt/ftp <span style=color:#f92672>(</span>/dev/sda3<span style=color:#f92672>)</span>
                         Blocks
 Project ID   Used   Soft   Hard Warn/Grace
 ---------- ---------------------------------
 ftproman     1,5M      <span style=color:#ae81ff>0</span>     1G    <span style=color:#ae81ff>00</span> <span style=color:#f92672>[</span>------<span style=color:#f92672>]</span>
-</code></pre></div><p>Dla kolejnych użytkowników musimy tworzyć kolejne wpisy.</p></div><footer class=entry-footer><div class="container sep-before"><div class=categories><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5A2 2 0 014 3H9l2 3h9a2 2 0 012 2z"/></svg><span class=screen-reader-text>Categories: </span><a class=category href=/categories/howto/>HOWTO</a></div><div class=tags><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2H12l8.59 8.59A2 2 0 0120.59 13.41z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=screen-reader-text>Tags: </span><a class=tag href=/tags/ftp/>FTP</a>, <a class=tag href=/tags/quota/>quota</a>, <a class=tag href=/tags/xfs/>XFS</a></div></div></footer></article><nav class=entry-nav><div class=container><div class="prev-entry sep-before"><a href=/2011/08/wysylanie-zalacznikow-poleceniem-mail/><span aria-hidden=true><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="20" y1="12" x2="4" y2="12"/><polyline points="10 18 4 12 10 6"/></svg>Previous</span>
-<span class=screen-reader-text>Previous post: </span>Wysyłanie załączników poleceniem mail</a></div><div class="next-entry sep-before"><a href=/2011/08/mysql-na-szybko/><span class=screen-reader-text>Next post: </span>MySQL - dostęp zdalny na szybko<span aria-hidden=true>Next<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="14 6 20 12 14 18"/></svg></span></a></div></div></nav><section id=comments class=comments><div class="container sep-before"><div class=comments-area><div id=disqus_thread></div><script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return;}
-var d=document,s=d.createElement('script');s.async=true;s.src='//'+"gagor-pl"+'.disqus.com/embed.js';s.setAttribute('data-timestamp',+new Date());(d.head||d.body).appendChild(s);})();</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div></div></section></main><footer id=footer class=footer><div class="container sep-before"><section class="widget widget-social_menu sep-after"><nav aria-label="Social Menu"><ul><li><a href=https://github.com/tgagor target=_blank rel="noopener me"><span class=screen-reader-text>Open Github account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77a5.44 5.44.0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg></a></li><li><a href=https://linkedin.com/in/tgagor target=_blank rel="noopener me"><span class=screen-reader-text>Open Linkedin account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a></li><li><a href=https://timor.site/index.xml target=_blank rel="noopener me"><span class=screen-reader-text>Open Rss account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></li></ul></nav></section><div class=copyright><p>&copy; 2011-2021 TiMoR Licensed under <a rel=license href="https://creativecommons.org/licenses/by-sa/4.0?ref=chooser-v1" target=_blank rel="license noopener noreferrer" style=display:inline-block>CC BY-SA 4.0<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p></div></div></footer></div></div><script>window.__assets_js_src="/assets/js/"</script><script src=/assets/js/main.c3bcf2df.js></script></body></html>
+</code></pre></div><p>Dla kolejnych użytkowników musimy tworzyć kolejne wpisy.</p>
+</div>
+<footer class=entry-footer>
+<div class="container sep-before"><div class=categories><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5A2 2 0 014 3H9l2 3h9a2 2 0 012 2z"/></svg>
+<span class=screen-reader-text>Categories: </span><a class=category href=/categories/howto/>HOWTO</a></div>
+<div class=tags><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2H12l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg>
+<span class=screen-reader-text>Tags: </span><a class=tag href=/tags/ftp/>FTP</a>, <a class=tag href=/tags/quota/>quota</a>, <a class=tag href=/tags/xfs/>XFS</a></div>
+</div>
+</footer>
+</article>
+<nav class=entry-nav>
+<div class=container><div class="prev-entry sep-before">
+<a href=/2011/08/wysylanie-zalacznikow-poleceniem-mail/>
+<span aria-hidden=true><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="20" y1="12" x2="4" y2="12"/><polyline points="10 18 4 12 10 6"/></svg>
+Previous</span>
+<span class=screen-reader-text>Previous post: </span>Wysyłanie załączników poleceniem mail</a>
+</div><div class="next-entry sep-before">
+<a href=/2011/08/mysql-na-szybko/>
+<span class=screen-reader-text>Next post: </span>MySQL - dostęp zdalny na szybko<span aria-hidden=true>Next<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="14 6 20 12 14 18"/></svg>
+</span>
+</a>
+</div></div>
+</nav>
+<section id=comments class=comments>
+<div class="container sep-before">
+<div class=comments-area><div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//gagor-pl.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</div>
+</div>
+</section>
+</main>
+<footer id=footer class=footer>
+<div class="container sep-before"><section class="widget widget-social_menu sep-after"><nav aria-label="Social Menu">
+<ul><li>
+<a href=https://github.com/tgagor target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Github account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg>
+</a>
+</li><li>
+<a href=https://linkedin.com/in/tgagor target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Linkedin account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+</a>
+</li><li>
+<a href=https://timor.site/index.xml target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Rss account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg>
+</a>
+</li></ul>
+</nav>
+</section><div class=copyright>
+<p> &copy; 2011-2021 TiMoR Licensed under <a rel=license href="https://creativecommons.org/licenses/by-sa/4.0?ref=chooser-v1" target=_blank rel="license noopener noreferrer" style=display:inline-block>CC BY-SA 4.0<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+</div>
+</div>
+</footer>
+</div>
+</div><script>window.__assets_js_src="/assets/js/"</script>
+<script src=/assets/js/main.c3bcf2df.js></script>
+</body>
+</html>

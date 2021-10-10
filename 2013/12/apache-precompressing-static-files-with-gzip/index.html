@@ -1,22 +1,127 @@
-<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Some time ago I&rsquo;ve show how to precompress js and css file with gzip to be available for Nginx&rsquo;s mod_gzip. In default configuration Apache don&rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.
+<!doctype html><html lang=en dir=auto><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Some time ago I&rsquo;ve show how to precompress js and css file with gzip to be available for Nginx&rsquo;s mod_gzip. In default configuration Apache don&rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.
 Basically we will start with these rewrites to serve gzipped CSS/JS files if they exist and the client accepts gzip compression:
-RewriteEngine on RewriteCond %{HTTP:Accept-encoding} gzip RewriteCond %{REQUEST_FILENAME}\.gz -s RewriteRule ^(.*)\.(js|css)$ $1\.$2\.gz [QSA] Then we need to setup proper content types for such compressed files - I know how to do this in two ways:"><meta name=theme-color content="#c64858"><meta property="og:title" content="Apache - precompressing static files with gzip • TiMoR"><meta property="og:description" content="Some time ago I&rsquo;ve show how to precompress js and css file with gzip to be available for Nginx&rsquo;s mod_gzip. In default configuration Apache don&rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.
+RewriteEngine on RewriteCond %{HTTP:Accept-encoding} gzip RewriteCond %{REQUEST_FILENAME}\.gz -s RewriteRule ^(.*)\.(js|css)$ $1\.$2\.gz [QSA] Then we need to setup proper content types for such compressed files - I know how to do this in two ways:">
+<meta name=theme-color content="#c64858">
+<meta property="og:title" content="Apache - precompressing static files with gzip • TiMoR">
+<meta property="og:description" content="Some time ago I&rsquo;ve show how to precompress js and css file with gzip to be available for Nginx&rsquo;s mod_gzip. In default configuration Apache don&rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.
 Basically we will start with these rewrites to serve gzipped CSS/JS files if they exist and the client accepts gzip compression:
-RewriteEngine on RewriteCond %{HTTP:Accept-encoding} gzip RewriteCond %{REQUEST_FILENAME}\.gz -s RewriteRule ^(.*)\.(js|css)$ $1\.$2\.gz [QSA] Then we need to setup proper content types for such compressed files - I know how to do this in two ways:"><meta property="og:url" content="https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/"><meta property="og:site_name" content="timor's site"><meta property="og:type" content="article"><meta property="og:image" content="https://www.gravatar.com/avatar/cfa9a17577371083824a78c303cc8ed7?s=256"><meta property="article:section" content="posts"><meta property="article:tag" content="Apache"><meta property="article:tag" content="Linux"><meta property="article:tag" content="mod_rewrite"><meta property="article:published_time" content="2013-12-27T00:00:00Z"><meta property="article:modified_time" content="2013-12-27T00:00:00Z"><meta name=twitter:card content="summary"><meta name=generator content="Hugo 0.76.5"><title>Apache - precompressing static files with gzip • TiMoR</title><link rel=canonical href=https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/><link rel=icon href=/favicon.ico><link rel=stylesheet href=/assets/css/main.ab98e12b.css><style>:root{--color-accent:#c64858}</style><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-88996819-1','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script></head><body class="page type-posts layout-post has-sidebar"><div class=site><div id=sidebar class=sidebar><a class=screen-reader-text href=#main-menu>Skip to Main Menu</a><div class=container><section class="widget widget-about sep-after"><header><div class=logo><a href=/><img src=/favicon.ico></a></div><h2 class="title site-title"><a href=/>timor's site</a></h2><div class=desc>Linux configuration, Automation, Security - Sysadmin/DevOps blog</div></header></section><section class="widget widget-search sep-after"><header><h4 class="title widget-title">Search</h4></header><form action=/search id=search-form class=search-form><label><span class=screen-reader-text>Search</span>
-<input id=search-term class=search-term type=search name=q placeholder=Search&mldr;></label></form></section><section class="widget widget-sidebar_menu sep-after"><nav id=sidebar-menu class="menu sidebar-menu" aria-label="Sidebar Menu"><div class=container><ul><li class=item><a href=/></a></li><li class=item><a href=/>Home</a></li><li class="item has-children"><a href=/categories/howto/>HOWTO</a><button class=sub-menu-toggler>
+RewriteEngine on RewriteCond %{HTTP:Accept-encoding} gzip RewriteCond %{REQUEST_FILENAME}\.gz -s RewriteRule ^(.*)\.(js|css)$ $1\.$2\.gz [QSA] Then we need to setup proper content types for such compressed files - I know how to do this in two ways:">
+<meta property="og:url" content="https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/">
+<meta property="og:site_name" content="timor's site">
+<meta property="og:type" content="article"><meta property="og:image" content="https://www.gravatar.com/avatar/cfa9a17577371083824a78c303cc8ed7?s=256"><meta property="article:section" content="posts"><meta property="article:tag" content="Apache"><meta property="article:tag" content="Linux"><meta property="article:tag" content="mod_rewrite"><meta property="article:published_time" content="2013-12-27T00:00:00Z"><meta property="article:modified_time" content="2013-12-27T00:00:00Z"><meta name=twitter:card content="summary">
+<meta name=generator content="Hugo 0.88.1">
+<title>Apache - precompressing static files with gzip • TiMoR</title>
+<link rel=canonical href=https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/>
+<link rel=icon href=/favicon.ico>
+<link rel=stylesheet href=/assets/css/main.ab98e12b.css><style>:root{--color-accent:#c64858}</style>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-88996819-1','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+</head>
+<body class="page type-posts layout-post has-sidebar">
+<div class=site><div id=sidebar class=sidebar>
+<a class=screen-reader-text href=#main-menu>Skip to Main Menu</a>
+<div class=container><section class="widget widget-about sep-after">
+<header>
+<div class=logo>
+<a href=/>
+<img src=/favicon.ico>
+</a>
+</div>
+<h2 class="title site-title">
+<a href=/>
+timor's site
+</a>
+</h2>
+<div class=desc>
+Linux configuration, Automation, Security - Sysadmin/DevOps blog
+</div>
+</header>
+</section>
+<section class="widget widget-search sep-after">
+<header>
+<h4 class="title widget-title">Search</h4>
+</header>
+<form action=/search id=search-form class=search-form>
+<label>
+<span class=screen-reader-text>Search</span>
+<input id=search-term class=search-term type=search name=q placeholder=Search&mldr;>
+</label></form>
+</section>
+<section class="widget widget-sidebar_menu sep-after"><nav id=sidebar-menu class="menu sidebar-menu" aria-label="Sidebar Menu">
+<div class=container>
+<ul><li class=item>
+<a href=/></a></li><li class=item>
+<a href=/>Home</a></li><li class="item has-children">
+<a href=/categories/howto/>HOWTO</a><button class=sub-menu-toggler>
 <span class=screen-reader-text>expand sub menu</span>
-<span class=sign></span></button><ul class=sub-menu><li class=item><a href=/categories/tip/>Tips</a></li></ul></li><li class=item><a href=/categories/off-topic/>Off-topic</a></li><li class=item><a href=/categories/gotowanie/>Gotowanie</a></li><li class=item><a href=/about/>About</a></li></ul></div></nav></section></div><div class=sidebar-overlay></div></div><div class=main><a class=screen-reader-text href=#content>Skip to Content</a>
+<span class=sign></span>
+</button>
+<ul class=sub-menu><li class=item>
+<a href=/categories/tip/>Tips</a></li></ul></li><li class=item>
+<a href=/categories/off-topic/>Off-topic</a></li><li class=item>
+<a href=/categories/gotowanie/>Gotowanie</a></li><li class=item>
+<a href=/about/>About</a></li></ul>
+</div>
+</nav>
+</section></div>
+<div class=sidebar-overlay></div>
+</div><div class=main><a class=screen-reader-text href=#content>Skip to Content</a>
 <button id=sidebar-toggler class=sidebar-toggler aria-controls=sidebar>
 <span class=screen-reader-text>Toggle Sidebar</span>
-<span class=open><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></span><span class=close><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span></button><div class=header-widgets><div class=container><style>.widget-breadcrumbs li:after{content:'\2f '}</style><section class="widget widget-breadcrumbs sep-after"><nav id=breadcrumbs><ol><li><a href=/>Home</a></li><li><a href=/posts/>Posts</a></li><li><span>Apache - precompressing static files with gzip</span></li></ol></nav></section></div></div><header id=header class="header site-header"><div class="container sep-after"><div class=header-info><p class="site-title title">timor's site</p><p class="desc site-desc">Linux configuration, Automation, Security - Sysadmin/DevOps blog</p></div></div></header><main id=content><article lang=en class=entry><header class="header entry-header"><div class="container sep-after"><div class=header-info><h1 class=title>Apache - precompressing static files with gzip</h1></div><div class=entry-meta><span class=posted-on><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span class=screen-reader-text>Posted on</span>
-<time class=entry-date datetime=2013-12-27T00:00:00Z>2013-12-27</time></span>
-<span class=byline><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M21 21V20c0-2.76-4-5-9-5s-9 2.24-9 5v1"/><path d="M16 6.37A4 4 0 1112.63 3 4 4 0 0116 6.37z"/></svg><span class=screen-reader-text>by </span><a href=/authors/timor>TiMoR</a></span>
-<span class=reading-time><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 15 15"/></svg>2 mins read</span></div></div></header><div class="container entry-content"><p>Some time ago I&rsquo;ve show <a href=https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/ title="Nginx - kompresowanie plików dla gzip_static">how to precompress <em>js</em> and <em>css</em> file with gzip to be available for Nginx&rsquo;s mod_gzip</a>. In default configuration Apache don&rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.</p><p>Basically we will start with these rewrites to serve gzipped CSS/JS files if they exist and the client accepts gzip compression:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>
+<span class=open><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</span>
+<span class=close><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+</span>
+</button><div class=header-widgets>
+<div class=container>
+<style>.widget-breadcrumbs li:after{content:'\2f '}</style>
+<section class="widget widget-breadcrumbs sep-after">
+<nav id=breadcrumbs>
+<ol><li><a href=/>Home</a></li><li><a href=/posts/>Posts</a></li><li><span>Apache - precompressing static files with gzip</span></li></ol>
+</nav>
+</section></div>
+</div>
+<header id=header class="header site-header">
+<div class="container sep-after">
+<div class=header-info><p class="site-title title">timor's site</p><p class="desc site-desc">Linux configuration, Automation, Security - Sysadmin/DevOps blog</p>
+</div>
+</div>
+</header>
+<main id=content>
+<article lang=en class=entry>
+<header class="header entry-header">
+<div class="container sep-after">
+<div class=header-info>
+<h1 class=title>Apache - precompressing static files with gzip</h1>
+</div>
+<div class=entry-meta>
+<span class=posted-on><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+<span class=screen-reader-text>Posted on </span>
+<time class=entry-date datetime=2013-12-27T00:00:00Z>2013-12-27</time>
+</span>
+<span class=byline><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M21 21V20c0-2.76-4-5-9-5s-9 2.24-9 5v1"/><path d="M16 6.37A4 4 0 1112.63 3 4 4 0 0116 6.37z"/></svg>
+<span class=screen-reader-text> by </span><a href=/authors/timor>TiMoR</a></span>
+<span class=reading-time><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 15 15"/></svg>
+2 mins read
+</span>
+</div>
+</div>
+</header>
+<div class="container entry-content">
+<p>Some time ago I&rsquo;ve show <a href=https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/ title="Nginx - kompresowanie plików dla gzip_static">how to precompress <em>js</em> and <em>css</em> file with gzip to be available for Nginx&rsquo;s mod_gzip</a>. In default configuration Apache don&rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.</p>
+<p>Basically we will start with these rewrites to serve gzipped CSS/JS files if they exist and the client accepts gzip compression:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>
 RewriteEngine on
 RewriteCond %{HTTP:Accept-encoding} gzip
 RewriteCond %{REQUEST_FILENAME}\.gz -s
 RewriteRule ^(.*)\.(js|css)$ $1\.$2\.gz [QSA]
-</code></pre></div><p>Then we need to setup proper content types for such compressed files - I know how to do this in two ways:</p><ul><li>pure rewrites with mod_header - witch should serve correct content type and prevent mod_deflate to gzip files that are already gzipped<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>
+</code></pre></div><p>Then we need to setup proper content types for such compressed files - I know how to do this in two ways:</p>
+<ul>
+<li>pure rewrites with mod_header - witch should serve correct content type and prevent mod_deflate to gzip files that are already gzipped
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>
 RewriteRule \.css\.gz$ - [T=text/css,E=no-gzip:1,E=manualgzip:1]
 RewriteRule \.js\.gz$ - [T=text/javascript,E=no-gzip:1,E=manualgzip:1]
 
@@ -24,7 +129,9 @@ RewriteRule \.js\.gz$ - [T=text/javascript,E=no-gzip:1,E=manualgzip:1]
 # setup this header only if rewrites above were used
 Header set Content-Encoding &#34;gzip&#34; env=manualgzip
 &lt;/ifmodule&gt;
-</code></pre></div></li><li>by using Files clause (we could add this globally in <em>httpd.conf</em>)<div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>
+</code></pre></div></li>
+<li>by using Files clause (we could add this globally in <em>httpd.conf</em>)
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>
 &lt;files *.css.gz&gt;
 ForceType text/css
 Header set Content-Encoding &#34;gzip&#34;
@@ -35,7 +142,72 @@ Header set Content-Encoding &#34;gzip&#34;
 ForceType application/javascript
 Header set Content-Encoding &#34;gzip&#34;
 &lt;/files&gt;
-</code></pre></div></li></ul><p>Both ways work fine. First one sets <em>no-gzip</em> variable to bypass second time compression. Second one rely on such option in my mod_deflate&rsquo;s config:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>SetEnvIfNoCase Request_URI \.(?:exe|t?gz|zip|bz2|sit|rar|gz)$ no-gzip dont-vary
-</code></pre></div><p>which won&rsquo;t compress any <em>gz</em> file, and this is why I have to setup <em>Content-Encoding</em> to <em>gzip</em> manually.</p><p>In both cases you will end with javacript and CSS files served from earlier prepared precomressed versions, with proper content type without engaging mod_deflate regardless you use <em>js/css</em> or <em>js.gz/css.gz</em> extension. But I strongly suggest to use extensions without <em>gz</em> - you will be able to disable this mechanism without any change in website code.</p><p>If you don&rsquo;t know how to prepare files just <a href=https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/ title="Nginx - kompresowanie plików dla gzip_static">look here</a>.</p><p>P.S.<br>I found <a href=https://blog.jcoglan.com/2007/05/02/compress-javascript-and-css-without-touching-your-application-code/ target=_blank>another similar but BAD example</a> - it&rsquo;s using <em>AddEncoding</em> clause to add gzip content type to ALL gzip files - this will cause problems with other compressed files with <em>gz</em> extension ex. <em>tar.gz</em>. Don&rsquo;t do this. My rules above are more selective.</p><h5 id=sources>Sources</h5><p><a href=http://stackoverflow.com/questions/7947906/add-expiry-headers-using-apache-for-paths-which-dont-exist-in-the-filesystem>http://stackoverflow.com/questions/7947906/add-expiry-headers-using-apache-for-paths-which-dont-exist-in-the-filesystem</a><br><a href=http://stackoverflow.com/questions/9076752/how-to-force-apache-to-use-manually-pre-compressed-gz-file-of-css-and-js-files>http://stackoverflow.com/questions/9076752/how-to-force-apache-to-use-manually-pre-compressed-gz-file-of-css-and-js-files</a></p></div><footer class=entry-footer><div class="container sep-before"><div class=categories><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5A2 2 0 014 3H9l2 3h9a2 2 0 012 2z"/></svg><span class=screen-reader-text>Categories: </span><a class=category href=/categories/tip/>Tip</a>, <a class=category href=/categories/howto/>HOWTO</a></div><div class=tags><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2H12l8.59 8.59A2 2 0 0120.59 13.41z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=screen-reader-text>Tags: </span><a class=tag href=/tags/apache/>Apache</a>, <a class=tag href=/tags/linux/>Linux</a>, <a class=tag href=/tags/mod_rewrite/>mod_rewrite</a></div></div></footer></article><nav class=entry-nav><div class=container><div class="prev-entry sep-before"><a href=/2013/12/android-xposed-appops-reclaim-control-over-installed-applications-permissions/><span aria-hidden=true><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="20" y1="12" x2="4" y2="12"/><polyline points="10 18 4 12 10 6"/></svg>Previous</span>
-<span class=screen-reader-text>Previous post: </span>Android: Xposed + AppOps - reclaim control over installed applications permissions</a></div><div class="next-entry sep-before"><a href=/2014/01/tracking-users-by-nickname-on-wordpress-using-google-analytics/><span class=screen-reader-text>Next post: </span>Tracking users by nickname on WordPress using Google Analytics<span aria-hidden=true>Next<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="14 6 20 12 14 18"/></svg></span></a></div></div></nav><section id=comments class=comments><div class="container sep-before"><div class=comments-area><div id=disqus_thread></div><script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return;}
-var d=document,s=d.createElement('script');s.async=true;s.src='//'+"gagor-pl"+'.disqus.com/embed.js';s.setAttribute('data-timestamp',+new Date());(d.head||d.body).appendChild(s);})();</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div></div></section></main><footer id=footer class=footer><div class="container sep-before"><section class="widget widget-social_menu sep-after"><nav aria-label="Social Menu"><ul><li><a href=https://github.com/tgagor target=_blank rel="noopener me"><span class=screen-reader-text>Open Github account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77a5.44 5.44.0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg></a></li><li><a href=https://linkedin.com/in/tgagor target=_blank rel="noopener me"><span class=screen-reader-text>Open Linkedin account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a></li><li><a href=https://timor.site/index.xml target=_blank rel="noopener me"><span class=screen-reader-text>Open Rss account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></li></ul></nav></section><div class=copyright><p>&copy; 2011-2021 TiMoR Licensed under <a rel=license href="https://creativecommons.org/licenses/by-sa/4.0?ref=chooser-v1" target=_blank rel="license noopener noreferrer" style=display:inline-block>CC BY-SA 4.0<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p></div></div></footer></div></div><script>window.__assets_js_src="/assets/js/"</script><script src=/assets/js/main.c3bcf2df.js></script></body></html>
+</code></pre></div></li>
+</ul>
+<p>Both ways work fine. First one sets <em>no-gzip</em> variable to bypass second time compression. Second one rely on such option in my mod_deflate&rsquo;s config:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>SetEnvIfNoCase Request_URI \.(?:exe|t?gz|zip|bz2|sit|rar|gz)$ no-gzip dont-vary
+</code></pre></div><p>which won&rsquo;t compress any <em>gz</em> file, and this is why I have to setup <em>Content-Encoding</em> to <em>gzip</em> manually.</p>
+<p>In both cases you will end with javacript and CSS files served from earlier prepared precomressed versions, with proper content type without engaging mod_deflate regardless you use <em>js/css</em> or <em>js.gz/css.gz</em> extension. But I strongly suggest to use extensions without <em>gz</em> - you will be able to disable this mechanism without any change in website code.</p>
+<p>If you don&rsquo;t know how to prepare files just <a href=https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/ title="Nginx - kompresowanie plików dla gzip_static">look here</a>.</p>
+<p>P.S.<br> I found <a href=https://blog.jcoglan.com/2007/05/02/compress-javascript-and-css-without-touching-your-application-code/ target=_blank>another similar but BAD example</a> - it&rsquo;s using <em>AddEncoding</em> clause to add gzip content type to ALL gzip files - this will cause problems with other compressed files with <em>gz</em> extension ex. <em>tar.gz</em>. Don&rsquo;t do this. My rules above are more selective.</p>
+<h5 id=sources>Sources</h5>
+<p><a href=http://stackoverflow.com/questions/7947906/add-expiry-headers-using-apache-for-paths-which-dont-exist-in-the-filesystem>http://stackoverflow.com/questions/7947906/add-expiry-headers-using-apache-for-paths-which-dont-exist-in-the-filesystem</a> <br>
+<a href=http://stackoverflow.com/questions/9076752/how-to-force-apache-to-use-manually-pre-compressed-gz-file-of-css-and-js-files>http://stackoverflow.com/questions/9076752/how-to-force-apache-to-use-manually-pre-compressed-gz-file-of-css-and-js-files</a></p>
+</div>
+<footer class=entry-footer>
+<div class="container sep-before"><div class=categories><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5A2 2 0 014 3H9l2 3h9a2 2 0 012 2z"/></svg>
+<span class=screen-reader-text>Categories: </span><a class=category href=/categories/tip/>Tip</a>, <a class=category href=/categories/howto/>HOWTO</a></div>
+<div class=tags><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2H12l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg>
+<span class=screen-reader-text>Tags: </span><a class=tag href=/tags/apache/>Apache</a>, <a class=tag href=/tags/linux/>Linux</a>, <a class=tag href=/tags/mod_rewrite/>mod_rewrite</a></div>
+</div>
+</footer>
+</article>
+<nav class=entry-nav>
+<div class=container><div class="prev-entry sep-before">
+<a href=/2013/12/android-xposed-appops-reclaim-control-over-installed-applications-permissions/>
+<span aria-hidden=true><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="20" y1="12" x2="4" y2="12"/><polyline points="10 18 4 12 10 6"/></svg>
+Previous</span>
+<span class=screen-reader-text>Previous post: </span>Android: Xposed + AppOps - reclaim control over installed applications permissions</a>
+</div><div class="next-entry sep-before">
+<a href=/2014/01/tracking-users-by-nickname-on-wordpress-using-google-analytics/>
+<span class=screen-reader-text>Next post: </span>Tracking users by nickname on WordPress using Google Analytics<span aria-hidden=true>Next<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="14 6 20 12 14 18"/></svg>
+</span>
+</a>
+</div></div>
+</nav>
+<section id=comments class=comments>
+<div class="container sep-before">
+<div class=comments-area><div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//gagor-pl.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</div>
+</div>
+</section>
+</main>
+<footer id=footer class=footer>
+<div class="container sep-before"><section class="widget widget-social_menu sep-after"><nav aria-label="Social Menu">
+<ul><li>
+<a href=https://github.com/tgagor target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Github account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg>
+</a>
+</li><li>
+<a href=https://linkedin.com/in/tgagor target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Linkedin account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+</a>
+</li><li>
+<a href=https://timor.site/index.xml target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Rss account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg>
+</a>
+</li></ul>
+</nav>
+</section><div class=copyright>
+<p> &copy; 2011-2021 TiMoR Licensed under <a rel=license href="https://creativecommons.org/licenses/by-sa/4.0?ref=chooser-v1" target=_blank rel="license noopener noreferrer" style=display:inline-block>CC BY-SA 4.0<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+</div>
+</div>
+</footer>
+</div>
+</div><script>window.__assets_js_src="/assets/js/"</script>
+<script src=/assets/js/main.c3bcf2df.js></script>
+</body>
+</html>

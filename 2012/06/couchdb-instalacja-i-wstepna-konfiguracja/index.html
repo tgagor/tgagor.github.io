@@ -1,22 +1,220 @@
-<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Gdy tworzymy pierwszą aplikację webową, która umożliwia upload plików przeważnie lądują one lokalnie w pewniej lokalizacji. Gdy druga aplikacja potrzebuje dostępu do tych plików wystarczy podać ścieżkę. Problemy zaczynają się gdy aplikacji jest kilka i rozmieszczonych na kilku serwerach. Można korzystać z sieciowych systemów plików ale to często nie jest zbyt wygodne - ciężko odpowiednio ustawić uprawnienia by pewne aplikacje miały dostęp do zapisu plików a inne nie, trzeba skonfigurować dany katalog w kilku miejscach w konfiguracji serwera WWW aby serwować pliki itp&mldr;"><meta name=theme-color content="#c64858"><meta property="og:title" content="CouchDB - Instalacja i wstępna konfiguracja • TiMoR"><meta property="og:description" content="Gdy tworzymy pierwszą aplikację webową, która umożliwia upload plików przeważnie lądują one lokalnie w pewniej lokalizacji. Gdy druga aplikacja potrzebuje dostępu do tych plików wystarczy podać ścieżkę. Problemy zaczynają się gdy aplikacji jest kilka i rozmieszczonych na kilku serwerach. Można korzystać z sieciowych systemów plików ale to często nie jest zbyt wygodne - ciężko odpowiednio ustawić uprawnienia by pewne aplikacje miały dostęp do zapisu plików a inne nie, trzeba skonfigurować dany katalog w kilku miejscach w konfiguracji serwera WWW aby serwować pliki itp&mldr;"><meta property="og:url" content="https://timor.site/2012/06/couchdb-instalacja-i-wstepna-konfiguracja/"><meta property="og:site_name" content="timor's site"><meta property="og:type" content="article"><meta property="og:image" content="https://www.gravatar.com/avatar/cfa9a17577371083824a78c303cc8ed7?s=256"><meta property="article:section" content="posts"><meta property="article:tag" content="CouchDB"><meta property="article:tag" content="Debian"><meta property="article:tag" content="Linux"><meta property="article:published_time" content="2012-06-08T00:00:00Z"><meta property="article:modified_time" content="2012-06-08T00:00:00Z"><meta name=twitter:card content="summary"><meta name=generator content="Hugo 0.76.5"><title>CouchDB - Instalacja i wstępna konfiguracja • TiMoR</title><link rel=canonical href=https://timor.site/2012/06/couchdb-instalacja-i-wstepna-konfiguracja/><link rel=icon href=/favicon.ico><link rel=stylesheet href=/assets/css/main.ab98e12b.css><style>:root{--color-accent:#c64858}</style><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-88996819-1','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script></head><body class="page type-posts layout-post has-sidebar"><div class=site><div id=sidebar class=sidebar><a class=screen-reader-text href=#main-menu>Skip to Main Menu</a><div class=container><section class="widget widget-about sep-after"><header><div class=logo><a href=/><img src=/favicon.ico></a></div><h2 class="title site-title"><a href=/>timor's site</a></h2><div class=desc>Linux configuration, Automation, Security - Sysadmin/DevOps blog</div></header></section><section class="widget widget-search sep-after"><header><h4 class="title widget-title">Search</h4></header><form action=/search id=search-form class=search-form><label><span class=screen-reader-text>Search</span>
-<input id=search-term class=search-term type=search name=q placeholder=Search&mldr;></label></form></section><section class="widget widget-sidebar_menu sep-after"><nav id=sidebar-menu class="menu sidebar-menu" aria-label="Sidebar Menu"><div class=container><ul><li class=item><a href=/></a></li><li class=item><a href=/>Home</a></li><li class="item has-children"><a href=/categories/howto/>HOWTO</a><button class=sub-menu-toggler>
+<!doctype html><html lang=en dir=auto><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Gdy tworzymy pierwszą aplikację webową, która umożliwia upload plików przeważnie lądują one lokalnie w pewniej lokalizacji. Gdy druga aplikacja potrzebuje dostępu do tych plików wystarczy podać ścieżkę. Problemy zaczynają się gdy aplikacji jest kilka i rozmieszczonych na kilku serwerach. Można korzystać z sieciowych systemów plików ale to często nie jest zbyt wygodne - ciężko odpowiednio ustawić uprawnienia by pewne aplikacje miały dostęp do zapisu plików a inne nie, trzeba skonfigurować dany katalog w kilku miejscach w konfiguracji serwera WWW aby serwować pliki itp&mldr;">
+<meta name=theme-color content="#c64858">
+<meta property="og:title" content="CouchDB - Instalacja i wstępna konfiguracja • TiMoR">
+<meta property="og:description" content="Gdy tworzymy pierwszą aplikację webową, która umożliwia upload plików przeważnie lądują one lokalnie w pewniej lokalizacji. Gdy druga aplikacja potrzebuje dostępu do tych plików wystarczy podać ścieżkę. Problemy zaczynają się gdy aplikacji jest kilka i rozmieszczonych na kilku serwerach. Można korzystać z sieciowych systemów plików ale to często nie jest zbyt wygodne - ciężko odpowiednio ustawić uprawnienia by pewne aplikacje miały dostęp do zapisu plików a inne nie, trzeba skonfigurować dany katalog w kilku miejscach w konfiguracji serwera WWW aby serwować pliki itp&mldr;">
+<meta property="og:url" content="https://timor.site/2012/06/couchdb-instalacja-i-wstepna-konfiguracja/">
+<meta property="og:site_name" content="timor's site">
+<meta property="og:type" content="article"><meta property="og:image" content="https://www.gravatar.com/avatar/cfa9a17577371083824a78c303cc8ed7?s=256"><meta property="article:section" content="posts"><meta property="article:tag" content="CouchDB"><meta property="article:tag" content="Debian"><meta property="article:tag" content="Linux"><meta property="article:published_time" content="2012-06-08T00:00:00Z"><meta property="article:modified_time" content="2012-06-08T00:00:00Z"><meta name=twitter:card content="summary">
+<meta name=generator content="Hugo 0.88.1">
+<title>CouchDB - Instalacja i wstępna konfiguracja • TiMoR</title>
+<link rel=canonical href=https://timor.site/2012/06/couchdb-instalacja-i-wstepna-konfiguracja/>
+<link rel=icon href=/favicon.ico>
+<link rel=stylesheet href=/assets/css/main.ab98e12b.css><style>:root{--color-accent:#c64858}</style>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-88996819-1','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+</head>
+<body class="page type-posts layout-post has-sidebar">
+<div class=site><div id=sidebar class=sidebar>
+<a class=screen-reader-text href=#main-menu>Skip to Main Menu</a>
+<div class=container><section class="widget widget-about sep-after">
+<header>
+<div class=logo>
+<a href=/>
+<img src=/favicon.ico>
+</a>
+</div>
+<h2 class="title site-title">
+<a href=/>
+timor's site
+</a>
+</h2>
+<div class=desc>
+Linux configuration, Automation, Security - Sysadmin/DevOps blog
+</div>
+</header>
+</section>
+<section class="widget widget-search sep-after">
+<header>
+<h4 class="title widget-title">Search</h4>
+</header>
+<form action=/search id=search-form class=search-form>
+<label>
+<span class=screen-reader-text>Search</span>
+<input id=search-term class=search-term type=search name=q placeholder=Search&mldr;>
+</label></form>
+</section>
+<section class="widget widget-sidebar_menu sep-after"><nav id=sidebar-menu class="menu sidebar-menu" aria-label="Sidebar Menu">
+<div class=container>
+<ul><li class=item>
+<a href=/></a></li><li class=item>
+<a href=/>Home</a></li><li class="item has-children">
+<a href=/categories/howto/>HOWTO</a><button class=sub-menu-toggler>
 <span class=screen-reader-text>expand sub menu</span>
-<span class=sign></span></button><ul class=sub-menu><li class=item><a href=/categories/tip/>Tips</a></li></ul></li><li class=item><a href=/categories/off-topic/>Off-topic</a></li><li class=item><a href=/categories/gotowanie/>Gotowanie</a></li><li class=item><a href=/about/>About</a></li></ul></div></nav></section></div><div class=sidebar-overlay></div></div><div class=main><a class=screen-reader-text href=#content>Skip to Content</a>
+<span class=sign></span>
+</button>
+<ul class=sub-menu><li class=item>
+<a href=/categories/tip/>Tips</a></li></ul></li><li class=item>
+<a href=/categories/off-topic/>Off-topic</a></li><li class=item>
+<a href=/categories/gotowanie/>Gotowanie</a></li><li class=item>
+<a href=/about/>About</a></li></ul>
+</div>
+</nav>
+</section></div>
+<div class=sidebar-overlay></div>
+</div><div class=main><a class=screen-reader-text href=#content>Skip to Content</a>
 <button id=sidebar-toggler class=sidebar-toggler aria-controls=sidebar>
 <span class=screen-reader-text>Toggle Sidebar</span>
-<span class=open><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></span><span class=close><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></span></button><div class=header-widgets><div class=container><style>.widget-breadcrumbs li:after{content:'\2f '}</style><section class="widget widget-breadcrumbs sep-after"><nav id=breadcrumbs><ol><li><a href=/>Home</a></li><li><a href=/posts/>Posts</a></li><li><span>CouchDB - Instalacja i wstępna konfiguracja</span></li></ol></nav></section></div></div><header id=header class="header site-header"><div class="container sep-after"><div class=header-info><p class="site-title title">timor's site</p><p class="desc site-desc">Linux configuration, Automation, Security - Sysadmin/DevOps blog</p></div></div></header><main id=content><article lang=en class=entry><header class="header entry-header"><div class="container sep-after"><div class=header-info><h1 class=title>CouchDB - Instalacja i wstępna konfiguracja</h1></div><div class=entry-meta><span class=posted-on><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg><span class=screen-reader-text>Posted on</span>
-<time class=entry-date datetime=2012-06-08T00:00:00Z>2012-06-08</time></span>
-<span class=byline><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M21 21V20c0-2.76-4-5-9-5s-9 2.24-9 5v1"/><path d="M16 6.37A4 4 0 1112.63 3 4 4 0 0116 6.37z"/></svg><span class=screen-reader-text>by </span><a href=/authors/timor>TiMoR</a></span>
-<span class=reading-time><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 15 15"/></svg>4 mins read</span></div></div></header><div class="container entry-content"><p>Gdy tworzymy pierwszą aplikację webową, która umożliwia upload plików przeważnie lądują one lokalnie w pewniej lokalizacji. Gdy druga aplikacja potrzebuje dostępu do tych plików wystarczy podać ścieżkę. Problemy zaczynają się gdy aplikacji jest kilka i rozmieszczonych na kilku serwerach. Można korzystać z sieciowych systemów plików ale to często nie jest zbyt wygodne - ciężko odpowiednio ustawić uprawnienia by pewne aplikacje miały dostęp do zapisu plików a inne nie, trzeba skonfigurować dany katalog w kilku miejscach w konfiguracji serwera WWW aby serwować pliki itp&mldr;</p><p>Jeżeli w utrzymaniu swoich aplikacji dociera się do takiego momentu to kolejne pomysły zakładają wykorzystanie bazy danych do przechowywania plików. Ale chwila googlania i już wiemy że bazy typu SQL średnio radzą sobie z przetwarzaniem tak dużych rekordów jak pliki. Kolejny etap to sprawdzenie co mogą nam zaoferować bazy NoSQL.</p><p>W tym miejscu przeczytałem wiele różnych artykułów i ostatecznie zastanawiałem się czy wybrać MongoDB czy CouchDB. Oba projekty są bardzo podobne a główną ich zaletą jest łatwość wykorzystania w istniejących aplikacjach webowych. Tutaj szczególnie CouchDB wypada bardzo dobrze bo zarządzanie i dostęp do bazy odbywa się standardowym protokołem HTTP - polecenia wydaje się POST&rsquo;ami, a dane pobiera GET&rsquo;ami. Dzięki takiej budowie łatwo można schować CouchDB za reverse proxy i serwować np. pliki uploadowane przez użytkowników wprost z bazy - bez dorabiania dodatkowych interfejsów. Bardzo łatwo też obsługuje się bazę z poziomu aplikacji AJAX. Więc w moim przypadku wypadło na CouchDB.</p><h1 id=instalacja>Instalacja</h1><p>Instalacja na Debianie jest banalna i sprowadza się do:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>apt-get install -y couchdb
-</code></pre></div><p>TADAM! Mamy działające CouchDB. Domyślnie baza nasłuchuje na adresie <code>127.0.0.1</code> i porcie <code>5984</code>.</p><p>Dodatkowo Couch posiada webowy interfejs (zwany Futon&rsquo;em) zarządzający dostępny na tym samym porcie pod adresem, np. http://127.0.0.1:5984/_utils/</p><h1 id=optymalizacja>Optymalizacja</h1><h2 id=nodelay>NODELAY</h2><p>W moim przypadku CouchDB służy do przechowywania zarówno bardzo wielu małych plików, jak i kilku całkiem sporych. W przypadku bardzo małych plików CouchDB w wersji 0.11 czeka z wysłaniem odpowiedzi od razu bo być może uda się &ldquo;dorzucić coś jeszcze&rdquo;. Takie zachowanie może powodować opóźnienia przy pobieraniu małych plików, warto więc zmienić w pliku <code>/etc/couchdb/local.ini</code> taką opcję:</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>[httpd]
+<span class=open><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+</span>
+<span class=close><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+</span>
+</button><div class=header-widgets>
+<div class=container>
+<style>.widget-breadcrumbs li:after{content:'\2f '}</style>
+<section class="widget widget-breadcrumbs sep-after">
+<nav id=breadcrumbs>
+<ol><li><a href=/>Home</a></li><li><a href=/posts/>Posts</a></li><li><span>CouchDB - Instalacja i wstępna konfiguracja</span></li></ol>
+</nav>
+</section></div>
+</div>
+<header id=header class="header site-header">
+<div class="container sep-after">
+<div class=header-info><p class="site-title title">timor's site</p><p class="desc site-desc">Linux configuration, Automation, Security - Sysadmin/DevOps blog</p>
+</div>
+</div>
+</header>
+<main id=content>
+<article lang=en class=entry>
+<header class="header entry-header">
+<div class="container sep-after">
+<div class=header-info>
+<h1 class=title>CouchDB - Instalacja i wstępna konfiguracja</h1>
+</div>
+<div class=entry-meta>
+<span class=posted-on><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+<span class=screen-reader-text>Posted on </span>
+<time class=entry-date datetime=2012-06-08T00:00:00Z>2012-06-08</time>
+</span>
+<span class=byline><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M21 21V20c0-2.76-4-5-9-5s-9 2.24-9 5v1"/><path d="M16 6.37A4 4 0 1112.63 3 4 4 0 0116 6.37z"/></svg>
+<span class=screen-reader-text> by </span><a href=/authors/timor>TiMoR</a></span>
+<span class=reading-time><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 15 15"/></svg>
+4 mins read
+</span>
+</div>
+</div>
+</header>
+<div class="container entry-content">
+<p>Gdy tworzymy pierwszą aplikację webową, która umożliwia upload plików przeważnie lądują one lokalnie w pewniej lokalizacji. Gdy druga aplikacja potrzebuje dostępu do tych plików wystarczy podać ścieżkę. Problemy zaczynają się gdy aplikacji jest kilka i rozmieszczonych na kilku serwerach. Można korzystać z sieciowych systemów plików ale to często nie jest zbyt wygodne - ciężko odpowiednio ustawić uprawnienia by pewne aplikacje miały dostęp do zapisu plików a inne nie, trzeba skonfigurować dany katalog w kilku miejscach w konfiguracji serwera WWW aby serwować pliki itp&mldr;</p>
+<p>Jeżeli w utrzymaniu swoich aplikacji dociera się do takiego momentu to kolejne pomysły zakładają wykorzystanie bazy danych do przechowywania plików. Ale chwila googlania i już wiemy że bazy typu SQL średnio radzą sobie z przetwarzaniem tak dużych rekordów jak pliki. Kolejny etap to sprawdzenie co mogą nam zaoferować bazy NoSQL.</p>
+<p>W tym miejscu przeczytałem wiele różnych artykułów i ostatecznie zastanawiałem się czy wybrać MongoDB czy CouchDB. Oba projekty są bardzo podobne a główną ich zaletą jest łatwość wykorzystania w istniejących aplikacjach webowych. Tutaj szczególnie CouchDB wypada bardzo dobrze bo zarządzanie i dostęp do bazy odbywa się standardowym protokołem HTTP - polecenia wydaje się POST&rsquo;ami, a dane pobiera GET&rsquo;ami. Dzięki takiej budowie łatwo można schować CouchDB za reverse proxy i serwować np. pliki uploadowane przez użytkowników wprost z bazy - bez dorabiania dodatkowych interfejsów. Bardzo łatwo też obsługuje się bazę z poziomu aplikacji AJAX. Więc w moim przypadku wypadło na CouchDB.</p>
+<h1 id=instalacja>Instalacja</h1>
+<p>Instalacja na Debianie jest banalna i sprowadza się do:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>apt-get install -y couchdb
+</code></pre></div><p>TADAM! Mamy działające CouchDB. Domyślnie baza nasłuchuje na adresie <code>127.0.0.1</code> i porcie <code>5984</code>.</p>
+<p>Dodatkowo Couch posiada webowy interfejs (zwany Futon&rsquo;em) zarządzający dostępny na tym samym porcie pod adresem, np. http://127.0.0.1:5984/_utils/</p>
+<h1 id=optymalizacja>Optymalizacja</h1>
+<h2 id=nodelay>NODELAY</h2>
+<p>W moim przypadku CouchDB służy do przechowywania zarówno bardzo wielu małych plików, jak i kilku całkiem sporych. W przypadku bardzo małych plików CouchDB w wersji 0.11 czeka z wysłaniem odpowiedzi od razu bo być może uda się &ldquo;dorzucić coś jeszcze&rdquo;. Takie zachowanie może powodować opóźnienia przy pobieraniu małych plików, warto więc zmienić w pliku <code>/etc/couchdb/local.ini</code> taką opcję:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>[httpd]
 socket_options = [{nodelay, true}]
-</code></pre></div><p>Ustawienie opcji TCP NODELAY wyłączy opóźnienie przy wysyłaniu małych plików.</p><h2 id=identyfikatory>Identyfikatory</h2><p>Warto zastanowić się nad długością i schematem identyfikatorów dla rekordów. Domyślnie mają one 32 bajty co przy małej liczbie elementów w bazie jest mocną przesadą. Rozmiar identyfikatorów znacznie wpływa na rozmiar bazy i jej wydajność - dlatego czasem warto opracować własny schemat generowanych identyfikatorów. Przykładowo jeśli identyfikator będzie generowany z cyfr oraz dużych i małych liter to dla 3 znaków możemy wygenerować identyfikatory dla ponad 260 tys. elementów, dla 4 znaków już ponad 14 milionów co powinno wystarczyć dla średniej wielkości bazy.</p><h1 id=ustawienia-bezpieczeństwa>Ustawienia bezpieczeństwa</h1><p>Trochę mnie zaskoczyło podejście do bezpieczeństwa w bazie CouchDB - domyślnie po instalacji baza działa w trybie <strong>Admin Party</strong>, czyli każda osoba która wejdzie do zarządzania bez logowania ma uprawnienia administratora 😄</p><p><img src=/2012/06/couch1.png alt="Admin Party"></p><p>Mnie ten stan rzeczy nie bardzo odpowiadał więc:</p><ul><li>odpalamy interfejs zarządzający - Futon i w prawym dolnym rogu szukamy tekstu: &ldquo;Welcome to Admin Party! Everyone is admin. Fix this&rdquo; - klikamy na &ldquo;Fix this&rdquo;,</li><li>w okienku które się pojawi podajemy login i hasło administratora.<br><img src=/2012/06/couch2-300x281.png alt="Dodawanie administratora"></li></ul><p>Po ustawieniu konta administratora dalsze musimy zadbać o ustawienie odpowiednich uprawnień dla każdej nowo tworzonej bazy, czyli bazy tworzą się dostępem dla wszystkich ale możemy ograniczyć np. zapis/odczyt dla pewnych grup użytkowników.</p><h2 id=zabezpieczenie-bazy-użytkowników>Zabezpieczenie bazy użytkowników</h2><p>Po ustawieniu pierwszego użytkownika kolejna rzecz, o którą powinniśmy zadbać do dostępna dla każdego do odczytu baza użytkowników. Najlepiej gdy tylko administratorzy będą mieli do niej dostęp. By to osiągnąć:</p><ul><li>w Futonie wchodzimy do bazy <strong>_users</strong> i klikamy przycisk &ldquo;Security&rdquo; na górze strony,</li><li>w okienku które się pojawi w polu Readers -> Roles (pole na samym dole) wpisujemy <code>["admin"]</code></li></ul><p><img src=/2012/06/couch4-300x252.png alt="Blokowanie dostępu do bazy _users"></p><p>Od teraz tylko administratorzy mają dostęp do bazy <strong>_users</strong>.</p><h2 id=ustawienie-bazy-jako-tylko-do-odczytu>Ustawienie bazy jako tylko do odczytu</h2><p>To co chciałem osiągnąć korzystając z CouchDB to jakieś repozytorium, do którego wrzucać mogą wybrańcy a czytać wszyscy (np. taki CDN dla stronki itp) ale otrzymanie takiego rezultatu jest nieco&mldr; nieintuicyjne. By to osiągnąć:</p><ul><li>w bazie którą chcemy ustawić jako tylko do odczytu wchodzimy w Security i w polu Admin Roles (drugie z góry) wpisujemy <code>["admin"]</code> - to zablokuje dostęp do panelu Security i możliwości modyfikowania design dokumentów, nadal możliwe jest jednak dodawanie, modyfikowani i kasowanie dokumentów,<br><img src=/2012/06/couch5-300x252.png alt="Blokowanie dostępu do design dokumentów"></li><li>by zablokować dostęp do zapisu w CouchDB trzeba wykorzystać funkcję <code>validate_doc_update</code> która będzie wywoływana przy każdej próbie dostępu do pojedynczego dokumentu, by z niej skorzystać tworzymy nowy pusty dokument,</li><li>zmieniamy pole <code>_id</code> dokumentu na <code>_design/auth</code></li><li>dodajemy pole nazwane <code>language</code> z wartością <code>javascript</code></li><li>dodajemy kolejne pole nazwane <code>validate_doc_update</code> z wartością:</li></ul><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#66d9ef>function</span>(<span style=color:#a6e22e>newDoc</span>, <span style=color:#a6e22e>oldDoc</span>, <span style=color:#a6e22e>userCtx</span>) {
+</code></pre></div><p>Ustawienie opcji TCP NODELAY wyłączy opóźnienie przy wysyłaniu małych plików.</p>
+<h2 id=identyfikatory>Identyfikatory</h2>
+<p>Warto zastanowić się nad długością i schematem identyfikatorów dla rekordów. Domyślnie mają one 32 bajty co przy małej liczbie elementów w bazie jest mocną przesadą. Rozmiar identyfikatorów znacznie wpływa na rozmiar bazy i jej wydajność - dlatego czasem warto opracować własny schemat generowanych identyfikatorów. Przykładowo jeśli identyfikator będzie generowany z cyfr oraz dużych i małych liter to dla 3 znaków możemy wygenerować identyfikatory dla ponad 260 tys. elementów, dla 4 znaków już ponad 14 milionów co powinno wystarczyć dla średniej wielkości bazy.</p>
+<h1 id=ustawienia-bezpieczeństwa>Ustawienia bezpieczeństwa</h1>
+<p>Trochę mnie zaskoczyło podejście do bezpieczeństwa w bazie CouchDB - domyślnie po instalacji baza działa w trybie <strong>Admin Party</strong>, czyli każda osoba która wejdzie do zarządzania bez logowania ma uprawnienia administratora 😄</p>
+<p><img src=/2012/06/couch1.png alt="Admin Party"></p>
+<p>Mnie ten stan rzeczy nie bardzo odpowiadał więc:</p>
+<ul>
+<li>odpalamy interfejs zarządzający - Futon i w prawym dolnym rogu szukamy tekstu: &ldquo;Welcome to Admin Party! Everyone is admin. Fix this&rdquo; - klikamy na &ldquo;Fix this&rdquo;,</li>
+<li>w okienku które się pojawi podajemy login i hasło administratora.<br> <img src=/2012/06/couch2-300x281.png alt="Dodawanie administratora"></li>
+</ul>
+<p>Po ustawieniu konta administratora dalsze musimy zadbać o ustawienie odpowiednich uprawnień dla każdej nowo tworzonej bazy, czyli bazy tworzą się dostępem dla wszystkich ale możemy ograniczyć np. zapis/odczyt dla pewnych grup użytkowników.</p>
+<h2 id=zabezpieczenie-bazy-użytkowników>Zabezpieczenie bazy użytkowników</h2>
+<p>Po ustawieniu pierwszego użytkownika kolejna rzecz, o którą powinniśmy zadbać do dostępna dla każdego do odczytu baza użytkowników. Najlepiej gdy tylko administratorzy będą mieli do niej dostęp. By to osiągnąć:</p>
+<ul>
+<li>w Futonie wchodzimy do bazy <strong>_users</strong> i klikamy przycisk &ldquo;Security&rdquo; na górze strony,</li>
+<li>w okienku które się pojawi w polu Readers -> Roles (pole na samym dole) wpisujemy <code>["admin"]</code></li>
+</ul>
+<p><img src=/2012/06/couch4-300x252.png alt="Blokowanie dostępu do bazy _users"></p>
+<p>Od teraz tylko administratorzy mają dostęp do bazy <strong>_users</strong>.</p>
+<h2 id=ustawienie-bazy-jako-tylko-do-odczytu>Ustawienie bazy jako tylko do odczytu</h2>
+<p>To co chciałem osiągnąć korzystając z CouchDB to jakieś repozytorium, do którego wrzucać mogą wybrańcy a czytać wszyscy (np. taki CDN dla stronki itp) ale otrzymanie takiego rezultatu jest nieco&mldr; nieintuicyjne. By to osiągnąć:</p>
+<ul>
+<li>w bazie którą chcemy ustawić jako tylko do odczytu wchodzimy w Security i w polu Admin Roles (drugie z góry) wpisujemy <code>["admin"]</code> - to zablokuje dostęp do panelu Security i możliwości modyfikowania design dokumentów, nadal możliwe jest jednak dodawanie, modyfikowani i kasowanie dokumentów,<br><img src=/2012/06/couch5-300x252.png alt="Blokowanie dostępu do design dokumentów"></li>
+<li>by zablokować dostęp do zapisu w CouchDB trzeba wykorzystać funkcję <code>validate_doc_update</code> która będzie wywoływana przy każdej próbie dostępu do pojedynczego dokumentu, by z niej skorzystać tworzymy nowy pusty dokument,</li>
+<li>zmieniamy pole <code>_id</code> dokumentu na <code>_design/auth</code></li>
+<li>dodajemy pole nazwane <code>language</code> z wartością <code>javascript</code></li>
+<li>dodajemy kolejne pole nazwane <code>validate_doc_update</code> z wartością:</li>
+</ul>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=color:#66d9ef>function</span>(<span style=color:#a6e22e>newDoc</span>, <span style=color:#a6e22e>oldDoc</span>, <span style=color:#a6e22e>userCtx</span>) {
     <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>userCtx</span>.<span style=color:#a6e22e>roles</span>.<span style=color:#a6e22e>indexOf</span>(<span style=color:#e6db74>&#39;_admin&#39;</span>) <span style=color:#f92672>!==</span> <span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>) {
         <span style=color:#66d9ef>return</span>;
     } <span style=color:#66d9ef>else</span> {
         <span style=color:#66d9ef>throw</span>({<span style=color:#a6e22e>forbidden</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;Nie jesteś administratorem!&#39;</span>});
     }
 }
-</code></pre></div><ul><li>zapisujemy dokument klikając na &ldquo;Save Document&rdquo;<br><img src=/2012/06/couch6-300x114.png alt="Blokowanie dostępu do zapisu"></li></ul></div><footer class=entry-footer><div class="container sep-before"><div class=categories><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5A2 2 0 014 3H9l2 3h9a2 2 0 012 2z"/></svg><span class=screen-reader-text>Categories: </span><a class=category href=/categories/howto/>HOWTO</a></div><div class=tags><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2H12l8.59 8.59A2 2 0 0120.59 13.41z"/><line x1="7" y1="7" x2="7" y2="7"/></svg><span class=screen-reader-text>Tags: </span><a class=tag href=/tags/couchdb/>CouchDB</a>, <a class=tag href=/tags/debian/>Debian</a>, <a class=tag href=/tags/linux/>Linux</a></div></div></footer></article><nav class=entry-nav><div class=container><div class="prev-entry sep-before"><a href=/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/><span aria-hidden=true><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="20" y1="12" x2="4" y2="12"/><polyline points="10 18 4 12 10 6"/></svg>Previous</span>
-<span class=screen-reader-text>Previous post: </span>Dynamiczna zmiana rozmiaru partycji EXT4 na LVM’ie</a></div><div class="next-entry sep-before"><a href=/2012/06/apache-reverse-proxy-z-cacheowaniem/><span class=screen-reader-text>Next post: </span>Apache - reverse proxy z cache’owaniem<span aria-hidden=true>Next<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="14 6 20 12 14 18"/></svg></span></a></div></div></nav><section id=comments class=comments><div class="container sep-before"><div class=comments-area><div id=disqus_thread></div><script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return;}
-var d=document,s=d.createElement('script');s.async=true;s.src='//'+"gagor-pl"+'.disqus.com/embed.js';s.setAttribute('data-timestamp',+new Date());(d.head||d.body).appendChild(s);})();</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></div></div></section></main><footer id=footer class=footer><div class="container sep-before"><section class="widget widget-social_menu sep-after"><nav aria-label="Social Menu"><ul><li><a href=https://github.com/tgagor target=_blank rel="noopener me"><span class=screen-reader-text>Open Github account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77a5.44 5.44.0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg></a></li><li><a href=https://linkedin.com/in/tgagor target=_blank rel="noopener me"><span class=screen-reader-text>Open Linkedin account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a></li><li><a href=https://timor.site/index.xml target=_blank rel="noopener me"><span class=screen-reader-text>Open Rss account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg></a></li></ul></nav></section><div class=copyright><p>&copy; 2011-2021 TiMoR Licensed under <a rel=license href="https://creativecommons.org/licenses/by-sa/4.0?ref=chooser-v1" target=_blank rel="license noopener noreferrer" style=display:inline-block>CC BY-SA 4.0<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p></div></div></footer></div></div><script>window.__assets_js_src="/assets/js/"</script><script src=/assets/js/main.c3bcf2df.js></script></body></html>
+</code></pre></div><ul>
+<li>zapisujemy dokument klikając na &ldquo;Save Document&rdquo;<br>
+<img src=/2012/06/couch6-300x114.png alt="Blokowanie dostępu do zapisu"></li>
+</ul>
+</div>
+<footer class=entry-footer>
+<div class="container sep-before"><div class=categories><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5A2 2 0 014 3H9l2 3h9a2 2 0 012 2z"/></svg>
+<span class=screen-reader-text>Categories: </span><a class=category href=/categories/howto/>HOWTO</a></div>
+<div class=tags><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83.0L2 12V2H12l8.59 8.59a2 2 0 010 2.82z"/><line x1="7" y1="7" x2="7" y2="7"/></svg>
+<span class=screen-reader-text>Tags: </span><a class=tag href=/tags/couchdb/>CouchDB</a>, <a class=tag href=/tags/debian/>Debian</a>, <a class=tag href=/tags/linux/>Linux</a></div>
+</div>
+</footer>
+</article>
+<nav class=entry-nav>
+<div class=container><div class="prev-entry sep-before">
+<a href=/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/>
+<span aria-hidden=true><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="20" y1="12" x2="4" y2="12"/><polyline points="10 18 4 12 10 6"/></svg>
+Previous</span>
+<span class=screen-reader-text>Previous post: </span>Dynamiczna zmiana rozmiaru partycji EXT4 na LVM’ie</a>
+</div><div class="next-entry sep-before">
+<a href=/2012/06/apache-reverse-proxy-z-cacheowaniem/>
+<span class=screen-reader-text>Next post: </span>Apache - reverse proxy z cache’owaniem<span aria-hidden=true>Next<svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="14 6 20 12 14 18"/></svg>
+</span>
+</a>
+</div></div>
+</nav>
+<section id=comments class=comments>
+<div class="container sep-before">
+<div class=comments-area><div id=disqus_thread></div>
+<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//gagor-pl.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
+<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
+<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
+</div>
+</div>
+</section>
+</main>
+<footer id=footer class=footer>
+<div class="container sep-before"><section class="widget widget-social_menu sep-after"><nav aria-label="Social Menu">
+<ul><li>
+<a href=https://github.com/tgagor target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Github account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg>
+</a>
+</li><li>
+<a href=https://linkedin.com/in/tgagor target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Linkedin account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+</a>
+</li><li>
+<a href=https://timor.site/index.xml target=_blank rel="noopener me">
+<span class=screen-reader-text>Open Rss account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg>
+</a>
+</li></ul>
+</nav>
+</section><div class=copyright>
+<p> &copy; 2011-2021 TiMoR Licensed under <a rel=license href="https://creativecommons.org/licenses/by-sa/4.0?ref=chooser-v1" target=_blank rel="license noopener noreferrer" style=display:inline-block>CC BY-SA 4.0<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+</div>
+</div>
+</footer>
+</div>
+</div><script>window.__assets_js_src="/assets/js/"</script>
+<script src=/assets/js/main.c3bcf2df.js></script>
+</body>
+</html>
