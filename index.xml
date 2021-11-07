@@ -53,12 +53,12 @@ I found new place accidentally, reading some news about CentOS Stream 9 on their
     </item>
     
     <item>
-      <title>Projects</title>
+      <title>My projects</title>
       <link>https://timor.site/projects/</link>
       <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/projects/</guid>
-      <description>My Github projects  tgagor/ansible-role-docker - Installs Docker service on Ubuntu/Debian/RHEL tgagor/ansible-role-docker-compose - Simple Ansible role that will install Docker Compose tgagor/ansible-role-spotify tgagor/ansible-role-template-with-molecule-tests - Template for Ansible role with Molecule and Testinfra for testing tgagor/docker-centos - CentOS docker images, build weekly with latest security updates tgagor/docker-clamav - Simple Docker image that might be used in CI/CD tgagor/docker-grype - Docker image with anchore/grype tgagor/docker-hubot - Docker image for Hubot tgagor/docker-jpegtran - Simple Docker image with jpegtran executable.</description>
+      <description>Github repositories  tgagor/ansible-role-docker - Installs Docker service on Ubuntu/Debian/RHEL tgagor/ansible-role-docker-compose - Simple Ansible role that will install Docker Compose tgagor/ansible-role-spotify tgagor/ansible-role-template-with-molecule-tests - Template for Ansible role with Molecule and Testinfra for testing tgagor/docker-centos - CentOS docker images, build weekly with latest security updates tgagor/docker-clamav - Simple Docker image that might be used in CI/CD tgagor/docker-grype - Docker image with anchore/grype tgagor/docker-hubot - Docker image for Hubot tgagor/docker-jpegtran - Simple Docker image with jpegtran executable.</description>
     </item>
     
     <item>
