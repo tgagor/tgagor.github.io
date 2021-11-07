@@ -1,2 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SLES on timor's site</title><link>https://timor.site/tags/sles/</link><description>Recent content in SLES on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 20 Oct 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/sles/index.xml" rel="self" type="application/rss+xml"/><item><title>SLES 11 - instalacja Service Pack’a</title><link>https://timor.site/2011/10/sles-11-instalacja-service-packa/</link><pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/10/sles-11-instalacja-service-packa/</guid><description>Administrowałem do tej pory głównie darmowymi distro, ale gdzieś tam ukradkiem wkradło się kilka &amp;ldquo;siusiaków&amp;rdquo; (aka SUSE Linux Enterprise Server). Żyłem w utopijnym przekonaniu że skoro się za nie płaci to powinno się z nimi łatwiej współpracować&amp;hellip; w przypadku instalacji aktualizacji (a w szczególności SP) nie było to aż takie proste.
-Przywykłem w darmowych dystrybucjach że gdy pojawiała się nowszą &amp;ldquo;większa wersja&amp;rdquo; to po prostu można było jednym poleceniem zaktualizować wszystkie pakiety.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SLES on timor&#39;s site</title>
+    <link>https://timor.site/tags/sles/</link>
+    <description>Recent content in SLES on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Thu, 20 Oct 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/sles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SLES 11 - instalacja Service Pack’a</title>
+      <link>https://timor.site/2011/10/sles-11-instalacja-service-packa/</link>
+      <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/10/sles-11-instalacja-service-packa/</guid>
+      <description>Administrowałem do tej pory głównie darmowymi distro, ale gdzieś tam ukradkiem wkradło się kilka &amp;ldquo;siusiaków&amp;rdquo; (aka SUSE Linux Enterprise Server). Żyłem w utopijnym przekonaniu że skoro się za nie płaci to powinno się z nimi łatwiej współpracować&amp;hellip; w przypadku instalacji aktualizacji (a w szczególności SP) nie było to aż takie proste.
+Przywykłem w darmowych dystrybucjach że gdy pojawiała się nowszą &amp;ldquo;większa wersja&amp;rdquo; to po prostu można było jednym poleceniem zaktualizować wszystkie pakiety.</description>
+    </item>
+    
+  </channel>
+</rss>

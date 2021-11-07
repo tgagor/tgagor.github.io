@@ -1,7 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on timor's site</title><link>https://timor.site/tags/android/</link><description>Recent content in Android on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 17 Dec 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Android: Xposed + AppOps - reclaim control over installed applications permissions</title><link>https://timor.site/2013/12/android-xposed-appops-reclaim-control-over-installed-applications-permissions/</link><pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/12/android-xposed-appops-reclaim-control-over-installed-applications-permissions/</guid><description>I&amp;rsquo;m happy owner of Galaxy Nexus 7 and lately I updated my tablet to Android 4.4 Kitkat. One of features I most expected was ability to block some permissions of some applications. Such setting was available in 4.4 version but was removed in latest 4.4.2 - Google didn&amp;rsquo;t explain it exactly why. I don&amp;rsquo;t like when for ex. game need: camera or GPS access - for what I asked?
-But there is new app so called App Ops that unhides build-in interface allowing edit of application permissions.</description></item><item><title>Root’owanie Androida 4.3 na Google Nexus 7 po aktualizacji do JWR66Y</title><link>https://timor.site/2013/09/rootowanie-androida-4-3-na-google-nexus-7-po-aktualizacji-do-jwr66y/</link><pubDate>Wed, 04 Sep 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/09/rootowanie-androida-4-3-na-google-nexus-7-po-aktualizacji-do-jwr66y/</guid><description>Ostatnio aktualizowałem swojego Nexusa do 4.3 i było miło tylko mi roota i recovery wystrzeliło&amp;hellip; No ale żaden problem - chwila googlania, kilka poleceń i mam recovery i roota. Dzisiaj wrzuciłem niedużą aktualizację, która łata kilka bugów i znów po root&amp;rsquo;cie ;/
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Android on timor&#39;s site</title>
+    <link>https://timor.site/tags/android/</link>
+    <description>Recent content in Android on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Tue, 17 Dec 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/android/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android: Xposed &#43; AppOps - reclaim control over installed applications permissions</title>
+      <link>https://timor.site/2013/12/android-xposed-appops-reclaim-control-over-installed-applications-permissions/</link>
+      <pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/12/android-xposed-appops-reclaim-control-over-installed-applications-permissions/</guid>
+      <description>I&amp;rsquo;m happy owner of Galaxy Nexus 7 and lately I updated my tablet to Android 4.4 Kitkat. One of features I most expected was ability to block some permissions of some applications. Such setting was available in 4.4 version but was removed in latest 4.4.2 - Google didn&amp;rsquo;t explain it exactly why. I don&amp;rsquo;t like when for ex. game need: camera or GPS access - for what I asked?
+But there is new app so called App Ops that unhides build-in interface allowing edit of application permissions.</description>
+    </item>
+    
+    <item>
+      <title>Root’owanie Androida 4.3 na Google Nexus 7 po aktualizacji do JWR66Y</title>
+      <link>https://timor.site/2013/09/rootowanie-androida-4-3-na-google-nexus-7-po-aktualizacji-do-jwr66y/</link>
+      <pubDate>Wed, 04 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/09/rootowanie-androida-4-3-na-google-nexus-7-po-aktualizacji-do-jwr66y/</guid>
+      <description>Ostatnio aktualizowałem swojego Nexusa do 4.3 i było miło tylko mi roota i recovery wystrzeliło&amp;hellip; No ale żaden problem - chwila googlania, kilka poleceń i mam recovery i roota. Dzisiaj wrzuciłem niedużą aktualizację, która łata kilka bugów i znów po root&amp;rsquo;cie ;/
 Zapisze sobie więc instrukcję by kolejnym razem już nie googlać 😃
-P.S. Wiem co robię ryzykując uceglenie swojego urządzenia - u mnie ta instrukcja działa ale nie mogę tego zagwarantować każdemu - dlatego jeśli już się zdecydujesz to ROBISZ TO NA WŁASNĄ ODPOWIEDZIALNOŚĆ!</description></item><item><title>Moje ulubione aplikacje na Android’a</title><link>https://timor.site/2012/09/moje-ulubione-aplikacje-na-androida/</link><pubDate>Fri, 07 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/moje-ulubione-aplikacje-na-androida/</guid><description>Znajomi co jakiś czas pytają mnie: jak nazywa się ta aplikacja, którą masz na telefonie do&amp;hellip;? Z jakiego programu do poczty korzystasz na tel&amp;hellip;? itd&amp;hellip;
+P.S. Wiem co robię ryzykując uceglenie swojego urządzenia - u mnie ta instrukcja działa ale nie mogę tego zagwarantować każdemu - dlatego jeśli już się zdecydujesz to ROBISZ TO NA WŁASNĄ ODPOWIEDZIALNOŚĆ!</description>
+    </item>
+    
+    <item>
+      <title>Moje ulubione aplikacje na Android’a</title>
+      <link>https://timor.site/2012/09/moje-ulubione-aplikacje-na-androida/</link>
+      <pubDate>Fri, 07 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/moje-ulubione-aplikacje-na-androida/</guid>
+      <description>Znajomi co jakiś czas pytają mnie: jak nazywa się ta aplikacja, którą masz na telefonie do&amp;hellip;? Z jakiego programu do poczty korzystasz na tel&amp;hellip;? itd&amp;hellip;
 Pytacie - więc macie 😃
 DGT GTD Bardzo przydatna lista TODO. Stworzona z myślą o metodzie Getting Things Done i bardzo ułatwia pamiętanie u różnych zadaniach. Posiada też bardzo wygodny widżet, na którym możemy podglądnąć nasze najbliższe zadania.
-Opera Mini Wbudowana przeglądarka jest niezła, ale Opera Mini kompresuje mocno strony wykorzystując pośredniczące serwery proxy co znacznie obniża koszty transmisji danych.</description></item></channel></rss>
+Opera Mini Wbudowana przeglądarka jest niezła, ale Opera Mini kompresuje mocno strony wykorzystując pośredniczące serwery proxy co znacznie obniża koszty transmisji danych.</description>
+    </item>
+    
+  </channel>
+</rss>

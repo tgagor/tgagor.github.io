@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SPDY on timor's site</title><link>https://timor.site/tags/spdy/</link><description>Recent content in SPDY on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 24 Jan 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/spdy/index.xml" rel="self" type="application/rss+xml"/><item><title>Nginx - enabling SPDY with freeware certificate</title><link>https://timor.site/2014/01/nginx-enabling-spdy-with-freeware-certificate/</link><pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/01/nginx-enabling-spdy-with-freeware-certificate/</guid><description>I was thinking about allowing access to my website using SPDY protocol for better performance and security (and for fun of course 😃 ). But SPDY have one disadvantage - you need SSL certificate signed by known authority that will verfiy in common browsers. So you can&amp;rsquo;t use self signed certificates because everyone will see a warning entering your site. Certs are quite expensive so I started searching for free one and to my surprise I found such!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SPDY on timor&#39;s site</title>
+    <link>https://timor.site/tags/spdy/</link>
+    <description>Recent content in SPDY on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Fri, 24 Jan 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/spdy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nginx - enabling SPDY with freeware certificate</title>
+      <link>https://timor.site/2014/01/nginx-enabling-spdy-with-freeware-certificate/</link>
+      <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/01/nginx-enabling-spdy-with-freeware-certificate/</guid>
+      <description>I was thinking about allowing access to my website using SPDY protocol for better performance and security (and for fun of course 😃 ). But SPDY have one disadvantage - you need SSL certificate signed by known authority that will verfiy in common browsers. So you can&amp;rsquo;t use self signed certificates because everyone will see a warning entering your site. Certs are quite expensive so I started searching for free one and to my surprise I found such!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,20 +1,184 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apache on timor's site</title><link>https://timor.site/tags/apache/</link><description>Recent content in Apache on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 29 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/apache/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache - Force caching dynamic PHP content with mod_headers</title><link>https://timor.site/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</link><pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate><guid>https://timor.site/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</guid><description>Normally you want dynamic content to be fresh and not catchable. But sometimes it may be useful to cache it, like when you have website behind reverse proxy. To do this try something like this:
-&amp;lt;filesmatch &amp;#34;\.(php|cgi|pl)$&amp;#34;&amp;gt; Header unset Pragma Header unset Expires Header set Cache-Control &amp;#34;max-age=3600, public&amp;#34; &amp;lt;/filesmatch&amp;gt; Sources http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html</description></item><item><title>Apache AuthBasic but excluding IP</title><link>https://timor.site/2015/12/apache-authbasic-but-excluding-ip/</link><pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate><guid>https://timor.site/2015/12/apache-authbasic-but-excluding-ip/</guid><description>Allow from IP without password prompt, and also allow from any address with password prompt
-Order deny,allow Deny from all AuthName &amp;#34;htaccess password prompt&amp;#34; AuthUserFile /web/askapache.com/.htpasswd AuthType Basic Require valid-user Allow from 172.17.10.1 Satisfy Any Sources http://www.askapache.com/htaccess/apache-authentication-in-htaccess.html</description></item><item><title>Apache - precompressing static files with gzip</title><link>https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/</link><pubDate>Fri, 27 Dec 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/</guid><description>Some time ago I&amp;rsquo;ve show how to precompress js and css file with gzip to be available for Nginx&amp;rsquo;s mod_gzip. In default configuration Apache don&amp;rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Apache on timor&#39;s site</title>
+    <link>https://timor.site/tags/apache/</link>
+    <description>Recent content in Apache on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Tue, 29 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/apache/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache - Force caching dynamic PHP content with mod_headers</title>
+      <link>https://timor.site/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</guid>
+      <description>Normally you want dynamic content to be fresh and not catchable. But sometimes it may be useful to cache it, like when you have website behind reverse proxy. To do this try something like this:
+&amp;lt;filesmatch &amp;#34;\.(php|cgi|pl)$&amp;#34;&amp;gt; Header unset Pragma Header unset Expires Header set Cache-Control &amp;#34;max-age=3600, public&amp;#34; &amp;lt;/filesmatch&amp;gt; Sources http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html</description>
+    </item>
+    
+    <item>
+      <title>Apache AuthBasic but excluding IP</title>
+      <link>https://timor.site/2015/12/apache-authbasic-but-excluding-ip/</link>
+      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2015/12/apache-authbasic-but-excluding-ip/</guid>
+      <description>Allow from IP without password prompt, and also allow from any address with password prompt
+Order deny,allow Deny from all AuthName &amp;#34;htaccess password prompt&amp;#34; AuthUserFile /web/askapache.com/.htpasswd AuthType Basic Require valid-user Allow from 172.17.10.1 Satisfy Any Sources http://www.askapache.com/htaccess/apache-authentication-in-htaccess.html</description>
+    </item>
+    
+    <item>
+      <title>Apache - precompressing static files with gzip</title>
+      <link>https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/</link>
+      <pubDate>Fri, 27 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/</guid>
+      <description>Some time ago I&amp;rsquo;ve show how to precompress js and css file with gzip to be available for Nginx&amp;rsquo;s mod_gzip. In default configuration Apache don&amp;rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.
 Basically we will start with these rewrites to serve gzipped CSS/JS files if they exist and the client accepts gzip compression:
-RewriteEngine on RewriteCond %{HTTP:Accept-encoding} gzip RewriteCond %{REQUEST_FILENAME}\.gz -s RewriteRule ^(.*)\.(js|css)$ $1\.$2\.gz [QSA] Then we need to setup proper content types for such compressed files - I know how to do this in two ways:</description></item><item><title>Running Apache with mod_spdy and PHP-FPM</title><link>https://timor.site/2013/12/running-apache-with-mod_spdy-and-php-fpm/</link><pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/12/running-apache-with-mod_spdy-and-php-fpm/</guid><description>SPDY is new protocol proposed by Google as an alternative for HTTP(S). Currently Chrome and Firefox browsers are using it as default if available on server. It is faster in most cases by few to several percent. The side effect of using mod_spdy is that it&amp;rsquo;s working well only with thread safe Apache&amp;rsquo;s modules. PHP module for Apache is not thread safe so we need to use PHP as CGI or FastCGI service.</description></item><item><title>Certyfikaty nazwaSSL na własnym serwerze</title><link>https://timor.site/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</link><pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</guid><description>Od jakiegoś czasu można kupić w NetArcie certyfikaty SSL, a niedawno zrobili na nie promocję - 15zł za pierwszy rok (za certyfikat na jedną stronkę). Tzw. tanie i dobre. Po wyrobieniu certyfikatu i zapisaniu z panelu klienta mam pliczki: stonka.crt i netart_rootca.crt, które wrzucamy do Apachego, powiedzmy tak:
-SSLCertificateFile /etc/ssl/certs/stonka.crt SSLCertificateKeyFile /etc/ssl/private/priv.key SSLCACertificateFile /etc/ssl/certs/netart_rootca.crt Certyfikat działa w Chromie ale nie weryfikuje się w Firefoxie i Internet Explorerze. FF wyświetla błąd: sec_error_unknown_issuer - co oznacza brak certyfikatu wystawcy gdzieś w łańcuchu certyfikatów.</description></item><item><title>PHP - max_input_vars</title><link>https://timor.site/2013/01/php-max_input_vars/</link><pubDate>Tue, 22 Jan 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/01/php-max_input_vars/</guid><description>W PHP 5.3 pojawiła się nowa zmienna: max_input_vars, która limituje ilość pól możliwych do przesłania przez formularz, obcinając nadmiarowe. Pozwala to zapobiec atakom DoS na tablice hashujące (przynajmniej w tym jednym miejscu). Domyślna wartość tej zmiennej to 1000 i kreatywnym programistom udaje się tą wartość bez problemu osiągnąć 😃
+RewriteEngine on RewriteCond %{HTTP:Accept-encoding} gzip RewriteCond %{REQUEST_FILENAME}\.gz -s RewriteRule ^(.*)\.(js|css)$ $1\.$2\.gz [QSA] Then we need to setup proper content types for such compressed files - I know how to do this in two ways:</description>
+    </item>
+    
+    <item>
+      <title>Running Apache with mod_spdy and PHP-FPM</title>
+      <link>https://timor.site/2013/12/running-apache-with-mod_spdy-and-php-fpm/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/12/running-apache-with-mod_spdy-and-php-fpm/</guid>
+      <description>SPDY is new protocol proposed by Google as an alternative for HTTP(S). Currently Chrome and Firefox browsers are using it as default if available on server. It is faster in most cases by few to several percent. The side effect of using mod_spdy is that it&amp;rsquo;s working well only with thread safe Apache&amp;rsquo;s modules. PHP module for Apache is not thread safe so we need to use PHP as CGI or FastCGI service.</description>
+    </item>
+    
+    <item>
+      <title>Certyfikaty nazwaSSL na własnym serwerze</title>
+      <link>https://timor.site/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</link>
+      <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</guid>
+      <description>Od jakiegoś czasu można kupić w NetArcie certyfikaty SSL, a niedawno zrobili na nie promocję - 15zł za pierwszy rok (za certyfikat na jedną stronkę). Tzw. tanie i dobre. Po wyrobieniu certyfikatu i zapisaniu z panelu klienta mam pliczki: stonka.crt i netart_rootca.crt, które wrzucamy do Apachego, powiedzmy tak:
+SSLCertificateFile /etc/ssl/certs/stonka.crt SSLCertificateKeyFile /etc/ssl/private/priv.key SSLCACertificateFile /etc/ssl/certs/netart_rootca.crt Certyfikat działa w Chromie ale nie weryfikuje się w Firefoxie i Internet Explorerze. FF wyświetla błąd: sec_error_unknown_issuer - co oznacza brak certyfikatu wystawcy gdzieś w łańcuchu certyfikatów.</description>
+    </item>
+    
+    <item>
+      <title>PHP - max_input_vars</title>
+      <link>https://timor.site/2013/01/php-max_input_vars/</link>
+      <pubDate>Tue, 22 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/01/php-max_input_vars/</guid>
+      <description>W PHP 5.3 pojawiła się nowa zmienna: max_input_vars, która limituje ilość pól możliwych do przesłania przez formularz, obcinając nadmiarowe. Pozwala to zapobiec atakom DoS na tablice hashujące (przynajmniej w tym jednym miejscu). Domyślna wartość tej zmiennej to 1000 i kreatywnym programistom udaje się tą wartość bez problemu osiągnąć 😃
 Warte odnotowania jest to że mając suhosin&amp;rsquo;a trzeba pamiętać o jeszcze dwóch innych zmiennych:
-max_input_vars = 3000 suhosin.post.max_vars = 3000 suhosin.request.max_vars = 3000 Zmienne można zmienić od razu w /etc/php5/apache2/php.</description></item><item><title>Apache: mod_authnz_ldap z Active Directory</title><link>https://timor.site/2012/12/apache-mod_authnz_ldap-z-active-directory/</link><pubDate>Fri, 14 Dec 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/12/apache-mod_authnz_ldap-z-active-directory/</guid><description>Gdy już się dorobi systemu Active Directory wygodnie jest wykorzystać jego bazę użytkowników do autoryzacji w różnych miejscach, np. do pewnych &amp;ldquo;tajnych i tajniejszych&amp;rdquo; stron w Apache. Najprościej można to zrobić z wykorzystaniem LDAP.
+max_input_vars = 3000 suhosin.post.max_vars = 3000 suhosin.request.max_vars = 3000 Zmienne można zmienić od razu w /etc/php5/apache2/php.</description>
+    </item>
+    
+    <item>
+      <title>Apache: mod_authnz_ldap z Active Directory</title>
+      <link>https://timor.site/2012/12/apache-mod_authnz_ldap-z-active-directory/</link>
+      <pubDate>Fri, 14 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/12/apache-mod_authnz_ldap-z-active-directory/</guid>
+      <description>Gdy już się dorobi systemu Active Directory wygodnie jest wykorzystać jego bazę użytkowników do autoryzacji w różnych miejscach, np. do pewnych &amp;ldquo;tajnych i tajniejszych&amp;rdquo; stron w Apache. Najprościej można to zrobić z wykorzystaniem LDAP.
 Warto sprawdzić czy i jak możemy dostać się do kontrolerów. Gdy już mamy wszystkie potrzebne parametry konfigurujemy Apachego - na początek aktywujemy moduły:
-a2enmod ldap a2enmod authnz_ldap Teraz możemy edytujemy globalny plik konfiguracyjny mod_ldap&amp;rsquo;a by ustawić nieco cache&amp;rsquo;y (bardzo przydatne).</description></item><item><title>mod_rewrite - wymuszenie małych liter w adresie URL</title><link>https://timor.site/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</link><pubDate>Tue, 25 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</guid><description>Co prawda adresy URL pozwalają na stosowanie zarówno dużych jak i małych liter ale różne systemy mogą je różnie obsługiwać i może się trafić sytuacja, w której nie zechcemy by np. duże litery w ogóle pojawiały się w adresach URL. Doskonały przykład to mój niedawny wpis: Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic.
-Zachodzi tam sytuacja, w której katalog użytkownika jest jego loginem małymi literami (bądź dużymi - jak kto woli), a użytkownik wpisując login może użyć zarówno małych jak i dużych liter i tutaj zaczyna się jazda.</description></item><item><title>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic</title><link>https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</link><pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</guid><description>Niedawno trafiłem na ciekawy problem w mod_rewrite - by przekierowywać użytkowników logujących się jednym z modułów mod_auth_basic do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej %{REMOTE_USER} - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w RewriteCond zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można RewriteCond&amp;rsquo;y połączyć wyrażeniami logicznymi typu AND/OR to nie ma możliwości porównania czy dopasowania z kolejnych RewriteCond&amp;rsquo;ów są identyczne.</description></item><item><title>Apache - reverse proxy z cache’owaniem</title><link>https://timor.site/2012/06/apache-reverse-proxy-z-cacheowaniem/</link><pubDate>Sun, 17 Jun 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/06/apache-reverse-proxy-z-cacheowaniem/</guid><description>Ostatnio trafiłem na ciekawy problem, który wielokrotnie rozwiązywałem w nginx&amp;rsquo;ie ale tym razem musiałem zrobić to w Apache. Pewna stronka działa sobie na HTTPS&amp;rsquo;ie i chciałem by wszystkie powiązane z nią pliki były serwowane z jej adresu szyfrowanym połączeniem by nie pojawiały się w przeglądarce monity że &amp;ldquo;część ruchu nie jest szyfrowana&amp;rdquo;. Tyle że część potrzebnych plików była już obecnie serwowana na innym serwerze (w innej domenie) poprzez HTTP.
-Mogłem albo skopiować te pliki i wykombinować jakiś mechanizm synchronizujący albo wykorzystać proxy + cache.</description></item><item><title>Apache mod_expires konfiguracja</title><link>https://timor.site/2012/01/apache-mod_expires-konfiguracja/</link><pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/01/apache-mod_expires-konfiguracja/</guid><description>Aby umożliwić odwiedzającym nasze strony cachowanie obrazków (tak by nie musieli pobierać ich każdorazowo bo przecież nie zmieniają się aż tak często) konieczne jest ustawienie nagłówków: Cache-Control, Expires dla odpowiednich typów plików. W Apachem jest do tego dedykowany moduł - mod_expires. W Debianie dostarczany jest on bez domyślnej globalnej konfiguracji - a ja lubię gdy cacheuje mi się większość statyki. Zawsze można dostosować czas cachowania pod siebie względem określonego typu pliku, np.</description></item><item><title>X-Forwarded-For + mod_rpaf - logowanie rzeczywistych adresów IP na Apache za reverse proxy</title><link>https://timor.site/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</link><pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</guid><description>Gdy już ustawimy reverse proxy przed Apache szybko można zauważyć że w logach zamiast adresów IP zdalnych użytkowników pojawia się tylko jeden adres: adres naszego proxy. Również z poziomu php&amp;rsquo;a jako adres klienta widać IP naszego proxy.
-By poradzić sobie z tym problemem trzeba na serwerze reverse proxy ustawić przekazywanie informacji o oryginalnym adresie IP klienta w nagłówku X-Forwarded-For. W przypadku gdy reverse proxy działa na nginx&amp;rsquo;e wystarczy dodać taki wpis:</description></item><item><title>Porównanie optymalizatorów PHP - eAccelerator, PHP APC, XCache</title><link>https://timor.site/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</link><pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</guid><description>Przez pewien czas korzystałem z eAcceleratora do przyspieszenia działania stron pisanych w PHP&amp;rsquo;ie ale czasem bywał niestabilny. Aktualizacje pojawiały się rzadko a od czasu do czasu miewałem problemy ze stabilnością tej wtyczki na kilku bardziej skomplikowanych aplikacjach. Zdarzało się że pomimo zmiany kodu w skrypcie php, eAccelerator serwował wciąż stary plik - konieczny był restart Apache&amp;rsquo;go by wszystko działało jak trzeba.
+a2enmod ldap a2enmod authnz_ldap Teraz możemy edytujemy globalny plik konfiguracyjny mod_ldap&amp;rsquo;a by ustawić nieco cache&amp;rsquo;y (bardzo przydatne).</description>
+    </item>
+    
+    <item>
+      <title>mod_rewrite - wymuszenie małych liter w adresie URL</title>
+      <link>https://timor.site/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</link>
+      <pubDate>Tue, 25 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</guid>
+      <description>Co prawda adresy URL pozwalają na stosowanie zarówno dużych jak i małych liter ale różne systemy mogą je różnie obsługiwać i może się trafić sytuacja, w której nie zechcemy by np. duże litery w ogóle pojawiały się w adresach URL. Doskonały przykład to mój niedawny wpis: Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic.
+Zachodzi tam sytuacja, w której katalog użytkownika jest jego loginem małymi literami (bądź dużymi - jak kto woli), a użytkownik wpisując login może użyć zarówno małych jak i dużych liter i tutaj zaczyna się jazda.</description>
+    </item>
+    
+    <item>
+      <title>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic</title>
+      <link>https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</guid>
+      <description>Niedawno trafiłem na ciekawy problem w mod_rewrite - by przekierowywać użytkowników logujących się jednym z modułów mod_auth_basic do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej %{REMOTE_USER} - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w RewriteCond zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można RewriteCond&amp;rsquo;y połączyć wyrażeniami logicznymi typu AND/OR to nie ma możliwości porównania czy dopasowania z kolejnych RewriteCond&amp;rsquo;ów są identyczne.</description>
+    </item>
+    
+    <item>
+      <title>Apache - reverse proxy z cache’owaniem</title>
+      <link>https://timor.site/2012/06/apache-reverse-proxy-z-cacheowaniem/</link>
+      <pubDate>Sun, 17 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/06/apache-reverse-proxy-z-cacheowaniem/</guid>
+      <description>Ostatnio trafiłem na ciekawy problem, który wielokrotnie rozwiązywałem w nginx&amp;rsquo;ie ale tym razem musiałem zrobić to w Apache. Pewna stronka działa sobie na HTTPS&amp;rsquo;ie i chciałem by wszystkie powiązane z nią pliki były serwowane z jej adresu szyfrowanym połączeniem by nie pojawiały się w przeglądarce monity że &amp;ldquo;część ruchu nie jest szyfrowana&amp;rdquo;. Tyle że część potrzebnych plików była już obecnie serwowana na innym serwerze (w innej domenie) poprzez HTTP.
+Mogłem albo skopiować te pliki i wykombinować jakiś mechanizm synchronizujący albo wykorzystać proxy + cache.</description>
+    </item>
+    
+    <item>
+      <title>Apache mod_expires konfiguracja</title>
+      <link>https://timor.site/2012/01/apache-mod_expires-konfiguracja/</link>
+      <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/01/apache-mod_expires-konfiguracja/</guid>
+      <description>Aby umożliwić odwiedzającym nasze strony cachowanie obrazków (tak by nie musieli pobierać ich każdorazowo bo przecież nie zmieniają się aż tak często) konieczne jest ustawienie nagłówków: Cache-Control, Expires dla odpowiednich typów plików. W Apachem jest do tego dedykowany moduł - mod_expires. W Debianie dostarczany jest on bez domyślnej globalnej konfiguracji - a ja lubię gdy cacheuje mi się większość statyki. Zawsze można dostosować czas cachowania pod siebie względem określonego typu pliku, np.</description>
+    </item>
+    
+    <item>
+      <title>X-Forwarded-For &#43; mod_rpaf - logowanie rzeczywistych adresów IP na Apache za reverse proxy</title>
+      <link>https://timor.site/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</link>
+      <pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</guid>
+      <description>Gdy już ustawimy reverse proxy przed Apache szybko można zauważyć że w logach zamiast adresów IP zdalnych użytkowników pojawia się tylko jeden adres: adres naszego proxy. Również z poziomu php&amp;rsquo;a jako adres klienta widać IP naszego proxy.
+By poradzić sobie z tym problemem trzeba na serwerze reverse proxy ustawić przekazywanie informacji o oryginalnym adresie IP klienta w nagłówku X-Forwarded-For. W przypadku gdy reverse proxy działa na nginx&amp;rsquo;e wystarczy dodać taki wpis:</description>
+    </item>
+    
+    <item>
+      <title>Porównanie optymalizatorów PHP - eAccelerator, PHP APC, XCache</title>
+      <link>https://timor.site/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</guid>
+      <description>Przez pewien czas korzystałem z eAcceleratora do przyspieszenia działania stron pisanych w PHP&amp;rsquo;ie ale czasem bywał niestabilny. Aktualizacje pojawiały się rzadko a od czasu do czasu miewałem problemy ze stabilnością tej wtyczki na kilku bardziej skomplikowanych aplikacjach. Zdarzało się że pomimo zmiany kodu w skrypcie php, eAccelerator serwował wciąż stary plik - konieczny był restart Apache&amp;rsquo;go by wszystko działało jak trzeba.
 Zacząłem szukać alternatywy i trafiłem na dwa moduły:
-APC (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w PHP od wersji 5.</description></item><item><title>Zabezpieczenie Apachego na Debianie przed slowloris’em</title><link>https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</link><pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</guid><description>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.</description></item><item><title>Optymalizacja PHP z eAccelerator’em</title><link>https://timor.site/2011/08/optymalizacja-php-z-eacceleratorem/</link><pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/optymalizacja-php-z-eacceleratorem/</guid><description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy 😃
+ APC (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w PHP od wersji 5.</description>
+    </item>
+    
+    <item>
+      <title>Zabezpieczenie Apachego na Debianie przed slowloris’em</title>
+      <link>https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</link>
+      <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</guid>
+      <description>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.</description>
+    </item>
+    
+    <item>
+      <title>Optymalizacja PHP z eAccelerator’em</title>
+      <link>https://timor.site/2011/08/optymalizacja-php-z-eacceleratorem/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/optymalizacja-php-z-eacceleratorem/</guid>
+      <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy 😃
 Niestety nie ma go w repozytoriach Debiana, więc trzeba go sobie skompilować - cały proces jest dość prosty. Zaczynamy od pobrania najświeższej paczki, obecnie jest to wersja 0.9.5.3:
 Pobierz eAccelerator (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)
-Pobieramy i rozpakowujemy pliki:</description></item><item><title>Statystyki odwiedzin dla wielu serwisów z AWStats</title><link>https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</link><pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</guid><description>Co prawda na swojej stronie zrobiłem kilka podstawowych statystyk i coś tam sobie loguję do bazy danych, ale gdyby się chwilę zastanowić to przecież to samo robi serwer www - wrzuca do logów każde zapytanie HTTP, kod błędu, nazwę agenta, itd. Dublowanie tych danych nie jest najbardziej optymalne.
-Stąd też chwilę pogooglałem i znalazłem świetny Open Source&amp;rsquo;owy projekt: AWStats, który jest webowym analizatorem logów dla serwerów HTTP, FTP i SMTP.</description></item><item><title>Klastrowanie sesji PHP z memcached</title><link>https://timor.site/2011/08/klastrowanie-sesji-php-z-memcached/</link><pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/klastrowanie-sesji-php-z-memcached/</guid><description>Klastrowanie to może zbyt dumnie powiedziane. Rozwiązanie to wyszukałem gdy chcąc skonfigurować dwa serwery apache do współpracy na rzecz jednego serwisu okazało się, że sejse trzymane są tylko przez jeden serwer a drugi nic o nich nie wie. To oczywiście nie pozwalało na prawidłowe działanie jakiegokolwiek serwisu korzystającego z sesji.
-Pomysł jest taki, że zastępujemy domyśny mechanizm przechowywania sesji w plikach na dysku mechanizmem memcache. Ponieważ memcached działa jako usługa sieciowa, różne serwery mogą się odwoływać do puli memcached i odczytywać zapisane w niej dane.</description></item></channel></rss>
+Pobieramy i rozpakowujemy pliki:</description>
+    </item>
+    
+    <item>
+      <title>Statystyki odwiedzin dla wielu serwisów z AWStats</title>
+      <link>https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</guid>
+      <description>Co prawda na swojej stronie zrobiłem kilka podstawowych statystyk i coś tam sobie loguję do bazy danych, ale gdyby się chwilę zastanowić to przecież to samo robi serwer www - wrzuca do logów każde zapytanie HTTP, kod błędu, nazwę agenta, itd. Dublowanie tych danych nie jest najbardziej optymalne.
+Stąd też chwilę pogooglałem i znalazłem świetny Open Source&amp;rsquo;owy projekt: AWStats, który jest webowym analizatorem logów dla serwerów HTTP, FTP i SMTP.</description>
+    </item>
+    
+    <item>
+      <title>Klastrowanie sesji PHP z memcached</title>
+      <link>https://timor.site/2011/08/klastrowanie-sesji-php-z-memcached/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/klastrowanie-sesji-php-z-memcached/</guid>
+      <description>Klastrowanie to może zbyt dumnie powiedziane. Rozwiązanie to wyszukałem gdy chcąc skonfigurować dwa serwery apache do współpracy na rzecz jednego serwisu okazało się, że sejse trzymane są tylko przez jeden serwer a drugi nic o nich nie wie. To oczywiście nie pozwalało na prawidłowe działanie jakiegokolwiek serwisu korzystającego z sesji.
+Pomysł jest taki, że zastępujemy domyśny mechanizm przechowywania sesji w plikach na dysku mechanizmem memcache. Ponieważ memcached działa jako usługa sieciowa, różne serwery mogą się odwoływać do puli memcached i odczytywać zapisane w niej dane.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dovecot on timor's site</title><link>https://timor.site/tags/dovecot/</link><description>Recent content in dovecot on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 28 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/dovecot/index.xml" rel="self" type="application/rss+xml"/><item><title>fail2ban - regułki dla dovecot’a</title><link>https://timor.site/2011/11/fail2ban-regulki-dla-dovecota/</link><pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/11/fail2ban-regulki-dla-dovecota/</guid><description>Domyślna konfiguracja fail2ban&amp;rsquo;a (na Debianie) nie zawiera reguł pozwalających na blokowanie prób włamań na skrzynki POP/IMAP dla dovecota (no chyba że korzystamy z saslauthd). Można szybko utworzyć własny zestaw filtrów co przedstawię poniżej.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>dovecot on timor&#39;s site</title>
+    <link>https://timor.site/tags/dovecot/</link>
+    <description>Recent content in dovecot on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Mon, 28 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/dovecot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fail2ban - regułki dla dovecot’a</title>
+      <link>https://timor.site/2011/11/fail2ban-regulki-dla-dovecota/</link>
+      <pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/11/fail2ban-regulki-dla-dovecota/</guid>
+      <description>Domyślna konfiguracja fail2ban&amp;rsquo;a (na Debianie) nie zawiera reguł pozwalających na blokowanie prób włamań na skrzynki POP/IMAP dla dovecota (no chyba że korzystamy z saslauthd). Można szybko utworzyć własny zestaw filtrów co przedstawię poniżej.
 Tworzymy plik: /etc/fail2ban/filter.d/dovecot.conf
 [Definition] failregex = (?: pop3-login|imap-login): .*(?:Authentication failure|Aborted login \(auth failed|Aborted login \(tried to use disabled|Disconnected \(auth failed|Aborted login \(\d+ authentication attempts).*rip=(?P&amp;lt;host&amp;gt;\S*),.* ignoreregex = Później dopisujemy na końcu pliku: /etc/fail2ban/jail.conf
-[dovecot] enabled = true filter = dovecot port = pop3,pop3s,imap,imaps logpath = /var/log/mail.</description></item></channel></rss>
+[dovecot] enabled = true filter = dovecot port = pop3,pop3s,imap,imaps logpath = /var/log/mail.</description>
+    </item>
+    
+  </channel>
+</rss>

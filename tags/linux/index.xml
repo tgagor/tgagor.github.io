@@ -1,145 +1,957 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on timor's site</title><link>https://timor.site/tags/linux/</link><description>Recent content in Linux on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 30 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Asus ROG STRIX Z590-E GAMING WIFI - my UEFI BIOS settings</title><link>https://timor.site/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</link><pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate><guid>https://timor.site/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</guid><description>I&amp;rsquo;ve build new PC - it&amp;rsquo;s based on Asus ROG STRIX Z590-E GAMING WIFI motherboard. Generally, I&amp;rsquo;m quite satisfied, but it have one irritating downside - after each UEFI BIOS upgrade, it&amp;rsquo;s silently resetting some of settings.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux on timor&#39;s site</title>
+    <link>https://timor.site/tags/linux/</link>
+    <description>Recent content in Linux on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Sat, 30 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asus ROG STRIX Z590-E GAMING WIFI - my UEFI BIOS settings</title>
+      <link>https://timor.site/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</link>
+      <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</guid>
+      <description>I&amp;rsquo;ve build new PC - it&amp;rsquo;s based on Asus ROG STRIX Z590-E GAMING WIFI motherboard. Generally, I&amp;rsquo;m quite satisfied, but it have one irritating downside - after each UEFI BIOS upgrade, it&amp;rsquo;s silently resetting some of settings.
 Let me note, what I want to have there:
-Ai Tweaker (use my RAM capabilities) AI Overcloack Tuner -&amp;gt; [XMP I] DRAM Frequency -&amp;gt; [DDR4-3600MHz] DRAM CAS# Latency -&amp;gt; [16] DRAM RAS# to CAS# Delay -&amp;gt; [19] DRAM RAS# ACT Time -&amp;gt; [39] DRAM Voltage -&amp;gt; [1.</description></item><item><title>How to remove geo-localization/EXIF data from photos</title><link>https://timor.site/2021/03/how-to-remove-geo-localization/exif-data-from-photos/</link><pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate><guid>https://timor.site/2021/03/how-to-remove-geo-localization/exif-data-from-photos/</guid><description>I wanted to share publicly some photos, but I performed them with navigation enabled so they contained accurate localization of my house. I wanted to remove EXIF data GPS tags, my phone type and other irrelevant stuff.
+ Ai Tweaker (use my RAM capabilities)  AI Overcloack Tuner -&amp;gt; [XMP I] DRAM Frequency -&amp;gt; [DDR4-3600MHz] DRAM CAS# Latency -&amp;gt; [16] DRAM RAS# to CAS# Delay -&amp;gt; [19] DRAM RAS# ACT Time -&amp;gt; [39] DRAM Voltage -&amp;gt; [1.</description>
+    </item>
+    
+    <item>
+      <title>How to remove geo-localization/EXIF data from photos</title>
+      <link>https://timor.site/2021/03/how-to-remove-geo-localization/exif-data-from-photos/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2021/03/how-to-remove-geo-localization/exif-data-from-photos/</guid>
+      <description>I wanted to share publicly some photos, but I performed them with navigation enabled so they contained accurate localization of my house. I wanted to remove EXIF data GPS tags, my phone type and other irrelevant stuff.
 TL;DR You will need imagemagick installed (use apt/yum/dnf of whatever you have there):
 sudo apt install -y imagemagick To remove them just use:
-mogrify -strip image.jpg How to check if it&amp;rsquo;s working? First, let&amp;rsquo;s get some example images 1.</description></item><item><title>Moving from Linux to MacOS – first steps</title><link>https://timor.site/2020/01/moving-from-linux-to-macos-first-steps/</link><pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate><guid>https://timor.site/2020/01/moving-from-linux-to-macos-first-steps/</guid><description>Few years ago I moved from Linux desktop to MacOS for my business, day to day work. There were 2 main reasons for that:
-Corporations don&amp;rsquo;t like Linux - they can&amp;rsquo;t manage it, they can&amp;rsquo;t support it, so they blocked it with &amp;ldquo;Security policy&amp;rdquo;, ISO20001, or other nonsense. Actually they&amp;rsquo;re partially right but in different place - many business collaboration applications don&amp;rsquo;t work well on LInux (or they don&amp;rsquo;t work at all) Skype for Business - there&amp;rsquo;s open source alternative but to get full support you have to pay for additional codecs (as far as I remember) - it&amp;rsquo;s not working stable even in paid version Outlook and calendar support - I love Thunderbird and I use it for years, but calendar invitations didn&amp;rsquo;t work nice (honestly, they didn&amp;rsquo;t work nice even between different Outlook versions&amp;hellip;) Corporate VPN apps - Christ, I always was able to get it working eventually, but&amp;hellip; why bother I&amp;rsquo;m older, maybe lazier, maybe smarter - I don&amp;rsquo;t like to spend my time resolving problems that don&amp;rsquo;t give me any value.</description></item><item><title>Debuging commands running on memcached</title><link>https://timor.site/2016/07/debuging-commands-running-on-memcached/</link><pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/07/debuging-commands-running-on-memcached/</guid><description>I had stragne statistics on one memcached servers. I had to look what it&amp;rsquo;s doing there. I found such commands that may be used to sniff, extract and make statistics from running memcached server.
-Debug GET commands tcpflow -c dst port 11211 | cut -b46- | grep ^get cut command will remove 46 bytes at beginning of every string (src, dst, port). You may need to adjust numeric parameter for cut to leave commands only.</description></item><item><title>Tweaking ASUS Zenbook UX305CA on Linux</title><link>https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</link><pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</guid><description>Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &amp;lsquo;mobile&amp;rsquo; word. Then I saw ASUS Zenbook that I didn&amp;rsquo;t take into account before and it was exactly what I was searching for.
-Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed.</description></item><item><title>Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu</title><link>https://timor.site/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</link><pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</guid><description>From few days I have access to UPC&amp;rsquo;s www.horizon.tv platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it&amp;rsquo;s working pretty well - you&amp;rsquo;re just few commands away from achieving that:
+mogrify -strip image.jpg How to check if it&amp;rsquo;s working? First, let&amp;rsquo;s get some example images 1.</description>
+    </item>
+    
+    <item>
+      <title>Moving from Linux to MacOS – first steps</title>
+      <link>https://timor.site/2020/01/moving-from-linux-to-macos-first-steps/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2020/01/moving-from-linux-to-macos-first-steps/</guid>
+      <description>Few years ago I moved from Linux desktop to MacOS for my business, day to day work. There were 2 main reasons for that:
+ Corporations don&amp;rsquo;t like Linux - they can&amp;rsquo;t manage it, they can&amp;rsquo;t support it, so they blocked it with &amp;ldquo;Security policy&amp;rdquo;, ISO20001, or other nonsense. Actually they&amp;rsquo;re partially right but in different place - many business collaboration applications don&amp;rsquo;t work well on LInux (or they don&amp;rsquo;t work at all)  Skype for Business - there&amp;rsquo;s open source alternative but to get full support you have to pay for additional codecs (as far as I remember) - it&amp;rsquo;s not working stable even in paid version Outlook and calendar support - I love Thunderbird and I use it for years, but calendar invitations didn&amp;rsquo;t work nice (honestly, they didn&amp;rsquo;t work nice even between different Outlook versions&amp;hellip;) Corporate VPN apps - Christ, I always was able to get it working eventually, but&amp;hellip; why bother    I&amp;rsquo;m older, maybe lazier, maybe smarter - I don&amp;rsquo;t like to spend my time resolving problems that don&amp;rsquo;t give me any value.</description>
+    </item>
+    
+    <item>
+      <title>Debuging commands running on memcached</title>
+      <link>https://timor.site/2016/07/debuging-commands-running-on-memcached/</link>
+      <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/07/debuging-commands-running-on-memcached/</guid>
+      <description>I had stragne statistics on one memcached servers. I had to look what it&amp;rsquo;s doing there. I found such commands that may be used to sniff, extract and make statistics from running memcached server.
+Debug GET commands tcpflow -c dst port 11211 | cut -b46- | grep ^get cut command will remove 46 bytes at beginning of every string (src, dst, port). You may need to adjust numeric parameter for cut to leave commands only.</description>
+    </item>
+    
+    <item>
+      <title>Tweaking ASUS Zenbook UX305CA on Linux</title>
+      <link>https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</link>
+      <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</guid>
+      <description>Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &amp;lsquo;mobile&amp;rsquo; word. Then I saw ASUS Zenbook that I didn&amp;rsquo;t take into account before and it was exactly what I was searching for.
+Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed.</description>
+    </item>
+    
+    <item>
+      <title>Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu</title>
+      <link>https://timor.site/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</link>
+      <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</guid>
+      <description>From few days I have access to UPC&amp;rsquo;s www.horizon.tv platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it&amp;rsquo;s working pretty well - you&amp;rsquo;re just few commands away from achieving that:
 # stop browser killall firefox # remove old version if you have it sudo apt-get remove pipelight Now configure repos and install packages:
-sudo apt-add-repository ppa:pipelight/stable sudo apt-get update sudo apt-get install --install-recommends pipelight-multi sudo pipelight-plugin --update Enable plugin (run it with sudo for system wide installation):</description></item><item><title>Intel Dual Band Wireless-AC 7260 for Desktop on Linux</title><link>https://timor.site/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</link><pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</guid><description>I just bought new wifi card for my desktop computer. Like in topic, it&amp;rsquo;s Intel Dual Band Wireless-AC 7260 for Desktop.
+sudo apt-add-repository ppa:pipelight/stable sudo apt-get update sudo apt-get install --install-recommends pipelight-multi sudo pipelight-plugin --update Enable plugin (run it with sudo for system wide installation):</description>
+    </item>
+    
+    <item>
+      <title>Intel Dual Band Wireless-AC 7260 for Desktop on Linux</title>
+      <link>https://timor.site/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</guid>
+      <description>I just bought new wifi card for my desktop computer. Like in topic, it&amp;rsquo;s Intel Dual Band Wireless-AC 7260 for Desktop.
 I was searching for card that:
-support AC standard have 5GHz network support (2,4GHz channels are cluttered heavily in my neighborhood have PCI/PCIx or USB3 connector is Linux friendly (no modules compilation by hand, support for aircrack-ng, kismet) This one is the only I found that comply my expectations.</description></item><item><title>Optimize Nginx for performance</title><link>https://timor.site/2016/01/optimize-nginx-for-performance/</link><pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/01/optimize-nginx-for-performance/</guid><description>There are many possible real life cases and not all optimization technics will be suitable for you but I hope it will be a good starting place.
+ support AC standard have 5GHz network support (2,4GHz channels are cluttered heavily in my neighborhood have PCI/PCIx or USB3 connector is Linux friendly (no modules compilation by hand, support for aircrack-ng, kismet)  This one is the only I found that comply my expectations.</description>
+    </item>
+    
+    <item>
+      <title>Optimize Nginx for performance</title>
+      <link>https://timor.site/2016/01/optimize-nginx-for-performance/</link>
+      <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/01/optimize-nginx-for-performance/</guid>
+      <description>There are many possible real life cases and not all optimization technics will be suitable for you but I hope it will be a good starting place.
 Also you shouldn&amp;rsquo;t copy paste examples with faith that they will make your server fly 😃 You have to support your decisions with excessive tests and help of monitoring system (ex. Grafana).
-Cache static and dynamic content Setting caching static and dynamic content strategy may offload your server from additional load from repetitive downloads of same, rarely updated files.</description></item><item><title>XenServer - export VM to file</title><link>https://timor.site/2016/01/xenserver-export-vm-to-file/</link><pubDate>Tue, 12 Jan 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/01/xenserver-export-vm-to-file/</guid><description>Sometime you need to make quick and dirty image backup of VM running on XenServer and this post is about such case 😃
+Cache static and dynamic content Setting caching static and dynamic content strategy may offload your server from additional load from repetitive downloads of same, rarely updated files.</description>
+    </item>
+    
+    <item>
+      <title>XenServer - export VM to file</title>
+      <link>https://timor.site/2016/01/xenserver-export-vm-to-file/</link>
+      <pubDate>Tue, 12 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/01/xenserver-export-vm-to-file/</guid>
+      <description>Sometime you need to make quick and dirty image backup of VM running on XenServer and this post is about such case 😃
 List machines:
 xl list Name ID Mem VCPUs State Time(s) Domain-0 0 4066 8 r----- 3526567.3 webfront1.example.com 1 4096 4 r----- 3186487.2 webfront2.example.com 2 2048 2 -b---- 920408.2 Now you may export one:
-xe vm-export vm=webfront1.example.com filename=/srv/backup/webfront.xva Export succeeded You may also use uuid for that - list machines with xe vm-list (best with less) and then:</description></item><item><title>Nagios - downtime on host/service from command line with curl</title><link>https://timor.site/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</link><pubDate>Mon, 11 Jan 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</guid><description>Sometimes deployment process or other havy task may cause some Nagios checks to rise below normal levels and bother admin. If this is expected and you want to add downtime on host/service during this task you may use this script:
-#!/bin/bash function die { echo $1; exit 1; } if [[ $# -eq 0 ]] ; then die &amp;#34;Give hostname and time in minutes as parameter!&amp;#34; fi if [[ $# -eq 1 ]] ; then MINUTES=15 else MINUTES=$2 fi HOST=$1 NAGURL=http://nagios.</description></item><item><title>Grafana - installation and configuraton with InfluxDB and CollectD on Debian/Ubuntu</title><link>https://timor.site/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</link><pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</guid><description>Now when you have CollectD and InfluxDB installed you may configure Grafana 😃
+xe vm-export vm=webfront1.example.com filename=/srv/backup/webfront.xva Export succeeded You may also use uuid for that - list machines with xe vm-list (best with less) and then:</description>
+    </item>
+    
+    <item>
+      <title>Nagios - downtime on host/service from command line with curl</title>
+      <link>https://timor.site/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</link>
+      <pubDate>Mon, 11 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</guid>
+      <description>Sometimes deployment process or other havy task may cause some Nagios checks to rise below normal levels and bother admin. If this is expected and you want to add downtime on host/service during this task you may use this script:
+#!/bin/bash  function die { echo $1; exit 1; } if [[ $# -eq 0 ]] ; then die &amp;#34;Give hostname and time in minutes as parameter!&amp;#34; fi if [[ $# -eq 1 ]] ; then MINUTES=15 else MINUTES=$2 fi HOST=$1 NAGURL=http://nagios.</description>
+    </item>
+    
+    <item>
+      <title>Grafana - installation and configuraton with InfluxDB and CollectD on Debian/Ubuntu</title>
+      <link>https://timor.site/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</guid>
+      <description>Now when you have CollectD and InfluxDB installed you may configure Grafana 😃
 First configure repo with current Grafana version (select your distro):
 curl https://packagecloud.io/gpg.key | sudo apt-key add - deb https://packagecloud.io/grafana/testing/debian/ wheezy main Now install package (on wheezy I needed to install apt-transport-https to allow installation of packages from repo via HTTPS):
-apt-get update apt-get install -y apt-transport-https apt-get install -y grafana By default Grafana will use sqlite database to keep information about users, etc:</description></item><item><title>InfluxDB - installation and configuration on Debian/Ubuntu</title><link>https://timor.site/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</link><pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</guid><description>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
+apt-get update apt-get install -y apt-transport-https apt-get install -y grafana By default Grafana will use sqlite database to keep information about users, etc:</description>
+    </item>
+    
+    <item>
+      <title>InfluxDB - installation and configuration on Debian/Ubuntu</title>
+      <link>https://timor.site/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</link>
+      <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</guid>
+      <description>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
 Let&amp;rsquo;s start! On project page there is no info about repo but it&amp;rsquo;s available, configure it:
-curl -sL https://repos.influxdata.com/influxdb.key | apt-key add - echo &amp;#34;deb https://repos.influxdata.com/debian wheezy stable&amp;#34; &amp;gt; /etc/apt.sources.list.d/influxdb.conf for Ubuntu use url like (of course selecting your version):</description></item><item><title>CollectD - installation and configuration with InfluxDB on Debian/Ubuntu</title><link>https://timor.site/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</link><pubDate>Fri, 08 Jan 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</guid><description>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
-Installation of collectd is easy on Debian because packages are in default repo. One problem is that packages may be old, ex. on wheezy it version 5.1. But in backports/backports-sloppy you may find current 5.</description></item><item><title>Let’s Encrypt - without auto configuration</title><link>https://timor.site/2016/01/lets-encrypt-without-auto-configuration/</link><pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/01/lets-encrypt-without-auto-configuration/</guid><description>From the first moment I heard about Let&amp;rsquo;s Encrypt I liked it and wanted to use it as fast as possible. But the more I read how they want to implement it, the more I dislike it.
-Current project with automatic configuration is not what I want to use at all. I have many very complicated configs and I do not trust such tools enough to use them. I like UNIX&amp;rsquo;s single purpose principle, tools should do one thing and do it well - nothing more.</description></item><item><title>fail2ban - block wp-login.php brute force attacks</title><link>https://timor.site/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</link><pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate><guid>https://timor.site/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</guid><description>Lately I had a lot of brute force attacks on my WordPress blog. I used basic auth to /wp-admin part in nginx configuration to block this and as a better solution I wan&amp;rsquo;t to block source IPs at all on firewall.
+curl -sL https://repos.influxdata.com/influxdb.key | apt-key add - echo &amp;#34;deb https://repos.influxdata.com/debian wheezy stable&amp;#34; &amp;gt; /etc/apt.sources.list.d/influxdb.conf for Ubuntu use url like (of course selecting your version):</description>
+    </item>
+    
+    <item>
+      <title>CollectD - installation and configuration with InfluxDB on Debian/Ubuntu</title>
+      <link>https://timor.site/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</link>
+      <pubDate>Fri, 08 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</guid>
+      <description>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
+Installation of collectd is easy on Debian because packages are in default repo. One problem is that packages may be old, ex. on wheezy it version 5.1. But in backports/backports-sloppy you may find current 5.</description>
+    </item>
+    
+    <item>
+      <title>Let’s Encrypt - without auto configuration</title>
+      <link>https://timor.site/2016/01/lets-encrypt-without-auto-configuration/</link>
+      <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/01/lets-encrypt-without-auto-configuration/</guid>
+      <description>From the first moment I heard about Let&amp;rsquo;s Encrypt I liked it and wanted to use it as fast as possible. But the more I read how they want to implement it, the more I dislike it.
+Current project with automatic configuration is not what I want to use at all. I have many very complicated configs and I do not trust such tools enough to use them. I like UNIX&amp;rsquo;s single purpose principle, tools should do one thing and do it well - nothing more.</description>
+    </item>
+    
+    <item>
+      <title>fail2ban - block wp-login.php brute force attacks</title>
+      <link>https://timor.site/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</link>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</guid>
+      <description>Lately I had a lot of brute force attacks on my WordPress blog. I used basic auth to /wp-admin part in nginx configuration to block this and as a better solution I wan&amp;rsquo;t to block source IPs at all on firewall.
 To do this, place this filter code in /etc/fail2ban/filter.d/wp-login.conf:
-# WordPress brute force wp-login.php filter: # # Block IPs trying to authenticate in WordPress blog # # Matches e.g. # 178.</description></item><item><title>Ansible on Vagrant - skipping: no hosts matched</title><link>https://timor.site/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</link><pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate><guid>https://timor.site/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</guid><description>I have some Ansible roles to configure my vps, Raspberry Pi, etc. I like to test them before I broke something on my real, not clustered machines - I use Vagrant for that.
+# WordPress brute force wp-login.php filter: # # Block IPs trying to authenticate in WordPress blog # # Matches e.g. # 178.</description>
+    </item>
+    
+    <item>
+      <title>Ansible on Vagrant - skipping: no hosts matched</title>
+      <link>https://timor.site/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</guid>
+      <description>I have some Ansible roles to configure my vps, Raspberry Pi, etc. I like to test them before I broke something on my real, not clustered machines - I use Vagrant for that.
 But with it I had one problem - in playbooks I define hosts as groups of severs ex. web for my vps:
-- hosts: web gather_facts: True sudo: True ... But testing machine wasn&amp;rsquo;t in this group and when I run vagrant I could only see:</description></item><item><title>Apache - Force caching dynamic PHP content with mod_headers</title><link>https://timor.site/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</link><pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate><guid>https://timor.site/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</guid><description>Normally you want dynamic content to be fresh and not catchable. But sometimes it may be useful to cache it, like when you have website behind reverse proxy. To do this try something like this:
-&amp;lt;filesmatch &amp;#34;\.(php|cgi|pl)$&amp;#34;&amp;gt; Header unset Pragma Header unset Expires Header set Cache-Control &amp;#34;max-age=3600, public&amp;#34; &amp;lt;/filesmatch&amp;gt; Sources http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html</description></item><item><title>MySQL - reset root password</title><link>https://timor.site/2015/12/mysql-reset-root-password/</link><pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate><guid>https://timor.site/2015/12/mysql-reset-root-password/</guid><description>It will happen from time to time, that you&amp;rsquo;re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn&amp;rsquo;t be used in app 😃 ) but will work for any user.
-shutdown db service mysql stop create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt SET PASSWORD FOR &amp;#34;root&amp;#34;@&amp;#34;localhost&amp;#34; = PASSWORD(&amp;#34;HereYourNewPassword&amp;#34;); start mysqld with --init-file param mysqld_safe --init-file=/tmp/pwchange.</description></item><item><title>Rotate movies</title><link>https://timor.site/2015/12/rotate-movies/</link><pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate><guid>https://timor.site/2015/12/rotate-movies/</guid><description>I hate movies recorded on phone in vertical position. This just short tip how I dealt with with it last time:
+- hosts: web gather_facts: True sudo: True ... But testing machine wasn&amp;rsquo;t in this group and when I run vagrant I could only see:</description>
+    </item>
+    
+    <item>
+      <title>Apache - Force caching dynamic PHP content with mod_headers</title>
+      <link>https://timor.site/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</guid>
+      <description>Normally you want dynamic content to be fresh and not catchable. But sometimes it may be useful to cache it, like when you have website behind reverse proxy. To do this try something like this:
+&amp;lt;filesmatch &amp;#34;\.(php|cgi|pl)$&amp;#34;&amp;gt; Header unset Pragma Header unset Expires Header set Cache-Control &amp;#34;max-age=3600, public&amp;#34; &amp;lt;/filesmatch&amp;gt; Sources http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html</description>
+    </item>
+    
+    <item>
+      <title>MySQL - reset root password</title>
+      <link>https://timor.site/2015/12/mysql-reset-root-password/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2015/12/mysql-reset-root-password/</guid>
+      <description>It will happen from time to time, that you&amp;rsquo;re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn&amp;rsquo;t be used in app 😃 ) but will work for any user.
+ shutdown db  service mysql stop  create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt  SET PASSWORD FOR &amp;#34;root&amp;#34;@&amp;#34;localhost&amp;#34; = PASSWORD(&amp;#34;HereYourNewPassword&amp;#34;);  start mysqld with --init-file param  mysqld_safe --init-file=/tmp/pwchange.</description>
+    </item>
+    
+    <item>
+      <title>Rotate movies</title>
+      <link>https://timor.site/2015/12/rotate-movies/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2015/12/rotate-movies/</guid>
+      <description>I hate movies recorded on phone in vertical position. This just short tip how I dealt with with it last time:
 for m in *.mp4 do avconv -i $m -vf &amp;#34;transpose=1&amp;#34; -codec:a copy -codec:v libx264 -preset slow -crf 23 rotated-$m done Other examples:
 http://stackoverflow.com/questions/3937387/rotating-videos-with-ffmpeg
-http://superuser.com/questions/578321/how-to-flip-a-video-180°-vertical-upside-down-with-ffmpeg</description></item><item><title>Extract password saved in remmina</title><link>https://timor.site/2015/12/extract-password-saved-in-remmina/</link><pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate><guid>https://timor.site/2015/12/extract-password-saved-in-remmina/</guid><description>I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in .remmina directory.
+http://superuser.com/questions/578321/how-to-flip-a-video-180°-vertical-upside-down-with-ffmpeg</description>
+    </item>
+    
+    <item>
+      <title>Extract password saved in remmina</title>
+      <link>https://timor.site/2015/12/extract-password-saved-in-remmina/</link>
+      <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2015/12/extract-password-saved-in-remmina/</guid>
+      <description>I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in .remmina directory.
 Then I used this script to the decrypt them:
-import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) Sources http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina</description></item><item><title>Apache AuthBasic but excluding IP</title><link>https://timor.site/2015/12/apache-authbasic-but-excluding-ip/</link><pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate><guid>https://timor.site/2015/12/apache-authbasic-but-excluding-ip/</guid><description>Allow from IP without password prompt, and also allow from any address with password prompt
-Order deny,allow Deny from all AuthName &amp;#34;htaccess password prompt&amp;#34; AuthUserFile /web/askapache.com/.htpasswd AuthType Basic Require valid-user Allow from 172.17.10.1 Satisfy Any Sources http://www.askapache.com/htaccess/apache-authentication-in-htaccess.html</description></item><item><title>Copy GTP partiotion table between disks</title><link>https://timor.site/2014/07/copy-gtp-partiotion-table-between-disks/</link><pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/07/copy-gtp-partiotion-table-between-disks/</guid><description>When configuring RAID it&amp;rsquo;s quite important to have the same partition tables on every disk. I&amp;rsquo;v done this many times on msdos partition tables like this:
+import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) Sources http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina</description>
+    </item>
+    
+    <item>
+      <title>Apache AuthBasic but excluding IP</title>
+      <link>https://timor.site/2015/12/apache-authbasic-but-excluding-ip/</link>
+      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2015/12/apache-authbasic-but-excluding-ip/</guid>
+      <description>Allow from IP without password prompt, and also allow from any address with password prompt
+Order deny,allow Deny from all AuthName &amp;#34;htaccess password prompt&amp;#34; AuthUserFile /web/askapache.com/.htpasswd AuthType Basic Require valid-user Allow from 172.17.10.1 Satisfy Any Sources http://www.askapache.com/htaccess/apache-authentication-in-htaccess.html</description>
+    </item>
+    
+    <item>
+      <title>Copy GTP partiotion table between disks</title>
+      <link>https://timor.site/2014/07/copy-gtp-partiotion-table-between-disks/</link>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/07/copy-gtp-partiotion-table-between-disks/</guid>
+      <description>When configuring RAID it&amp;rsquo;s quite important to have the same partition tables on every disk. I&amp;rsquo;v done this many times on msdos partition tables like this:
 sfdisk -d /dev/sda | sfdisk /dev/sdb but it&amp;rsquo;s not working any more on GPT partition tables. Hopefully it still can be done but with different toolstack 😄
 Install gdisk:
 apt-get install -y gdisk Then use sgdisk like this:
-sgdisk -R /dev/sd_dest /dev/sd_src sgdisk -G /dev/sd_dest First command will copy partition from /dev/sd_src to /dev/sd_dest.</description></item><item><title>Changing default php.ini file for PHP-CLI on CentOS</title><link>https://timor.site/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/</link><pubDate>Thu, 08 May 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/</guid><description>On Debian in default installation you have different configuration files for PHP in Apache, FPM, CLI, etc. But on CentOS you have only one php.ini for all of them. In case I have, I need to have different configuration file for scripts running in CLI mode (more memory, etc). I could run it like this:
-php -c /etc/php-cli.ini script.php But this a little burdensome. So I do it like this:</description></item><item><title>Command to change root password</title><link>https://timor.site/2014/05/command-to-change-root-password/</link><pubDate>Thu, 08 May 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/05/command-to-change-root-password/</guid><description>Everybody knows passwd command but it&amp;rsquo;s useless when you need to change ex. root password from command line without waiting for input. In such case oneliner below could help:
-echo &amp;#34;root:new_password&amp;#34; | chpasswd</description></item><item><title>Rebuild yum/rpm database</title><link>https://timor.site/2014/04/rebuild-yum-rpm-database/</link><pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/04/rebuild-yum-rpm-database/</guid><description>When I was trying to update packages on one host I&amp;rsquo;ve stuck with yum hung on update. I run strace and see:
+sgdisk -R /dev/sd_dest /dev/sd_src sgdisk -G /dev/sd_dest First command will copy partition from /dev/sd_src to /dev/sd_dest.</description>
+    </item>
+    
+    <item>
+      <title>Changing default php.ini file for PHP-CLI on CentOS</title>
+      <link>https://timor.site/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/</link>
+      <pubDate>Thu, 08 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/</guid>
+      <description>On Debian in default installation you have different configuration files for PHP in Apache, FPM, CLI, etc. But on CentOS you have only one php.ini for all of them. In case I have, I need to have different configuration file for scripts running in CLI mode (more memory, etc). I could run it like this:
+php -c /etc/php-cli.ini script.php But this a little burdensome. So I do it like this:</description>
+    </item>
+    
+    <item>
+      <title>Command to change root password</title>
+      <link>https://timor.site/2014/05/command-to-change-root-password/</link>
+      <pubDate>Thu, 08 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/05/command-to-change-root-password/</guid>
+      <description>Everybody knows passwd command but it&amp;rsquo;s useless when you need to change ex. root password from command line without waiting for input. In such case oneliner below could help:
+echo &amp;#34;root:new_password&amp;#34; | chpasswd </description>
+    </item>
+    
+    <item>
+      <title>Rebuild yum/rpm database</title>
+      <link>https://timor.site/2014/04/rebuild-yum-rpm-database/</link>
+      <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/04/rebuild-yum-rpm-database/</guid>
+      <description>When I was trying to update packages on one host I&amp;rsquo;ve stuck with yum hung on update. I run strace and see:
 strace -p 43734 Process 43734 attached - interrupt to quit futex(0x807c938, FUTEX_WAIT, 1, NULL &amp;lt;unfinished ...&amp;gt; Process 43734 detached It looks like yum database was corrupted, to repair this run:
-rm -f /var/lib/rpm/__db* rpm --rebuilddb yum clean all yum update Instead rm on db-files you could use gzip to have backup of these files.</description></item><item><title>Nagios - run checks as root with NRPE</title><link>https://timor.site/2014/03/nagios-run-checks-as-root-with-nrpe/</link><pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/03/nagios-run-checks-as-root-with-nrpe/</guid><description>I&amp;rsquo;ve few Nagios checks that require root privileges but running nrpe as root user is not acceptable. I prefer to use sudo for only these few commands.
+rm -f /var/lib/rpm/__db* rpm --rebuilddb yum clean all yum update Instead rm on db-files you could use gzip to have backup of these files.</description>
+    </item>
+    
+    <item>
+      <title>Nagios - run checks as root with NRPE</title>
+      <link>https://timor.site/2014/03/nagios-run-checks-as-root-with-nrpe/</link>
+      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/03/nagios-run-checks-as-root-with-nrpe/</guid>
+      <description>I&amp;rsquo;ve few Nagios checks that require root privileges but running nrpe as root user is not acceptable. I prefer to use sudo for only these few commands.
 Run visudo and coment out this line:
 #Defaults requiretty This change is crucial to get scripts working.
 Then add at the end of file:
-%nrpe ALL=(ALL) NOPASSWD: /usr/lib64/nagios/plugins/ I&amp;rsquo;ve used nrpe group, but you have to add exactly group that your nrpe process uses.</description></item><item><title>Checking memcached status</title><link>https://timor.site/2014/03/checking-memcached-status/</link><pubDate>Fri, 21 Mar 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/03/checking-memcached-status/</guid><description>I need to check memory usage of memcached server so I used:
-echo stats | nc 127.0.0.1 11211 STAT pid 2743 STAT uptime 263 STAT time 1395438951 STAT version 1.4.13 STAT pointer_size 64 STAT rusage_user 0.482926 STAT rusage_system 2.675593 STAT curr_items 8667 STAT total_items 10742 STAT bytes 23802513 STAT curr_connections 296 STAT total_connections 399 STAT connection_structures 297 STAT cmd_flush 0 STAT cmd_get 52578 STAT cmd_set 10792 STAT get_hits 28692 STAT get_misses 23886 STAT evictions 0 STAT bytes_read 35984361 STAT bytes_written 192647437 STAT limit_maxbytes 536870912 STAT threads 2 STAT accepting_conns 1 STAT listen_disabled_num 0 STAT replication MASTER STAT repcached_qi_free 8189 STAT repcached_wdata 0 STAT repcached_wsize 1026048 END For me, bytes value was important but you could find more about all statistics here.</description></item><item><title>Postfix - automatically drop outbound mail</title><link>https://timor.site/2014/03/postfix-automatically-drop-outbound-mail/</link><pubDate>Tue, 18 Mar 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/03/postfix-automatically-drop-outbound-mail/</guid><description>I have development server with postfix - I wanted to allow outbound traffic to one domain but cut off all the rest. I definitely do not want that test mail or any debug info goes to service users.
+%nrpe ALL=(ALL) NOPASSWD: /usr/lib64/nagios/plugins/ I&amp;rsquo;ve used nrpe group, but you have to add exactly group that your nrpe process uses.</description>
+    </item>
+    
+    <item>
+      <title>Checking memcached status</title>
+      <link>https://timor.site/2014/03/checking-memcached-status/</link>
+      <pubDate>Fri, 21 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/03/checking-memcached-status/</guid>
+      <description>I need to check memory usage of memcached server so I used:
+echo stats | nc 127.0.0.1 11211 STAT pid 2743 STAT uptime 263 STAT time 1395438951 STAT version 1.4.13 STAT pointer_size 64 STAT rusage_user 0.482926 STAT rusage_system 2.675593 STAT curr_items 8667 STAT total_items 10742 STAT bytes 23802513 STAT curr_connections 296 STAT total_connections 399 STAT connection_structures 297 STAT cmd_flush 0 STAT cmd_get 52578 STAT cmd_set 10792 STAT get_hits 28692 STAT get_misses 23886 STAT evictions 0 STAT bytes_read 35984361 STAT bytes_written 192647437 STAT limit_maxbytes 536870912 STAT threads 2 STAT accepting_conns 1 STAT listen_disabled_num 0 STAT replication MASTER STAT repcached_qi_free 8189 STAT repcached_wdata 0 STAT repcached_wsize 1026048 END For me, bytes value was important but you could find more about all statistics here.</description>
+    </item>
+    
+    <item>
+      <title>Postfix - automatically drop outbound mail</title>
+      <link>https://timor.site/2014/03/postfix-automatically-drop-outbound-mail/</link>
+      <pubDate>Tue, 18 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/03/postfix-automatically-drop-outbound-mail/</guid>
+      <description>I have development server with postfix - I wanted to allow outbound traffic to one domain but cut off all the rest. I definitely do not want that test mail or any debug info goes to service users.
 I have to add something like that to /etc/postfix/transport:
 allowed.domain.com : * discard: Then run:
 postmap /etc/postfix/transport At end, add these to /etc/postfix/main.cf:
 transport_maps = hash:/etc/postfix/transport Reload postfix:
-postfix reload Test if it works:</description></item><item><title>Ansible - ssh pipelining</title><link>https://timor.site/2014/03/ansible-ssh-pipelining/</link><pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/03/ansible-ssh-pipelining/</guid><description>In recent Ansible update to 1.5 version there is really nice feature ssh pipelining. This option is serious alternative to accelerated mode.
+postfix reload Test if it works:</description>
+    </item>
+    
+    <item>
+      <title>Ansible - ssh pipelining</title>
+      <link>https://timor.site/2014/03/ansible-ssh-pipelining/</link>
+      <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/03/ansible-ssh-pipelining/</guid>
+      <description>In recent Ansible update to 1.5 version there is really nice feature ssh pipelining. This option is serious alternative to accelerated mode.
 Just add to you config file (ex. ~/.ansible.cfg):
 [ssh_connection] pipelining=True Now run any playbook - you will see the difference 😄
 Source (and extended info about):
-http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansible-1-5/</description></item><item><title>Comparing two lists in bash</title><link>https://timor.site/2014/02/comparing-two-lists-in-bash/</link><pubDate>Tue, 18 Feb 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/02/comparing-two-lists-in-bash/</guid><description>I had quite simple task - compare two lists of hosts and check if hosts from first one are also on the second one. I started with diff:
+http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansible-1-5/</description>
+    </item>
+    
+    <item>
+      <title>Comparing two lists in bash</title>
+      <link>https://timor.site/2014/02/comparing-two-lists-in-bash/</link>
+      <pubDate>Tue, 18 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/02/comparing-two-lists-in-bash/</guid>
+      <description>I had quite simple task - compare two lists of hosts and check if hosts from first one are also on the second one. I started with diff:
 diff -u biglist.txt hosts_to_check.txt | grep -E &amp;#34;^\+&amp;#34; It was fine but output needs some filtering to get what I want.
 I&amp;rsquo;ve found another example with grep:
-grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n This will search for all lines in hosts_to_check.</description></item><item><title>Debian - Upgrade MySQL to MariaDB</title><link>https://timor.site/2014/01/debian-upgrade-mysql-to-mariadb/</link><pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/01/debian-upgrade-mysql-to-mariadb/</guid><description>After reading some good opinions about MariaDB I wanted to give it a try. Upgrade looks quite straight forward but I found some issues a little tricky.
+grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n This will search for all lines in hosts_to_check.</description>
+    </item>
+    
+    <item>
+      <title>Debian - Upgrade MySQL to MariaDB</title>
+      <link>https://timor.site/2014/01/debian-upgrade-mysql-to-mariadb/</link>
+      <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/01/debian-upgrade-mysql-to-mariadb/</guid>
+      <description>After reading some good opinions about MariaDB I wanted to give it a try. Upgrade looks quite straight forward but I found some issues a little tricky.
 Installation Add repo and key:
 cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main deb-src http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main SRC (find more repositories here)
 Now install MariaDB:
-sudo apt-get update sudo apt-get install mariadb-server It could be better to install mariadb-server-5.5 and mariadb-client-5.5 package instead, because of this error.</description></item><item><title>Nginx - enabling SPDY with freeware certificate</title><link>https://timor.site/2014/01/nginx-enabling-spdy-with-freeware-certificate/</link><pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/01/nginx-enabling-spdy-with-freeware-certificate/</guid><description>I was thinking about allowing access to my website using SPDY protocol for better performance and security (and for fun of course 😃 ). But SPDY have one disadvantage - you need SSL certificate signed by known authority that will verfiy in common browsers. So you can&amp;rsquo;t use self signed certificates because everyone will see a warning entering your site. Certs are quite expensive so I started searching for free one and to my surprise I found such!</description></item><item><title>Regenerate thumbnails in Shotwell 0.15 (for last month)</title><link>https://timor.site/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</link><pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</guid><description>I love Shotwell for it&amp;rsquo;s simplicity and easy export to Piwigo. After Christmas I added new photos to my library but after that I made some modifications to them (red eye reduction, etc&amp;hellip;). Because Shotwell generate thumbnails only on import, all my modifications were not visible on preview.
+sudo apt-get update sudo apt-get install mariadb-server It could be better to install mariadb-server-5.5 and mariadb-client-5.5 package instead, because of this error.</description>
+    </item>
+    
+    <item>
+      <title>Nginx - enabling SPDY with freeware certificate</title>
+      <link>https://timor.site/2014/01/nginx-enabling-spdy-with-freeware-certificate/</link>
+      <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/01/nginx-enabling-spdy-with-freeware-certificate/</guid>
+      <description>I was thinking about allowing access to my website using SPDY protocol for better performance and security (and for fun of course 😃 ). But SPDY have one disadvantage - you need SSL certificate signed by known authority that will verfiy in common browsers. So you can&amp;rsquo;t use self signed certificates because everyone will see a warning entering your site. Certs are quite expensive so I started searching for free one and to my surprise I found such!</description>
+    </item>
+    
+    <item>
+      <title>Regenerate thumbnails in Shotwell 0.15 (for last month)</title>
+      <link>https://timor.site/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</link>
+      <pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</guid>
+      <description>I love Shotwell for it&amp;rsquo;s simplicity and easy export to Piwigo. After Christmas I added new photos to my library but after that I made some modifications to them (red eye reduction, etc&amp;hellip;). Because Shotwell generate thumbnails only on import, all my modifications were not visible on preview.
 I&amp;rsquo;ve started searching how to regenerate thumbs and found this info. There were two issues with this method:
-this howto was for old version (with old paths) and only for 128px thumbs I definitely don&amp;rsquo;t want to regenerate thumbnails for 40k photos!</description></item><item><title>Apache - precompressing static files with gzip</title><link>https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/</link><pubDate>Fri, 27 Dec 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/</guid><description>Some time ago I&amp;rsquo;ve show how to precompress js and css file with gzip to be available for Nginx&amp;rsquo;s mod_gzip. In default configuration Apache don&amp;rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.
+ this howto was for old version (with old paths) and only for 128px thumbs I definitely don&amp;rsquo;t want to regenerate thumbnails for 40k photos!</description>
+    </item>
+    
+    <item>
+      <title>Apache - precompressing static files with gzip</title>
+      <link>https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/</link>
+      <pubDate>Fri, 27 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/</guid>
+      <description>Some time ago I&amp;rsquo;ve show how to precompress js and css file with gzip to be available for Nginx&amp;rsquo;s mod_gzip. In default configuration Apache don&amp;rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.
 Basically we will start with these rewrites to serve gzipped CSS/JS files if they exist and the client accepts gzip compression:
-RewriteEngine on RewriteCond %{HTTP:Accept-encoding} gzip RewriteCond %{REQUEST_FILENAME}\.gz -s RewriteRule ^(.*)\.(js|css)$ $1\.$2\.gz [QSA] Then we need to setup proper content types for such compressed files - I know how to do this in two ways:</description></item><item><title>Generate ECDSA key with OpenSSL</title><link>https://timor.site/2013/12/generate-ecdsa-key-with-openssl/</link><pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/12/generate-ecdsa-key-with-openssl/</guid><description>After the last NSA scandal I&amp;rsquo;ve found some time to read some texts about PFS and ECDSA keys lately. I always used RSA keys but wanted to give a try to ECDSA so I wanted to give it a try (test performance, etc). Here is how I&amp;rsquo;ve done it.
-Firstly find your favorite curve. A short tip about bit length and complexity could be found here. From it you will now that using 256 bit ECDSA key should be enough for next 10-20 years.</description></item><item><title>Delete audio track from mkv file</title><link>https://timor.site/2013/12/delete-audio-track-from-mkv-file/</link><pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/12/delete-audio-track-from-mkv-file/</guid><description>Lately I tried to remove some streams from MKV file - I wanted: video, audio in my language and no subtitles. I achieved it with mkvtoolnix utils.
+RewriteEngine on RewriteCond %{HTTP:Accept-encoding} gzip RewriteCond %{REQUEST_FILENAME}\.gz -s RewriteRule ^(.*)\.(js|css)$ $1\.$2\.gz [QSA] Then we need to setup proper content types for such compressed files - I know how to do this in two ways:</description>
+    </item>
+    
+    <item>
+      <title>Generate ECDSA key with OpenSSL</title>
+      <link>https://timor.site/2013/12/generate-ecdsa-key-with-openssl/</link>
+      <pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/12/generate-ecdsa-key-with-openssl/</guid>
+      <description>After the last NSA scandal I&amp;rsquo;ve found some time to read some texts about PFS and ECDSA keys lately. I always used RSA keys but wanted to give a try to ECDSA so I wanted to give it a try (test performance, etc). Here is how I&amp;rsquo;ve done it.
+Firstly find your favorite curve. A short tip about bit length and complexity could be found here. From it you will now that using 256 bit ECDSA key should be enough for next 10-20 years.</description>
+    </item>
+    
+    <item>
+      <title>Delete audio track from mkv file</title>
+      <link>https://timor.site/2013/12/delete-audio-track-from-mkv-file/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/12/delete-audio-track-from-mkv-file/</guid>
+      <description>Lately I tried to remove some streams from MKV file - I wanted: video, audio in my language and no subtitles. I achieved it with mkvtoolnix utils.
 Firstly I have to identify streams in file:
-$ mkvmerge -i input_file.mkv File &amp;#39;test.mkv&amp;#39;: container: Matroska Track ID 0: video (V_MPEG4/ISO/AVC) Track ID 1: audio (A_DTS) Track ID 2: audio (A_AC3) Track ID 3: audio (A_DTS) Track ID 4: audio (A_AC3) Track ID 5: subtitles (S_TEXT/UTF8) Track ID 6: subtitles (S_TEXT/UTF8) Chapters: 16 entries You could use more verbose tool mkvinfo for that purpose too.</description></item><item><title>Preparing video files for streaming on website in MP4 and WEBM format</title><link>https://timor.site/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/</link><pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/</guid><description>Some time ago I prepared a PC that was responsible for batch encoding of movies to formats suitable for web players (such as. Video.js, JW Player, Flowplayer, etc.)
+$ mkvmerge -i input_file.mkv File &amp;#39;test.mkv&amp;#39;: container: Matroska Track ID 0: video (V_MPEG4/ISO/AVC) Track ID 1: audio (A_DTS) Track ID 2: audio (A_AC3) Track ID 3: audio (A_DTS) Track ID 4: audio (A_AC3) Track ID 5: subtitles (S_TEXT/UTF8) Track ID 6: subtitles (S_TEXT/UTF8) Chapters: 16 entries You could use more verbose tool mkvinfo for that purpose too.</description>
+    </item>
+    
+    <item>
+      <title>Preparing video files for streaming on website in MP4 and WEBM format</title>
+      <link>https://timor.site/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/</guid>
+      <description>Some time ago I prepared a PC that was responsible for batch encoding of movies to formats suitable for web players (such as. Video.js, JW Player, Flowplayer, etc.)
 I used HandBrake for conversion to MP4 format (becase this soft was the fastest one) and ffmpeg (aka avconv in new version) for two pass encoding to WEBM.
 Below are commands used by me for that conversion:
-MP4 HandBrakeCLI -e x264 -q 20.</description></item><item><title>Re-adding failed drive in mdadm</title><link>https://timor.site/2013/12/re-adding-failed-drive-in-mdadm/</link><pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/12/re-adding-failed-drive-in-mdadm/</guid><description>Yesterday I have problem with fglrx witch cause ugly system reset. After that, one of my drives was marked as failed in RAID5 array. Hotspare was automatically used to rebuild array. But this hotspare is the oldest and slowest drive I&amp;rsquo;ve got&amp;hellip;
+ MP4  HandBrakeCLI -e x264 -q 20.</description>
+    </item>
+    
+    <item>
+      <title>Re-adding failed drive in mdadm</title>
+      <link>https://timor.site/2013/12/re-adding-failed-drive-in-mdadm/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/12/re-adding-failed-drive-in-mdadm/</guid>
+      <description>Yesterday I have problem with fglrx witch cause ugly system reset. After that, one of my drives was marked as failed in RAID5 array. Hotspare was automatically used to rebuild array. But this hotspare is the oldest and slowest drive I&amp;rsquo;ve got&amp;hellip;
 After rebuild I&amp;rsquo;ve tested failed drive and it was fine - no bad block, no any other issue - so I wanted it running back in array.
-What I do:</description></item><item><title>Ansible - Dynamicaly update /etc/hosts files on target servers</title><link>https://timor.site/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/</link><pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/</guid><description>I was configuring GlusterFS on few servers using Ansible and have a need to update /etc/hosts with hostnames for easier configuration. I found this one working:
-- name: Update /etc/hosts lineinfile: dest=/etc/hosts regexp=&amp;#39;.*{{item}}$&amp;#39; line=&amp;#39;{{hostvars.{{item}}.ansible_default_ipv4.address}} {{item}}&amp;#39; state=present with_items: &amp;#39;{{groups.somegroup}}&amp;#39; Source: http://xmeblog.blogspot.com/2013/06/ansible-dynamicaly-update-etchosts.html</description></item><item><title>Inodes on XFS</title><link>https://timor.site/2013/11/inodes-on-xfs/</link><pubDate>Wed, 27 Nov 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/11/inodes-on-xfs/</guid><description>It&amp;rsquo;s quite rare to have problems with XFS and inodes exhaustion. Mostly because XFS doesn&amp;rsquo;t have inode limit in a manner known from other filesystems - it&amp;rsquo;s using some percentage of whole filesystem as a limit and in most distributions it&amp;rsquo;s 25%. So it&amp;rsquo;s really huge amount of inodes. But some tools and distributions lowered limit ex. 5% or 10% and there you could have problems more often.
-You could check what is you limit by issuing xfs_info with drive and searching for imaxpct value:</description></item><item><title>Kill with SIGSTOP and SIGCONT</title><link>https://timor.site/2013/11/kill-with-sigstop-and-sigcont/</link><pubDate>Thu, 21 Nov 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/11/kill-with-sigstop-and-sigcont/</guid><description>I&amp;rsquo;ve bought a NAS and customized it a little. But there was one thing which make my nights sleepless. NAS was seeking disks every 5~10 seconds - these was really irritating - especially when it was silent in room. I found that part of firmware was indexing or logging something so I wanted it dead! kill -9 was unsuccessful - process restarted after a while&amp;hellip;. wrrr&amp;hellip;
-I googled a little and found another signal I could use SIGSTOP, which will freeze process until I send SIGCONT to it - that was exactly what I need (because I normally use NFS/Samba and don&amp;rsquo;t need nothing more running on this device).</description></item><item><title>GearmanManager: wygodne zarządzanie workerami</title><link>https://timor.site/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</link><pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</guid><description>Niedawno zainteresowałem się usługą Gearman i jedynej rzeczy której mi brakowało to jakiegoś łatwego mechanizmu zarządzającego workerami. Ale jak zwykle okazało się że inni mieli już ten problem i odpowiednie narzędzie istnieje - mowa o GearmanManagerze.
+What I do:</description>
+    </item>
+    
+    <item>
+      <title>Ansible - Dynamicaly update /etc/hosts files on target servers</title>
+      <link>https://timor.site/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/</link>
+      <pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/</guid>
+      <description>I was configuring GlusterFS on few servers using Ansible and have a need to update /etc/hosts with hostnames for easier configuration. I found this one working:
+- name: Update /etc/hosts lineinfile: dest=/etc/hosts regexp=&amp;#39;.*{{item}}$&amp;#39; line=&amp;#39;{{hostvars.{{item}}.ansible_default_ipv4.address}} {{item}}&amp;#39; state=present with_items: &amp;#39;{{groups.somegroup}}&amp;#39; Source: http://xmeblog.blogspot.com/2013/06/ansible-dynamicaly-update-etchosts.html</description>
+    </item>
+    
+    <item>
+      <title>Inodes on XFS</title>
+      <link>https://timor.site/2013/11/inodes-on-xfs/</link>
+      <pubDate>Wed, 27 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/11/inodes-on-xfs/</guid>
+      <description>It&amp;rsquo;s quite rare to have problems with XFS and inodes exhaustion. Mostly because XFS doesn&amp;rsquo;t have inode limit in a manner known from other filesystems - it&amp;rsquo;s using some percentage of whole filesystem as a limit and in most distributions it&amp;rsquo;s 25%. So it&amp;rsquo;s really huge amount of inodes. But some tools and distributions lowered limit ex. 5% or 10% and there you could have problems more often.
+You could check what is you limit by issuing xfs_info with drive and searching for imaxpct value:</description>
+    </item>
+    
+    <item>
+      <title>Kill with SIGSTOP and SIGCONT</title>
+      <link>https://timor.site/2013/11/kill-with-sigstop-and-sigcont/</link>
+      <pubDate>Thu, 21 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/11/kill-with-sigstop-and-sigcont/</guid>
+      <description>I&amp;rsquo;ve bought a NAS and customized it a little. But there was one thing which make my nights sleepless. NAS was seeking disks every 5~10 seconds - these was really irritating - especially when it was silent in room. I found that part of firmware was indexing or logging something so I wanted it dead! kill -9 was unsuccessful - process restarted after a while&amp;hellip;. wrrr&amp;hellip;
+I googled a little and found another signal I could use SIGSTOP, which will freeze process until I send SIGCONT to it - that was exactly what I need (because I normally use NFS/Samba and don&amp;rsquo;t need nothing more running on this device).</description>
+    </item>
+    
+    <item>
+      <title>GearmanManager: wygodne zarządzanie workerami</title>
+      <link>https://timor.site/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</guid>
+      <description>Niedawno zainteresowałem się usługą Gearman i jedynej rzeczy której mi brakowało to jakiegoś łatwego mechanizmu zarządzającego workerami. Ale jak zwykle okazało się że inni mieli już ten problem i odpowiednie narzędzie istnieje - mowa o GearmanManagerze.
 Instalacja GearmanManagera Aby zainstalować GeramanManagera na serwerze gdzie już mamy Gearmana trzeba wykonać kilka kroków (wcześniej powinniśmy też zainstalować moduł gearmana do php&amp;rsquo;a):
-apt-get install git -y git clone https://github.com/brianlmoon/GearmanManager.git cd GearmanManager/install chmod +x install.</description></item><item><title>Debian - zablokowanie aktualizacji pakietu</title><link>https://timor.site/2013/11/debian-zablokowanie-aktualizacji-pakietu/</link><pubDate>Tue, 05 Nov 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/11/debian-zablokowanie-aktualizacji-pakietu/</guid><description>W teorii nie powinno się blokować aktualizacji pakietów bo łatają dziury itd&amp;hellip;. Ale! Zdarzyły mi się ostatnio dwie sytuacje, które do tego mnie zmusiły:
-aktualizacja hudsona kończyła się błędem przy starcie usługi, aktualizacja domU Xen skończyła się problemem z kompatybilnością mechanizmu udev w systemie i jądrze (hypervisor miał starsze jądro niż spodziewało się DomU). W takich sytuacjach bardzo przydaje się możliwość zablokowania aktualizacji jednej &amp;ldquo;psującej&amp;rdquo; paczki na pewien okres czasu by nie opóźniać innych aktualizacji a sobie dać czas na rozpracowanie problemu.</description></item><item><title>Instalacja gearman-job-server 1.0.6 na Debianie Wheezy</title><link>https://timor.site/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/</link><pubDate>Tue, 29 Oct 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/</guid><description>Ostatnio trafiłem na ciekawą usługę, która pozwala oddelegować długo trwające zadania z usługi webowej. Mowa o Gearman&amp;rsquo;ie. Usługa jest o tyle ciekawa że nie narzuca ani języka dla klienta (większość popularnych ma gotowe biblioteki), ani język dla skryptów w tej usłudze nie jest narzucany. Można tę usługę wykorzystać jako most pomiędzy PHP a np. Javą/Pythonem lub do zlecenia zadań z serwera na Linux&amp;rsquo;ie do wykonania na serwerze Windowsowym (bo np. narzędzia dostępne są tylko dla Windowsa).</description></item><item><title>Certyfikaty nazwaSSL na własnym serwerze</title><link>https://timor.site/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</link><pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</guid><description>Od jakiegoś czasu można kupić w NetArcie certyfikaty SSL, a niedawno zrobili na nie promocję - 15zł za pierwszy rok (za certyfikat na jedną stronkę). Tzw. tanie i dobre. Po wyrobieniu certyfikatu i zapisaniu z panelu klienta mam pliczki: stonka.crt i netart_rootca.crt, które wrzucamy do Apachego, powiedzmy tak:
-SSLCertificateFile /etc/ssl/certs/stonka.crt SSLCertificateKeyFile /etc/ssl/private/priv.key SSLCACertificateFile /etc/ssl/certs/netart_rootca.crt Certyfikat działa w Chromie ale nie weryfikuje się w Firefoxie i Internet Explorerze. FF wyświetla błąd: sec_error_unknown_issuer - co oznacza brak certyfikatu wystawcy gdzieś w łańcuchu certyfikatów.</description></item><item><title>Postfix: ciekawy problem z smtpd_delay_reject i permit_sasl_authenticated</title><link>https://timor.site/2013/10/postfix-ciekawy-problem-z-smtpd_delay_reject-i-permit_sasl_authenticated/</link><pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/10/postfix-ciekawy-problem-z-smtpd_delay_reject-i-permit_sasl_authenticated/</guid><description>Trafił mi się ostatnio ciekawy problem - otóż standardowo przed końcem roku poprawiałem filtry antyspamowe i optymalizowałem konfigurację Postfix&amp;rsquo;a. Chciałem zmienić domyślną wartość smtpd_delay_reject=yes na smtpd_delay_reject=no by odrzucać spamerów najwcześniej jak to możliwe. I ciekawe kuku, które sobie zrobiłem polegało na tym że sam nie mogłem wysyłać poczty po logowaniu SSL&amp;rsquo;em&amp;hellip;
+apt-get install git -y git clone https://github.com/brianlmoon/GearmanManager.git cd GearmanManager/install chmod +x install.</description>
+    </item>
+    
+    <item>
+      <title>Debian - zablokowanie aktualizacji pakietu</title>
+      <link>https://timor.site/2013/11/debian-zablokowanie-aktualizacji-pakietu/</link>
+      <pubDate>Tue, 05 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/11/debian-zablokowanie-aktualizacji-pakietu/</guid>
+      <description>W teorii nie powinno się blokować aktualizacji pakietów bo łatają dziury itd&amp;hellip;. Ale! Zdarzyły mi się ostatnio dwie sytuacje, które do tego mnie zmusiły:
+ aktualizacja hudsona kończyła się błędem przy starcie usługi, aktualizacja domU Xen skończyła się problemem z kompatybilnością mechanizmu udev w systemie i jądrze (hypervisor miał starsze jądro niż spodziewało się DomU).  W takich sytuacjach bardzo przydaje się możliwość zablokowania aktualizacji jednej &amp;ldquo;psującej&amp;rdquo; paczki na pewien okres czasu by nie opóźniać innych aktualizacji a sobie dać czas na rozpracowanie problemu.</description>
+    </item>
+    
+    <item>
+      <title>Instalacja gearman-job-server 1.0.6 na Debianie Wheezy</title>
+      <link>https://timor.site/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/</link>
+      <pubDate>Tue, 29 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/</guid>
+      <description>Ostatnio trafiłem na ciekawą usługę, która pozwala oddelegować długo trwające zadania z usługi webowej. Mowa o Gearman&amp;rsquo;ie. Usługa jest o tyle ciekawa że nie narzuca ani języka dla klienta (większość popularnych ma gotowe biblioteki), ani język dla skryptów w tej usłudze nie jest narzucany. Można tę usługę wykorzystać jako most pomiędzy PHP a np. Javą/Pythonem lub do zlecenia zadań z serwera na Linux&amp;rsquo;ie do wykonania na serwerze Windowsowym (bo np. narzędzia dostępne są tylko dla Windowsa).</description>
+    </item>
+    
+    <item>
+      <title>Certyfikaty nazwaSSL na własnym serwerze</title>
+      <link>https://timor.site/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</link>
+      <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</guid>
+      <description>Od jakiegoś czasu można kupić w NetArcie certyfikaty SSL, a niedawno zrobili na nie promocję - 15zł za pierwszy rok (za certyfikat na jedną stronkę). Tzw. tanie i dobre. Po wyrobieniu certyfikatu i zapisaniu z panelu klienta mam pliczki: stonka.crt i netart_rootca.crt, które wrzucamy do Apachego, powiedzmy tak:
+SSLCertificateFile /etc/ssl/certs/stonka.crt SSLCertificateKeyFile /etc/ssl/private/priv.key SSLCACertificateFile /etc/ssl/certs/netart_rootca.crt Certyfikat działa w Chromie ale nie weryfikuje się w Firefoxie i Internet Explorerze. FF wyświetla błąd: sec_error_unknown_issuer - co oznacza brak certyfikatu wystawcy gdzieś w łańcuchu certyfikatów.</description>
+    </item>
+    
+    <item>
+      <title>Postfix: ciekawy problem z smtpd_delay_reject i permit_sasl_authenticated</title>
+      <link>https://timor.site/2013/10/postfix-ciekawy-problem-z-smtpd_delay_reject-i-permit_sasl_authenticated/</link>
+      <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/10/postfix-ciekawy-problem-z-smtpd_delay_reject-i-permit_sasl_authenticated/</guid>
+      <description>Trafił mi się ostatnio ciekawy problem - otóż standardowo przed końcem roku poprawiałem filtry antyspamowe i optymalizowałem konfigurację Postfix&amp;rsquo;a. Chciałem zmienić domyślną wartość smtpd_delay_reject=yes na smtpd_delay_reject=no by odrzucać spamerów najwcześniej jak to możliwe. I ciekawe kuku, które sobie zrobiłem polegało na tym że sam nie mogłem wysyłać poczty po logowaniu SSL&amp;rsquo;em&amp;hellip;
 Dostawałem przy tym bardzo wymowną odpowiedź:
-Oct 8 16:30:39 tyr postfix/smtpd[21039]: NOQUEUE: reject: CONNECT from unknown[67.x.x.x]: 554 5.7.1 &amp;lt;unknown [67.</description></item><item><title>Raspberry Pi: pierwsze kroki</title><link>https://timor.site/2013/09/raspberry-pi-pierwsze-kroki/</link><pubDate>Fri, 13 Sep 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/09/raspberry-pi-pierwsze-kroki/</guid><description>Wyprzeć się nie mogę że gadżety działające na Linuksie po prostu mnie kręcą, więc tylko kwestią czasu było aż Pi zawita na moim biurku. Zakupiłem więc model B w drugiej wersji, obudowę z możliwością mocowania VESA, kabelek HDMI, ładowarka z mojej myszy pasowała idealnie (5.05V i 1A) i na początek karta SD klasa 10 4GB.
+Oct 8 16:30:39 tyr postfix/smtpd[21039]: NOQUEUE: reject: CONNECT from unknown[67.x.x.x]: 554 5.7.1 &amp;lt;unknown [67.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi: pierwsze kroki</title>
+      <link>https://timor.site/2013/09/raspberry-pi-pierwsze-kroki/</link>
+      <pubDate>Fri, 13 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/09/raspberry-pi-pierwsze-kroki/</guid>
+      <description>Wyprzeć się nie mogę że gadżety działające na Linuksie po prostu mnie kręcą, więc tylko kwestią czasu było aż Pi zawita na moim biurku. Zakupiłem więc model B w drugiej wersji, obudowę z możliwością mocowania VESA, kabelek HDMI, ładowarka z mojej myszy pasowała idealnie (5.05V i 1A) i na początek karta SD klasa 10 4GB.
 Szukając różnych systemów (a może ROM&amp;rsquo;ów) natrafiłem na oficjalną stronę: http://www.raspberrypi.org/downloads
-Na początek wystarczy a sprawdzając na stronach projektów okazało się że wersje na tej stronie są całkiem aktualne.</description></item><item><title>Nginx - przydatne rewrite’y i różne sztuczki</title><link>https://timor.site/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/</link><pubDate>Mon, 09 Sep 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/</guid><description>Polubiłem Nginx&amp;rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach 😃
+Na początek wystarczy a sprawdzając na stronach projektów okazało się że wersje na tej stronie są całkiem aktualne.</description>
+    </item>
+    
+    <item>
+      <title>Nginx - przydatne rewrite’y i różne sztuczki</title>
+      <link>https://timor.site/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/</link>
+      <pubDate>Mon, 09 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/</guid>
+      <description>Polubiłem Nginx&amp;rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach 😃
 Słowo wstępu Niektóre rewrite&amp;rsquo;y kończą się znakiem ? - czemu?
-Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną $request_uri to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku ?</description></item><item><title>Kopiowanie wolumenów LVM z dd i netcat</title><link>https://timor.site/2013/09/kopiowanie-wolumenow-lvm-z-dd-i-netcat/</link><pubDate>Mon, 02 Sep 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/09/kopiowanie-wolumenow-lvm-z-dd-i-netcat/</guid><description>Niedawno chciałem skopiować maszynę wirtualną z jednego hypervisora na innego. Były to 3 wolumeny LVM o rozmiarach od 50 do 100GB. Dawno temu zrobiłem sobie skrypty do backupu - jeden kompresuje wolumeny LVM - a drugi pozwala odtworzyć z dekompresja na drugim serwerze. Tyle że przy tak dużej maszynce będzie to trwało masakrycznie długo - fajnie byłoby móc równocześnie kopiować i odtwarzać (live)&amp;hellip;
-I wtedy przypomniało mi się narzędzie netcat - zrobiłem snapshoty wolumenów i mogłem zaczynać.</description></item><item><title>logrotate: kompresja logów xz</title><link>https://timor.site/2013/07/logrotate-kompresja-logow-xz/</link><pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/07/logrotate-kompresja-logow-xz/</guid><description>Narzędzia xz-utils dostępne w nowszych systemach korzystają z mocniejszych algorytmów kompresji (jakaś odmiana LZMA, coś w stylu 7zip&amp;rsquo;a) przy zachowaniu kompatybilności składni poleceń z gzip&amp;rsquo;em/bzip&amp;rsquo;em - da się je zatem łatwo zintegrować w obecnych systemach. Ja chciałem wykorzystać xz do kompresji logów, które bywają przydatne ale przez większość czasy tylko zajmują miejsce :simple_smile:
+Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną $request_uri to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku ?</description>
+    </item>
+    
+    <item>
+      <title>Kopiowanie wolumenów LVM z dd i netcat</title>
+      <link>https://timor.site/2013/09/kopiowanie-wolumenow-lvm-z-dd-i-netcat/</link>
+      <pubDate>Mon, 02 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/09/kopiowanie-wolumenow-lvm-z-dd-i-netcat/</guid>
+      <description>Niedawno chciałem skopiować maszynę wirtualną z jednego hypervisora na innego. Były to 3 wolumeny LVM o rozmiarach od 50 do 100GB. Dawno temu zrobiłem sobie skrypty do backupu - jeden kompresuje wolumeny LVM - a drugi pozwala odtworzyć z dekompresja na drugim serwerze. Tyle że przy tak dużej maszynce będzie to trwało masakrycznie długo - fajnie byłoby móc równocześnie kopiować i odtwarzać (live)&amp;hellip;
+I wtedy przypomniało mi się narzędzie netcat - zrobiłem snapshoty wolumenów i mogłem zaczynać.</description>
+    </item>
+    
+    <item>
+      <title>logrotate: kompresja logów xz</title>
+      <link>https://timor.site/2013/07/logrotate-kompresja-logow-xz/</link>
+      <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/07/logrotate-kompresja-logow-xz/</guid>
+      <description>Narzędzia xz-utils dostępne w nowszych systemach korzystają z mocniejszych algorytmów kompresji (jakaś odmiana LZMA, coś w stylu 7zip&amp;rsquo;a) przy zachowaniu kompatybilności składni poleceń z gzip&amp;rsquo;em/bzip&amp;rsquo;em - da się je zatem łatwo zintegrować w obecnych systemach. Ja chciałem wykorzystać xz do kompresji logów, które bywają przydatne ale przez większość czasy tylko zajmują miejsce :simple_smile:
 W /etc/logrotate.conf dopisujemy:
-compresscmd /usr/bin/xz uncompresscmd /usr/bin/unxz compressext .xz compressoptions -9T2 compressoptions można nie ustawiać bo domyślnie ma wartość -9 (czyli kompresuj na maxa), mój dodatek (czyli -T2) użyje dwóch wątków procesora gdy już ten mechanizm zostanie zimplementowany (bo na razie nie jest) :simple_smile:</description></item><item><title>Bezstratna konwersja MKV z DTS do AC3 lub AAC</title><link>https://timor.site/2013/07/bezstratna-konwersja-mkv-z-dts-do-ac3-lub-aac/</link><pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/07/bezstratna-konwersja-mkv-z-dts-do-ac3-lub-aac/</guid><description>Na jednym z urządzeń miałem problem z odtworzeniem plików (głównie MKV) z dźwiękiem zakodowanym w DTS. Pomijając że np. na tablecie 6-cio kanały DTS jest mi &amp;ldquo;niezbędny inaczej&amp;rdquo; to konwertując go do AAC stereo plik jest po prostu sporo mniejszy. Oczywiście nie zamierzam transkodować ścieżki video i na moje potrzeby mogłem sobie odpuścić zmianę częstotliwości próbkowania.
-Najprościej wykorzystać pakiet ffmpeg (po nowemu avconv) lub mencoder (choć ten miewał niegdyś problem z poprawnym zapisywaniem wynikowych plików mkv, więc potrzebny jest dodatkowo mkvmerge z pakietu mkvtoolnix).</description></item><item><title>Dodawanie urządzeń SCSI/FC bez restartu serwera</title><link>https://timor.site/2013/07/dodawanie-urzadzen-scsifc-bez-restartu-serwera/</link><pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/07/dodawanie-urzadzen-scsifc-bez-restartu-serwera/</guid><description>Raz na jakiś czas gdy grzebię przy maciorach muszę &amp;ldquo;odkryć&amp;rdquo; nowy volumen FC (lub rzadziej SCSI), który właśnie utworzyłem a restart serwera nie wchodzi w rachubę (zresztą na części systemów nic on nie da).
+compresscmd /usr/bin/xz uncompresscmd /usr/bin/unxz compressext .xz compressoptions -9T2 compressoptions można nie ustawiać bo domyślnie ma wartość -9 (czyli kompresuj na maxa), mój dodatek (czyli -T2) użyje dwóch wątków procesora gdy już ten mechanizm zostanie zimplementowany (bo na razie nie jest) :simple_smile:</description>
+    </item>
+    
+    <item>
+      <title>Bezstratna konwersja MKV z DTS do AC3 lub AAC</title>
+      <link>https://timor.site/2013/07/bezstratna-konwersja-mkv-z-dts-do-ac3-lub-aac/</link>
+      <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/07/bezstratna-konwersja-mkv-z-dts-do-ac3-lub-aac/</guid>
+      <description>Na jednym z urządzeń miałem problem z odtworzeniem plików (głównie MKV) z dźwiękiem zakodowanym w DTS. Pomijając że np. na tablecie 6-cio kanały DTS jest mi &amp;ldquo;niezbędny inaczej&amp;rdquo; to konwertując go do AAC stereo plik jest po prostu sporo mniejszy. Oczywiście nie zamierzam transkodować ścieżki video i na moje potrzeby mogłem sobie odpuścić zmianę częstotliwości próbkowania.
+Najprościej wykorzystać pakiet ffmpeg (po nowemu avconv) lub mencoder (choć ten miewał niegdyś problem z poprawnym zapisywaniem wynikowych plików mkv, więc potrzebny jest dodatkowo mkvmerge z pakietu mkvtoolnix).</description>
+    </item>
+    
+    <item>
+      <title>Dodawanie urządzeń SCSI/FC bez restartu serwera</title>
+      <link>https://timor.site/2013/07/dodawanie-urzadzen-scsifc-bez-restartu-serwera/</link>
+      <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/07/dodawanie-urzadzen-scsifc-bez-restartu-serwera/</guid>
+      <description>Raz na jakiś czas gdy grzebię przy maciorach muszę &amp;ldquo;odkryć&amp;rdquo; nowy volumen FC (lub rzadziej SCSI), który właśnie utworzyłem a restart serwera nie wchodzi w rachubę (zresztą na części systemów nic on nie da).
 By to zrobić są dwie możliwości:
 Ręczne wydanie poleceń odkrywających volumeny (na jajkach od 2.6.x) Sprawdzamy jakie mamy karty:
 ls /sys/class/fc_host/ (wypisze się coś w stylu: host1, host2)
-Wydajemy do wybranej przez nas karty żądanie wykonania LIP (to się chyba tłumaczy jako loopback initialization) co skutkuje przeskanowaniem szyny FC:</description></item><item><title>Debian - Instalacja Bittorrent Sync (btsync)</title><link>https://timor.site/2013/07/debian-instalacja-bittorrent-sync-btsync/</link><pubDate>Tue, 16 Jul 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/07/debian-instalacja-bittorrent-sync-btsync/</guid><description>Bardzo spodobała mi się nowa aplikacja do zdalnej synchronizacji folderów z wykorzystaniem P2P. Ja wykorzystałem ją do automatycznych backupów archiwum zdjęć - zebrało mi się tego już prawie 130GB! Każde narzędzie, które chce np. je kompresować i raz na czas robić FULL backup jest skazane na porażkę - a fotek przybywa.
+Wydajemy do wybranej przez nas karty żądanie wykonania LIP (to się chyba tłumaczy jako loopback initialization) co skutkuje przeskanowaniem szyny FC:</description>
+    </item>
+    
+    <item>
+      <title>Debian - Instalacja Bittorrent Sync (btsync)</title>
+      <link>https://timor.site/2013/07/debian-instalacja-bittorrent-sync-btsync/</link>
+      <pubDate>Tue, 16 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/07/debian-instalacja-bittorrent-sync-btsync/</guid>
+      <description>Bardzo spodobała mi się nowa aplikacja do zdalnej synchronizacji folderów z wykorzystaniem P2P. Ja wykorzystałem ją do automatycznych backupów archiwum zdjęć - zebrało mi się tego już prawie 130GB! Każde narzędzie, które chce np. je kompresować i raz na czas robić FULL backup jest skazane na porażkę - a fotek przybywa.
 Na początek pobieramy interesującą nas wersję:
 wget http://btsync.s3-website-us-east-1.amazonaws.com/btsync_i386.tar.gz wget http://btsync.s3-website-us-east-1.amazonaws.com/btsync_x64.tar.gz Oraz paczkę ze skryptami dla Debiana:
-wget http://www.yeasoft.com/downloads/various/btsync-linux-deploy.tar.gz Ja wyciągam z niej skrypt /etc/init.</description></item><item><title>Tworzenie patch’y z poleceniami diff i patch</title><link>https://timor.site/2013/04/tworzenie-patchy-z-poleceniami-diff-i-patch/</link><pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/04/tworzenie-patchy-z-poleceniami-diff-i-patch/</guid><description>Jest kilka powodów dla których tworzenie patchy jest przydatne - jeśli tu jesteś to pewnie masz jakiś własny&amp;hellip;
+wget http://www.yeasoft.com/downloads/various/btsync-linux-deploy.tar.gz Ja wyciągam z niej skrypt /etc/init.</description>
+    </item>
+    
+    <item>
+      <title>Tworzenie patch’y z poleceniami diff i patch</title>
+      <link>https://timor.site/2013/04/tworzenie-patchy-z-poleceniami-diff-i-patch/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/04/tworzenie-patchy-z-poleceniami-diff-i-patch/</guid>
+      <description>Jest kilka powodów dla których tworzenie patchy jest przydatne - jeśli tu jesteś to pewnie masz jakiś własny&amp;hellip;
 Tworzenie patch&amp;rsquo;a diff -crB old new &amp;gt; from-old-to-new.patch W powyższym poleceniu założyłem że old i new to katalogi z wieloma podkatalogami i plikami - stąd opcja -r. -c dodaje kilka linijek &amp;ldquo;kontekstu&amp;rdquo; przez co łatwiej rozeznać się w patch&amp;rsquo;u. Opcja -B ignoruje puste linie, których patchowanie mnie nie interesuje.
-Patchowanie Na początek zawsze warto wywołać polecenie z opcją -dry-run by zobaczyć czy patch wykona się poprawnie:</description></item><item><title>Rozsynchronizowane serwery NTP</title><link>https://timor.site/2013/03/rozsynchronizowane-serwery-ntp/</link><pubDate>Sun, 31 Mar 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/03/rozsynchronizowane-serwery-ntp/</guid><description>Miałem ostatnio zabawną sytuację gdy kilka serwerów z zainstalowanym NTPD miało rozjazdy rzędu kilkunastu sekund. Wyszło na to że moje serwery synchronizowały się z różnymi zewnętrznymi serwerami NTP pomiędzy, którymi były rozjazdy i te rozjazdy synchronizowały się na moich serwerach. Jeden &amp;ldquo;z moich&amp;rdquo; ustanowiłem głównym a wszystkie inne przekierowałem na niego (komentując wszystkie inne serwery NTP w konfiguracji). Wymusiłem synchronizację:
-ntp -q Sprawdziłem jak duży jest offset i jitter (powinny być bardzo małe):</description></item><item><title>Nginx - kompresowanie plików dla gzip_static</title><link>https://timor.site/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</link><pubDate>Mon, 17 Dec 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</guid><description>Ruski serwer WWW ma przydatną funkcję serwowania wersji plików skompresowanych gzip&amp;rsquo;em - przez co możemy plik skompresować raz i będzie on serwowany klientom obsługującym kompresję HTTP ale już bez każdorazowego kompresowania go. Jest to bardzo przydatne na stronach z dużym ruchem gdzie można w ten sposób zaoszczędzić takty CPU na właściwą obsługę połączeń a nie kompresję. Drugie miejsce gdzie może to być przydatne to VPS&amp;rsquo;y i &amp;ldquo;cienkie&amp;rdquo; serwery, które na kompresji przy większym obciążeniu spędzają zbyt dużo czasu i daje się to odczuć w działaniu strony.</description></item><item><title>Apache: mod_authnz_ldap z Active Directory</title><link>https://timor.site/2012/12/apache-mod_authnz_ldap-z-active-directory/</link><pubDate>Fri, 14 Dec 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/12/apache-mod_authnz_ldap-z-active-directory/</guid><description>Gdy już się dorobi systemu Active Directory wygodnie jest wykorzystać jego bazę użytkowników do autoryzacji w różnych miejscach, np. do pewnych &amp;ldquo;tajnych i tajniejszych&amp;rdquo; stron w Apache. Najprościej można to zrobić z wykorzystaniem LDAP.
+Patchowanie Na początek zawsze warto wywołać polecenie z opcją -dry-run by zobaczyć czy patch wykona się poprawnie:</description>
+    </item>
+    
+    <item>
+      <title>Rozsynchronizowane serwery NTP</title>
+      <link>https://timor.site/2013/03/rozsynchronizowane-serwery-ntp/</link>
+      <pubDate>Sun, 31 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/03/rozsynchronizowane-serwery-ntp/</guid>
+      <description>Miałem ostatnio zabawną sytuację gdy kilka serwerów z zainstalowanym NTPD miało rozjazdy rzędu kilkunastu sekund. Wyszło na to że moje serwery synchronizowały się z różnymi zewnętrznymi serwerami NTP pomiędzy, którymi były rozjazdy i te rozjazdy synchronizowały się na moich serwerach. Jeden &amp;ldquo;z moich&amp;rdquo; ustanowiłem głównym a wszystkie inne przekierowałem na niego (komentując wszystkie inne serwery NTP w konfiguracji). Wymusiłem synchronizację:
+ntp -q Sprawdziłem jak duży jest offset i jitter (powinny być bardzo małe):</description>
+    </item>
+    
+    <item>
+      <title>Nginx - kompresowanie plików dla gzip_static</title>
+      <link>https://timor.site/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</link>
+      <pubDate>Mon, 17 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</guid>
+      <description>Ruski serwer WWW ma przydatną funkcję serwowania wersji plików skompresowanych gzip&amp;rsquo;em - przez co możemy plik skompresować raz i będzie on serwowany klientom obsługującym kompresję HTTP ale już bez każdorazowego kompresowania go. Jest to bardzo przydatne na stronach z dużym ruchem gdzie można w ten sposób zaoszczędzić takty CPU na właściwą obsługę połączeń a nie kompresję. Drugie miejsce gdzie może to być przydatne to VPS&amp;rsquo;y i &amp;ldquo;cienkie&amp;rdquo; serwery, które na kompresji przy większym obciążeniu spędzają zbyt dużo czasu i daje się to odczuć w działaniu strony.</description>
+    </item>
+    
+    <item>
+      <title>Apache: mod_authnz_ldap z Active Directory</title>
+      <link>https://timor.site/2012/12/apache-mod_authnz_ldap-z-active-directory/</link>
+      <pubDate>Fri, 14 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/12/apache-mod_authnz_ldap-z-active-directory/</guid>
+      <description>Gdy już się dorobi systemu Active Directory wygodnie jest wykorzystać jego bazę użytkowników do autoryzacji w różnych miejscach, np. do pewnych &amp;ldquo;tajnych i tajniejszych&amp;rdquo; stron w Apache. Najprościej można to zrobić z wykorzystaniem LDAP.
 Warto sprawdzić czy i jak możemy dostać się do kontrolerów. Gdy już mamy wszystkie potrzebne parametry konfigurujemy Apachego - na początek aktywujemy moduły:
-a2enmod ldap a2enmod authnz_ldap Teraz możemy edytujemy globalny plik konfiguracyjny mod_ldap&amp;rsquo;a by ustawić nieco cache&amp;rsquo;y (bardzo przydatne).</description></item><item><title>Automatically compact CouchDB databases in version 0.11.x</title><link>https://timor.site/2012/11/automatically-compact-couchdb-databases-in-0-11-x/</link><pubDate>Thu, 08 Nov 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/11/automatically-compact-couchdb-databases-in-0-11-x/</guid><description>CouchDB databases on version 0.11.x swell very fast. They should be compacted daily for best performance and space usage. Here is my script that could be run in cron and will compact all databases:
-#!/bin/bash IP=&amp;#34;10.0.0.121&amp;#34; DBS=`curl -sS -X GET http://$IP:5984/_all_dbs | sed -r &amp;#34;s/([,\&amp;#34;[])|(\])+/ /g&amp;#34;` for d in $DBS; do curl -H &amp;#34;Content-Type: application/json&amp;#34; -X POST http://$IP:5984/$d/_compact done More informations about compacting could be found here (also for version 1.</description></item><item><title>LVM na RAID5 i dysku z sektorami 4KB</title><link>https://timor.site/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/</link><pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/</guid><description>Po zakupie nowych dysków zamierzam utworzyć zdegradowaną macierz RAID5 z dwóch dysków (na trzecim na razie znajdują się dane), potem utworzyć wolumen LVM, sformatować go, przekopiować dane z pojedynczego dysku na macierz i dołączyć trzeci dysk do macierzy odbudowując parzystość. Zadanie będzie o tyle ciekawe że dysk ma 4KB sektory i trzeb będzie dbać o wyrównanie zasobu do rozmiaru sektora, a w przypadku LVM&amp;rsquo;a wyrównanie do chunk&amp;rsquo;a z macierzy.
-Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w górę), mamy spore szanse że trafimy na sztukę, która wykorzystuje 4KB sektory do alokacji danych.</description></item><item><title>Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04</title><link>https://timor.site/2012/11/instalacja-drukarki-i-skanera-brother-dcp-130c-na-ubuntu-12-04/</link><pubDate>Sun, 04 Nov 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/11/instalacja-drukarki-i-skanera-brother-dcp-130c-na-ubuntu-12-04/</guid><description>Po każdej aktualizacji Ubuntu mam trochę zabawy by pozbierać do kupy skaner i drukarkę z mojego urządzenia wielofunkcyjnego Brother DCP-130C. Wybrałem je bo był to jedyny producent, który deklarował wsparcie dla Linux&amp;rsquo;a&amp;hellip; choć z perspektywy czasu nie jestem pewien czy otrzymałem to czego się spodziewałem&amp;hellip; Co prawda zamieszczają instrukcje i aktualizują drivery ale jeszcze ani raz nie zdarzyło mi się by po aktualizacji systemu postępowanie według tych instrukcji zadziałało bez dodatkowej pomocy.</description></item><item><title>Prosty MTA z heirloom-mailx i ssmtp</title><link>https://timor.site/2012/11/prosty-mta-z-heirloom-mailx-i-ssmtp/</link><pubDate>Wed, 31 Oct 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/11/prosty-mta-z-heirloom-mailx-i-ssmtp/</guid><description>Czasami potrzebny jest nam serwer pocztowy, który przyśle informacje dla root&amp;rsquo;a (np. monity smartd, mdadm, sypnięte crony itp) ale równocześnie nie chcemy stawiać pełnego serwera typu postfix/exim. Warto w tym celu wykorzystać zestaw heirloom-mailx + ssmtp. hairloom-mailx jest prostym shellowym klientem SMTP - przy okazji linkuje polecenie mail (przydatne w skryptach). ssmtp pełni funkcję serwera SMTP ale nie działa jako demon - proces uruchamia się gdy jest potrzebny i znika po wysłaniu maili.</description></item><item><title>mod_rewrite - wymuszenie małych liter w adresie URL</title><link>https://timor.site/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</link><pubDate>Tue, 25 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</guid><description>Co prawda adresy URL pozwalają na stosowanie zarówno dużych jak i małych liter ale różne systemy mogą je różnie obsługiwać i może się trafić sytuacja, w której nie zechcemy by np. duże litery w ogóle pojawiały się w adresach URL. Doskonały przykład to mój niedawny wpis: Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic.
-Zachodzi tam sytuacja, w której katalog użytkownika jest jego loginem małymi literami (bądź dużymi - jak kto woli), a użytkownik wpisując login może użyć zarówno małych jak i dużych liter i tutaj zaczyna się jazda.</description></item><item><title>Aktualizacja Debian Squeeze do Wheezy</title><link>https://timor.site/2012/09/aktualizacja-debian-squeeze-do-wheezy/</link><pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/aktualizacja-debian-squeeze-do-wheezy/</guid><description>Obecnie dostępna jest już beta 2 Debiana Wheezy i utrzymywane są aktualizacje bezpieczeństwa więc powolutku można na testowych maszynach sprawdzać co i jak się zmieniło.
+a2enmod ldap a2enmod authnz_ldap Teraz możemy edytujemy globalny plik konfiguracyjny mod_ldap&amp;rsquo;a by ustawić nieco cache&amp;rsquo;y (bardzo przydatne).</description>
+    </item>
+    
+    <item>
+      <title>Automatically compact CouchDB databases in version 0.11.x</title>
+      <link>https://timor.site/2012/11/automatically-compact-couchdb-databases-in-0-11-x/</link>
+      <pubDate>Thu, 08 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/11/automatically-compact-couchdb-databases-in-0-11-x/</guid>
+      <description>CouchDB databases on version 0.11.x swell very fast. They should be compacted daily for best performance and space usage. Here is my script that could be run in cron and will compact all databases:
+#!/bin/bash IP=&amp;#34;10.0.0.121&amp;#34; DBS=`curl -sS -X GET http://$IP:5984/_all_dbs | sed -r &amp;#34;s/([,\&amp;#34;[])|(\])+/ /g&amp;#34;` for d in $DBS; do curl -H &amp;#34;Content-Type: application/json&amp;#34; -X POST http://$IP:5984/$d/_compact done More informations about compacting could be found here (also for version 1.</description>
+    </item>
+    
+    <item>
+      <title>LVM na RAID5 i dysku z sektorami 4KB</title>
+      <link>https://timor.site/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/</link>
+      <pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/</guid>
+      <description>Po zakupie nowych dysków zamierzam utworzyć zdegradowaną macierz RAID5 z dwóch dysków (na trzecim na razie znajdują się dane), potem utworzyć wolumen LVM, sformatować go, przekopiować dane z pojedynczego dysku na macierz i dołączyć trzeci dysk do macierzy odbudowując parzystość. Zadanie będzie o tyle ciekawe że dysk ma 4KB sektory i trzeb będzie dbać o wyrównanie zasobu do rozmiaru sektora, a w przypadku LVM&amp;rsquo;a wyrównanie do chunk&amp;rsquo;a z macierzy.
+Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w górę), mamy spore szanse że trafimy na sztukę, która wykorzystuje 4KB sektory do alokacji danych.</description>
+    </item>
+    
+    <item>
+      <title>Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04</title>
+      <link>https://timor.site/2012/11/instalacja-drukarki-i-skanera-brother-dcp-130c-na-ubuntu-12-04/</link>
+      <pubDate>Sun, 04 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/11/instalacja-drukarki-i-skanera-brother-dcp-130c-na-ubuntu-12-04/</guid>
+      <description>Po każdej aktualizacji Ubuntu mam trochę zabawy by pozbierać do kupy skaner i drukarkę z mojego urządzenia wielofunkcyjnego Brother DCP-130C. Wybrałem je bo był to jedyny producent, który deklarował wsparcie dla Linux&amp;rsquo;a&amp;hellip; choć z perspektywy czasu nie jestem pewien czy otrzymałem to czego się spodziewałem&amp;hellip; Co prawda zamieszczają instrukcje i aktualizują drivery ale jeszcze ani raz nie zdarzyło mi się by po aktualizacji systemu postępowanie według tych instrukcji zadziałało bez dodatkowej pomocy.</description>
+    </item>
+    
+    <item>
+      <title>Prosty MTA z heirloom-mailx i ssmtp</title>
+      <link>https://timor.site/2012/11/prosty-mta-z-heirloom-mailx-i-ssmtp/</link>
+      <pubDate>Wed, 31 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/11/prosty-mta-z-heirloom-mailx-i-ssmtp/</guid>
+      <description>Czasami potrzebny jest nam serwer pocztowy, który przyśle informacje dla root&amp;rsquo;a (np. monity smartd, mdadm, sypnięte crony itp) ale równocześnie nie chcemy stawiać pełnego serwera typu postfix/exim. Warto w tym celu wykorzystać zestaw heirloom-mailx + ssmtp. hairloom-mailx jest prostym shellowym klientem SMTP - przy okazji linkuje polecenie mail (przydatne w skryptach). ssmtp pełni funkcję serwera SMTP ale nie działa jako demon - proces uruchamia się gdy jest potrzebny i znika po wysłaniu maili.</description>
+    </item>
+    
+    <item>
+      <title>mod_rewrite - wymuszenie małych liter w adresie URL</title>
+      <link>https://timor.site/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</link>
+      <pubDate>Tue, 25 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</guid>
+      <description>Co prawda adresy URL pozwalają na stosowanie zarówno dużych jak i małych liter ale różne systemy mogą je różnie obsługiwać i może się trafić sytuacja, w której nie zechcemy by np. duże litery w ogóle pojawiały się w adresach URL. Doskonały przykład to mój niedawny wpis: Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic.
+Zachodzi tam sytuacja, w której katalog użytkownika jest jego loginem małymi literami (bądź dużymi - jak kto woli), a użytkownik wpisując login może użyć zarówno małych jak i dużych liter i tutaj zaczyna się jazda.</description>
+    </item>
+    
+    <item>
+      <title>Aktualizacja Debian Squeeze do Wheezy</title>
+      <link>https://timor.site/2012/09/aktualizacja-debian-squeeze-do-wheezy/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/aktualizacja-debian-squeeze-do-wheezy/</guid>
+      <description>Obecnie dostępna jest już beta 2 Debiana Wheezy i utrzymywane są aktualizacje bezpieczeństwa więc powolutku można na testowych maszynach sprawdzać co i jak się zmieniło.
 Ponieważ do finalnej wersji pewnie sporo się jeszcze zmieni to postaram się z czasem aktualizować ten post by zawierał bieżące informacje.
 W razie wątpliwości patrz tutaj: http://wiki.debian.org/DebianTesting
-Robimy backup Aktualizujemy źródła wskazywały na paczki gałęzi testing (poniższe polecenie nadpisze Twoje obecne repozytoria): cat &amp;gt; /etc/apt/sources.</description></item><item><title>Sprawdzanie nieaktywnych linków na stronie</title><link>https://timor.site/2012/09/sprawdzanie-nieaktywnych-linkow-na-stronie/</link><pubDate>Tue, 18 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/sprawdzanie-nieaktywnych-linkow-na-stronie/</guid><description>Gdy administruje się dużymi stronami internetowymi raz na czas np. po większych zmianach w konfiguracji zachodzi potrzeba sprawdzenia czy na stronie nie ma stron prowadzących donikąd. O ile w małych serwisach można samemu szybko przeklikać się przez stronkę to dla starych rozrośniętych serwisów nie jest to takie proste.
-Jest kilka narzędzi których można użyć do testowania linków na stronach - każde z nich ma swoje zalety i wady, postaram się je przybliżyć.</description></item><item><title>Listowanie zasobów NFS</title><link>https://timor.site/2012/09/listowanie-zasobow-nfs/</link><pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/listowanie-zasobow-nfs/</guid><description>Szkoda że polecenia do obsługi NFS&amp;rsquo;a nie zaczynają się od nfs* - łatwiej byłoby mi je zapamiętać. A jednym z takich, zapominanych najczęściej jest listowanie zasobów, szczególnie przydatne gdy korzysta się z NFS&amp;rsquo;a na jakimś NAS&amp;rsquo;ie (którego magiczny soft nie pokazuje gdzie i co eksportuje):
+ Robimy backup Aktualizujemy źródła wskazywały na paczki gałęzi testing (poniższe polecenie nadpisze Twoje obecne repozytoria):  cat &amp;gt; /etc/apt/sources.</description>
+    </item>
+    
+    <item>
+      <title>Sprawdzanie nieaktywnych linków na stronie</title>
+      <link>https://timor.site/2012/09/sprawdzanie-nieaktywnych-linkow-na-stronie/</link>
+      <pubDate>Tue, 18 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/sprawdzanie-nieaktywnych-linkow-na-stronie/</guid>
+      <description>Gdy administruje się dużymi stronami internetowymi raz na czas np. po większych zmianach w konfiguracji zachodzi potrzeba sprawdzenia czy na stronie nie ma stron prowadzących donikąd. O ile w małych serwisach można samemu szybko przeklikać się przez stronkę to dla starych rozrośniętych serwisów nie jest to takie proste.
+Jest kilka narzędzi których można użyć do testowania linków na stronach - każde z nich ma swoje zalety i wady, postaram się je przybliżyć.</description>
+    </item>
+    
+    <item>
+      <title>Listowanie zasobów NFS</title>
+      <link>https://timor.site/2012/09/listowanie-zasobow-nfs/</link>
+      <pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/listowanie-zasobow-nfs/</guid>
+      <description>Szkoda że polecenia do obsługi NFS&amp;rsquo;a nie zaczynają się od nfs* - łatwiej byłoby mi je zapamiętać. A jednym z takich, zapominanych najczęściej jest listowanie zasobów, szczególnie przydatne gdy korzysta się z NFS&amp;rsquo;a na jakimś NAS&amp;rsquo;ie (którego magiczny soft nie pokazuje gdzie i co eksportuje):
 showmount -e 192.168.1.10 Export list for 192.168.1.10: /mnt/pools/A/A0/Music * /mnt/pools/A/A0/Movies * /mnt/pools/A/A0/Backups * /mnt/pools/A/A0/Pictures * /mnt/pools/A/A0/Documents * Teraz możemy zamontować zasób:
-mount 192.168.1.10:/mnt/pools/A/A0/Music /mnt/music</description></item><item><title>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic</title><link>https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</link><pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</guid><description>Niedawno trafiłem na ciekawy problem w mod_rewrite - by przekierowywać użytkowników logujących się jednym z modułów mod_auth_basic do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej %{REMOTE_USER} - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w RewriteCond zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można RewriteCond&amp;rsquo;y połączyć wyrażeniami logicznymi typu AND/OR to nie ma możliwości porównania czy dopasowania z kolejnych RewriteCond&amp;rsquo;ów są identyczne.</description></item><item><title>unicode-rxvt - moje ustawienia</title><link>https://timor.site/2012/09/unicode-rxvt-moje-ustawienia/</link><pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/unicode-rxvt-moje-ustawienia/</guid><description>Wybór dobrego X-terminala to w życiu admina prawie jak wybór żony&amp;hellip; spędza się wspólnie dużo czasu i miło gdy estetycznie wygląda, robi to co chcemy, itd&amp;hellip; 😉
-Nie lubię gnome-terminal'a bo domyślnie binduje F10 co wnerwia mnie w midnight commanderze, stąd szukałem i szukałem i jak dotychczas najbardziej podpasował mi unicode-rxvt. Można uruchamiać go po prostu jako urxvt lub uruchomić demona urxvtd po zalogowaniu i potem odpalać tylko klienta urxvtc. Druga metoda skutkuje natychmiastowym startem terminala, wiec gdy podbinduję go sobie pod F12 mam terminal zawsze pod ręką w mniej niż sekundę.</description></item><item><title>Wymuszenie fsck po restarcie</title><link>https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/</link><pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/</guid><description>Jeżeli chcemy by po ponownym uruchomieniu w czasie startu zostały sprawdzone wszystkie dyski narzędziem to można to osiągnąć na dwa sposoby. Zawsze gdy tego potrzebuję zastanawiam się tylko jaki plik trzeba było utworzyć&amp;hellip; forcefsck, fsck, fsckforce&amp;hellip; więc notuję 😉
+mount 192.168.1.10:/mnt/pools/A/A0/Music /mnt/music </description>
+    </item>
+    
+    <item>
+      <title>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic</title>
+      <link>https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</guid>
+      <description>Niedawno trafiłem na ciekawy problem w mod_rewrite - by przekierowywać użytkowników logujących się jednym z modułów mod_auth_basic do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej %{REMOTE_USER} - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w RewriteCond zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można RewriteCond&amp;rsquo;y połączyć wyrażeniami logicznymi typu AND/OR to nie ma możliwości porównania czy dopasowania z kolejnych RewriteCond&amp;rsquo;ów są identyczne.</description>
+    </item>
+    
+    <item>
+      <title>unicode-rxvt - moje ustawienia</title>
+      <link>https://timor.site/2012/09/unicode-rxvt-moje-ustawienia/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/unicode-rxvt-moje-ustawienia/</guid>
+      <description>Wybór dobrego X-terminala to w życiu admina prawie jak wybór żony&amp;hellip; spędza się wspólnie dużo czasu i miło gdy estetycznie wygląda, robi to co chcemy, itd&amp;hellip; 😉
+Nie lubię gnome-terminal&#39;a bo domyślnie binduje F10 co wnerwia mnie w midnight commanderze, stąd szukałem i szukałem i jak dotychczas najbardziej podpasował mi unicode-rxvt. Można uruchamiać go po prostu jako urxvt lub uruchomić demona urxvtd po zalogowaniu i potem odpalać tylko klienta urxvtc. Druga metoda skutkuje natychmiastowym startem terminala, wiec gdy podbinduję go sobie pod F12 mam terminal zawsze pod ręką w mniej niż sekundę.</description>
+    </item>
+    
+    <item>
+      <title>Wymuszenie fsck po restarcie</title>
+      <link>https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/</link>
+      <pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/</guid>
+      <description>Jeżeli chcemy by po ponownym uruchomieniu w czasie startu zostały sprawdzone wszystkie dyski narzędziem to można to osiągnąć na dwa sposoby. Zawsze gdy tego potrzebuję zastanawiam się tylko jaki plik trzeba było utworzyć&amp;hellip; forcefsck, fsck, fsckforce&amp;hellip; więc notuję 😉
 Utworzenie pliku /forcefsck Pierwsza metoda polega na utworzeniu pliku forcefsck w głównym katalog, robimy to poniższym poleceniem:
-sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F polecenia shutdown ale nie działa na wszystkich dystrybucjach (w takiej sytuacji patrz pierwsza metoda):</description></item><item><title>Montowanie partycji z obrazu dysku</title><link>https://timor.site/2012/09/montowanie-partycji-z-obrazu-dysku/</link><pubDate>Thu, 06 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/montowanie-partycji-z-obrazu-dysku/</guid><description>Jedną z rzeczy, które podobają mi się w maszynach wirtualnych Xen jest możliwość zrobienia backupu całego obrazu i szybkie odzyskanie już w trakcie ciężkiej awarii. Gdy dodatkowo korzysta się z LVM&amp;rsquo;a to można na chwilę wyłączyć DomU, utworzyć snapshot jego dysków, uruchomić DomU i w trakcie działania robić spójny backup ze snapshot&amp;rsquo;a. Dzięki takiemu mechanizmowi serwer jest niedostępny przez kilkanaście sekund, a backup spójny jakby został wykonany przy całkowicie wyłączonej maszynie.</description></item><item><title>CouchDB - Instalacja i wstępna konfiguracja</title><link>https://timor.site/2012/06/couchdb-instalacja-i-wstepna-konfiguracja/</link><pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/06/couchdb-instalacja-i-wstepna-konfiguracja/</guid><description>Gdy tworzymy pierwszą aplikację webową, która umożliwia upload plików przeważnie lądują one lokalnie w pewniej lokalizacji. Gdy druga aplikacja potrzebuje dostępu do tych plików wystarczy podać ścieżkę. Problemy zaczynają się gdy aplikacji jest kilka i rozmieszczonych na kilku serwerach. Można korzystać z sieciowych systemów plików ale to często nie jest zbyt wygodne - ciężko odpowiednio ustawić uprawnienia by pewne aplikacje miały dostęp do zapisu plików a inne nie, trzeba skonfigurować dany katalog w kilku miejscach w konfiguracji serwera WWW aby serwować pliki itp&amp;hellip;</description></item><item><title>Ponowne wygenerowanie kluczy serwera OpenSSH</title><link>https://timor.site/2012/02/ponowne-wygenerowanie-kluczy-serwera-openssh/</link><pubDate>Mon, 27 Feb 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/02/ponowne-wygenerowanie-kluczy-serwera-openssh/</guid><description>Czasami odpalam klona jakiegoś systemu by później po drobnych zmianach uczynić go osobnym bytem. Jednym z kroków po odtworzeniu systemu jest wygenerowanie nowego zestawu kluczy dla serwera OpenSSH (by mój klient ssh nie siał warning&amp;rsquo;ami). Można to wykonać tak:
+sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F polecenia shutdown ale nie działa na wszystkich dystrybucjach (w takiej sytuacji patrz pierwsza metoda):</description>
+    </item>
+    
+    <item>
+      <title>Montowanie partycji z obrazu dysku</title>
+      <link>https://timor.site/2012/09/montowanie-partycji-z-obrazu-dysku/</link>
+      <pubDate>Thu, 06 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/montowanie-partycji-z-obrazu-dysku/</guid>
+      <description>Jedną z rzeczy, które podobają mi się w maszynach wirtualnych Xen jest możliwość zrobienia backupu całego obrazu i szybkie odzyskanie już w trakcie ciężkiej awarii. Gdy dodatkowo korzysta się z LVM&amp;rsquo;a to można na chwilę wyłączyć DomU, utworzyć snapshot jego dysków, uruchomić DomU i w trakcie działania robić spójny backup ze snapshot&amp;rsquo;a. Dzięki takiemu mechanizmowi serwer jest niedostępny przez kilkanaście sekund, a backup spójny jakby został wykonany przy całkowicie wyłączonej maszynie.</description>
+    </item>
+    
+    <item>
+      <title>CouchDB - Instalacja i wstępna konfiguracja</title>
+      <link>https://timor.site/2012/06/couchdb-instalacja-i-wstepna-konfiguracja/</link>
+      <pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/06/couchdb-instalacja-i-wstepna-konfiguracja/</guid>
+      <description>Gdy tworzymy pierwszą aplikację webową, która umożliwia upload plików przeważnie lądują one lokalnie w pewniej lokalizacji. Gdy druga aplikacja potrzebuje dostępu do tych plików wystarczy podać ścieżkę. Problemy zaczynają się gdy aplikacji jest kilka i rozmieszczonych na kilku serwerach. Można korzystać z sieciowych systemów plików ale to często nie jest zbyt wygodne - ciężko odpowiednio ustawić uprawnienia by pewne aplikacje miały dostęp do zapisu plików a inne nie, trzeba skonfigurować dany katalog w kilku miejscach w konfiguracji serwera WWW aby serwować pliki itp&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Ponowne wygenerowanie kluczy serwera OpenSSH</title>
+      <link>https://timor.site/2012/02/ponowne-wygenerowanie-kluczy-serwera-openssh/</link>
+      <pubDate>Mon, 27 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/02/ponowne-wygenerowanie-kluczy-serwera-openssh/</guid>
+      <description>Czasami odpalam klona jakiegoś systemu by później po drobnych zmianach uczynić go osobnym bytem. Jednym z kroków po odtworzeniu systemu jest wygenerowanie nowego zestawu kluczy dla serwera OpenSSH (by mój klient ssh nie siał warning&amp;rsquo;ami). Można to wykonać tak:
 Najpierw kasujemy obecne klucze:
 rm /etc/ssh/ssh_host_* Teraz generujemy nowe:
-dpkg-reconfigure openssh-server I na koniec restartujemy usługę by załadować nowy zestaw kluczy (nie powinno to zerwać obecnej sesji, ale dla pewności lepiej zadanie odpalić w screen&amp;rsquo;ie):</description></item><item><title>Wstępne ładowanie programów przy starcie z ureadahead</title><link>https://timor.site/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</link><pubDate>Tue, 24 Jan 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</guid><description>Jakiś czas temu korzystałem z preload&amp;rsquo;a który sam uczył się jakie aplikacje odpalam i te programy ładował już podczas startu - przeważnie nieco spowalnia to start systemu ale gdy już się załaduje to programy, które uruchamiam jako pierwsze startują &amp;ldquo;z kopa&amp;rdquo;. Od jakiegoś czasu popularniejszy jest instalowany domyślnie w Ubuntu ureadahead - pełni on podobną funkcję jak preload.
-Można zmusić ureadahead do ponownego wygenerowania nowej listy programów wczytywanych przy starcie do cache a oto jak zrobić:</description></item><item><title>Długie oczekiwanie na nawiązanie połączenia ssh</title><link>https://timor.site/2012/01/dlugie-oczekiwanie-na-nawiazanie-polaczenia-ssh/</link><pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/01/dlugie-oczekiwanie-na-nawiazanie-polaczenia-ssh/</guid><description>Objaw przeważnie jest taki: łączysz się po ssh podając klucz/hasło i czekasz nawet i 10 sekund aż pojawi się prompt. Po połączeniu wszystkie polecenia działają z normalną szybkością. Brzmi znajomo? 😉
-Taki objaw przeważnie jest skutkiem problemów z działaniem DNS&amp;rsquo;a po stronie klienta lub serwera. Warto sprawdzić poleceniami host/dig/nslookup po obu stronach jak dużo czasu potrzeba na rozwiązanie nazw. Najlepiej rozwiązać problem z DNS&amp;rsquo;em ustawiając szybkie serwery ale gdy nie mamy takiej możliwości to po stronie serwera można ustawić w /etc/sshd_config opcję:</description></item><item><title>fail2ban - regułki dla dovecot’a</title><link>https://timor.site/2011/11/fail2ban-regulki-dla-dovecota/</link><pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/11/fail2ban-regulki-dla-dovecota/</guid><description>Domyślna konfiguracja fail2ban&amp;rsquo;a (na Debianie) nie zawiera reguł pozwalających na blokowanie prób włamań na skrzynki POP/IMAP dla dovecota (no chyba że korzystamy z saslauthd). Można szybko utworzyć własny zestaw filtrów co przedstawię poniżej.
+dpkg-reconfigure openssh-server I na koniec restartujemy usługę by załadować nowy zestaw kluczy (nie powinno to zerwać obecnej sesji, ale dla pewności lepiej zadanie odpalić w screen&amp;rsquo;ie):</description>
+    </item>
+    
+    <item>
+      <title>Wstępne ładowanie programów przy starcie z ureadahead</title>
+      <link>https://timor.site/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</link>
+      <pubDate>Tue, 24 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</guid>
+      <description>Jakiś czas temu korzystałem z preload&amp;rsquo;a który sam uczył się jakie aplikacje odpalam i te programy ładował już podczas startu - przeważnie nieco spowalnia to start systemu ale gdy już się załaduje to programy, które uruchamiam jako pierwsze startują &amp;ldquo;z kopa&amp;rdquo;. Od jakiegoś czasu popularniejszy jest instalowany domyślnie w Ubuntu ureadahead - pełni on podobną funkcję jak preload.
+Można zmusić ureadahead do ponownego wygenerowania nowej listy programów wczytywanych przy starcie do cache a oto jak zrobić:</description>
+    </item>
+    
+    <item>
+      <title>Długie oczekiwanie na nawiązanie połączenia ssh</title>
+      <link>https://timor.site/2012/01/dlugie-oczekiwanie-na-nawiazanie-polaczenia-ssh/</link>
+      <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/01/dlugie-oczekiwanie-na-nawiazanie-polaczenia-ssh/</guid>
+      <description>Objaw przeważnie jest taki: łączysz się po ssh podając klucz/hasło i czekasz nawet i 10 sekund aż pojawi się prompt. Po połączeniu wszystkie polecenia działają z normalną szybkością. Brzmi znajomo? 😉
+Taki objaw przeważnie jest skutkiem problemów z działaniem DNS&amp;rsquo;a po stronie klienta lub serwera. Warto sprawdzić poleceniami host/dig/nslookup po obu stronach jak dużo czasu potrzeba na rozwiązanie nazw. Najlepiej rozwiązać problem z DNS&amp;rsquo;em ustawiając szybkie serwery ale gdy nie mamy takiej możliwości to po stronie serwera można ustawić w /etc/sshd_config opcję:</description>
+    </item>
+    
+    <item>
+      <title>fail2ban - regułki dla dovecot’a</title>
+      <link>https://timor.site/2011/11/fail2ban-regulki-dla-dovecota/</link>
+      <pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/11/fail2ban-regulki-dla-dovecota/</guid>
+      <description>Domyślna konfiguracja fail2ban&amp;rsquo;a (na Debianie) nie zawiera reguł pozwalających na blokowanie prób włamań na skrzynki POP/IMAP dla dovecota (no chyba że korzystamy z saslauthd). Można szybko utworzyć własny zestaw filtrów co przedstawię poniżej.
 Tworzymy plik: /etc/fail2ban/filter.d/dovecot.conf
 [Definition] failregex = (?: pop3-login|imap-login): .*(?:Authentication failure|Aborted login \(auth failed|Aborted login \(tried to use disabled|Disconnected \(auth failed|Aborted login \(\d+ authentication attempts).*rip=(?P&amp;lt;host&amp;gt;\S*),.* ignoreregex = Później dopisujemy na końcu pliku: /etc/fail2ban/jail.conf
-[dovecot] enabled = true filter = dovecot port = pop3,pop3s,imap,imaps logpath = /var/log/mail.</description></item><item><title>SLES 11 - instalacja Service Pack’a</title><link>https://timor.site/2011/10/sles-11-instalacja-service-packa/</link><pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/10/sles-11-instalacja-service-packa/</guid><description>Administrowałem do tej pory głównie darmowymi distro, ale gdzieś tam ukradkiem wkradło się kilka &amp;ldquo;siusiaków&amp;rdquo; (aka SUSE Linux Enterprise Server). Żyłem w utopijnym przekonaniu że skoro się za nie płaci to powinno się z nimi łatwiej współpracować&amp;hellip; w przypadku instalacji aktualizacji (a w szczególności SP) nie było to aż takie proste.
-Przywykłem w darmowych dystrybucjach że gdy pojawiała się nowszą &amp;ldquo;większa wersja&amp;rdquo; to po prostu można było jednym poleceniem zaktualizować wszystkie pakiety.</description></item><item><title>Ochrona usług przed atakami brute force z fail2ban’em</title><link>https://timor.site/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</link><pubDate>Mon, 03 Oct 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</guid><description>Bardzo często konfigurując usługi dostępne publicznie poświęca się sporo czasu na maksymalne zwiększenie bezpieczeństwa przez &amp;ldquo;dopieszczanie&amp;rdquo; konfiguracji (certyfikaty z mocnym szyfrowaniem, ochronę pewnych stron hasłem, dostęp do SSH tylko kluczami, itd.) ale całkowicie pomija się przygotowanie systemu aktywnie monitorującego błędne próby autoryzacji. Oczywiście nie można umniejszać wagi pierwszego z wymienionych etapów ale zdecydowanie nie powinno pomijać się też tego drugiego. Przecież każdy admin chciałby wiedzieć gdy ktoś próbuje włamać się na jego serwer (FTP, HTTP, SSH, itp.</description></item><item><title>pflogsumm - statystyki poczty dla postfix’a</title><link>https://timor.site/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</link><pubDate>Thu, 22 Sep 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</guid><description>Jeżeli administrujesz nawet niedużym serwerem pocztowym na pewno masz świadomość, że nie jesteś w stanie monitorować logów na bieżąco. Ciężko jest wyłapać np. problem w komunikacji z pewną domeną. Ciężko też oszacować skalę ruchu na serwerze zarówno pod kątem ilości jak i wolumenu maili. Trudno wybrać domeny, dla których warto by zrezygnować z greylistingu, itd, itp&amp;hellip;
-Na szczęście dostępne jest narzędzie pflogsumm, które wygeneruje nam dość wyczerpujące statystyki z logów postfix&amp;rsquo;a.</description></item><item><title>fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed</title><link>https://timor.site/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</link><pubDate>Wed, 21 Sep 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</guid><description>Miałem ostatnio dziwną przygodę: pewien serwer do backupu gdzie ląduje dużo małych plików i dodatkowo tworzonych jest sporo hardlinków zaliczył pada. Co prawda starałem się go grzecznie położyć z pomocą Magic SysRq ale ponieważ nie wiedziałem co było przyczyną awarii fsck wydawał się wskazany.
+[dovecot] enabled = true filter = dovecot port = pop3,pop3s,imap,imaps logpath = /var/log/mail.</description>
+    </item>
+    
+    <item>
+      <title>SLES 11 - instalacja Service Pack’a</title>
+      <link>https://timor.site/2011/10/sles-11-instalacja-service-packa/</link>
+      <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/10/sles-11-instalacja-service-packa/</guid>
+      <description>Administrowałem do tej pory głównie darmowymi distro, ale gdzieś tam ukradkiem wkradło się kilka &amp;ldquo;siusiaków&amp;rdquo; (aka SUSE Linux Enterprise Server). Żyłem w utopijnym przekonaniu że skoro się za nie płaci to powinno się z nimi łatwiej współpracować&amp;hellip; w przypadku instalacji aktualizacji (a w szczególności SP) nie było to aż takie proste.
+Przywykłem w darmowych dystrybucjach że gdy pojawiała się nowszą &amp;ldquo;większa wersja&amp;rdquo; to po prostu można było jednym poleceniem zaktualizować wszystkie pakiety.</description>
+    </item>
+    
+    <item>
+      <title>Ochrona usług przed atakami brute force z fail2ban’em</title>
+      <link>https://timor.site/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</link>
+      <pubDate>Mon, 03 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</guid>
+      <description>Bardzo często konfigurując usługi dostępne publicznie poświęca się sporo czasu na maksymalne zwiększenie bezpieczeństwa przez &amp;ldquo;dopieszczanie&amp;rdquo; konfiguracji (certyfikaty z mocnym szyfrowaniem, ochronę pewnych stron hasłem, dostęp do SSH tylko kluczami, itd.) ale całkowicie pomija się przygotowanie systemu aktywnie monitorującego błędne próby autoryzacji. Oczywiście nie można umniejszać wagi pierwszego z wymienionych etapów ale zdecydowanie nie powinno pomijać się też tego drugiego. Przecież każdy admin chciałby wiedzieć gdy ktoś próbuje włamać się na jego serwer (FTP, HTTP, SSH, itp.</description>
+    </item>
+    
+    <item>
+      <title>pflogsumm - statystyki poczty dla postfix’a</title>
+      <link>https://timor.site/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</link>
+      <pubDate>Thu, 22 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</guid>
+      <description>Jeżeli administrujesz nawet niedużym serwerem pocztowym na pewno masz świadomość, że nie jesteś w stanie monitorować logów na bieżąco. Ciężko jest wyłapać np. problem w komunikacji z pewną domeną. Ciężko też oszacować skalę ruchu na serwerze zarówno pod kątem ilości jak i wolumenu maili. Trudno wybrać domeny, dla których warto by zrezygnować z greylistingu, itd, itp&amp;hellip;
+Na szczęście dostępne jest narzędzie pflogsumm, które wygeneruje nam dość wyczerpujące statystyki z logów postfix&amp;rsquo;a.</description>
+    </item>
+    
+    <item>
+      <title>fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed</title>
+      <link>https://timor.site/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</link>
+      <pubDate>Wed, 21 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</guid>
+      <description>Miałem ostatnio dziwną przygodę: pewien serwer do backupu gdzie ląduje dużo małych plików i dodatkowo tworzonych jest sporo hardlinków zaliczył pada. Co prawda starałem się go grzecznie położyć z pomocą Magic SysRq ale ponieważ nie wiedziałem co było przyczyną awarii fsck wydawał się wskazany.
 Podczas próby uruchomienia fsck.ext4 na systemie plików o rozmiarze ok 14TB z kilkuset milionami plików po kilkudziesięciu sekundach otrzymywałem komunikat:
-Błąd podczas przydzielania struktury icount: Memory allocation failed</description></item><item><title>Magic SysRq - bezpieczny reset Linux’a</title><link>https://timor.site/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</link><pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</guid><description>Pomimo iż Linux uchodzi za stabilne środowisko to raz na jakiś czas trafi się ciężka zwiecha - z powodu przeciążenia, awarii sprzętu&amp;hellip; nieistotne&amp;hellip;
-Załóżmy że licho wzięło za cel główny serwer plików lub bazę danych dla wielu, wielu stron internetowych. Dostać się po ssh nie możemy bo lecą timeout&amp;rsquo;y, a siedząc bezpośrednio przy klawiaturze konsola nie reaguje. Mimo to coś ostro daje po dyskach, więc ewentualny twardy reset to na bank utrata części plików&amp;hellip; jeśli system po nim w ogóle wstanie&amp;hellip; 😑</description></item><item><title>approx - cachujące proxy dla repozytoriów Debiana</title><link>https://timor.site/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</link><pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</guid><description>Wielu administratorów gdy zaczyna swoją przygodę zarządza jedną/dwoma maszynami&amp;hellip; Po pewnym czasie jest ich już kilka&amp;hellip; W którymś momencie dostrzega się zalety wirtualizacji i na kilku maszynach fizycznych działa kilkanaście czy kilkadziesiąt maszyn wirtualnych. W takiej sytuacji pobieranie aktualizacji dla wszystkich maszyn potrafi mocno zabić łącze.
-I w tym momencie zaczynamy się zastanawiać czy może nie warto byłoby zrobić własnego mirror&amp;rsquo;a paczek dla naszego ulubionego distro&amp;hellip; do prywatnego użytku&amp;hellip; synchronizowanego w nocy by nikomu nie przeszkadzać&amp;hellip; i dostępnego nawet gdy będziemy offline&amp;hellip; Zaczynamy liczyć miejsce i okazuje się że repozytorium Debiana dla architektury i386 to prawie 60GB (sic!</description></item><item><title>Wymuszenie zwolnienia pamięci buforów dyskowych na Linux’ie</title><link>https://timor.site/2011/09/wymuszenie-zwolnienia-pamieci-buforow-dyskowych-na-linuxie/</link><pubDate>Thu, 15 Sep 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/09/wymuszenie-zwolnienia-pamieci-buforow-dyskowych-na-linuxie/</guid><description>Linux bardzo agresywnie wykorzystuje wolną pamięć RAM do buforowania danych odczytywanych z dysków (inode&amp;rsquo;ów, plików, itd&amp;hellip;). Ma to niebagatelny wpływ na zwiększenie szybkości uruchamiania programów które już raz zostały uruchomione. Jednak nie zawsze jest to pożądane zachowanie, np. testując szybkość uruchomienia/wykonywania tworzonej przez nas aplikacji - buforowanie zmienia czas ładowania aplikacji przy kolejnych uruchomieniach. Dobrze byłoby móc wymusić zwolnienie buforów by każdy start programu miał porównywalne &amp;ldquo;warunki startowe&amp;rdquo;.
-Na szczęście można to zrobić w prosty sposób:</description></item><item><title>Zabezpieczenie Apachego na Debianie przed slowloris’em</title><link>https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</link><pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</guid><description>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.</description></item><item><title>Sprawdzenie który proces obciąża dyski</title><link>https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</link><pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid><description>Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.
-Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić 😃</description></item><item><title>Konfiguracja backportów na Debianie</title><link>https://timor.site/2011/08/konfiguracja-backportow-na-debianie/</link><pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/konfiguracja-backportow-na-debianie/</guid><description>Tak się składa, że Debian ze względu na stosunkowo rzadkie wydawanie kolejnych wersji szybko staje się niezbyt świeży a dostępne w nim pakiety często nie spełaniają naszych oczekiwań. Nie ma najnowszej wersji Subversion&amp;hellip; Nie ma mod_security itd, itp&amp;hellip;
-Rozwiązaniem tego problemu może być instalacja pakietów z testowej gałęzi ale można polec na zależnościach. Można też kompilować ze źródeł&amp;hellip; Tak czy siak w obu przypadkach aktualizacja i utrzymanie tak zmodyfikowanego systemu byłoby jak wrzód na zadku.</description></item><item><title>Optymalizacja PHP z eAccelerator’em</title><link>https://timor.site/2011/08/optymalizacja-php-z-eacceleratorem/</link><pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/optymalizacja-php-z-eacceleratorem/</guid><description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy 😃
+Błąd podczas przydzielania struktury icount: Memory allocation failed</description>
+    </item>
+    
+    <item>
+      <title>Magic SysRq - bezpieczny reset Linux’a</title>
+      <link>https://timor.site/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</link>
+      <pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</guid>
+      <description>Pomimo iż Linux uchodzi za stabilne środowisko to raz na jakiś czas trafi się ciężka zwiecha - z powodu przeciążenia, awarii sprzętu&amp;hellip; nieistotne&amp;hellip;
+Załóżmy że licho wzięło za cel główny serwer plików lub bazę danych dla wielu, wielu stron internetowych. Dostać się po ssh nie możemy bo lecą timeout&amp;rsquo;y, a siedząc bezpośrednio przy klawiaturze konsola nie reaguje. Mimo to coś ostro daje po dyskach, więc ewentualny twardy reset to na bank utrata części plików&amp;hellip; jeśli system po nim w ogóle wstanie&amp;hellip; 😑</description>
+    </item>
+    
+    <item>
+      <title>approx - cachujące proxy dla repozytoriów Debiana</title>
+      <link>https://timor.site/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</link>
+      <pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</guid>
+      <description>Wielu administratorów gdy zaczyna swoją przygodę zarządza jedną/dwoma maszynami&amp;hellip; Po pewnym czasie jest ich już kilka&amp;hellip; W którymś momencie dostrzega się zalety wirtualizacji i na kilku maszynach fizycznych działa kilkanaście czy kilkadziesiąt maszyn wirtualnych. W takiej sytuacji pobieranie aktualizacji dla wszystkich maszyn potrafi mocno zabić łącze.
+I w tym momencie zaczynamy się zastanawiać czy może nie warto byłoby zrobić własnego mirror&amp;rsquo;a paczek dla naszego ulubionego distro&amp;hellip; do prywatnego użytku&amp;hellip; synchronizowanego w nocy by nikomu nie przeszkadzać&amp;hellip; i dostępnego nawet gdy będziemy offline&amp;hellip; Zaczynamy liczyć miejsce i okazuje się że repozytorium Debiana dla architektury i386 to prawie 60GB (sic!</description>
+    </item>
+    
+    <item>
+      <title>Wymuszenie zwolnienia pamięci buforów dyskowych na Linux’ie</title>
+      <link>https://timor.site/2011/09/wymuszenie-zwolnienia-pamieci-buforow-dyskowych-na-linuxie/</link>
+      <pubDate>Thu, 15 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/09/wymuszenie-zwolnienia-pamieci-buforow-dyskowych-na-linuxie/</guid>
+      <description>Linux bardzo agresywnie wykorzystuje wolną pamięć RAM do buforowania danych odczytywanych z dysków (inode&amp;rsquo;ów, plików, itd&amp;hellip;). Ma to niebagatelny wpływ na zwiększenie szybkości uruchamiania programów które już raz zostały uruchomione. Jednak nie zawsze jest to pożądane zachowanie, np. testując szybkość uruchomienia/wykonywania tworzonej przez nas aplikacji - buforowanie zmienia czas ładowania aplikacji przy kolejnych uruchomieniach. Dobrze byłoby móc wymusić zwolnienie buforów by każdy start programu miał porównywalne &amp;ldquo;warunki startowe&amp;rdquo;.
+Na szczęście można to zrobić w prosty sposób:</description>
+    </item>
+    
+    <item>
+      <title>Zabezpieczenie Apachego na Debianie przed slowloris’em</title>
+      <link>https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</link>
+      <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</guid>
+      <description>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.</description>
+    </item>
+    
+    <item>
+      <title>Sprawdzenie który proces obciąża dyski</title>
+      <link>https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</link>
+      <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid>
+      <description>Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.
+Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić 😃</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja backportów na Debianie</title>
+      <link>https://timor.site/2011/08/konfiguracja-backportow-na-debianie/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/konfiguracja-backportow-na-debianie/</guid>
+      <description>Tak się składa, że Debian ze względu na stosunkowo rzadkie wydawanie kolejnych wersji szybko staje się niezbyt świeży a dostępne w nim pakiety często nie spełaniają naszych oczekiwań. Nie ma najnowszej wersji Subversion&amp;hellip; Nie ma mod_security itd, itp&amp;hellip;
+Rozwiązaniem tego problemu może być instalacja pakietów z testowej gałęzi ale można polec na zależnościach. Można też kompilować ze źródeł&amp;hellip; Tak czy siak w obu przypadkach aktualizacja i utrzymanie tak zmodyfikowanego systemu byłoby jak wrzód na zadku.</description>
+    </item>
+    
+    <item>
+      <title>Optymalizacja PHP z eAccelerator’em</title>
+      <link>https://timor.site/2011/08/optymalizacja-php-z-eacceleratorem/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/optymalizacja-php-z-eacceleratorem/</guid>
+      <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy 😃
 Niestety nie ma go w repozytoriach Debiana, więc trzeba go sobie skompilować - cały proces jest dość prosty. Zaczynamy od pobrania najświeższej paczki, obecnie jest to wersja 0.9.5.3:
 Pobierz eAccelerator (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)
-Pobieramy i rozpakowujemy pliki:</description></item><item><title>Statystyki odwiedzin dla wielu serwisów z AWStats</title><link>https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</link><pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</guid><description>Co prawda na swojej stronie zrobiłem kilka podstawowych statystyk i coś tam sobie loguję do bazy danych, ale gdyby się chwilę zastanowić to przecież to samo robi serwer www - wrzuca do logów każde zapytanie HTTP, kod błędu, nazwę agenta, itd. Dublowanie tych danych nie jest najbardziej optymalne.
-Stąd też chwilę pogooglałem i znalazłem świetny Open Source&amp;rsquo;owy projekt: AWStats, który jest webowym analizatorem logów dla serwerów HTTP, FTP i SMTP.</description></item><item><title>Dynamiczne IP i RBL’e</title><link>https://timor.site/2011/08/dynamiczne-ip-i-rble/</link><pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/dynamiczne-ip-i-rble/</guid><description>Mój serwer pocztowy działa od jakiegoś czasu na dynamicznym IP (dobre bo tanie&amp;hellip;) i przeważnie nie ma z tym problemów. Postarałem się jak mogłem ustawiając SPF&amp;rsquo;a i DomainKeys aby uwiarygodnić go u większych dostawców poczty.
-Niestety wszystko to diabli biorą w momencie gdy wygasa mi leasse DHCP i dostaję nowe IP po jakimś spamerze/zombiaku. Wisi takie w 2-3 większych RBL&amp;rsquo;ach i o dostarczaniu poczty można zapomnieć. Miło gdy jeszcze zdalny MTA zechce odesłać zwrotkę &amp;ldquo;zróbta coś bo wisisz w RBL&amp;rsquo;u takim a takim&amp;hellip;&amp;rdquo;, ale zdecydowania niefajnie gdy wysyłasz pocztę a ona od razu leci do /dev/null rblcheck Poszperałem trochę i znalazłem fajne narzędzie aka rblcheck, które sprawdza domyślnie kilka RBL&amp;rsquo;i.</description></item><item><title>Wysyłanie załączników poleceniem mail</title><link>https://timor.site/2011/08/wysylanie-zalacznikow-poleceniem-mail/</link><pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/wysylanie-zalacznikow-poleceniem-mail/</guid><description>Kiedyś potrzebowałem w ramach testu obciążeniowego wysłać dużo wiadomości z załącznikami. Chciałem to zrobić na szybko z shell&amp;rsquo;a i tutaj chwilę musiałem pogooglać aby znaleźć działające polecenie. To co znalazłem wygląda tak:
+Pobieramy i rozpakowujemy pliki:</description>
+    </item>
+    
+    <item>
+      <title>Statystyki odwiedzin dla wielu serwisów z AWStats</title>
+      <link>https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</guid>
+      <description>Co prawda na swojej stronie zrobiłem kilka podstawowych statystyk i coś tam sobie loguję do bazy danych, ale gdyby się chwilę zastanowić to przecież to samo robi serwer www - wrzuca do logów każde zapytanie HTTP, kod błędu, nazwę agenta, itd. Dublowanie tych danych nie jest najbardziej optymalne.
+Stąd też chwilę pogooglałem i znalazłem świetny Open Source&amp;rsquo;owy projekt: AWStats, który jest webowym analizatorem logów dla serwerów HTTP, FTP i SMTP.</description>
+    </item>
+    
+    <item>
+      <title>Dynamiczne IP i RBL’e</title>
+      <link>https://timor.site/2011/08/dynamiczne-ip-i-rble/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/dynamiczne-ip-i-rble/</guid>
+      <description>Mój serwer pocztowy działa od jakiegoś czasu na dynamicznym IP (dobre bo tanie&amp;hellip;) i przeważnie nie ma z tym problemów. Postarałem się jak mogłem ustawiając SPF&amp;rsquo;a i DomainKeys aby uwiarygodnić go u większych dostawców poczty.
+Niestety wszystko to diabli biorą w momencie gdy wygasa mi leasse DHCP i dostaję nowe IP po jakimś spamerze/zombiaku. Wisi takie w 2-3 większych RBL&amp;rsquo;ach i o dostarczaniu poczty można zapomnieć. Miło gdy jeszcze zdalny MTA zechce odesłać zwrotkę &amp;ldquo;zróbta coś bo wisisz w RBL&amp;rsquo;u takim a takim&amp;hellip;&amp;rdquo;, ale zdecydowania niefajnie gdy wysyłasz pocztę a ona od razu leci do /dev/null rblcheck Poszperałem trochę i znalazłem fajne narzędzie aka rblcheck, które sprawdza domyślnie kilka RBL&amp;rsquo;i.</description>
+    </item>
+    
+    <item>
+      <title>Wysyłanie załączników poleceniem mail</title>
+      <link>https://timor.site/2011/08/wysylanie-zalacznikow-poleceniem-mail/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/wysylanie-zalacznikow-poleceniem-mail/</guid>
+      <description>Kiedyś potrzebowałem w ramach testu obciążeniowego wysłać dużo wiadomości z załącznikami. Chciałem to zrobić na szybko z shell&amp;rsquo;a i tutaj chwilę musiałem pogooglać aby znaleźć działające polecenie. To co znalazłem wygląda tak:
 (echo &amp;#34;testowa wiadomosc&amp;#34;; uuencode test.zip test.zip) \ | mail -s &amp;#34;Test&amp;#34; testowy@mail.pl Wiedząc już jak wysyłać maile z załącznikami, mały mail bombing mogłem zrobić tak:
-for i in `seq 1 100`; do (cat tekst.txt; uuencode test.zip test.zip) \ | mail -s &amp;#34;Test $i&amp;#34; testowy@mail.</description></item><item><title>Włam na lokalne konto root’a</title><link>https://timor.site/2011/08/wlam-na-lokalne-konto-roota/</link><pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/wlam-na-lokalne-konto-roota/</guid><description>Jeżeli tu zaglądasz pewnie zdarzyło Ci się kiedyś, że przykładowo wygrzebujesz jakiś stary serwer i nie masz pojęcia co na nim było, ani do czego służyło, czy jeszcze działa&amp;hellip; Albo jeszcze inaczej - serwer działał tak długo, że wszystkie osoby znające hasło na root&amp;rsquo;a przeszły na emeryturę lub zmarły&amp;hellip; Nieistotne 😃
-Jest pewna prosta sztuczka, pozwalająca wbić się na konto root&amp;rsquo;a nie znając hasła - dając nam możliwość jego zmiany. Potrzebne dwa restarty ale za to nie trzeba korzystać z żadnychlive cd.</description></item></channel></rss>
+for i in `seq 1 100`; do (cat tekst.txt; uuencode test.zip test.zip) \  | mail -s &amp;#34;Test $i&amp;#34; testowy@mail.</description>
+    </item>
+    
+    <item>
+      <title>Włam na lokalne konto root’a</title>
+      <link>https://timor.site/2011/08/wlam-na-lokalne-konto-roota/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/wlam-na-lokalne-konto-roota/</guid>
+      <description>Jeżeli tu zaglądasz pewnie zdarzyło Ci się kiedyś, że przykładowo wygrzebujesz jakiś stary serwer i nie masz pojęcia co na nim było, ani do czego służyło, czy jeszcze działa&amp;hellip; Albo jeszcze inaczej - serwer działał tak długo, że wszystkie osoby znające hasło na root&amp;rsquo;a przeszły na emeryturę lub zmarły&amp;hellip; Nieistotne 😃
+Jest pewna prosta sztuczka, pozwalająca wbić się na konto root&amp;rsquo;a nie znając hasła - dając nam możliwość jego zmiany. Potrzebne dwa restarty ale za to nie trzeba korzystać z żadnychlive cd.</description>
+    </item>
+    
+  </channel>
+</rss>

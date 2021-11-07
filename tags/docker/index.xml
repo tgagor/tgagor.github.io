@@ -1,20 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docker on timor's site</title><link>https://timor.site/tags/docker/</link><description>Recent content in Docker on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/docker/index.xml" rel="self" type="application/rss+xml"/><item><title>Official CentOS 8 Stream Docker image finally available!</title><link>https://timor.site/2021/07/official-centos-8-stream-docker-image-finally-available/</link><pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate><guid>https://timor.site/2021/07/official-centos-8-stream-docker-image-finally-available/</guid><description>Finally, they&amp;rsquo;re available! Wait a moment.. Actually they&amp;rsquo;re available for few months, just nobody published information about moving them to quay.io and dropped poor guys using hub.docker.com without any updates! Yes, that how they did!
-I found new place accidentally, reading some news about CentOS Stream 9 on their blog. There was reference to CentOS 9 Stream dev builds of Docker images and I found &amp;ldquo;missing&amp;rdquo; stream and stream8 tags too.</description></item><item><title>How to run JMX monitoring in Docker image?</title><link>https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/</link><pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate><guid>https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/</guid><description>It&amp;rsquo;s sometimes useful to quickly connect to JMX console, to checkout what&amp;rsquo;s going on in your application, but the whole thing get&amp;rsquo;s tricky if you&amp;rsquo;re running your app in a container. I need it from time to time and I keep myself few times searching for set of params below:
--Dcom.sun.management.jmxremote \ -Dcom.sun.management.jmxremote.rmi.port=${PORT1} \ -Dcom.sun.management.jmxremote.port=${PORT1} \ -Dcom.sun.management.jmxremote.local.only=false \ -Dcom.sun.management.jmxremote.authenticate=false \ -Dcom.sun.management.jmxremote.ssl=false \ -Djava.rmi.server.hostname=${HOST} \ The whole magic here is that PORT1 in container is app&amp;rsquo;s second port.</description></item><item><title>CentOS 8 Stream Docker image</title><link>https://timor.site/2021/02/centos-8-stream-docker-image/</link><pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate><guid>https://timor.site/2021/02/centos-8-stream-docker-image/</guid><description>We&amp;rsquo;re all divided with recent decision to focus on CentOS Stream, which essentially means that stable, professional distro will turn into rolling release now. Also CentOS board members don&amp;rsquo;t gave us more confidence for the future.
-I don&amp;rsquo;t want to be totally sceptic, I would like to test it on my own and only then, decide if it&amp;rsquo;s stable enough. But I work mostly with Docker containers and there are no official Docker images with Stream variant.</description></item><item><title>How old are Docker Official Images?</title><link>https://timor.site/2021/01/how-old-are-docker-official-images/</link><pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate><guid>https://timor.site/2021/01/how-old-are-docker-official-images/</guid><description>TL;DR
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Docker on timor&#39;s site</title>
+    <link>https://timor.site/tags/docker/</link>
+    <description>Recent content in Docker on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Official CentOS 8 Stream Docker image finally available!</title>
+      <link>https://timor.site/2021/07/official-centos-8-stream-docker-image-finally-available/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2021/07/official-centos-8-stream-docker-image-finally-available/</guid>
+      <description>Finally, they&amp;rsquo;re available! Wait a moment.. Actually they&amp;rsquo;re available for few months, just nobody published information about moving them to quay.io and dropped poor guys using hub.docker.com without any updates! Yes, that how they did!
+I found new place accidentally, reading some news about CentOS Stream 9 on their blog. There was reference to CentOS 9 Stream dev builds of Docker images and I found &amp;ldquo;missing&amp;rdquo; stream and stream8 tags too.</description>
+    </item>
+    
+    <item>
+      <title>How to run JMX monitoring in Docker image?</title>
+      <link>https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/</guid>
+      <description>It&amp;rsquo;s sometimes useful to quickly connect to JMX console, to checkout what&amp;rsquo;s going on in your application, but the whole thing get&amp;rsquo;s tricky if you&amp;rsquo;re running your app in a container. I need it from time to time and I keep myself few times searching for set of params below:
+-Dcom.sun.management.jmxremote \ -Dcom.sun.management.jmxremote.rmi.port=${PORT1} \ -Dcom.sun.management.jmxremote.port=${PORT1} \ -Dcom.sun.management.jmxremote.local.only=false \ -Dcom.sun.management.jmxremote.authenticate=false \ -Dcom.sun.management.jmxremote.ssl=false \ -Djava.rmi.server.hostname=${HOST} \ The whole magic here is that PORT1 in container is app&amp;rsquo;s second port.</description>
+    </item>
+    
+    <item>
+      <title>CentOS 8 Stream Docker image</title>
+      <link>https://timor.site/2021/02/centos-8-stream-docker-image/</link>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2021/02/centos-8-stream-docker-image/</guid>
+      <description>We&amp;rsquo;re all divided with recent decision to focus on CentOS Stream, which essentially means that stable, professional distro will turn into rolling release now. Also CentOS board members don&amp;rsquo;t gave us more confidence for the future.
+I don&amp;rsquo;t want to be totally sceptic, I would like to test it on my own and only then, decide if it&amp;rsquo;s stable enough. But I work mostly with Docker containers and there are no official Docker images with Stream variant.</description>
+    </item>
+    
+    <item>
+      <title>How old are Docker Official Images?</title>
+      <link>https://timor.site/2021/01/how-old-are-docker-official-images/</link>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2021/01/how-old-are-docker-official-images/</guid>
+      <description>TL;DR
 CentOS base images sucks! They&amp;rsquo;re old, not updated for months!
-As a professional DevOps I concern about a lot of things&amp;hellip; but security is always close to the top of the list. With Docker build environments and deployments became much more stable, which often is a result of just being stale ;/
-I&amp;rsquo;ve been talking about this for long time but it&amp;rsquo;s still hard for people to believe it.</description></item><item><title>Automatically build after file change</title><link>https://timor.site/2016/02/automatically-build-after-file-change/</link><pubDate>Tue, 23 Feb 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/02/automatically-build-after-file-change/</guid><description>I&amp;rsquo;m playing a lot with Docker lately. Building images, and then rebuilding, and then building again&amp;hellip; It&amp;rsquo;s pretty boring. To automate this task a little I used inotify to build automatically after I changed any file. This trick could be used in many different situations.
+ As a professional DevOps I concern about a lot of things&amp;hellip; but security is always close to the top of the list. With Docker build environments and deployments became much more stable, which often is a result of just being stale ;/
+I&amp;rsquo;ve been talking about this for long time but it&amp;rsquo;s still hard for people to believe it.</description>
+    </item>
+    
+    <item>
+      <title>Automatically build after file change</title>
+      <link>https://timor.site/2016/02/automatically-build-after-file-change/</link>
+      <pubDate>Tue, 23 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/02/automatically-build-after-file-change/</guid>
+      <description>I&amp;rsquo;m playing a lot with Docker lately. Building images, and then rebuilding, and then building again&amp;hellip; It&amp;rsquo;s pretty boring. To automate this task a little I used inotify to build automatically after I changed any file. This trick could be used in many different situations.
 You will need inotify-tools package:
 sudo apt-get install -y inotify-tools Then run something like this:
-while inotifywait -e modify -r .; do docker-compose build; done This commands will rebuild my Docker images after any file change in current directory.</description></item><item><title>Install Docker Compose</title><link>https://timor.site/2016/02/install-docker-compose/</link><pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/02/install-docker-compose/</guid><description>When I started playing with Docker I was running a lot of commands to build image, delete containers running on old image, run containers based on new image, etc&amp;hellip; A lot of log commands with links, volumes, etc&amp;hellip;
+while inotifywait -e modify -r .; do docker-compose build; done This commands will rebuild my Docker images after any file change in current directory.</description>
+    </item>
+    
+    <item>
+      <title>Install Docker Compose</title>
+      <link>https://timor.site/2016/02/install-docker-compose/</link>
+      <pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/02/install-docker-compose/</guid>
+      <description>When I started playing with Docker I was running a lot of commands to build image, delete containers running on old image, run containers based on new image, etc&amp;hellip; A lot of log commands with links, volumes, etc&amp;hellip;
 Then I started searching for something to automate this task and here I get to docker-compse command, this is how you may install it:
-pip install docker-compose And install additional bash completions (run as root):</description></item><item><title>Manual installation of Docker on Debian/Ubuntu</title><link>https://timor.site/2016/02/manual-installation-of-docker-on-debian-ubuntu/</link><pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/02/manual-installation-of-docker-on-debian-ubuntu/</guid><description>I&amp;rsquo;ve played with Docker a little in it early days but didn&amp;rsquo;t stick for longer with it. It&amp;rsquo;s stable now so I wanted to check how it&amp;rsquo;s running now.
+pip install docker-compose And install additional bash completions (run as root):</description>
+    </item>
+    
+    <item>
+      <title>Manual installation of Docker on Debian/Ubuntu</title>
+      <link>https://timor.site/2016/02/manual-installation-of-docker-on-debian-ubuntu/</link>
+      <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/02/manual-installation-of-docker-on-debian-ubuntu/</guid>
+      <description>I&amp;rsquo;ve played with Docker a little in it early days but didn&amp;rsquo;t stick for longer with it. It&amp;rsquo;s stable now so I wanted to check how it&amp;rsquo;s running now.
 I really can&amp;rsquo;t accept this method of installation:
 curl -fsSL https://get.docker.com/ | sh I think that world is going to it&amp;rsquo;s end when I see such scritps&amp;hellip; I prefer to do this manually, knowing exactly what I have to do.
-Install prerequisites:</description></item><item><title>Some usefull commands in Docker</title><link>https://timor.site/2016/02/some-usefull-commands-in-docker/</link><pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/02/some-usefull-commands-in-docker/</guid><description>I started playing with Docker and here I will write some commands that where not so obvious at beginning 😃
+Install prerequisites:</description>
+    </item>
+    
+    <item>
+      <title>Some usefull commands in Docker</title>
+      <link>https://timor.site/2016/02/some-usefull-commands-in-docker/</link>
+      <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/02/some-usefull-commands-in-docker/</guid>
+      <description>I started playing with Docker and here I will write some commands that where not so obvious at beginning 😃
 List running containers:
 docker ps List also not running containers:
 docker ps -a Remove all containers (be careful with that):
 docker rm $(docker ps -a -q) Remove all images:
-docker rmi $(docker images -q) Docker won&amp;rsquo;t remove any old volumes used by containers, so after some time you may be interested in deleting them all:</description></item></channel></rss>
+docker rmi $(docker images -q) Docker won&amp;rsquo;t remove any old volumes used by containers, so after some time you may be interested in deleting them all:</description>
+    </item>
+    
+  </channel>
+</rss>

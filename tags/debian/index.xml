@@ -1,64 +1,399 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Debian on timor's site</title><link>https://timor.site/tags/debian/</link><description>Recent content in Debian on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 21 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/debian/index.xml" rel="self" type="application/rss+xml"/><item><title>Tweaking ASUS Zenbook UX305CA on Linux</title><link>https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</link><pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</guid><description>Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &amp;lsquo;mobile&amp;rsquo; word. Then I saw ASUS Zenbook that I didn&amp;rsquo;t take into account before and it was exactly what I was searching for.
-Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed.</description></item><item><title>Manual installation of Docker on Debian/Ubuntu</title><link>https://timor.site/2016/02/manual-installation-of-docker-on-debian-ubuntu/</link><pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/02/manual-installation-of-docker-on-debian-ubuntu/</guid><description>I&amp;rsquo;ve played with Docker a little in it early days but didn&amp;rsquo;t stick for longer with it. It&amp;rsquo;s stable now so I wanted to check how it&amp;rsquo;s running now.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Debian on timor&#39;s site</title>
+    <link>https://timor.site/tags/debian/</link>
+    <description>Recent content in Debian on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Thu, 21 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tweaking ASUS Zenbook UX305CA on Linux</title>
+      <link>https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</link>
+      <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</guid>
+      <description>Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &amp;lsquo;mobile&amp;rsquo; word. Then I saw ASUS Zenbook that I didn&amp;rsquo;t take into account before and it was exactly what I was searching for.
+Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed.</description>
+    </item>
+    
+    <item>
+      <title>Manual installation of Docker on Debian/Ubuntu</title>
+      <link>https://timor.site/2016/02/manual-installation-of-docker-on-debian-ubuntu/</link>
+      <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/02/manual-installation-of-docker-on-debian-ubuntu/</guid>
+      <description>I&amp;rsquo;ve played with Docker a little in it early days but didn&amp;rsquo;t stick for longer with it. It&amp;rsquo;s stable now so I wanted to check how it&amp;rsquo;s running now.
 I really can&amp;rsquo;t accept this method of installation:
 curl -fsSL https://get.docker.com/ | sh I think that world is going to it&amp;rsquo;s end when I see such scritps&amp;hellip; I prefer to do this manually, knowing exactly what I have to do.
-Install prerequisites:</description></item><item><title>Intel Dual Band Wireless-AC 7260 for Desktop on Linux</title><link>https://timor.site/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</link><pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</guid><description>I just bought new wifi card for my desktop computer. Like in topic, it&amp;rsquo;s Intel Dual Band Wireless-AC 7260 for Desktop.
+Install prerequisites:</description>
+    </item>
+    
+    <item>
+      <title>Intel Dual Band Wireless-AC 7260 for Desktop on Linux</title>
+      <link>https://timor.site/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</guid>
+      <description>I just bought new wifi card for my desktop computer. Like in topic, it&amp;rsquo;s Intel Dual Band Wireless-AC 7260 for Desktop.
 I was searching for card that:
-support AC standard have 5GHz network support (2,4GHz channels are cluttered heavily in my neighborhood have PCI/PCIx or USB3 connector is Linux friendly (no modules compilation by hand, support for aircrack-ng, kismet) This one is the only I found that comply my expectations.</description></item><item><title>Grafana - installation and configuraton with InfluxDB and CollectD on Debian/Ubuntu</title><link>https://timor.site/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</link><pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</guid><description>Now when you have CollectD and InfluxDB installed you may configure Grafana 😃
+ support AC standard have 5GHz network support (2,4GHz channels are cluttered heavily in my neighborhood have PCI/PCIx or USB3 connector is Linux friendly (no modules compilation by hand, support for aircrack-ng, kismet)  This one is the only I found that comply my expectations.</description>
+    </item>
+    
+    <item>
+      <title>Grafana - installation and configuraton with InfluxDB and CollectD on Debian/Ubuntu</title>
+      <link>https://timor.site/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</guid>
+      <description>Now when you have CollectD and InfluxDB installed you may configure Grafana 😃
 First configure repo with current Grafana version (select your distro):
 curl https://packagecloud.io/gpg.key | sudo apt-key add - deb https://packagecloud.io/grafana/testing/debian/ wheezy main Now install package (on wheezy I needed to install apt-transport-https to allow installation of packages from repo via HTTPS):
-apt-get update apt-get install -y apt-transport-https apt-get install -y grafana By default Grafana will use sqlite database to keep information about users, etc:</description></item><item><title>InfluxDB - installation and configuration on Debian/Ubuntu</title><link>https://timor.site/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</link><pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</guid><description>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
+apt-get update apt-get install -y apt-transport-https apt-get install -y grafana By default Grafana will use sqlite database to keep information about users, etc:</description>
+    </item>
+    
+    <item>
+      <title>InfluxDB - installation and configuration on Debian/Ubuntu</title>
+      <link>https://timor.site/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</link>
+      <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</guid>
+      <description>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
 Let&amp;rsquo;s start! On project page there is no info about repo but it&amp;rsquo;s available, configure it:
-curl -sL https://repos.influxdata.com/influxdb.key | apt-key add - echo &amp;#34;deb https://repos.influxdata.com/debian wheezy stable&amp;#34; &amp;gt; /etc/apt.sources.list.d/influxdb.conf for Ubuntu use url like (of course selecting your version):</description></item><item><title>CollectD - installation and configuration with InfluxDB on Debian/Ubuntu</title><link>https://timor.site/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</link><pubDate>Fri, 08 Jan 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</guid><description>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
-Installation of collectd is easy on Debian because packages are in default repo. One problem is that packages may be old, ex. on wheezy it version 5.1. But in backports/backports-sloppy you may find current 5.</description></item><item><title>Extract password saved in remmina</title><link>https://timor.site/2015/12/extract-password-saved-in-remmina/</link><pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate><guid>https://timor.site/2015/12/extract-password-saved-in-remmina/</guid><description>I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in .remmina directory.
+curl -sL https://repos.influxdata.com/influxdb.key | apt-key add - echo &amp;#34;deb https://repos.influxdata.com/debian wheezy stable&amp;#34; &amp;gt; /etc/apt.sources.list.d/influxdb.conf for Ubuntu use url like (of course selecting your version):</description>
+    </item>
+    
+    <item>
+      <title>CollectD - installation and configuration with InfluxDB on Debian/Ubuntu</title>
+      <link>https://timor.site/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</link>
+      <pubDate>Fri, 08 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</guid>
+      <description>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
+Installation of collectd is easy on Debian because packages are in default repo. One problem is that packages may be old, ex. on wheezy it version 5.1. But in backports/backports-sloppy you may find current 5.</description>
+    </item>
+    
+    <item>
+      <title>Extract password saved in remmina</title>
+      <link>https://timor.site/2015/12/extract-password-saved-in-remmina/</link>
+      <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2015/12/extract-password-saved-in-remmina/</guid>
+      <description>I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in .remmina directory.
 Then I used this script to the decrypt them:
-import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) Sources http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina</description></item><item><title>Copy GTP partiotion table between disks</title><link>https://timor.site/2014/07/copy-gtp-partiotion-table-between-disks/</link><pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/07/copy-gtp-partiotion-table-between-disks/</guid><description>When configuring RAID it&amp;rsquo;s quite important to have the same partition tables on every disk. I&amp;rsquo;v done this many times on msdos partition tables like this:
+import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) Sources http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina</description>
+    </item>
+    
+    <item>
+      <title>Copy GTP partiotion table between disks</title>
+      <link>https://timor.site/2014/07/copy-gtp-partiotion-table-between-disks/</link>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/07/copy-gtp-partiotion-table-between-disks/</guid>
+      <description>When configuring RAID it&amp;rsquo;s quite important to have the same partition tables on every disk. I&amp;rsquo;v done this many times on msdos partition tables like this:
 sfdisk -d /dev/sda | sfdisk /dev/sdb but it&amp;rsquo;s not working any more on GPT partition tables. Hopefully it still can be done but with different toolstack 😄
 Install gdisk:
 apt-get install -y gdisk Then use sgdisk like this:
-sgdisk -R /dev/sd_dest /dev/sd_src sgdisk -G /dev/sd_dest First command will copy partition from /dev/sd_src to /dev/sd_dest.</description></item><item><title>Install Steam on Debian/Ubuntu</title><link>https://timor.site/2014/04/install-steam-on-debian-ubuntu/</link><pubDate>Tue, 22 Apr 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/04/install-steam-on-debian-ubuntu/</guid><description>These are few steps to get Steam running on Ubuntu:
+sgdisk -R /dev/sd_dest /dev/sd_src sgdisk -G /dev/sd_dest First command will copy partition from /dev/sd_src to /dev/sd_dest.</description>
+    </item>
+    
+    <item>
+      <title>Install Steam on Debian/Ubuntu</title>
+      <link>https://timor.site/2014/04/install-steam-on-debian-ubuntu/</link>
+      <pubDate>Tue, 22 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/04/install-steam-on-debian-ubuntu/</guid>
+      <description>These are few steps to get Steam running on Ubuntu:
 wget -c media.steampowered.com/client/installer/steam.deb dpkg -i steam.deb apt-get install -f apt-get update Solutions for some issues Some time ago I needed 32 bit flash even on 64 bit system - I don&amp;rsquo;t need it currently but I&amp;rsquo;m living this as a tip.
-apt-get install adobe-flashplugin:i386 After Ubuntu upgrade I was unable to run Steam anymore - It shouted on me with strange &amp;ldquo;networking problem&amp;rdquo;.</description></item><item><title>Debian - Upgrade MySQL to MariaDB</title><link>https://timor.site/2014/01/debian-upgrade-mysql-to-mariadb/</link><pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/01/debian-upgrade-mysql-to-mariadb/</guid><description>After reading some good opinions about MariaDB I wanted to give it a try. Upgrade looks quite straight forward but I found some issues a little tricky.
+apt-get install adobe-flashplugin:i386 After Ubuntu upgrade I was unable to run Steam anymore - It shouted on me with strange &amp;ldquo;networking problem&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Debian - Upgrade MySQL to MariaDB</title>
+      <link>https://timor.site/2014/01/debian-upgrade-mysql-to-mariadb/</link>
+      <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/01/debian-upgrade-mysql-to-mariadb/</guid>
+      <description>After reading some good opinions about MariaDB I wanted to give it a try. Upgrade looks quite straight forward but I found some issues a little tricky.
 Installation Add repo and key:
 cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main deb-src http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main SRC (find more repositories here)
 Now install MariaDB:
-sudo apt-get update sudo apt-get install mariadb-server It could be better to install mariadb-server-5.5 and mariadb-client-5.5 package instead, because of this error.</description></item><item><title>GearmanManager: wygodne zarządzanie workerami</title><link>https://timor.site/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</link><pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</guid><description>Niedawno zainteresowałem się usługą Gearman i jedynej rzeczy której mi brakowało to jakiegoś łatwego mechanizmu zarządzającego workerami. Ale jak zwykle okazało się że inni mieli już ten problem i odpowiednie narzędzie istnieje - mowa o GearmanManagerze.
+sudo apt-get update sudo apt-get install mariadb-server It could be better to install mariadb-server-5.5 and mariadb-client-5.5 package instead, because of this error.</description>
+    </item>
+    
+    <item>
+      <title>GearmanManager: wygodne zarządzanie workerami</title>
+      <link>https://timor.site/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</guid>
+      <description>Niedawno zainteresowałem się usługą Gearman i jedynej rzeczy której mi brakowało to jakiegoś łatwego mechanizmu zarządzającego workerami. Ale jak zwykle okazało się że inni mieli już ten problem i odpowiednie narzędzie istnieje - mowa o GearmanManagerze.
 Instalacja GearmanManagera Aby zainstalować GeramanManagera na serwerze gdzie już mamy Gearmana trzeba wykonać kilka kroków (wcześniej powinniśmy też zainstalować moduł gearmana do php&amp;rsquo;a):
-apt-get install git -y git clone https://github.com/brianlmoon/GearmanManager.git cd GearmanManager/install chmod +x install.</description></item><item><title>Debian - zablokowanie aktualizacji pakietu</title><link>https://timor.site/2013/11/debian-zablokowanie-aktualizacji-pakietu/</link><pubDate>Tue, 05 Nov 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/11/debian-zablokowanie-aktualizacji-pakietu/</guid><description>W teorii nie powinno się blokować aktualizacji pakietów bo łatają dziury itd&amp;hellip;. Ale! Zdarzyły mi się ostatnio dwie sytuacje, które do tego mnie zmusiły:
-aktualizacja hudsona kończyła się błędem przy starcie usługi, aktualizacja domU Xen skończyła się problemem z kompatybilnością mechanizmu udev w systemie i jądrze (hypervisor miał starsze jądro niż spodziewało się DomU). W takich sytuacjach bardzo przydaje się możliwość zablokowania aktualizacji jednej &amp;ldquo;psującej&amp;rdquo; paczki na pewien okres czasu by nie opóźniać innych aktualizacji a sobie dać czas na rozpracowanie problemu.</description></item><item><title>Instalacja gearman-job-server 1.0.6 na Debianie Wheezy</title><link>https://timor.site/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/</link><pubDate>Tue, 29 Oct 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/</guid><description>Ostatnio trafiłem na ciekawą usługę, która pozwala oddelegować długo trwające zadania z usługi webowej. Mowa o Gearman&amp;rsquo;ie. Usługa jest o tyle ciekawa że nie narzuca ani języka dla klienta (większość popularnych ma gotowe biblioteki), ani język dla skryptów w tej usłudze nie jest narzucany. Można tę usługę wykorzystać jako most pomiędzy PHP a np. Javą/Pythonem lub do zlecenia zadań z serwera na Linux&amp;rsquo;ie do wykonania na serwerze Windowsowym (bo np. narzędzia dostępne są tylko dla Windowsa).</description></item><item><title>Debian - Instalacja Bittorrent Sync (btsync)</title><link>https://timor.site/2013/07/debian-instalacja-bittorrent-sync-btsync/</link><pubDate>Tue, 16 Jul 2013 00:00:00 +0000</pubDate><guid>https://timor.site/2013/07/debian-instalacja-bittorrent-sync-btsync/</guid><description>Bardzo spodobała mi się nowa aplikacja do zdalnej synchronizacji folderów z wykorzystaniem P2P. Ja wykorzystałem ją do automatycznych backupów archiwum zdjęć - zebrało mi się tego już prawie 130GB! Każde narzędzie, które chce np. je kompresować i raz na czas robić FULL backup jest skazane na porażkę - a fotek przybywa.
+apt-get install git -y git clone https://github.com/brianlmoon/GearmanManager.git cd GearmanManager/install chmod +x install.</description>
+    </item>
+    
+    <item>
+      <title>Debian - zablokowanie aktualizacji pakietu</title>
+      <link>https://timor.site/2013/11/debian-zablokowanie-aktualizacji-pakietu/</link>
+      <pubDate>Tue, 05 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/11/debian-zablokowanie-aktualizacji-pakietu/</guid>
+      <description>W teorii nie powinno się blokować aktualizacji pakietów bo łatają dziury itd&amp;hellip;. Ale! Zdarzyły mi się ostatnio dwie sytuacje, które do tego mnie zmusiły:
+ aktualizacja hudsona kończyła się błędem przy starcie usługi, aktualizacja domU Xen skończyła się problemem z kompatybilnością mechanizmu udev w systemie i jądrze (hypervisor miał starsze jądro niż spodziewało się DomU).  W takich sytuacjach bardzo przydaje się możliwość zablokowania aktualizacji jednej &amp;ldquo;psującej&amp;rdquo; paczki na pewien okres czasu by nie opóźniać innych aktualizacji a sobie dać czas na rozpracowanie problemu.</description>
+    </item>
+    
+    <item>
+      <title>Instalacja gearman-job-server 1.0.6 na Debianie Wheezy</title>
+      <link>https://timor.site/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/</link>
+      <pubDate>Tue, 29 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/</guid>
+      <description>Ostatnio trafiłem na ciekawą usługę, która pozwala oddelegować długo trwające zadania z usługi webowej. Mowa o Gearman&amp;rsquo;ie. Usługa jest o tyle ciekawa że nie narzuca ani języka dla klienta (większość popularnych ma gotowe biblioteki), ani język dla skryptów w tej usłudze nie jest narzucany. Można tę usługę wykorzystać jako most pomiędzy PHP a np. Javą/Pythonem lub do zlecenia zadań z serwera na Linux&amp;rsquo;ie do wykonania na serwerze Windowsowym (bo np. narzędzia dostępne są tylko dla Windowsa).</description>
+    </item>
+    
+    <item>
+      <title>Debian - Instalacja Bittorrent Sync (btsync)</title>
+      <link>https://timor.site/2013/07/debian-instalacja-bittorrent-sync-btsync/</link>
+      <pubDate>Tue, 16 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2013/07/debian-instalacja-bittorrent-sync-btsync/</guid>
+      <description>Bardzo spodobała mi się nowa aplikacja do zdalnej synchronizacji folderów z wykorzystaniem P2P. Ja wykorzystałem ją do automatycznych backupów archiwum zdjęć - zebrało mi się tego już prawie 130GB! Każde narzędzie, które chce np. je kompresować i raz na czas robić FULL backup jest skazane na porażkę - a fotek przybywa.
 Na początek pobieramy interesującą nas wersję:
 wget http://btsync.s3-website-us-east-1.amazonaws.com/btsync_i386.tar.gz wget http://btsync.s3-website-us-east-1.amazonaws.com/btsync_x64.tar.gz Oraz paczkę ze skryptami dla Debiana:
-wget http://www.yeasoft.com/downloads/various/btsync-linux-deploy.tar.gz Ja wyciągam z niej skrypt /etc/init.</description></item><item><title>Aktualizacja Debian Squeeze do Wheezy</title><link>https://timor.site/2012/09/aktualizacja-debian-squeeze-do-wheezy/</link><pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/aktualizacja-debian-squeeze-do-wheezy/</guid><description>Obecnie dostępna jest już beta 2 Debiana Wheezy i utrzymywane są aktualizacje bezpieczeństwa więc powolutku można na testowych maszynach sprawdzać co i jak się zmieniło.
+wget http://www.yeasoft.com/downloads/various/btsync-linux-deploy.tar.gz Ja wyciągam z niej skrypt /etc/init.</description>
+    </item>
+    
+    <item>
+      <title>Aktualizacja Debian Squeeze do Wheezy</title>
+      <link>https://timor.site/2012/09/aktualizacja-debian-squeeze-do-wheezy/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/aktualizacja-debian-squeeze-do-wheezy/</guid>
+      <description>Obecnie dostępna jest już beta 2 Debiana Wheezy i utrzymywane są aktualizacje bezpieczeństwa więc powolutku można na testowych maszynach sprawdzać co i jak się zmieniło.
 Ponieważ do finalnej wersji pewnie sporo się jeszcze zmieni to postaram się z czasem aktualizować ten post by zawierał bieżące informacje.
 W razie wątpliwości patrz tutaj: http://wiki.debian.org/DebianTesting
-Robimy backup Aktualizujemy źródła wskazywały na paczki gałęzi testing (poniższe polecenie nadpisze Twoje obecne repozytoria): cat &amp;gt; /etc/apt/sources.</description></item><item><title>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic</title><link>https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</link><pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</guid><description>Niedawno trafiłem na ciekawy problem w mod_rewrite - by przekierowywać użytkowników logujących się jednym z modułów mod_auth_basic do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej %{REMOTE_USER} - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w RewriteCond zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można RewriteCond&amp;rsquo;y połączyć wyrażeniami logicznymi typu AND/OR to nie ma możliwości porównania czy dopasowania z kolejnych RewriteCond&amp;rsquo;ów są identyczne.</description></item><item><title>Wymuszenie fsck po restarcie</title><link>https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/</link><pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/</guid><description>Jeżeli chcemy by po ponownym uruchomieniu w czasie startu zostały sprawdzone wszystkie dyski narzędziem to można to osiągnąć na dwa sposoby. Zawsze gdy tego potrzebuję zastanawiam się tylko jaki plik trzeba było utworzyć&amp;hellip; forcefsck, fsck, fsckforce&amp;hellip; więc notuję 😉
+ Robimy backup Aktualizujemy źródła wskazywały na paczki gałęzi testing (poniższe polecenie nadpisze Twoje obecne repozytoria):  cat &amp;gt; /etc/apt/sources.</description>
+    </item>
+    
+    <item>
+      <title>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic</title>
+      <link>https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</guid>
+      <description>Niedawno trafiłem na ciekawy problem w mod_rewrite - by przekierowywać użytkowników logujących się jednym z modułów mod_auth_basic do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej %{REMOTE_USER} - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w RewriteCond zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można RewriteCond&amp;rsquo;y połączyć wyrażeniami logicznymi typu AND/OR to nie ma możliwości porównania czy dopasowania z kolejnych RewriteCond&amp;rsquo;ów są identyczne.</description>
+    </item>
+    
+    <item>
+      <title>Wymuszenie fsck po restarcie</title>
+      <link>https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/</link>
+      <pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/</guid>
+      <description>Jeżeli chcemy by po ponownym uruchomieniu w czasie startu zostały sprawdzone wszystkie dyski narzędziem to można to osiągnąć na dwa sposoby. Zawsze gdy tego potrzebuję zastanawiam się tylko jaki plik trzeba było utworzyć&amp;hellip; forcefsck, fsck, fsckforce&amp;hellip; więc notuję 😉
 Utworzenie pliku /forcefsck Pierwsza metoda polega na utworzeniu pliku forcefsck w głównym katalog, robimy to poniższym poleceniem:
-sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F polecenia shutdown ale nie działa na wszystkich dystrybucjach (w takiej sytuacji patrz pierwsza metoda):</description></item><item><title>Xen - Konfiguracja interfejsu sieciowego Dom0 jako brdige’a dla VLAN’ów</title><link>https://timor.site/2012/06/xen-konfiguracja-interfejsu-sieciowego-dom0-jako-brdigea-dla-roznych-vlanow/</link><pubDate>Mon, 18 Jun 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/06/xen-konfiguracja-interfejsu-sieciowego-dom0-jako-brdigea-dla-roznych-vlanow/</guid><description>VLAN&amp;rsquo;y są prostą metodą na separację sieci. Gdy mamy wiele sieci może zajść potrzeba by poszczególne DomU miały dostęp do różnych VLAN&amp;rsquo;ów (czasem nawet wielu równocześnie). Jeżeli serwer z Dom0 posiada minimum giga-bitową kartę sieciową (a najlepiej kilka) to powinniśmy być w stanie z godziwą jakością udostępnić systemom DomU różne VLAN&amp;rsquo;y z interfejsów gospodarza.
+sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F polecenia shutdown ale nie działa na wszystkich dystrybucjach (w takiej sytuacji patrz pierwsza metoda):</description>
+    </item>
+    
+    <item>
+      <title>Xen - Konfiguracja interfejsu sieciowego Dom0 jako brdige’a dla VLAN’ów</title>
+      <link>https://timor.site/2012/06/xen-konfiguracja-interfejsu-sieciowego-dom0-jako-brdigea-dla-roznych-vlanow/</link>
+      <pubDate>Mon, 18 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/06/xen-konfiguracja-interfejsu-sieciowego-dom0-jako-brdigea-dla-roznych-vlanow/</guid>
+      <description>VLAN&amp;rsquo;y są prostą metodą na separację sieci. Gdy mamy wiele sieci może zajść potrzeba by poszczególne DomU miały dostęp do różnych VLAN&amp;rsquo;ów (czasem nawet wielu równocześnie). Jeżeli serwer z Dom0 posiada minimum giga-bitową kartę sieciową (a najlepiej kilka) to powinniśmy być w stanie z godziwą jakością udostępnić systemom DomU różne VLAN&amp;rsquo;y z interfejsów gospodarza.
 Zaprezentowane poniżej skrypty zapożyczyłem z tej strony: http://renial.net/weblog/2007/02/27/xen-vlan
 Na początek musimy zainstalować pakiet vlan:
-apt-get install vlan Później w pliku /etc/xen/xend-config.</description></item><item><title>CouchDB - Instalacja i wstępna konfiguracja</title><link>https://timor.site/2012/06/couchdb-instalacja-i-wstepna-konfiguracja/</link><pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/06/couchdb-instalacja-i-wstepna-konfiguracja/</guid><description>Gdy tworzymy pierwszą aplikację webową, która umożliwia upload plików przeważnie lądują one lokalnie w pewniej lokalizacji. Gdy druga aplikacja potrzebuje dostępu do tych plików wystarczy podać ścieżkę. Problemy zaczynają się gdy aplikacji jest kilka i rozmieszczonych na kilku serwerach. Można korzystać z sieciowych systemów plików ale to często nie jest zbyt wygodne - ciężko odpowiednio ustawić uprawnienia by pewne aplikacje miały dostęp do zapisu plików a inne nie, trzeba skonfigurować dany katalog w kilku miejscach w konfiguracji serwera WWW aby serwować pliki itp&amp;hellip;</description></item><item><title>Ponowne wygenerowanie kluczy serwera OpenSSH</title><link>https://timor.site/2012/02/ponowne-wygenerowanie-kluczy-serwera-openssh/</link><pubDate>Mon, 27 Feb 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/02/ponowne-wygenerowanie-kluczy-serwera-openssh/</guid><description>Czasami odpalam klona jakiegoś systemu by później po drobnych zmianach uczynić go osobnym bytem. Jednym z kroków po odtworzeniu systemu jest wygenerowanie nowego zestawu kluczy dla serwera OpenSSH (by mój klient ssh nie siał warning&amp;rsquo;ami). Można to wykonać tak:
+apt-get install vlan Później w pliku /etc/xen/xend-config.</description>
+    </item>
+    
+    <item>
+      <title>CouchDB - Instalacja i wstępna konfiguracja</title>
+      <link>https://timor.site/2012/06/couchdb-instalacja-i-wstepna-konfiguracja/</link>
+      <pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/06/couchdb-instalacja-i-wstepna-konfiguracja/</guid>
+      <description>Gdy tworzymy pierwszą aplikację webową, która umożliwia upload plików przeważnie lądują one lokalnie w pewniej lokalizacji. Gdy druga aplikacja potrzebuje dostępu do tych plików wystarczy podać ścieżkę. Problemy zaczynają się gdy aplikacji jest kilka i rozmieszczonych na kilku serwerach. Można korzystać z sieciowych systemów plików ale to często nie jest zbyt wygodne - ciężko odpowiednio ustawić uprawnienia by pewne aplikacje miały dostęp do zapisu plików a inne nie, trzeba skonfigurować dany katalog w kilku miejscach w konfiguracji serwera WWW aby serwować pliki itp&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Ponowne wygenerowanie kluczy serwera OpenSSH</title>
+      <link>https://timor.site/2012/02/ponowne-wygenerowanie-kluczy-serwera-openssh/</link>
+      <pubDate>Mon, 27 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/02/ponowne-wygenerowanie-kluczy-serwera-openssh/</guid>
+      <description>Czasami odpalam klona jakiegoś systemu by później po drobnych zmianach uczynić go osobnym bytem. Jednym z kroków po odtworzeniu systemu jest wygenerowanie nowego zestawu kluczy dla serwera OpenSSH (by mój klient ssh nie siał warning&amp;rsquo;ami). Można to wykonać tak:
 Najpierw kasujemy obecne klucze:
 rm /etc/ssh/ssh_host_* Teraz generujemy nowe:
-dpkg-reconfigure openssh-server I na koniec restartujemy usługę by załadować nowy zestaw kluczy (nie powinno to zerwać obecnej sesji, ale dla pewności lepiej zadanie odpalić w screen&amp;rsquo;ie):</description></item><item><title>Xen na Squeeze - Instalowanie i konfiguracja hostów gości (DomU)</title><link>https://timor.site/2012/02/xen-na-squeeze-instalowanie-i-konfiguracja-hostow-gosci-domu/</link><pubDate>Fri, 24 Feb 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/02/xen-na-squeeze-instalowanie-i-konfiguracja-hostow-gosci-domu/</guid><description>Ostatnio pisałem o konfiguracji Dom0 - dzisiaj napiszę o uruchamianiu DomU.
+dpkg-reconfigure openssh-server I na koniec restartujemy usługę by załadować nowy zestaw kluczy (nie powinno to zerwać obecnej sesji, ale dla pewności lepiej zadanie odpalić w screen&amp;rsquo;ie):</description>
+    </item>
+    
+    <item>
+      <title>Xen na Squeeze - Instalowanie i konfiguracja hostów gości (DomU)</title>
+      <link>https://timor.site/2012/02/xen-na-squeeze-instalowanie-i-konfiguracja-hostow-gosci-domu/</link>
+      <pubDate>Fri, 24 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/02/xen-na-squeeze-instalowanie-i-konfiguracja-hostow-gosci-domu/</guid>
+      <description>Ostatnio pisałem o konfiguracji Dom0 - dzisiaj napiszę o uruchamianiu DomU.
 Do instalacji DomU wykorzystuję skrypty z pakietu xen-tools, można go zainstalować poleceniem:
 apt-get install xen-tools Oczywiście aby wszystko działało fajnie musimy ustawić kilka domyślnych opcji, robimy to edytując plik /etc/xen-tools/xen-tools.conf. Lecimy po kolei:
-# Virtual machine disks are created as logical volumes in # volume group &amp;#39;universe&amp;#39; (hint: LVM storage is much faster # than file) lvm = universe Osobiście korzystam z LVM&amp;rsquo;a który zgodnie z hint&amp;rsquo;em jest znacznie szybszy od plików obrazów.</description></item><item><title>Xen na Squeeze - instalacja i konfiguracja hypervisor’a</title><link>https://timor.site/2012/02/xen-na-squeeze-instalacja-i-konfiguracja-hypervisora/</link><pubDate>Thu, 23 Feb 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/02/xen-na-squeeze-instalacja-i-konfiguracja-hypervisora/</guid><description>Po co mi to? Wiele razy miałem do czynienia z serwerami na których działało kilka/kilkanaście usług równocześnie, np. Apache (kilka stronek, webmail, phpmyadmin, itp), Postfix/Exim (poczta i żeby było fajnie to na kontach systemowych), Samba (jakieś zasoby dla pracowników), MySQL (baza dla stronek), PostgreSQL (bo jedna stronka potrzebowała), itd&amp;hellip;. Przy takiej konfiguracji pomijane są kwestie separacji usług zewnętrznych/wewnętrznych - no ale firma/instytucja mała nie ma sensu kasy na 3 kolejne serwery wydawać skoro działa&amp;hellip;.</description></item><item><title>Wstępne ładowanie programów przy starcie z ureadahead</title><link>https://timor.site/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</link><pubDate>Tue, 24 Jan 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</guid><description>Jakiś czas temu korzystałem z preload&amp;rsquo;a który sam uczył się jakie aplikacje odpalam i te programy ładował już podczas startu - przeważnie nieco spowalnia to start systemu ale gdy już się załaduje to programy, które uruchamiam jako pierwsze startują &amp;ldquo;z kopa&amp;rdquo;. Od jakiegoś czasu popularniejszy jest instalowany domyślnie w Ubuntu ureadahead - pełni on podobną funkcję jak preload.
-Można zmusić ureadahead do ponownego wygenerowania nowej listy programów wczytywanych przy starcie do cache a oto jak zrobić:</description></item><item><title>Apache mod_expires konfiguracja</title><link>https://timor.site/2012/01/apache-mod_expires-konfiguracja/</link><pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/01/apache-mod_expires-konfiguracja/</guid><description>Aby umożliwić odwiedzającym nasze strony cachowanie obrazków (tak by nie musieli pobierać ich każdorazowo bo przecież nie zmieniają się aż tak często) konieczne jest ustawienie nagłówków: Cache-Control, Expires dla odpowiednich typów plików. W Apachem jest do tego dedykowany moduł - mod_expires. W Debianie dostarczany jest on bez domyślnej globalnej konfiguracji - a ja lubię gdy cacheuje mi się większość statyki. Zawsze można dostosować czas cachowania pod siebie względem określonego typu pliku, np.</description></item><item><title>Upgrade Debian Lenny do Squeeze</title><link>https://timor.site/2012/01/upgrade-debian-lenny-do-squeeze/</link><pubDate>Fri, 13 Jan 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/01/upgrade-debian-lenny-do-squeeze/</guid><description>Co jakiś czas powtarza się sytuacja, gdy muszę zaktualizować jakiś serwerek z Lennym do Squeeze&amp;rsquo;a i za każdym razem muszę googlać za odpowiednimi źródłami, które paczki najpierw, etc&amp;hellip; Więc sobie zebrałem wszystko w poniższym poście.
+# Virtual machine disks are created as logical volumes in # volume group &amp;#39;universe&amp;#39; (hint: LVM storage is much faster # than file) lvm = universe Osobiście korzystam z LVM&amp;rsquo;a który zgodnie z hint&amp;rsquo;em jest znacznie szybszy od plików obrazów.</description>
+    </item>
+    
+    <item>
+      <title>Xen na Squeeze - instalacja i konfiguracja hypervisor’a</title>
+      <link>https://timor.site/2012/02/xen-na-squeeze-instalacja-i-konfiguracja-hypervisora/</link>
+      <pubDate>Thu, 23 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/02/xen-na-squeeze-instalacja-i-konfiguracja-hypervisora/</guid>
+      <description>Po co mi to? Wiele razy miałem do czynienia z serwerami na których działało kilka/kilkanaście usług równocześnie, np. Apache (kilka stronek, webmail, phpmyadmin, itp), Postfix/Exim (poczta i żeby było fajnie to na kontach systemowych), Samba (jakieś zasoby dla pracowników), MySQL (baza dla stronek), PostgreSQL (bo jedna stronka potrzebowała), itd&amp;hellip;. Przy takiej konfiguracji pomijane są kwestie separacji usług zewnętrznych/wewnętrznych - no ale firma/instytucja mała nie ma sensu kasy na 3 kolejne serwery wydawać skoro działa&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Wstępne ładowanie programów przy starcie z ureadahead</title>
+      <link>https://timor.site/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</link>
+      <pubDate>Tue, 24 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</guid>
+      <description>Jakiś czas temu korzystałem z preload&amp;rsquo;a który sam uczył się jakie aplikacje odpalam i te programy ładował już podczas startu - przeważnie nieco spowalnia to start systemu ale gdy już się załaduje to programy, które uruchamiam jako pierwsze startują &amp;ldquo;z kopa&amp;rdquo;. Od jakiegoś czasu popularniejszy jest instalowany domyślnie w Ubuntu ureadahead - pełni on podobną funkcję jak preload.
+Można zmusić ureadahead do ponownego wygenerowania nowej listy programów wczytywanych przy starcie do cache a oto jak zrobić:</description>
+    </item>
+    
+    <item>
+      <title>Apache mod_expires konfiguracja</title>
+      <link>https://timor.site/2012/01/apache-mod_expires-konfiguracja/</link>
+      <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/01/apache-mod_expires-konfiguracja/</guid>
+      <description>Aby umożliwić odwiedzającym nasze strony cachowanie obrazków (tak by nie musieli pobierać ich każdorazowo bo przecież nie zmieniają się aż tak często) konieczne jest ustawienie nagłówków: Cache-Control, Expires dla odpowiednich typów plików. W Apachem jest do tego dedykowany moduł - mod_expires. W Debianie dostarczany jest on bez domyślnej globalnej konfiguracji - a ja lubię gdy cacheuje mi się większość statyki. Zawsze można dostosować czas cachowania pod siebie względem określonego typu pliku, np.</description>
+    </item>
+    
+    <item>
+      <title>Upgrade Debian Lenny do Squeeze</title>
+      <link>https://timor.site/2012/01/upgrade-debian-lenny-do-squeeze/</link>
+      <pubDate>Fri, 13 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/01/upgrade-debian-lenny-do-squeeze/</guid>
+      <description>Co jakiś czas powtarza się sytuacja, gdy muszę zaktualizować jakiś serwerek z Lennym do Squeeze&amp;rsquo;a i za każdym razem muszę googlać za odpowiednimi źródłami, które paczki najpierw, etc&amp;hellip; Więc sobie zebrałem wszystko w poniższym poście.
 W razie wątpliwości patrz tutaj: http://www.debian.org/releases/squeeze/releasenotes
-Zrób backup konfiguracji.
-Trzeba zaktualizować źródła by wskazywały na squeeze&amp;rsquo;a (poniższe polecenie nadpisze Twoje obecne repozytoria):
-cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://ftp.pl.debian.org/debian/ squeeze main non-free contrib deb-src http://ftp.</description></item><item><title>fail2ban - regułki dla dovecot’a</title><link>https://timor.site/2011/11/fail2ban-regulki-dla-dovecota/</link><pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/11/fail2ban-regulki-dla-dovecota/</guid><description>Domyślna konfiguracja fail2ban&amp;rsquo;a (na Debianie) nie zawiera reguł pozwalających na blokowanie prób włamań na skrzynki POP/IMAP dla dovecota (no chyba że korzystamy z saslauthd). Można szybko utworzyć własny zestaw filtrów co przedstawię poniżej.
+  Zrób backup konfiguracji.
+  Trzeba zaktualizować źródła by wskazywały na squeeze&amp;rsquo;a (poniższe polecenie nadpisze Twoje obecne repozytoria):
+  cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://ftp.pl.debian.org/debian/ squeeze main non-free contrib deb-src http://ftp.</description>
+    </item>
+    
+    <item>
+      <title>fail2ban - regułki dla dovecot’a</title>
+      <link>https://timor.site/2011/11/fail2ban-regulki-dla-dovecota/</link>
+      <pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/11/fail2ban-regulki-dla-dovecota/</guid>
+      <description>Domyślna konfiguracja fail2ban&amp;rsquo;a (na Debianie) nie zawiera reguł pozwalających na blokowanie prób włamań na skrzynki POP/IMAP dla dovecota (no chyba że korzystamy z saslauthd). Można szybko utworzyć własny zestaw filtrów co przedstawię poniżej.
 Tworzymy plik: /etc/fail2ban/filter.d/dovecot.conf
 [Definition] failregex = (?: pop3-login|imap-login): .*(?:Authentication failure|Aborted login \(auth failed|Aborted login \(tried to use disabled|Disconnected \(auth failed|Aborted login \(\d+ authentication attempts).*rip=(?P&amp;lt;host&amp;gt;\S*),.* ignoreregex = Później dopisujemy na końcu pliku: /etc/fail2ban/jail.conf
-[dovecot] enabled = true filter = dovecot port = pop3,pop3s,imap,imaps logpath = /var/log/mail.</description></item><item><title>X-Forwarded-For + mod_rpaf - logowanie rzeczywistych adresów IP na Apache za reverse proxy</title><link>https://timor.site/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</link><pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</guid><description>Gdy już ustawimy reverse proxy przed Apache szybko można zauważyć że w logach zamiast adresów IP zdalnych użytkowników pojawia się tylko jeden adres: adres naszego proxy. Również z poziomu php&amp;rsquo;a jako adres klienta widać IP naszego proxy.
-By poradzić sobie z tym problemem trzeba na serwerze reverse proxy ustawić przekazywanie informacji o oryginalnym adresie IP klienta w nagłówku X-Forwarded-For. W przypadku gdy reverse proxy działa na nginx&amp;rsquo;e wystarczy dodać taki wpis:</description></item><item><title>Ochrona usług przed atakami brute force z fail2ban’em</title><link>https://timor.site/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</link><pubDate>Mon, 03 Oct 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</guid><description>Bardzo często konfigurując usługi dostępne publicznie poświęca się sporo czasu na maksymalne zwiększenie bezpieczeństwa przez &amp;ldquo;dopieszczanie&amp;rdquo; konfiguracji (certyfikaty z mocnym szyfrowaniem, ochronę pewnych stron hasłem, dostęp do SSH tylko kluczami, itd.) ale całkowicie pomija się przygotowanie systemu aktywnie monitorującego błędne próby autoryzacji. Oczywiście nie można umniejszać wagi pierwszego z wymienionych etapów ale zdecydowanie nie powinno pomijać się też tego drugiego. Przecież każdy admin chciałby wiedzieć gdy ktoś próbuje włamać się na jego serwer (FTP, HTTP, SSH, itp.</description></item><item><title>approx - cachujące proxy dla repozytoriów Debiana</title><link>https://timor.site/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</link><pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</guid><description>Wielu administratorów gdy zaczyna swoją przygodę zarządza jedną/dwoma maszynami&amp;hellip; Po pewnym czasie jest ich już kilka&amp;hellip; W którymś momencie dostrzega się zalety wirtualizacji i na kilku maszynach fizycznych działa kilkanaście czy kilkadziesiąt maszyn wirtualnych. W takiej sytuacji pobieranie aktualizacji dla wszystkich maszyn potrafi mocno zabić łącze.
-I w tym momencie zaczynamy się zastanawiać czy może nie warto byłoby zrobić własnego mirror&amp;rsquo;a paczek dla naszego ulubionego distro&amp;hellip; do prywatnego użytku&amp;hellip; synchronizowanego w nocy by nikomu nie przeszkadzać&amp;hellip; i dostępnego nawet gdy będziemy offline&amp;hellip; Zaczynamy liczyć miejsce i okazuje się że repozytorium Debiana dla architektury i386 to prawie 60GB (sic!</description></item><item><title>Zabezpieczenie Apachego na Debianie przed slowloris’em</title><link>https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</link><pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</guid><description>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.</description></item><item><title>Sprawdzenie który proces obciąża dyski</title><link>https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</link><pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid><description>Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.
-Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić 😃</description></item><item><title>Konfiguracja backportów na Debianie</title><link>https://timor.site/2011/08/konfiguracja-backportow-na-debianie/</link><pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/konfiguracja-backportow-na-debianie/</guid><description>Tak się składa, że Debian ze względu na stosunkowo rzadkie wydawanie kolejnych wersji szybko staje się niezbyt świeży a dostępne w nim pakiety często nie spełaniają naszych oczekiwań. Nie ma najnowszej wersji Subversion&amp;hellip; Nie ma mod_security itd, itp&amp;hellip;
-Rozwiązaniem tego problemu może być instalacja pakietów z testowej gałęzi ale można polec na zależnościach. Można też kompilować ze źródeł&amp;hellip; Tak czy siak w obu przypadkach aktualizacja i utrzymanie tak zmodyfikowanego systemu byłoby jak wrzód na zadku.</description></item><item><title>Optymalizacja PHP z eAccelerator’em</title><link>https://timor.site/2011/08/optymalizacja-php-z-eacceleratorem/</link><pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/optymalizacja-php-z-eacceleratorem/</guid><description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy 😃
+[dovecot] enabled = true filter = dovecot port = pop3,pop3s,imap,imaps logpath = /var/log/mail.</description>
+    </item>
+    
+    <item>
+      <title>X-Forwarded-For &#43; mod_rpaf - logowanie rzeczywistych adresów IP na Apache za reverse proxy</title>
+      <link>https://timor.site/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</link>
+      <pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</guid>
+      <description>Gdy już ustawimy reverse proxy przed Apache szybko można zauważyć że w logach zamiast adresów IP zdalnych użytkowników pojawia się tylko jeden adres: adres naszego proxy. Również z poziomu php&amp;rsquo;a jako adres klienta widać IP naszego proxy.
+By poradzić sobie z tym problemem trzeba na serwerze reverse proxy ustawić przekazywanie informacji o oryginalnym adresie IP klienta w nagłówku X-Forwarded-For. W przypadku gdy reverse proxy działa na nginx&amp;rsquo;e wystarczy dodać taki wpis:</description>
+    </item>
+    
+    <item>
+      <title>Ochrona usług przed atakami brute force z fail2ban’em</title>
+      <link>https://timor.site/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</link>
+      <pubDate>Mon, 03 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</guid>
+      <description>Bardzo często konfigurując usługi dostępne publicznie poświęca się sporo czasu na maksymalne zwiększenie bezpieczeństwa przez &amp;ldquo;dopieszczanie&amp;rdquo; konfiguracji (certyfikaty z mocnym szyfrowaniem, ochronę pewnych stron hasłem, dostęp do SSH tylko kluczami, itd.) ale całkowicie pomija się przygotowanie systemu aktywnie monitorującego błędne próby autoryzacji. Oczywiście nie można umniejszać wagi pierwszego z wymienionych etapów ale zdecydowanie nie powinno pomijać się też tego drugiego. Przecież każdy admin chciałby wiedzieć gdy ktoś próbuje włamać się na jego serwer (FTP, HTTP, SSH, itp.</description>
+    </item>
+    
+    <item>
+      <title>approx - cachujące proxy dla repozytoriów Debiana</title>
+      <link>https://timor.site/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</link>
+      <pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</guid>
+      <description>Wielu administratorów gdy zaczyna swoją przygodę zarządza jedną/dwoma maszynami&amp;hellip; Po pewnym czasie jest ich już kilka&amp;hellip; W którymś momencie dostrzega się zalety wirtualizacji i na kilku maszynach fizycznych działa kilkanaście czy kilkadziesiąt maszyn wirtualnych. W takiej sytuacji pobieranie aktualizacji dla wszystkich maszyn potrafi mocno zabić łącze.
+I w tym momencie zaczynamy się zastanawiać czy może nie warto byłoby zrobić własnego mirror&amp;rsquo;a paczek dla naszego ulubionego distro&amp;hellip; do prywatnego użytku&amp;hellip; synchronizowanego w nocy by nikomu nie przeszkadzać&amp;hellip; i dostępnego nawet gdy będziemy offline&amp;hellip; Zaczynamy liczyć miejsce i okazuje się że repozytorium Debiana dla architektury i386 to prawie 60GB (sic!</description>
+    </item>
+    
+    <item>
+      <title>Zabezpieczenie Apachego na Debianie przed slowloris’em</title>
+      <link>https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</link>
+      <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</guid>
+      <description>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.</description>
+    </item>
+    
+    <item>
+      <title>Sprawdzenie który proces obciąża dyski</title>
+      <link>https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</link>
+      <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid>
+      <description>Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.
+Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić 😃</description>
+    </item>
+    
+    <item>
+      <title>Konfiguracja backportów na Debianie</title>
+      <link>https://timor.site/2011/08/konfiguracja-backportow-na-debianie/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/konfiguracja-backportow-na-debianie/</guid>
+      <description>Tak się składa, że Debian ze względu na stosunkowo rzadkie wydawanie kolejnych wersji szybko staje się niezbyt świeży a dostępne w nim pakiety często nie spełaniają naszych oczekiwań. Nie ma najnowszej wersji Subversion&amp;hellip; Nie ma mod_security itd, itp&amp;hellip;
+Rozwiązaniem tego problemu może być instalacja pakietów z testowej gałęzi ale można polec na zależnościach. Można też kompilować ze źródeł&amp;hellip; Tak czy siak w obu przypadkach aktualizacja i utrzymanie tak zmodyfikowanego systemu byłoby jak wrzód na zadku.</description>
+    </item>
+    
+    <item>
+      <title>Optymalizacja PHP z eAccelerator’em</title>
+      <link>https://timor.site/2011/08/optymalizacja-php-z-eacceleratorem/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/optymalizacja-php-z-eacceleratorem/</guid>
+      <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy 😃
 Niestety nie ma go w repozytoriach Debiana, więc trzeba go sobie skompilować - cały proces jest dość prosty. Zaczynamy od pobrania najświeższej paczki, obecnie jest to wersja 0.9.5.3:
 Pobierz eAccelerator (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)
-Pobieramy i rozpakowujemy pliki:</description></item><item><title>Statystyki odwiedzin dla wielu serwisów z AWStats</title><link>https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</link><pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</guid><description>Co prawda na swojej stronie zrobiłem kilka podstawowych statystyk i coś tam sobie loguję do bazy danych, ale gdyby się chwilę zastanowić to przecież to samo robi serwer www - wrzuca do logów każde zapytanie HTTP, kod błędu, nazwę agenta, itd. Dublowanie tych danych nie jest najbardziej optymalne.
-Stąd też chwilę pogooglałem i znalazłem świetny Open Source&amp;rsquo;owy projekt: AWStats, który jest webowym analizatorem logów dla serwerów HTTP, FTP i SMTP.</description></item><item><title>Klastrowanie sesji PHP z memcached</title><link>https://timor.site/2011/08/klastrowanie-sesji-php-z-memcached/</link><pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/klastrowanie-sesji-php-z-memcached/</guid><description>Klastrowanie to może zbyt dumnie powiedziane. Rozwiązanie to wyszukałem gdy chcąc skonfigurować dwa serwery apache do współpracy na rzecz jednego serwisu okazało się, że sejse trzymane są tylko przez jeden serwer a drugi nic o nich nie wie. To oczywiście nie pozwalało na prawidłowe działanie jakiegokolwiek serwisu korzystającego z sesji.
-Pomysł jest taki, że zastępujemy domyśny mechanizm przechowywania sesji w plikach na dysku mechanizmem memcache. Ponieważ memcached działa jako usługa sieciowa, różne serwery mogą się odwoływać do puli memcached i odczytywać zapisane w niej dane.</description></item><item><title>MySQL - dostęp zdalny na szybko</title><link>https://timor.site/2011/08/mysql-na-szybko/</link><pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/mysql-na-szybko/</guid><description>Instalacja serwera MySQL na Debianie jest niezwykle prosta i sprowadza się do jednego polecenia:
+Pobieramy i rozpakowujemy pliki:</description>
+    </item>
+    
+    <item>
+      <title>Statystyki odwiedzin dla wielu serwisów z AWStats</title>
+      <link>https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</guid>
+      <description>Co prawda na swojej stronie zrobiłem kilka podstawowych statystyk i coś tam sobie loguję do bazy danych, ale gdyby się chwilę zastanowić to przecież to samo robi serwer www - wrzuca do logów każde zapytanie HTTP, kod błędu, nazwę agenta, itd. Dublowanie tych danych nie jest najbardziej optymalne.
+Stąd też chwilę pogooglałem i znalazłem świetny Open Source&amp;rsquo;owy projekt: AWStats, który jest webowym analizatorem logów dla serwerów HTTP, FTP i SMTP.</description>
+    </item>
+    
+    <item>
+      <title>Klastrowanie sesji PHP z memcached</title>
+      <link>https://timor.site/2011/08/klastrowanie-sesji-php-z-memcached/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/klastrowanie-sesji-php-z-memcached/</guid>
+      <description>Klastrowanie to może zbyt dumnie powiedziane. Rozwiązanie to wyszukałem gdy chcąc skonfigurować dwa serwery apache do współpracy na rzecz jednego serwisu okazało się, że sejse trzymane są tylko przez jeden serwer a drugi nic o nich nie wie. To oczywiście nie pozwalało na prawidłowe działanie jakiegokolwiek serwisu korzystającego z sesji.
+Pomysł jest taki, że zastępujemy domyśny mechanizm przechowywania sesji w plikach na dysku mechanizmem memcache. Ponieważ memcached działa jako usługa sieciowa, różne serwery mogą się odwoływać do puli memcached i odczytywać zapisane w niej dane.</description>
+    </item>
+    
+    <item>
+      <title>MySQL - dostęp zdalny na szybko</title>
+      <link>https://timor.site/2011/08/mysql-na-szybko/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/mysql-na-szybko/</guid>
+      <description>Instalacja serwera MySQL na Debianie jest niezwykle prosta i sprowadza się do jednego polecenia:
 sudo apt-get install mysql-server Polecenie to zainstaluje i uruchomi usługę serwerową MySQL. W czasie instalacji będziemy proszeni o podanie hasła dla root&amp;rsquo;a (które oczywiście dobrze jest zapamiętać bądź zapisać).
-Tak zainstalowana baza nasłuchuje na lokalnym porcie (localhost:3306) umożliwiająć dostęp wyłącznie root&amp;rsquo;owi. Jest to bardzo bezpieczna konfiguracja&amp;hellip; Ale jeśli nie mamy zamiaru na tej samej maszynie instalować oprogramowania zarządzającego to nie zawsze jest to wygodne, tym bardziej gdy przykładowo mamy działającego phpmyadmin&amp;rsquo;a na jakimś serwerze www.</description></item></channel></rss>
+Tak zainstalowana baza nasłuchuje na lokalnym porcie (localhost:3306) umożliwiająć dostęp wyłącznie root&amp;rsquo;owi. Jest to bardzo bezpieczna konfiguracja&amp;hellip; Ale jeśli nie mamy zamiaru na tej samej maszynie instalować oprogramowania zarządzającego to nie zawsze jest to wygodne, tym bardziej gdy przykładowo mamy działającego phpmyadmin&amp;rsquo;a na jakimś serwerze www.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,3 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SEO on timor's site</title><link>https://timor.site/tags/seo/</link><description>Recent content in SEO on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 27 Mar 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/seo/index.xml" rel="self" type="application/rss+xml"/><item><title>WordPress - add meta tags: author, description, keywords, etc</title><link>https://timor.site/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</link><pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</guid><description>After reading some SEO stuff I wanted to add some meta tags to my WordPress blog. I found this site: codex.wordpress.org/Meta_Tags_in_WordPress.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SEO on timor&#39;s site</title>
+    <link>https://timor.site/tags/seo/</link>
+    <description>Recent content in SEO on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Thu, 27 Mar 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordPress - add meta tags: author, description, keywords, etc</title>
+      <link>https://timor.site/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</link>
+      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</guid>
+      <description>After reading some SEO stuff I wanted to add some meta tags to my WordPress blog. I found this site: codex.wordpress.org/Meta_Tags_in_WordPress.
 So WordPress thinks that it&amp;rsquo;s not necessary to have this meta tags any more&amp;hellip; But I want it! 😃 Next funny thing is how they suggest to add meta tags: copy header.php - what about theme updates?
-I prefer to use functions.php file - just create it in your courrent theme directory with such content:</description></item></channel></rss>
+I prefer to use functions.php file - just create it in your courrent theme directory with such content:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,2 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>urxvt on timor's site</title><link>https://timor.site/tags/urxvt/</link><description>Recent content in urxvt on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 09 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/urxvt/index.xml" rel="self" type="application/rss+xml"/><item><title>unicode-rxvt - moje ustawienia</title><link>https://timor.site/2012/09/unicode-rxvt-moje-ustawienia/</link><pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/unicode-rxvt-moje-ustawienia/</guid><description>Wybór dobrego X-terminala to w życiu admina prawie jak wybór żony&amp;hellip; spędza się wspólnie dużo czasu i miło gdy estetycznie wygląda, robi to co chcemy, itd&amp;hellip; 😉
-Nie lubię gnome-terminal'a bo domyślnie binduje F10 co wnerwia mnie w midnight commanderze, stąd szukałem i szukałem i jak dotychczas najbardziej podpasował mi unicode-rxvt. Można uruchamiać go po prostu jako urxvt lub uruchomić demona urxvtd po zalogowaniu i potem odpalać tylko klienta urxvtc. Druga metoda skutkuje natychmiastowym startem terminala, wiec gdy podbinduję go sobie pod F12 mam terminal zawsze pod ręką w mniej niż sekundę.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>urxvt on timor&#39;s site</title>
+    <link>https://timor.site/tags/urxvt/</link>
+    <description>Recent content in urxvt on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Sun, 09 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/urxvt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>unicode-rxvt - moje ustawienia</title>
+      <link>https://timor.site/2012/09/unicode-rxvt-moje-ustawienia/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/unicode-rxvt-moje-ustawienia/</guid>
+      <description>Wybór dobrego X-terminala to w życiu admina prawie jak wybór żony&amp;hellip; spędza się wspólnie dużo czasu i miło gdy estetycznie wygląda, robi to co chcemy, itd&amp;hellip; 😉
+Nie lubię gnome-terminal&#39;a bo domyślnie binduje F10 co wnerwia mnie w midnight commanderze, stąd szukałem i szukałem i jak dotychczas najbardziej podpasował mi unicode-rxvt. Można uruchamiać go po prostu jako urxvt lub uruchomić demona urxvtd po zalogowaniu i potem odpalać tylko klienta urxvtc. Druga metoda skutkuje natychmiastowym startem terminala, wiec gdy podbinduję go sobie pod F12 mam terminal zawsze pod ręką w mniej niż sekundę.</description>
+    </item>
+    
+  </channel>
+</rss>

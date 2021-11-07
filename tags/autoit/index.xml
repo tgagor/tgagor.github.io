@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AutoIt on timor's site</title><link>https://timor.site/tags/autoit/</link><description>Recent content in AutoIt on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 22 Oct 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/autoit/index.xml" rel="self" type="application/rss+xml"/><item><title>Utrzymanie przy życiu sypiących się usług na serwerach Windows</title><link>https://timor.site/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/</link><pubDate>Mon, 22 Oct 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/</guid><description>Zdarzyło mi się kilka usług działających na serwerach Windows, które zwyczajnie sypały się i to tak brzydko że systemowe ustawienia by restartowały się po padzie nie wystarczały. Usługa działała np. 3 godziny by potem się położyć, albo nigdy nie wstawała po starcie systemu - po prostu jakaś masakra. Zgłoszenia do producenta często wyglądały tak że w jego testowym środowisku błędu nie udaje się powtórzyć (i nic dziwnego bo nie sądzę by z ich konfiguracji korzystali rzeczywiści użytkownicy).</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AutoIt on timor&#39;s site</title>
+    <link>https://timor.site/tags/autoit/</link>
+    <description>Recent content in AutoIt on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Mon, 22 Oct 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/autoit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Utrzymanie przy życiu sypiących się usług na serwerach Windows</title>
+      <link>https://timor.site/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/</link>
+      <pubDate>Mon, 22 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/</guid>
+      <description>Zdarzyło mi się kilka usług działających na serwerach Windows, które zwyczajnie sypały się i to tak brzydko że systemowe ustawienia by restartowały się po padzie nie wystarczały. Usługa działała np. 3 godziny by potem się położyć, albo nigdy nie wstawała po starcie systemu - po prostu jakaś masakra. Zgłoszenia do producenta często wyglądały tak że w jego testowym środowisku błędu nie udaje się powtórzyć (i nic dziwnego bo nie sądzę by z ich konfiguracji korzystali rzeczywiści użytkownicy).</description>
+    </item>
+    
+  </channel>
+</rss>

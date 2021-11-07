@@ -1,2 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rblcheck on timor's site</title><link>https://timor.site/tags/rblcheck/</link><description>Recent content in rblcheck on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 27 Aug 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/rblcheck/index.xml" rel="self" type="application/rss+xml"/><item><title>Dynamiczne IP i RBL’e</title><link>https://timor.site/2011/08/dynamiczne-ip-i-rble/</link><pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/08/dynamiczne-ip-i-rble/</guid><description>Mój serwer pocztowy działa od jakiegoś czasu na dynamicznym IP (dobre bo tanie&amp;hellip;) i przeważnie nie ma z tym problemów. Postarałem się jak mogłem ustawiając SPF&amp;rsquo;a i DomainKeys aby uwiarygodnić go u większych dostawców poczty.
-Niestety wszystko to diabli biorą w momencie gdy wygasa mi leasse DHCP i dostaję nowe IP po jakimś spamerze/zombiaku. Wisi takie w 2-3 większych RBL&amp;rsquo;ach i o dostarczaniu poczty można zapomnieć. Miło gdy jeszcze zdalny MTA zechce odesłać zwrotkę &amp;ldquo;zróbta coś bo wisisz w RBL&amp;rsquo;u takim a takim&amp;hellip;&amp;rdquo;, ale zdecydowania niefajnie gdy wysyłasz pocztę a ona od razu leci do /dev/null rblcheck Poszperałem trochę i znalazłem fajne narzędzie aka rblcheck, które sprawdza domyślnie kilka RBL&amp;rsquo;i.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>rblcheck on timor&#39;s site</title>
+    <link>https://timor.site/tags/rblcheck/</link>
+    <description>Recent content in rblcheck on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Sat, 27 Aug 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/rblcheck/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamiczne IP i RBL’e</title>
+      <link>https://timor.site/2011/08/dynamiczne-ip-i-rble/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/dynamiczne-ip-i-rble/</guid>
+      <description>Mój serwer pocztowy działa od jakiegoś czasu na dynamicznym IP (dobre bo tanie&amp;hellip;) i przeważnie nie ma z tym problemów. Postarałem się jak mogłem ustawiając SPF&amp;rsquo;a i DomainKeys aby uwiarygodnić go u większych dostawców poczty.
+Niestety wszystko to diabli biorą w momencie gdy wygasa mi leasse DHCP i dostaję nowe IP po jakimś spamerze/zombiaku. Wisi takie w 2-3 większych RBL&amp;rsquo;ach i o dostarczaniu poczty można zapomnieć. Miło gdy jeszcze zdalny MTA zechce odesłać zwrotkę &amp;ldquo;zróbta coś bo wisisz w RBL&amp;rsquo;u takim a takim&amp;hellip;&amp;rdquo;, ale zdecydowania niefajnie gdy wysyłasz pocztę a ona od razu leci do /dev/null rblcheck Poszperałem trochę i znalazłem fajne narzędzie aka rblcheck, które sprawdza domyślnie kilka RBL&amp;rsquo;i.</description>
+    </item>
+    
+  </channel>
+</rss>

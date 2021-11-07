@@ -1,2 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>IO Wait on timor's site</title><link>https://timor.site/tags/io-wait/</link><description>Recent content in IO Wait on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 02 Sep 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/io-wait/index.xml" rel="self" type="application/rss+xml"/><item><title>Sprawdzenie który proces obciąża dyski</title><link>https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</link><pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid><description>Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.
-Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić 😃</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>IO Wait on timor&#39;s site</title>
+    <link>https://timor.site/tags/io-wait/</link>
+    <description>Recent content in IO Wait on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Fri, 02 Sep 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/io-wait/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sprawdzenie który proces obciąża dyski</title>
+      <link>https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</link>
+      <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid>
+      <description>Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.
+Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić 😃</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,360 +1,221 @@
-<!doctype html><html lang=en dir=auto><head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content="Linux configuration, Automation, Security - Sysadmin/DevOps blog">
-<meta name=theme-color content="#c64858">
-<meta property="og:title" content="Posts • timor's site">
-<meta property="og:description" content="Linux configuration, Automation, Security - Sysadmin/DevOps blog">
-<meta property="og:url" content="https://timor.site/posts/">
-<meta property="og:site_name" content="timor's site">
-<meta property="og:type" content="website"><meta property="og:updated_time" content="2021-10-30T00:00:00Z"><meta name=twitter:card content="summary">
-<meta name=generator content="Hugo 0.88.1">
-<title>Posts • timor's site</title>
+<!doctype html><html lang=en dir=auto>
+<head><meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=robots content="index, follow">
+<title>Posts | timor's site</title>
+<meta name=keywords content>
+<meta name=description content="Posts - timor's site">
+<meta name=author content>
 <link rel=canonical href=https://timor.site/posts/>
-<link href=https://timor.site/posts/index.xml rel=alternate type=application/rss+xml title="timor's site">
-<link rel=icon href=/favicon.ico>
-<link rel=stylesheet href=/assets/css/main.ab98e12b.css><style>:root{--color-accent:#c64858}</style>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-88996819-1','auto'),ga('send','pageview'))</script>
-<script async src=https://www.google-analytics.com/analytics.js></script>
+<link crossorigin=anonymous href=/assets/css/stylesheet.min.a6564483631bceb126e1ccf965a2dc167df7b8a408d2785a0deaa63d62e29233.css integrity="sha256-plZEg2MbzrEm4cz5ZaLcFn33uKQI0nhaDeqmPWLikjM=" rel="preload stylesheet" as=style>
+<link rel=preload href=https://timor.site/favicon-36x36.png as=image>
+<link rel=icon href=https://timor.site/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=https://timor.site/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=https://timor.site/favicon-32x32.png>
+<link rel=apple-touch-icon href=https://timor.site/apple-touch-icon.png>
+<link rel=mask-icon href=https://timor.site/safari-pinned-tab.svg>
+<meta name=theme-color content="#2e2e33">
+<meta name=msapplication-TileColor content="#2e2e33">
+<meta name=generator content="Hugo 0.89.0">
+<link rel=alternate type=application/rss+xml href=https://timor.site/posts/index.xml>
+<noscript>
+<style>#theme-toggle,.top-link{display:none}</style>
+<style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
+</noscript>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-88996819-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="Posts">
+<meta property="og:description" content="Linux configuration, Automation, Security - Sysadmin/DevOps blog">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://timor.site/posts/">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Posts">
+<meta name=twitter:description content="Linux configuration, Automation, Security - Sysadmin/DevOps blog">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://timor.site/posts/"}]}</script>
 </head>
-<body class="section type-posts has-sidebar">
-<div class=site><div id=sidebar class=sidebar>
-<a class=screen-reader-text href=#main-menu>Skip to Main Menu</a>
-<div class=container><section class="widget widget-about sep-after">
-<header>
-<div class=logo>
-<a href=/>
-<img src=/favicon.ico>
-</a>
-</div>
-<h2 class="title site-title">
-<a href=/>
-timor's site
-</a>
-</h2>
-<div class=desc>
-Linux configuration, Automation, Security - Sysadmin/DevOps blog
-</div>
-</header>
-</section>
-<section class="widget widget-search sep-after">
-<header>
-<h4 class="title widget-title">Search</h4>
-</header>
-<form action=/search id=search-form class=search-form>
-<label>
-<span class=screen-reader-text>Search</span>
-<input id=search-term class=search-term type=search name=q placeholder=Search&mldr;>
-</label></form>
-</section>
-<section class="widget widget-sidebar_menu sep-after"><nav id=sidebar-menu class="menu sidebar-menu" aria-label="Sidebar Menu">
-<div class=container>
-<ul><li class=item>
-<a href=/></a></li><li class=item>
-<a href=/>Home</a></li><li class="item has-children">
-<a href=/categories/howto/>HOWTO</a><button class=sub-menu-toggler>
-<span class=screen-reader-text>expand sub menu</span>
-<span class=sign></span>
-</button>
-<ul class=sub-menu><li class=item>
-<a href=/categories/tip/>Tips</a></li></ul></li><li class=item>
-<a href=/categories/off-topic/>Off-topic</a></li><li class=item>
-<a href=/categories/gotowanie/>Gotowanie</a></li><li class=item>
-<a href=/about/>About</a></li></ul>
-</div>
-</nav>
-</section></div>
-<div class=sidebar-overlay></div>
-</div><div class=main><a class=screen-reader-text href=#content>Skip to Content</a>
-<button id=sidebar-toggler class=sidebar-toggler aria-controls=sidebar>
-<span class=screen-reader-text>Toggle Sidebar</span>
-<span class=open><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-</span>
-<span class=close><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-</span>
-</button><div class=header-widgets>
-<div class=container>
-<style>.widget-breadcrumbs li:after{content:'\2f '}</style>
-<section class="widget widget-breadcrumbs sep-after">
-<nav id=breadcrumbs>
-<ol><li><a href=/>Home</a></li><li><span>Posts</span></li></ol>
-</nav>
-</section></div>
-</div>
-<header id=header class="header site-header">
-<div class="container sep-after">
-<div class=header-info><p class="site-title title">timor's site</p><p class="desc site-desc">Linux configuration, Automation, Security - Sysadmin/DevOps blog</p>
-</div>
-</div>
-</header>
-<main id=content>
+<body class=list id=top>
+<script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
 <header class=header>
-<div class="container sep-after">
-<div class=header-info>
-<h1 class=title>Posts</h1>
-</div>
-</div>
-</header>
-<div class="container list-container">
-<ul class=list>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-09-25T00:00:00Z>2012-09-25</time>
+<nav class=nav>
+<div class=logo>
+<a href=https://timor.site/ accesskey=h title="timor's site (Alt + H)">
+<img src=https://timor.site/favicon-36x36.png alt=logo aria-label=logo height=36>timor's site</a>
+<span class=logo-switches>
+<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+</button>
 </span>
 </div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/>
-mod_rewrite - wymuszenie małych liter w adresie URL</a>
-</h3>
-</header>
+<ul id=menu>
+<li>
+<a href=https://timor.site/search/ title="Search (Alt + /)" accesskey=/>
+<span>Search</span>
+</a>
 </li>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-09-24T00:00:00Z>2012-09-24</time>
-</span>
-</div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/09/aktualizacja-debian-squeeze-do-wheezy/>
-Aktualizacja Debian Squeeze do Wheezy</a>
-</h3>
-</header>
+<li>
+<a href=https://timor.site/projects/ title=Projects>
+<span>Projects</span>
+</a>
 </li>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-09-20T00:00:00Z>2012-09-20</time>
-</span>
-</div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/09/gpo-windows-7-postep-przetwarzania-polityk-przy-starcie-systemu/>
-GPO: Windows 7 - postęp przetwarzania polityk przy starcie systemu</a>
-</h3>
-</header>
+<li>
+<a href=https://timor.site/archives/ title=Archive>
+<span>Archive</span>
+</a>
 </li>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-09-18T00:00:00Z>2012-09-18</time>
-</span>
-</div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/09/sprawdzanie-nieaktywnych-linkow-na-stronie/>
-Sprawdzanie nieaktywnych linków na stronie</a>
-</h3>
-</header>
+<li>
+<a href=https://timor.site/tags/ title=Tags>
+<span>Tags</span>
+</a>
 </li>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-09-11T00:00:00Z>2012-09-11</time>
-</span>
-</div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/09/generator-kodow-paskowych-dla-napedow-tasmowych-lto/>
-Generator kodów paskowych dla napędów taśmowych LTO</a>
-</h3>
-</header>
-</li>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-09-10T00:00:00Z>2012-09-10</time>
-</span>
-</div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/09/listowanie-zasobow-nfs/>
-Listowanie zasobów NFS</a>
-</h3>
-</header>
-</li>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-09-09T00:00:00Z>2012-09-09</time>
-</span>
-</div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/>
-Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic</a>
-</h3>
-</header>
-</li>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-09-09T00:00:00Z>2012-09-09</time>
-</span>
-</div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/09/unicode-rxvt-moje-ustawienia/>
-unicode-rxvt - moje ustawienia</a>
-</h3>
-</header>
-</li>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-09-08T00:00:00Z>2012-09-08</time>
-</span>
-</div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/09/wymuszenie-fsck-po-restarcie/>
-Wymuszenie fsck po restarcie</a>
-</h3>
-</header>
-</li>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-09-07T00:00:00Z>2012-09-07</time>
-</span>
-</div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/09/moje-ulubione-aplikacje-na-androida/>
-Moje ulubione aplikacje na Android’a</a>
-</h3>
-</header>
-</li>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-09-06T00:00:00Z>2012-09-06</time>
-</span>
-</div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/09/montowanie-partycji-z-obrazu-dysku/>
-Montowanie partycji z obrazu dysku</a>
-</h3>
-</header>
-</li>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-08-31T00:00:00Z>2012-08-31</time>
-</span>
-</div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/08/przeszukiwanie-plikow-danego-typu-pod-katem-tekstu/>
-Przeszukiwanie plików danego typu pod kątem tekstu</a>
-</h3>
-</header>
-</li>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-06-29T00:00:00Z>2012-06-29</time>
-</span>
-</div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/06/nginx-konfiguracja-pod-wordpressa/>
-Nginx - konfiguracja pod WordPress’a</a>
-</h3>
-</header>
-</li>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-06-19T00:00:00Z>2012-06-19</time>
-</span>
-</div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/06/xen-podstawowe-polecenia/>
-Xen - Podstawowe polecenia</a>
-</h3>
-</header>
-</li>
-<li class=item>
-<div class=meta>
-<span>
-<span class=screen-reader-text>Posted on </span>
-<time datetime=2012-06-18T00:00:00Z>2012-06-18</time>
-</span>
-</div>
-<header class=item-header>
-<h3 class=item-title>
-<a href=/2012/06/nginx-ustawienie-domyslnego-vhosta/>
-Nginx - ustawienie domyślnego vhosta</a>
-</h3>
-</header>
+<li>
+<a href=https://timor.site/about/ title=About>
+<span>About</span>
+</a>
 </li>
 </ul>
-<nav id=pagination>
-<div class=page-links>
-<a class="page-link prev" href=/posts/page/8/><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="20" y1="12" x2="4" y2="12"/><polyline points="10 18 4 12 10 6"/></svg>
-<span class=screen-reader-text>Previous page</span>
-</a>
-<a class=page-link href=/posts/>
-<span class=screen-reader-text>Page: </span>1</a>
-<span class="page-link dots">&mldr;</span>
-<a class=page-link href=/posts/page/8/>
-<span class=screen-reader-text>Page: </span>8</a>
-<span aria-current=page class="page-link current">
-<span class=screen-reader-text>Current page: </span>9</span>
-<a class=page-link href=/posts/page/10/>
-<span class=screen-reader-text>Page: </span>10</a>
-<span class="page-link dots">&mldr;</span>
-<a class=page-link href=/posts/page/13/>
-<span class=screen-reader-text>Page: </span>13</a>
-<a class="page-link next" href=/posts/page/10/>
-<span class=screen-reader-text>Next page</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="14 6 20 12 14 18"/></svg>
-</a>
-</div>
 </nav>
-</div>
-</main>
-<footer id=footer class=footer>
-<div class="container sep-before"><section class="widget widget-social_menu sep-after"><nav aria-label="Social Menu">
-<ul><li>
-<a href=https://github.com/tgagor target=_blank rel="noopener me">
-<span class=screen-reader-text>Open Github account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"/></svg>
-</a>
-</li><li>
-<a href=https://linkedin.com/in/tgagor target=_blank rel="noopener me">
-<span class=screen-reader-text>Open Linkedin account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-</a>
-</li><li>
-<a href=https://timor.site/index.xml target=_blank rel="noopener me">
-<span class=screen-reader-text>Open Rss account in new tab</span><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"><path d="M4 11a9 9 0 019 9"/><path d="M4 4a16 16 0 0116 16"/><circle cx="5" cy="19" r="1"/></svg>
-</a>
-</li></ul>
+</header>
+<main class=main>
+<header class=page-header><div class=breadcrumbs><a href=https://timor.site/>Home</a></div>
+<h1>Posts</h1>
+</header>
+<article class=post-entry>
+<header class=entry-header>
+<h2>GearmanManager: wygodne zarządzanie workerami
+</h2>
+</header>
+<section class=entry-content>
+<p>Niedawno zainteresowałem się usługą Gearman i jedynej rzeczy której mi brakowało to jakiegoś łatwego mechanizmu zarządzającego workerami. Ale jak zwykle okazało się że inni mieli już ten problem i odpowiednie narzędzie istnieje - mowa o GearmanManagerze.
+Instalacja GearmanManagera Aby zainstalować GeramanManagera na serwerze gdzie już mamy Gearmana trzeba wykonać kilka kroków (wcześniej powinniśmy też zainstalować moduł gearmana do php’a):
+apt-get install git -y git clone https://github.com/brianlmoon/GearmanManager.git cd GearmanManager/install chmod +x install....</p>
+</section>
+<footer class=entry-footer><span title="2013-11-13 00:00:00 +0000 UTC">2013-11-13</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to GearmanManager: wygodne zarządzanie workerami" href=https://timor.site/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Debian - zablokowanie aktualizacji pakietu
+</h2>
+</header>
+<section class=entry-content>
+<p>W teorii nie powinno się blokować aktualizacji pakietów bo łatają dziury itd…. Ale! Zdarzyły mi się ostatnio dwie sytuacje, które do tego mnie zmusiły:
+aktualizacja hudsona kończyła się błędem przy starcie usługi, aktualizacja domU Xen skończyła się problemem z kompatybilnością mechanizmu udev w systemie i jądrze (hypervisor miał starsze jądro niż spodziewało się DomU). W takich sytuacjach bardzo przydaje się możliwość zablokowania aktualizacji jednej “psującej” paczki na pewien okres czasu by nie opóźniać innych aktualizacji a sobie dać czas na rozpracowanie problemu....</p>
+</section>
+<footer class=entry-footer><span title="2013-11-05 00:00:00 +0000 UTC">2013-11-05</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Debian - zablokowanie aktualizacji pakietu" href=https://timor.site/2013/11/debian-zablokowanie-aktualizacji-pakietu/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Instalacja gearman-job-server 1.0.6 na Debianie Wheezy
+</h2>
+</header>
+<section class=entry-content>
+<p>Ostatnio trafiłem na ciekawą usługę, która pozwala oddelegować długo trwające zadania z usługi webowej. Mowa o Gearman’ie. Usługa jest o tyle ciekawa że nie narzuca ani języka dla klienta (większość popularnych ma gotowe biblioteki), ani język dla skryptów w tej usłudze nie jest narzucany. Można tę usługę wykorzystać jako most pomiędzy PHP a np. Javą/Pythonem lub do zlecenia zadań z serwera na Linux’ie do wykonania na serwerze Windowsowym (bo np. narzędzia dostępne są tylko dla Windowsa)....</p>
+</section>
+<footer class=entry-footer><span title="2013-10-29 00:00:00 +0000 UTC">2013-10-29</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Instalacja gearman-job-server 1.0.6 na Debianie Wheezy" href=https://timor.site/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Uruchamianie aplikacji .NET jako 32-bitowej w 64-bitowym systemie
+</h2>
+</header>
+<section class=entry-content>
+<p>Kolejna zabawna sytuacja - pewna aplikacja dotNET’owa działała dziwnie na 64-bitowym systemie, a tymczasem na 32-bitowej maszynie ta sama aplikacja działała bez problemów. Jedyna różnica to inne wersje klientów ODBC na tych systemach, które po kilku testach okazały się być przyczyną całego zła.
+Pojawił się pomysł by odpalić aplikacje na 64 bitowym systemie ale w trybie 32 bit - poniżej krótkie HOWTO jak to osiągnąć:
+potrzebujemy narzędzia corflags.exe które pozwoli oznaczyć nam binarkę jako 32-bitową, do pobrania tutaj a instrukcja jej użycia tutaj....</p>
+</section>
+<footer class=entry-footer><span title="2013-10-29 00:00:00 +0000 UTC">2013-10-29</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Uruchamianie aplikacji .NET jako 32-bitowej w 64-bitowym systemie" href=https://timor.site/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Certyfikaty nazwaSSL na własnym serwerze
+</h2>
+</header>
+<section class=entry-content>
+<p>Od jakiegoś czasu można kupić w NetArcie certyfikaty SSL, a niedawno zrobili na nie promocję - 15zł za pierwszy rok (za certyfikat na jedną stronkę). Tzw. tanie i dobre. Po wyrobieniu certyfikatu i zapisaniu z panelu klienta mam pliczki: stonka.crt i netart_rootca.crt, które wrzucamy do Apachego, powiedzmy tak:
+SSLCertificateFile /etc/ssl/certs/stonka.crt SSLCertificateKeyFile /etc/ssl/private/priv.key SSLCACertificateFile /etc/ssl/certs/netart_rootca.crt Certyfikat działa w Chromie ale nie weryfikuje się w Firefoxie i Internet Explorerze. FF wyświetla błąd: sec_error_unknown_issuer - co oznacza brak certyfikatu wystawcy gdzieś w łańcuchu certyfikatów....</p>
+</section>
+<footer class=entry-footer><span title="2013-10-22 00:00:00 +0000 UTC">2013-10-22</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Certyfikaty nazwaSSL na własnym serwerze" href=https://timor.site/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Postfix: ciekawy problem z smtpd_delay_reject i permit_sasl_authenticated
+</h2>
+</header>
+<section class=entry-content>
+<p>Trafił mi się ostatnio ciekawy problem - otóż standardowo przed końcem roku poprawiałem filtry antyspamowe i optymalizowałem konfigurację Postfix’a. Chciałem zmienić domyślną wartość smtpd_delay_reject=yes na smtpd_delay_reject=no by odrzucać spamerów najwcześniej jak to możliwe. I ciekawe kuku, które sobie zrobiłem polegało na tym że sam nie mogłem wysyłać poczty po logowaniu SSL’em…
+Dostawałem przy tym bardzo wymowną odpowiedź:
+Oct 8 16:30:39 tyr postfix/smtpd[21039]: NOQUEUE: reject: CONNECT from unknown[67.x.x.x]: 554 5.7.1 &lt;unknown [67....</p>
+</section>
+<footer class=entry-footer><span title="2013-10-08 00:00:00 +0000 UTC">2013-10-08</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Postfix: ciekawy problem z smtpd_delay_reject i permit_sasl_authenticated" href=https://timor.site/2013/10/postfix-ciekawy-problem-z-smtpd_delay_reject-i-permit_sasl_authenticated/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Instalacja Python’a na Windowsie
+</h2>
+</header>
+<section class=entry-content>
+<p>Pomimo że Python dużo częściej wykorzystywany jest w środowiskach UNIX’owcy/Linux’owych to znajdzie się kilka fajnych zastosowań dla tego języka na Windowsie. Możliwości na instalację jest kilka, a najprostsza to wykorzystanie instalatora ActiveState. Wersja ta ma w sobie wszystko co potrzebne:
+rozszerzenia dla API Windows menadżera pakietów PyPM dokumentację Niestety jakiś czas temu zmieniły się zasady licencjonowania w ActiveState i aktualne wersje dla zastosowań produkcyjnych wymagają zakupu licencji (1000$/rok - aż chce się zacytować z Dnia Świra: czizys k…wa…)....</p>
+</section>
+<footer class=entry-footer><span title="2013-09-25 00:00:00 +0000 UTC">2013-09-25</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Instalacja Python’a na Windowsie" href=https://timor.site/2013/09/instalacja-pythona-na-windowsie/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Sprawdzanie zainstalowanej wersji Django
+</h2>
+</header>
+<section class=entry-content>
+<p>Ten one liner załatwia sprawę:
+python -c 'import django; print ".".join([str(s) for s in django.VERSION]);' </p>
+</section>
+<footer class=entry-footer><span title="2013-09-16 00:00:00 +0000 UTC">2013-09-16</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Sprawdzanie zainstalowanej wersji Django" href=https://timor.site/2013/09/sprawdzanie-zainstalowanej-wersji-django/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Spammer screwed up
+</h2>
+</header>
+<section class=entry-content>
+<p>I’ve just received a comment on my blog with text attached below. It looks like spam message template. I think it could be easily used for creation of banning rules, etc. Use it in a way that will make this dumbass spammer look even more stupid ;-)
+{ {I have|I’ve} been {surfing|browsing} online more than {three|3|2|4} hours today, yet I never found any interesting article like yours. {It’s|It is} pretty worth enough for me....</p>
+</section>
+<footer class=entry-footer><span title="2013-09-15 00:00:00 +0000 UTC">2013-09-15</span>&nbsp;·&nbsp;15 min</footer>
+<a class=entry-link aria-label="post link to Spammer screwed up" href=https://timor.site/2013/09/spammer-screwed-up/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
+<h2>Raspberry Pi: pierwsze kroki
+</h2>
+</header>
+<section class=entry-content>
+<p>Wyprzeć się nie mogę że gadżety działające na Linuksie po prostu mnie kręcą, więc tylko kwestią czasu było aż Pi zawita na moim biurku. Zakupiłem więc model B w drugiej wersji, obudowę z możliwością mocowania VESA, kabelek HDMI, ładowarka z mojej myszy pasowała idealnie (5.05V i 1A) i na początek karta SD klasa 10 4GB.
+Szukając różnych systemów (a może ROM’ów) natrafiłem na oficjalną stronę: http://www.raspberrypi.org/downloads
+Na początek wystarczy a sprawdzając na stronach projektów okazało się że wersje na tej stronie są całkiem aktualne....</p>
+</section>
+<footer class=entry-footer><span title="2013-09-13 00:00:00 +0000 UTC">2013-09-13</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Raspberry Pi: pierwsze kroki" href=https://timor.site/2013/09/raspberry-pi-pierwsze-kroki/></a>
+</article>
+<footer class=page-footer>
+<nav class=pagination>
+<a class=prev href=https://timor.site/posts/page/8/>« Prev Page</a>
+<a class=next href=https://timor.site/posts/page/10/>Next Page »</a>
 </nav>
-</section><div class=copyright>
-<p> &copy; 2011-2021 TiMoR Licensed under <a rel=license href="https://creativecommons.org/licenses/by-sa/4.0?ref=chooser-v1" target=_blank rel="license noopener noreferrer" style=display:inline-block>CC BY-SA 4.0<img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style=height:22px!important;margin-left:3px;vertical-align:text-bottom src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
-</div>
-</div>
 </footer>
-</div>
-</div><script>window.__assets_js_src="/assets/js/"</script>
-<script src=/assets/js/main.c3bcf2df.js></script>
+</main>
+<footer class=footer>
+<span><span>© 2011 <a href=https://timor.site>timor&rsquo;s site</a></span> <span>Licensed under <a rel=license rel="noopener noreferrer" target=_blank href=http://creativecommons.org/licenses/by-sa/4.0/> (CC BY-SA 4.0)</a></span></span>
+<span>
+Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a>
+</span>
+</footer>
+<script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
+<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
 </body>
 </html>

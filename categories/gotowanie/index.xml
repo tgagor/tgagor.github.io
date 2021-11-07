@@ -1,3 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gotowanie on timor's site</title><link>https://timor.site/categories/gotowanie/</link><description>Recent content in Gotowanie on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 26 Feb 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/categories/gotowanie/index.xml" rel="self" type="application/rss+xml"/><item><title>Chrusty, faworki</title><link>https://timor.site/2014/02/chrusty-faworki/</link><pubDate>Wed, 26 Feb 2014 00:00:00 +0000</pubDate><guid>https://timor.site/2014/02/chrusty-faworki/</guid><description>To najlepszy przepis na chrusty jaki znam - wychodzą bardzo kruche i delikatne.
-Składniki 4 zółtka, 4 łyżki wina białego lub czerwonego, 4 łyżki mąki. Sposób przygotowania Wszystkie składniki wymieszać i wyrobić. Ciasto powinno być mniej wiecej takie jak na pierogi. Bić pałką/wałkiem, składać na pół i tak kilka razy przez ok 5 minut. Potem ciasto rozwałkować bardzo cieniutko i wykrawać chrusty, małe bo mocno rosną. Następnie wrzucać na rozgrzany olej/smalec.</description></item><item><title>Ciastka z kleiku ryżowego</title><link>https://timor.site/2012/11/ciastka-z-kleiku-ryzowego/</link><pubDate>Tue, 20 Nov 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/11/ciastka-z-kleiku-ryzowego/</guid><description>Składniki 1 paczka bezsmakowego kleiku ryżowego (190~170 g), 2 jajka, 1 kostka miękkiego masła (250 g), 1 płaska łyżeczka proszku do pieczenia, pół szklanki cukru, cukier waniliowy (16 g) (niekoniecznie), 8 czubatych łyżek wiórków kokosowych, dżem do wypełnienia ciastek (opcjonalnie - ja lubię je również bez dżemu). Sposób przygotowania Wszystkie składniki połączyć razem i wyrobić (najlepiej się ugniata ręką). Formować kulki wielkości małego orzecha włoskiego, układać na blaszce wyłożonej papierem do pieczenia w niewielkich odległościach (trochę urosną).</description></item><item><title>Ciasto z dynią</title><link>https://timor.site/2012/11/ciasto-z-dynia/</link><pubDate>Mon, 12 Nov 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/11/ciasto-z-dynia/</guid><description>Składniki 2 szklanki miąższu dyni (startego lub zmiksowanego), 2 szklanki mąki, 0,75 szklanki cukru, 3 jajka, 5 łyżeczek cynamonu, 16 g cukru wanilinowego, 0,75 szklanki oleju, łyżeczka sody oczyszczonej, garść orzechów włoskich. Sposób przygotowania Ubijamy białka z cukrem. Do ubitej piany dodajemy żółtka i kolejne składniki: mąkę, olej, cukier wanilinowy, sodę i cynamon. Całość miksujemy jeszcze przez chwilę, a następnie dodajemy posiekany lub starty i odsączony (można np. mocno ścisnąć w dłoniach) miąższ dyni oraz drobno pokrojone orzechy włoskie i jeszcze chwilę mieszamy.</description></item><item><title>Rolada kokosowo-czekoladowa na zimno</title><link>https://timor.site/2012/10/rolada-kokosowo-czekoladowa-na-zimno/</link><pubDate>Mon, 22 Oct 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/10/rolada-kokosowo-czekoladowa-na-zimno/</guid><description>Składniki 1 kostka masła, 1 żółtko, 6 łyżek cukru pudru, 1 szklanka mleka, 10 dkg wiórek kokosowych, 1 kieliszek wódki (ale z dwoma jest ostrzejsze), 3 łyżki kakao, 37 dkg herbatników kakaowych (doskonale spisują się dwie paczki maślanych herbatników kakaowych). Masa kakaowa Herbatniki dokładnie rozwałkować, dodać kakao i wymieszać. Zagotować pół szklanki mleka i gorącym zalać herbatniki. Całość wymieszać na jednolitą masę. W drugim pojemniku rozmiksować pół kostki masła i 3 łyżki cukru pudru - po chwili dodać żółtko i wódkę.</description></item><item><title>Kaczka pieczona z żurawiną i jabłkami</title><link>https://timor.site/2012/02/kaczka-pieczona-z-zurawina-i-jablkami/</link><pubDate>Thu, 23 Feb 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/02/kaczka-pieczona-z-zurawina-i-jablkami/</guid><description>Bardzo udany przepis - gdzieś musiałem go udokumentować by nie zginął :)
-Składniki 1 duża kaczka (2-2,5 kg) 4 ząbki czosnku 1 kg jabłek (w zależności od kaczki mogą wystarczyć 3 większe sztuki) sok z cytryny do skropienia jabłek 200 g suszonej żurawiny pół butelki czerwonego wytrawnego wina rozmaryn 4 łyżki miodu cynamon kardamon sól pieprz Sposób wykonania Kaczkę nacieramy solą, pieprzem, rozmarynem oraz roztartym czosnkiem i pozostawiamy na min.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gotowanie on timor&#39;s site</title>
+    <link>https://timor.site/categories/gotowanie/</link>
+    <description>Recent content in Gotowanie on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Wed, 26 Feb 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/categories/gotowanie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chrusty, faworki</title>
+      <link>https://timor.site/2014/02/chrusty-faworki/</link>
+      <pubDate>Wed, 26 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2014/02/chrusty-faworki/</guid>
+      <description>To najlepszy przepis na chrusty jaki znam - wychodzą bardzo kruche i delikatne.
+Składniki  4 zółtka, 4 łyżki wina białego lub czerwonego, 4 łyżki mąki.  Sposób przygotowania Wszystkie składniki wymieszać i wyrobić. Ciasto powinno być mniej wiecej takie jak na pierogi. Bić pałką/wałkiem, składać na pół i tak kilka razy przez ok 5 minut. Potem ciasto rozwałkować bardzo cieniutko i wykrawać chrusty, małe bo mocno rosną. Następnie wrzucać na rozgrzany olej/smalec.</description>
+    </item>
+    
+    <item>
+      <title>Ciastka z kleiku ryżowego</title>
+      <link>https://timor.site/2012/11/ciastka-z-kleiku-ryzowego/</link>
+      <pubDate>Tue, 20 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/11/ciastka-z-kleiku-ryzowego/</guid>
+      <description>Składniki  1 paczka bezsmakowego kleiku ryżowego (190~170 g), 2 jajka, 1 kostka miękkiego masła (250 g), 1 płaska łyżeczka proszku do pieczenia, pół szklanki cukru, cukier waniliowy (16 g) (niekoniecznie), 8 czubatych łyżek wiórków kokosowych, dżem do wypełnienia ciastek (opcjonalnie - ja lubię je również bez dżemu).  Sposób przygotowania Wszystkie składniki połączyć razem i wyrobić (najlepiej się ugniata ręką). Formować kulki wielkości małego orzecha włoskiego, układać na blaszce wyłożonej papierem do pieczenia w niewielkich odległościach (trochę urosną).</description>
+    </item>
+    
+    <item>
+      <title>Ciasto z dynią</title>
+      <link>https://timor.site/2012/11/ciasto-z-dynia/</link>
+      <pubDate>Mon, 12 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/11/ciasto-z-dynia/</guid>
+      <description>Składniki  2 szklanki miąższu dyni (startego lub zmiksowanego), 2 szklanki mąki, 0,75 szklanki cukru, 3 jajka, 5 łyżeczek cynamonu, 16 g cukru wanilinowego, 0,75 szklanki oleju, łyżeczka sody oczyszczonej, garść orzechów włoskich.  Sposób przygotowania Ubijamy białka z cukrem. Do ubitej piany dodajemy żółtka i kolejne składniki: mąkę, olej, cukier wanilinowy, sodę i cynamon. Całość miksujemy jeszcze przez chwilę, a następnie dodajemy posiekany lub starty i odsączony (można np. mocno ścisnąć w dłoniach) miąższ dyni oraz drobno pokrojone orzechy włoskie i jeszcze chwilę mieszamy.</description>
+    </item>
+    
+    <item>
+      <title>Rolada kokosowo-czekoladowa na zimno</title>
+      <link>https://timor.site/2012/10/rolada-kokosowo-czekoladowa-na-zimno/</link>
+      <pubDate>Mon, 22 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/10/rolada-kokosowo-czekoladowa-na-zimno/</guid>
+      <description>Składniki  1 kostka masła, 1 żółtko, 6 łyżek cukru pudru, 1 szklanka mleka, 10 dkg wiórek kokosowych, 1 kieliszek wódki (ale z dwoma jest ostrzejsze), 3 łyżki kakao, 37 dkg herbatników kakaowych (doskonale spisują się dwie paczki maślanych herbatników kakaowych).  Masa kakaowa Herbatniki dokładnie rozwałkować, dodać kakao i wymieszać. Zagotować pół szklanki mleka i gorącym zalać herbatniki. Całość wymieszać na jednolitą masę. W drugim pojemniku rozmiksować pół kostki masła i 3 łyżki cukru pudru - po chwili dodać żółtko i wódkę.</description>
+    </item>
+    
+    <item>
+      <title>Kaczka pieczona z żurawiną i jabłkami</title>
+      <link>https://timor.site/2012/02/kaczka-pieczona-z-zurawina-i-jablkami/</link>
+      <pubDate>Thu, 23 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/02/kaczka-pieczona-z-zurawina-i-jablkami/</guid>
+      <description>Bardzo udany przepis - gdzieś musiałem go udokumentować by nie zginął :)
+Składniki  1 duża kaczka (2-2,5 kg) 4 ząbki czosnku 1 kg jabłek (w zależności od kaczki mogą wystarczyć 3 większe sztuki) sok z cytryny do skropienia jabłek 200 g suszonej żurawiny pół butelki czerwonego wytrawnego wina rozmaryn 4 łyżki miodu cynamon kardamon sól pieprz  Sposób wykonania Kaczkę nacieramy solą, pieprzem, rozmarynem oraz roztartym czosnkiem i pozostawiamy na min.</description>
+    </item>
+    
+  </channel>
+</rss>

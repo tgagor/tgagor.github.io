@@ -1,2 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Zenbook on timor's site</title><link>https://timor.site/tags/zenbook/</link><description>Recent content in Zenbook on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 21 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/zenbook/index.xml" rel="self" type="application/rss+xml"/><item><title>Tweaking ASUS Zenbook UX305CA on Linux</title><link>https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</link><pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate><guid>https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</guid><description>Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &amp;lsquo;mobile&amp;rsquo; word. Then I saw ASUS Zenbook that I didn&amp;rsquo;t take into account before and it was exactly what I was searching for.
-Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Zenbook on timor&#39;s site</title>
+    <link>https://timor.site/tags/zenbook/</link>
+    <description>Recent content in Zenbook on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Thu, 21 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/zenbook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tweaking ASUS Zenbook UX305CA on Linux</title>
+      <link>https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</link>
+      <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</guid>
+      <description>Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &amp;lsquo;mobile&amp;rsquo; word. Then I saw ASUS Zenbook that I didn&amp;rsquo;t take into account before and it was exactly what I was searching for.
+Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed.</description>
+    </item>
+    
+  </channel>
+</rss>

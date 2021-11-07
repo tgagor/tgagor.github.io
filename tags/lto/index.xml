@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LTO on timor's site</title><link>https://timor.site/tags/lto/</link><description>Recent content in LTO on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 11 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/lto/index.xml" rel="self" type="application/rss+xml"/><item><title>Generator kodów paskowych dla napędów taśmowych LTO</title><link>https://timor.site/2012/09/generator-kodow-paskowych-dla-napedow-tasmowych-lto/</link><pubDate>Tue, 11 Sep 2012 00:00:00 +0000</pubDate><guid>https://timor.site/2012/09/generator-kodow-paskowych-dla-napedow-tasmowych-lto/</guid><description>Jeśli posiadasz napęd taśmowy LTO do archiwizacji/backupu danych to wiesz że bardzo ważne jest opisywanie taśm szczególnie gdy trzeba coś odzyskać. Jeżeli masz szczęście to posiadasz nie pojedynczy napęd a autoloader obsługujący wiele taśm i wiesz że najlepiej gdy taśmy są opisane kodami paskowymi które autoloader potrafi rozpoznać. Dzięki temu nie ma potrzeby odczytywania nr. seryjnego z taśmy tylko szybciutko skanerem kodów. Tasiemki można kupować już z kodami ale tańsze są te bez kodów&amp;hellip; i tu pytanie - czy da się tanio zdobyć etykiety?</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LTO on timor&#39;s site</title>
+    <link>https://timor.site/tags/lto/</link>
+    <description>Recent content in LTO on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Tue, 11 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/lto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generator kodów paskowych dla napędów taśmowych LTO</title>
+      <link>https://timor.site/2012/09/generator-kodow-paskowych-dla-napedow-tasmowych-lto/</link>
+      <pubDate>Tue, 11 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2012/09/generator-kodow-paskowych-dla-napedow-tasmowych-lto/</guid>
+      <description>Jeśli posiadasz napęd taśmowy LTO do archiwizacji/backupu danych to wiesz że bardzo ważne jest opisywanie taśm szczególnie gdy trzeba coś odzyskać. Jeżeli masz szczęście to posiadasz nie pojedynczy napęd a autoloader obsługujący wiele taśm i wiesz że najlepiej gdy taśmy są opisane kodami paskowymi które autoloader potrafi rozpoznać. Dzięki temu nie ma potrzeby odczytywania nr. seryjnego z taśmy tylko szybciutko skanerem kodów. Tasiemki można kupować już z kodami ale tańsze są te bez kodów&amp;hellip; i tu pytanie - czy da się tanio zdobyć etykiety?</description>
+    </item>
+    
+  </channel>
+</rss>

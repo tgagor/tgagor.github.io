@@ -1,2 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>proc on timor's site</title><link>https://timor.site/tags/proc/</link><description>Recent content in proc on timor's site</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 15 Sep 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/proc/index.xml" rel="self" type="application/rss+xml"/><item><title>Wymuszenie zwolnienia pamięci buforów dyskowych na Linux’ie</title><link>https://timor.site/2011/09/wymuszenie-zwolnienia-pamieci-buforow-dyskowych-na-linuxie/</link><pubDate>Thu, 15 Sep 2011 00:00:00 +0000</pubDate><guid>https://timor.site/2011/09/wymuszenie-zwolnienia-pamieci-buforow-dyskowych-na-linuxie/</guid><description>Linux bardzo agresywnie wykorzystuje wolną pamięć RAM do buforowania danych odczytywanych z dysków (inode&amp;rsquo;ów, plików, itd&amp;hellip;). Ma to niebagatelny wpływ na zwiększenie szybkości uruchamiania programów które już raz zostały uruchomione. Jednak nie zawsze jest to pożądane zachowanie, np. testując szybkość uruchomienia/wykonywania tworzonej przez nas aplikacji - buforowanie zmienia czas ładowania aplikacji przy kolejnych uruchomieniach. Dobrze byłoby móc wymusić zwolnienie buforów by każdy start programu miał porównywalne &amp;ldquo;warunki startowe&amp;rdquo;.
-Na szczęście można to zrobić w prosty sposób:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>proc on timor&#39;s site</title>
+    <link>https://timor.site/tags/proc/</link>
+    <description>Recent content in proc on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;span&gt;&amp;copy; 2011 &lt;a href=&#34;https://timor.site&#34;&gt;timor&#39;s site&lt;/a&gt;&lt;/span&gt; &lt;span&gt;Licensed under &lt;a rel=&#34;license&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt; (CC BY-SA 4.0)&lt;/a&gt;&lt;/span&gt;
+</copyright>
+    <lastBuildDate>Thu, 15 Sep 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/proc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wymuszenie zwolnienia pamięci buforów dyskowych na Linux’ie</title>
+      <link>https://timor.site/2011/09/wymuszenie-zwolnienia-pamieci-buforow-dyskowych-na-linuxie/</link>
+      <pubDate>Thu, 15 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/09/wymuszenie-zwolnienia-pamieci-buforow-dyskowych-na-linuxie/</guid>
+      <description>Linux bardzo agresywnie wykorzystuje wolną pamięć RAM do buforowania danych odczytywanych z dysków (inode&amp;rsquo;ów, plików, itd&amp;hellip;). Ma to niebagatelny wpływ na zwiększenie szybkości uruchamiania programów które już raz zostały uruchomione. Jednak nie zawsze jest to pożądane zachowanie, np. testując szybkość uruchomienia/wykonywania tworzonej przez nas aplikacji - buforowanie zmienia czas ładowania aplikacji przy kolejnych uruchomieniach. Dobrze byłoby móc wymusić zwolnienie buforów by każdy start programu miał porównywalne &amp;ldquo;warunki startowe&amp;rdquo;.
+Na szczęście można to zrobić w prosty sposób:</description>
+    </item>
+    
+  </channel>
+</rss>
