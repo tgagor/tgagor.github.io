@@ -120,8 +120,8 @@ Uninstall with dependencies brew uninstall FORMULA brew autoremove
 <section class=entry-content>
 <p>I wanted to share publicly some photos, but I performed them with navigation enabled so they contained accurate localization of my house. I wanted to remove EXIF data GPS tags, my phone type and other irrelevant stuff.
 TL;DR You will need imagemagick installed (use apt/yum/dnf of whatever you have there):
-sudo apt install -y imagemagick To remove them just use:
-mogrify -strip image.jpg How to check if it’s working? First, let’s get some example images 1....</p>
+Install imagemagick sudo apt install -y imagemagick
+To remove them just use: Strip EXIF data mogrify -strip image....</p>
 </section>
 <footer class=entry-footer><span title="2021-03-05 00:00:00 +0000 UTC">2021-03-05</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to How to remove geo-localization/EXIF data from photos" href=https://timor.site/2021/03/how-to-remove-geo-localization/exif-data-from-photos/></a>

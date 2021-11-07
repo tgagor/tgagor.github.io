@@ -39,8 +39,8 @@
       <guid>https://timor.site/2021/03/how-to-remove-geo-localization/exif-data-from-photos/</guid>
       <description>I wanted to share publicly some photos, but I performed them with navigation enabled so they contained accurate localization of my house. I wanted to remove EXIF data GPS tags, my phone type and other irrelevant stuff.
 TL;DR You will need imagemagick installed (use apt/yum/dnf of whatever you have there):
-sudo apt install -y imagemagick To remove them just use:
-mogrify -strip image.jpg How to check if it&amp;rsquo;s working? First, let&amp;rsquo;s get some example images 1.</description>
+    Install imagemagick  sudo apt install -y imagemagick   
+To remove them just use:     Strip EXIF data  mogrify -strip image.</description>
     </item>
     
     <item>
