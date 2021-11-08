@@ -9,11 +9,11 @@
 </copyright>
     <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/authors/timor/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Resize images on MacOS from command line</title>
-      <link>https://timor.site/2021/11/resize-images-on-macos-from-command-line/</link>
+      <title>Resize images from command line on MacOS</title>
+      <link>https://timor.site/2021/11/resize-images-from-command-line-on-macos/</link>
       <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2021/11/resize-images-on-macos-from-command-line/</guid>
+      <guid>https://timor.site/2021/11/resize-images-from-command-line-on-macos/</guid>
       <description>I was updating my blog and needed to generate few variants of images in different resolution. I found this handy tool 1:
     Resize single image  sips -Z 36 orig.png --out static/favicon36x36.png   
  -Z - maintain image aspect ratio 36 - maximum height and width  It can be also used for batch image processing:
