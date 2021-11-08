@@ -83,8 +83,8 @@
 </header>
 <section class=entry-content>
 <p>I had some passwords saved in remmina but like it always happen, I wasn’t been able to remember them when needed. Trying to restore them I found that they’re encrypted in .remmina directory.
-Then I used this script to the decrypt them:
-import base64 from Crypto.Cipher import DES3 secret = base64.decodestring("&lt;STRING FROM remmina.prefs>") password = base64.decodestring("&lt;STRING FROM XXXXXXX.remmina>") print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) Sources http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina</p>
+Then I used this script to the decrypt them 1:
+Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring("&lt;STRING FROM remmina.prefs>") password = base64.decodestring("&lt;STRING FROM XXXXXXX.remmina>") print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password)...</p>
 </section>
 <footer class=entry-footer><span title="2015-12-25 00:00:00 +0000 UTC">2015-12-25</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Extract password saved in remmina" href=https://timor.site/2015/12/extract-password-saved-in-remmina/></a>
