@@ -86,11 +86,11 @@ Install prerequisites:</description>
     </item>
     
     <item>
-      <title>Some usefull commands in Docker</title>
-      <link>https://timor.site/2016/02/some-usefull-commands-in-docker/</link>
+      <title>Some useful commands in Docker</title>
+      <link>https://timor.site/2016/02/some-useful-commands-in-docker/</link>
       <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2016/02/some-usefull-commands-in-docker/</guid>
+      <guid>https://timor.site/2016/02/some-useful-commands-in-docker/</guid>
       <description>I started playing with Docker and here I will write some commands that where not so obvious at beginning 😃
 List running containers:
 docker ps List also not running containers:
