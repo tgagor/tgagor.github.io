@@ -39,11 +39,11 @@ I don&amp;rsquo;t want to be totally sceptic, I would like to test it on my own 
     </item>
     
     <item>
-      <title>How old are Docker Official Images?</title>
-      <link>https://timor.site/2021/01/how-old-are-docker-official-images/</link>
+      <title>How old are Official Docker images?</title>
+      <link>https://timor.site/2021/01/how-old-are-official-docker-images/</link>
       <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2021/01/how-old-are-docker-official-images/</guid>
+      <guid>https://timor.site/2021/01/how-old-are-official-docker-images/</guid>
       <description>TL;DR
 CentOS base images sucks! They&amp;rsquo;re old, not updated for months!
  As a professional DevOps I concern about a lot of things&amp;hellip; but security is always close to the top of the list. With Docker build environments and deployments became much more stable, which often is a result of just being stale ;/
