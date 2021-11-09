@@ -77,6 +77,20 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Debian - Instalacja Bittorrent Sync (btsync)
+</h2>
+</header>
+<section class=entry-content>
+<p>Bardzo spodobała mi się nowa aplikacja do zdalnej synchronizacji folderów z wykorzystaniem P2P. Ja wykorzystałem ją do automatycznych backupów archiwum zdjęć - zebrało mi się tego już prawie 130GB! Każde narzędzie, które chce np. je kompresować i raz na czas robić FULL backup jest skazane na porażkę - a fotek przybywa.
+Na początek pobieramy interesującą nas wersję:
+wget http://btsync.s3-website-us-east-1.amazonaws.com/btsync_i386.tar.gz wget http://btsync.s3-website-us-east-1.amazonaws.com/btsync_x64.tar.gz Oraz paczkę ze skryptami dla Debiana:
+wget http://www.yeasoft.com/downloads/various/btsync-linux-deploy.tar.gz Ja wyciągam z niej skrypt /etc/init....</p>
+</section>
+<footer class=entry-footer><span title="2013-07-16 00:00:00 +0000 UTC">2013-07-16</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Debian - Instalacja Bittorrent Sync (btsync)" href=https://timor.site/2013/07/debian-instalacja-bittorrent-sync-btsync/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Tworzenie patch’y z poleceniami diff i patch
 </h2>
 </header>
@@ -184,19 +198,6 @@ A leci to mniej więcej tak:
 </section>
 <footer class=entry-footer><span title="2012-12-17 00:00:00 +0000 UTC">2012-12-17</span>&nbsp;·&nbsp;3 min</footer>
 <a class=entry-link aria-label="post link to Nginx - kompresowanie plików dla gzip_static" href=https://timor.site/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Apache: mod_authnz_ldap z Active Directory
-</h2>
-</header>
-<section class=entry-content>
-<p>Gdy już się dorobi systemu Active Directory wygodnie jest wykorzystać jego bazę użytkowników do autoryzacji w różnych miejscach, np. do pewnych “tajnych i tajniejszych” stron w Apache. Najprościej można to zrobić z wykorzystaniem LDAP.
-Warto sprawdzić czy i jak możemy dostać się do kontrolerów. Gdy już mamy wszystkie potrzebne parametry konfigurujemy Apachego - na początek aktywujemy moduły:
-a2enmod ldap a2enmod authnz_ldap Teraz możemy edytujemy globalny plik konfiguracyjny mod_ldap’a by ustawić nieco cache’y (bardzo przydatne)....</p>
-</section>
-<footer class=entry-footer><span title="2012-12-14 00:00:00 +0000 UTC">2012-12-14</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Apache: mod_authnz_ldap z Active Directory" href=https://timor.site/2012/12/apache-mod_authnz_ldap-z-active-directory/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

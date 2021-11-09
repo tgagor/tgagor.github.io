@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>logrotate: kompresja logów xz
+</h2>
+</header>
+<section class=entry-content>
+<p>Narzędzia xz-utils dostępne w nowszych systemach korzystają z mocniejszych algorytmów kompresji (jakaś odmiana LZMA, coś w stylu 7zip’a) przy zachowaniu kompatybilności składni poleceń z gzip’em/bzip’em - da się je zatem łatwo zintegrować w obecnych systemach. Ja chciałem wykorzystać xz do kompresji logów, które bywają przydatne ale przez większość czasy tylko zajmują miejsce :simple_smile:
+W /etc/logrotate.conf dopisujemy:
+compresscmd /usr/bin/xz uncompresscmd /usr/bin/unxz compressext .xz compressoptions -9T2 compressoptions można nie ustawiać bo domyślnie ma wartość -9 (czyli kompresuj na maxa), mój dodatek (czyli -T2) użyje dwóch wątków procesora gdy już ten mechanizm zostanie zimplementowany (bo na razie nie jest) :simple_smile:</p>
+</section>
+<footer class=entry-footer><span title="2013-07-29 00:00:00 +0000 UTC">2013-07-29</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to logrotate: kompresja logów xz" href=https://timor.site/2013/07/logrotate-kompresja-logow-xz/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Bezstratna konwersja MKV z DTS do AC3 lub AAC
 </h2>
 </header>
@@ -189,17 +202,6 @@ Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w g�
 </section>
 <footer class=entry-footer><span title="2012-11-07 00:00:00 +0000 UTC">2012-11-07</span>&nbsp;·&nbsp;15 min</footer>
 <a class=entry-link aria-label="post link to LVM na RAID5 i dysku z sektorami 4KB" href=https://timor.site/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04
-</h2>
-</header>
-<section class=entry-content>
-<p>Po każdej aktualizacji Ubuntu mam trochę zabawy by pozbierać do kupy skaner i drukarkę z mojego urządzenia wielofunkcyjnego Brother DCP-130C. Wybrałem je bo był to jedyny producent, który deklarował wsparcie dla Linux’a… choć z perspektywy czasu nie jestem pewien czy otrzymałem to czego się spodziewałem… Co prawda zamieszczają instrukcje i aktualizują drivery ale jeszcze ani raz nie zdarzyło mi się by po aktualizacji systemu postępowanie według tych instrukcji zadziałało bez dodatkowej pomocy....</p>
-</section>
-<footer class=entry-footer><span title="2012-11-04 00:00:00 +0000 UTC">2012-11-04</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04" href=https://timor.site/2012/11/instalacja-drukarki-i-skanera-brother-dcp-130c-na-ubuntu-12-04/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

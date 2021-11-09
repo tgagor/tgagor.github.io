@@ -78,6 +78,21 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Install WordPress from command-line
+</h2>
+</header>
+<section class=entry-content>
+<p>I never tried it before but today I needed to install WordPress… From command line only. And there is a way to do this with wp-cli.
+WP-CLI installation First some requirements (as root):
+apt-get install php5-cli php5-mysql mysql-client curl And now installation of wp-cli (as root too):
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar chmod +x wp-cli.phar mv wp-cli.phar /usr/local/bin/wp Check if it’s working:
+$ wp --version WP-CLI 0.22.0 WordPress installation Now you should switch to user of your web application, ex....</p>
+</section>
+<footer class=entry-footer><span title="2016-02-15 00:00:00 +0000 UTC">2016-02-15</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Install WordPress from command-line" href=https://timor.site/2016/02/install-wordpress-from-command-line/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Nagios - downtime on host/service from command line with curl
 </h2>
 </header>
@@ -187,17 +202,6 @@ ntp -q Sprawdziłem jak duży jest offset i jitter (powinny być bardzo małe):.
 </section>
 <footer class=entry-footer><span title="2013-03-31 00:00:00 +0000 UTC">2013-03-31</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Rozsynchronizowane serwery NTP" href=https://timor.site/2013/03/rozsynchronizowane-serwery-ntp/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Linux - naprawianie bad sectorów
-</h2>
-</header>
-<section class=entry-content>
-<p>Dyski się zużywają i w końcu wcześniej czy później pojawiają się na nich bad sectory. Jeden z moich dysków ciut się posypał a że służy wyłącznie do backupów to mogę z tym żyć. Ale z drugiej strony jeżeli już będę musiał sięgnąć do backupów to chcę mieć pewność że coś odzyskam, dlatego postanowiłem zrobić kilka testów. Nawet jeśli nie naprawi to sektorów to przynajmniej zostaną zaznaczone jako uszkodzone i realokowane....</p>
-</section>
-<footer class=entry-footer><span title="2012-12-27 00:00:00 +0000 UTC">2012-12-27</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Linux - naprawianie bad sectorów" href=https://timor.site/2012/12/linux-naprawianie-bad-sectorow/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

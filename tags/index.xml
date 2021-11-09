@@ -7,13 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>bash</title>
       <link>https://timor.site/tags/bash/</link>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://timor.site/tags/git/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://timor.site/tags/linux/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MacOS</title>
+      <link>https://timor.site/tags/macos/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/macos/</guid>
       <description></description>
     </item>
     
@@ -27,29 +54,11 @@
     </item>
     
     <item>
-      <title>MacOS</title>
-      <link>https://timor.site/tags/macos/</link>
-      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/macos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>brew</title>
       <link>https://timor.site/tags/brew/</link>
       <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/brew/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://timor.site/tags/linux/</link>
-      <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/linux/</guid>
       <description></description>
     </item>
     

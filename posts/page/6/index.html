@@ -79,6 +79,19 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Rebuild yum/rpm database
+</h2>
+</header>
+<section class=entry-content>
+<p>When I was trying to update packages on one host I’ve stuck with yum hung on update. I run strace and see:
+strace -p 43734 Process 43734 attached - interrupt to quit futex(0x807c938, FUTEX_WAIT, 1, NULL &lt;unfinished ...> Process 43734 detached It looks like yum database was corrupted, to repair this run:
+rm -f /var/lib/rpm/__db* rpm --rebuilddb yum clean all yum update Instead rm on db-files you could use gzip to have backup of these files....</p>
+</section>
+<footer class=entry-footer><span title="2014-04-04 00:00:00 +0000 UTC">2014-04-04</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Rebuild yum/rpm database" href=https://timor.site/2014/04/rebuild-yum-rpm-database/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Nagios - run checks as root with NRPE
 </h2>
 </header>
@@ -200,21 +213,6 @@ After googling for some time I found one command that solved my problems by swit
 </section>
 <footer class=entry-footer><span title="2014-01-24 00:00:00 +0000 UTC">2014-01-24</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Change default WSUS port from 8530 to 80 on Windows Server 2012" href=https://timor.site/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Debian - Upgrade MySQL to MariaDB
-</h2>
-</header>
-<section class=entry-content>
-<p>After reading some good opinions about MariaDB I wanted to give it a try. Upgrade looks quite straight forward but I found some issues a little tricky.
-Installation Add repo and key:
-cat > /etc/apt/sources.list &lt;&lt;SRC deb http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main deb-src http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main SRC (find more repositories here)
-Now install MariaDB:
-sudo apt-get update sudo apt-get install mariadb-server It could be better to install mariadb-server-5.5 and mariadb-client-5.5 package instead, because of this error....</p>
-</section>
-<footer class=entry-footer><span title="2014-01-24 00:00:00 +0000 UTC">2014-01-24</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Debian - Upgrade MySQL to MariaDB" href=https://timor.site/2014/01/debian-upgrade-mysql-to-mariadb/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

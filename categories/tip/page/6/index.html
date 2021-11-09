@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Kill with SIGSTOP and SIGCONT
+</h2>
+</header>
+<section class=entry-content>
+<p>I’ve bought a NAS and customized it a little. But there was one thing which make my nights sleepless. NAS was seeking disks every 5~10 seconds - these was really irritating - especially when it was silent in room. I found that part of firmware was indexing or logging something so I wanted it dead! kill -9 was unsuccessful - process restarted after a while…. wrrr…
+I googled a little and found another signal I could use SIGSTOP, which will freeze process until I send SIGCONT to it - that was exactly what I need (because I normally use NFS/Samba and don’t need nothing more running on this device)....</p>
+</section>
+<footer class=entry-footer><span title="2013-11-21 00:00:00 +0000 UTC">2013-11-21</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Kill with SIGSTOP and SIGCONT" href=https://timor.site/2013/11/kill-with-sigstop-and-sigcont/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>My new toy - Iomega StorCenter ix2-200 Cloud Edition
 </h2>
 </header>
@@ -185,19 +197,6 @@ dfsrdiag ReplicationState /member:nazwaservera Polecenie co prawda nie podaje po
 </section>
 <footer class=entry-footer><span title="2013-09-04 00:00:00 +0000 UTC">2013-09-04</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to DFS - sprawdzanie statusu replikacji" href=https://timor.site/2013/09/dfs-sprawdzanie-statusu-replikacji/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>logrotate: kompresja logów xz
-</h2>
-</header>
-<section class=entry-content>
-<p>Narzędzia xz-utils dostępne w nowszych systemach korzystają z mocniejszych algorytmów kompresji (jakaś odmiana LZMA, coś w stylu 7zip’a) przy zachowaniu kompatybilności składni poleceń z gzip’em/bzip’em - da się je zatem łatwo zintegrować w obecnych systemach. Ja chciałem wykorzystać xz do kompresji logów, które bywają przydatne ale przez większość czasy tylko zajmują miejsce :simple_smile:
-W /etc/logrotate.conf dopisujemy:
-compresscmd /usr/bin/xz uncompresscmd /usr/bin/unxz compressext .xz compressoptions -9T2 compressoptions można nie ustawiać bo domyślnie ma wartość -9 (czyli kompresuj na maxa), mój dodatek (czyli -T2) użyje dwóch wątków procesora gdy już ten mechanizm zostanie zimplementowany (bo na razie nie jest) :simple_smile:</p>
-</section>
-<footer class=entry-footer><span title="2013-07-29 00:00:00 +0000 UTC">2013-07-29</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to logrotate: kompresja logów xz" href=https://timor.site/2013/07/logrotate-kompresja-logow-xz/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

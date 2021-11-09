@@ -79,6 +79,19 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Optimize Nginx for performance
+</h2>
+</header>
+<section class=entry-content>
+<p>There are many possible real life cases and not all optimization technics will be suitable for you but I hope it will be a good starting place.
+Also you shouldn’t copy paste examples with faith that they will make your server fly 😃 You have to support your decisions with excessive tests and help of monitoring system (ex. Grafana).
+Cache static and dynamic content Setting caching static and dynamic content strategy may offload your server from additional load from repetitive downloads of same, rarely updated files....</p>
+</section>
+<footer class=entry-footer><span title="2016-01-14 00:00:00 +0000 UTC">2016-01-14</span>&nbsp;·&nbsp;6 min</footer>
+<a class=entry-link aria-label="post link to Optimize Nginx for performance" href=https://timor.site/2016/01/optimize-nginx-for-performance/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>XenServer - export VM to file
 </h2>
 </header>
@@ -191,18 +204,6 @@ But with it I had one problem - in playbooks I define hosts as groups of severs 
 </section>
 <footer class=entry-footer><span title="2015-12-29 00:00:00 +0000 UTC">2015-12-29</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Apache - Force caching dynamic PHP content with mod_headers" href=https://timor.site/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>MySQL - reset root password
-</h2>
-</header>
-<section class=entry-content>
-<p>It will happen from time to time, that you’re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn’t be used in app 😃 ) but will work for any user.
-shutdown db service mysql stop create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt SET PASSWORD FOR "root"@"localhost" = PASSWORD("HereYourNewPassword"); start mysqld with --init-file param mysqld_safe --init-file=/tmp/pwchange....</p>
-</section>
-<footer class=entry-footer><span title="2015-12-28 00:00:00 +0000 UTC">2015-12-28</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to MySQL - reset root password" href=https://timor.site/2015/12/mysql-reset-root-password/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

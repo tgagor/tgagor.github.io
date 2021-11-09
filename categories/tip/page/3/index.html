@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu
+</h2>
+</header>
+<section class=entry-content>
+<p>From few days I have access to UPC’s www.horizon.tv platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it’s working pretty well - you’re just few commands away from achieving that:
+# stop browser killall firefox # remove old version if you have it sudo apt-get remove pipelight Now configure repos and install packages:
+sudo apt-add-repository ppa:pipelight/stable sudo apt-get update sudo apt-get install --install-recommends pipelight-multi sudo pipelight-plugin --update Enable plugin (run it with sudo for system wide installation):...</p>
+</section>
+<footer class=entry-footer><span title="2016-02-09 00:00:00 +0000 UTC">2016-02-09</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu" href=https://timor.site/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Zeitgeist activity.sqlite-wal getting huge
 </h2>
 </header>
@@ -191,19 +204,6 @@ http://superuser.com/questions/578321/how-to-flip-a-video-180°-vertical-upside-
 </section>
 <footer class=entry-footer><span title="2015-12-28 00:00:00 +0000 UTC">2015-12-28</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Rotate movies" href=https://timor.site/2015/12/rotate-movies/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Extract password saved in remmina
-</h2>
-</header>
-<section class=entry-content>
-<p>I had some passwords saved in remmina but like it always happen, I wasn’t been able to remember them when needed. Trying to restore them I found that they’re encrypted in .remmina directory.
-Then I used this script to the decrypt them 1:
-Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring("&lt;STRING FROM remmina.prefs>") password = base64.decodestring("&lt;STRING FROM XXXXXXX.remmina>") print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password)...</p>
-</section>
-<footer class=entry-footer><span title="2015-12-25 00:00:00 +0000 UTC">2015-12-25</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Extract password saved in remmina" href=https://timor.site/2015/12/extract-password-saved-in-remmina/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

@@ -78,6 +78,20 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Comparing two lists in bash
+</h2>
+</header>
+<section class=entry-content>
+<p>I had quite simple task - compare two lists of hosts and check if hosts from first one are also on the second one. I started with diff:
+diff -u biglist.txt hosts_to_check.txt | grep -E "^\+" It was fine but output needs some filtering to get what I want.
+I’ve found another example with grep:
+grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n This will search for all lines in hosts_to_check....</p>
+</section>
+<footer class=entry-footer><span title="2014-02-18 00:00:00 +0000 UTC">2014-02-18</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Comparing two lists in bash" href=https://timor.site/2014/02/comparing-two-lists-in-bash/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Debian - Upgrade MySQL to MariaDB
 </h2>
 </header>
@@ -191,18 +205,6 @@ What I do:...</p>
 </section>
 <footer class=entry-footer><span title="2013-12-11 00:00:00 +0000 UTC">2013-12-11</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Ansible - Dynamicaly update /etc/hosts files on target servers" href=https://timor.site/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Inodes on XFS
-</h2>
-</header>
-<section class=entry-content>
-<p>It’s quite rare to have problems with XFS and inodes exhaustion. Mostly because XFS doesn’t have inode limit in a manner known from other filesystems - it’s using some percentage of whole filesystem as a limit and in most distributions it’s 25%. So it’s really huge amount of inodes. But some tools and distributions lowered limit ex. 5% or 10% and there you could have problems more often.
-You could check what is you limit by issuing xfs_info with drive and searching for imaxpct value:...</p>
-</section>
-<footer class=entry-footer><span title="2013-11-27 00:00:00 +0000 UTC">2013-11-27</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Inodes on XFS" href=https://timor.site/2013/11/inodes-on-xfs/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Extract password saved in remmina
+</h2>
+</header>
+<section class=entry-content>
+<p>I had some passwords saved in remmina but like it always happen, I wasn’t been able to remember them when needed. Trying to restore them I found that they’re encrypted in .remmina directory.
+Then I used this script to the decrypt them 1:
+Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring("&lt;STRING FROM remmina.prefs>") password = base64.decodestring("&lt;STRING FROM XXXXXXX.remmina>") print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password)...</p>
+</section>
+<footer class=entry-footer><span title="2015-12-25 00:00:00 +0000 UTC">2015-12-25</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Extract password saved in remmina" href=https://timor.site/2015/12/extract-password-saved-in-remmina/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Apache AuthBasic but excluding IP
 </h2>
 </header>
@@ -197,20 +210,6 @@ http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansibl
 </section>
 <footer class=entry-footer><span title="2014-03-04 00:00:00 +0000 UTC">2014-03-04</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Ansible - ssh pipelining" href=https://timor.site/2014/03/ansible-ssh-pipelining/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Comparing two lists in bash
-</h2>
-</header>
-<section class=entry-content>
-<p>I had quite simple task - compare two lists of hosts and check if hosts from first one are also on the second one. I started with diff:
-diff -u biglist.txt hosts_to_check.txt | grep -E "^\+" It was fine but output needs some filtering to get what I want.
-I’ve found another example with grep:
-grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n This will search for all lines in hosts_to_check....</p>
-</section>
-<footer class=entry-footer><span title="2014-02-18 00:00:00 +0000 UTC">2014-02-18</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Comparing two lists in bash" href=https://timor.site/2014/02/comparing-two-lists-in-bash/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

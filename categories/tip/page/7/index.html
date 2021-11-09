@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>logrotate: kompresja logów xz
+</h2>
+</header>
+<section class=entry-content>
+<p>Narzędzia xz-utils dostępne w nowszych systemach korzystają z mocniejszych algorytmów kompresji (jakaś odmiana LZMA, coś w stylu 7zip’a) przy zachowaniu kompatybilności składni poleceń z gzip’em/bzip’em - da się je zatem łatwo zintegrować w obecnych systemach. Ja chciałem wykorzystać xz do kompresji logów, które bywają przydatne ale przez większość czasy tylko zajmują miejsce :simple_smile:
+W /etc/logrotate.conf dopisujemy:
+compresscmd /usr/bin/xz uncompresscmd /usr/bin/unxz compressext .xz compressoptions -9T2 compressoptions można nie ustawiać bo domyślnie ma wartość -9 (czyli kompresuj na maxa), mój dodatek (czyli -T2) użyje dwóch wątków procesora gdy już ten mechanizm zostanie zimplementowany (bo na razie nie jest) :simple_smile:</p>
+</section>
+<footer class=entry-footer><span title="2013-07-29 00:00:00 +0000 UTC">2013-07-29</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to logrotate: kompresja logów xz" href=https://timor.site/2013/07/logrotate-kompresja-logow-xz/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Bezstratna konwersja MKV z DTS do AC3 lub AAC
 </h2>
 </header>
@@ -190,19 +203,6 @@ Na szczęście googiel podpowiedział mi doskonałego gotowca, którego zamierza
 </section>
 <footer class=entry-footer><span title="2012-12-10 00:00:00 +0000 UTC">2012-12-10</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Python - wysyłanie maili w unicode" href=https://timor.site/2012/12/python-wysylanie-maili-w-unicode/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>ldapsearch w Active Directory
-</h2>
-</header>
-<section class=entry-content>
-<p>Można lubieć AD, można go nie lubieć… Ale jak już się ma to warto czasem zintegrować go z tym… i tamtym… Od strony Linuksa najwygodniej można to osiągnąć przez LDAP. A żeby to dobrze zrobić trzeba najpierw przetestować czy aby wszystko działa jak byśmy sobie tego życzyli. I tutaj bardzo przydatne jest narzędzie ldapsearch.
-Do odpytywania LDAP’a potrzebujemy jeden pakiecik, który zawiera kilka narzędzi do jego obsługi:
-apt-get install ldap-utils Teraz możemy próbować przeszukiwać katalog np....</p>
-</section>
-<footer class=entry-footer><span title="2012-12-05 00:00:00 +0000 UTC">2012-12-05</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to ldapsearch w Active Directory" href=https://timor.site/2012/12/ldapsearch-w-active-directory/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
