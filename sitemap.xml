@@ -3,15 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://timor.site/authors/</loc>
-    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/backup/</loc>
+    <lastmod>2021-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/categories/</loc>
+    <lastmod>2021-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/categories/howto/</loc>
+    <lastmod>2021-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/linux/</loc>
+    <lastmod>2021-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/posts/</loc>
+    <lastmod>2021-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/2021/11/shucking-wd-elements-14tb/</loc>
+    <lastmod>2021-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/</loc>
+    <lastmod>2021-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/authors/timor/</loc>
+    <lastmod>2021-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/</loc>
+    <lastmod>2021-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/zfs/</loc>
+    <lastmod>2021-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</loc>
     <lastmod>2021-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/bash/</loc>
-    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/categories/</loc>
     <lastmod>2021-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/git/</loc>
@@ -20,22 +47,7 @@
     <loc>https://timor.site/tags/jira/</loc>
     <lastmod>2021-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://timor.site/tags/linux/</loc>
-    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://timor.site/tags/macos/</loc>
-    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/posts/</loc>
-    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/</loc>
-    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/authors/timor/</loc>
-    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/</loc>
     <lastmod>2021-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/categories/tip/</loc>
@@ -92,9 +104,6 @@
     <loc>https://timor.site/categories/off-topic/</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://timor.site/categories/howto/</loc>
-    <lastmod>2020-01-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://timor.site/2020/01/moving-from-linux-to-macos-first-steps/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -109,9 +118,6 @@
   </url><url>
     <loc>https://timor.site/tags/python/</loc>
     <lastmod>2016-04-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/backup/</loc>
-    <lastmod>2016-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/2016/04/daily-mysql-backups-with-xtrabackup/</loc>
     <lastmod>2016-04-23T00:00:00+00:00</lastmod>

@@ -78,6 +78,20 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>XenServer - export VM to file
+</h2>
+</header>
+<section class=entry-content>
+<p>Sometime you need to make quick and dirty image backup of VM running on XenServer and this post is about such case 😃
+List machines:
+xl list Name ID Mem VCPUs State Time(s) Domain-0 0 4066 8 r----- 3526567.3 webfront1.example.com 1 4096 4 r----- 3186487.2 webfront2.example.com 2 2048 2 -b---- 920408.2 Now you may export one:
+xe vm-export vm=webfront1.example.com filename=/srv/backup/webfront.xva Export succeeded You may also use uuid for that - list machines with xe vm-list (best with less) and then:...</p>
+</section>
+<footer class=entry-footer><span title="2016-01-12 00:00:00 +0000 UTC">2016-01-12</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to XenServer - export VM to file" href=https://timor.site/2016/01/xenserver-export-vm-to-file/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Nagios - downtime on host/service from command line with curl
 </h2>
 </header>
@@ -188,20 +202,6 @@ shutdown db service mysql stop create text file with command like this (update u
 </section>
 <footer class=entry-footer><span title="2015-12-28 00:00:00 +0000 UTC">2015-12-28</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to MySQL - reset root password" href=https://timor.site/2015/12/mysql-reset-root-password/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Rotate movies
-</h2>
-</header>
-<section class=entry-content>
-<p>I hate movies recorded on phone in vertical position. This just short tip how I dealt with with it last time:
-for m in *.mp4 do avconv -i $m -vf "transpose=1" -codec:a copy -codec:v libx264 -preset slow -crf 23 rotated-$m done Other examples:
-http://stackoverflow.com/questions/3937387/rotating-videos-with-ffmpeg
-http://superuser.com/questions/578321/how-to-flip-a-video-180°-vertical-upside-down-with-ffmpeg</p>
-</section>
-<footer class=entry-footer><span title="2015-12-28 00:00:00 +0000 UTC">2015-12-28</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Rotate movies" href=https://timor.site/2015/12/rotate-movies/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

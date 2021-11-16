@@ -78,6 +78,21 @@
 </header>
 <article class="post-entry tag-entry">
 <figure class=entry-cover>
+<img loading=lazy srcset="https://timor.site/2021/11/shucking-wd-elements-14tb/cover_hu0281ddf3b79f9d9b18f1061e6b91a9d6_34402_360x0_resize_q75_h2_box_2.webp 360w ,https://timor.site/2021/11/shucking-wd-elements-14tb/cover_hu0281ddf3b79f9d9b18f1061e6b91a9d6_34402_480x0_resize_q75_h2_box_2.webp 480w ,https://timor.site/2021/11/shucking-wd-elements-14tb/cover_hu0281ddf3b79f9d9b18f1061e6b91a9d6_34402_720x0_resize_q75_h2_box_2.webp 720w ,https://timor.site/2021/11/shucking-wd-elements-14tb/cover_hu0281ddf3b79f9d9b18f1061e6b91a9d6_34402_1080x0_resize_q75_h2_box_2.webp 1080w ,https://timor.site/2021/11/shucking-wd-elements-14tb/cover_hu0281ddf3b79f9d9b18f1061e6b91a9d6_34402_1500x0_resize_q75_h2_box_2.webp 1500w ,https://timor.site/2021/11/shucking-wd-elements-14tb/cover.webp 1500w" sizes="(min-width: 768px) 720px, 100vw" src=https://timor.site/2021/11/shucking-wd-elements-14tb/cover.webp alt width=1500 height=625>
+</figure>
+<header class=entry-header>
+<h2>Shucking WD Elements 14TB
+</h2>
+</header>
+<section class=entry-content>
+<p>I used to have RAID (or at least some variation of it) for my main storage. For redundancy, in case of disk failure. I started with some crazy LVM mirrors done on two disks of different size. Sync job was starting on every boot 😄
+Then came time for RAID5 on mdadm + LVM for volume management. It was working nice until the moment when disks became bigger. Long array rebuilds or checks, required my PC to stay turned on overnight just to validate if stuff works still....</p>
+</section>
+<footer class=entry-footer><span title="2021-11-12 00:00:00 +0000 UTC">2021-11-12</span>&nbsp;·&nbsp;6 min</footer>
+<a class=entry-link aria-label="post link to Shucking WD Elements 14TB" href=https://timor.site/2021/11/shucking-wd-elements-14tb/></a>
+</article>
+<article class="post-entry tag-entry">
+<figure class=entry-cover>
 <img loading=lazy srcset="https://timor.site/2020/01/moving-from-linux-to-macos-first-steps/cover_hu28b905d8ab67c25c4d948eb1fa0d33eb_22584_360x0_resize_q75_h2_box_2.webp 360w ,https://timor.site/2020/01/moving-from-linux-to-macos-first-steps/cover_hu28b905d8ab67c25c4d948eb1fa0d33eb_22584_480x0_resize_q75_h2_box_2.webp 480w ,https://timor.site/2020/01/moving-from-linux-to-macos-first-steps/cover_hu28b905d8ab67c25c4d948eb1fa0d33eb_22584_720x0_resize_q75_h2_box_2.webp 720w ,https://timor.site/2020/01/moving-from-linux-to-macos-first-steps/cover.webp 720w" sizes="(min-width: 768px) 720px, 100vw" src=https://timor.site/2020/01/moving-from-linux-to-macos-first-steps/cover.webp alt="[Photo by Paul IJsendoorn from Pexels](https://www.pexels.com/photo/antelope-canyon-33041/)" width=720 height=300>
 </figure>
 <header class=entry-header>
@@ -188,20 +203,6 @@ curl -O https://raw.githubusercontent.com/soulseekah/hyperdb-mysqli/master/db.ph
 </section>
 <footer class=entry-footer><span title="2016-02-24 00:00:00 +0000 UTC">2016-02-24</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to WordPress with HyperDB on PHP 7.0" href=https://timor.site/2016/02/wordpress-with-hyperdb-on-php-7-0/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Automatically build after file change
-</h2>
-</header>
-<section class=entry-content>
-<p>I’m playing a lot with Docker lately. Building images, and then rebuilding, and then building again… It’s pretty boring. To automate this task a little I used inotify to build automatically after I changed any file. This trick could be used in many different situations.
-You will need inotify-tools package:
-sudo apt-get install -y inotify-tools Then run something like this:
-while inotifywait -e modify -r .; do docker-compose build; done This commands will rebuild my Docker images after any file change in current directory....</p>
-</section>
-<footer class=entry-footer><span title="2016-02-23 00:00:00 +0000 UTC">2016-02-23</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Automatically build after file change" href=https://timor.site/2016/02/automatically-build-after-file-change/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

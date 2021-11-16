@@ -77,6 +77,17 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Nautilus - ukrywanie lost+found
+</h2>
+</header>
+<section class=entry-content>
+<p>Lubię mieć porządek w folderach i jedna rzecz, która nie daje mi spokoju w systemach plików ext to widoczność folderu lost+found - niby można go skasować i powinien się odtworzyć (choć podobno odtworzenie w czasie fsck’a może spowodować utratę danych - trochę to dziwne i nie znalazłem źródła no ale powiedzmy że nie chcę go usuwać). Chciałem go ukryć (choćby w Nautilusie) by mnie nie drażnił. Oczywiście opcja z “.” na początku odpada, ale na szczęście Nautilus wykorzystuje pewien hack, który umożliwia ukrycie dowolnego pliku/folderu....</p>
+</section>
+<footer class=entry-footer><span title="2012-10-30 00:00:00 +0000 UTC">2012-10-30</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Nautilus - ukrywanie lost+found" href=https://timor.site/2012/10/nautilus-ukrywanie-lostfound/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Rolada kokosowo-czekoladowa na zimno
 </h2>
 </header>
@@ -183,17 +194,6 @@ mount 192.168.1.10:/mnt/pools/A/A0/Music /mnt/music </p>
 </section>
 <footer class=entry-footer><span title="2012-09-10 00:00:00 +0000 UTC">2012-09-10</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Listowanie zasobów NFS" href=https://timor.site/2012/09/listowanie-zasobow-nfs/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic
-</h2>
-</header>
-<section class=entry-content>
-<p>Niedawno trafiłem na ciekawy problem w mod_rewrite - by przekierowywać użytkowników logujących się jednym z modułów mod_auth_basic do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej %{REMOTE_USER} - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w RewriteCond zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można RewriteCond’y połączyć wyrażeniami logicznymi typu AND/OR to nie ma możliwości porównania czy dopasowania z kolejnych RewriteCond’ów są identyczne....</p>
-</section>
-<footer class=entry-footer><span title="2012-09-09 00:00:00 +0000 UTC">2012-09-09</span>&nbsp;·&nbsp;3 min</footer>
-<a class=entry-link aria-label="post link to Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic" href=https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

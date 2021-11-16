@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HOWTO</title>
+      <link>https://timor.site/categories/howto/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/categories/howto/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Tip</title>
       <link>https://timor.site/categories/tip/</link>
@@ -23,15 +32,6 @@
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/categories/off-topic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HOWTO</title>
-      <link>https://timor.site/categories/howto/</link>
-      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/categories/howto/</guid>
       <description></description>
     </item>
     

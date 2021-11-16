@@ -78,6 +78,20 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Xen na Squeeze - Instalowanie i konfiguracja hostów gości (DomU)
+</h2>
+</header>
+<section class=entry-content>
+<p>Ostatnio pisałem o konfiguracji Dom0 - dzisiaj napiszę o uruchamianiu DomU.
+Do instalacji DomU wykorzystuję skrypty z pakietu xen-tools, można go zainstalować poleceniem:
+apt-get install xen-tools Oczywiście aby wszystko działało fajnie musimy ustawić kilka domyślnych opcji, robimy to edytując plik /etc/xen-tools/xen-tools.conf. Lecimy po kolei:
+# Virtual machine disks are created as logical volumes in # volume group 'universe' (hint: LVM storage is much faster # than file) lvm = universe Osobiście korzystam z LVM’a który zgodnie z hint’em jest znacznie szybszy od plików obrazów....</p>
+</section>
+<footer class=entry-footer><span title="2012-02-24 00:00:00 +0000 UTC">2012-02-24</span>&nbsp;·&nbsp;6 min</footer>
+<a class=entry-link aria-label="post link to Xen na Squeeze - Instalowanie i konfiguracja hostów gości (DomU)" href=https://timor.site/2012/02/xen-na-squeeze-instalowanie-i-konfiguracja-hostow-gosci-domu/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Xen na Squeeze - instalacja i konfiguracja hypervisor’a
 </h2>
 </header>
@@ -188,18 +202,6 @@ Tyle że skróty klawiaturowe w tym programie zwyczajnie mnie rozwalają - przez
 </section>
 <footer class=entry-footer><span title="2011-12-30 00:00:00 +0000 UTC">2011-12-30</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Empathy - zamykanie okienka chatu przyciskiem Escape" href=https://timor.site/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Automatyczne backupy w stylu snapshot z rsync’iem
-</h2>
-</header>
-<section class=entry-content>
-<p>Można znaleźć wiele tutoriali jakimi narzędziami wykonywać backupy. W większości przypadków absolutnie wystarczający okaże się flexbackup. Bardziej wymagający wykorzystają BackupPC, Baculę lub Amandę. Narzędzia te pozwalają wykonać kopie pełne, różnicowe, przyrostowe - kompresując je dla zaoszczędzenia miejsca.
-Wszystko fajnie - ale problemy pojawiają się przy dostępie do tych danych. Żeby odzyskać plik zmodyfikowany dzisiaj trzeba rozpakować najpierw kopię pełną, potem różnicową, przyrostową by wreszcie wyciągnąć plik z wczoraj… hmm ten też jest skopany....</p>
-</section>
-<footer class=entry-footer><span title="2011-12-29 00:00:00 +0000 UTC">2011-12-29</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Automatyczne backupy w stylu snapshot z rsync’iem" href=https://timor.site/2011/12/automatyczne-backupy-w-stylu-snapshot-z-rsynciem/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

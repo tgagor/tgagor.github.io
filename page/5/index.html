@@ -77,6 +77,18 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Apache - Force caching dynamic PHP content with mod_headers
+</h2>
+</header>
+<section class=entry-content>
+<p>Normally you want dynamic content to be fresh and not catchable. But sometimes it may be useful to cache it, like when you have website behind reverse proxy. To do this try something like this:
+&lt;filesmatch "\.(php|cgi|pl)$"> Header unset Pragma Header unset Expires Header set Cache-Control "max-age=3600, public" &lt;/filesmatch> Sources http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html</p>
+</section>
+<footer class=entry-footer><span title="2015-12-29 00:00:00 +0000 UTC">2015-12-29</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Apache - Force caching dynamic PHP content with mod_headers" href=https://timor.site/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>MySQL - reset root password
 </h2>
 </header>
@@ -188,19 +200,6 @@ echo "root:new_password" | chpasswd </p>
 </section>
 <footer class=entry-footer><span title="2014-05-08 00:00:00 +0000 UTC">2014-05-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Command to change root password" href=https://timor.site/2014/05/command-to-change-root-password/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Install Steam on Debian/Ubuntu
-</h2>
-</header>
-<section class=entry-content>
-<p>These are few steps to get Steam running on Ubuntu:
-wget -c media.steampowered.com/client/installer/steam.deb dpkg -i steam.deb apt-get install -f apt-get update Solutions for some issues Some time ago I needed 32 bit flash even on 64 bit system - I don’t need it currently but I’m living this as a tip.
-apt-get install adobe-flashplugin:i386 After Ubuntu upgrade I was unable to run Steam anymore - It shouted on me with strange “networking problem”....</p>
-</section>
-<footer class=entry-footer><span title="2014-04-22 00:00:00 +0000 UTC">2014-04-22</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Install Steam on Debian/Ubuntu" href=https://timor.site/2014/04/install-steam-on-debian-ubuntu/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

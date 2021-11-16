@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Kopiowanie wolumenów LVM z dd i netcat
+</h2>
+</header>
+<section class=entry-content>
+<p>Niedawno chciałem skopiować maszynę wirtualną z jednego hypervisora na innego. Były to 3 wolumeny LVM o rozmiarach od 50 do 100GB. Dawno temu zrobiłem sobie skrypty do backupu - jeden kompresuje wolumeny LVM - a drugi pozwala odtworzyć z dekompresja na drugim serwerze. Tyle że przy tak dużej maszynce będzie to trwało masakrycznie długo - fajnie byłoby móc równocześnie kopiować i odtwarzać (live)…
+I wtedy przypomniało mi się narzędzie netcat - zrobiłem snapshoty wolumenów i mogłem zaczynać....</p>
+</section>
+<footer class=entry-footer><span title="2013-09-02 00:00:00 +0000 UTC">2013-09-02</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Kopiowanie wolumenów LVM z dd i netcat" href=https://timor.site/2013/09/kopiowanie-wolumenow-lvm-z-dd-i-netcat/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>logrotate: kompresja logów xz
 </h2>
 </header>
@@ -190,18 +202,6 @@ a2enmod ldap a2enmod authnz_ldap Teraz możemy edytujemy globalny plik konfigura
 </section>
 <footer class=entry-footer><span title="2012-11-08 00:00:00 +0000 UTC">2012-11-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Automatically compact CouchDB databases in version 0.11.x" href=https://timor.site/2012/11/automatically-compact-couchdb-databases-in-0-11-x/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>LVM na RAID5 i dysku z sektorami 4KB
-</h2>
-</header>
-<section class=entry-content>
-<p>Po zakupie nowych dysków zamierzam utworzyć zdegradowaną macierz RAID5 z dwóch dysków (na trzecim na razie znajdują się dane), potem utworzyć wolumen LVM, sformatować go, przekopiować dane z pojedynczego dysku na macierz i dołączyć trzeci dysk do macierzy odbudowując parzystość. Zadanie będzie o tyle ciekawe że dysk ma 4KB sektory i trzeb będzie dbać o wyrównanie zasobu do rozmiaru sektora, a w przypadku LVM’a wyrównanie do chunk’a z macierzy.
-Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w górę), mamy spore szanse że trafimy na sztukę, która wykorzystuje 4KB sektory do alokacji danych....</p>
-</section>
-<footer class=entry-footer><span title="2012-11-07 00:00:00 +0000 UTC">2012-11-07</span>&nbsp;·&nbsp;15 min</footer>
-<a class=entry-link aria-label="post link to LVM na RAID5 i dysku z sektorami 4KB" href=https://timor.site/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

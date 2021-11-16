@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Ansible - Dynamicaly update /etc/hosts files on target servers
+</h2>
+</header>
+<section class=entry-content>
+<p>I was configuring GlusterFS on few servers using Ansible and have a need to update /etc/hosts with hostnames for easier configuration. I found this one working:
+- name: Update /etc/hosts lineinfile: dest=/etc/hosts regexp='.*{{item}}$' line='{{hostvars.{{item}}.ansible_default_ipv4.address}} {{item}}' state=present with_items: '{{groups.somegroup}}' Source: http://xmeblog.blogspot.com/2013/06/ansible-dynamicaly-update-etchosts.html</p>
+</section>
+<footer class=entry-footer><span title="2013-12-11 00:00:00 +0000 UTC">2013-12-11</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Ansible - Dynamicaly update /etc/hosts files on target servers" href=https://timor.site/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Inodes on XFS
 </h2>
 </header>
@@ -186,18 +198,6 @@ Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego ad
 </section>
 <footer class=entry-footer><span title="2013-09-09 00:00:00 +0000 UTC">2013-09-09</span>&nbsp;·&nbsp;6 min</footer>
 <a class=entry-link aria-label="post link to Nginx - przydatne rewrite’y i różne sztuczki" href=https://timor.site/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Kopiowanie wolumenów LVM z dd i netcat
-</h2>
-</header>
-<section class=entry-content>
-<p>Niedawno chciałem skopiować maszynę wirtualną z jednego hypervisora na innego. Były to 3 wolumeny LVM o rozmiarach od 50 do 100GB. Dawno temu zrobiłem sobie skrypty do backupu - jeden kompresuje wolumeny LVM - a drugi pozwala odtworzyć z dekompresja na drugim serwerze. Tyle że przy tak dużej maszynce będzie to trwało masakrycznie długo - fajnie byłoby móc równocześnie kopiować i odtwarzać (live)…
-I wtedy przypomniało mi się narzędzie netcat - zrobiłem snapshoty wolumenów i mogłem zaczynać....</p>
-</section>
-<footer class=entry-footer><span title="2013-09-02 00:00:00 +0000 UTC">2013-09-02</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Kopiowanie wolumenów LVM z dd i netcat" href=https://timor.site/2013/09/kopiowanie-wolumenow-lvm-z-dd-i-netcat/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

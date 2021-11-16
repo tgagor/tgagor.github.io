@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>PHP - max_input_vars
+</h2>
+</header>
+<section class=entry-content>
+<p>W PHP 5.3 pojawiła się nowa zmienna: max_input_vars, która limituje ilość pól możliwych do przesłania przez formularz, obcinając nadmiarowe. Pozwala to zapobiec atakom DoS na tablice hashujące (przynajmniej w tym jednym miejscu). Domyślna wartość tej zmiennej to 1000 i kreatywnym programistom udaje się tą wartość bez problemu osiągnąć 😃
+Warte odnotowania jest to że mając suhosin’a trzeba pamiętać o jeszcze dwóch innych zmiennych:
+max_input_vars = 3000 suhosin.post.max_vars = 3000 suhosin.request.max_vars = 3000 Zmienne można zmienić od razu w /etc/php5/apache2/php....</p>
+</section>
+<footer class=entry-footer><span title="2013-01-22 00:00:00 +0000 UTC">2013-01-22</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to PHP - max_input_vars" href=https://timor.site/2013/01/php-max_input_vars/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Linux - naprawianie bad sectorów
 </h2>
 </header>
@@ -184,17 +197,6 @@ Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w g�
 </section>
 <footer class=entry-footer><span title="2012-11-07 00:00:00 +0000 UTC">2012-11-07</span>&nbsp;·&nbsp;15 min</footer>
 <a class=entry-link aria-label="post link to LVM na RAID5 i dysku z sektorami 4KB" href=https://timor.site/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04
-</h2>
-</header>
-<section class=entry-content>
-<p>Po każdej aktualizacji Ubuntu mam trochę zabawy by pozbierać do kupy skaner i drukarkę z mojego urządzenia wielofunkcyjnego Brother DCP-130C. Wybrałem je bo był to jedyny producent, który deklarował wsparcie dla Linux’a… choć z perspektywy czasu nie jestem pewien czy otrzymałem to czego się spodziewałem… Co prawda zamieszczają instrukcje i aktualizują drivery ale jeszcze ani raz nie zdarzyło mi się by po aktualizacji systemu postępowanie według tych instrukcji zadziałało bez dodatkowej pomocy....</p>
-</section>
-<footer class=entry-footer><span title="2012-11-04 00:00:00 +0000 UTC">2012-11-04</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04" href=https://timor.site/2012/11/instalacja-drukarki-i-skanera-brother-dcp-130c-na-ubuntu-12-04/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

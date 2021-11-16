@@ -78,6 +78,20 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Rotate movies
+</h2>
+</header>
+<section class=entry-content>
+<p>I hate movies recorded on phone in vertical position. This just short tip how I dealt with with it last time:
+for m in *.mp4 do avconv -i $m -vf "transpose=1" -codec:a copy -codec:v libx264 -preset slow -crf 23 rotated-$m done Other examples:
+http://stackoverflow.com/questions/3937387/rotating-videos-with-ffmpeg
+http://superuser.com/questions/578321/how-to-flip-a-video-180°-vertical-upside-down-with-ffmpeg</p>
+</section>
+<footer class=entry-footer><span title="2015-12-28 00:00:00 +0000 UTC">2015-12-28</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Rotate movies" href=https://timor.site/2015/12/rotate-movies/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Extract password saved in remmina
 </h2>
 </header>
@@ -195,21 +209,6 @@ postfix reload Test if it works:...</p>
 </section>
 <footer class=entry-footer><span title="2014-03-18 00:00:00 +0000 UTC">2014-03-18</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Postfix - automatically drop outbound mail" href=https://timor.site/2014/03/postfix-automatically-drop-outbound-mail/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Ansible - ssh pipelining
-</h2>
-</header>
-<section class=entry-content>
-<p>In recent Ansible update to 1.5 version there is really nice feature ssh pipelining. This option is serious alternative to accelerated mode.
-Just add to you config file (ex. ~/.ansible.cfg):
-[ssh_connection] pipelining=True Now run any playbook - you will see the difference 😄
-Source (and extended info about):
-http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansible-1-5/</p>
-</section>
-<footer class=entry-footer><span title="2014-03-04 00:00:00 +0000 UTC">2014-03-04</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Ansible - ssh pipelining" href=https://timor.site/2014/03/ansible-ssh-pipelining/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

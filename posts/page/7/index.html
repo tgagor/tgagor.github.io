@@ -79,6 +79,19 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Change default WSUS port from 8530 to 80 on Windows Server 2012
+</h2>
+</header>
+<section class=entry-content>
+<p>After WSUS installing on Windows Server 2012 I discovered that it’s running on port 8530, different than on older version of Windows (it was using port 80 from beginning). But what’s more interesting it was running ONLY on IPv6 interface! Switching binding configuration in IIS doesn’t help.
+I could stand switching port - it’s nothing hard with GPO, but IPv6 only configuration was not acceptable.
+After googling for some time I found one command that solved my problems by switching WSUS to older behavior and run it on port 80 (on default website)....</p>
+</section>
+<footer class=entry-footer><span title="2014-01-24 00:00:00 +0000 UTC">2014-01-24</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Change default WSUS port from 8530 to 80 on Windows Server 2012" href=https://timor.site/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Debian - Upgrade MySQL to MariaDB
 </h2>
 </header>
@@ -189,18 +202,6 @@ But there is new app so called App Ops that unhides build-in interface allowing 
 </section>
 <footer class=entry-footer><span title="2013-12-17 00:00:00 +0000 UTC">2013-12-17</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Android: Xposed + AppOps - reclaim control over installed applications permissions" href=https://timor.site/2013/12/android-xposed-appops-reclaim-control-over-installed-applications-permissions/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Generate ECDSA key with OpenSSL
-</h2>
-</header>
-<section class=entry-content>
-<p>After the last NSA scandal I’ve found some time to read some texts about PFS and ECDSA keys lately. I always used RSA keys but wanted to give a try to ECDSA so I wanted to give it a try (test performance, etc). Here is how I’ve done it.
-Firstly find your favorite curve. A short tip about bit length and complexity could be found here. From it you will now that using 256 bit ECDSA key should be enough for next 10-20 years....</p>
-</section>
-<footer class=entry-footer><span title="2013-12-17 00:00:00 +0000 UTC">2013-12-17</span>&nbsp;·&nbsp;5 min</footer>
-<a class=entry-link aria-label="post link to Generate ECDSA key with OpenSSL" href=https://timor.site/2013/12/generate-ecdsa-key-with-openssl/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

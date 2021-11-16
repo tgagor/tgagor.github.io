@@ -78,6 +78,17 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Montowanie partycji z obrazu dysku
+</h2>
+</header>
+<section class=entry-content>
+<p>Jedną z rzeczy, które podobają mi się w maszynach wirtualnych Xen jest możliwość zrobienia backupu całego obrazu i szybkie odzyskanie już w trakcie ciężkiej awarii. Gdy dodatkowo korzysta się z LVM’a to można na chwilę wyłączyć DomU, utworzyć snapshot jego dysków, uruchomić DomU i w trakcie działania robić spójny backup ze snapshot’a. Dzięki takiemu mechanizmowi serwer jest niedostępny przez kilkanaście sekund, a backup spójny jakby został wykonany przy całkowicie wyłączonej maszynie....</p>
+</section>
+<footer class=entry-footer><span title="2012-09-06 00:00:00 +0000 UTC">2012-09-06</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Montowanie partycji z obrazu dysku" href=https://timor.site/2012/09/montowanie-partycji-z-obrazu-dysku/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>CouchDB - Instalacja i wstępna konfiguracja
 </h2>
 </header>
@@ -186,18 +197,6 @@ Błąd podczas przydzielania struktury icount: Memory allocation failed...</p>
 </section>
 <footer class=entry-footer><span title="2011-09-21 00:00:00 +0000 UTC">2011-09-21</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed" href=https://timor.site/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Magic SysRq - bezpieczny reset Linux’a
-</h2>
-</header>
-<section class=entry-content>
-<p>Pomimo iż Linux uchodzi za stabilne środowisko to raz na jakiś czas trafi się ciężka zwiecha - z powodu przeciążenia, awarii sprzętu… nieistotne…
-Załóżmy że licho wzięło za cel główny serwer plików lub bazę danych dla wielu, wielu stron internetowych. Dostać się po ssh nie możemy bo lecą timeout’y, a siedząc bezpośrednio przy klawiaturze konsola nie reaguje. Mimo to coś ostro daje po dyskach, więc ewentualny twardy reset to na bank utrata części plików… jeśli system po nim w ogóle wstanie… 😑...</p>
-</section>
-<footer class=entry-footer><span title="2011-09-17 00:00:00 +0000 UTC">2011-09-17</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Magic SysRq - bezpieczny reset Linux’a" href=https://timor.site/2011/09/magic-sysrq-bezpieczny-reset-linuxa/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

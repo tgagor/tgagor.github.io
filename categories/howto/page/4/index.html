@@ -78,6 +78,20 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Rotate movies
+</h2>
+</header>
+<section class=entry-content>
+<p>I hate movies recorded on phone in vertical position. This just short tip how I dealt with with it last time:
+for m in *.mp4 do avconv -i $m -vf "transpose=1" -codec:a copy -codec:v libx264 -preset slow -crf 23 rotated-$m done Other examples:
+http://stackoverflow.com/questions/3937387/rotating-videos-with-ffmpeg
+http://superuser.com/questions/578321/how-to-flip-a-video-180°-vertical-upside-down-with-ffmpeg</p>
+</section>
+<footer class=entry-footer><span title="2015-12-28 00:00:00 +0000 UTC">2015-12-28</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Rotate movies" href=https://timor.site/2015/12/rotate-movies/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Extract password saved in remmina
 </h2>
 </header>
@@ -192,19 +206,6 @@ Then add at the end of file:
 </section>
 <footer class=entry-footer><span title="2014-03-29 00:00:00 +0000 UTC">2014-03-29</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Nagios - run checks as root with NRPE" href=https://timor.site/2014/03/nagios-run-checks-as-root-with-nrpe/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>WordPress - add meta tags: author, description, keywords, etc
-</h2>
-</header>
-<section class=entry-content>
-<p>After reading some SEO stuff I wanted to add some meta tags to my WordPress blog. I found this site: codex.wordpress.org/Meta_Tags_in_WordPress.
-So WordPress thinks that it’s not necessary to have this meta tags any more… But I want it! 😃 Next funny thing is how they suggest to add meta tags: copy header.php - what about theme updates?
-I prefer to use functions.php file - just create it in your courrent theme directory with such content:...</p>
-</section>
-<footer class=entry-footer><span title="2014-03-27 00:00:00 +0000 UTC">2014-03-27</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to WordPress - add meta tags: author, description, keywords, etc" href=https://timor.site/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

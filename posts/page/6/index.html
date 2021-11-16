@@ -79,6 +79,19 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Install Steam on Debian/Ubuntu
+</h2>
+</header>
+<section class=entry-content>
+<p>These are few steps to get Steam running on Ubuntu:
+wget -c media.steampowered.com/client/installer/steam.deb dpkg -i steam.deb apt-get install -f apt-get update Solutions for some issues Some time ago I needed 32 bit flash even on 64 bit system - I don’t need it currently but I’m living this as a tip.
+apt-get install adobe-flashplugin:i386 After Ubuntu upgrade I was unable to run Steam anymore - It shouted on me with strange “networking problem”....</p>
+</section>
+<footer class=entry-footer><span title="2014-04-22 00:00:00 +0000 UTC">2014-04-22</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Install Steam on Debian/Ubuntu" href=https://timor.site/2014/04/install-steam-on-debian-ubuntu/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Rebuild yum/rpm database
 </h2>
 </header>
@@ -200,19 +213,6 @@ grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n This will search for all l
 </section>
 <footer class=entry-footer><span title="2014-02-18 00:00:00 +0000 UTC">2014-02-18</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Comparing two lists in bash" href=https://timor.site/2014/02/comparing-two-lists-in-bash/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Change default WSUS port from 8530 to 80 on Windows Server 2012
-</h2>
-</header>
-<section class=entry-content>
-<p>After WSUS installing on Windows Server 2012 I discovered that it’s running on port 8530, different than on older version of Windows (it was using port 80 from beginning). But what’s more interesting it was running ONLY on IPv6 interface! Switching binding configuration in IIS doesn’t help.
-I could stand switching port - it’s nothing hard with GPO, but IPv6 only configuration was not acceptable.
-After googling for some time I found one command that solved my problems by switching WSUS to older behavior and run it on port 80 (on default website)....</p>
-</section>
-<footer class=entry-footer><span title="2014-01-24 00:00:00 +0000 UTC">2014-01-24</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Change default WSUS port from 8530 to 80 on Windows Server 2012" href=https://timor.site/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

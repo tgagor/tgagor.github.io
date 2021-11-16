@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Uruchamianie aplikacji .NET jako 32-bitowej w 64-bitowym systemie
+</h2>
+</header>
+<section class=entry-content>
+<p>Kolejna zabawna sytuacja - pewna aplikacja dotNET’owa działała dziwnie na 64-bitowym systemie, a tymczasem na 32-bitowej maszynie ta sama aplikacja działała bez problemów. Jedyna różnica to inne wersje klientów ODBC na tych systemach, które po kilku testach okazały się być przyczyną całego zła.
+Pojawił się pomysł by odpalić aplikacje na 64 bitowym systemie ale w trybie 32 bit - poniżej krótkie HOWTO jak to osiągnąć:
+potrzebujemy narzędzia corflags.exe które pozwoli oznaczyć nam binarkę jako 32-bitową, do pobrania tutaj a instrukcja jej użycia tutaj....</p>
+</section>
+<footer class=entry-footer><span title="2013-10-29 00:00:00 +0000 UTC">2013-10-29</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Uruchamianie aplikacji .NET jako 32-bitowej w 64-bitowym systemie" href=https://timor.site/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Certyfikaty nazwaSSL na własnym serwerze
 </h2>
 </header>
@@ -186,18 +199,6 @@ P.S. Wiem co robię ryzykując uceglenie swojego urządzenia - u mnie ta instruk
 </section>
 <footer class=entry-footer><span title="2013-09-04 00:00:00 +0000 UTC">2013-09-04</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Root’owanie Androida 4.3 na Google Nexus 7 po aktualizacji do JWR66Y" href=https://timor.site/2013/09/rootowanie-androida-4-3-na-google-nexus-7-po-aktualizacji-do-jwr66y/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Kopiowanie wolumenów LVM z dd i netcat
-</h2>
-</header>
-<section class=entry-content>
-<p>Niedawno chciałem skopiować maszynę wirtualną z jednego hypervisora na innego. Były to 3 wolumeny LVM o rozmiarach od 50 do 100GB. Dawno temu zrobiłem sobie skrypty do backupu - jeden kompresuje wolumeny LVM - a drugi pozwala odtworzyć z dekompresja na drugim serwerze. Tyle że przy tak dużej maszynce będzie to trwało masakrycznie długo - fajnie byłoby móc równocześnie kopiować i odtwarzać (live)…
-I wtedy przypomniało mi się narzędzie netcat - zrobiłem snapshoty wolumenów i mogłem zaczynać....</p>
-</section>
-<footer class=entry-footer><span title="2013-09-02 00:00:00 +0000 UTC">2013-09-02</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Kopiowanie wolumenów LVM z dd i netcat" href=https://timor.site/2013/09/kopiowanie-wolumenow-lvm-z-dd-i-netcat/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

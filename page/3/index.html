@@ -77,6 +77,18 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>WordPress with HyperDB on PHP 7.0
+</h2>
+</header>
+<section class=entry-content>
+<p>I was configuring WordPress with HyperDB plugin on PHP 7.0 but the only I get were constant 500 errors. As I found here PHP 7.0 is not supported by HyperDB for now - it’s rely on mysql php extension but in PHP 7.0 there is only mysqli extension. But few folks fixed it and it’s possible to use it.
+curl -O https://raw.githubusercontent.com/soulseekah/hyperdb-mysqli/master/db.php mv db.php /var/www/wordpress/wp-content/ And configure it ex. like this:...</p>
+</section>
+<footer class=entry-footer><span title="2016-02-24 00:00:00 +0000 UTC">2016-02-24</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to WordPress with HyperDB on PHP 7.0" href=https://timor.site/2016/02/wordpress-with-hyperdb-on-php-7-0/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Automatically build after file change
 </h2>
 </header>
@@ -199,20 +211,6 @@ Howto prepare against ACK/FIN/RST/X-mas flood Use conntrack rule:...</p>
 </section>
 <footer class=entry-footer><span title="2016-02-05 00:00:00 +0000 UTC">2016-02-05</span>&nbsp;·&nbsp;4 min</footer>
 <a class=entry-link aria-label="post link to Prepare for DoS like Cloudflare do" href=https://timor.site/2016/02/prepare-for-dos-like-cloudflare-do/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Zeitgeist activity.sqlite-wal getting huge
-</h2>
-</header>
-<section class=entry-content>
-<p>I was looking at backup task running on my desk and saw that it’s spending a lot of time on ~/.local/share/zeitgeist directory. I checked and it had 4.6GB:
-du -sh ~/.local/share/zeitgeist/* 118M activity.sqlite 44M activity.sqlite.bck 32K activity.sqlite-shm 4,4G activity.sqlite-wal 311M fts.index WTF? Fortunately I found here that I could easily delete some of this:
-zeitgeist-daemon --quit Now check that it’s not running:
-ps axu | grep zeitgeist-daemon timor 9105 0.0 0....</p>
-</section>
-<footer class=entry-footer><span title="2016-02-04 00:00:00 +0000 UTC">2016-02-04</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Zeitgeist activity.sqlite-wal getting huge" href=https://timor.site/2016/02/zeitgeist-activity-sqlite-wal-getting-huge/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

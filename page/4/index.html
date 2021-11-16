@@ -77,6 +77,20 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Zeitgeist activity.sqlite-wal getting huge
+</h2>
+</header>
+<section class=entry-content>
+<p>I was looking at backup task running on my desk and saw that it’s spending a lot of time on ~/.local/share/zeitgeist directory. I checked and it had 4.6GB:
+du -sh ~/.local/share/zeitgeist/* 118M activity.sqlite 44M activity.sqlite.bck 32K activity.sqlite-shm 4,4G activity.sqlite-wal 311M fts.index WTF? Fortunately I found here that I could easily delete some of this:
+zeitgeist-daemon --quit Now check that it’s not running:
+ps axu | grep zeitgeist-daemon timor 9105 0.0 0....</p>
+</section>
+<footer class=entry-footer><span title="2016-02-04 00:00:00 +0000 UTC">2016-02-04</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Zeitgeist activity.sqlite-wal getting huge" href=https://timor.site/2016/02/zeitgeist-activity-sqlite-wal-getting-huge/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Optimize Nginx for performance
 </h2>
 </header>
@@ -190,18 +204,6 @@ But with it I had one problem - in playbooks I define hosts as groups of severs 
 </section>
 <footer class=entry-footer><span title="2015-12-29 00:00:00 +0000 UTC">2015-12-29</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Ansible on Vagrant - skipping: no hosts matched" href=https://timor.site/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Apache - Force caching dynamic PHP content with mod_headers
-</h2>
-</header>
-<section class=entry-content>
-<p>Normally you want dynamic content to be fresh and not catchable. But sometimes it may be useful to cache it, like when you have website behind reverse proxy. To do this try something like this:
-&lt;filesmatch "\.(php|cgi|pl)$"> Header unset Pragma Header unset Expires Header set Cache-Control "max-age=3600, public" &lt;/filesmatch> Sources http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html</p>
-</section>
-<footer class=entry-footer><span title="2015-12-29 00:00:00 +0000 UTC">2015-12-29</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Apache - Force caching dynamic PHP content with mod_headers" href=https://timor.site/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

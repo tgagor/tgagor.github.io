@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>LVM na RAID5 i dysku z sektorami 4KB
+</h2>
+</header>
+<section class=entry-content>
+<p>Po zakupie nowych dysków zamierzam utworzyć zdegradowaną macierz RAID5 z dwóch dysków (na trzecim na razie znajdują się dane), potem utworzyć wolumen LVM, sformatować go, przekopiować dane z pojedynczego dysku na macierz i dołączyć trzeci dysk do macierzy odbudowując parzystość. Zadanie będzie o tyle ciekawe że dysk ma 4KB sektory i trzeb będzie dbać o wyrównanie zasobu do rozmiaru sektora, a w przypadku LVM’a wyrównanie do chunk’a z macierzy.
+Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w górę), mamy spore szanse że trafimy na sztukę, która wykorzystuje 4KB sektory do alokacji danych....</p>
+</section>
+<footer class=entry-footer><span title="2012-11-07 00:00:00 +0000 UTC">2012-11-07</span>&nbsp;·&nbsp;15 min</footer>
+<a class=entry-link aria-label="post link to LVM na RAID5 i dysku z sektorami 4KB" href=https://timor.site/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04
 </h2>
 </header>
@@ -184,17 +196,6 @@ sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F p
 </section>
 <footer class=entry-footer><span title="2012-09-08 00:00:00 +0000 UTC">2012-09-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Wymuszenie fsck po restarcie" href=https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Montowanie partycji z obrazu dysku
-</h2>
-</header>
-<section class=entry-content>
-<p>Jedną z rzeczy, które podobają mi się w maszynach wirtualnych Xen jest możliwość zrobienia backupu całego obrazu i szybkie odzyskanie już w trakcie ciężkiej awarii. Gdy dodatkowo korzysta się z LVM’a to można na chwilę wyłączyć DomU, utworzyć snapshot jego dysków, uruchomić DomU i w trakcie działania robić spójny backup ze snapshot’a. Dzięki takiemu mechanizmowi serwer jest niedostępny przez kilkanaście sekund, a backup spójny jakby został wykonany przy całkowicie wyłączonej maszynie....</p>
-</section>
-<footer class=entry-footer><span title="2012-09-06 00:00:00 +0000 UTC">2012-09-06</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Montowanie partycji z obrazu dysku" href=https://timor.site/2012/09/montowanie-partycji-z-obrazu-dysku/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

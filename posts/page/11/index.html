@@ -79,6 +79,21 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Dodawanie urządzeń SCSI/FC bez restartu serwera
+</h2>
+</header>
+<section class=entry-content>
+<p>Raz na jakiś czas gdy grzebię przy maciorach muszę “odkryć” nowy volumen FC (lub rzadziej SCSI), który właśnie utworzyłem a restart serwera nie wchodzi w rachubę (zresztą na części systemów nic on nie da).
+By to zrobić są dwie możliwości:
+Ręczne wydanie poleceń odkrywających volumeny (na jajkach od 2.6.x) Sprawdzamy jakie mamy karty:
+ls /sys/class/fc_host/ (wypisze się coś w stylu: host1, host2)
+Wydajemy do wybranej przez nas karty żądanie wykonania LIP (to się chyba tłumaczy jako loopback initialization) co skutkuje przeskanowaniem szyny FC:...</p>
+</section>
+<footer class=entry-footer><span title="2013-07-17 00:00:00 +0000 UTC">2013-07-17</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Dodawanie urządzeń SCSI/FC bez restartu serwera" href=https://timor.site/2013/07/dodawanie-urzadzen-scsifc-bez-restartu-serwera/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Debian - Instalacja Bittorrent Sync (btsync)
 </h2>
 </header>
@@ -189,17 +204,6 @@ A leci to mniej więcej tak:
 </section>
 <footer class=entry-footer><span title="2012-12-18 00:00:00 +0000 UTC">2012-12-18</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Jak dokuczać spamerom" href=https://timor.site/2012/12/jak-dokuczac-spamerom/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Nginx - kompresowanie plików dla gzip_static
-</h2>
-</header>
-<section class=entry-content>
-<p>Ruski serwer WWW ma przydatną funkcję serwowania wersji plików skompresowanych gzip’em - przez co możemy plik skompresować raz i będzie on serwowany klientom obsługującym kompresję HTTP ale już bez każdorazowego kompresowania go. Jest to bardzo przydatne na stronach z dużym ruchem gdzie można w ten sposób zaoszczędzić takty CPU na właściwą obsługę połączeń a nie kompresję. Drugie miejsce gdzie może to być przydatne to VPS’y i “cienkie” serwery, które na kompresji przy większym obciążeniu spędzają zbyt dużo czasu i daje się to odczuć w działaniu strony....</p>
-</section>
-<footer class=entry-footer><span title="2012-12-17 00:00:00 +0000 UTC">2012-12-17</span>&nbsp;·&nbsp;3 min</footer>
-<a class=entry-link aria-label="post link to Nginx - kompresowanie plików dla gzip_static" href=https://timor.site/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
