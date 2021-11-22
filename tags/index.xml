@@ -7,29 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>backup</title>
       <link>https://timor.site/tags/backup/</link>
-      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/backup/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Debian</title>
+      <link>https://timor.site/tags/debian/</link>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linux</title>
       <link>https://timor.site/tags/linux/</link>
-      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Security</title>
+      <link>https://timor.site/tags/security/</link>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://timor.site/tags/ubuntu/</link>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ZFS</title>
       <link>https://timor.site/tags/zfs/</link>
-      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 21 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/zfs/</guid>
       <description></description>
@@ -162,24 +189,6 @@
     </item>
     
     <item>
-      <title>Debian</title>
-      <link>https://timor.site/tags/debian/</link>
-      <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/debian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ubuntu</title>
-      <link>https://timor.site/tags/ubuntu/</link>
-      <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Zenbook</title>
       <link>https://timor.site/tags/zenbook/</link>
       <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
@@ -248,15 +257,6 @@
       <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/iptables/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Security</title>
-      <link>https://timor.site/tags/security/</link>
-      <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/security/</guid>
       <description></description>
     </item>
     

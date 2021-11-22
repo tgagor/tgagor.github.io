@@ -78,6 +78,22 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Postfix - automatically drop outbound mail
+</h2>
+</header>
+<section class=entry-content>
+<p>I have development server with postfix - I wanted to allow outbound traffic to one domain but cut off all the rest. I definitely do not want that test mail or any debug info goes to service users.
+I have to add something like that to /etc/postfix/transport:
+allowed.domain.com : * discard: Then run:
+postmap /etc/postfix/transport At end, add these to /etc/postfix/main.cf:
+transport_maps = hash:/etc/postfix/transport Reload postfix:
+postfix reload Test if it works:...</p>
+</section>
+<footer class=entry-footer><span title="2014-03-18 00:00:00 +0000 UTC">2014-03-18</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Postfix - automatically drop outbound mail" href=https://timor.site/2014/03/postfix-automatically-drop-outbound-mail/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Ansible - ssh pipelining
 </h2>
 </header>
@@ -195,19 +211,6 @@ MP4 HandBrakeCLI -e x264 -q 20....</p>
 </section>
 <footer class=entry-footer><span title="2013-12-16 00:00:00 +0000 UTC">2013-12-16</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Preparing video files for streaming on website in MP4 and WEBM format" href=https://timor.site/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Re-adding failed drive in mdadm
-</h2>
-</header>
-<section class=entry-content>
-<p>Yesterday I have problem with fglrx witch cause ugly system reset. After that, one of my drives was marked as failed in RAID5 array. Hotspare was automatically used to rebuild array. But this hotspare is the oldest and slowest drive I’ve got…
-After rebuild I’ve tested failed drive and it was fine - no bad block, no any other issue - so I wanted it running back in array.
-What I do:...</p>
-</section>
-<footer class=entry-footer><span title="2013-12-12 00:00:00 +0000 UTC">2013-12-12</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Re-adding failed drive in mdadm" href=https://timor.site/2013/12/re-adding-failed-drive-in-mdadm/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

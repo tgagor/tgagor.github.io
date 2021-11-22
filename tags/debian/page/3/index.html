@@ -78,6 +78,20 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Ponowne wygenerowanie kluczy serwera OpenSSH
+</h2>
+</header>
+<section class=entry-content>
+<p>Czasami odpalam klona jakiegoś systemu by później po drobnych zmianach uczynić go osobnym bytem. Jednym z kroków po odtworzeniu systemu jest wygenerowanie nowego zestawu kluczy dla serwera OpenSSH (by mój klient ssh nie siał warning’ami). Można to wykonać tak:
+Najpierw kasujemy obecne klucze:
+rm /etc/ssh/ssh_host_* Teraz generujemy nowe:
+dpkg-reconfigure openssh-server I na koniec restartujemy usługę by załadować nowy zestaw kluczy (nie powinno to zerwać obecnej sesji, ale dla pewności lepiej zadanie odpalić w screen’ie):...</p>
+</section>
+<footer class=entry-footer><span title="2012-02-27 00:00:00 +0000 UTC">2012-02-27</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Ponowne wygenerowanie kluczy serwera OpenSSH" href=https://timor.site/2012/02/ponowne-wygenerowanie-kluczy-serwera-openssh/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Xen na Squeeze - Instalowanie i konfiguracja hostów gości (DomU)
 </h2>
 </header>
@@ -187,17 +201,6 @@ I w tym momencie zaczynamy się zastanawiać czy może nie warto byłoby zrobić
 </section>
 <footer class=entry-footer><span title="2011-09-16 00:00:00 +0000 UTC">2011-09-16</span>&nbsp;·&nbsp;3 min</footer>
 <a class=entry-link aria-label="post link to approx - cachujące proxy dla repozytoriów Debiana" href=https://timor.site/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Zabezpieczenie Apachego na Debianie przed slowloris’em
-</h2>
-</header>
-<section class=entry-content>
-<p>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje “klienta z wolnym łączem” równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci....</p>
-</section>
-<footer class=entry-footer><span title="2011-09-12 00:00:00 +0000 UTC">2011-09-12</span>&nbsp;·&nbsp;3 min</footer>
-<a class=entry-link aria-label="post link to Zabezpieczenie Apachego na Debianie przed slowloris’em" href=https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>MySQL - reset root password
+</h2>
+</header>
+<section class=entry-content>
+<p>It will happen from time to time, that you’re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn’t be used in app 😃 ) but will work for any user.
+shutdown db service mysql stop create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt SET PASSWORD FOR "root"@"localhost" = PASSWORD("HereYourNewPassword"); start mysqld with --init-file param mysqld_safe --init-file=/tmp/pwchange....</p>
+</section>
+<footer class=entry-footer><span title="2015-12-28 00:00:00 +0000 UTC">2015-12-28</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to MySQL - reset root password" href=https://timor.site/2015/12/mysql-reset-root-password/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Rotate movies
 </h2>
 </header>
@@ -193,22 +205,6 @@ echo stats | nc 127.0.0.1 11211 STAT pid 2743 STAT uptime 263 STAT time 13954389
 </section>
 <footer class=entry-footer><span title="2014-03-21 00:00:00 +0000 UTC">2014-03-21</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Checking memcached status" href=https://timor.site/2014/03/checking-memcached-status/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Postfix - automatically drop outbound mail
-</h2>
-</header>
-<section class=entry-content>
-<p>I have development server with postfix - I wanted to allow outbound traffic to one domain but cut off all the rest. I definitely do not want that test mail or any debug info goes to service users.
-I have to add something like that to /etc/postfix/transport:
-allowed.domain.com : * discard: Then run:
-postmap /etc/postfix/transport At end, add these to /etc/postfix/main.cf:
-transport_maps = hash:/etc/postfix/transport Reload postfix:
-postfix reload Test if it works:...</p>
-</section>
-<footer class=entry-footer><span title="2014-03-18 00:00:00 +0000 UTC">2014-03-18</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Postfix - automatically drop outbound mail" href=https://timor.site/2014/03/postfix-automatically-drop-outbound-mail/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

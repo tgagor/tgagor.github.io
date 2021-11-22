@@ -78,6 +78,20 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Xen na Squeeze - Instalowanie i konfiguracja hostów gości (DomU)
+</h2>
+</header>
+<section class=entry-content>
+<p>Ostatnio pisałem o konfiguracji Dom0 - dzisiaj napiszę o uruchamianiu DomU.
+Do instalacji DomU wykorzystuję skrypty z pakietu xen-tools, można go zainstalować poleceniem:
+apt-get install xen-tools Oczywiście aby wszystko działało fajnie musimy ustawić kilka domyślnych opcji, robimy to edytując plik /etc/xen-tools/xen-tools.conf. Lecimy po kolei:
+# Virtual machine disks are created as logical volumes in # volume group 'universe' (hint: LVM storage is much faster # than file) lvm = universe Osobiście korzystam z LVM’a który zgodnie z hint’em jest znacznie szybszy od plików obrazów....</p>
+</section>
+<footer class=entry-footer><span title="2012-02-24 00:00:00 +0000 UTC">2012-02-24</span>&nbsp;·&nbsp;6 min</footer>
+<a class=entry-link aria-label="post link to Xen na Squeeze - Instalowanie i konfiguracja hostów gości (DomU)" href=https://timor.site/2012/02/xen-na-squeeze-instalowanie-i-konfiguracja-hostow-gosci-domu/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Kaczka pieczona z żurawiną i jabłkami
 </h2>
 </header>
@@ -188,18 +202,6 @@ Sam pewnie jeszcze nie raz zaktualizuję ten wpis 😄</p>
 </section>
 <footer class=entry-footer><span title="2012-01-11 00:00:00 +0000 UTC">2012-01-11</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Mój domyślny config dla SciTE" href=https://timor.site/2012/01/moj-domyslny-config-dla-scite/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Empathy - zamykanie okienka chatu przyciskiem Escape
-</h2>
-</header>
-<section class=entry-content>
-<p>W Gajim’ie od dawna brakowało mi wygodnego przeszukiwania po liście kontaktów (takiego jakie ma się pojawić już niebawem w wersji 0.15 - z półtora roku już na to czekam…). W między czasie znalazłem chwilę by pobawić się Empathy - brzydki, nie ma przeglądarki usług XMPP, ale wyszukiwanie na rosterze jest dokładnie takie jakiego szukałem (w miarę wpisywania znaków zawęża listę kontaktów by pasowały do wpisywanego wzorca).
-Tyle że skróty klawiaturowe w tym programie zwyczajnie mnie rozwalają - przez lata przyzwyczaiłem się że okienka czatu można zamknąć Escape’m - a tutaj nawet nie ma opcji, która pozwalała by na taką zmianę zachowania....</p>
-</section>
-<footer class=entry-footer><span title="2011-12-30 00:00:00 +0000 UTC">2011-12-30</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Empathy - zamykanie okienka chatu przyciskiem Escape" href=https://timor.site/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

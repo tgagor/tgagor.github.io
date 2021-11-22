@@ -78,6 +78,21 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Nagios - run checks as root with NRPE
+</h2>
+</header>
+<section class=entry-content>
+<p>I’ve few Nagios checks that require root privileges but running nrpe as root user is not acceptable. I prefer to use sudo for only these few commands.
+Run visudo and coment out this line:
+#Defaults requiretty This change is crucial to get scripts working.
+Then add at the end of file:
+%nrpe ALL=(ALL) NOPASSWD: /usr/lib64/nagios/plugins/ I’ve used nrpe group, but you have to add exactly group that your nrpe process uses....</p>
+</section>
+<footer class=entry-footer><span title="2014-03-29 00:00:00 +0000 UTC">2014-03-29</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Nagios - run checks as root with NRPE" href=https://timor.site/2014/03/nagios-run-checks-as-root-with-nrpe/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>WordPress - add meta tags: author, description, keywords, etc
 </h2>
 </header>
@@ -198,17 +213,6 @@ sudo apt-get update sudo apt-get install mariadb-server It could be better to in
 </section>
 <footer class=entry-footer><span title="2014-01-24 00:00:00 +0000 UTC">2014-01-24</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Nginx - enabling SPDY with freeware certificate" href=https://timor.site/2014/01/nginx-enabling-spdy-with-freeware-certificate/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Searching for better code editor
-</h2>
-</header>
-<section class=entry-content>
-<p>I’ve been using different code editors for different purposes. Gedit was fine for small scripts but not for bigger projects. It lacks intelligent code completion (function/class names, etc.). I was searching for convenient editor for Python, Perl, Ruby with support for frameworks like Django, Rails, etc. I know Sublime Text - but it’s paid. There is LimeText - open source clone, but it’s not ready to be used on daily basics....</p>
-</section>
-<footer class=entry-footer><span title="2014-01-24 00:00:00 +0000 UTC">2014-01-24</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Searching for better code editor" href=https://timor.site/2014/01/searching-for-better-code-editor/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

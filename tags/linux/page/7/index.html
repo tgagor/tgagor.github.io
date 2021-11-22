@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Automatically compact CouchDB databases in version 0.11.x
+</h2>
+</header>
+<section class=entry-content>
+<p>CouchDB databases on version 0.11.x swell very fast. They should be compacted daily for best performance and space usage. Here is my script that could be run in cron and will compact all databases:
+#!/bin/bash IP="10.0.0.121" DBS=`curl -sS -X GET http://$IP:5984/_all_dbs | sed -r "s/([,\"[])|(\])+/ /g"` for d in $DBS; do curl -H "Content-Type: application/json" -X POST http://$IP:5984/$d/_compact done More informations about compacting could be found here (also for version 1....</p>
+</section>
+<footer class=entry-footer><span title="2012-11-08 00:00:00 +0000 UTC">2012-11-08</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Automatically compact CouchDB databases in version 0.11.x" href=https://timor.site/2012/11/automatically-compact-couchdb-databases-in-0-11-x/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>LVM na RAID5 i dysku z sektorami 4KB
 </h2>
 </header>
@@ -183,19 +195,6 @@ Nie lubię gnome-terminal'a bo domyślnie binduje F10 co wnerwia mnie w midnight
 </section>
 <footer class=entry-footer><span title="2012-09-09 00:00:00 +0000 UTC">2012-09-09</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to unicode-rxvt - moje ustawienia" href=https://timor.site/2012/09/unicode-rxvt-moje-ustawienia/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Wymuszenie fsck po restarcie
-</h2>
-</header>
-<section class=entry-content>
-<p>Jeżeli chcemy by po ponownym uruchomieniu w czasie startu zostały sprawdzone wszystkie dyski narzędziem to można to osiągnąć na dwa sposoby. Zawsze gdy tego potrzebuję zastanawiam się tylko jaki plik trzeba było utworzyć… forcefsck, fsck, fsckforce… więc notuję 😉
-Utworzenie pliku /forcefsck Pierwsza metoda polega na utworzeniu pliku forcefsck w głównym katalog, robimy to poniższym poleceniem:
-sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F polecenia shutdown ale nie działa na wszystkich dystrybucjach (w takiej sytuacji patrz pierwsza metoda):...</p>
-</section>
-<footer class=entry-footer><span title="2012-09-08 00:00:00 +0000 UTC">2012-09-08</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Wymuszenie fsck po restarcie" href=https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

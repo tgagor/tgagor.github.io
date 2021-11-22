@@ -79,6 +79,20 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Comparing two lists in bash
+</h2>
+</header>
+<section class=entry-content>
+<p>I had quite simple task - compare two lists of hosts and check if hosts from first one are also on the second one. I started with diff:
+diff -u biglist.txt hosts_to_check.txt | grep -E "^\+" It was fine but output needs some filtering to get what I want.
+I’ve found another example with grep:
+grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n This will search for all lines in hosts_to_check....</p>
+</section>
+<footer class=entry-footer><span title="2014-02-18 00:00:00 +0000 UTC">2014-02-18</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Comparing two lists in bash" href=https://timor.site/2014/02/comparing-two-lists-in-bash/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Change default WSUS port from 8530 to 80 on Windows Server 2012
 </h2>
 </header>
@@ -190,18 +204,6 @@ RewriteEngine on RewriteCond %{HTTP:Accept-encoding} gzip RewriteCond %{REQUEST_
 </section>
 <footer class=entry-footer><span title="2013-12-27 00:00:00 +0000 UTC">2013-12-27</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Apache - precompressing static files with gzip" href=https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Android: Xposed + AppOps - reclaim control over installed applications permissions
-</h2>
-</header>
-<section class=entry-content>
-<p>I’m happy owner of Galaxy Nexus 7 and lately I updated my tablet to Android 4.4 Kitkat. One of features I most expected was ability to block some permissions of some applications. Such setting was available in 4.4 version but was removed in latest 4.4.2 - Google didn’t explain it exactly why. I don’t like when for ex. game need: camera or GPS access - for what I asked?
-But there is new app so called App Ops that unhides build-in interface allowing edit of application permissions....</p>
-</section>
-<footer class=entry-footer><span title="2013-12-17 00:00:00 +0000 UTC">2013-12-17</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Android: Xposed + AppOps - reclaim control over installed applications permissions" href=https://timor.site/2013/12/android-xposed-appops-reclaim-control-over-installed-applications-permissions/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

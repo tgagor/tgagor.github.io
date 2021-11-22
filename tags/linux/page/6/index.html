@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Nginx - przydatne rewrite’y i różne sztuczki
+</h2>
+</header>
+<section class=entry-content>
+<p>Polubiłem Nginx’a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach 😃
+Słowo wstępu Niektóre rewrite’y kończą się znakiem ? - czemu?
+Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną $request_uri to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku ?...</p>
+</section>
+<footer class=entry-footer><span title="2013-09-09 00:00:00 +0000 UTC">2013-09-09</span>&nbsp;·&nbsp;6 min</footer>
+<a class=entry-link aria-label="post link to Nginx - przydatne rewrite’y i różne sztuczki" href=https://timor.site/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Kopiowanie wolumenów LVM z dd i netcat
 </h2>
 </header>
@@ -190,18 +203,6 @@ a2enmod ldap a2enmod authnz_ldap Teraz możemy edytujemy globalny plik konfigura
 </section>
 <footer class=entry-footer><span title="2012-12-14 00:00:00 +0000 UTC">2012-12-14</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Apache: mod_authnz_ldap z Active Directory" href=https://timor.site/2012/12/apache-mod_authnz_ldap-z-active-directory/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Automatically compact CouchDB databases in version 0.11.x
-</h2>
-</header>
-<section class=entry-content>
-<p>CouchDB databases on version 0.11.x swell very fast. They should be compacted daily for best performance and space usage. Here is my script that could be run in cron and will compact all databases:
-#!/bin/bash IP="10.0.0.121" DBS=`curl -sS -X GET http://$IP:5984/_all_dbs | sed -r "s/([,\"[])|(\])+/ /g"` for d in $DBS; do curl -H "Content-Type: application/json" -X POST http://$IP:5984/$d/_compact done More informations about compacting could be found here (also for version 1....</p>
-</section>
-<footer class=entry-footer><span title="2012-11-08 00:00:00 +0000 UTC">2012-11-08</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Automatically compact CouchDB databases in version 0.11.x" href=https://timor.site/2012/11/automatically-compact-couchdb-databases-in-0-11-x/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

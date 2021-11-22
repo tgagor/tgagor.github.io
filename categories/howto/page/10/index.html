@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Nginx - hide server version and name in Server header and error pages
+</h2>
+</header>
+<section class=entry-content>
+<p>On Debian you have to install nginx-extras package (because it have built in headers_more module). Then you need two options (best in global configuration /etc/nginx/nginx.conf file, http part):
+server_tokens off; more_set_headers 'Server: BadAss'; And it’s good to setup non standard error pages on every site (500 and 404 at minimum):
+error_page 403 404 http://mysite.com/areyoulost; error_page 502 503 504 /500.html; </p>
+</section>
+<footer class=entry-footer><span title="2013-01-24 00:00:00 +0000 UTC">2013-01-24</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Nginx - hide server version and name in Server header and error pages" href=https://timor.site/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>PHP - max_input_vars
 </h2>
 </header>
@@ -185,18 +198,6 @@ apt-get install ldap-utils Teraz możemy próbować przeszukiwać katalog np....
 </section>
 <footer class=entry-footer><span title="2012-11-08 00:00:00 +0000 UTC">2012-11-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Automatically compact CouchDB databases in version 0.11.x" href=https://timor.site/2012/11/automatically-compact-couchdb-databases-in-0-11-x/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>LVM na RAID5 i dysku z sektorami 4KB
-</h2>
-</header>
-<section class=entry-content>
-<p>Po zakupie nowych dysków zamierzam utworzyć zdegradowaną macierz RAID5 z dwóch dysków (na trzecim na razie znajdują się dane), potem utworzyć wolumen LVM, sformatować go, przekopiować dane z pojedynczego dysku na macierz i dołączyć trzeci dysk do macierzy odbudowując parzystość. Zadanie będzie o tyle ciekawe że dysk ma 4KB sektory i trzeb będzie dbać o wyrównanie zasobu do rozmiaru sektora, a w przypadku LVM’a wyrównanie do chunk’a z macierzy.
-Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w górę), mamy spore szanse że trafimy na sztukę, która wykorzystuje 4KB sektory do alokacji danych....</p>
-</section>
-<footer class=entry-footer><span title="2012-11-07 00:00:00 +0000 UTC">2012-11-07</span>&nbsp;·&nbsp;15 min</footer>
-<a class=entry-link aria-label="post link to LVM na RAID5 i dysku z sektorami 4KB" href=https://timor.site/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

@@ -77,6 +77,18 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Command to change root password
+</h2>
+</header>
+<section class=entry-content>
+<p>Everybody knows passwd command but it’s useless when you need to change ex. root password from command line without waiting for input. In such case oneliner below could help:
+echo "root:new_password" | chpasswd </p>
+</section>
+<footer class=entry-footer><span title="2014-05-08 00:00:00 +0000 UTC">2014-05-08</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Command to change root password" href=https://timor.site/2014/05/command-to-change-root-password/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Install Steam on Debian/Ubuntu
 </h2>
 </header>
@@ -197,20 +209,6 @@ Składniki 4 zółtka, 4 łyżki wina białego lub czerwonego, 4 łyżki mąki. 
 </section>
 <footer class=entry-footer><span title="2014-02-26 00:00:00 +0000 UTC">2014-02-26</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Chrusty, faworki" href=https://timor.site/2014/02/chrusty-faworki/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Comparing two lists in bash
-</h2>
-</header>
-<section class=entry-content>
-<p>I had quite simple task - compare two lists of hosts and check if hosts from first one are also on the second one. I started with diff:
-diff -u biglist.txt hosts_to_check.txt | grep -E "^\+" It was fine but output needs some filtering to get what I want.
-I’ve found another example with grep:
-grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n This will search for all lines in hosts_to_check....</p>
-</section>
-<footer class=entry-footer><span title="2014-02-18 00:00:00 +0000 UTC">2014-02-18</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Comparing two lists in bash" href=https://timor.site/2014/02/comparing-two-lists-in-bash/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

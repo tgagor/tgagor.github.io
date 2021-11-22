@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>LVM na RAID5 i dysku z sektorami 4KB
+</h2>
+</header>
+<section class=entry-content>
+<p>Po zakupie nowych dysków zamierzam utworzyć zdegradowaną macierz RAID5 z dwóch dysków (na trzecim na razie znajdują się dane), potem utworzyć wolumen LVM, sformatować go, przekopiować dane z pojedynczego dysku na macierz i dołączyć trzeci dysk do macierzy odbudowując parzystość. Zadanie będzie o tyle ciekawe że dysk ma 4KB sektory i trzeb będzie dbać o wyrównanie zasobu do rozmiaru sektora, a w przypadku LVM’a wyrównanie do chunk’a z macierzy.
+Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w górę), mamy spore szanse że trafimy na sztukę, która wykorzystuje 4KB sektory do alokacji danych....</p>
+</section>
+<footer class=entry-footer><span title="2012-11-07 00:00:00 +0000 UTC">2012-11-07</span>&nbsp;·&nbsp;15 min</footer>
+<a class=entry-link aria-label="post link to LVM na RAID5 i dysku z sektorami 4KB" href=https://timor.site/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04
 </h2>
 </header>
@@ -182,17 +194,6 @@ Jest kilka narzędzi których można użyć do testowania linków na stronach - 
 </section>
 <footer class=entry-footer><span title="2012-09-18 00:00:00 +0000 UTC">2012-09-18</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Sprawdzanie nieaktywnych linków na stronie" href=https://timor.site/2012/09/sprawdzanie-nieaktywnych-linkow-na-stronie/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Generator kodów paskowych dla napędów taśmowych LTO
-</h2>
-</header>
-<section class=entry-content>
-<p>Jeśli posiadasz napęd taśmowy LTO do archiwizacji/backupu danych to wiesz że bardzo ważne jest opisywanie taśm szczególnie gdy trzeba coś odzyskać. Jeżeli masz szczęście to posiadasz nie pojedynczy napęd a autoloader obsługujący wiele taśm i wiesz że najlepiej gdy taśmy są opisane kodami paskowymi które autoloader potrafi rozpoznać. Dzięki temu nie ma potrzeby odczytywania nr. seryjnego z taśmy tylko szybciutko skanerem kodów. Tasiemki można kupować już z kodami ale tańsze są te bez kodów… i tu pytanie - czy da się tanio zdobyć etykiety?...</p>
-</section>
-<footer class=entry-footer><span title="2012-09-11 00:00:00 +0000 UTC">2012-09-11</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Generator kodów paskowych dla napędów taśmowych LTO" href=https://timor.site/2012/09/generator-kodow-paskowych-dla-napedow-tasmowych-lto/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

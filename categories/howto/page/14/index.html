@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Xen - Włączenie Live Migration
+</h2>
+</header>
+<section class=entry-content>
+<p>Jeżeli zdecydowaliśmy się na systemu DomU w obrazach to możemy korzystać z live migration. By uruchomić jej obsługę, trzeba w pliku /etc/xen/xend-config.sxp odkomentować odpowiednie linie i ustawić adres IP:
+(xend-relocation-server yes) (xend-relocation-port 8002) (xend-relocation-address '10.0.10.91') Wykonywanie migracji xm migrate --live nazwa-domu nazwa.lub.ip.zdalnego.hosta </p>
+</section>
+<footer class=entry-footer><span title="2012-02-25 00:00:00 +0000 UTC">2012-02-25</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Xen - Włączenie Live Migration" href=https://timor.site/2012/02/xen-wlaczenie-live-migration/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Xen na Squeeze - Instalowanie i konfiguracja hostów gości (DomU)
 </h2>
 </header>
@@ -190,18 +202,6 @@ Sam pewnie jeszcze nie raz zaktualizuję ten wpis 😄</p>
 </section>
 <footer class=entry-footer><span title="2012-01-11 00:00:00 +0000 UTC">2012-01-11</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Mój domyślny config dla SciTE" href=https://timor.site/2012/01/moj-domyslny-config-dla-scite/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Empathy - zamykanie okienka chatu przyciskiem Escape
-</h2>
-</header>
-<section class=entry-content>
-<p>W Gajim’ie od dawna brakowało mi wygodnego przeszukiwania po liście kontaktów (takiego jakie ma się pojawić już niebawem w wersji 0.15 - z półtora roku już na to czekam…). W między czasie znalazłem chwilę by pobawić się Empathy - brzydki, nie ma przeglądarki usług XMPP, ale wyszukiwanie na rosterze jest dokładnie takie jakiego szukałem (w miarę wpisywania znaków zawęża listę kontaktów by pasowały do wpisywanego wzorca).
-Tyle że skróty klawiaturowe w tym programie zwyczajnie mnie rozwalają - przez lata przyzwyczaiłem się że okienka czatu można zamknąć Escape’m - a tutaj nawet nie ma opcji, która pozwalała by na taką zmianę zachowania....</p>
-</section>
-<footer class=entry-footer><span title="2011-12-30 00:00:00 +0000 UTC">2011-12-30</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Empathy - zamykanie okienka chatu przyciskiem Escape" href=https://timor.site/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

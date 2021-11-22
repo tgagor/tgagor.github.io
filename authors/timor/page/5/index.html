@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Ansible on Vagrant - skipping: no hosts matched
+</h2>
+</header>
+<section class=entry-content>
+<p>I have some Ansible roles to configure my vps, Raspberry Pi, etc. I like to test them before I broke something on my real, not clustered machines - I use Vagrant for that.
+But with it I had one problem - in playbooks I define hosts as groups of severs ex. web for my vps:
+- hosts: web gather_facts: True sudo: True ... But testing machine wasn’t in this group and when I run vagrant I could only see:...</p>
+</section>
+<footer class=entry-footer><span title="2015-12-29 00:00:00 +0000 UTC">2015-12-29</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Ansible on Vagrant - skipping: no hosts matched" href=https://timor.site/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Apache - Force caching dynamic PHP content with mod_headers
 </h2>
 </header>
@@ -189,18 +202,6 @@ php -c /etc/php-cli.ini script.php But this a little burdensome. So I do it like
 </section>
 <footer class=entry-footer><span title="2014-05-08 00:00:00 +0000 UTC">2014-05-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Changing default php.ini file for PHP-CLI on CentOS" href=https://timor.site/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Command to change root password
-</h2>
-</header>
-<section class=entry-content>
-<p>Everybody knows passwd command but it’s useless when you need to change ex. root password from command line without waiting for input. In such case oneliner below could help:
-echo "root:new_password" | chpasswd </p>
-</section>
-<footer class=entry-footer><span title="2014-05-08 00:00:00 +0000 UTC">2014-05-08</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Command to change root password" href=https://timor.site/2014/05/command-to-change-root-password/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
