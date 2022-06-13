@@ -79,6 +79,19 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Apache - precompressing static files with gzip
+</h2>
+</header>
+<section class=entry-content>
+<p>Some time ago I’ve show how to precompress js and css file with gzip to be available for Nginx’s mod_gzip. In default configuration Apache don’t have such module but similar functionality could be achieved with few custom rewirtes.
+Basically we will start with these rewrites to serve gzipped CSS/JS files if they exist and the client accepts gzip compression:
+RewriteEngine on RewriteCond %{HTTP:Accept-encoding} gzip RewriteCond %{REQUEST_FILENAME}\.gz -s RewriteRule ^(.*)\.(js|css)$ $1\.$2\.gz [QSA] Then we need to setup proper content types for such compressed files - I know how to do this in two ways:...</p>
+</section>
+<footer class=entry-footer><span title="2013-12-27 00:00:00 +0000 UTC">2013-12-27</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Apache - precompressing static files with gzip" href=https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Android: Xposed + AppOps - reclaim control over installed applications permissions
 </h2>
 </header>
@@ -188,18 +201,6 @@ You could check what is you limit by issuing xfs_info with drive and searching f
 </section>
 <footer class=entry-footer><span title="2013-11-27 00:00:00 +0000 UTC">2013-11-27</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Inodes on XFS" href=https://timor.site/2013/11/inodes-on-xfs/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Kill with SIGSTOP and SIGCONT
-</h2>
-</header>
-<section class=entry-content>
-<p>I’ve bought a NAS and customized it a little. But there was one thing which make my nights sleepless. NAS was seeking disks every 5~10 seconds - these was really irritating - especially when it was silent in room. I found that part of firmware was indexing or logging something so I wanted it dead! kill -9 was unsuccessful - process restarted after a while…. wrrr…
-I googled a little and found another signal I could use SIGSTOP, which will freeze process until I send SIGCONT to it - that was exactly what I need (because I normally use NFS/Samba and don’t need nothing more running on this device)....</p>
-</section>
-<footer class=entry-footer><span title="2013-11-21 00:00:00 +0000 UTC">2013-11-21</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Kill with SIGSTOP and SIGCONT" href=https://timor.site/2013/11/kill-with-sigstop-and-sigcont/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

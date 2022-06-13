@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>fail2ban - block wp-login.php brute force attacks
+</h2>
+</header>
+<section class=entry-content>
+<p>Lately I had a lot of brute force attacks on my WordPress blog. I used basic auth to /wp-admin part in nginx configuration to block this and as a better solution I wan’t to block source IPs at all on firewall.
+To do this, place this filter code in /etc/fail2ban/filter.d/wp-login.conf:
+# WordPress brute force wp-login.php filter: # # Block IPs trying to authenticate in WordPress blog # # Matches e.g. # 178....</p>
+</section>
+<footer class=entry-footer><span title="2015-12-31 00:00:00 +0000 UTC">2015-12-31</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to fail2ban - block wp-login.php brute force attacks" href=https://timor.site/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Ansible on Vagrant - skipping: no hosts matched
 </h2>
 </header>
@@ -190,18 +203,6 @@ LOGGING = { 'version': 1, 'disable_existing_loggers': False, 'handlers': { 'cons
 </section>
 <footer class=entry-footer><span title="2014-05-28 00:00:00 +0000 UTC">2014-05-28</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Quickly setup SQL query logging on console in Django" href=https://timor.site/2014/05/quickly-setup-sql-query-logging-on-console-in-django/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Changing default php.ini file for PHP-CLI on CentOS
-</h2>
-</header>
-<section class=entry-content>
-<p>On Debian in default installation you have different configuration files for PHP in Apache, FPM, CLI, etc. But on CentOS you have only one php.ini for all of them. In case I have, I need to have different configuration file for scripts running in CLI mode (more memory, etc). I could run it like this:
-php -c /etc/php-cli.ini script.php But this a little burdensome. So I do it like this:...</p>
-</section>
-<footer class=entry-footer><span title="2014-05-08 00:00:00 +0000 UTC">2014-05-08</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Changing default php.ini file for PHP-CLI on CentOS" href=https://timor.site/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

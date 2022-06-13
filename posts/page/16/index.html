@@ -79,6 +79,18 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Xen - Włączenie Live Migration
+</h2>
+</header>
+<section class=entry-content>
+<p>Jeżeli zdecydowaliśmy się na systemu DomU w obrazach to możemy korzystać z live migration. By uruchomić jej obsługę, trzeba w pliku /etc/xen/xend-config.sxp odkomentować odpowiednie linie i ustawić adres IP:
+(xend-relocation-server yes) (xend-relocation-port 8002) (xend-relocation-address '10.0.10.91') Wykonywanie migracji xm migrate --live nazwa-domu nazwa.lub.ip.zdalnego.hosta </p>
+</section>
+<footer class=entry-footer><span title="2012-02-25 00:00:00 +0000 UTC">2012-02-25</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Xen - Włączenie Live Migration" href=https://timor.site/2012/02/xen-wlaczenie-live-migration/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Xen na Squeeze - Instalowanie i konfiguracja hostów gości (DomU)
 </h2>
 </header>
@@ -190,19 +202,6 @@ OIL - pojawia się przeważnie co 10 tys. km i wtedy gdy jeszcze nie trzeba wymi
 </section>
 <footer class=entry-footer><span title="2012-01-12 00:00:00 +0000 UTC">2012-01-12</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Skoda Fabia - Kasownie ostrzeżeń OIL i service INSP" href=https://timor.site/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Mój domyślny config dla SciTE
-</h2>
-</header>
-<section class=entry-content>
-<p>Uruchamiamy SciTE i klikamy menu Options -> Open User Options File, wpisujemy dane:
-# domyślne korzystanie z fontów o stałej szerokości font.base=$(font.monospace) font.small=$(font.monospace) font.comment=$(font.monospace) font.text=$(font.monospace) font.text.comment=$(font.monospace) font.embedded.base=$(font.monospace) font.embedded.comment=$(font.monospace) font.vbs=$(font.monospace) # numerowanie wierszy line.margin.visible=1 line.margin.width=3+ # ikonki toolbara z tematu systemowego toolbar.usestockicons=1 # zaznaczanie blokowe rectangular.selection.modifier=8 # ustawienia wgłębień kodu indent.size=4 use.tabs=1 indent.automatic=1 Więcej opcji tutaj: http://www.scintilla.org/SciTEDoc.html
-Sam pewnie jeszcze nie raz zaktualizuję ten wpis 😄</p>
-</section>
-<footer class=entry-footer><span title="2012-01-11 00:00:00 +0000 UTC">2012-01-11</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Mój domyślny config dla SciTE" href=https://timor.site/2012/01/moj-domyslny-config-dla-scite/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

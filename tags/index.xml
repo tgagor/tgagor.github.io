@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps</title>
+      <link>https://timor.site/tags/devops/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://timor.site/tags/docker/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://timor.site/tags/linux/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/linux/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>backup</title>
       <link>https://timor.site/tags/backup/</link>
@@ -23,15 +50,6 @@
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/debian/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://timor.site/tags/linux/</link>
-      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/linux/</guid>
       <description></description>
     </item>
     
@@ -131,15 +149,6 @@
       <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://timor.site/tags/docker/</link>
-      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/docker/</guid>
       <description></description>
     </item>
     
@@ -464,15 +473,6 @@
       <pubDate>Tue, 18 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/postfix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DevOps</title>
-      <link>https://timor.site/tags/devops/</link>
-      <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/devops/</guid>
       <description></description>
     </item>
     

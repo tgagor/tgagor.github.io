@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Piwik: śledzenie asynchroniczne + logowanie ksywy komentującego w WordPress’ie
+</h2>
+</header>
+<section class=entry-content>
+<p>Korzystam z instancji Piwik’a do monitorowania odwiedzin na stronie i postanowiłem pokombinować czy da się w ten sposób monitorować wejścia konkretnych osób na bazie wpisanego w polu komentarza loginu/ksywki. Jak zacząłem grzebać to przy okazji zmieniłem też sposób ładowania skryptów Piwika na asynchroniczny.
+A leci to mniej więcej tak:
+&lt;script type="text/javascript"> var i,x,y,ARRcookies=document.cookie.split(";"); var comment_author = ""; for (i=0;i&lt;ARRcookies.length;i++) { x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("=")); y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1); x=x.replace(/^\s+|\s+$/g,""); if (x.indexOf("comment_author") != -1 && x.indexOf("comment_author_email") == -1 && x....</p>
+</section>
+<footer class=entry-footer><span title="2012-12-21 00:00:00 +0000 UTC">2012-12-21</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Piwik: śledzenie asynchroniczne + logowanie ksywy komentującego w WordPress’ie" href=https://timor.site/2012/12/piwik-sledzenie-asynchroniczne-logowanie-ksywy-komentujacego-w-wordpressie/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Jak dokuczać spamerom
 </h2>
 </header>
@@ -182,17 +195,6 @@ Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w g�
 </section>
 <footer class=entry-footer><span title="2012-11-07 00:00:00 +0000 UTC">2012-11-07</span>&nbsp;·&nbsp;15 min</footer>
 <a class=entry-link aria-label="post link to LVM na RAID5 i dysku z sektorami 4KB" href=https://timor.site/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04
-</h2>
-</header>
-<section class=entry-content>
-<p>Po każdej aktualizacji Ubuntu mam trochę zabawy by pozbierać do kupy skaner i drukarkę z mojego urządzenia wielofunkcyjnego Brother DCP-130C. Wybrałem je bo był to jedyny producent, który deklarował wsparcie dla Linux’a… choć z perspektywy czasu nie jestem pewien czy otrzymałem to czego się spodziewałem… Co prawda zamieszczają instrukcje i aktualizują drivery ale jeszcze ani raz nie zdarzyło mi się by po aktualizacji systemu postępowanie według tych instrukcji zadziałało bez dodatkowej pomocy....</p>
-</section>
-<footer class=entry-footer><span title="2012-11-04 00:00:00 +0000 UTC">2012-11-04</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04" href=https://timor.site/2012/11/instalacja-drukarki-i-skanera-brother-dcp-130c-na-ubuntu-12-04/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

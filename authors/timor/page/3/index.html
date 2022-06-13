@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Prefer IPv4 over IPv6
+</h2>
+</header>
+<section class=entry-content>
+<p>I try to use IPv6 where it’s available but it’s sometimes so hard… It happen quite often that I can’t download packages from repos because they weren’t configured on IPv6 vhosts even when host is available via IPv6 address. For APT you may use this trick to force IPv4 connections only:
+echo 'Acquire::ForceIPv4 "true";' > /etc/apt/apt.conf.d/99force-ipv4 If you need more than that, then gai.conf will allow you to filter where you will be connecting via IPv4 and where via IPv6 - in example bellow you will prefer IPv4 whenever it’s available:...</p>
+</section>
+<footer class=entry-footer><span title="2016-03-29 00:00:00 +0000 UTC">2016-03-29</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Prefer IPv4 over IPv6" href=https://timor.site/2016/03/prefer-ipv4-over-ipv6/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>List octal file permissions in bash
 </h2>
 </header>
@@ -200,19 +212,6 @@ sudo apt-add-repository ppa:pipelight/stable sudo apt-get update sudo apt-get in
 </section>
 <footer class=entry-footer><span title="2016-02-09 00:00:00 +0000 UTC">2016-02-09</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu" href=https://timor.site/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Intel Dual Band Wireless-AC 7260 for Desktop on Linux
-</h2>
-</header>
-<section class=entry-content>
-<p>I just bought new wifi card for my desktop computer. Like in topic, it’s Intel Dual Band Wireless-AC 7260 for Desktop.
-I was searching for card that:
-support AC standard have 5GHz network support (2,4GHz channels are cluttered heavily in my neighborhood have PCI/PCIx or USB3 connector is Linux friendly (no modules compilation by hand, support for aircrack-ng, kismet) This one is the only I found that comply my expectations....</p>
-</section>
-<footer class=entry-footer><span title="2016-02-06 00:00:00 +0000 UTC">2016-02-06</span>&nbsp;·&nbsp;3 min</footer>
-<a class=entry-link aria-label="post link to Intel Dual Band Wireless-AC 7260 for Desktop on Linux" href=https://timor.site/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
