@@ -16,7 +16,8 @@
       <guid>https://timor.site/2022/06/back-on-the-big-stage/</guid>
       <description>I&amp;rsquo;m back on the big stage!
 I haven&amp;rsquo;t attend any big conferences as presenter for some time, but this year will change it. I&amp;rsquo;m starting big, with a talk: Docker base images - Ideas how to manage them on scale on Devoxx conference in Kraków, that will take place on 22-24th June 2022.
-Want to meet? Meet there 😄</description>
+Want to meet? Meet there 😄
+Update I uploaded slides from presentation to my Github account.</description>
     </item>
     
     <item>
@@ -99,7 +100,7 @@ I found new place accidentally, reading some news about CentOS Stream 9 on their
       <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/projects/</guid>
-      <description>Github repositories  tgagor/ansible-role-docker - Installs Docker service on Ubuntu/Debian/RHEL tgagor/ansible-role-docker-compose - Simple Ansible role that will install Docker Compose tgagor/ansible-role-spotify tgagor/ansible-role-template-with-molecule-tests - Template for Ansible role with Molecule and Testinfra for testing tgagor/docker-centos - CentOS docker images, build weekly with latest security updates tgagor/docker-clamav - Simple Docker image that might be used in CI/CD tgagor/docker-grype - Docker image with anchore/grype tgagor/docker-jpegtran - Simple Docker image with jpegtran executable. Useful for CI/CD image optimization.</description>
+      <description>Github repositories  tgagor/ansible-role-docker - Installs Docker service on Ubuntu/Debian/RHEL tgagor/ansible-role-docker-compose - Simple Ansible role that will install Docker Compose tgagor/ansible-role-spotify tgagor/ansible-role-template-with-molecule-tests - Template for Ansible role with Molecule and Testinfra for testing tgagor/conferences - Presentations and materials from conferences where I attended as a speaker tgagor/docker-centos - CentOS docker images, build weekly with latest security updates tgagor/docker-clamav - Simple Docker image that might be used in CI/CD tgagor/docker-grype - Docker image with anchore/grype tgagor/docker-jpegtran - Simple Docker image with jpegtran executable.</description>
     </item>
     
     <item>
