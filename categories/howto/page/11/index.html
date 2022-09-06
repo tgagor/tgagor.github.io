@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Automatically compact CouchDB databases in version 0.11.x
+</h2>
+</header>
+<section class=entry-content>
+<p>CouchDB databases on version 0.11.x swell very fast. They should be compacted daily for best performance and space usage. Here is my script that could be run in cron and will compact all databases:
+#!/bin/bash IP="10.0.0.121" DBS=`curl -sS -X GET http://$IP:5984/_all_dbs | sed -r "s/([,\"[])|(\])+/ /g"` for d in $DBS; do curl -H "Content-Type: application/json" -X POST http://$IP:5984/$d/_compact done More informations about compacting could be found here (also for version 1....</p>
+</section>
+<footer class=entry-footer><span title="2012-11-08 00:00:00 +0000 UTC">2012-11-08</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Automatically compact CouchDB databases in version 0.11.x" href=https://timor.site/2012/11/automatically-compact-couchdb-databases-in-0-11-x/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>LVM na RAID5 i dysku z sektorami 4KB
 </h2>
 </header>
@@ -182,18 +194,6 @@ Zachowanie to zmieniło się na Vistach i 7-kach, które są nieco mniej rozmown
 </section>
 <footer class=entry-footer><span title="2012-09-20 00:00:00 +0000 UTC">2012-09-20</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to GPO: Windows 7 - postęp przetwarzania polityk przy starcie systemu" href=https://timor.site/2012/09/gpo-windows-7-postep-przetwarzania-polityk-przy-starcie-systemu/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Sprawdzanie nieaktywnych linków na stronie
-</h2>
-</header>
-<section class=entry-content>
-<p>Gdy administruje się dużymi stronami internetowymi raz na czas np. po większych zmianach w konfiguracji zachodzi potrzeba sprawdzenia czy na stronie nie ma stron prowadzących donikąd. O ile w małych serwisach można samemu szybko przeklikać się przez stronkę to dla starych rozrośniętych serwisów nie jest to takie proste.
-Jest kilka narzędzi których można użyć do testowania linków na stronach - każde z nich ma swoje zalety i wady, postaram się je przybliżyć....</p>
-</section>
-<footer class=entry-footer><span title="2012-09-18 00:00:00 +0000 UTC">2012-09-18</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Sprawdzanie nieaktywnych linków na stronie" href=https://timor.site/2012/09/sprawdzanie-nieaktywnych-linkow-na-stronie/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

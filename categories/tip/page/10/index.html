@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Wstępne ładowanie programów przy starcie z ureadahead
+</h2>
+</header>
+<section class=entry-content>
+<p>Jakiś czas temu korzystałem z preload’a który sam uczył się jakie aplikacje odpalam i te programy ładował już podczas startu - przeważnie nieco spowalnia to start systemu ale gdy już się załaduje to programy, które uruchamiam jako pierwsze startują “z kopa”. Od jakiegoś czasu popularniejszy jest instalowany domyślnie w Ubuntu ureadahead - pełni on podobną funkcję jak preload.
+Można zmusić ureadahead do ponownego wygenerowania nowej listy programów wczytywanych przy starcie do cache a oto jak zrobić:...</p>
+</section>
+<footer class=entry-footer><span title="2012-01-24 00:00:00 +0000 UTC">2012-01-24</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Wstępne ładowanie programów przy starcie z ureadahead" href=https://timor.site/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Długie oczekiwanie na nawiązanie połączenia ssh
 </h2>
 </header>
@@ -190,19 +202,6 @@ Na szczęście dostępne jest narzędzie pflogsumm, które wygeneruje nam dość
 </section>
 <footer class=entry-footer><span title="2011-09-22 00:00:00 +0000 UTC">2011-09-22</span>&nbsp;·&nbsp;3 min</footer>
 <a class=entry-link aria-label="post link to pflogsumm - statystyki poczty dla postfix’a" href=https://timor.site/2011/09/pflogsum-statystyki-poczty-dla-postfixa/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed
-</h2>
-</header>
-<section class=entry-content>
-<p>Miałem ostatnio dziwną przygodę: pewien serwer do backupu gdzie ląduje dużo małych plików i dodatkowo tworzonych jest sporo hardlinków zaliczył pada. Co prawda starałem się go grzecznie położyć z pomocą Magic SysRq ale ponieważ nie wiedziałem co było przyczyną awarii fsck wydawał się wskazany.
-Podczas próby uruchomienia fsck.ext4 na systemie plików o rozmiarze ok 14TB z kilkuset milionami plików po kilkudziesięciu sekundach otrzymywałem komunikat:
-Błąd podczas przydzielania struktury icount: Memory allocation failed...</p>
-</section>
-<footer class=entry-footer><span title="2011-09-21 00:00:00 +0000 UTC">2011-09-21</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed" href=https://timor.site/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

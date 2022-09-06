@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Rebuild yum/rpm database
+</h2>
+</header>
+<section class=entry-content>
+<p>When I was trying to update packages on one host I’ve stuck with yum hung on update. I run strace and see:
+strace -p 43734 Process 43734 attached - interrupt to quit futex(0x807c938, FUTEX_WAIT, 1, NULL &lt;unfinished ...> Process 43734 detached It looks like yum database was corrupted, to repair this run:
+rm -f /var/lib/rpm/__db* rpm --rebuilddb yum clean all yum update Instead rm on db-files you could use gzip to have backup of these files....</p>
+</section>
+<footer class=entry-footer><span title="2014-04-04 00:00:00 +0000 UTC">2014-04-04</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Rebuild yum/rpm database" href=https://timor.site/2014/04/rebuild-yum-rpm-database/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Nagios - run checks as root with NRPE
 </h2>
 </header>
@@ -202,17 +215,6 @@ sudo apt-get update sudo apt-get install mariadb-server It could be better to in
 </section>
 <footer class=entry-footer><span title="2014-01-24 00:00:00 +0000 UTC">2014-01-24</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Debian - Upgrade MySQL to MariaDB" href=https://timor.site/2014/01/debian-upgrade-mysql-to-mariadb/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Nginx - enabling SPDY with freeware certificate
-</h2>
-</header>
-<section class=entry-content>
-<p>I was thinking about allowing access to my website using SPDY protocol for better performance and security (and for fun of course 😃 ). But SPDY have one disadvantage - you need SSL certificate signed by known authority that will verfiy in common browsers. So you can’t use self signed certificates because everyone will see a warning entering your site. Certs are quite expensive so I started searching for free one and to my surprise I found such!...</p>
-</section>
-<footer class=entry-footer><span title="2014-01-24 00:00:00 +0000 UTC">2014-01-24</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Nginx - enabling SPDY with freeware certificate" href=https://timor.site/2014/01/nginx-enabling-spdy-with-freeware-certificate/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

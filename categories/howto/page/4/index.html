@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Apache - Force caching dynamic PHP content with mod_headers
+</h2>
+</header>
+<section class=entry-content>
+<p>Normally you want dynamic content to be fresh and not catchable. But sometimes it may be useful to cache it, like when you have website behind reverse proxy. To do this try something like this:
+&lt;filesmatch "\.(php|cgi|pl)$"> Header unset Pragma Header unset Expires Header set Cache-Control "max-age=3600, public" &lt;/filesmatch> Sources http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html</p>
+</section>
+<footer class=entry-footer><span title="2015-12-29 00:00:00 +0000 UTC">2015-12-29</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Apache - Force caching dynamic PHP content with mod_headers" href=https://timor.site/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>MySQL - reset root password
 </h2>
 </header>
@@ -190,19 +202,6 @@ apt-get install adobe-flashplugin:i386 After Ubuntu upgrade I was unable to run 
 </section>
 <footer class=entry-footer><span title="2014-04-22 00:00:00 +0000 UTC">2014-04-22</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Install Steam on Debian/Ubuntu" href=https://timor.site/2014/04/install-steam-on-debian-ubuntu/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Rebuild yum/rpm database
-</h2>
-</header>
-<section class=entry-content>
-<p>When I was trying to update packages on one host I’ve stuck with yum hung on update. I run strace and see:
-strace -p 43734 Process 43734 attached - interrupt to quit futex(0x807c938, FUTEX_WAIT, 1, NULL &lt;unfinished ...> Process 43734 detached It looks like yum database was corrupted, to repair this run:
-rm -f /var/lib/rpm/__db* rpm --rebuilddb yum clean all yum update Instead rm on db-files you could use gzip to have backup of these files....</p>
-</section>
-<footer class=entry-footer><span title="2014-04-04 00:00:00 +0000 UTC">2014-04-04</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Rebuild yum/rpm database" href=https://timor.site/2014/04/rebuild-yum-rpm-database/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

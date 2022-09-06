@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu
+</h2>
+</header>
+<section class=entry-content>
+<p>From few days I have access to UPC’s www.horizon.tv platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it’s working pretty well - you’re just few commands away from achieving that:
+# stop browser killall firefox # remove old version if you have it sudo apt-get remove pipelight Now configure repos and install packages:
+sudo apt-add-repository ppa:pipelight/stable sudo apt-get update sudo apt-get install --install-recommends pipelight-multi sudo pipelight-plugin --update Enable plugin (run it with sudo for system wide installation):...</p>
+</section>
+<footer class=entry-footer><span title="2016-02-09 00:00:00 +0000 UTC">2016-02-09</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu" href=https://timor.site/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Intel Dual Band Wireless-AC 7260 for Desktop on Linux
 </h2>
 </header>
@@ -193,18 +206,6 @@ Installation of collectd is easy on Debian because packages are in default repo.
 </section>
 <footer class=entry-footer><span title="2016-01-08 00:00:00 +0000 UTC">2016-01-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to CollectD - installation and configuration with InfluxDB on Debian/Ubuntu" href=https://timor.site/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Let’s Encrypt - without auto configuration
-</h2>
-</header>
-<section class=entry-content>
-<p>From the first moment I heard about Let’s Encrypt I liked it and wanted to use it as fast as possible. But the more I read how they want to implement it, the more I dislike it.
-Current project with automatic configuration is not what I want to use at all. I have many very complicated configs and I do not trust such tools enough to use them. I like UNIX’s single purpose principle, tools should do one thing and do it well - nothing more....</p>
-</section>
-<footer class=entry-footer><span title="2016-01-04 00:00:00 +0000 UTC">2016-01-04</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Let’s Encrypt - without auto configuration" href=https://timor.site/2016/01/lets-encrypt-without-auto-configuration/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

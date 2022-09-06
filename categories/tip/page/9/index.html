@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Wymuszenie fsck po restarcie
+</h2>
+</header>
+<section class=entry-content>
+<p>Jeżeli chcemy by po ponownym uruchomieniu w czasie startu zostały sprawdzone wszystkie dyski narzędziem to można to osiągnąć na dwa sposoby. Zawsze gdy tego potrzebuję zastanawiam się tylko jaki plik trzeba było utworzyć… forcefsck, fsck, fsckforce… więc notuję 😉
+Utworzenie pliku /forcefsck Pierwsza metoda polega na utworzeniu pliku forcefsck w głównym katalog, robimy to poniższym poleceniem:
+sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F polecenia shutdown ale nie działa na wszystkich dystrybucjach (w takiej sytuacji patrz pierwsza metoda):...</p>
+</section>
+<footer class=entry-footer><span title="2012-09-08 00:00:00 +0000 UTC">2012-09-08</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Wymuszenie fsck po restarcie" href=https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Moje ulubione aplikacje na Android’a
 </h2>
 </header>
@@ -187,18 +200,6 @@ mkdir /etc/xen/auto ln -s /etc/xen/example.cfg /etc/xen/auto/example.cfg Od tera
 </section>
 <footer class=entry-footer><span title="2012-02-25 00:00:00 +0000 UTC">2012-02-25</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Xen - Włączenie Live Migration" href=https://timor.site/2012/02/xen-wlaczenie-live-migration/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Wstępne ładowanie programów przy starcie z ureadahead
-</h2>
-</header>
-<section class=entry-content>
-<p>Jakiś czas temu korzystałem z preload’a który sam uczył się jakie aplikacje odpalam i te programy ładował już podczas startu - przeważnie nieco spowalnia to start systemu ale gdy już się załaduje to programy, które uruchamiam jako pierwsze startują “z kopa”. Od jakiegoś czasu popularniejszy jest instalowany domyślnie w Ubuntu ureadahead - pełni on podobną funkcję jak preload.
-Można zmusić ureadahead do ponownego wygenerowania nowej listy programów wczytywanych przy starcie do cache a oto jak zrobić:...</p>
-</section>
-<footer class=entry-footer><span title="2012-01-24 00:00:00 +0000 UTC">2012-01-24</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Wstępne ładowanie programów przy starcie z ureadahead" href=https://timor.site/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

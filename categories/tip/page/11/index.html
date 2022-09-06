@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed
+</h2>
+</header>
+<section class=entry-content>
+<p>Miałem ostatnio dziwną przygodę: pewien serwer do backupu gdzie ląduje dużo małych plików i dodatkowo tworzonych jest sporo hardlinków zaliczył pada. Co prawda starałem się go grzecznie położyć z pomocą Magic SysRq ale ponieważ nie wiedziałem co było przyczyną awarii fsck wydawał się wskazany.
+Podczas próby uruchomienia fsck.ext4 na systemie plików o rozmiarze ok 14TB z kilkuset milionami plików po kilkudziesięciu sekundach otrzymywałem komunikat:
+Błąd podczas przydzielania struktury icount: Memory allocation failed...</p>
+</section>
+<footer class=entry-footer><span title="2011-09-21 00:00:00 +0000 UTC">2011-09-21</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed" href=https://timor.site/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Magic SysRq - bezpieczny reset Linux’a
 </h2>
 </header>

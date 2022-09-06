@@ -77,6 +77,19 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Xen - Podstawowe polecenia
+</h2>
+</header>
+<section class=entry-content>
+<p>Pisałem już HOWTO o konfiguracji Xen’a ale nie opisałem jak się bawić wirtualkami gdy Xen’a już mamy. To nadrabiam.
+Tworzenie i usuwanie maszyn wirtualnych Do tworzenia/niszczenia DomU wykorzystuję pakiet xen-tools dostarczający m.in. dwa narzędzia:
+xen-create - dla którego przygotowałem dość skomplikowaną konfigurację przy okazji wcześniejszego posta: Instalacja i konfiguracja DomU. Przykład użycia: xen-create --hostname example-domu --ip 10.0.0.77 \ --gateway 10.0.0.1 --broadcast 10.0.0.255 --netmask 255.255.255.0 \ --bridge br10 --vcpus 2 --memory=2G xen-delete-image - narzędzie do kasowania wirtualnych maszyn....</p>
+</section>
+<footer class=entry-footer><span title="2012-06-19 00:00:00 +0000 UTC">2012-06-19</span>&nbsp;·&nbsp;3 min</footer>
+<a class=entry-link aria-label="post link to Xen - Podstawowe polecenia" href=https://timor.site/2012/06/xen-podstawowe-polecenia/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Nginx - ustawienie domyślnego vhosta
 </h2>
 </header>
@@ -186,18 +199,6 @@ dpkg-reconfigure openssh-server I na koniec restartujemy usługę by załadować
 </section>
 <footer class=entry-footer><span title="2012-02-27 00:00:00 +0000 UTC">2012-02-27</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Ponowne wygenerowanie kluczy serwera OpenSSH" href=https://timor.site/2012/02/ponowne-wygenerowanie-kluczy-serwera-openssh/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Xen - ustawienie autostartu DomU
-</h2>
-</header>
-<section class=entry-content>
-<p>Aby wybrane systemy DomU startowały automatycznie po restarcie hypervisora należy podlinkować ich pliki konfiguracyjne w katalogu /etc/xen/auto po uprzednim jego utworzeniu. Przykładowo:
-mkdir /etc/xen/auto ln -s /etc/xen/example.cfg /etc/xen/auto/example.cfg Od teraz DomU example będzie startować automatycznie.</p>
-</section>
-<footer class=entry-footer><span title="2012-02-27 00:00:00 +0000 UTC">2012-02-27</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Xen - ustawienie autostartu DomU" href=https://timor.site/2012/02/xen-ustawienie-autostartu-domu/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

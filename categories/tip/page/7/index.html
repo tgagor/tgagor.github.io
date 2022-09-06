@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>DFS - sprawdzanie statusu replikacji
+</h2>
+</header>
+<section class=entry-content>
+<p>Ostatnio zbyt dużo grzebię przy “windach” - ale cóż, czasem trzeba. Ostatnio ustawiałem DFS’a z replikacją dla dwóch sporych zasobów i jedna z rzeczy, o którą się rozbiłem to brak jakiegokolwiek podglądu tej synchronizacji z GUI. Ale znalazłem jedno polecenie, które działa w shellu (choć to się chyba batch tutaj nazywa) od Windows Server 2008 R2:
+dfsrdiag ReplicationState /member:nazwaservera Polecenie co prawda nie podaje postępu procentowego ale można zobaczyć “czy coś jeszcze się synchronizuje” i czy nie ma żadnych błędów....</p>
+</section>
+<footer class=entry-footer><span title="2013-09-04 00:00:00 +0000 UTC">2013-09-04</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to DFS - sprawdzanie statusu replikacji" href=https://timor.site/2013/09/dfs-sprawdzanie-statusu-replikacji/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>logrotate: kompresja logów xz
 </h2>
 </header>
@@ -190,19 +202,6 @@ A leci to mniej więcej tak:
 </section>
 <footer class=entry-footer><span title="2012-12-17 00:00:00 +0000 UTC">2012-12-17</span>&nbsp;·&nbsp;3 min</footer>
 <a class=entry-link aria-label="post link to Nginx - kompresowanie plików dla gzip_static" href=https://timor.site/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Python - wysyłanie maili w unicode
-</h2>
-</header>
-<section class=entry-content>
-<p>Chciałem wysłać z Python’a maila z krzakami tab by ładnie się wyświetlały i okazało się to całkiem nietrywialne.
-Na szczęście googiel podpowiedział mi doskonałego gotowca, którego zamierzam zapisać by mi nie zginął:
-#!/usr/bin/env python # -*- coding: utf-8 -*- import smtplib from email.mime.text import MIMEText from email.Header import Header from email.Utils import parseaddr, formataddr def send_email(sender, recipient, subject, body): """Send an email. All arguments should be Unicode strings (plain ASCII works as well)....</p>
-</section>
-<footer class=entry-footer><span title="2012-12-10 00:00:00 +0000 UTC">2012-12-10</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Python - wysyłanie maili w unicode" href=https://timor.site/2012/12/python-wysylanie-maili-w-unicode/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

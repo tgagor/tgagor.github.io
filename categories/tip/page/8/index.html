@@ -78,6 +78,19 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Python - wysyłanie maili w unicode
+</h2>
+</header>
+<section class=entry-content>
+<p>Chciałem wysłać z Python’a maila z krzakami tab by ładnie się wyświetlały i okazało się to całkiem nietrywialne.
+Na szczęście googiel podpowiedział mi doskonałego gotowca, którego zamierzam zapisać by mi nie zginął:
+#!/usr/bin/env python # -*- coding: utf-8 -*- import smtplib from email.mime.text import MIMEText from email.Header import Header from email.Utils import parseaddr, formataddr def send_email(sender, recipient, subject, body): """Send an email. All arguments should be Unicode strings (plain ASCII works as well)....</p>
+</section>
+<footer class=entry-footer><span title="2012-12-10 00:00:00 +0000 UTC">2012-12-10</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Python - wysyłanie maili w unicode" href=https://timor.site/2012/12/python-wysylanie-maili-w-unicode/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>ldapsearch w Active Directory
 </h2>
 </header>
@@ -184,19 +197,6 @@ Nie lubię gnome-terminal'a bo domyślnie binduje F10 co wnerwia mnie w midnight
 </section>
 <footer class=entry-footer><span title="2012-09-09 00:00:00 +0000 UTC">2012-09-09</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to unicode-rxvt - moje ustawienia" href=https://timor.site/2012/09/unicode-rxvt-moje-ustawienia/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Wymuszenie fsck po restarcie
-</h2>
-</header>
-<section class=entry-content>
-<p>Jeżeli chcemy by po ponownym uruchomieniu w czasie startu zostały sprawdzone wszystkie dyski narzędziem to można to osiągnąć na dwa sposoby. Zawsze gdy tego potrzebuję zastanawiam się tylko jaki plik trzeba było utworzyć… forcefsck, fsck, fsckforce… więc notuję 😉
-Utworzenie pliku /forcefsck Pierwsza metoda polega na utworzeniu pliku forcefsck w głównym katalog, robimy to poniższym poleceniem:
-sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F polecenia shutdown ale nie działa na wszystkich dystrybucjach (w takiej sytuacji patrz pierwsza metoda):...</p>
-</section>
-<footer class=entry-footer><span title="2012-09-08 00:00:00 +0000 UTC">2012-09-08</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Wymuszenie fsck po restarcie" href=https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

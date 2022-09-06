@@ -78,6 +78,20 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Mass replace in WordPress posts via MySQL query
+</h2>
+</header>
+<section class=entry-content>
+<p>I was doing a lot of changes to my old posts, switched to HTTPS, etc. Sometimes it was useful to change some particular text in all my old posts at a time, but there is no such feature in WordPress. But WordPress runs on MySQL and I could use SQL query to update such posts.
+Make backup - it’s not required but strongly advised 😃
+Now use this query as template to replace in place whatever you need:
+...</p>
+</section>
+<footer class=entry-footer><span title="2016-02-09 00:00:00 +0000 UTC">2016-02-09</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Mass replace in WordPress posts via MySQL query" href=https://timor.site/2016/02/mass-replace-in-wordpress-posts-via-mysql-query/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu
 </h2>
 </header>
@@ -190,20 +204,6 @@ shutdown db service mysql stop create text file with command like this (update u
 </section>
 <footer class=entry-footer><span title="2015-12-28 00:00:00 +0000 UTC">2015-12-28</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to MySQL - reset root password" href=https://timor.site/2015/12/mysql-reset-root-password/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Rotate movies
-</h2>
-</header>
-<section class=entry-content>
-<p>I hate movies recorded on phone in vertical position. This just short tip how I dealt with with it last time:
-for m in *.mp4 do avconv -i $m -vf "transpose=1" -codec:a copy -codec:v libx264 -preset slow -crf 23 rotated-$m done Other examples:
-http://stackoverflow.com/questions/3937387/rotating-videos-with-ffmpeg
-http://superuser.com/questions/578321/how-to-flip-a-video-180°-vertical-upside-down-with-ffmpeg</p>
-</section>
-<footer class=entry-footer><span title="2015-12-28 00:00:00 +0000 UTC">2015-12-28</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Rotate movies" href=https://timor.site/2015/12/rotate-movies/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

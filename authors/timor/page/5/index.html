@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Let’s Encrypt - without auto configuration
+</h2>
+</header>
+<section class=entry-content>
+<p>From the first moment I heard about Let’s Encrypt I liked it and wanted to use it as fast as possible. But the more I read how they want to implement it, the more I dislike it.
+Current project with automatic configuration is not what I want to use at all. I have many very complicated configs and I do not trust such tools enough to use them. I like UNIX’s single purpose principle, tools should do one thing and do it well - nothing more....</p>
+</section>
+<footer class=entry-footer><span title="2016-01-04 00:00:00 +0000 UTC">2016-01-04</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Let’s Encrypt - without auto configuration" href=https://timor.site/2016/01/lets-encrypt-without-auto-configuration/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>fail2ban - block wp-login.php brute force attacks
 </h2>
 </header>
@@ -191,18 +203,6 @@ sgdisk -R /dev/sd_dest /dev/sd_src sgdisk -G /dev/sd_dest First command will cop
 </section>
 <footer class=entry-footer><span title="2014-07-28 00:00:00 +0000 UTC">2014-07-28</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Copy GTP partiotion table between disks" href=https://timor.site/2014/07/copy-gtp-partiotion-table-between-disks/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Quickly setup SQL query logging on console in Django
-</h2>
-</header>
-<section class=entry-content>
-<p>There is need plugin for Django, named django-debug-toolbar but it needs some time to configure. So when I need simple way to debug SQL queries I use small hack. Add to your settings.py:
-LOGGING = { 'version': 1, 'disable_existing_loggers': False, 'handlers': { 'console': { 'level': 'DEBUG', 'class': 'logging.StreamHandler', } }, 'loggers': { 'django.db.backends': { 'handlers': ['console'], 'level': 'DEBUG', }, } } To get this working DEBUG option have to be set to True:...</p>
-</section>
-<footer class=entry-footer><span title="2014-05-28 00:00:00 +0000 UTC">2014-05-28</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Quickly setup SQL query logging on console in Django" href=https://timor.site/2014/05/quickly-setup-sql-query-logging-on-console-in-django/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

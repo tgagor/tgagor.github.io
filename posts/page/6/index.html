@@ -79,6 +79,18 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Quickly setup SQL query logging on console in Django
+</h2>
+</header>
+<section class=entry-content>
+<p>There is need plugin for Django, named django-debug-toolbar but it needs some time to configure. So when I need simple way to debug SQL queries I use small hack. Add to your settings.py:
+LOGGING = { 'version': 1, 'disable_existing_loggers': False, 'handlers': { 'console': { 'level': 'DEBUG', 'class': 'logging.StreamHandler', } }, 'loggers': { 'django.db.backends': { 'handlers': ['console'], 'level': 'DEBUG', }, } } To get this working DEBUG option have to be set to True:...</p>
+</section>
+<footer class=entry-footer><span title="2014-05-28 00:00:00 +0000 UTC">2014-05-28</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Quickly setup SQL query logging on console in Django" href=https://timor.site/2014/05/quickly-setup-sql-query-logging-on-console-in-django/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Changing default php.ini file for PHP-CLI on CentOS
 </h2>
 </header>
@@ -196,21 +208,6 @@ postfix reload Test if it works:...</p>
 </section>
 <footer class=entry-footer><span title="2014-03-18 00:00:00 +0000 UTC">2014-03-18</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Postfix - automatically drop outbound mail" href=https://timor.site/2014/03/postfix-automatically-drop-outbound-mail/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Ansible - ssh pipelining
-</h2>
-</header>
-<section class=entry-content>
-<p>In recent Ansible update to 1.5 version there is really nice feature ssh pipelining. This option is serious alternative to accelerated mode.
-Just add to you config file (ex. ~/.ansible.cfg):
-[ssh_connection] pipelining=True Now run any playbook - you will see the difference 😄
-Source (and extended info about):
-http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansible-1-5/</p>
-</section>
-<footer class=entry-footer><span title="2014-03-04 00:00:00 +0000 UTC">2014-03-04</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Ansible - ssh pipelining" href=https://timor.site/2014/03/ansible-ssh-pipelining/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

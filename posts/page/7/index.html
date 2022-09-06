@@ -79,6 +79,21 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Ansible - ssh pipelining
+</h2>
+</header>
+<section class=entry-content>
+<p>In recent Ansible update to 1.5 version there is really nice feature ssh pipelining. This option is serious alternative to accelerated mode.
+Just add to you config file (ex. ~/.ansible.cfg):
+[ssh_connection] pipelining=True Now run any playbook - you will see the difference 😄
+Source (and extended info about):
+http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansible-1-5/</p>
+</section>
+<footer class=entry-footer><span title="2014-03-04 00:00:00 +0000 UTC">2014-03-04</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Ansible - ssh pipelining" href=https://timor.site/2014/03/ansible-ssh-pipelining/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Chrusty, faworki
 </h2>
 </header>
@@ -190,19 +205,6 @@ First - with switch statement var iterations = Math.ceil(values.length / 8); var
 </section>
 <footer class=entry-footer><span title="2014-01-07 00:00:00 +0000 UTC">2014-01-07</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Loop unlooping in Javascript" href=https://timor.site/2014/01/loop-unlooping-in-javascript/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Tracking users by nickname on WordPress using Google Analytics
-</h2>
-</header>
-<section class=entry-content>
-<p>Some time ago I write article about tracking nicknames of users (from comments) on a WordPress blog with Piwik. This time I’m doing same but for Google Analytics.
-I’m using Google Analytics plugin for WordPress so I’ve edited googleanalytics.php file to add some additional code for user tracking:
-&lt;script type="text/javascript"> var i,x,y,ARRcookies=document.cookie.split(";"); var comment_author = ""; for (i=0;i&lt;ARRcookies.length;i++) { x=ARRcookies[i].substr(0,ARRcookies[i].indexOf("=")); y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1); x=x.replace(/^\s+|\s+$/g,""); if (x.indexOf("comment_author") != -1 && x.indexOf("comment_author_email") == -1 && x....</p>
-</section>
-<footer class=entry-footer><span title="2014-01-07 00:00:00 +0000 UTC">2014-01-07</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Tracking users by nickname on WordPress using Google Analytics" href=https://timor.site/2014/01/tracking-users-by-nickname-on-wordpress-using-google-analytics/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

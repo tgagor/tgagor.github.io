@@ -78,6 +78,21 @@
 </header>
 <article class="post-entry tag-entry">
 <figure class=entry-cover>
+<img loading=lazy srcset="https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/cover_hub1a5d4fec570ffc2647dd11090f902e8_34566_360x0_resize_q75_box.jpg 360w ,https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/cover_hub1a5d4fec570ffc2647dd11090f902e8_34566_480x0_resize_q75_box.jpg 480w ,https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/cover_hub1a5d4fec570ffc2647dd11090f902e8_34566_720x0_resize_q75_box.jpg 720w ,https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/cover.jpg 720w" sizes="(min-width: 768px) 720px, 100vw" src=https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/cover.jpg alt width=720 height=300>
+</figure>
+<header class=entry-header>
+<h2>How to run JMX monitoring in Docker image?
+</h2>
+</header>
+<section class=entry-content>
+<p>It’s sometimes useful to quickly connect to JMX console, to checkout what’s going on in your application, but the whole thing get’s tricky if you’re running your app in a container. I need it from time to time and I keep myself few times searching for set of params below:
+~/2021/02/how-to-run-jmx-monitoring-in-docker-image/ java \ ... -Dcom.sun.management.jmxremote \ -Dcom.sun.management.jmxremote.rmi.port=${PORT1} \ -Dcom.sun.management.jmxremote.port=${PORT1} \ -Dcom.sun.management.jmxremote.local.only=false \ -Dcom.sun.management.jmxremote.authenticate=false \ -Dcom.sun.management.jmxremote.ssl=false \ -Djava....</p>
+</section>
+<footer class=entry-footer><span title="2021-02-19 00:00:00 +0000 UTC">2021-02-19</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to How to run JMX monitoring in Docker image?" href=https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/></a>
+</article>
+<article class="post-entry tag-entry">
+<figure class=entry-cover>
 <img loading=lazy srcset="https://timor.site/2021/02/centos-8-stream-docker-image/cover_hu3d03a01dcc18bc5be0e67db3d8d209a6_80942_360x0_resize_q75_box.jpg 360w ,https://timor.site/2021/02/centos-8-stream-docker-image/cover_hu3d03a01dcc18bc5be0e67db3d8d209a6_80942_480x0_resize_q75_box.jpg 480w ,https://timor.site/2021/02/centos-8-stream-docker-image/cover_hu3d03a01dcc18bc5be0e67db3d8d209a6_80942_720x0_resize_q75_box.jpg 720w ,https://timor.site/2021/02/centos-8-stream-docker-image/cover.jpg 720w" sizes="(min-width: 768px) 720px, 100vw" src=https://timor.site/2021/02/centos-8-stream-docker-image/cover.jpg alt width=720 height=300>
 </figure>
 <header class=entry-header>
@@ -194,18 +209,6 @@ Ansible is quite easy to integrate with bastion host configuration....</p>
 </section>
 <footer class=entry-footer><span title="2016-04-22 00:00:00 +0000 UTC">2016-04-22</span>&nbsp;·&nbsp;3 min</footer>
 <a class=entry-link aria-label="post link to Use bastion host with Ansible" href=https://timor.site/2016/04/use-bastion-host-with-ansible/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Tweaking ASUS Zenbook UX305CA on Linux
-</h2>
-</header>
-<section class=entry-content>
-<p>Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with ‘mobile’ word. Then I saw ASUS Zenbook that I didn’t take into account before and it was exactly what I was searching for.
-Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed....</p>
-</section>
-<footer class=entry-footer><span title="2016-04-21 00:00:00 +0000 UTC">2016-04-21</span>&nbsp;·&nbsp;11 min</footer>
-<a class=entry-link aria-label="post link to Tweaking ASUS Zenbook UX305CA on Linux" href=https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

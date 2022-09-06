@@ -78,6 +78,18 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Debuging commands running on memcached
+</h2>
+</header>
+<section class=entry-content>
+<p>I had stragne statistics on one memcached servers. I had to look what it’s doing there. I found such commands that may be used to sniff, extract and make statistics from running memcached server.
+Debug GET commands tcpflow -c dst port 11211 | cut -b46- | grep ^get cut command will remove 46 bytes at beginning of every string (src, dst, port). You may need to adjust numeric parameter for cut to leave commands only....</p>
+</section>
+<footer class=entry-footer><span title="2016-07-13 00:00:00 +0000 UTC">2016-07-13</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Debuging commands running on memcached" href=https://timor.site/2016/07/debuging-commands-running-on-memcached/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>How to stole ssh session when you’re root
 </h2>
 </header>
@@ -195,20 +207,6 @@ docker rmi $(docker images -q) Docker won’t remove any old volumes used by con
 </section>
 <footer class=entry-footer><span title="2016-02-11 00:00:00 +0000 UTC">2016-02-11</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Some useful commands in Docker" href=https://timor.site/2016/02/some-useful-commands-in-docker/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Mass replace in WordPress posts via MySQL query
-</h2>
-</header>
-<section class=entry-content>
-<p>I was doing a lot of changes to my old posts, switched to HTTPS, etc. Sometimes it was useful to change some particular text in all my old posts at a time, but there is no such feature in WordPress. But WordPress runs on MySQL and I could use SQL query to update such posts.
-Make backup - it’s not required but strongly advised 😃
-Now use this query as template to replace in place whatever you need:
-...</p>
-</section>
-<footer class=entry-footer><span title="2016-02-09 00:00:00 +0000 UTC">2016-02-09</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Mass replace in WordPress posts via MySQL query" href=https://timor.site/2016/02/mass-replace-in-wordpress-posts-via-mysql-query/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

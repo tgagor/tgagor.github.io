@@ -78,6 +78,20 @@
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Preparing video files for streaming on website in MP4 and WEBM format
+</h2>
+</header>
+<section class=entry-content>
+<p>Some time ago I prepared a PC that was responsible for batch encoding of movies to formats suitable for web players (such as. Video.js, JW Player, Flowplayer, etc.)
+I used HandBrake for conversion to MP4 format (becase this soft was the fastest one) and ffmpeg (aka avconv in new version) for two pass encoding to WEBM.
+Below are commands used by me for that conversion:
+MP4 HandBrakeCLI -e x264 -q 20....</p>
+</section>
+<footer class=entry-footer><span title="2013-12-16 00:00:00 +0000 UTC">2013-12-16</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Preparing video files for streaming on website in MP4 and WEBM format" href=https://timor.site/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Running Apache with mod_spdy and PHP-FPM
 </h2>
 </header>
@@ -186,18 +200,6 @@ apt-get install git -y git clone https://github.com/brianlmoon/GearmanManager.gi
 </section>
 <footer class=entry-footer><span title="2013-11-13 00:00:00 +0000 UTC">2013-11-13</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to GearmanManager: wygodne zarządzanie workerami" href=https://timor.site/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Debian - zablokowanie aktualizacji pakietu
-</h2>
-</header>
-<section class=entry-content>
-<p>W teorii nie powinno się blokować aktualizacji pakietów bo łatają dziury itd…. Ale! Zdarzyły mi się ostatnio dwie sytuacje, które do tego mnie zmusiły:
-aktualizacja hudsona kończyła się błędem przy starcie usługi, aktualizacja domU Xen skończyła się problemem z kompatybilnością mechanizmu udev w systemie i jądrze (hypervisor miał starsze jądro niż spodziewało się DomU). W takich sytuacjach bardzo przydaje się możliwość zablokowania aktualizacji jednej “psującej” paczki na pewien okres czasu by nie opóźniać innych aktualizacji a sobie dać czas na rozpracowanie problemu....</p>
-</section>
-<footer class=entry-footer><span title="2013-11-05 00:00:00 +0000 UTC">2013-11-05</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Debian - zablokowanie aktualizacji pakietu" href=https://timor.site/2013/11/debian-zablokowanie-aktualizacji-pakietu/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
