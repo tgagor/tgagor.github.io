@@ -8,8 +8,7 @@
 <meta name=description content="Linux configuration, Automation, Security - Sysadmin/DevOps blog">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/>
-<link crossorigin=anonymous href=/assets/css/stylesheet.min.216a0a81fb5f6937e9a8a9a35f77b919051aa9a9a60b62bca2948ed566bce349.css integrity="sha256-IWoKgftfaTfpqKmjX3e5GQUaqammC2K8opSO1Wa840k=" rel="preload stylesheet" as=style>
-<link rel=preload href=https://timor.site/favicon-72x72.png as=image>
+<link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://timor.site/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://timor.site/favicon-16x16.png>
 <link rel=icon type=image/png sizes=32x32 href=https://timor.site/favicon-32x32.png>
@@ -17,7 +16,6 @@
 <link rel=mask-icon href=https://timor.site/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.89.0">
 <link rel=alternate type=application/rss+xml href=https://timor.site/index.xml>
 <link rel=alternate type=application/json href=https://timor.site/index.json>
 <noscript>
@@ -39,11 +37,11 @@
 <nav class=nav>
 <div class=logo>
 <a href=https://timor.site/ accesskey=h title="timor's site (Alt + H)">
-<img src=https://timor.site/favicon-72x72.png alt=logo aria-label=logo height=36>timor's site</a>
-<span class=logo-switches>
-<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+<img src=https://timor.site/favicon-72x72.png alt aria-label=logo height=36>timor's site</a>
+<div class=logo-switches>
+<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
 </button>
-</span>
+</div>
 </div>
 <ul id=menu>
 <li>
@@ -80,9 +78,9 @@
 <h2>Ochrona usług przed atakami brute force z fail2ban’em
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Bardzo często konfigurując usługi dostępne publicznie poświęca się sporo czasu na maksymalne zwiększenie bezpieczeństwa przez “dopieszczanie” konfiguracji (certyfikaty z mocnym szyfrowaniem, ochronę pewnych stron hasłem, dostęp do SSH tylko kluczami, itd.) ale całkowicie pomija się przygotowanie systemu aktywnie monitorującego błędne próby autoryzacji. Oczywiście nie można umniejszać wagi pierwszego z wymienionych etapów ale zdecydowanie nie powinno pomijać się też tego drugiego. Przecież każdy admin chciałby wiedzieć gdy ktoś próbuje włamać się na jego serwer (FTP, HTTP, SSH, itp....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2011-10-03 00:00:00 +0000 UTC">2011-10-03</span>&nbsp;·&nbsp;4 min</footer>
 <a class=entry-link aria-label="post link to Ochrona usług przed atakami brute force z fail2ban’em" href=https://timor.site/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/></a>
 </article>
@@ -91,10 +89,10 @@
 <h2>pflogsumm - statystyki poczty dla postfix’a
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Jeżeli administrujesz nawet niedużym serwerem pocztowym na pewno masz świadomość, że nie jesteś w stanie monitorować logów na bieżąco. Ciężko jest wyłapać np. problem w komunikacji z pewną domeną. Ciężko też oszacować skalę ruchu na serwerze zarówno pod kątem ilości jak i wolumenu maili. Trudno wybrać domeny, dla których warto by zrezygnować z greylistingu, itd, itp…
 Na szczęście dostępne jest narzędzie pflogsumm, które wygeneruje nam dość wyczerpujące statystyki z logów postfix’a....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2011-09-22 00:00:00 +0000 UTC">2011-09-22</span>&nbsp;·&nbsp;3 min</footer>
 <a class=entry-link aria-label="post link to pflogsumm - statystyki poczty dla postfix’a" href=https://timor.site/2011/09/pflogsum-statystyki-poczty-dla-postfixa/></a>
 </article>
@@ -103,11 +101,11 @@ Na szczęście dostępne jest narzędzie pflogsumm, które wygeneruje nam dość
 <h2>fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Miałem ostatnio dziwną przygodę: pewien serwer do backupu gdzie ląduje dużo małych plików i dodatkowo tworzonych jest sporo hardlinków zaliczył pada. Co prawda starałem się go grzecznie położyć z pomocą Magic SysRq ale ponieważ nie wiedziałem co było przyczyną awarii fsck wydawał się wskazany.
 Podczas próby uruchomienia fsck.ext4 na systemie plików o rozmiarze ok 14TB z kilkuset milionami plików po kilkudziesięciu sekundach otrzymywałem komunikat:
 Błąd podczas przydzielania struktury icount: Memory allocation failed...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2011-09-21 00:00:00 +0000 UTC">2011-09-21</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed" href=https://timor.site/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/></a>
 </article>
@@ -116,10 +114,10 @@ Błąd podczas przydzielania struktury icount: Memory allocation failed...</p>
 <h2>Magic SysRq - bezpieczny reset Linux’a
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Pomimo iż Linux uchodzi za stabilne środowisko to raz na jakiś czas trafi się ciężka zwiecha - z powodu przeciążenia, awarii sprzętu… nieistotne…
 Załóżmy że licho wzięło za cel główny serwer plików lub bazę danych dla wielu, wielu stron internetowych. Dostać się po ssh nie możemy bo lecą timeout’y, a siedząc bezpośrednio przy klawiaturze konsola nie reaguje. Mimo to coś ostro daje po dyskach, więc ewentualny twardy reset to na bank utrata części plików… jeśli system po nim w ogóle wstanie… 😑...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2011-09-17 00:00:00 +0000 UTC">2011-09-17</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Magic SysRq - bezpieczny reset Linux’a" href=https://timor.site/2011/09/magic-sysrq-bezpieczny-reset-linuxa/></a>
 </article>
@@ -128,10 +126,10 @@ Załóżmy że licho wzięło za cel główny serwer plików lub bazę danych dl
 <h2>approx - cachujące proxy dla repozytoriów Debiana
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Wielu administratorów gdy zaczyna swoją przygodę zarządza jedną/dwoma maszynami… Po pewnym czasie jest ich już kilka… W którymś momencie dostrzega się zalety wirtualizacji i na kilku maszynach fizycznych działa kilkanaście czy kilkadziesiąt maszyn wirtualnych. W takiej sytuacji pobieranie aktualizacji dla wszystkich maszyn potrafi mocno zabić łącze.
 I w tym momencie zaczynamy się zastanawiać czy może nie warto byłoby zrobić własnego mirror’a paczek dla naszego ulubionego distro… do prywatnego użytku… synchronizowanego w nocy by nikomu nie przeszkadzać… i dostępnego nawet gdy będziemy offline… Zaczynamy liczyć miejsce i okazuje się że repozytorium Debiana dla architektury i386 to prawie 60GB (sic!...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2011-09-16 00:00:00 +0000 UTC">2011-09-16</span>&nbsp;·&nbsp;3 min</footer>
 <a class=entry-link aria-label="post link to approx - cachujące proxy dla repozytoriów Debiana" href=https://timor.site/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/></a>
 </article>
@@ -140,10 +138,10 @@ I w tym momencie zaczynamy się zastanawiać czy może nie warto byłoby zrobić
 <h2>Wymuszenie zwolnienia pamięci buforów dyskowych na Linux’ie
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Linux bardzo agresywnie wykorzystuje wolną pamięć RAM do buforowania danych odczytywanych z dysków (inode’ów, plików, itd…). Ma to niebagatelny wpływ na zwiększenie szybkości uruchamiania programów które już raz zostały uruchomione. Jednak nie zawsze jest to pożądane zachowanie, np. testując szybkość uruchomienia/wykonywania tworzonej przez nas aplikacji - buforowanie zmienia czas ładowania aplikacji przy kolejnych uruchomieniach. Dobrze byłoby móc wymusić zwolnienie buforów by każdy start programu miał porównywalne “warunki startowe”.
 Na szczęście można to zrobić w prosty sposób:...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2011-09-15 00:00:00 +0000 UTC">2011-09-15</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Wymuszenie zwolnienia pamięci buforów dyskowych na Linux’ie" href=https://timor.site/2011/09/wymuszenie-zwolnienia-pamieci-buforow-dyskowych-na-linuxie/></a>
 </article>
@@ -152,9 +150,9 @@ Na szczęście można to zrobić w prosty sposób:...</p>
 <h2>Zabezpieczenie Apachego na Debianie przed slowloris’em
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje “klienta z wolnym łączem” równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2011-09-12 00:00:00 +0000 UTC">2011-09-12</span>&nbsp;·&nbsp;3 min</footer>
 <a class=entry-link aria-label="post link to Zabezpieczenie Apachego na Debianie przed slowloris’em" href=https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/></a>
 </article>
@@ -163,10 +161,10 @@ Na szczęście można to zrobić w prosty sposób:...</p>
 <h2>Sprawdzenie który proces obciąża dyski
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.
 Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić 😃...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2011-09-02 00:00:00 +0000 UTC">2011-09-02</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Sprawdzenie który proces obciąża dyski" href=https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/></a>
 </article>
@@ -175,12 +173,12 @@ Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążen
 <h2>JPGraph, wykresy z PHP’a
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Onego czasu próbowałem znaleźć coś co ułatwiłoby mi rysowanie prostych wykresów w PHP’ie inaczej niż z palca w GD. Kumpel polecił mi JPGraph.
 JPGraph to świetna sprawa, do generowania statystyk jak chociażby na mojej stronie, ale biblioteka potrafi dużo więcej…
 Załóżmy, że ze stronki zbieramy do bazy takie rzeczy jak: datę, adres IP, ilość połączeń z tego adresu. Prosta tabela (przykład w Postgre SQL’u):
 CREATE TABLE wizyty ( pid serial NOT NULL, "data" date NOT NULL DEFAULT ('now'::text)::date, odslony integer NOT NULL DEFAULT 1, CONSTRAINT visits_pkey PRIMARY KEY (id) ); Dane z takiej tabeli można łatwo wyciągnąć jednym select’em:...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2011-08-29 00:00:00 +0000 UTC">2011-08-29</span>&nbsp;·&nbsp;3 min</footer>
 <a class=entry-link aria-label="post link to JPGraph, wykresy z PHP’a" href=https://timor.site/2011/08/jpgraph-wykresy-z-phpa/></a>
 </article>
@@ -189,17 +187,20 @@ CREATE TABLE wizyty ( pid serial NOT NULL, "data" date NOT NULL DEFAULT ('now'::
 <h2>Konfiguracja backportów na Debianie
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Tak się składa, że Debian ze względu na stosunkowo rzadkie wydawanie kolejnych wersji szybko staje się niezbyt świeży a dostępne w nim pakiety często nie spełaniają naszych oczekiwań. Nie ma najnowszej wersji Subversion… Nie ma mod_security itd, itp…
 Rozwiązaniem tego problemu może być instalacja pakietów z testowej gałęzi ale można polec na zależnościach. Można też kompilować ze źródeł… Tak czy siak w obu przypadkach aktualizacja i utrzymanie tak zmodyfikowanego systemu byłoby jak wrzód na zadku....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2011-08-29 00:00:00 +0000 UTC">2011-08-29</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Konfiguracja backportów na Debianie" href=https://timor.site/2011/08/konfiguracja-backportow-na-debianie/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
-<a class=prev href=https://timor.site/page/17/>« Prev Page</a>
-<a class=next href=https://timor.site/page/19/>Next Page »</a>
+<a class=prev href=https://timor.site/page/17/>
+«&nbsp;Prev&nbsp;
+</a>
+<a class=next href=https://timor.site/page/19/>Next&nbsp;&nbsp;»
+</a>
 </nav>
 </footer>
 </main>

@@ -8,8 +8,7 @@
 <meta name=description content="Linux configuration, Automation, Security - Sysadmin/DevOps blog">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/tags/lvm/>
-<link crossorigin=anonymous href=/assets/css/stylesheet.min.216a0a81fb5f6937e9a8a9a35f77b919051aa9a9a60b62bca2948ed566bce349.css integrity="sha256-IWoKgftfaTfpqKmjX3e5GQUaqammC2K8opSO1Wa840k=" rel="preload stylesheet" as=style>
-<link rel=preload href=https://timor.site/favicon-72x72.png as=image>
+<link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://timor.site/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://timor.site/favicon-16x16.png>
 <link rel=icon type=image/png sizes=32x32 href=https://timor.site/favicon-32x32.png>
@@ -17,7 +16,6 @@
 <link rel=mask-icon href=https://timor.site/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.89.0">
 <link rel=alternate type=application/rss+xml href=https://timor.site/tags/lvm/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
@@ -37,11 +35,11 @@
 <nav class=nav>
 <div class=logo>
 <a href=https://timor.site/ accesskey=h title="timor's site (Alt + H)">
-<img src=https://timor.site/favicon-72x72.png alt=logo aria-label=logo height=36>timor's site</a>
-<span class=logo-switches>
-<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+<img src=https://timor.site/favicon-72x72.png alt aria-label=logo height=36>timor's site</a>
+<div class=logo-switches>
+<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
 </button>
-</span>
+</div>
 </div>
 <ul id=menu>
 <li>
@@ -74,17 +72,19 @@
 </header>
 <main class=main>
 <header class=page-header><div class=breadcrumbs><a href=https://timor.site/>Home</a>&nbsp;»&nbsp;<a href=https://timor.site/tags/>Tags</a></div>
-<h1>LVM</h1>
+<h1>
+LVM
+</h1>
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
 <h2>LVM na RAID5 i dysku z sektorami 4KB
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Po zakupie nowych dysków zamierzam utworzyć zdegradowaną macierz RAID5 z dwóch dysków (na trzecim na razie znajdują się dane), potem utworzyć wolumen LVM, sformatować go, przekopiować dane z pojedynczego dysku na macierz i dołączyć trzeci dysk do macierzy odbudowując parzystość. Zadanie będzie o tyle ciekawe że dysk ma 4KB sektory i trzeb będzie dbać o wyrównanie zasobu do rozmiaru sektora, a w przypadku LVM’a wyrównanie do chunk’a z macierzy.
 Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w górę), mamy spore szanse że trafimy na sztukę, która wykorzystuje 4KB sektory do alokacji danych....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-11-07 00:00:00 +0000 UTC">2012-11-07</span>&nbsp;·&nbsp;15 min</footer>
 <a class=entry-link aria-label="post link to LVM na RAID5 i dysku z sektorami 4KB" href=https://timor.site/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/></a>
 </article>
@@ -93,9 +93,9 @@ Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w g�
 <h2>Montowanie partycji z obrazu dysku
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Jedną z rzeczy, które podobają mi się w maszynach wirtualnych Xen jest możliwość zrobienia backupu całego obrazu i szybkie odzyskanie już w trakcie ciężkiej awarii. Gdy dodatkowo korzysta się z LVM’a to można na chwilę wyłączyć DomU, utworzyć snapshot jego dysków, uruchomić DomU i w trakcie działania robić spójny backup ze snapshot’a. Dzięki takiemu mechanizmowi serwer jest niedostępny przez kilkanaście sekund, a backup spójny jakby został wykonany przy całkowicie wyłączonej maszynie....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-09-06 00:00:00 +0000 UTC">2012-09-06</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Montowanie partycji z obrazu dysku" href=https://timor.site/2012/09/montowanie-partycji-z-obrazu-dysku/></a>
 </article>
@@ -104,12 +104,12 @@ Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w g�
 <h2>Dynamiczna zmiana rozmiaru partycji EXT4 na LVM’ie
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Używam LVM’a zarówno na desktopie jak i wielu serwerach bo bardzo podoba mi się możliwość powiększenia akurat tej partycji, na której brakuje miejsca. O ile pamiętam jak powiększyć partycję XFS (xfs_growfs /punkt/montowania) to zawsze mam problem jak to zrobić na EXT3/4, więc notuję.
 Powiększenie wolumenu LVM (np. o 10 gigabajtów):
 lvextend -L+10G /dev/vggroup/vol Zwiększenie rozmiaru systemu plików do nowego rozmiaru wolumenu:
 resize2fs /dev/vggroup/vol Powyższe polecenie można wykonać na zamontowanym zasobie - online....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-06-08 00:00:00 +0000 UTC">2012-06-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Dynamiczna zmiana rozmiaru partycji EXT4 na LVM’ie" href=https://timor.site/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/></a>
 </article>

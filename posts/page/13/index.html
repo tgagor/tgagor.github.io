@@ -8,8 +8,7 @@
 <meta name=description content="Posts - timor's site">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/posts/>
-<link crossorigin=anonymous href=/assets/css/stylesheet.min.216a0a81fb5f6937e9a8a9a35f77b919051aa9a9a60b62bca2948ed566bce349.css integrity="sha256-IWoKgftfaTfpqKmjX3e5GQUaqammC2K8opSO1Wa840k=" rel="preload stylesheet" as=style>
-<link rel=preload href=https://timor.site/favicon-72x72.png as=image>
+<link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://timor.site/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://timor.site/favicon-16x16.png>
 <link rel=icon type=image/png sizes=32x32 href=https://timor.site/favicon-32x32.png>
@@ -17,7 +16,6 @@
 <link rel=mask-icon href=https://timor.site/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.89.0">
 <link rel=alternate type=application/rss+xml href=https://timor.site/posts/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
@@ -38,11 +36,11 @@
 <nav class=nav>
 <div class=logo>
 <a href=https://timor.site/ accesskey=h title="timor's site (Alt + H)">
-<img src=https://timor.site/favicon-72x72.png alt=logo aria-label=logo height=36>timor's site</a>
-<span class=logo-switches>
-<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+<img src=https://timor.site/favicon-72x72.png alt aria-label=logo height=36>timor's site</a>
+<div class=logo-switches>
+<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
 </button>
-</span>
+</div>
 </div>
 <ul id=menu>
 <li>
@@ -75,17 +73,19 @@
 </header>
 <main class=main>
 <header class=page-header><div class=breadcrumbs><a href=https://timor.site/>Home</a></div>
-<h1>Posts</h1>
+<h1>
+Posts
+</h1>
 </header>
 <article class=post-entry>
 <header class=entry-header>
 <h2>LVM na RAID5 i dysku z sektorami 4KB
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Po zakupie nowych dysków zamierzam utworzyć zdegradowaną macierz RAID5 z dwóch dysków (na trzecim na razie znajdują się dane), potem utworzyć wolumen LVM, sformatować go, przekopiować dane z pojedynczego dysku na macierz i dołączyć trzeci dysk do macierzy odbudowując parzystość. Zadanie będzie o tyle ciekawe że dysk ma 4KB sektory i trzeb będzie dbać o wyrównanie zasobu do rozmiaru sektora, a w przypadku LVM’a wyrównanie do chunk’a z macierzy.
 Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w górę), mamy spore szanse że trafimy na sztukę, która wykorzystuje 4KB sektory do alokacji danych....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-11-07 00:00:00 +0000 UTC">2012-11-07</span>&nbsp;·&nbsp;15 min</footer>
 <a class=entry-link aria-label="post link to LVM na RAID5 i dysku z sektorami 4KB" href=https://timor.site/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/></a>
 </article>
@@ -94,9 +94,9 @@ Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w g�
 <h2>Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Po każdej aktualizacji Ubuntu mam trochę zabawy by pozbierać do kupy skaner i drukarkę z mojego urządzenia wielofunkcyjnego Brother DCP-130C. Wybrałem je bo był to jedyny producent, który deklarował wsparcie dla Linux’a… choć z perspektywy czasu nie jestem pewien czy otrzymałem to czego się spodziewałem… Co prawda zamieszczają instrukcje i aktualizują drivery ale jeszcze ani raz nie zdarzyło mi się by po aktualizacji systemu postępowanie według tych instrukcji zadziałało bez dodatkowej pomocy....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-11-04 00:00:00 +0000 UTC">2012-11-04</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04" href=https://timor.site/2012/11/instalacja-drukarki-i-skanera-brother-dcp-130c-na-ubuntu-12-04/></a>
 </article>
@@ -105,9 +105,9 @@ Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w g�
 <h2>Prosty MTA z heirloom-mailx i ssmtp
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Czasami potrzebny jest nam serwer pocztowy, który przyśle informacje dla root’a (np. monity smartd, mdadm, sypnięte crony itp) ale równocześnie nie chcemy stawiać pełnego serwera typu postfix/exim. Warto w tym celu wykorzystać zestaw heirloom-mailx + ssmtp. hairloom-mailx jest prostym shellowym klientem SMTP - przy okazji linkuje polecenie mail (przydatne w skryptach). ssmtp pełni funkcję serwera SMTP ale nie działa jako demon - proces uruchamia się gdy jest potrzebny i znika po wysłaniu maili....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-10-31 00:00:00 +0000 UTC">2012-10-31</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Prosty MTA z heirloom-mailx i ssmtp" href=https://timor.site/2012/11/prosty-mta-z-heirloom-mailx-i-ssmtp/></a>
 </article>
@@ -116,9 +116,9 @@ Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w g�
 <h2>Nautilus - ukrywanie lost+found
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Lubię mieć porządek w folderach i jedna rzecz, która nie daje mi spokoju w systemach plików ext to widoczność folderu lost+found - niby można go skasować i powinien się odtworzyć (choć podobno odtworzenie w czasie fsck’a może spowodować utratę danych - trochę to dziwne i nie znalazłem źródła no ale powiedzmy że nie chcę go usuwać). Chciałem go ukryć (choćby w Nautilusie) by mnie nie drażnił. Oczywiście opcja z “.” na początku odpada, ale na szczęście Nautilus wykorzystuje pewien hack, który umożliwia ukrycie dowolnego pliku/folderu....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-10-30 00:00:00 +0000 UTC">2012-10-30</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Nautilus - ukrywanie lost+found" href=https://timor.site/2012/10/nautilus-ukrywanie-lostfound/></a>
 </article>
@@ -127,9 +127,9 @@ Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w g�
 <h2>Rolada kokosowo-czekoladowa na zimno
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Składniki 1 kostka masła, 1 żółtko, 6 łyżek cukru pudru, 1 szklanka mleka, 10 dkg wiórek kokosowych, 1 kieliszek wódki (ale z dwoma jest ostrzejsze), 3 łyżki kakao, 37 dkg herbatników kakaowych (doskonale spisują się dwie paczki maślanych herbatników kakaowych). Masa kakaowa Herbatniki dokładnie rozwałkować, dodać kakao i wymieszać. Zagotować pół szklanki mleka i gorącym zalać herbatniki. Całość wymieszać na jednolitą masę. W drugim pojemniku rozmiksować pół kostki masła i 3 łyżki cukru pudru - po chwili dodać żółtko i wódkę....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-10-22 00:00:00 +0000 UTC">2012-10-22</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Rolada kokosowo-czekoladowa na zimno" href=https://timor.site/2012/10/rolada-kokosowo-czekoladowa-na-zimno/></a>
 </article>
@@ -138,9 +138,9 @@ Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w g�
 <h2>Utrzymanie przy życiu sypiących się usług na serwerach Windows
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Zdarzyło mi się kilka usług działających na serwerach Windows, które zwyczajnie sypały się i to tak brzydko że systemowe ustawienia by restartowały się po padzie nie wystarczały. Usługa działała np. 3 godziny by potem się położyć, albo nigdy nie wstawała po starcie systemu - po prostu jakaś masakra. Zgłoszenia do producenta często wyglądały tak że w jego testowym środowisku błędu nie udaje się powtórzyć (i nic dziwnego bo nie sądzę by z ich konfiguracji korzystali rzeczywiści użytkownicy)....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-10-22 00:00:00 +0000 UTC">2012-10-22</span>&nbsp;·&nbsp;3 min</footer>
 <a class=entry-link aria-label="post link to Utrzymanie przy życiu sypiących się usług na serwerach Windows" href=https://timor.site/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/></a>
 </article>
@@ -149,10 +149,10 @@ Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w g�
 <h2>Piwik - alternatywa dla Google Analytics
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Jeśli szukamy statystyk dla strony internetowej i ze względu na jej zawartość (np. sklep, coś ze zwiększonym naciskiem na poufność etc..) nie potrafimy zaufaj wujkowi Googlowi to warto przyglądnąć się Piwikowi.
 Jest to system statystyk aspirujący do bycia Open Source’ową alternatywą dla Google Analytics. Aspirujący (a nie będący) z tego względu że Google przechodząc na domyślny HTTPS (SPDY) dla zalogowanych użytkowników uniemożliwił śledzenie stron z których pochodzą odwiedziny (tzw. refferals) - tym prostym sposobem tylko GA jest w stanie dostarczyć pełnych informacji o wszystkich użytkownikach....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-09-26 00:00:00 +0000 UTC">2012-09-26</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Piwik - alternatywa dla Google Analytics" href=https://timor.site/2012/09/piwik-alternatywa-dla-google-analytics/></a>
 </article>
@@ -161,10 +161,10 @@ Jest to system statystyk aspirujący do bycia Open Source’ową alternatywą dl
 <h2>mod_rewrite - wymuszenie małych liter w adresie URL
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Co prawda adresy URL pozwalają na stosowanie zarówno dużych jak i małych liter ale różne systemy mogą je różnie obsługiwać i może się trafić sytuacja, w której nie zechcemy by np. duże litery w ogóle pojawiały się w adresach URL. Doskonały przykład to mój niedawny wpis: Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic.
 Zachodzi tam sytuacja, w której katalog użytkownika jest jego loginem małymi literami (bądź dużymi - jak kto woli), a użytkownik wpisując login może użyć zarówno małych jak i dużych liter i tutaj zaczyna się jazda....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-09-25 00:00:00 +0000 UTC">2012-09-25</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to mod_rewrite - wymuszenie małych liter w adresie URL" href=https://timor.site/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/></a>
 </article>
@@ -173,12 +173,12 @@ Zachodzi tam sytuacja, w której katalog użytkownika jest jego loginem małymi 
 <h2>Aktualizacja Debian Squeeze do Wheezy
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Obecnie dostępna jest już beta 2 Debiana Wheezy i utrzymywane są aktualizacje bezpieczeństwa więc powolutku można na testowych maszynach sprawdzać co i jak się zmieniło.
 Ponieważ do finalnej wersji pewnie sporo się jeszcze zmieni to postaram się z czasem aktualizować ten post by zawierał bieżące informacje.
 W razie wątpliwości patrz tutaj: http://wiki.debian.org/DebianTesting
 Robimy backup Aktualizujemy źródła wskazywały na paczki gałęzi testing (poniższe polecenie nadpisze Twoje obecne repozytoria): cat > /etc/apt/sources....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-09-24 00:00:00 +0000 UTC">2012-09-24</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Aktualizacja Debian Squeeze do Wheezy" href=https://timor.site/2012/09/aktualizacja-debian-squeeze-do-wheezy/></a>
 </article>
@@ -187,18 +187,21 @@ Robimy backup Aktualizujemy źródła wskazywały na paczki gałęzi testing (po
 <h2>GPO: Windows 7 - postęp przetwarzania polityk przy starcie systemu
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Dziś TIP z przeciwnego obozu - oprócz linuksowych systemów administruję również paroma serwerami windowsowymi i tutaj również (a czasem nawet bardziej) uda mi się znaleźć coś wartego zapamiętania.
 Jedna z najbardziej charakterystycznych rzeczy na komputerach przyłączonych do domeny Windows to wyświetlanie “różnych dziwnych rzeczy” przy starcie systemu. Zarówno na Windowsie 2000 jak i na XP’ku na małym okienku przewijają informacje o aktualizacji polityk, instalacji oprogramowania itp…
 Zachowanie to zmieniło się na Vistach i 7-kach, które są nieco mniej rozmowne i wyświetlają jedynie komunikat typu “Trwa uruchamianie systemu…” i tyla… Załóżmy że wrzucimy do instalacji kilka paczek i jeszcze zmienimy kilka polityk i przez to komputer na tym napisie zatrzyma się na 5~10 minut - co zrobi użyszkodnik po 3 minutach?...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-09-20 00:00:00 +0000 UTC">2012-09-20</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to GPO: Windows 7 - postęp przetwarzania polityk przy starcie systemu" href=https://timor.site/2012/09/gpo-windows-7-postep-przetwarzania-polityk-przy-starcie-systemu/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
-<a class=prev href=https://timor.site/posts/page/12/>« Prev Page</a>
-<a class=next href=https://timor.site/posts/page/14/>Next Page »</a>
+<a class=prev href=https://timor.site/posts/page/12/>
+«&nbsp;Prev&nbsp;
+</a>
+<a class=next href=https://timor.site/posts/page/14/>Next&nbsp;&nbsp;»
+</a>
 </nav>
 </footer>
 </main>

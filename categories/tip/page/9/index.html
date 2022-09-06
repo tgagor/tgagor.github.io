@@ -8,8 +8,7 @@
 <meta name=description content="Linux configuration, Automation, Security - Sysadmin/DevOps blog">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/categories/tip/>
-<link crossorigin=anonymous href=/assets/css/stylesheet.min.216a0a81fb5f6937e9a8a9a35f77b919051aa9a9a60b62bca2948ed566bce349.css integrity="sha256-IWoKgftfaTfpqKmjX3e5GQUaqammC2K8opSO1Wa840k=" rel="preload stylesheet" as=style>
-<link rel=preload href=https://timor.site/favicon-72x72.png as=image>
+<link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://timor.site/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://timor.site/favicon-16x16.png>
 <link rel=icon type=image/png sizes=32x32 href=https://timor.site/favicon-32x32.png>
@@ -17,7 +16,6 @@
 <link rel=mask-icon href=https://timor.site/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.89.0">
 <link rel=alternate type=application/rss+xml href=https://timor.site/categories/tip/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
@@ -37,11 +35,11 @@
 <nav class=nav>
 <div class=logo>
 <a href=https://timor.site/ accesskey=h title="timor's site (Alt + H)">
-<img src=https://timor.site/favicon-72x72.png alt=logo aria-label=logo height=36>timor's site</a>
-<span class=logo-switches>
-<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+<img src=https://timor.site/favicon-72x72.png alt aria-label=logo height=36>timor's site</a>
+<div class=logo-switches>
+<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
 </button>
-</span>
+</div>
 </div>
 <ul id=menu>
 <li>
@@ -74,18 +72,20 @@
 </header>
 <main class=main>
 <header class=page-header><div class=breadcrumbs><a href=https://timor.site/>Home</a>&nbsp;»&nbsp;<a href=https://timor.site/categories/>Categories</a></div>
-<h1>Tip</h1>
+<h1>
+Tip
+</h1>
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
 <h2>Wymuszenie fsck po restarcie
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Jeżeli chcemy by po ponownym uruchomieniu w czasie startu zostały sprawdzone wszystkie dyski narzędziem to można to osiągnąć na dwa sposoby. Zawsze gdy tego potrzebuję zastanawiam się tylko jaki plik trzeba było utworzyć… forcefsck, fsck, fsckforce… więc notuję 😉
 Utworzenie pliku /forcefsck Pierwsza metoda polega na utworzeniu pliku forcefsck w głównym katalog, robimy to poniższym poleceniem:
 sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F polecenia shutdown ale nie działa na wszystkich dystrybucjach (w takiej sytuacji patrz pierwsza metoda):...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-09-08 00:00:00 +0000 UTC">2012-09-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Wymuszenie fsck po restarcie" href=https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/></a>
 </article>
@@ -94,12 +94,12 @@ sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F p
 <h2>Moje ulubione aplikacje na Android’a
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Znajomi co jakiś czas pytają mnie: jak nazywa się ta aplikacja, którą masz na telefonie do…? Z jakiego programu do poczty korzystasz na tel…? itd…
 Pytacie - więc macie 😃
 DGT GTD Bardzo przydatna lista TODO. Stworzona z myślą o metodzie Getting Things Done i bardzo ułatwia pamiętanie u różnych zadaniach. Posiada też bardzo wygodny widżet, na którym możemy podglądnąć nasze najbliższe zadania.
 Opera Mini Wbudowana przeglądarka jest niezła, ale Opera Mini kompresuje mocno strony wykorzystując pośredniczące serwery proxy co znacznie obniża koszty transmisji danych....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-09-07 00:00:00 +0000 UTC">2012-09-07</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Moje ulubione aplikacje na Android’a" href=https://timor.site/2012/09/moje-ulubione-aplikacje-na-androida/></a>
 </article>
@@ -108,11 +108,11 @@ Opera Mini Wbudowana przeglądarka jest niezła, ale Opera Mini kompresuje mocno
 <h2>Przeszukiwanie plików danego typu pod kątem tekstu
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Kiedyś poproszono mnie o przeszukanie wszystkich plików php na serwerze webowym po kątem wywołania pewnej funkcji. Oczywiste wydało mi się użycie rekurencyjnie grep’a, więc:
 grep -R "JAKAS_FUNKCJA" /var/www/*.php Ale szybko okazało się że grep dopasowuje maskę *.php również do katalogów, więc nie przeszukiwał katalogów które nie kończyły się na .php ehhh…..
 Drugie podejście okazało się trafniejsze - najpierw poleceniem find wyszukuję wszystkie pliki php, a dopiero później grepuję (wypisując nazwę pliku i numer linii):...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-08-31 00:00:00 +0000 UTC">2012-08-31</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Przeszukiwanie plików danego typu pod kątem tekstu" href=https://timor.site/2012/08/przeszukiwanie-plikow-danego-typu-pod-katem-tekstu/></a>
 </article>
@@ -121,9 +121,9 @@ Drugie podejście okazało się trafniejsze - najpierw poleceniem find wyszukuj�
 <h2>Nginx - ustawienie domyślnego vhosta
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Ustawienie domyślnego vhosta w nginx’ie jest ładnie opisane w dokumentacji i początkowo wydawało się dobrze działać ale gdy wykorzystałem tą konfigurację na serwerze z wieloma adresami IP i nasłuchiwaniem na porcie 80 (bez podania IP) to zachowywało się to dość dziwnie (przeważnie nie ładowało tej strony którą chciałem). Od teraz tworzę konfigurację domyślnego vhosta dla każdego z dostępnych adresów IP. Powiem szczerze że nie miałem czasu na głębsze zbadanie tego zachowania i wykorzystałem rozwiązanie, które działało w każdym przypadku czyli po jednym konfigu na IP + przekierowanie na ogólną stronę....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-06-18 00:00:00 +0000 UTC">2012-06-18</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Nginx - ustawienie domyślnego vhosta" href=https://timor.site/2012/06/nginx-ustawienie-domyslnego-vhosta/></a>
 </article>
@@ -132,12 +132,12 @@ Drugie podejście okazało się trafniejsze - najpierw poleceniem find wyszukuj�
 <h2>Dynamiczna zmiana rozmiaru partycji EXT4 na LVM’ie
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Używam LVM’a zarówno na desktopie jak i wielu serwerach bo bardzo podoba mi się możliwość powiększenia akurat tej partycji, na której brakuje miejsca. O ile pamiętam jak powiększyć partycję XFS (xfs_growfs /punkt/montowania) to zawsze mam problem jak to zrobić na EXT3/4, więc notuję.
 Powiększenie wolumenu LVM (np. o 10 gigabajtów):
 lvextend -L+10G /dev/vggroup/vol Zwiększenie rozmiaru systemu plików do nowego rozmiaru wolumenu:
 resize2fs /dev/vggroup/vol Powyższe polecenie można wykonać na zamontowanym zasobie - online....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-06-08 00:00:00 +0000 UTC">2012-06-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Dynamiczna zmiana rozmiaru partycji EXT4 na LVM’ie" href=https://timor.site/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/></a>
 </article>
@@ -146,10 +146,10 @@ resize2fs /dev/vggroup/vol Powyższe polecenie można wykonać na zamontowanym z
 <h2>Nginx - mój domyślny config
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>W tym poście nie rozpiszę się zbytnio - wrzucam tylko config od którego zaczynam konfigurację nginx’a.
 user www-data; worker_processes 4; pid /var/run/nginx.pid; events { worker_connections 1024; ## zaakceptuj tak dużo połączeń jak to możliwe multi_accept on; ## epoll jest preferowany na jajkach od 2.6 ## http://www.kegel.com/c10k.html#nb.epoll use epoll; } http { include /etc/nginx/mime.types; default_type application/octet-stream; access_log /var/log/nginx/access.log; error_log /var/log/nginx/error.log; ## opcje TCP sendfile on; tcp_nopush on; tcp_nodelay on; ## maksymalny rozmiar zapytnia client_max_body_size 10m; ## timeout'y client_body_timeout 60; client_header_timeout 60; keepalive_timeout 10; send_timeout 60; ## kompresja gzip on; gzip_static on; gzip_vary on; gzip_disable "msie6"; gzip_comp_level 1; gzip_proxied any; gzip_buffers 16 8k; gzip_min_length 50; gzip_types text/plain text/css application/json application/x-javascript application/javascript text/javascript application/atom+xml application/xml application/xml+rss text/xml image/x-icon text/x-js application/xhtml+xml; ## bezpieczeństwo ## security by obscurity - ukrywamy wersję nginx'a server_tokens off; ignore_invalid_headers on; ## resetuj zbyt długie połączenia - powinno pomóc na slowlorisa reset_timedout_connection on; ## włączenie ochrony przed clickjackingiem - uruchamiam to per vhost ## https://developer....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-06-08 00:00:00 +0000 UTC">2012-06-08</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Nginx - mój domyślny config" href=https://timor.site/2012/06/nginx-moj-domyslny-config/></a>
 </article>
@@ -158,10 +158,10 @@ user www-data; worker_processes 4; pid /var/run/nginx.pid; events { worker_conne
 <h2>Fortigate: Warning: SQL Logging is not enabled
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Jeśli po aktualizacji firmware na swoim firewall’u do wersji MR3 natrafisz na komunikat Warning: SQL Logging is not enabled przy dostępie do logów to prawdopodobnie musisz zmienić źródło logów dla interfejsu gui. Poniżej polecenie CLI i możliwe opcje:
 config log gui set logdevice {memory | disk | fortianalyzer} end Ja potrzebowałem ustawić tę opcję na fortianalyzer by uzyskać dostęp do moich logów.</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-04-11 00:00:00 +0000 UTC">2012-04-11</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Fortigate: Warning: SQL Logging is not enabled" href=https://timor.site/2012/04/fortigate-warning-sql-logging-is-not-enabled/></a>
 </article>
@@ -170,10 +170,10 @@ config log gui set logdevice {memory | disk | fortianalyzer} end Ja potrzebował
 <h2>Konwersja formatu certyfikatu dla telefonów Nokia
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Chciałem zaimportować mój certyfikat self-signed do Nokii E72 by nie krzyczała przy sprawdzaniu poczty. Potrzebowałem certyfikatu w formacie DER, a miałem w PEM - chwilę szukałem jak dokonać konwersji, więc ku pamięci zapisuję kilka gotowych poleceń:
 Konwersja certyfikatu z PEM na DER openssl x509 -in in.crt -inform PEM -out out.crt -outform DER Konwersja certyfikatu z DER na PEM openssl x509 -in in.crt -inform DER -out out.crt -outform DER Konwersja klucza z formatu PEM na DER openssl rsa -in in....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-04-11 00:00:00 +0000 UTC">2012-04-11</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Konwersja formatu certyfikatu dla telefonów Nokia" href=https://timor.site/2012/04/konwersja-formatu-certyfikatu-dla-telefonow-nokia/></a>
 </article>
@@ -182,10 +182,10 @@ Konwersja certyfikatu z PEM na DER openssl x509 -in in.crt -inform PEM -out out.
 <h2>Xen - ustawienie autostartu DomU
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Aby wybrane systemy DomU startowały automatycznie po restarcie hypervisora należy podlinkować ich pliki konfiguracyjne w katalogu /etc/xen/auto po uprzednim jego utworzeniu. Przykładowo:
 mkdir /etc/xen/auto ln -s /etc/xen/example.cfg /etc/xen/auto/example.cfg Od teraz DomU example będzie startować automatycznie.</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-02-27 00:00:00 +0000 UTC">2012-02-27</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Xen - ustawienie autostartu DomU" href=https://timor.site/2012/02/xen-ustawienie-autostartu-domu/></a>
 </article>
@@ -194,17 +194,20 @@ mkdir /etc/xen/auto ln -s /etc/xen/example.cfg /etc/xen/auto/example.cfg Od tera
 <h2>Xen - Włączenie Live Migration
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Jeżeli zdecydowaliśmy się na systemu DomU w obrazach to możemy korzystać z live migration. By uruchomić jej obsługę, trzeba w pliku /etc/xen/xend-config.sxp odkomentować odpowiednie linie i ustawić adres IP:
 (xend-relocation-server yes) (xend-relocation-port 8002) (xend-relocation-address '10.0.10.91') Wykonywanie migracji xm migrate --live nazwa-domu nazwa.lub.ip.zdalnego.hosta </p>
-</section>
+</div>
 <footer class=entry-footer><span title="2012-02-25 00:00:00 +0000 UTC">2012-02-25</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Xen - Włączenie Live Migration" href=https://timor.site/2012/02/xen-wlaczenie-live-migration/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
-<a class=prev href=https://timor.site/categories/tip/page/8/>« Prev Page</a>
-<a class=next href=https://timor.site/categories/tip/page/10/>Next Page »</a>
+<a class=prev href=https://timor.site/categories/tip/page/8/>
+«&nbsp;Prev&nbsp;
+</a>
+<a class=next href=https://timor.site/categories/tip/page/10/>Next&nbsp;&nbsp;»
+</a>
 </nav>
 </footer>
 </main>

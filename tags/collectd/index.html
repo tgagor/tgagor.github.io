@@ -8,8 +8,7 @@
 <meta name=description content="Linux configuration, Automation, Security - Sysadmin/DevOps blog">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/tags/collectd/>
-<link crossorigin=anonymous href=/assets/css/stylesheet.min.216a0a81fb5f6937e9a8a9a35f77b919051aa9a9a60b62bca2948ed566bce349.css integrity="sha256-IWoKgftfaTfpqKmjX3e5GQUaqammC2K8opSO1Wa840k=" rel="preload stylesheet" as=style>
-<link rel=preload href=https://timor.site/favicon-72x72.png as=image>
+<link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://timor.site/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://timor.site/favicon-16x16.png>
 <link rel=icon type=image/png sizes=32x32 href=https://timor.site/favicon-32x32.png>
@@ -17,7 +16,6 @@
 <link rel=mask-icon href=https://timor.site/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.89.0">
 <link rel=alternate type=application/rss+xml href=https://timor.site/tags/collectd/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
@@ -37,11 +35,11 @@
 <nav class=nav>
 <div class=logo>
 <a href=https://timor.site/ accesskey=h title="timor's site (Alt + H)">
-<img src=https://timor.site/favicon-72x72.png alt=logo aria-label=logo height=36>timor's site</a>
-<span class=logo-switches>
-<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+<img src=https://timor.site/favicon-72x72.png alt aria-label=logo height=36>timor's site</a>
+<div class=logo-switches>
+<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
 </button>
-</span>
+</div>
 </div>
 <ul id=menu>
 <li>
@@ -74,19 +72,21 @@
 </header>
 <main class=main>
 <header class=page-header><div class=breadcrumbs><a href=https://timor.site/>Home</a>&nbsp;»&nbsp;<a href=https://timor.site/tags/>Tags</a></div>
-<h1>CollectD</h1>
+<h1>
+CollectD
+</h1>
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
 <h2>Grafana - installation and configuraton with InfluxDB and CollectD on Debian/Ubuntu
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Now when you have CollectD and InfluxDB installed you may configure Grafana 😃
 First configure repo with current Grafana version (select your distro):
 curl https://packagecloud.io/gpg.key | sudo apt-key add - deb https://packagecloud.io/grafana/testing/debian/ wheezy main Now install package (on wheezy I needed to install apt-transport-https to allow installation of packages from repo via HTTPS):
 apt-get update apt-get install -y apt-transport-https apt-get install -y grafana By default Grafana will use sqlite database to keep information about users, etc:...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2016-01-10 00:00:00 +0000 UTC">2016-01-10</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Grafana - installation and configuraton with InfluxDB and CollectD on Debian/Ubuntu" href=https://timor.site/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/></a>
 </article>
@@ -95,11 +95,11 @@ apt-get update apt-get install -y apt-transport-https apt-get install -y grafana
 <h2>InfluxDB - installation and configuration on Debian/Ubuntu
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
 Let’s start! On project page there is no info about repo but it’s available, configure it:
 curl -sL https://repos.influxdata.com/influxdb.key | apt-key add - echo "deb https://repos.influxdata.com/debian wheezy stable" > /etc/apt.sources.list.d/influxdb.conf for Ubuntu use url like (of course selecting your version):...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2016-01-09 00:00:00 +0000 UTC">2016-01-09</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to InfluxDB - installation and configuration on Debian/Ubuntu" href=https://timor.site/2016/01/influxdb-installation-and-configuration-on-debianubuntu/></a>
 </article>
@@ -108,10 +108,10 @@ curl -sL https://repos.influxdata.com/influxdb.key | apt-key add - echo "deb htt
 <h2>CollectD - installation and configuration with InfluxDB on Debian/Ubuntu
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
 Installation of collectd is easy on Debian because packages are in default repo. One problem is that packages may be old, ex. on wheezy it version 5.1. But in backports/backports-sloppy you may find current 5....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2016-01-08 00:00:00 +0000 UTC">2016-01-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to CollectD - installation and configuration with InfluxDB on Debian/Ubuntu" href=https://timor.site/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/></a>
 </article>

@@ -8,8 +8,7 @@
 <meta name=description content="Linux configuration, Automation, Security - Sysadmin/DevOps blog">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/tags/bash/>
-<link crossorigin=anonymous href=/assets/css/stylesheet.min.216a0a81fb5f6937e9a8a9a35f77b919051aa9a9a60b62bca2948ed566bce349.css integrity="sha256-IWoKgftfaTfpqKmjX3e5GQUaqammC2K8opSO1Wa840k=" rel="preload stylesheet" as=style>
-<link rel=preload href=https://timor.site/favicon-72x72.png as=image>
+<link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://timor.site/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://timor.site/favicon-16x16.png>
 <link rel=icon type=image/png sizes=32x32 href=https://timor.site/favicon-32x32.png>
@@ -17,7 +16,6 @@
 <link rel=mask-icon href=https://timor.site/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.89.0">
 <link rel=alternate type=application/rss+xml href=https://timor.site/tags/bash/index.xml>
 <noscript>
 <style>#theme-toggle,.top-link{display:none}</style>
@@ -37,11 +35,11 @@
 <nav class=nav>
 <div class=logo>
 <a href=https://timor.site/ accesskey=h title="timor's site (Alt + H)">
-<img src=https://timor.site/favicon-72x72.png alt=logo aria-label=logo height=36>timor's site</a>
-<span class=logo-switches>
-<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+<img src=https://timor.site/favicon-72x72.png alt aria-label=logo height=36>timor's site</a>
+<div class=logo-switches>
+<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
 </button>
-</span>
+</div>
 </div>
 <ul id=menu>
 <li>
@@ -74,20 +72,22 @@
 </header>
 <main class=main>
 <header class=page-header><div class=breadcrumbs><a href=https://timor.site/>Home</a>&nbsp;»&nbsp;<a href=https://timor.site/tags/>Tags</a></div>
-<h1>bash</h1>
+<h1>
+bash
+</h1>
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
 <h2>Install WordPress from command-line
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>I never tried it before but today I needed to install WordPress… From command line only. And there is a way to do this with wp-cli.
 WP-CLI installation First some requirements (as root):
 apt-get install php5-cli php5-mysql mysql-client curl And now installation of wp-cli (as root too):
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar chmod +x wp-cli.phar mv wp-cli.phar /usr/local/bin/wp Check if it’s working:
 $ wp --version WP-CLI 0.22.0 WordPress installation Now you should switch to user of your web application, ex....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2016-02-15 00:00:00 +0000 UTC">2016-02-15</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Install WordPress from command-line" href=https://timor.site/2016/02/install-wordpress-from-command-line/></a>
 </article>
@@ -96,10 +96,10 @@ $ wp --version WP-CLI 0.22.0 WordPress installation Now you should switch to use
 <h2>Nagios - downtime on host/service from command line with curl
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Sometimes deployment process or other havy task may cause some Nagios checks to rise below normal levels and bother admin. If this is expected and you want to add downtime on host/service during this task you may use this script:
 #!/bin/bash function die { echo $1; exit 1; } if [[ $# -eq 0 ]] ; then die "Give hostname and time in minutes as parameter!" fi if [[ $# -eq 1 ]] ; then MINUTES=15 else MINUTES=$2 fi HOST=$1 NAGURL=http://nagios....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2016-01-11 00:00:00 +0000 UTC">2016-01-11</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Nagios - downtime on host/service from command line with curl" href=https://timor.site/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/></a>
 </article>
@@ -108,10 +108,10 @@ $ wp --version WP-CLI 0.22.0 WordPress installation Now you should switch to use
 <h2>Changing default php.ini file for PHP-CLI on CentOS
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>On Debian in default installation you have different configuration files for PHP in Apache, FPM, CLI, etc. But on CentOS you have only one php.ini for all of them. In case I have, I need to have different configuration file for scripts running in CLI mode (more memory, etc). I could run it like this:
 php -c /etc/php-cli.ini script.php But this a little burdensome. So I do it like this:...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2014-05-08 00:00:00 +0000 UTC">2014-05-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Changing default php.ini file for PHP-CLI on CentOS" href=https://timor.site/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/></a>
 </article>
@@ -120,10 +120,10 @@ php -c /etc/php-cli.ini script.php But this a little burdensome. So I do it like
 <h2>Command to change root password
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Everybody knows passwd command but it’s useless when you need to change ex. root password from command line without waiting for input. In such case oneliner below could help:
 echo "root:new_password" | chpasswd </p>
-</section>
+</div>
 <footer class=entry-footer><span title="2014-05-08 00:00:00 +0000 UTC">2014-05-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Command to change root password" href=https://timor.site/2014/05/command-to-change-root-password/></a>
 </article>
@@ -132,12 +132,12 @@ echo "root:new_password" | chpasswd </p>
 <h2>Comparing two lists in bash
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>I had quite simple task - compare two lists of hosts and check if hosts from first one are also on the second one. I started with diff:
 diff -u biglist.txt hosts_to_check.txt | grep -E "^\+" It was fine but output needs some filtering to get what I want.
 I’ve found another example with grep:
 grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n This will search for all lines in hosts_to_check....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2014-02-18 00:00:00 +0000 UTC">2014-02-18</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Comparing two lists in bash" href=https://timor.site/2014/02/comparing-two-lists-in-bash/></a>
 </article>
@@ -146,11 +146,11 @@ grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n This will search for all l
 <h2>Regenerate thumbnails in Shotwell 0.15 (for last month)
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>I love Shotwell for it’s simplicity and easy export to Piwigo. After Christmas I added new photos to my library but after that I made some modifications to them (red eye reduction, etc…). Because Shotwell generate thumbnails only on import, all my modifications were not visible on preview.
 I’ve started searching how to regenerate thumbs and found this info. There were two issues with this method:
 this howto was for old version (with old paths) and only for 128px thumbs I definitely don’t want to regenerate thumbnails for 40k photos!...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2014-01-08 00:00:00 +0000 UTC">2014-01-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Regenerate thumbnails in Shotwell 0.15 (for last month)" href=https://timor.site/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/></a>
 </article>
@@ -159,10 +159,10 @@ this howto was for old version (with old paths) and only for 128px thumbs I defi
 <h2>Debian - zablokowanie aktualizacji pakietu
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>W teorii nie powinno się blokować aktualizacji pakietów bo łatają dziury itd…. Ale! Zdarzyły mi się ostatnio dwie sytuacje, które do tego mnie zmusiły:
 aktualizacja hudsona kończyła się błędem przy starcie usługi, aktualizacja domU Xen skończyła się problemem z kompatybilnością mechanizmu udev w systemie i jądrze (hypervisor miał starsze jądro niż spodziewało się DomU). W takich sytuacjach bardzo przydaje się możliwość zablokowania aktualizacji jednej “psującej” paczki na pewien okres czasu by nie opóźniać innych aktualizacji a sobie dać czas na rozpracowanie problemu....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2013-11-05 00:00:00 +0000 UTC">2013-11-05</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Debian - zablokowanie aktualizacji pakietu" href=https://timor.site/2013/11/debian-zablokowanie-aktualizacji-pakietu/></a>
 </article>
@@ -171,10 +171,10 @@ aktualizacja hudsona kończyła się błędem przy starcie usługi, aktualizacja
 <h2>Kopiowanie wolumenów LVM z dd i netcat
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Niedawno chciałem skopiować maszynę wirtualną z jednego hypervisora na innego. Były to 3 wolumeny LVM o rozmiarach od 50 do 100GB. Dawno temu zrobiłem sobie skrypty do backupu - jeden kompresuje wolumeny LVM - a drugi pozwala odtworzyć z dekompresja na drugim serwerze. Tyle że przy tak dużej maszynce będzie to trwało masakrycznie długo - fajnie byłoby móc równocześnie kopiować i odtwarzać (live)…
 I wtedy przypomniało mi się narzędzie netcat - zrobiłem snapshoty wolumenów i mogłem zaczynać....</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2013-09-02 00:00:00 +0000 UTC">2013-09-02</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Kopiowanie wolumenów LVM z dd i netcat" href=https://timor.site/2013/09/kopiowanie-wolumenow-lvm-z-dd-i-netcat/></a>
 </article>
@@ -183,11 +183,11 @@ I wtedy przypomniało mi się narzędzie netcat - zrobiłem snapshoty wolumenów
 <h2>Tworzenie patch’y z poleceniami diff i patch
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Jest kilka powodów dla których tworzenie patchy jest przydatne - jeśli tu jesteś to pewnie masz jakiś własny…
 Tworzenie patch’a diff -crB old new > from-old-to-new.patch W powyższym poleceniu założyłem że old i new to katalogi z wieloma podkatalogami i plikami - stąd opcja -r. -c dodaje kilka linijek “kontekstu” przez co łatwiej rozeznać się w patch’u. Opcja -B ignoruje puste linie, których patchowanie mnie nie interesuje.
 Patchowanie Na początek zawsze warto wywołać polecenie z opcją -dry-run by zobaczyć czy patch wykona się poprawnie:...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2013-04-01 00:00:00 +0000 UTC">2013-04-01</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Tworzenie patch’y z poleceniami diff i patch" href=https://timor.site/2013/04/tworzenie-patchy-z-poleceniami-diff-i-patch/></a>
 </article>
@@ -196,17 +196,20 @@ Patchowanie Na początek zawsze warto wywołać polecenie z opcją -dry-run by z
 <h2>Rozsynchronizowane serwery NTP
 </h2>
 </header>
-<section class=entry-content>
+<div class=entry-content>
 <p>Miałem ostatnio zabawną sytuację gdy kilka serwerów z zainstalowanym NTPD miało rozjazdy rzędu kilkunastu sekund. Wyszło na to że moje serwery synchronizowały się z różnymi zewnętrznymi serwerami NTP pomiędzy, którymi były rozjazdy i te rozjazdy synchronizowały się na moich serwerach. Jeden “z moich” ustanowiłem głównym a wszystkie inne przekierowałem na niego (komentując wszystkie inne serwery NTP w konfiguracji). Wymusiłem synchronizację:
 ntp -q Sprawdziłem jak duży jest offset i jitter (powinny być bardzo małe):...</p>
-</section>
+</div>
 <footer class=entry-footer><span title="2013-03-31 00:00:00 +0000 UTC">2013-03-31</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Rozsynchronizowane serwery NTP" href=https://timor.site/2013/03/rozsynchronizowane-serwery-ntp/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
-<a class=prev href=https://timor.site/tags/bash/>« Prev Page</a>
-<a class=next href=https://timor.site/tags/bash/page/3/>Next Page »</a>
+<a class=prev href=https://timor.site/tags/bash/>
+«&nbsp;Prev&nbsp;
+</a>
+<a class=next href=https://timor.site/tags/bash/page/3/>Next&nbsp;&nbsp;»
+</a>
 </nav>
 </footer>
 </main>
