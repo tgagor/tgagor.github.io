@@ -5,8 +5,7 @@
 <meta name=robots content="index, follow">
 <title>MySQL - reset root password | timor's site</title>
 <meta name=keywords content="Linux,MariaDB,MySQL,Percona">
-<meta name=description content="It will happen from time to time, that you&rsquo;re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn&rsquo;t be used in app 😃 ) but will work for any user.
- shutdown db  service mysql stop  create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt  SET PASSWORD FOR &#34;root&#34;@&#34;localhost&#34; = PASSWORD(&#34;HereYourNewPassword&#34;);  start mysqld with --init-file param  mysqld_safe --init-file=/tmp/pwchange.">
+<meta name=description content="It will happen from time to time, that you’re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2015/12/mysql-reset-root-password/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

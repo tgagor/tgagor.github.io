@@ -5,12 +5,7 @@
 <meta name=robots content="index, follow">
 <title>Postfix - automatically drop outbound mail | timor's site</title>
 <meta name=keywords content="Linux,postfix">
-<meta name=description content="I have development server with postfix - I wanted to allow outbound traffic to one domain but cut off all the rest. I definitely do not want that test mail or any debug info goes to service users.
-I have to add something like that to /etc/postfix/transport:
-allowed.domain.com : * discard: Then run:
-postmap /etc/postfix/transport At end, add these to /etc/postfix/main.cf:
-transport_maps = hash:/etc/postfix/transport Reload postfix:
-postfix reload Test if it works:">
+<meta name=description content="I have development server with postfix - I wanted to allow outbound traffic to one domain but cut off all the rest. I definitely do not want that test mail or ">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2014/03/postfix-automatically-drop-outbound-mail/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

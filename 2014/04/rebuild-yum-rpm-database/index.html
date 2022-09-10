@@ -5,9 +5,8 @@
 <meta name=robots content="index, follow">
 <title>Rebuild yum/rpm database | timor's site</title>
 <meta name=keywords content="CentOS,Fedora,Linux,Red Hat">
-<meta name=description content="When I was trying to update packages on one host I&rsquo;ve stuck with yum hung on update. I run strace and see:
-strace -p 43734 Process 43734 attached - interrupt to quit futex(0x807c938, FUTEX_WAIT, 1, NULL <unfinished ...> Process 43734 detached It looks like yum database was corrupted, to repair this run:
-rm -f /var/lib/rpm/__db* rpm --rebuilddb yum clean all yum update Instead rm on db-files you could use gzip to have backup of these files.">
+<meta name=description content="When I was trying to update packages on one host I’ve stuck with yum hung on update. I run strace and see:
+strace -p 43734 Process 43734 attached - interrupt t">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2014/04/rebuild-yum-rpm-database/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

@@ -5,11 +5,8 @@
 <meta name=robots content="index, follow">
 <title>Nagios - run checks as root with NRPE | timor's site</title>
 <meta name=keywords content="Linux,Nagios">
-<meta name=description content="I&rsquo;ve few Nagios checks that require root privileges but running nrpe as root user is not acceptable. I prefer to use sudo for only these few commands.
-Run visudo and coment out this line:
-#Defaults requiretty This change is crucial to get scripts working.
-Then add at the end of file:
-%nrpe ALL=(ALL) NOPASSWD: /usr/lib64/nagios/plugins/ I&rsquo;ve used nrpe group, but you have to add exactly group that your nrpe process uses.">
+<meta name=description content="I’ve few Nagios checks that require root privileges but running nrpe as root user is not acceptable. I prefer to use sudo for only these few commands.
+Run visu">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2014/03/nagios-run-checks-as-root-with-nrpe/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

@@ -5,7 +5,7 @@
 <meta name=robots content="index, follow">
 <title>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic | timor's site</title>
 <meta name=keywords content="Apache,Debian,Linux,mod_auth_basic,mod_rewrite,Security">
-<meta name=description content="Niedawno trafiłem na ciekawy problem w mod_rewrite - by przekierowywać użytkowników logujących się jednym z modułów mod_auth_basic do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej %{REMOTE_USER} - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w RewriteCond zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można RewriteCond&rsquo;y połączyć wyrażeniami logicznymi typu AND/OR to nie ma możliwości porównania czy dopasowania z kolejnych RewriteCond&rsquo;ów są identyczne.">
+<meta name=description content="Niedawno trafiłem na ciekawy problem w mod_rewrite - by przekierowywać użytkowników logujących się jednym z modułów mod_auth_basic do dedykowanych im katalogów">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

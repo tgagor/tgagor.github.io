@@ -5,8 +5,7 @@
 <meta name=robots content="index, follow">
 <title>pip - uninstall package with dependencies | timor's site</title>
 <meta name=keywords content="bash,Python">
-<meta name=description content="Virtualenvs in python are cheap but from time to time you will install something with pip on your system and when time comes removing all this crap could be difficult. I found this bash snippet that will uninstall package with all dependencies:
-for dep in $(pip show python-neutronclient | grep Requires | sed 's/Requires: //g; s/,//g') ; do sudo pip uninstall -y $dep ; done pip uninstall -y python-neutronclient Source: http://stackoverflow.">
+<meta name=description content="Virtualenvs in python are cheap but from time to time you will install something with pip on your system and when time comes removing all this crap could be di">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2016/04/pip-uninstall-package-with-dependencies/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

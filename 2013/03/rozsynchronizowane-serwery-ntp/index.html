@@ -5,8 +5,7 @@
 <meta name=robots content="index, follow">
 <title>Rozsynchronizowane serwery NTP | timor's site</title>
 <meta name=keywords content="bash,Linux">
-<meta name=description content="Miałem ostatnio zabawną sytuację gdy kilka serwerów z zainstalowanym NTPD miało rozjazdy rzędu kilkunastu sekund. Wyszło na to że moje serwery synchronizowały się z różnymi zewnętrznymi serwerami NTP pomiędzy, którymi były rozjazdy i te rozjazdy synchronizowały się na moich serwerach. Jeden &ldquo;z moich&rdquo; ustanowiłem głównym a wszystkie inne przekierowałem na niego (komentując wszystkie inne serwery NTP w konfiguracji). Wymusiłem synchronizację:
-ntp -q Sprawdziłem jak duży jest offset i jitter (powinny być bardzo małe):">
+<meta name=description content="Miałem ostatnio zabawną sytuację gdy kilka serwerów z zainstalowanym NTPD miało rozjazdy rzędu kilkunastu sekund. Wyszło na to że moje serwery synchronizowały ">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2013/03/rozsynchronizowane-serwery-ntp/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

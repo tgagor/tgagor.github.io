@@ -5,9 +5,7 @@
 <meta name=robots content="index, follow">
 <title>MySQL - Proste metody optymalizacji | timor's site</title>
 <meta name=keywords content="MariaDB,MySQL,Percona">
-<meta name=description content="Wcześniej czy później zawsze pojawia się potrzeba zoptymalizowania naszej bazy MySQL. Przedstawię kilka zmian w konfiguracji, które powinny zwiększyć wydajność w większości przypadków.
-MyISAM - key_buffer_size Najprostszą optymalizacją baz/tabel z mechanizmem MyISAM jest odpowiednie dobranie bufora na cache dla kluczy i indeksów (dane nigdy nie są cachowane). Poniższe zapytanie pozwala oszacować zalecany rozmiar cache&rsquo;u:
-SELECT CONCAT(ROUND(KBS/POWER(1024, IF(PowerOf1024<0,0,IF(PowerOf1024>3,0,PowerOf1024)))+0.4999), SUBSTR(' KMG',IF(PowerOf1024<0,0, IF(PowerOf1024>3,0,PowerOf1024))+1,1)) recommended_key_buffer_size FROM (SELECT LEAST(POWER(2,32),KBS1) KBS FROM (SELECT SUM(index_length) KBS1 FROM information_schema.">
+<meta name=description content="Wcześniej czy później zawsze pojawia się potrzeba zoptymalizowania naszej bazy MySQL. Przedstawię kilka zmian w konfiguracji, które powinny zwiększyć wydajność">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2011/12/mysql-proste-metody-optymalizacji/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

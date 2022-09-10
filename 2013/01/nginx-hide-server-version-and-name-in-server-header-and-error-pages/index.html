@@ -5,9 +5,7 @@
 <meta name=robots content="index, follow">
 <title>Nginx - hide server version and name in Server header and error pages | timor's site</title>
 <meta name=keywords content="nginx,Security">
-<meta name=description content="On Debian you have to install nginx-extras package (because it have built in headers_more module). Then you need two options (best in global configuration /etc/nginx/nginx.conf file, http part):
-server_tokens off; more_set_headers 'Server: BadAss'; And it&rsquo;s good to setup non standard error pages on every site (500 and 404 at minimum):
-error_page 403 404 http://mysite.com/areyoulost; error_page 502 503 504 /500.html; ">
+<meta name=description content="On Debian you have to install nginx-extras package (because it have built in headers_more module). Then you need two options (best in global configuration /etc">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

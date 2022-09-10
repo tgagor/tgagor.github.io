@@ -5,9 +5,7 @@
 <meta name=robots content="index, follow">
 <title>logrotate: kompresja logów xz | timor's site</title>
 <meta name=keywords content="Linux">
-<meta name=description content="Narzędzia xz-utils dostępne w nowszych systemach korzystają z mocniejszych algorytmów kompresji (jakaś odmiana LZMA, coś w stylu 7zip&rsquo;a) przy zachowaniu kompatybilności składni poleceń z gzip&rsquo;em/bzip&rsquo;em - da się je zatem łatwo zintegrować w obecnych systemach. Ja chciałem wykorzystać xz do kompresji logów, które bywają przydatne ale przez większość czasy tylko zajmują miejsce :simple_smile:
-W /etc/logrotate.conf dopisujemy:
-compresscmd /usr/bin/xz uncompresscmd /usr/bin/unxz compressext .xz compressoptions -9T2 compressoptions można nie ustawiać bo domyślnie ma wartość -9 (czyli kompresuj na maxa), mój dodatek (czyli -T2) użyje dwóch wątków procesora gdy już ten mechanizm zostanie zimplementowany (bo na razie nie jest) :simple_smile:">
+<meta name=description content="Narzędzia xz-utils dostępne w nowszych systemach korzystają z mocniejszych algorytmów kompresji (jakaś odmiana LZMA, coś w stylu 7zip’a) przy zachowaniu kompat">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2013/07/logrotate-kompresja-logow-xz/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

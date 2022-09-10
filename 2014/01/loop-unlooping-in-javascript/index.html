@@ -5,8 +5,7 @@
 <meta name=robots content="index, follow">
 <title>Loop unlooping in Javascript | timor's site</title>
 <meta name=keywords content="Javascript">
-<meta name=description content="Few days ago I&rsquo;ve read a book ‘Even Faster Web Sites‘ about websites optimisation and I found one thing usefuluseful, not only on websites. There was a small tip about looploop unlooping. I want to quote them for later use.
-First - with switch statement var iterations = Math.ceil(values.length / 8); var startAt = values.length % 8; var i = 0; do { switch(startAt) { case 0: process(values[i++]); case 7: process(values[i++]); case 6: process(values[i++]); case 5: process(values[i++]); case 4: process(values[i++]); case 3: process(values[i++]); case 2: process(values[i++]); case 1: process(values[i++]); } startAt = 0; } while(--iterations > 0); Second - without switch var iterations = Math.">
+<meta name=description content="Few days ago I’ve read a book ‘Even Faster Web Sites‘ about websites optimisation and I found one thing usefuluseful, not only on websites. There was a small t">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2014/01/loop-unlooping-in-javascript/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

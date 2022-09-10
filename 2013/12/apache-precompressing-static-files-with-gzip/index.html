@@ -5,9 +5,7 @@
 <meta name=robots content="index, follow">
 <title>Apache - precompressing static files with gzip | timor's site</title>
 <meta name=keywords content="Apache,Linux,mod_rewrite">
-<meta name=description content="Some time ago I&rsquo;ve show how to precompress js and css file with gzip to be available for Nginx&rsquo;s mod_gzip. In default configuration Apache don&rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.
-Basically we will start with these rewrites to serve gzipped CSS/JS files if they exist and the client accepts gzip compression:
-RewriteEngine on RewriteCond %{HTTP:Accept-encoding} gzip RewriteCond %{REQUEST_FILENAME}\.gz -s RewriteRule ^(.*)\.(js|css)$ $1\.$2\.gz [QSA] Then we need to setup proper content types for such compressed files - I know how to do this in two ways:">
+<meta name=description content="Some time ago I’ve show how to precompress js and css file with gzip to be available for Nginx’s mod_gzip. In default configuration Apache don’t have such modu">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2013/12/apache-precompressing-static-files-with-gzip/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

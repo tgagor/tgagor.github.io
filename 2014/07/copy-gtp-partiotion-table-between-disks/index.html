@@ -5,11 +5,8 @@
 <meta name=robots content="index, follow">
 <title>Copy GTP partiotion table between disks | timor's site</title>
 <meta name=keywords content="Debian,Linux,Ubuntu">
-<meta name=description content="When configuring RAID it&rsquo;s quite important to have the same partition tables on every disk. I&rsquo;v done this many times on msdos partition tables like this:
-sfdisk -d /dev/sda | sfdisk /dev/sdb but it&rsquo;s not working any more on GPT partition tables. Hopefully it still can be done but with different toolstack 😄
-Install gdisk:
-apt-get install -y gdisk Then use sgdisk like this:
-sgdisk -R /dev/sd_dest /dev/sd_src sgdisk -G /dev/sd_dest First command will copy partition from /dev/sd_src to /dev/sd_dest.">
+<meta name=description content="When configuring RAID it’s quite important to have the same partition tables on every disk. I’v done this many times on msdos partition tables like this:
+sfdis">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2014/07/copy-gtp-partiotion-table-between-disks/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

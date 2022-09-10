@@ -5,8 +5,7 @@
 <meta name=robots content="index, follow">
 <title>Automatically compact CouchDB databases in version 0.11.x | timor's site</title>
 <meta name=keywords content="CouchDB,Linux">
-<meta name=description content="CouchDB databases on version 0.11.x swell very fast. They should be compacted daily for best performance and space usage. Here is my script that could be run in cron and will compact all databases:
-#!/bin/bash IP=&#34;10.0.0.121&#34; DBS=`curl -sS -X GET http://$IP:5984/_all_dbs | sed -r &#34;s/([,\&#34;[])|(\])+/ /g&#34;` for d in $DBS; do curl -H &#34;Content-Type: application/json&#34; -X POST http://$IP:5984/$d/_compact done More informations about compacting could be found here (also for version 1.">
+<meta name=description content="CouchDB databases on version 0.11.x swell very fast. They should be compacted daily for best performance and space usage. Here is my script that could be run i">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2012/11/automatically-compact-couchdb-databases-in-0-11-x/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

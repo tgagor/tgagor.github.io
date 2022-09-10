@@ -5,10 +5,7 @@
 <meta name=robots content="index, follow">
 <title>Automatically build after file change | timor's site</title>
 <meta name=keywords content="bash,Docker">
-<meta name=description content="I&rsquo;m playing a lot with Docker lately. Building images, and then rebuilding, and then building again&mldr; It&rsquo;s pretty boring. To automate this task a little I used inotify to build automatically after I changed any file. This trick could be used in many different situations.
-You will need inotify-tools package:
-sudo apt-get install -y inotify-tools Then run something like this:
-while inotifywait -e modify -r .; do docker-compose build; done This commands will rebuild my Docker images after any file change in current directory.">
+<meta name=description content="I’m playing a lot with Docker lately. Building images, and then rebuilding, and then building again… It’s pretty boring. To automate this task a little I used ">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2016/02/automatically-build-after-file-change/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>

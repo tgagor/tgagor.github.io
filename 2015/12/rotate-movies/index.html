@@ -6,9 +6,7 @@
 <title>Rotate movies | timor's site</title>
 <meta name=keywords content="Linux">
 <meta name=description content="I hate movies recorded on phone in vertical position. This just short tip how I dealt with with it last time:
-for m in *.mp4 do avconv -i $m -vf &#34;transpose=1&#34; -codec:a copy -codec:v libx264 -preset slow -crf 23 rotated-$m done Other examples:
-http://stackoverflow.com/questions/3937387/rotating-videos-with-ffmpeg
-http://superuser.com/questions/578321/how-to-flip-a-video-180°-vertical-upside-down-with-ffmpeg">
+for m in *.mp4 do avconv -i $m -vf &#34;transpose=1&#34; ">
 <meta name=author content>
 <link rel=canonical href=https://timor.site/2015/12/rotate-movies/>
 <link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>
