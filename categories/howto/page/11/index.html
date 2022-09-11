@@ -78,6 +78,19 @@ HOWTO
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Apache: mod_authnz_ldap z Active Directory
+</h2>
+</header>
+<div class=entry-content>
+<p>Gdy już się dorobi systemu Active Directory wygodnie jest wykorzystać jego bazę użytkowników do autoryzacji w różnych miejscach, np. do pewnych “tajnych i tajniejszych” stron w Apache. Najprościej można to zrobić z wykorzystaniem LDAP.
+Warto sprawdzić czy i jak możemy dostać się do kontrolerów. Gdy już mamy wszystkie potrzebne parametry konfigurujemy Apachego - na początek aktywujemy moduły:
+a2enmod ldap a2enmod authnz_ldap Teraz możemy edytujemy globalny plik konfiguracyjny mod_ldap’a by ustawić nieco cache’y (bardzo przydatne)....</p>
+</div>
+<footer class=entry-footer><span title="2012-12-14 00:00:00 +0000 UTC">2012-12-14</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Apache: mod_authnz_ldap z Active Directory" href=https://timor.site/2012/12/apache-mod_authnz_ldap-z-active-directory/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Python - wysyłanie maili w unicode
 </h2>
 </header>
@@ -181,18 +194,6 @@ Jest to system statystyk aspirujący do bycia Open Source’ową alternatywą dl
 </div>
 <footer class=entry-footer><span title="2012-09-26 00:00:00 +0000 UTC">2012-09-26</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Piwik - alternatywa dla Google Analytics" href=https://timor.site/2012/09/piwik-alternatywa-dla-google-analytics/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>mod_rewrite - wymuszenie małych liter w adresie URL
-</h2>
-</header>
-<div class=entry-content>
-<p>Co prawda adresy URL pozwalają na stosowanie zarówno dużych jak i małych liter ale różne systemy mogą je różnie obsługiwać i może się trafić sytuacja, w której nie zechcemy by np. duże litery w ogóle pojawiały się w adresach URL. Doskonały przykład to mój niedawny wpis: Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic.
-Zachodzi tam sytuacja, w której katalog użytkownika jest jego loginem małymi literami (bądź dużymi - jak kto woli), a użytkownik wpisując login może użyć zarówno małych jak i dużych liter i tutaj zaczyna się jazda....</p>
-</div>
-<footer class=entry-footer><span title="2012-09-25 00:00:00 +0000 UTC">2012-09-25</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to mod_rewrite - wymuszenie małych liter w adresie URL" href=https://timor.site/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

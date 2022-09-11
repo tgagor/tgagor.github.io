@@ -78,6 +78,17 @@ timor
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Montowanie partycji z obrazu dysku
+</h2>
+</header>
+<div class=entry-content>
+<p>Jedną z rzeczy, które podobają mi się w maszynach wirtualnych Xen jest możliwość zrobienia backupu całego obrazu i szybkie odzyskanie już w trakcie ciężkiej awarii. Gdy dodatkowo korzysta się z LVM’a to można na chwilę wyłączyć DomU, utworzyć snapshot jego dysków, uruchomić DomU i w trakcie działania robić spójny backup ze snapshot’a. Dzięki takiemu mechanizmowi serwer jest niedostępny przez kilkanaście sekund, a backup spójny jakby został wykonany przy całkowicie wyłączonej maszynie....</p>
+</div>
+<footer class=entry-footer><span title="2012-09-06 00:00:00 +0000 UTC">2012-09-06</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Montowanie partycji z obrazu dysku" href=https://timor.site/2012/09/montowanie-partycji-z-obrazu-dysku/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Przeszukiwanie plików danego typu pod kątem tekstu
 </h2>
 </header>
@@ -187,18 +198,6 @@ user www-data; worker_processes 4; pid /var/run/nginx.pid; events { worker_conne
 </div>
 <footer class=entry-footer><span title="2012-06-08 00:00:00 +0000 UTC">2012-06-08</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Nginx - mój domyślny config" href=https://timor.site/2012/06/nginx-moj-domyslny-config/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Fortigate: Warning: SQL Logging is not enabled
-</h2>
-</header>
-<div class=entry-content>
-<p>Jeśli po aktualizacji firmware na swoim firewall’u do wersji MR3 natrafisz na komunikat Warning: SQL Logging is not enabled przy dostępie do logów to prawdopodobnie musisz zmienić źródło logów dla interfejsu gui. Poniżej polecenie CLI i możliwe opcje:
-config log gui set logdevice {memory | disk | fortianalyzer} end Ja potrzebowałem ustawić tę opcję na fortianalyzer by uzyskać dostęp do moich logów.</p>
-</div>
-<footer class=entry-footer><span title="2012-04-11 00:00:00 +0000 UTC">2012-04-11</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Fortigate: Warning: SQL Logging is not enabled" href=https://timor.site/2012/04/fortigate-warning-sql-logging-is-not-enabled/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

@@ -95,6 +95,22 @@ Solution is simple - use .dockerignore file2 dropped in the directory where you 
 </article>
 <article class=post-entry>
 <figure class=entry-cover>
+<img loading=lazy srcset="https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_360x0_resize_q75_h2_box_2.webp 360w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_480x0_resize_q75_h2_box_2.webp 480w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_720x0_resize_q75_h2_box_2.webp 720w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_1080x0_resize_q75_h2_box_2.webp 1080w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_1500x0_resize_q75_h2_box_2.webp 1500w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover.webp 1500w" sizes="(min-width: 768px) 720px, 100vw" src=https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover.webp alt="[Photo by Ghasiq Anjum from Pexels](https://www.pexels.com/photo/metal-trash-bin-on-the-side-of-the-street-12841982/)" width=1500 height=625>
+</figure>
+<header class=entry-header>
+<h2>Use VOLUME for all mutable, temporary file locations
+</h2>
+</header>
+<div class=entry-content>
+<p>IMO people don’t understand how VOLUME works so they don’t use it. It’s generally used far too rarely!
+In short VOLUME means two things:
+Whatever is left in directory marked as VOLUME, stays there and can’t be changed in later layers (actually it can be changed but changes won’t be persistent). Volumes are not part of layered image FS. They’re mounted as anonymous volumes located on standard file system. This means they’re working much faster....</p>
+</div>
+<footer class=entry-footer><span title="2022-09-11 00:00:00 +0000 UTC">2022-09-11</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Use VOLUME for all mutable, temporary file locations" href=https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/></a>
+</article>
+<article class=post-entry>
+<figure class=entry-cover>
 <img loading=lazy srcset="https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_360x0_resize_q75_h2_box_2.webp 360w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_480x0_resize_q75_h2_box_2.webp 480w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_720x0_resize_q75_h2_box_2.webp 720w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_1080x0_resize_q75_h2_box_2.webp 1080w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_1500x0_resize_q75_h2_box_2.webp 1500w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover.webp 1500w" sizes="(min-width: 768px) 720px, 100vw" src=https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover.webp alt="[Photo by Tom Fisk from Pexels](https://www.pexels.com/photo/top-view-photography-of-cargo-ship-with-intermodal-containers-3057963/)" width=1500 height=625>
 </figure>
 <header class=entry-header>
@@ -218,22 +234,6 @@ Uninstall with dependencies brew uninstall FORMULA brew autoremove
 </div>
 <footer class=entry-footer><span title="2021-11-05 00:00:00 +0000 UTC">2021-11-05</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Homebrew - uninstall formula with dependencies" href=https://timor.site/2021/11/homebrew-uninstall-formula-with-dependencies/></a>
-</article>
-<article class=post-entry>
-<figure class=entry-cover>
-<img loading=lazy srcset="https://timor.site/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/cover_huf8ad286a97ac52378483019a5a270561_62437_360x0_resize_q75_box.jpg 360w ,https://timor.site/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/cover_huf8ad286a97ac52378483019a5a270561_62437_480x0_resize_q75_box.jpg 480w ,https://timor.site/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/cover_huf8ad286a97ac52378483019a5a270561_62437_720x0_resize_q75_box.jpg 720w ,https://timor.site/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/cover.jpg 720w" sizes="(min-width: 768px) 720px, 100vw" src=https://timor.site/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/cover.jpg alt width=720 height=300>
-</figure>
-<header class=entry-header>
-<h2>Asus ROG STRIX Z590-E GAMING WIFI - my UEFI BIOS settings
-</h2>
-</header>
-<div class=entry-content>
-<p>I’ve build new PC - it’s based on Asus ROG STRIX Z590-E GAMING WIFI motherboard. Generally, I’m quite satisfied, but it have one irritating downside - after each UEFI BIOS upgrade, it’s silently resetting some of settings.
-Let me note, what I want to have there:
-Ai Tweaker (use my RAM capabilities) AI Overcloack Tuner -> [XMP I] DRAM Frequency -> [DDR4-3600MHz] DRAM CAS# Latency -> [16] DRAM RAS# to CAS# Delay -> [19] DRAM RAS# ACT Time -> [39] DRAM Voltage -> [1....</p>
-</div>
-<footer class=entry-footer><span title="2021-10-30 00:00:00 +0000 UTC">2021-10-30</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Asus ROG STRIX Z590-E GAMING WIFI - my UEFI BIOS settings" href=https://timor.site/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

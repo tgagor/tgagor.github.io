@@ -78,6 +78,18 @@ timor
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>X-Forwarded-For + mod_rpaf - logowanie rzeczywistych adresów IP na Apache za reverse proxy
+</h2>
+</header>
+<div class=entry-content>
+<p>Gdy już ustawimy reverse proxy przed Apache szybko można zauważyć że w logach zamiast adresów IP zdalnych użytkowników pojawia się tylko jeden adres: adres naszego proxy. Również z poziomu php’a jako adres klienta widać IP naszego proxy.
+By poradzić sobie z tym problemem trzeba na serwerze reverse proxy ustawić przekazywanie informacji o oryginalnym adresie IP klienta w nagłówku X-Forwarded-For. W przypadku gdy reverse proxy działa na nginx’e wystarczy dodać taki wpis:...</p>
+</div>
+<footer class=entry-footer><span title="2011-11-28 00:00:00 +0000 UTC">2011-11-28</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to X-Forwarded-For + mod_rpaf - logowanie rzeczywistych adresów IP na Apache za reverse proxy" href=https://timor.site/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Porównanie optymalizatorów PHP - eAccelerator, PHP APC, XCache
 </h2>
 </header>
@@ -183,18 +195,6 @@ Na szczęście można to zrobić w prosty sposób:...</p>
 </div>
 <footer class=entry-footer><span title="2011-09-12 00:00:00 +0000 UTC">2011-09-12</span>&nbsp;·&nbsp;3 min</footer>
 <a class=entry-link aria-label="post link to Zabezpieczenie Apachego na Debianie przed slowloris’em" href=https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Sprawdzenie który proces obciąża dyski
-</h2>
-</header>
-<div class=entry-content>
-<p>Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.
-Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić 😃...</p>
-</div>
-<footer class=entry-footer><span title="2011-09-02 00:00:00 +0000 UTC">2011-09-02</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Sprawdzenie który proces obciąża dyski" href=https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

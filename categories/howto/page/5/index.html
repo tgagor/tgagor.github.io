@@ -78,6 +78,18 @@ HOWTO
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Changing default php.ini file for PHP-CLI on CentOS
+</h2>
+</header>
+<div class=entry-content>
+<p>On Debian in default installation you have different configuration files for PHP in Apache, FPM, CLI, etc. But on CentOS you have only one php.ini for all of them. In case I have, I need to have different configuration file for scripts running in CLI mode (more memory, etc). I could run it like this:
+php -c /etc/php-cli.ini script.php But this a little burdensome. So I do it like this:...</p>
+</div>
+<footer class=entry-footer><span title="2014-05-08 00:00:00 +0000 UTC">2014-05-08</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Changing default php.ini file for PHP-CLI on CentOS" href=https://timor.site/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Command to change root password
 </h2>
 </header>
@@ -198,20 +210,6 @@ http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansibl
 </div>
 <footer class=entry-footer><span title="2014-03-04 00:00:00 +0000 UTC">2014-03-04</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Ansible - ssh pipelining" href=https://timor.site/2014/03/ansible-ssh-pipelining/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Comparing two lists in bash
-</h2>
-</header>
-<div class=entry-content>
-<p>I had quite simple task - compare two lists of hosts and check if hosts from first one are also on the second one. I started with diff:
-diff -u biglist.txt hosts_to_check.txt | grep -E "^\+" It was fine but output needs some filtering to get what I want.
-I’ve found another example with grep:
-grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n This will search for all lines in hosts_to_check....</p>
-</div>
-<footer class=entry-footer><span title="2014-02-18 00:00:00 +0000 UTC">2014-02-18</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Comparing two lists in bash" href=https://timor.site/2014/02/comparing-two-lists-in-bash/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

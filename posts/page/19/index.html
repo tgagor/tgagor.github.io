@@ -79,6 +79,18 @@ Posts
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Sprawdzenie który proces obciąża dyski
+</h2>
+</header>
+<div class=entry-content>
+<p>Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.
+Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić 😃...</p>
+</div>
+<footer class=entry-footer><span title="2011-09-02 00:00:00 +0000 UTC">2011-09-02</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Sprawdzenie który proces obciąża dyski" href=https://timor.site/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>JPGraph, wykresy z PHP’a
 </h2>
 </header>
@@ -190,19 +202,6 @@ Dobrym przykładem jest serwer FTP z wirtualnymi kontami użytkowników. Czyl
 </div>
 <footer class=entry-footer><span title="2011-08-27 00:00:00 +0000 UTC">2011-08-27</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Quota na katalog w XFS’ie" href=https://timor.site/2011/08/quota-na-katalog-w-xfsie/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Wysyłanie załączników poleceniem mail
-</h2>
-</header>
-<div class=entry-content>
-<p>Kiedyś potrzebowałem w ramach testu obciążeniowego wysłać dużo wiadomości z załącznikami. Chciałem to zrobić na szybko z shell’a i tutaj chwilę musiałem pogooglać aby znaleźć działające polecenie. To co znalazłem wygląda tak:
-(echo "testowa wiadomosc"; uuencode test.zip test.zip) \ | mail -s "Test" testowy@mail.pl Wiedząc już jak wysyłać maile z załącznikami, mały mail bombing mogłem zrobić tak:
-for i in `seq 1 100`; do (cat tekst.txt; uuencode test.zip test.zip) \ | mail -s "Test $i" testowy@mail....</p>
-</div>
-<footer class=entry-footer><span title="2011-08-27 00:00:00 +0000 UTC">2011-08-27</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Wysyłanie załączników poleceniem mail" href=https://timor.site/2011/08/wysylanie-zalacznikow-poleceniem-mail/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

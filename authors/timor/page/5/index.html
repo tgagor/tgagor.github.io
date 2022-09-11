@@ -78,6 +78,20 @@ timor
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Grafana - installation and configuraton with InfluxDB and CollectD on Debian/Ubuntu
+</h2>
+</header>
+<div class=entry-content>
+<p>Now when you have CollectD and InfluxDB installed you may configure Grafana 😃
+First configure repo with current Grafana version (select your distro):
+curl https://packagecloud.io/gpg.key | sudo apt-key add - deb https://packagecloud.io/grafana/testing/debian/ wheezy main Now install package (on wheezy I needed to install apt-transport-https to allow installation of packages from repo via HTTPS):
+apt-get update apt-get install -y apt-transport-https apt-get install -y grafana By default Grafana will use sqlite database to keep information about users, etc:...</p>
+</div>
+<footer class=entry-footer><span title="2016-01-10 00:00:00 +0000 UTC">2016-01-10</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Grafana - installation and configuraton with InfluxDB and CollectD on Debian/Ubuntu" href=https://timor.site/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>InfluxDB - installation and configuration on Debian/Ubuntu
 </h2>
 </header>
@@ -189,18 +203,6 @@ Extract script import base64 from Crypto.Cipher import DES3 secret = base64.deco
 </div>
 <footer class=entry-footer><span title="2015-12-25 00:00:00 +0000 UTC">2015-12-25</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Extract password saved in remmina" href=https://timor.site/2015/12/extract-password-saved-in-remmina/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>I’m back
-</h2>
-</header>
-<div class=entry-content>
-<p>After long break I’m thinking about writing more on my blog. I was reviewing my favorites/bookmarks and half of them was broken, so I can’t rely on them in case of knowledge management.
-I think I will write shorter, less descriptive articles just to be pointers to useful solutions from past.</p>
-</div>
-<footer class=entry-footer><span title="2015-12-25 00:00:00 +0000 UTC">2015-12-25</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to I’m back" href=https://timor.site/2015/12/im-back/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

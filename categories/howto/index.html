@@ -94,6 +94,22 @@ Solution is simple - use .dockerignore file2 dropped in the directory where you 
 </article>
 <article class="post-entry tag-entry">
 <figure class=entry-cover>
+<img loading=lazy srcset="https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_360x0_resize_q75_h2_box_2.webp 360w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_480x0_resize_q75_h2_box_2.webp 480w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_720x0_resize_q75_h2_box_2.webp 720w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_1080x0_resize_q75_h2_box_2.webp 1080w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_1500x0_resize_q75_h2_box_2.webp 1500w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover.webp 1500w" sizes="(min-width: 768px) 720px, 100vw" src=https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover.webp alt="[Photo by Ghasiq Anjum from Pexels](https://www.pexels.com/photo/metal-trash-bin-on-the-side-of-the-street-12841982/)" width=1500 height=625>
+</figure>
+<header class=entry-header>
+<h2>Use VOLUME for all mutable, temporary file locations
+</h2>
+</header>
+<div class=entry-content>
+<p>IMO people don’t understand how VOLUME works so they don’t use it. It’s generally used far too rarely!
+In short VOLUME means two things:
+Whatever is left in directory marked as VOLUME, stays there and can’t be changed in later layers (actually it can be changed but changes won’t be persistent). Volumes are not part of layered image FS. They’re mounted as anonymous volumes located on standard file system. This means they’re working much faster....</p>
+</div>
+<footer class=entry-footer><span title="2022-09-11 00:00:00 +0000 UTC">2022-09-11</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Use VOLUME for all mutable, temporary file locations" href=https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/></a>
+</article>
+<article class="post-entry tag-entry">
+<figure class=entry-cover>
 <img loading=lazy srcset="https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_360x0_resize_q75_h2_box_2.webp 360w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_480x0_resize_q75_h2_box_2.webp 480w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_720x0_resize_q75_h2_box_2.webp 720w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_1080x0_resize_q75_h2_box_2.webp 1080w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_1500x0_resize_q75_h2_box_2.webp 1500w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover.webp 1500w" sizes="(min-width: 768px) 720px, 100vw" src=https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover.webp alt="[Photo by Tom Fisk from Pexels](https://www.pexels.com/photo/top-view-photography-of-cargo-ship-with-intermodal-containers-3057963/)" width=1500 height=625>
 </figure>
 <header class=entry-header>
@@ -204,18 +220,6 @@ for dep in $(pip show python-neutronclient | grep Requires | sed 's/Requires: //
 </div>
 <footer class=entry-footer><span title="2016-04-23 00:00:00 +0000 UTC">2016-04-23</span>&nbsp;·&nbsp;3 min</footer>
 <a class=entry-link aria-label="post link to Daily MySQL backups with xtrabackup" href=https://timor.site/2016/04/daily-mysql-backups-with-xtrabackup/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Use bastion host with Ansible
-</h2>
-</header>
-<div class=entry-content>
-<p>When you deploy your application in cloud you don’t need and don’t want your hosts exposed via SSH to the world. Malware scans whole network for easy SSH access and when find something will try some brute force attacks, overloading such machines. It’s easier to have one exposed, but secured host, that doesn’t host anything and is used as proxy/gateway to access our infrastructure- it’s called bastion host.
-Ansible is quite easy to integrate with bastion host configuration....</p>
-</div>
-<footer class=entry-footer><span title="2016-04-22 00:00:00 +0000 UTC">2016-04-22</span>&nbsp;·&nbsp;3 min</footer>
-<a class=entry-link aria-label="post link to Use bastion host with Ansible" href=https://timor.site/2016/04/use-bastion-host-with-ansible/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

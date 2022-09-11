@@ -79,6 +79,18 @@ Posts
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>pip - uninstall package with dependencies
+</h2>
+</header>
+<div class=entry-content>
+<p>Virtualenvs in python are cheap but from time to time you will install something with pip on your system and when time comes removing all this crap could be difficult. I found this bash snippet that will uninstall package with all dependencies:
+for dep in $(pip show python-neutronclient | grep Requires | sed 's/Requires: //g; s/,//g') ; do sudo pip uninstall -y $dep ; done pip uninstall -y python-neutronclient Source: http://stackoverflow....</p>
+</div>
+<footer class=entry-footer><span title="2016-04-26 00:00:00 +0000 UTC">2016-04-26</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to pip - uninstall package with dependencies" href=https://timor.site/2016/04/pip-uninstall-package-with-dependencies/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Daily MySQL backups with xtrabackup
 </h2>
 </header>
@@ -191,20 +203,6 @@ pip install docker-compose And install additional bash completions (run as root)
 </div>
 <footer class=entry-footer><span title="2016-02-12 00:00:00 +0000 UTC">2016-02-12</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Install Docker Compose" href=https://timor.site/2016/02/install-docker-compose/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Manual installation of Docker on Debian/Ubuntu
-</h2>
-</header>
-<div class=entry-content>
-<p>I’ve played with Docker a little in it early days but didn’t stick for longer with it. It’s stable now so I wanted to check how it’s running now.
-I really can’t accept this method of installation:
-curl -fsSL https://get.docker.com/ | sh I think that world is going to it’s end when I see such scritps… I prefer to do this manually, knowing exactly what I have to do.
-Install prerequisites:...</p>
-</div>
-<footer class=entry-footer><span title="2016-02-11 00:00:00 +0000 UTC">2016-02-11</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Manual installation of Docker on Debian/Ubuntu" href=https://timor.site/2016/02/manual-installation-of-docker-on-debian-ubuntu/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

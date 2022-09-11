@@ -78,6 +78,18 @@ HOWTO
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Fortigate: Warning: SQL Logging is not enabled
+</h2>
+</header>
+<div class=entry-content>
+<p>Jeśli po aktualizacji firmware na swoim firewall’u do wersji MR3 natrafisz na komunikat Warning: SQL Logging is not enabled przy dostępie do logów to prawdopodobnie musisz zmienić źródło logów dla interfejsu gui. Poniżej polecenie CLI i możliwe opcje:
+config log gui set logdevice {memory | disk | fortianalyzer} end Ja potrzebowałem ustawić tę opcję na fortianalyzer by uzyskać dostęp do moich logów.</p>
+</div>
+<footer class=entry-footer><span title="2012-04-11 00:00:00 +0000 UTC">2012-04-11</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Fortigate: Warning: SQL Logging is not enabled" href=https://timor.site/2012/04/fortigate-warning-sql-logging-is-not-enabled/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Konwersja formatu certyfikatu dla telefonów Nokia
 </h2>
 </header>
@@ -185,18 +197,6 @@ Taki objaw przeważnie jest skutkiem problemów z działaniem DNS’a po stronie
 </div>
 <footer class=entry-footer><span title="2012-01-23 00:00:00 +0000 UTC">2012-01-23</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Długie oczekiwanie na nawiązanie połączenia ssh" href=https://timor.site/2012/01/dlugie-oczekiwanie-na-nawiazanie-polaczenia-ssh/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Sniffowanie w FortiOS
-</h2>
-</header>
-<div class=entry-content>
-<p>Zawsze gdy potrzebuję zesniffować coś na żywo na Fortigate’ach muszę przeszukać Knowledge Base by przypomnieć sobie wszystkie polecenia do tego potrzebne. Tym razem robię notatki 😃
-Sniffowanie diagnose debug enable diagnose debug flow filter addr ip address clear clear filter daddr dest ip address dport destination port negate inverse filter port port proto protocol number saddr source ip address sport source port vd index of virtual domain # np. diagnose debug flow filter saddr 10....</p>
-</div>
-<footer class=entry-footer><span title="2012-01-23 00:00:00 +0000 UTC">2012-01-23</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Sniffowanie w FortiOS" href=https://timor.site/2012/01/sniffowanie-w-fortios/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

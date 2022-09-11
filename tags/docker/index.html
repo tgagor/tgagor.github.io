@@ -94,6 +94,22 @@ Solution is simple - use .dockerignore file2 dropped in the directory where you 
 </article>
 <article class="post-entry tag-entry">
 <figure class=entry-cover>
+<img loading=lazy srcset="https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_360x0_resize_q75_h2_box_2.webp 360w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_480x0_resize_q75_h2_box_2.webp 480w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_720x0_resize_q75_h2_box_2.webp 720w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_1080x0_resize_q75_h2_box_2.webp 1080w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover_hu0ab69187c094124bb263f017ad4aaa40_161004_1500x0_resize_q75_h2_box_2.webp 1500w ,https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover.webp 1500w" sizes="(min-width: 768px) 720px, 100vw" src=https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/images/cover.webp alt="[Photo by Ghasiq Anjum from Pexels](https://www.pexels.com/photo/metal-trash-bin-on-the-side-of-the-street-12841982/)" width=1500 height=625>
+</figure>
+<header class=entry-header>
+<h2>Use VOLUME for all mutable, temporary file locations
+</h2>
+</header>
+<div class=entry-content>
+<p>IMO people don’t understand how VOLUME works so they don’t use it. It’s generally used far too rarely!
+In short VOLUME means two things:
+Whatever is left in directory marked as VOLUME, stays there and can’t be changed in later layers (actually it can be changed but changes won’t be persistent). Volumes are not part of layered image FS. They’re mounted as anonymous volumes located on standard file system. This means they’re working much faster....</p>
+</div>
+<footer class=entry-footer><span title="2022-09-11 00:00:00 +0000 UTC">2022-09-11</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Use VOLUME for all mutable, temporary file locations" href=https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/></a>
+</article>
+<article class="post-entry tag-entry">
+<figure class=entry-cover>
 <img loading=lazy srcset="https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_360x0_resize_q75_h2_box_2.webp 360w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_480x0_resize_q75_h2_box_2.webp 480w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_720x0_resize_q75_h2_box_2.webp 720w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_1080x0_resize_q75_h2_box_2.webp 1080w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover_huc89478d5200da2a816d861c536e63db4_254794_1500x0_resize_q75_h2_box_2.webp 1500w ,https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover.webp 1500w" sizes="(min-width: 768px) 720px, 100vw" src=https://timor.site/2022/09/dockerfile-writing-best-practices/images/cover.webp alt="[Photo by Tom Fisk from Pexels](https://www.pexels.com/photo/top-view-photography-of-cargo-ship-with-intermodal-containers-3057963/)" width=1500 height=625>
 </figure>
 <header class=entry-header>
@@ -212,20 +228,6 @@ pip install docker-compose And install additional bash completions (run as root)
 </div>
 <footer class=entry-footer><span title="2016-02-12 00:00:00 +0000 UTC">2016-02-12</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Install Docker Compose" href=https://timor.site/2016/02/install-docker-compose/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Manual installation of Docker on Debian/Ubuntu
-</h2>
-</header>
-<div class=entry-content>
-<p>I’ve played with Docker a little in it early days but didn’t stick for longer with it. It’s stable now so I wanted to check how it’s running now.
-I really can’t accept this method of installation:
-curl -fsSL https://get.docker.com/ | sh I think that world is going to it’s end when I see such scritps… I prefer to do this manually, knowing exactly what I have to do.
-Install prerequisites:...</p>
-</div>
-<footer class=entry-footer><span title="2016-02-11 00:00:00 +0000 UTC">2016-02-11</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Manual installation of Docker on Debian/Ubuntu" href=https://timor.site/2016/02/manual-installation-of-docker-on-debian-ubuntu/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
