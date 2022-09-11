@@ -75,6 +75,18 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Certyfikaty nazwaSSL na własnym serwerze
+</h2>
+</header>
+<div class=entry-content>
+<p>Od jakiegoś czasu można kupić w NetArcie certyfikaty SSL, a niedawno zrobili na nie promocję - 15zł za pierwszy rok (za certyfikat na jedną stronkę). Tzw. tanie i dobre. Po wyrobieniu certyfikatu i zapisaniu z panelu klienta mam pliczki: stonka.crt i netart_rootca.crt, które wrzucamy do Apachego, powiedzmy tak:
+SSLCertificateFile /etc/ssl/certs/stonka.crt SSLCertificateKeyFile /etc/ssl/private/priv.key SSLCACertificateFile /etc/ssl/certs/netart_rootca.crt Certyfikat działa w Chromie ale nie weryfikuje się w Firefoxie i Internet Explorerze. FF wyświetla błąd: sec_error_unknown_issuer - co oznacza brak certyfikatu wystawcy gdzieś w łańcuchu certyfikatów....</p>
+</div>
+<footer class=entry-footer><span title="2013-10-22 00:00:00 +0000 UTC">2013-10-22</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Certyfikaty nazwaSSL na własnym serwerze" href=https://timor.site/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Postfix: ciekawy problem z smtpd_delay_reject i permit_sasl_authenticated
 </h2>
 </header>
@@ -183,18 +195,6 @@ P.S. Wiem co robię ryzykując uceglenie swojego urządzenia - u mnie ta instruk
 </div>
 <footer class=entry-footer><span title="2013-09-04 00:00:00 +0000 UTC">2013-09-04</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Root’owanie Androida 4.3 na Google Nexus 7 po aktualizacji do JWR66Y" href=https://timor.site/2013/09/rootowanie-androida-4-3-na-google-nexus-7-po-aktualizacji-do-jwr66y/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Kopiowanie wolumenów LVM z dd i netcat
-</h2>
-</header>
-<div class=entry-content>
-<p>Niedawno chciałem skopiować maszynę wirtualną z jednego hypervisora na innego. Były to 3 wolumeny LVM o rozmiarach od 50 do 100GB. Dawno temu zrobiłem sobie skrypty do backupu - jeden kompresuje wolumeny LVM - a drugi pozwala odtworzyć z dekompresja na drugim serwerze. Tyle że przy tak dużej maszynce będzie to trwało masakrycznie długo - fajnie byłoby móc równocześnie kopiować i odtwarzać (live)…
-I wtedy przypomniało mi się narzędzie netcat - zrobiłem snapshoty wolumenów i mogłem zaczynać....</p>
-</div>
-<footer class=entry-footer><span title="2013-09-02 00:00:00 +0000 UTC">2013-09-02</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Kopiowanie wolumenów LVM z dd i netcat" href=https://timor.site/2013/09/kopiowanie-wolumenow-lvm-z-dd-i-netcat/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

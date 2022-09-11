@@ -74,6 +74,21 @@
 </header>
 <main class=main>
 <article class=post-entry>
+<header class=entry-header>
+<h2>Upgrade Debian Lenny do Squeeze
+</h2>
+</header>
+<div class=entry-content>
+<p>Co jakiś czas powtarza się sytuacja, gdy muszę zaktualizować jakiś serwerek z Lennym do Squeeze’a i za każdym razem muszę googlać za odpowiednimi źródłami, które paczki najpierw, etc… Więc sobie zebrałem wszystko w poniższym poście.
+W razie wątpliwości patrz tutaj: http://www.debian.org/releases/squeeze/releasenotes
+Zrób backup konfiguracji.
+Trzeba zaktualizować źródła by wskazywały na squeeze’a (poniższe polecenie nadpisze Twoje obecne repozytoria):
+cat > /etc/apt/sources.list &lt;&lt;SRC deb http://ftp.pl.debian.org/debian/ squeeze main non-free contrib deb-src http://ftp....</p>
+</div>
+<footer class=entry-footer><span title="2012-01-13 00:00:00 +0000 UTC">2012-01-13</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Upgrade Debian Lenny do Squeeze" href=https://timor.site/2012/01/upgrade-debian-lenny-do-squeeze/></a>
+</article>
+<article class=post-entry>
 <figure class=entry-cover>
 <img loading=lazy srcset="https://timor.site/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/cover_hu915ff409df8f96319ac86dd37022ae74_15060_360x0_resize_q75_h2_box_2.webp 360w ,https://timor.site/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/cover_hu915ff409df8f96319ac86dd37022ae74_15060_480x0_resize_q75_h2_box_2.webp 480w ,https://timor.site/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/cover_hu915ff409df8f96319ac86dd37022ae74_15060_720x0_resize_q75_h2_box_2.webp 720w ,https://timor.site/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/cover.webp 720w" sizes="(min-width: 768px) 720px, 100vw" src=https://timor.site/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/cover.webp alt width=720 height=300>
 </figure>
@@ -189,18 +204,6 @@ APC (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w P
 </div>
 <footer class=entry-footer><span title="2011-11-02 00:00:00 +0000 UTC">2011-11-02</span>&nbsp;·&nbsp;6 min</footer>
 <a class=entry-link aria-label="post link to Porównanie optymalizatorów PHP - eAccelerator, PHP APC, XCache" href=https://timor.site/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>SLES 11 - instalacja Service Pack’a
-</h2>
-</header>
-<div class=entry-content>
-<p>Administrowałem do tej pory głównie darmowymi distro, ale gdzieś tam ukradkiem wkradło się kilka “siusiaków” (aka SUSE Linux Enterprise Server). Żyłem w utopijnym przekonaniu że skoro się za nie płaci to powinno się z nimi łatwiej współpracować… w przypadku instalacji aktualizacji (a w szczególności SP) nie było to aż takie proste.
-Przywykłem w darmowych dystrybucjach że gdy pojawiała się nowszą “większa wersja” to po prostu można było jednym poleceniem zaktualizować wszystkie pakiety....</p>
-</div>
-<footer class=entry-footer><span title="2011-10-20 00:00:00 +0000 UTC">2011-10-20</span>&nbsp;·&nbsp;3 min</footer>
-<a class=entry-link aria-label="post link to SLES 11 - instalacja Service Pack’a" href=https://timor.site/2011/10/sles-11-instalacja-service-packa/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

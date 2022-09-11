@@ -78,6 +78,21 @@ timor
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Copy GTP partiotion table between disks
+</h2>
+</header>
+<div class=entry-content>
+<p>When configuring RAID it’s quite important to have the same partition tables on every disk. I’v done this many times on msdos partition tables like this:
+sfdisk -d /dev/sda | sfdisk /dev/sdb but it’s not working any more on GPT partition tables. Hopefully it still can be done but with different toolstack 😄
+Install gdisk:
+apt-get install -y gdisk Then use sgdisk like this:
+sgdisk -R /dev/sd_dest /dev/sd_src sgdisk -G /dev/sd_dest First command will copy partition from /dev/sd_src to /dev/sd_dest....</p>
+</div>
+<footer class=entry-footer><span title="2014-07-28 00:00:00 +0000 UTC">2014-07-28</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Copy GTP partiotion table between disks" href=https://timor.site/2014/07/copy-gtp-partiotion-table-between-disks/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Quickly setup SQL query logging on console in Django
 </h2>
 </header>
@@ -191,22 +206,6 @@ echo stats | nc 127.0.0.1 11211 STAT pid 2743 STAT uptime 263 STAT time 13954389
 </div>
 <footer class=entry-footer><span title="2014-03-21 00:00:00 +0000 UTC">2014-03-21</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Checking memcached status" href=https://timor.site/2014/03/checking-memcached-status/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Postfix - automatically drop outbound mail
-</h2>
-</header>
-<div class=entry-content>
-<p>I have development server with postfix - I wanted to allow outbound traffic to one domain but cut off all the rest. I definitely do not want that test mail or any debug info goes to service users.
-I have to add something like that to /etc/postfix/transport:
-allowed.domain.com : * discard: Then run:
-postmap /etc/postfix/transport At end, add these to /etc/postfix/main.cf:
-transport_maps = hash:/etc/postfix/transport Reload postfix:
-postfix reload Test if it works:...</p>
-</div>
-<footer class=entry-footer><span title="2014-03-18 00:00:00 +0000 UTC">2014-03-18</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Postfix - automatically drop outbound mail" href=https://timor.site/2014/03/postfix-automatically-drop-outbound-mail/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

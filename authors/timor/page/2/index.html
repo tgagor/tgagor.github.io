@@ -78,6 +78,23 @@ timor
 </header>
 <article class="post-entry tag-entry">
 <figure class=entry-cover>
+<img loading=lazy srcset="https://timor.site/2021/03/how-to-remove-geo-localization/exif-data-from-photos/cover_hu62c0b164476bca26c4a2eee97aacc5e4_16490_360x0_resize_q75_box.jpg 360w ,https://timor.site/2021/03/how-to-remove-geo-localization/exif-data-from-photos/cover_hu62c0b164476bca26c4a2eee97aacc5e4_16490_480x0_resize_q75_box.jpg 480w ,https://timor.site/2021/03/how-to-remove-geo-localization/exif-data-from-photos/cover_hu62c0b164476bca26c4a2eee97aacc5e4_16490_720x0_resize_q75_box.jpg 720w ,https://timor.site/2021/03/how-to-remove-geo-localization/exif-data-from-photos/cover.jpg 720w" sizes="(min-width: 768px) 720px, 100vw" src=https://timor.site/2021/03/how-to-remove-geo-localization/exif-data-from-photos/cover.jpg alt width=720 height=300>
+</figure>
+<header class=entry-header>
+<h2>How to remove geo-localization/EXIF data from photos
+</h2>
+</header>
+<div class=entry-content>
+<p>I wanted to share publicly some photos, but I performed them with navigation enabled so they contained accurate localisation of my house. I wanted to remove EXIF data GPS tags, my phone type and other irrelevant stuff.
+TL;DR You will need imagemagick installed (use apt/yum/dnf of whatever you have there):
+Install imagemagick sudo apt install -y imagemagick
+To remove them just use: Strip EXIF data mogrify -strip image....</p>
+</div>
+<footer class=entry-footer><span title="2021-03-05 00:00:00 +0000 UTC">2021-03-05</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to How to remove geo-localization/EXIF data from photos" href=https://timor.site/2021/03/how-to-remove-geo-localization/exif-data-from-photos/></a>
+</article>
+<article class="post-entry tag-entry">
+<figure class=entry-cover>
 <img loading=lazy srcset="https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/cover_hub1a5d4fec570ffc2647dd11090f902e8_34566_360x0_resize_q75_box.jpg 360w ,https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/cover_hub1a5d4fec570ffc2647dd11090f902e8_34566_480x0_resize_q75_box.jpg 480w ,https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/cover_hub1a5d4fec570ffc2647dd11090f902e8_34566_720x0_resize_q75_box.jpg 720w ,https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/cover.jpg 720w" sizes="(min-width: 768px) 720px, 100vw" src=https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/cover.jpg alt width=720 height=300>
 </figure>
 <header class=entry-header>
@@ -197,18 +214,6 @@ for dep in $(pip show python-neutronclient | grep Requires | sed 's/Requires: //
 </div>
 <footer class=entry-footer><span title="2016-04-23 00:00:00 +0000 UTC">2016-04-23</span>&nbsp;·&nbsp;3 min</footer>
 <a class=entry-link aria-label="post link to Daily MySQL backups with xtrabackup" href=https://timor.site/2016/04/daily-mysql-backups-with-xtrabackup/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Use bastion host with Ansible
-</h2>
-</header>
-<div class=entry-content>
-<p>When you deploy your application in cloud you don’t need and don’t want your hosts exposed via SSH to the world. Malware scans whole network for easy SSH access and when find something will try some brute force attacks, overloading such machines. It’s easier to have one exposed, but secured host, that doesn’t host anything and is used as proxy/gateway to access our infrastructure- it’s called bastion host.
-Ansible is quite easy to integrate with bastion host configuration....</p>
-</div>
-<footer class=entry-footer><span title="2016-04-22 00:00:00 +0000 UTC">2016-04-22</span>&nbsp;·&nbsp;3 min</footer>
-<a class=entry-link aria-label="post link to Use bastion host with Ansible" href=https://timor.site/2016/04/use-bastion-host-with-ansible/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

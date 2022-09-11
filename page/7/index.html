@@ -75,6 +75,22 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Postfix - automatically drop outbound mail
+</h2>
+</header>
+<div class=entry-content>
+<p>I have development server with postfix - I wanted to allow outbound traffic to one domain but cut off all the rest. I definitely do not want that test mail or any debug info goes to service users.
+I have to add something like that to /etc/postfix/transport:
+allowed.domain.com : * discard: Then run:
+postmap /etc/postfix/transport At end, add these to /etc/postfix/main.cf:
+transport_maps = hash:/etc/postfix/transport Reload postfix:
+postfix reload Test if it works:...</p>
+</div>
+<footer class=entry-footer><span title="2014-03-18 00:00:00 +0000 UTC">2014-03-18</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Postfix - automatically drop outbound mail" href=https://timor.site/2014/03/postfix-automatically-drop-outbound-mail/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Ansible - ssh pipelining
 </h2>
 </header>
@@ -189,18 +205,6 @@ this howto was for old version (with old paths) and only for 128px thumbs I defi
 </div>
 <footer class=entry-footer><span title="2014-01-08 00:00:00 +0000 UTC">2014-01-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Regenerate thumbnails in Shotwell 0.15 (for last month)" href=https://timor.site/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Loop unlooping in Javascript
-</h2>
-</header>
-<div class=entry-content>
-<p>Few days ago I’ve read a book ‘Even Faster Web Sites‘ about websites optimisation and I found one thing usefuluseful, not only on websites. There was a small tip about looploop unlooping. I want to quote them for later use.
-First - with switch statement var iterations = Math.ceil(values.length / 8); var startAt = values.length % 8; var i = 0; do { switch(startAt) { case 0: process(values[i++]); case 7: process(values[i++]); case 6: process(values[i++]); case 5: process(values[i++]); case 4: process(values[i++]); case 3: process(values[i++]); case 2: process(values[i++]); case 1: process(values[i++]); } startAt = 0; } while(--iterations > 0); Second - without switch var iterations = Math....</p>
-</div>
-<footer class=entry-footer><span title="2014-01-07 00:00:00 +0000 UTC">2014-01-07</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Loop unlooping in Javascript" href=https://timor.site/2014/01/loop-unlooping-in-javascript/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

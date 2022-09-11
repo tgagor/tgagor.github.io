@@ -78,6 +78,18 @@ timor
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Kopiowanie wolumenów LVM z dd i netcat
+</h2>
+</header>
+<div class=entry-content>
+<p>Niedawno chciałem skopiować maszynę wirtualną z jednego hypervisora na innego. Były to 3 wolumeny LVM o rozmiarach od 50 do 100GB. Dawno temu zrobiłem sobie skrypty do backupu - jeden kompresuje wolumeny LVM - a drugi pozwala odtworzyć z dekompresja na drugim serwerze. Tyle że przy tak dużej maszynce będzie to trwało masakrycznie długo - fajnie byłoby móc równocześnie kopiować i odtwarzać (live)…
+I wtedy przypomniało mi się narzędzie netcat - zrobiłem snapshoty wolumenów i mogłem zaczynać....</p>
+</div>
+<footer class=entry-footer><span title="2013-09-02 00:00:00 +0000 UTC">2013-09-02</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Kopiowanie wolumenów LVM z dd i netcat" href=https://timor.site/2013/09/kopiowanie-wolumenow-lvm-z-dd-i-netcat/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>GPO: Instalacja GIMP’a 2.8
 </h2>
 </header>
@@ -194,19 +206,6 @@ error_page 403 404 http://mysite.com/areyoulost; error_page 502 503 504 /500.htm
 </div>
 <footer class=entry-footer><span title="2013-01-24 00:00:00 +0000 UTC">2013-01-24</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Nginx - hide server version and name in Server header and error pages" href=https://timor.site/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>PHP - max_input_vars
-</h2>
-</header>
-<div class=entry-content>
-<p>W PHP 5.3 pojawiła się nowa zmienna: max_input_vars, która limituje ilość pól możliwych do przesłania przez formularz, obcinając nadmiarowe. Pozwala to zapobiec atakom DoS na tablice hashujące (przynajmniej w tym jednym miejscu). Domyślna wartość tej zmiennej to 1000 i kreatywnym programistom udaje się tą wartość bez problemu osiągnąć 😃
-Warte odnotowania jest to że mając suhosin’a trzeba pamiętać o jeszcze dwóch innych zmiennych:
-max_input_vars = 3000 suhosin.post.max_vars = 3000 suhosin.request.max_vars = 3000 Zmienne można zmienić od razu w /etc/php5/apache2/php....</p>
-</div>
-<footer class=entry-footer><span title="2013-01-22 00:00:00 +0000 UTC">2013-01-22</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to PHP - max_input_vars" href=https://timor.site/2013/01/php-max_input_vars/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

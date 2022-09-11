@@ -75,6 +75,19 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>PHP - max_input_vars
+</h2>
+</header>
+<div class=entry-content>
+<p>W PHP 5.3 pojawiła się nowa zmienna: max_input_vars, która limituje ilość pól możliwych do przesłania przez formularz, obcinając nadmiarowe. Pozwala to zapobiec atakom DoS na tablice hashujące (przynajmniej w tym jednym miejscu). Domyślna wartość tej zmiennej to 1000 i kreatywnym programistom udaje się tą wartość bez problemu osiągnąć 😃
+Warte odnotowania jest to że mając suhosin’a trzeba pamiętać o jeszcze dwóch innych zmiennych:
+max_input_vars = 3000 suhosin.post.max_vars = 3000 suhosin.request.max_vars = 3000 Zmienne można zmienić od razu w /etc/php5/apache2/php....</p>
+</div>
+<footer class=entry-footer><span title="2013-01-22 00:00:00 +0000 UTC">2013-01-22</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to PHP - max_input_vars" href=https://timor.site/2013/01/php-max_input_vars/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Linux - naprawianie bad sectorów
 </h2>
 </header>
@@ -179,18 +192,6 @@ apt-get install ldap-utils Teraz możemy próbować przeszukiwać katalog np....
 </div>
 <footer class=entry-footer><span title="2012-11-12 00:00:00 +0000 UTC">2012-11-12</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Ciasto z dynią" href=https://timor.site/2012/11/ciasto-z-dynia/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Automatically compact CouchDB databases in version 0.11.x
-</h2>
-</header>
-<div class=entry-content>
-<p>CouchDB databases on version 0.11.x swell very fast. They should be compacted daily for best performance and space usage. Here is my script that could be run in cron and will compact all databases:
-#!/bin/bash IP="10.0.0.121" DBS=`curl -sS -X GET http://$IP:5984/_all_dbs | sed -r "s/([,\"[])|(\])+/ /g"` for d in $DBS; do curl -H "Content-Type: application/json" -X POST http://$IP:5984/$d/_compact done More informations about compacting could be found here (also for version 1....</p>
-</div>
-<footer class=entry-footer><span title="2012-11-08 00:00:00 +0000 UTC">2012-11-08</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Automatically compact CouchDB databases in version 0.11.x" href=https://timor.site/2012/11/automatically-compact-couchdb-databases-in-0-11-x/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

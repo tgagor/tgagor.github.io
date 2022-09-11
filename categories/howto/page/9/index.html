@@ -78,6 +78,17 @@ HOWTO
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>tor: generowanie milszej nazwy dla hidden service
+</h2>
+</header>
+<div class=entry-content>
+<p>Chcąc pobawić się tor’em postanowiłem udostępnić jedna z moich stron z wykorzystaniem mechanizmu hidden service. Nie spodobał mi się jedynie sposób generowania nazw, które były mało opisowe - ale najwidoczniej nie mnie jednemu, bo szybko namierzyłem Shallot, który generuje kolejne nazwy aż trafi na pasującą do zadanego regexp’a.</p>
+</div>
+<footer class=entry-footer><span title="2013-09-09 00:00:00 +0000 UTC">2013-09-09</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to tor: generowanie milszej nazwy dla hidden service" href=https://timor.site/2013/09/tor-generowanie-milszej-nazwy-dla-hidden-service/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>DFS - sprawdzanie statusu replikacji
 </h2>
 </header>
@@ -193,18 +204,6 @@ Patchowanie Na początek zawsze warto wywołać polecenie z opcją -dry-run by z
 </div>
 <footer class=entry-footer><span title="2013-04-01 00:00:00 +0000 UTC">2013-04-01</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Tworzenie patch’y z poleceniami diff i patch" href=https://timor.site/2013/04/tworzenie-patchy-z-poleceniami-diff-i-patch/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Rozsynchronizowane serwery NTP
-</h2>
-</header>
-<div class=entry-content>
-<p>Miałem ostatnio zabawną sytuację gdy kilka serwerów z zainstalowanym NTPD miało rozjazdy rzędu kilkunastu sekund. Wyszło na to że moje serwery synchronizowały się z różnymi zewnętrznymi serwerami NTP pomiędzy, którymi były rozjazdy i te rozjazdy synchronizowały się na moich serwerach. Jeden “z moich” ustanowiłem głównym a wszystkie inne przekierowałem na niego (komentując wszystkie inne serwery NTP w konfiguracji). Wymusiłem synchronizację:
-ntp -q Sprawdziłem jak duży jest offset i jitter (powinny być bardzo małe):...</p>
-</div>
-<footer class=entry-footer><span title="2013-03-31 00:00:00 +0000 UTC">2013-03-31</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Rozsynchronizowane serwery NTP" href=https://timor.site/2013/03/rozsynchronizowane-serwery-ntp/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

@@ -78,6 +78,19 @@ Linux
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Postfix: ciekawy problem z smtpd_delay_reject i permit_sasl_authenticated
+</h2>
+</header>
+<div class=entry-content>
+<p>Trafił mi się ostatnio ciekawy problem - otóż standardowo przed końcem roku poprawiałem filtry antyspamowe i optymalizowałem konfigurację Postfix’a. Chciałem zmienić domyślną wartość smtpd_delay_reject=yes na smtpd_delay_reject=no by odrzucać spamerów najwcześniej jak to możliwe. I ciekawe kuku, które sobie zrobiłem polegało na tym że sam nie mogłem wysyłać poczty po logowaniu SSL’em…
+Dostawałem przy tym bardzo wymowną odpowiedź:
+Oct 8 16:30:39 tyr postfix/smtpd[21039]: NOQUEUE: reject: CONNECT from unknown[67.x.x.x]: 554 5.7.1 &lt;unknown [67....</p>
+</div>
+<footer class=entry-footer><span title="2013-10-08 00:00:00 +0000 UTC">2013-10-08</span>&nbsp;·&nbsp;2 min</footer>
+<a class=entry-link aria-label="post link to Postfix: ciekawy problem z smtpd_delay_reject i permit_sasl_authenticated" href=https://timor.site/2013/10/postfix-ciekawy-problem-z-smtpd_delay_reject-i-permit_sasl_authenticated/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Raspberry Pi: pierwsze kroki
 </h2>
 </header>
@@ -192,17 +205,6 @@ ntp -q Sprawdziłem jak duży jest offset i jitter (powinny być bardzo małe):.
 </div>
 <footer class=entry-footer><span title="2013-03-31 00:00:00 +0000 UTC">2013-03-31</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Rozsynchronizowane serwery NTP" href=https://timor.site/2013/03/rozsynchronizowane-serwery-ntp/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Nginx - kompresowanie plików dla gzip_static
-</h2>
-</header>
-<div class=entry-content>
-<p>Ruski serwer WWW ma przydatną funkcję serwowania wersji plików skompresowanych gzip’em - przez co możemy plik skompresować raz i będzie on serwowany klientom obsługującym kompresję HTTP ale już bez każdorazowego kompresowania go. Jest to bardzo przydatne na stronach z dużym ruchem gdzie można w ten sposób zaoszczędzić takty CPU na właściwą obsługę połączeń a nie kompresję. Drugie miejsce gdzie może to być przydatne to VPS’y i “cienkie” serwery, które na kompresji przy większym obciążeniu spędzają zbyt dużo czasu i daje się to odczuć w działaniu strony....</p>
-</div>
-<footer class=entry-footer><span title="2012-12-17 00:00:00 +0000 UTC">2012-12-17</span>&nbsp;·&nbsp;3 min</footer>
-<a class=entry-link aria-label="post link to Nginx - kompresowanie plików dla gzip_static" href=https://timor.site/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

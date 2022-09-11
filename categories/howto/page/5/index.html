@@ -78,6 +78,19 @@ HOWTO
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Install Steam on Debian/Ubuntu
+</h2>
+</header>
+<div class=entry-content>
+<p>These are few steps to get Steam running on Ubuntu:
+wget -c media.steampowered.com/client/installer/steam.deb dpkg -i steam.deb apt-get install -f apt-get update Solutions for some issues Some time ago I needed 32 bit flash even on 64 bit system - I don’t need it currently but I’m living this as a tip.
+apt-get install adobe-flashplugin:i386 After Ubuntu upgrade I was unable to run Steam anymore - It shouted on me with strange “networking problem”....</p>
+</div>
+<footer class=entry-footer><span title="2014-04-22 00:00:00 +0000 UTC">2014-04-22</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Install Steam on Debian/Ubuntu" href=https://timor.site/2014/04/install-steam-on-debian-ubuntu/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Rebuild yum/rpm database
 </h2>
 </header>
@@ -200,21 +213,6 @@ After googling for some time I found one command that solved my problems by swit
 </div>
 <footer class=entry-footer><span title="2014-01-24 00:00:00 +0000 UTC">2014-01-24</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Change default WSUS port from 8530 to 80 on Windows Server 2012" href=https://timor.site/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Debian - Upgrade MySQL to MariaDB
-</h2>
-</header>
-<div class=entry-content>
-<p>After reading some good opinions about MariaDB I wanted to give it a try. Upgrade looks quite straight forward but I found some issues a little tricky.
-Installation Add repo and key:
-cat > /etc/apt/sources.list &lt;&lt;SRC deb http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main deb-src http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main SRC (find more repositories here)
-Now install MariaDB:
-sudo apt-get update sudo apt-get install mariadb-server It could be better to install mariadb-server-5.5 and mariadb-client-5.5 package instead, because of this error....</p>
-</div>
-<footer class=entry-footer><span title="2014-01-24 00:00:00 +0000 UTC">2014-01-24</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Debian - Upgrade MySQL to MariaDB" href=https://timor.site/2014/01/debian-upgrade-mysql-to-mariadb/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

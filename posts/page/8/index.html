@@ -79,6 +79,18 @@ Posts
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Loop unlooping in Javascript
+</h2>
+</header>
+<div class=entry-content>
+<p>Few days ago I’ve read a book ‘Even Faster Web Sites‘ about websites optimisation and I found one thing usefuluseful, not only on websites. There was a small tip about looploop unlooping. I want to quote them for later use.
+First - with switch statement var iterations = Math.ceil(values.length / 8); var startAt = values.length % 8; var i = 0; do { switch(startAt) { case 0: process(values[i++]); case 7: process(values[i++]); case 6: process(values[i++]); case 5: process(values[i++]); case 4: process(values[i++]); case 3: process(values[i++]); case 2: process(values[i++]); case 1: process(values[i++]); } startAt = 0; } while(--iterations > 0); Second - without switch var iterations = Math....</p>
+</div>
+<footer class=entry-footer><span title="2014-01-07 00:00:00 +0000 UTC">2014-01-07</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Loop unlooping in Javascript" href=https://timor.site/2014/01/loop-unlooping-in-javascript/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Tracking users by nickname on WordPress using Google Analytics
 </h2>
 </header>
@@ -189,19 +201,6 @@ What I do:...</p>
 </div>
 <footer class=entry-footer><span title="2013-12-11 00:00:00 +0000 UTC">2013-12-11</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Ansible - Dynamicaly update /etc/hosts files on target servers" href=https://timor.site/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Reset user password in your own Ghost Blog
-</h2>
-</header>
-<div class=entry-content>
-<p>I’ve started testing new Ghost blogging platform for a while on a virtual machine before I take decision about switching to it (or maybe won’t)… After few days, I wanted to go forward with more testing and stuck on “e-mail and password” login prompt 😃
-I’ve started looking into files and found ghost_dir/content/data/ghost-dev.db SQLite database. It can be opened like that:
-sqlite3 content/data/ghost-dev.db Then you could see whats your mail (and other info):...</p>
-</div>
-<footer class=entry-footer><span title="2013-11-28 00:00:00 +0000 UTC">2013-11-28</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Reset user password in your own Ghost Blog" href=https://timor.site/2013/11/reset-user-password-in-your-own-ghost-blog/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

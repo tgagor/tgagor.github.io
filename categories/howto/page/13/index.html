@@ -78,6 +78,18 @@ HOWTO
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Nginx - konfiguracja pod WordPress’a
+</h2>
+</header>
+<div class=entry-content>
+<p>To raczej nie jest podstawowy konfig i próżno szukać go na stronie WordPress’a, więc odradzam tę zabawę jeśli nie zna się zbyt dobrze nginx’a.
+Ponieważ serwerek, na którym działa stronka to sprzęcik z Atomem 330 i mocy na CPU zbyt wiele nie ma to popularne pluginy (np. W3 Total Cache) potencjalnie zwiększające wydajność tak na prawdę zmulały stronkę jeszcze bardziej. Pluginów sprawdziłem kilka i każdorazowo efekt był podobny - stronka działała wolniej niż bez ich pomocy....</p>
+</div>
+<footer class=entry-footer><span title="2012-06-29 00:00:00 +0000 UTC">2012-06-29</span>&nbsp;·&nbsp;8 min</footer>
+<a class=entry-link aria-label="post link to Nginx - konfiguracja pod WordPress’a" href=https://timor.site/2012/06/nginx-konfiguracja-pod-wordpressa/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Xen - Podstawowe polecenia
 </h2>
 </header>
@@ -186,20 +198,6 @@ Konwersja certyfikatu z PEM na DER openssl x509 -in in.crt -inform PEM -out out.
 </div>
 <footer class=entry-footer><span title="2012-04-11 00:00:00 +0000 UTC">2012-04-11</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Konwersja formatu certyfikatu dla telefonów Nokia" href=https://timor.site/2012/04/konwersja-formatu-certyfikatu-dla-telefonow-nokia/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Ponowne wygenerowanie kluczy serwera OpenSSH
-</h2>
-</header>
-<div class=entry-content>
-<p>Czasami odpalam klona jakiegoś systemu by później po drobnych zmianach uczynić go osobnym bytem. Jednym z kroków po odtworzeniu systemu jest wygenerowanie nowego zestawu kluczy dla serwera OpenSSH (by mój klient ssh nie siał warning’ami). Można to wykonać tak:
-Najpierw kasujemy obecne klucze:
-rm /etc/ssh/ssh_host_* Teraz generujemy nowe:
-dpkg-reconfigure openssh-server I na koniec restartujemy usługę by załadować nowy zestaw kluczy (nie powinno to zerwać obecnej sesji, ale dla pewności lepiej zadanie odpalić w screen’ie):...</p>
-</div>
-<footer class=entry-footer><span title="2012-02-27 00:00:00 +0000 UTC">2012-02-27</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Ponowne wygenerowanie kluczy serwera OpenSSH" href=https://timor.site/2012/02/ponowne-wygenerowanie-kluczy-serwera-openssh/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

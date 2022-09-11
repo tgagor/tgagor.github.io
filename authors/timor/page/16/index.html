@@ -78,6 +78,20 @@ timor
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Ponowne wygenerowanie kluczy serwera OpenSSH
+</h2>
+</header>
+<div class=entry-content>
+<p>Czasami odpalam klona jakiegoś systemu by później po drobnych zmianach uczynić go osobnym bytem. Jednym z kroków po odtworzeniu systemu jest wygenerowanie nowego zestawu kluczy dla serwera OpenSSH (by mój klient ssh nie siał warning’ami). Można to wykonać tak:
+Najpierw kasujemy obecne klucze:
+rm /etc/ssh/ssh_host_* Teraz generujemy nowe:
+dpkg-reconfigure openssh-server I na koniec restartujemy usługę by załadować nowy zestaw kluczy (nie powinno to zerwać obecnej sesji, ale dla pewności lepiej zadanie odpalić w screen’ie):...</p>
+</div>
+<footer class=entry-footer><span title="2012-02-27 00:00:00 +0000 UTC">2012-02-27</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Ponowne wygenerowanie kluczy serwera OpenSSH" href=https://timor.site/2012/02/ponowne-wygenerowanie-kluczy-serwera-openssh/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Xen - ustawienie autostartu DomU
 </h2>
 </header>
@@ -183,21 +197,6 @@ Sniffowanie diagnose debug enable diagnose debug flow filter addr ip address cl
 </div>
 <footer class=entry-footer><span title="2012-01-23 00:00:00 +0000 UTC">2012-01-23</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Sniffowanie w FortiOS" href=https://timor.site/2012/01/sniffowanie-w-fortios/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Upgrade Debian Lenny do Squeeze
-</h2>
-</header>
-<div class=entry-content>
-<p>Co jakiś czas powtarza się sytuacja, gdy muszę zaktualizować jakiś serwerek z Lennym do Squeeze’a i za każdym razem muszę googlać za odpowiednimi źródłami, które paczki najpierw, etc… Więc sobie zebrałem wszystko w poniższym poście.
-W razie wątpliwości patrz tutaj: http://www.debian.org/releases/squeeze/releasenotes
-Zrób backup konfiguracji.
-Trzeba zaktualizować źródła by wskazywały na squeeze’a (poniższe polecenie nadpisze Twoje obecne repozytoria):
-cat > /etc/apt/sources.list &lt;&lt;SRC deb http://ftp.pl.debian.org/debian/ squeeze main non-free contrib deb-src http://ftp....</p>
-</div>
-<footer class=entry-footer><span title="2012-01-13 00:00:00 +0000 UTC">2012-01-13</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Upgrade Debian Lenny do Squeeze" href=https://timor.site/2012/01/upgrade-debian-lenny-do-squeeze/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

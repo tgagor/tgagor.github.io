@@ -75,6 +75,18 @@
 <main class=main>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Use bastion host with Ansible
+</h2>
+</header>
+<div class=entry-content>
+<p>When you deploy your application in cloud you don’t need and don’t want your hosts exposed via SSH to the world. Malware scans whole network for easy SSH access and when find something will try some brute force attacks, overloading such machines. It’s easier to have one exposed, but secured host, that doesn’t host anything and is used as proxy/gateway to access our infrastructure- it’s called bastion host.
+Ansible is quite easy to integrate with bastion host configuration....</p>
+</div>
+<footer class=entry-footer><span title="2016-04-22 00:00:00 +0000 UTC">2016-04-22</span>&nbsp;·&nbsp;3 min</footer>
+<a class=entry-link aria-label="post link to Use bastion host with Ansible" href=https://timor.site/2016/04/use-bastion-host-with-ansible/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Tweaking ASUS Zenbook UX305CA on Linux
 </h2>
 </header>
@@ -194,20 +206,6 @@ docker rmi $(docker images -q) Docker won’t remove any old volumes used by con
 </div>
 <footer class=entry-footer><span title="2016-02-11 00:00:00 +0000 UTC">2016-02-11</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Some useful commands in Docker" href=https://timor.site/2016/02/some-useful-commands-in-docker/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Mass replace in WordPress posts via MySQL query
-</h2>
-</header>
-<div class=entry-content>
-<p>I was doing a lot of changes to my old posts, switched to HTTPS, etc. Sometimes it was useful to change some particular text in all my old posts at a time, but there is no such feature in WordPress. But WordPress runs on MySQL and I could use SQL query to update such posts.
-Make backup - it’s not required but strongly advised 😃
-Now use this query as template to replace in place whatever you need:
-...</p>
-</div>
-<footer class=entry-footer><span title="2016-02-09 00:00:00 +0000 UTC">2016-02-09</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Mass replace in WordPress posts via MySQL query" href=https://timor.site/2016/02/mass-replace-in-wordpress-posts-via-mysql-query/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

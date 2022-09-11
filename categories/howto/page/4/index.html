@@ -78,6 +78,19 @@ HOWTO
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Ansible on Vagrant - skipping: no hosts matched
+</h2>
+</header>
+<div class=entry-content>
+<p>I have some Ansible roles to configure my vps, Raspberry Pi, etc. I like to test them before I broke something on my real, not clustered machines - I use Vagrant for that.
+But with it I had one problem - in playbooks I define hosts as groups of severs ex. web for my vps:
+- hosts: web gather_facts: True sudo: True ... But testing machine wasn’t in this group and when I run vagrant I could only see:...</p>
+</div>
+<footer class=entry-footer><span title="2015-12-29 00:00:00 +0000 UTC">2015-12-29</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Ansible on Vagrant - skipping: no hosts matched" href=https://timor.site/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Apache - Force caching dynamic PHP content with mod_headers
 </h2>
 </header>
@@ -189,19 +202,6 @@ echo "root:new_password" | chpasswd </p>
 </div>
 <footer class=entry-footer><span title="2014-05-08 00:00:00 +0000 UTC">2014-05-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Command to change root password" href=https://timor.site/2014/05/command-to-change-root-password/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Install Steam on Debian/Ubuntu
-</h2>
-</header>
-<div class=entry-content>
-<p>These are few steps to get Steam running on Ubuntu:
-wget -c media.steampowered.com/client/installer/steam.deb dpkg -i steam.deb apt-get install -f apt-get update Solutions for some issues Some time ago I needed 32 bit flash even on 64 bit system - I don’t need it currently but I’m living this as a tip.
-apt-get install adobe-flashplugin:i386 After Ubuntu upgrade I was unable to run Steam anymore - It shouted on me with strange “networking problem”....</p>
-</div>
-<footer class=entry-footer><span title="2014-04-22 00:00:00 +0000 UTC">2014-04-22</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Install Steam on Debian/Ubuntu" href=https://timor.site/2014/04/install-steam-on-debian-ubuntu/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

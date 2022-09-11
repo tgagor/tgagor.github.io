@@ -78,6 +78,18 @@ HOWTO
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Prefer IPv4 over IPv6
+</h2>
+</header>
+<div class=entry-content>
+<p>I try to use IPv6 where it’s available but it’s sometimes so hard… It happen quite often that I can’t download packages from repos because they weren’t configured on IPv6 vhosts even when host is available via IPv6 address. For APT you may use this trick to force IPv4 connections only:
+echo 'Acquire::ForceIPv4 "true";' > /etc/apt/apt.conf.d/99force-ipv4 If you need more than that, then gai.conf will allow you to filter where you will be connecting via IPv4 and where via IPv6 - in example bellow you will prefer IPv4 whenever it’s available:...</p>
+</div>
+<footer class=entry-footer><span title="2016-03-29 00:00:00 +0000 UTC">2016-03-29</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Prefer IPv4 over IPv6" href=https://timor.site/2016/03/prefer-ipv4-over-ipv6/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>List octal file permissions in bash
 </h2>
 </header>
@@ -200,19 +212,6 @@ sudo apt-add-repository ppa:pipelight/stable sudo apt-get update sudo apt-get in
 </div>
 <footer class=entry-footer><span title="2016-02-09 00:00:00 +0000 UTC">2016-02-09</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu" href=https://timor.site/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Prepare for DoS like Cloudflare do
-</h2>
-</header>
-<div class=entry-content>
-<p>I watched nice presentation about how Cloudflare protects itself against DoS. Most of us are not able to do that exactly like them but some of tips were general enough to be used on typical web front server.
-I took notes from this presentation and presented here. Thanks to Marek agreement I also reposted all examples (in easier to copy paste way).
-Howto prepare against ACK/FIN/RST/X-mas flood Use conntrack rule:...</p>
-</div>
-<footer class=entry-footer><span title="2016-02-05 00:00:00 +0000 UTC">2016-02-05</span>&nbsp;·&nbsp;4 min</footer>
-<a class=entry-link aria-label="post link to Prepare for DoS like Cloudflare do" href=https://timor.site/2016/02/prepare-for-dos-like-cloudflare-do/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

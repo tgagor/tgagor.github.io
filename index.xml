@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sat, 03 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dockerfile writing best practices</title>
+      <link>https://timor.site/2022/09/dockerfile-writing-best-practices/</link>
+      <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2022/09/dockerfile-writing-best-practices/</guid>
+      <description>I&amp;rsquo;ve been thinking for a long time about writing set of articles on the topic of: &amp;ldquo;Dockerfile writing best practices&amp;rdquo;.
+As it&amp;rsquo;s often my daily job to prepare best in class containers, that are later used by thousands of company&amp;rsquo;s applications, I have quite good insights on the topic. Some experience and knowledge gathered is often against intuition and building it took me a while. I want to share it, with a hope that feedback I get will allow me to excel on the topic even further.</description>
+    </item>
+    
     <item>
       <title>Ford S-MAX - kasowanie ostrzeżenia wymiany oleju</title>
       <link>https://timor.site/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</link>
