@@ -27,7 +27,7 @@ Solution is simple - use .dockerignore file2 dropped in the directory where you 
       <guid>https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/</guid>
       <description>IMO people don&amp;rsquo;t understand how VOLUME works so they don&amp;rsquo;t use it. It&amp;rsquo;s generally used far too rarely!
 In short VOLUME means two things:
- Whatever is left in directory marked as VOLUME, stays there and can&amp;rsquo;t be changed in later layers (actually it can be changed but changes won&amp;rsquo;t be persistent). Volumes are not part of layered image FS. They&amp;rsquo;re mounted as anonymous volumes located on standard file system. This means they&amp;rsquo;re working much faster.</description>
+Whatever is left in directory marked as VOLUME, stays there and can&amp;rsquo;t be changed in later layers (actually it can be changed but changes won&amp;rsquo;t be persistent). Volumes are not part of layered image FS. They&amp;rsquo;re mounted as anonymous volumes located on standard file system. This means they&amp;rsquo;re working much faster.</description>
     </item>
     
     <item>
@@ -69,7 +69,7 @@ I found new place accidentally, reading some news about CentOS Stream 9 on their
       
       <guid>https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/</guid>
       <description>It&amp;rsquo;s sometimes useful to quickly connect to JMX console, to checkout what&amp;rsquo;s going on in your application, but the whole thing get&amp;rsquo;s tricky if you&amp;rsquo;re running your app in a container. I need it from time to time and I keep myself few times searching for set of params below:
-    ~/2021/02/how-to-run-jmx-monitoring-in-docker-image/  java \ ... -Dcom.sun.management.jmxremote \ -Dcom.sun.management.jmxremote.rmi.port=${PORT1} \ -Dcom.sun.management.jmxremote.port=${PORT1} \ -Dcom.sun.management.jmxremote.local.only=false \ -Dcom.sun.management.jmxremote.authenticate=false \ -Dcom.sun.management.jmxremote.ssl=false \ -Djava.</description>
+~/2021/02/how-to-run-jmx-monitoring-in-docker-image/ java \ ... -Dcom.sun.management.jmxremote \ -Dcom.sun.management.jmxremote.rmi.port=${PORT1} \ -Dcom.sun.management.jmxremote.port=${PORT1} \ -Dcom.sun.management.jmxremote.local.only=false \ -Dcom.sun.management.jmxremote.authenticate=false \ -Dcom.sun.management.jmxremote.ssl=false \ -Djava.rmi.server.hostname=${HOST} The whole magic here is that PORT1 in container is app&amp;rsquo;s second port.</description>
     </item>
     
     <item>
@@ -90,7 +90,7 @@ I don&amp;rsquo;t want to be totally sceptic, I would like to test it on my own 
       <guid>https://timor.site/2021/01/how-old-are-official-docker-images/</guid>
       <description>TL;DR
 CentOS base images sucks! They&amp;rsquo;re old, not updated for months!
- As a professional DevOps I concern about a lot of things&amp;hellip; but security is always close to the top of the list. With Docker build environments and deployments became much more stable, which often is a result of just being stale ;/
+As a professional DevOps I concern about a lot of things&amp;hellip; but security is always close to the top of the list. With Docker build environments and deployments became much more stable, which often is a result of just being stale ;/
 I&amp;rsquo;ve been talking about this for long time but it&amp;rsquo;s still hard for people to believe it.</description>
     </item>
     

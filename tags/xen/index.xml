@@ -47,7 +47,7 @@ I wtedy przypomniało mi się narzędzie netcat - zrobiłem snapshoty wolumenów
       <guid>https://timor.site/2012/06/xen-podstawowe-polecenia/</guid>
       <description>Pisałem już HOWTO o konfiguracji Xen&amp;rsquo;a ale nie opisałem jak się bawić wirtualkami gdy Xen&amp;rsquo;a już mamy. To nadrabiam.
 Tworzenie i usuwanie maszyn wirtualnych Do tworzenia/niszczenia DomU wykorzystuję pakiet xen-tools dostarczający m.in. dwa narzędzia:
- xen-create - dla którego przygotowałem dość skomplikowaną konfigurację przy okazji wcześniejszego posta: Instalacja i konfiguracja DomU. Przykład użycia: xen-create --hostname example-domu --ip 10.0.0.77 \ --gateway 10.0.0.1 --broadcast 10.0.0.255 --netmask 255.255.255.0 \ --bridge br10 --vcpus 2 --memory=2G  xen-delete-image - narzędzie do kasowania wirtualnych maszyn.</description>
+xen-create - dla którego przygotowałem dość skomplikowaną konfigurację przy okazji wcześniejszego posta: Instalacja i konfiguracja DomU. Przykład użycia: xen-create --hostname example-domu --ip 10.0.0.77 \ --gateway 10.0.0.1 --broadcast 10.0.0.255 --netmask 255.255.255.0 \ --bridge br10 --vcpus 2 --memory=2G xen-delete-image - narzędzie do kasowania wirtualnych maszyn.</description>
     </item>
     
     <item>

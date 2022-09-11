@@ -136,7 +136,7 @@ By poradzić sobie z tym problemem trzeba na serwerze reverse proxy ustawić prz
       <guid>https://timor.site/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</guid>
       <description>Przez pewien czas korzystałem z eAcceleratora do przyspieszenia działania stron pisanych w PHP&amp;rsquo;ie ale czasem bywał niestabilny. Aktualizacje pojawiały się rzadko a od czasu do czasu miewałem problemy ze stabilnością tej wtyczki na kilku bardziej skomplikowanych aplikacjach. Zdarzało się że pomimo zmiany kodu w skrypcie php, eAccelerator serwował wciąż stary plik - konieczny był restart Apache&amp;rsquo;go by wszystko działało jak trzeba.
 Zacząłem szukać alternatywy i trafiłem na dwa moduły:
- APC (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w PHP od wersji 5.</description>
+APC (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w PHP od wersji 5.</description>
     </item>
     
     <item>

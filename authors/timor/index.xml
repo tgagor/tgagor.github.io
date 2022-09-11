@@ -27,7 +27,7 @@ Solution is simple - use .dockerignore file2 dropped in the directory where you 
       <guid>https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/</guid>
       <description>IMO people don&amp;rsquo;t understand how VOLUME works so they don&amp;rsquo;t use it. It&amp;rsquo;s generally used far too rarely!
 In short VOLUME means two things:
- Whatever is left in directory marked as VOLUME, stays there and can&amp;rsquo;t be changed in later layers (actually it can be changed but changes won&amp;rsquo;t be persistent). Volumes are not part of layered image FS. They&amp;rsquo;re mounted as anonymous volumes located on standard file system. This means they&amp;rsquo;re working much faster.</description>
+Whatever is left in directory marked as VOLUME, stays there and can&amp;rsquo;t be changed in later layers (actually it can be changed but changes won&amp;rsquo;t be persistent). Volumes are not part of layered image FS. They&amp;rsquo;re mounted as anonymous volumes located on standard file system. This means they&amp;rsquo;re working much faster.</description>
     </item>
     
     <item>
@@ -47,8 +47,7 @@ As it&amp;rsquo;s often my daily job to prepare best in class containers, that a
       
       <guid>https://timor.site/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</guid>
       <description>Auta się zmieniają a problemy z nimi pozostają te same :)
-Kasowanie ostrzeżenia wymiany oleju 1  Przekręcić kluczyk w stacyjce do drugiej pozycji, gdy zapalają się wszystkie kontrolki (nie uruchamiamy silnika). Wciskamy równocześnie pedały hamulca i gazu do oporu, trzymamy do zakończenia procesu. Pojawi komunikat o rozpoczęciu resetowania inspekcji. Możemy zatwierdzić OK. Czekamy aż pojawi się komunikat:  Zatwierdzamy OK. Dopiero teraz zwalniamy pedały.    https://forum.fordclubpolska.org/showthread.php?t=108532&amp;#160;&amp;#x21a9;&amp;#xfe0e;
-   </description>
+Kasowanie ostrzeżenia wymiany oleju 1 Przekręcić kluczyk w stacyjce do drugiej pozycji, gdy zapalają się wszystkie kontrolki (nie uruchamiamy silnika). Wciskamy równocześnie pedały hamulca i gazu do oporu, trzymamy do zakończenia procesu. Pojawi komunikat o rozpoczęciu resetowania inspekcji. Możemy zatwierdzić OK. Czekamy aż pojawi się komunikat: Zatwierdzamy OK. Dopiero teraz zwalniamy pedały. https://forum.fordclubpolska.org/showthread.php?t=108532&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     
     <item>
@@ -101,8 +100,9 @@ Then came time for RAID5 on mdadm + LVM for volume management. It was working ni
       <guid>https://timor.site/2021/11/resize-images-from-command-line-on-macos/</guid>
       <description>I was updating my blog and needed to generate few variants of images, in different resolution.
 Option 1 - sips There&amp;rsquo;s simple, builtin tool sips, that can be used for simple resizing 1:
-    Resize single image  sips -Z 36 orig.png --out static/favicon36x36.png   
- -Z - maintain image aspect ratio 36 - maximum height and width  It can be also used for batch image processing:</description>
+Resize single image sips -Z 36 orig.png --out static/favicon36x36.png -Z - maintain image aspect ratio 36 - maximum height and width It can be also used for batch image processing:
+Warning
+Beware, without &amp;ndash;out param, it will overwrite images in place!</description>
     </item>
     
     <item>
@@ -112,8 +112,9 @@ Option 1 - sips There&amp;rsquo;s simple, builtin tool sips, that can be used fo
       
       <guid>https://timor.site/2021/11/homebrew-uninstall-formula-with-dependencies/</guid>
       <description>I use brew extensively on MacOS. It&amp;rsquo;s just as convenient as many Linux package managers. What I don&amp;rsquo;t like, it leaves dependencies after removal of formula. There&amp;rsquo;s simple way to clean it up by running one command 1.
-    Uninstall with dependencies  brew uninstall FORMULA brew autoremove   
-.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip{background:#e6f9e6}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:0.125em;position:relative} Info</description>
+Uninstall with dependencies brew uninstall FORMULA brew autoremove Info
+In my case running brew autoremove actually removed few packages I really wanted to have. Check the output carefully!
+https://stackoverflow.com/questions/7323261/uninstall-remove-a-homebrew-package-including-all-its-dependencies&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     
     <item>
@@ -124,7 +125,7 @@ Option 1 - sips There&amp;rsquo;s simple, builtin tool sips, that can be used fo
       <guid>https://timor.site/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</guid>
       <description>I&amp;rsquo;ve build new PC - it&amp;rsquo;s based on Asus ROG STRIX Z590-E GAMING WIFI motherboard. Generally, I&amp;rsquo;m quite satisfied, but it have one irritating downside - after each UEFI BIOS upgrade, it&amp;rsquo;s silently resetting some of settings.
 Let me note, what I want to have there:
- Ai Tweaker (use my RAM capabilities)  AI Overcloack Tuner -&amp;gt; [XMP I] DRAM Frequency -&amp;gt; [DDR4-3600MHz] DRAM CAS# Latency -&amp;gt; [16] DRAM RAS# to CAS# Delay -&amp;gt; [19] DRAM RAS# ACT Time -&amp;gt; [39] DRAM Voltage -&amp;gt; [1.</description>
+Ai Tweaker (use my RAM capabilities) AI Overcloack Tuner -&amp;gt; [XMP I] DRAM Frequency -&amp;gt; [DDR4-3600MHz] DRAM CAS# Latency -&amp;gt; [16] DRAM RAS# to CAS# Delay -&amp;gt; [19] DRAM RAS# ACT Time -&amp;gt; [39] DRAM Voltage -&amp;gt; [1.</description>
     </item>
     
     <item>
@@ -145,8 +146,7 @@ I found new place accidentally, reading some news about CentOS Stream 9 on their
       <guid>https://timor.site/2021/03/how-to-remove-geo-localization/exif-data-from-photos/</guid>
       <description>I wanted to share publicly some photos, but I performed them with navigation enabled so they contained accurate localisation of my house. I wanted to remove EXIF data GPS tags, my phone type and other irrelevant stuff.
 TL;DR You will need imagemagick installed (use apt/yum/dnf of whatever you have there):
-    Install imagemagick  sudo apt install -y imagemagick   
-To remove them just use:     Strip EXIF data  mogrify -strip image.</description>
+Install imagemagick sudo apt install -y imagemagick To remove them just use: Strip EXIF data mogrify -strip image.jpg How to check if it&amp;rsquo;s working?</description>
     </item>
     
     <item>
@@ -156,7 +156,7 @@ To remove them just use:     Strip EXIF data  mogrify -strip image.</description
       
       <guid>https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/</guid>
       <description>It&amp;rsquo;s sometimes useful to quickly connect to JMX console, to checkout what&amp;rsquo;s going on in your application, but the whole thing get&amp;rsquo;s tricky if you&amp;rsquo;re running your app in a container. I need it from time to time and I keep myself few times searching for set of params below:
-    ~/2021/02/how-to-run-jmx-monitoring-in-docker-image/  java \ ... -Dcom.sun.management.jmxremote \ -Dcom.sun.management.jmxremote.rmi.port=${PORT1} \ -Dcom.sun.management.jmxremote.port=${PORT1} \ -Dcom.sun.management.jmxremote.local.only=false \ -Dcom.sun.management.jmxremote.authenticate=false \ -Dcom.sun.management.jmxremote.ssl=false \ -Djava.</description>
+~/2021/02/how-to-run-jmx-monitoring-in-docker-image/ java \ ... -Dcom.sun.management.jmxremote \ -Dcom.sun.management.jmxremote.rmi.port=${PORT1} \ -Dcom.sun.management.jmxremote.port=${PORT1} \ -Dcom.sun.management.jmxremote.local.only=false \ -Dcom.sun.management.jmxremote.authenticate=false \ -Dcom.sun.management.jmxremote.ssl=false \ -Djava.rmi.server.hostname=${HOST} The whole magic here is that PORT1 in container is app&amp;rsquo;s second port.</description>
     </item>
     
     <item>
@@ -177,7 +177,7 @@ I don&amp;rsquo;t want to be totally sceptic, I would like to test it on my own 
       <guid>https://timor.site/2021/01/how-old-are-official-docker-images/</guid>
       <description>TL;DR
 CentOS base images sucks! They&amp;rsquo;re old, not updated for months!
- As a professional DevOps I concern about a lot of things&amp;hellip; but security is always close to the top of the list. With Docker build environments and deployments became much more stable, which often is a result of just being stale ;/
+As a professional DevOps I concern about a lot of things&amp;hellip; but security is always close to the top of the list. With Docker build environments and deployments became much more stable, which often is a result of just being stale ;/
 I&amp;rsquo;ve been talking about this for long time but it&amp;rsquo;s still hard for people to believe it.</description>
     </item>
     
@@ -198,7 +198,7 @@ There was a time, when I was really satisfied by what it provides.</description>
       
       <guid>https://timor.site/2020/01/moving-from-linux-to-macos-first-steps/</guid>
       <description>Few years ago I moved from Linux desktop to MacOS for my business, day to day work. There were 2 main reasons for that:
- Corporations don&amp;rsquo;t like Linux - they can&amp;rsquo;t manage it, they can&amp;rsquo;t support it, so they blocked it with &amp;ldquo;Security policy&amp;rdquo;, ISO20001, or other nonsense. Actually they&amp;rsquo;re partially right but in different place - many business collaboration applications don&amp;rsquo;t work well on LInux (or they don&amp;rsquo;t work at all)  Skype for Business - there&amp;rsquo;s open source alternative but to get full support you have to pay for additional codecs (as far as I remember) - it&amp;rsquo;s not working stable even in paid version Outlook and calendar support - I love Thunderbird and I use it for years, but calendar invitations didn&amp;rsquo;t work nice (honestly, they didn&amp;rsquo;t work nice even between different Outlook versions&amp;hellip;) Corporate VPN apps - Christ, I always was able to get it working eventually, but&amp;hellip; why bother    I&amp;rsquo;m older, maybe lazier, maybe smarter - I don&amp;rsquo;t like to spend my time resolving problems that don&amp;rsquo;t give me any value.</description>
+Corporations don&amp;rsquo;t like Linux - they can&amp;rsquo;t manage it, they can&amp;rsquo;t support it, so they blocked it with &amp;ldquo;Security policy&amp;rdquo;, ISO20001, or other nonsense. Actually they&amp;rsquo;re partially right but in different place - many business collaboration applications don&amp;rsquo;t work well on LInux (or they don&amp;rsquo;t work at all) Skype for Business - there&amp;rsquo;s open source alternative but to get full support you have to pay for additional codecs (as far as I remember) - it&amp;rsquo;s not working stable even in paid version Outlook and calendar support - I love Thunderbird and I use it for years, but calendar invitations didn&amp;rsquo;t work nice (honestly, they didn&amp;rsquo;t work nice even between different Outlook versions&amp;hellip;) Corporate VPN apps - Christ, I always was able to get it working eventually, but&amp;hellip; why bother I&amp;rsquo;m older, maybe lazier, maybe smarter - I don&amp;rsquo;t like to spend my time resolving problems that don&amp;rsquo;t give me any value.</description>
     </item>
     
     <item>
@@ -386,7 +386,7 @@ sudo apt-add-repository ppa:pipelight/stable sudo apt-get update sudo apt-get in
       <guid>https://timor.site/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</guid>
       <description>I just bought new wifi card for my desktop computer. Like in topic, it&amp;rsquo;s Intel Dual Band Wireless-AC 7260 for Desktop.
 I was searching for card that:
- support AC standard have 5GHz network support (2,4GHz channels are cluttered heavily in my neighborhood have PCI/PCIx or USB3 connector is Linux friendly (no modules compilation by hand, support for aircrack-ng, kismet)  This one is the only I found that comply my expectations.</description>
+support AC standard have 5GHz network support (2,4GHz channels are cluttered heavily in my neighborhood have PCI/PCIx or USB3 connector is Linux friendly (no modules compilation by hand, support for aircrack-ng, kismet) This one is the only I found that comply my expectations.</description>
     </item>
     
     <item>
@@ -442,7 +442,7 @@ xe vm-export vm=webfront1.example.com filename=/srv/backup/webfront.xva Export s
       
       <guid>https://timor.site/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</guid>
       <description>Sometimes deployment process or other havy task may cause some Nagios checks to rise below normal levels and bother admin. If this is expected and you want to add downtime on host/service during this task you may use this script:
-#!/bin/bash  function die { echo $1; exit 1; } if [[ $# -eq 0 ]] ; then die &amp;#34;Give hostname and time in minutes as parameter!&amp;#34; fi if [[ $# -eq 1 ]] ; then MINUTES=15 else MINUTES=$2 fi HOST=$1 NAGURL=http://nagios.</description>
+#!/bin/bash function die { echo $1; exit 1; } if [[ $# -eq 0 ]] ; then die &amp;#34;Give hostname and time in minutes as parameter!&amp;#34; fi if [[ $# -eq 1 ]] ; then MINUTES=15 else MINUTES=$2 fi HOST=$1 NAGURL=http://nagios.</description>
     </item>
     
     <item>
@@ -527,7 +527,7 @@ But with it I had one problem - in playbooks I define hosts as groups of severs 
       
       <guid>https://timor.site/2015/12/mysql-reset-root-password/</guid>
       <description>It will happen from time to time, that you&amp;rsquo;re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn&amp;rsquo;t be used in app 😃 ) but will work for any user.
- shutdown db  service mysql stop  create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt  SET PASSWORD FOR &amp;#34;root&amp;#34;@&amp;#34;localhost&amp;#34; = PASSWORD(&amp;#34;HereYourNewPassword&amp;#34;);  start mysqld with --init-file param  mysqld_safe --init-file=/tmp/pwchange.</description>
+shutdown db service mysql stop create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt SET PASSWORD FOR &amp;#34;root&amp;#34;@&amp;#34;localhost&amp;#34; = PASSWORD(&amp;#34;HereYourNewPassword&amp;#34;); start mysqld with --init-file param mysqld_safe --init-file=/tmp/pwchange.</description>
     </item>
     
     <item>
@@ -550,7 +550,7 @@ http://superuser.com/questions/578321/how-to-flip-a-video-180°-vertical-upside-
       <guid>https://timor.site/2015/12/extract-password-saved-in-remmina/</guid>
       <description>I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in .remmina directory.
 Then I used this script to the decrypt them 1:
-    Extract script  import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password)</description>
+Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     
     <item>
@@ -718,7 +718,7 @@ http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansibl
       
       <guid>https://timor.site/2014/02/chrusty-faworki/</guid>
       <description>To najlepszy przepis na chrusty jaki znam - wychodzą bardzo kruche i delikatne.
-Składniki  4 zółtka, 4 łyżki wina białego lub czerwonego, 4 łyżki mąki.  Sposób przygotowania Wszystkie składniki wymieszać i wyrobić. Ciasto powinno być mniej wiecej takie jak na pierogi. Bić pałką/wałkiem, składać na pół i tak kilka razy przez ok 5 minut. Potem ciasto rozwałkować bardzo cieniutko i wykrawać chrusty, małe bo mocno rosną. Następnie wrzucać na rozgrzany olej/smalec.</description>
+Składniki 4 zółtka, 4 łyżki wina białego lub czerwonego, 4 łyżki mąki. Sposób przygotowania Wszystkie składniki wymieszać i wyrobić. Ciasto powinno być mniej wiecej takie jak na pierogi. Bić pałką/wałkiem, składać na pół i tak kilka razy przez ok 5 minut. Potem ciasto rozwałkować bardzo cieniutko i wykrawać chrusty, małe bo mocno rosną. Następnie wrzucać na rozgrzany olej/smalec.</description>
     </item>
     
     <item>
@@ -783,7 +783,7 @@ sudo apt-get update sudo apt-get install mariadb-server It could be better to in
       <guid>https://timor.site/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</guid>
       <description>After connecting few computers with Windows 8.1 to domain we found that these computers are not recognized or recognized as Windows 6.3 (which is true) on WSUS 3.0 running on Windows Server 2008. The bad thing was that they can&amp;rsquo;t properly report to WSUS and get updates from it.
 I found that there are two updates that have to be installed (but they&amp;rsquo;re not working without additional steps):
- http://support.microsoft.com/kb/2720211 http://support.</description>
+http://support.microsoft.com/kb/2720211 http://support.microsoft.com/kb/2734608 After installation of second update there are two additional steps that have to be performed to get WSUS working:</description>
     </item>
     
     <item>
@@ -794,7 +794,7 @@ I found that there are two updates that have to be installed (but they&amp;rsquo
       <guid>https://timor.site/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</guid>
       <description>I love Shotwell for it&amp;rsquo;s simplicity and easy export to Piwigo. After Christmas I added new photos to my library but after that I made some modifications to them (red eye reduction, etc&amp;hellip;). Because Shotwell generate thumbnails only on import, all my modifications were not visible on preview.
 I&amp;rsquo;ve started searching how to regenerate thumbs and found this info. There were two issues with this method:
- this howto was for old version (with old paths) and only for 128px thumbs I definitely don&amp;rsquo;t want to regenerate thumbnails for 40k photos!</description>
+this howto was for old version (with old paths) and only for 128px thumbs I definitely don&amp;rsquo;t want to regenerate thumbnails for 40k photos!</description>
     </item>
     
     <item>
@@ -869,7 +869,7 @@ $ mkvmerge -i input_file.mkv File &amp;#39;test.mkv&amp;#39;: container: Matrosk
       <description>Some time ago I prepared a PC that was responsible for batch encoding of movies to formats suitable for web players (such as. Video.js, JW Player, Flowplayer, etc.)
 I used HandBrake for conversion to MP4 format (becase this soft was the fastest one) and ffmpeg (aka avconv in new version) for two pass encoding to WEBM.
 Below are commands used by me for that conversion:
- MP4  HandBrakeCLI -e x264 -q 20.</description>
+MP4 HandBrakeCLI -e x264 -q 20.</description>
     </item>
     
     <item>
@@ -950,8 +950,8 @@ Firmware upgrade I&amp;rsquo;ve started searching for latest firmware for ix2-20
       
       <guid>https://timor.site/2013/11/reenable-web-interface-on-polycom-vbp-5300-st-from-cli/</guid>
       <description>After some configuration changes I&amp;rsquo;ve stuck with VBP not listening nor on HTTP, nor on SSH port. Last resort was to use CLI to reenable HTTP access. Connect with parameters:
- Baud rate: 9600 Parity: none Bits: 8 Stopbits: 1 Flow control: none  Then in login prompt you have to use login credentials (yes - they&amp;rsquo;re the same on every box (WTF?)):
- User: - root Pass: - @#$%^&amp;amp;*!()  Password is shift + 2345678190 - there is 1 before 9!</description>
+Baud rate: 9600 Parity: none Bits: 8 Stopbits: 1 Flow control: none Then in login prompt you have to use login credentials (yes - they&amp;rsquo;re the same on every box (WTF?)):
+User: - root Pass: - @#$%^&amp;amp;*!() Password is shift + 2345678190 - there is 1 before 9!</description>
     </item>
     
     <item>
@@ -983,7 +983,7 @@ apt-get install git -y git clone https://github.com/brianlmoon/GearmanManager.gi
       
       <guid>https://timor.site/2013/11/debian-zablokowanie-aktualizacji-pakietu/</guid>
       <description>W teorii nie powinno się blokować aktualizacji pakietów bo łatają dziury itd&amp;hellip;. Ale! Zdarzyły mi się ostatnio dwie sytuacje, które do tego mnie zmusiły:
- aktualizacja hudsona kończyła się błędem przy starcie usługi, aktualizacja domU Xen skończyła się problemem z kompatybilnością mechanizmu udev w systemie i jądrze (hypervisor miał starsze jądro niż spodziewało się DomU).  W takich sytuacjach bardzo przydaje się możliwość zablokowania aktualizacji jednej &amp;ldquo;psującej&amp;rdquo; paczki na pewien okres czasu by nie opóźniać innych aktualizacji a sobie dać czas na rozpracowanie problemu.</description>
+aktualizacja hudsona kończyła się błędem przy starcie usługi, aktualizacja domU Xen skończyła się problemem z kompatybilnością mechanizmu udev w systemie i jądrze (hypervisor miał starsze jądro niż spodziewało się DomU). W takich sytuacjach bardzo przydaje się możliwość zablokowania aktualizacji jednej &amp;ldquo;psującej&amp;rdquo; paczki na pewien okres czasu by nie opóźniać innych aktualizacji a sobie dać czas na rozpracowanie problemu.</description>
     </item>
     
     <item>
@@ -1003,7 +1003,7 @@ apt-get install git -y git clone https://github.com/brianlmoon/GearmanManager.gi
       <guid>https://timor.site/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/</guid>
       <description>Kolejna zabawna sytuacja - pewna aplikacja dotNET&amp;rsquo;owa działała dziwnie na 64-bitowym systemie, a tymczasem na 32-bitowej maszynie ta sama aplikacja działała bez problemów. Jedyna różnica to inne wersje klientów ODBC na tych systemach, które po kilku testach okazały się być przyczyną całego zła.
 Pojawił się pomysł by odpalić aplikacje na 64 bitowym systemie ale w trybie 32 bit - poniżej krótkie HOWTO jak to osiągnąć:
- potrzebujemy narzędzia corflags.exe które pozwoli oznaczyć nam binarkę jako 32-bitową, do pobrania tutaj a instrukcja jej użycia tutaj.</description>
+potrzebujemy narzędzia corflags.exe które pozwoli oznaczyć nam binarkę jako 32-bitową, do pobrania tutaj a instrukcja jej użycia tutaj.</description>
     </item>
     
     <item>
@@ -1034,7 +1034,7 @@ Oct 8 16:30:39 tyr postfix/smtpd[21039]: NOQUEUE: reject: CONNECT from unknown[6
       
       <guid>https://timor.site/2013/09/instalacja-pythona-na-windowsie/</guid>
       <description>Pomimo że Python dużo częściej wykorzystywany jest w środowiskach UNIX&amp;rsquo;owcy/Linux&amp;rsquo;owych to znajdzie się kilka fajnych zastosowań dla tego języka na Windowsie. Możliwości na instalację jest kilka, a najprostsza to wykorzystanie instalatora ActiveState. Wersja ta ma w sobie wszystko co potrzebne:
- rozszerzenia dla API Windows menadżera pakietów PyPM dokumentację  Niestety jakiś czas temu zmieniły się zasady licencjonowania w ActiveState i aktualne wersje dla zastosowań produkcyjnych wymagają zakupu licencji (1000$/rok - aż chce się zacytować z Dnia Świra: czizys k&amp;hellip;wa&amp;hellip;).</description>
+rozszerzenia dla API Windows menadżera pakietów PyPM dokumentację Niestety jakiś czas temu zmieniły się zasady licencjonowania w ActiveState i aktualne wersje dla zastosowań produkcyjnych wymagają zakupu licencji (1000$/rok - aż chce się zacytować z Dnia Świra: czizys k&amp;hellip;wa&amp;hellip;).</description>
     </item>
     
     <item>
@@ -1308,7 +1308,7 @@ apt-get install ldap-utils Teraz możemy próbować przeszukiwać katalog np.</d
       <pubDate>Tue, 20 Nov 2012 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/2012/11/ciastka-z-kleiku-ryzowego/</guid>
-      <description>Składniki  1 paczka bezsmakowego kleiku ryżowego (190~170 g), 2 jajka, 1 kostka miękkiego masła (250 g), 1 płaska łyżeczka proszku do pieczenia, pół szklanki cukru, cukier waniliowy (16 g) (niekoniecznie), 8 czubatych łyżek wiórków kokosowych, dżem do wypełnienia ciastek (opcjonalnie - ja lubię je również bez dżemu).  Sposób przygotowania Wszystkie składniki połączyć razem i wyrobić (najlepiej się ugniata ręką). Formować kulki wielkości małego orzecha włoskiego, układać na blaszce wyłożonej papierem do pieczenia w niewielkich odległościach (trochę urosną).</description>
+      <description>Składniki 1 paczka bezsmakowego kleiku ryżowego (190~170 g), 2 jajka, 1 kostka miękkiego masła (250 g), 1 płaska łyżeczka proszku do pieczenia, pół szklanki cukru, cukier waniliowy (16 g) (niekoniecznie), 8 czubatych łyżek wiórków kokosowych, dżem do wypełnienia ciastek (opcjonalnie - ja lubię je również bez dżemu). Sposób przygotowania Wszystkie składniki połączyć razem i wyrobić (najlepiej się ugniata ręką). Formować kulki wielkości małego orzecha włoskiego, układać na blaszce wyłożonej papierem do pieczenia w niewielkich odległościach (trochę urosną).</description>
     </item>
     
     <item>
@@ -1317,7 +1317,7 @@ apt-get install ldap-utils Teraz możemy próbować przeszukiwać katalog np.</d
       <pubDate>Mon, 12 Nov 2012 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/2012/11/ciasto-z-dynia/</guid>
-      <description>Składniki  2 szklanki miąższu dyni (startego lub zmiksowanego), 2 szklanki mąki, 0,75 szklanki cukru, 3 jajka, 5 łyżeczek cynamonu, 16 g cukru wanilinowego, 0,75 szklanki oleju, łyżeczka sody oczyszczonej, garść orzechów włoskich.  Sposób przygotowania Ubijamy białka z cukrem. Do ubitej piany dodajemy żółtka i kolejne składniki: mąkę, olej, cukier wanilinowy, sodę i cynamon. Całość miksujemy jeszcze przez chwilę, a następnie dodajemy posiekany lub starty i odsączony (można np. mocno ścisnąć w dłoniach) miąższ dyni oraz drobno pokrojone orzechy włoskie i jeszcze chwilę mieszamy.</description>
+      <description>Składniki 2 szklanki miąższu dyni (startego lub zmiksowanego), 2 szklanki mąki, 0,75 szklanki cukru, 3 jajka, 5 łyżeczek cynamonu, 16 g cukru wanilinowego, 0,75 szklanki oleju, łyżeczka sody oczyszczonej, garść orzechów włoskich. Sposób przygotowania Ubijamy białka z cukrem. Do ubitej piany dodajemy żółtka i kolejne składniki: mąkę, olej, cukier wanilinowy, sodę i cynamon. Całość miksujemy jeszcze przez chwilę, a następnie dodajemy posiekany lub starty i odsączony (można np. mocno ścisnąć w dłoniach) miąższ dyni oraz drobno pokrojone orzechy włoskie i jeszcze chwilę mieszamy.</description>
     </item>
     
     <item>
@@ -1373,7 +1373,7 @@ Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w g�
       <pubDate>Mon, 22 Oct 2012 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/2012/10/rolada-kokosowo-czekoladowa-na-zimno/</guid>
-      <description>Składniki  1 kostka masła, 1 żółtko, 6 łyżek cukru pudru, 1 szklanka mleka, 10 dkg wiórek kokosowych, 1 kieliszek wódki (ale z dwoma jest ostrzejsze), 3 łyżki kakao, 37 dkg herbatników kakaowych (doskonale spisują się dwie paczki maślanych herbatników kakaowych).  Masa kakaowa Herbatniki dokładnie rozwałkować, dodać kakao i wymieszać. Zagotować pół szklanki mleka i gorącym zalać herbatniki. Całość wymieszać na jednolitą masę. W drugim pojemniku rozmiksować pół kostki masła i 3 łyżki cukru pudru - po chwili dodać żółtko i wódkę.</description>
+      <description>Składniki 1 kostka masła, 1 żółtko, 6 łyżek cukru pudru, 1 szklanka mleka, 10 dkg wiórek kokosowych, 1 kieliszek wódki (ale z dwoma jest ostrzejsze), 3 łyżki kakao, 37 dkg herbatników kakaowych (doskonale spisują się dwie paczki maślanych herbatników kakaowych). Masa kakaowa Herbatniki dokładnie rozwałkować, dodać kakao i wymieszać. Zagotować pół szklanki mleka i gorącym zalać herbatniki. Całość wymieszać na jednolitą masę. W drugim pojemniku rozmiksować pół kostki masła i 3 łyżki cukru pudru - po chwili dodać żółtko i wódkę.</description>
     </item>
     
     <item>
@@ -1414,7 +1414,7 @@ Zachodzi tam sytuacja, w której katalog użytkownika jest jego loginem małymi 
       <description>Obecnie dostępna jest już beta 2 Debiana Wheezy i utrzymywane są aktualizacje bezpieczeństwa więc powolutku można na testowych maszynach sprawdzać co i jak się zmieniło.
 Ponieważ do finalnej wersji pewnie sporo się jeszcze zmieni to postaram się z czasem aktualizować ten post by zawierał bieżące informacje.
 W razie wątpliwości patrz tutaj: http://wiki.debian.org/DebianTesting
- Robimy backup Aktualizujemy źródła wskazywały na paczki gałęzi testing (poniższe polecenie nadpisze Twoje obecne repozytoria):  cat &amp;gt; /etc/apt/sources.</description>
+Robimy backup Aktualizujemy źródła wskazywały na paczki gałęzi testing (poniższe polecenie nadpisze Twoje obecne repozytoria): cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://ftp.</description>
     </item>
     
     <item>
@@ -1538,7 +1538,7 @@ Ponieważ serwerek, na którym działa stronka to sprzęcik z Atomem 330 i mocy 
       <guid>https://timor.site/2012/06/xen-podstawowe-polecenia/</guid>
       <description>Pisałem już HOWTO o konfiguracji Xen&amp;rsquo;a ale nie opisałem jak się bawić wirtualkami gdy Xen&amp;rsquo;a już mamy. To nadrabiam.
 Tworzenie i usuwanie maszyn wirtualnych Do tworzenia/niszczenia DomU wykorzystuję pakiet xen-tools dostarczający m.in. dwa narzędzia:
- xen-create - dla którego przygotowałem dość skomplikowaną konfigurację przy okazji wcześniejszego posta: Instalacja i konfiguracja DomU. Przykład użycia: xen-create --hostname example-domu --ip 10.0.0.77 \ --gateway 10.0.0.1 --broadcast 10.0.0.255 --netmask 255.255.255.0 \ --bridge br10 --vcpus 2 --memory=2G  xen-delete-image - narzędzie do kasowania wirtualnych maszyn.</description>
+xen-create - dla którego przygotowałem dość skomplikowaną konfigurację przy okazji wcześniejszego posta: Instalacja i konfiguracja DomU. Przykład użycia: xen-create --hostname example-domu --ip 10.0.0.77 \ --gateway 10.0.0.1 --broadcast 10.0.0.255 --netmask 255.255.255.0 \ --bridge br10 --vcpus 2 --memory=2G xen-delete-image - narzędzie do kasowania wirtualnych maszyn.</description>
     </item>
     
     <item>
@@ -1600,7 +1600,7 @@ resize2fs /dev/vggroup/vol Powyższe polecenie można wykonać na zamontowanym z
       
       <guid>https://timor.site/2012/06/nginx-moj-domyslny-config/</guid>
       <description>W tym poście nie rozpiszę się zbytnio - wrzucam tylko config od którego zaczynam konfigurację nginx&amp;rsquo;a.
-user www-data; worker_processes 4; pid /var/run/nginx.pid; events { worker_connections 1024; ## zaakceptuj tak dużo połączeń jak to możliwe  multi_accept on; ## epoll jest preferowany na jajkach od 2.6  ## http://www.kegel.com/c10k.html#nb.epoll  use epoll; } http { include /etc/nginx/mime.types; default_type application/octet-stream; access_log /var/log/nginx/access.log; error_log /var/log/nginx/error.log; ## opcje TCP  sendfile on; tcp_nopush on; tcp_nodelay on; ## maksymalny rozmiar zapytnia  client_max_body_size 10m; ## timeout&amp;#39;y  client_body_timeout 60; client_header_timeout 60; keepalive_timeout 10; send_timeout 60; ## kompresja  gzip on; gzip_static on; gzip_vary on; gzip_disable &amp;#34;msie6&amp;#34;; gzip_comp_level 1; gzip_proxied any; gzip_buffers 16 8k; gzip_min_length 50; gzip_types text/plain text/css application/json application/x-javascript application/javascript text/javascript application/atom+xml application/xml application/xml+rss text/xml image/x-icon text/x-js application/xhtml+xml; ## bezpieczeństwo  ## security by obscurity - ukrywamy wersję nginx&amp;#39;a  server_tokens off; ignore_invalid_headers on; ## resetuj zbyt długie połączenia - powinno pomóc na slowlorisa  reset_timedout_connection on; ## włączenie ochrony przed clickjackingiem - uruchamiam to per vhost  ## https://developer.</description>
+user www-data; worker_processes 4; pid /var/run/nginx.pid; events { worker_connections 1024; ## zaakceptuj tak dużo połączeń jak to możliwe multi_accept on; ## epoll jest preferowany na jajkach od 2.6 ## http://www.kegel.com/c10k.html#nb.epoll use epoll; } http { include /etc/nginx/mime.types; default_type application/octet-stream; access_log /var/log/nginx/access.log; error_log /var/log/nginx/error.log; ## opcje TCP sendfile on; tcp_nopush on; tcp_nodelay on; ## maksymalny rozmiar zapytnia client_max_body_size 10m; ## timeout&amp;#39;y client_body_timeout 60; client_header_timeout 60; keepalive_timeout 10; send_timeout 60; ## kompresja gzip on; gzip_static on; gzip_vary on; gzip_disable &amp;#34;msie6&amp;#34;; gzip_comp_level 1; gzip_proxied any; gzip_buffers 16 8k; gzip_min_length 50; gzip_types text/plain text/css application/json application/x-javascript application/javascript text/javascript application/atom+xml application/xml application/xml+rss text/xml image/x-icon text/x-js application/xhtml+xml; ## bezpieczeństwo ## security by obscurity - ukrywamy wersję nginx&amp;#39;a server_tokens off; ignore_invalid_headers on; ## resetuj zbyt długie połączenia - powinno pomóc na slowlorisa reset_timedout_connection on; ## włączenie ochrony przed clickjackingiem - uruchamiam to per vhost ## https://developer.</description>
     </item>
     
     <item>
@@ -1674,7 +1674,7 @@ apt-get install xen-tools Oczywiście aby wszystko działało fajnie musimy usta
       
       <guid>https://timor.site/2012/02/kaczka-pieczona-z-zurawina-i-jablkami/</guid>
       <description>Bardzo udany przepis - gdzieś musiałem go udokumentować by nie zginął :)
-Składniki  1 duża kaczka (2-2,5 kg) 4 ząbki czosnku 1 kg jabłek (w zależności od kaczki mogą wystarczyć 3 większe sztuki) sok z cytryny do skropienia jabłek 200 g suszonej żurawiny pół butelki czerwonego wytrawnego wina rozmaryn 4 łyżki miodu cynamon kardamon sól pieprz  Sposób wykonania Kaczkę nacieramy solą, pieprzem, rozmarynem oraz roztartym czosnkiem i pozostawiamy na min.</description>
+Składniki 1 duża kaczka (2-2,5 kg) 4 ząbki czosnku 1 kg jabłek (w zależności od kaczki mogą wystarczyć 3 większe sztuki) sok z cytryny do skropienia jabłek 200 g suszonej żurawiny pół butelki czerwonego wytrawnego wina rozmaryn 4 łyżki miodu cynamon kardamon sól pieprz Sposób wykonania Kaczkę nacieramy solą, pieprzem, rozmarynem oraz roztartym czosnkiem i pozostawiamy na min. 3-4 godziny w lodówce (można też przygotować ją wieczorem by była gotowa na następny dzień).</description>
     </item>
     
     <item>
@@ -1733,9 +1733,9 @@ Sniffowanie diagnose debug enable diagnose debug flow filter addr ip address cl
       <guid>https://timor.site/2012/01/upgrade-debian-lenny-do-squeeze/</guid>
       <description>Co jakiś czas powtarza się sytuacja, gdy muszę zaktualizować jakiś serwerek z Lennym do Squeeze&amp;rsquo;a i za każdym razem muszę googlać za odpowiednimi źródłami, które paczki najpierw, etc&amp;hellip; Więc sobie zebrałem wszystko w poniższym poście.
 W razie wątpliwości patrz tutaj: http://www.debian.org/releases/squeeze/releasenotes
-  Zrób backup konfiguracji.
-  Trzeba zaktualizować źródła by wskazywały na squeeze&amp;rsquo;a (poniższe polecenie nadpisze Twoje obecne repozytoria):
-  cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://ftp.pl.debian.org/debian/ squeeze main non-free contrib deb-src http://ftp.</description>
+Zrób backup konfiguracji.
+Trzeba zaktualizować źródła by wskazywały na squeeze&amp;rsquo;a (poniższe polecenie nadpisze Twoje obecne repozytoria):
+cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://ftp.pl.debian.org/debian/ squeeze main non-free contrib deb-src http://ftp.pl.debian.org/debian/ squeeze main non-free contrib deb http://security.</description>
     </item>
     
     <item>
@@ -1745,7 +1745,7 @@ W razie wątpliwości patrz tutaj: http://www.debian.org/releases/squeeze/relea
       
       <guid>https://timor.site/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/</guid>
       <description>Jeżeli jesteś właścicielem Skody Fabii I to wcześniej czy później Twój BAT-Mobil zgłosi któreś z ostrzeżeń serwisowych:
- OIL - pojawia się przeważnie co 10 tys. km i wtedy gdy jeszcze nie trzeba wymieniać oleju w silniku 😄 service INSP - nie wiem jak często się pojawia a oznacza mniej więcej &amp;ldquo;czas wesprzeć finansowo lokalny autoryzowany serwis&amp;rdquo;.  Kasowanie ostrzeżenia &amp;ldquo;OIL&amp;rdquo;  Przy wyłączonym silniku wciskamy i przytrzymujemy przycisk kasowania przebiegu dziennego/pokrętło ustawiania godziny, od teraz nazywany po prostu &amp;lsquo;przyciskiem&amp;rsquo;.</description>
+OIL - pojawia się przeważnie co 10 tys. km i wtedy gdy jeszcze nie trzeba wymieniać oleju w silniku 😄 service INSP - nie wiem jak często się pojawia a oznacza mniej więcej &amp;ldquo;czas wesprzeć finansowo lokalny autoryzowany serwis&amp;rdquo;. Kasowanie ostrzeżenia &amp;ldquo;OIL&amp;rdquo; Przy wyłączonym silniku wciskamy i przytrzymujemy przycisk kasowania przebiegu dziennego/pokrętło ustawiania godziny, od teraz nazywany po prostu &amp;lsquo;przyciskiem&amp;rsquo;.</description>
     </item>
     
     <item>
@@ -1831,7 +1831,7 @@ By poradzić sobie z tym problemem trzeba na serwerze reverse proxy ustawić prz
       <guid>https://timor.site/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</guid>
       <description>Przez pewien czas korzystałem z eAcceleratora do przyspieszenia działania stron pisanych w PHP&amp;rsquo;ie ale czasem bywał niestabilny. Aktualizacje pojawiały się rzadko a od czasu do czasu miewałem problemy ze stabilnością tej wtyczki na kilku bardziej skomplikowanych aplikacjach. Zdarzało się że pomimo zmiany kodu w skrypcie php, eAccelerator serwował wciąż stary plik - konieczny był restart Apache&amp;rsquo;go by wszystko działało jak trzeba.
 Zacząłem szukać alternatywy i trafiłem na dwa moduły:
- APC (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w PHP od wersji 5.</description>
+APC (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w PHP od wersji 5.</description>
     </item>
     
     <item>
@@ -2020,17 +2020,6 @@ Dobrym przykładem jest serwer FTP z wirtualnymi kontami użytkowników. Czyl
     </item>
     
     <item>
-      <title>Wysyłanie załączników poleceniem mail</title>
-      <link>https://timor.site/2011/08/wysylanie-zalacznikow-poleceniem-mail/</link>
-      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/2011/08/wysylanie-zalacznikow-poleceniem-mail/</guid>
-      <description>Kiedyś potrzebowałem w ramach testu obciążeniowego wysłać dużo wiadomości z załącznikami. Chciałem to zrobić na szybko z shell&amp;rsquo;a i tutaj chwilę musiałem pogooglać aby znaleźć działające polecenie. To co znalazłem wygląda tak:
-(echo &amp;#34;testowa wiadomosc&amp;#34;; uuencode test.zip test.zip) \ | mail -s &amp;#34;Test&amp;#34; testowy@mail.pl Wiedząc już jak wysyłać maile z załącznikami, mały mail bombing mogłem zrobić tak:
-for i in `seq 1 100`; do (cat tekst.txt; uuencode test.zip test.zip) \  | mail -s &amp;#34;Test $i&amp;#34; testowy@mail.</description>
-    </item>
-    
-    <item>
       <title>Włam na lokalne konto root’a</title>
       <link>https://timor.site/2011/08/wlam-na-lokalne-konto-roota/</link>
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
@@ -2038,6 +2027,17 @@ for i in `seq 1 100`; do (cat tekst.txt; uuencode test.zip test.zip) \  | mail -
       <guid>https://timor.site/2011/08/wlam-na-lokalne-konto-roota/</guid>
       <description>Jeżeli tu zaglądasz pewnie zdarzyło Ci się kiedyś, że przykładowo wygrzebujesz jakiś stary serwer i nie masz pojęcia co na nim było, ani do czego służyło, czy jeszcze działa&amp;hellip; Albo jeszcze inaczej - serwer działał tak długo, że wszystkie osoby znające hasło na root&amp;rsquo;a przeszły na emeryturę lub zmarły&amp;hellip; Nieistotne 😃
 Jest pewna prosta sztuczka, pozwalająca wbić się na konto root&amp;rsquo;a nie znając hasła - dając nam możliwość jego zmiany. Potrzebne dwa restarty ale za to nie trzeba korzystać z żadnychlive cd.</description>
+    </item>
+    
+    <item>
+      <title>Wysyłanie załączników poleceniem mail</title>
+      <link>https://timor.site/2011/08/wysylanie-zalacznikow-poleceniem-mail/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2011/08/wysylanie-zalacznikow-poleceniem-mail/</guid>
+      <description>Kiedyś potrzebowałem w ramach testu obciążeniowego wysłać dużo wiadomości z załącznikami. Chciałem to zrobić na szybko z shell&amp;rsquo;a i tutaj chwilę musiałem pogooglać aby znaleźć działające polecenie. To co znalazłem wygląda tak:
+(echo &amp;#34;testowa wiadomosc&amp;#34;; uuencode test.zip test.zip) \ | mail -s &amp;#34;Test&amp;#34; testowy@mail.pl Wiedząc już jak wysyłać maile z załącznikami, mały mail bombing mogłem zrobić tak:
+for i in `seq 1 100`; do (cat tekst.txt; uuencode test.zip test.zip) \ | mail -s &amp;#34;Test $i&amp;#34; testowy@mail.</description>
     </item>
     
     <item>

@@ -49,7 +49,7 @@ Install prerequisites:</description>
       <guid>https://timor.site/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</guid>
       <description>I just bought new wifi card for my desktop computer. Like in topic, it&amp;rsquo;s Intel Dual Band Wireless-AC 7260 for Desktop.
 I was searching for card that:
- support AC standard have 5GHz network support (2,4GHz channels are cluttered heavily in my neighborhood have PCI/PCIx or USB3 connector is Linux friendly (no modules compilation by hand, support for aircrack-ng, kismet)  This one is the only I found that comply my expectations.</description>
+support AC standard have 5GHz network support (2,4GHz channels are cluttered heavily in my neighborhood have PCI/PCIx or USB3 connector is Linux friendly (no modules compilation by hand, support for aircrack-ng, kismet) This one is the only I found that comply my expectations.</description>
     </item>
     
     <item>
@@ -93,7 +93,7 @@ Installation of collectd is easy on Debian because packages are in default repo.
       <guid>https://timor.site/2015/12/extract-password-saved-in-remmina/</guid>
       <description>I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in .remmina directory.
 Then I used this script to the decrypt them 1:
-    Extract script  import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password)</description>
+Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     
     <item>
@@ -151,7 +151,7 @@ apt-get install git -y git clone https://github.com/brianlmoon/GearmanManager.gi
       
       <guid>https://timor.site/2013/11/debian-zablokowanie-aktualizacji-pakietu/</guid>
       <description>W teorii nie powinno się blokować aktualizacji pakietów bo łatają dziury itd&amp;hellip;. Ale! Zdarzyły mi się ostatnio dwie sytuacje, które do tego mnie zmusiły:
- aktualizacja hudsona kończyła się błędem przy starcie usługi, aktualizacja domU Xen skończyła się problemem z kompatybilnością mechanizmu udev w systemie i jądrze (hypervisor miał starsze jądro niż spodziewało się DomU).  W takich sytuacjach bardzo przydaje się możliwość zablokowania aktualizacji jednej &amp;ldquo;psującej&amp;rdquo; paczki na pewien okres czasu by nie opóźniać innych aktualizacji a sobie dać czas na rozpracowanie problemu.</description>
+aktualizacja hudsona kończyła się błędem przy starcie usługi, aktualizacja domU Xen skończyła się problemem z kompatybilnością mechanizmu udev w systemie i jądrze (hypervisor miał starsze jądro niż spodziewało się DomU). W takich sytuacjach bardzo przydaje się możliwość zablokowania aktualizacji jednej &amp;ldquo;psującej&amp;rdquo; paczki na pewien okres czasu by nie opóźniać innych aktualizacji a sobie dać czas na rozpracowanie problemu.</description>
     </item>
     
     <item>
@@ -184,7 +184,7 @@ wget http://www.yeasoft.com/downloads/various/btsync-linux-deploy.tar.gz Ja wyci
       <description>Obecnie dostępna jest już beta 2 Debiana Wheezy i utrzymywane są aktualizacje bezpieczeństwa więc powolutku można na testowych maszynach sprawdzać co i jak się zmieniło.
 Ponieważ do finalnej wersji pewnie sporo się jeszcze zmieni to postaram się z czasem aktualizować ten post by zawierał bieżące informacje.
 W razie wątpliwości patrz tutaj: http://wiki.debian.org/DebianTesting
- Robimy backup Aktualizujemy źródła wskazywały na paczki gałęzi testing (poniższe polecenie nadpisze Twoje obecne repozytoria):  cat &amp;gt; /etc/apt/sources.</description>
+Robimy backup Aktualizujemy źródła wskazywały na paczki gałęzi testing (poniższe polecenie nadpisze Twoje obecne repozytoria): cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://ftp.</description>
     </item>
     
     <item>
@@ -288,9 +288,9 @@ Można zmusić ureadahead do ponownego wygenerowania nowej listy programów wczy
       <guid>https://timor.site/2012/01/upgrade-debian-lenny-do-squeeze/</guid>
       <description>Co jakiś czas powtarza się sytuacja, gdy muszę zaktualizować jakiś serwerek z Lennym do Squeeze&amp;rsquo;a i za każdym razem muszę googlać za odpowiednimi źródłami, które paczki najpierw, etc&amp;hellip; Więc sobie zebrałem wszystko w poniższym poście.
 W razie wątpliwości patrz tutaj: http://www.debian.org/releases/squeeze/releasenotes
-  Zrób backup konfiguracji.
-  Trzeba zaktualizować źródła by wskazywały na squeeze&amp;rsquo;a (poniższe polecenie nadpisze Twoje obecne repozytoria):
-  cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://ftp.pl.debian.org/debian/ squeeze main non-free contrib deb-src http://ftp.</description>
+Zrób backup konfiguracji.
+Trzeba zaktualizować źródła by wskazywały na squeeze&amp;rsquo;a (poniższe polecenie nadpisze Twoje obecne repozytoria):
+cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://ftp.pl.debian.org/debian/ squeeze main non-free contrib deb-src http://ftp.pl.debian.org/debian/ squeeze main non-free contrib deb http://security.</description>
     </item>
     
     <item>

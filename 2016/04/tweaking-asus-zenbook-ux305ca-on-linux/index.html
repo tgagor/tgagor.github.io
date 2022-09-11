@@ -1,557 +1,321 @@
-<!doctype html><html lang=en dir=auto>
-<head><meta charset=utf-8>
-<meta http-equiv=x-ua-compatible content="IE=edge">
-<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
-<meta name=robots content="index, follow">
-<title>Tweaking ASUS Zenbook UX305CA on Linux | timor's site</title>
-<meta name=keywords content="Debian,Linux,Ubuntu,Zenbook">
-<meta name=description content="Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common ">
-<meta name=author content>
-<link rel=canonical href=https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/>
-<link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style>
-<script defer crossorigin=anonymous src=/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad()></script>
-<link rel=icon href=https://timor.site/favicon.ico>
-<link rel=icon type=image/png sizes=16x16 href=https://timor.site/favicon-16x16.png>
-<link rel=icon type=image/png sizes=32x32 href=https://timor.site/favicon-32x32.png>
-<link rel=apple-touch-icon href=https://timor.site/apple-touch-icon.png>
-<link rel=mask-icon href=https://timor.site/safari-pinned-tab.svg>
-<meta name=theme-color content="#2e2e33">
-<meta name=msapplication-TileColor content="#2e2e33">
-<noscript>
-<style>#theme-toggle,.top-link{display:none}</style>
-<style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
-</noscript>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-88996819-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="Tweaking ASUS Zenbook UX305CA on Linux">
-<meta property="og:description" content="Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &lsquo;mobile&rsquo; word. Then I saw ASUS Zenbook that I didn&rsquo;t take into account before and it was exactly what I was searching for.
-Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/"><meta property="article:section" content="posts">
-<meta property="article:published_time" content="2016-04-21T00:00:00+00:00">
-<meta property="article:modified_time" content="2016-04-21T00:00:00+00:00">
-<meta name=twitter:card content="summary">
-<meta name=twitter:title content="Tweaking ASUS Zenbook UX305CA on Linux">
-<meta name=twitter:description content="Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &lsquo;mobile&rsquo; word. Then I saw ASUS Zenbook that I didn&rsquo;t take into account before and it was exactly what I was searching for.
-Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed.">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://timor.site/posts/"},{"@type":"ListItem","position":2,"name":"Tweaking ASUS Zenbook UX305CA on Linux","item":"https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/"}]}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Tweaking ASUS Zenbook UX305CA on Linux","name":"Tweaking ASUS Zenbook UX305CA on Linux","description":"Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with \u0026lsquo;mobile\u0026rsquo; word. Then I saw ASUS Zenbook that I didn\u0026rsquo;t take into account before and it was exactly what I was searching for.\nConfiguration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed.","keywords":["Debian","Linux","Ubuntu","Zenbook"],"articleBody":"Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with ‘mobile’ word. Then I saw ASUS Zenbook that I didn’t take into account before and it was exactly what I was searching for.\nConfiguration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed. I want to sum up what I’ve done after installation. I started with fresh Ubuntu 16.04 to get Debian based distro with possibly latest kernel and patches.\nSome SSD tweaks Change mount options for filesystems on SSD from:\n/dev/mapper/ubuntu--vg-root / ext4 errors=remount-ro 0 1 to:\n/dev/mapper/ubuntu--vg-root / ext4 discard,noatime,errors=remount-ro 0 1 And move /tmp to RAM with this additional line in /etc/fstab:\ntmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0 Now add deadline scheduler for root disk - edit /etc/rc.local and add this line before exit 0:\necho deadline  /sys/block/sda/queue/scheduler echo 1  /sys/block/sda/queue/iosched/fifo_batch I have configured swap but I don’t want to use it too much and setting low swappines sysctl option will help. Run this as root:\necho \"vm.swappiness = 1\"  /etc/sysctl.conf.d/90-swappines.conf sysctl -p /etc/sysctl.conf.d/90-swappines.conf Power usage tweaks I’ve installed laptop-mode-tools to achieve lower power usage on battery. So:\napt-get install -y laptop-mode-tools By default it’s cutting hard CPU performance on battery (half performance, no turbo) so I fixed this by changing /etc/laptop-mode/conf.d/intel_pstate.conf section On battery:\n#On battery BATT_INTEL_PSTATE_PERF_MIN_PCT=0 # Minimum performance, in percent BATT_INTEL_PSTATE_PERF_MAX_PCT=100 # Maximum performance, in percent BATT_INTEL_PSTATE_NO_TURBO=0 # Disable \"Turbo Boost\"? Laptop mode tools won’t start automatically so we may integrate them with pm-utils (that are already installed on Ubuntu) to get it running when needed. We have to create new config file:\nsudo touch /etc/pm/sleep.d/10-laptop-mode-tools sudo chmod a+x /etc/pm/sleep.d/10-laptop-mode-tools with content like this:\ncase $1 in hibernate) /etc/init.d/laptop-mode stop ;; suspend) /etc/init.d/laptop-mode stop ;; thaw)d /etc/init.d/laptop-mode start ;; resume) /etc/init.d/laptop-mode start ;; *) echo Something is not right. ;; esac Now I will enable ALPM for SATA in AHCI mode optimizations:\necho SATA_ALPM_ENABLE=true | sudo tee /etc/pm/config.d/sata_alpm And some kernel parameters in /etc/default/grub:\nGRUB_CMDLINE_LINUX=\"pcie_aspm=force drm.vblankoffdelay=1 i915.semaphores=1\" and update-grub with:\nupdate-grub You may use powertop to nail power heavy processes. There is also powerstat to benchmark power usage through time - I have:\nsudo pm-powersave true powerstat ...... Summary: System: 4.49 Watts on average with standard deviation 0.46 It’s really nice. I should be able to run about 8~9h! Sweet!\nSources https://www.reddit.com/r/linux/comments/3ia8ta/review_of_ubuntu_on_asus_ux305fa/\nhttps://help.ubuntu.com/community/PowerManagement/ReducedPower#Using_less_power_with_laptop-mode-tools\nhttps://help.ubuntu.com/community/AsusZenbook\nhttps://wiki.ubuntu.com/Kernel/PowerManagementALPM\nDisable touchpad when writing It’s crazy annoying when you tap touchpad during writing text and lose focus on editor window. There is solution for that, it’s even installed by default on Ubuntu and it’s called: syndaemon. It’s started by default like this:\nsyndaemon -i 1.0 -t -K -R 1 second feels too small for me. I will adjust it to 2s. There is no easy way to do this. I created script to run on login:\n#!/bin/bash killall syndaemon syndaemon -d -i 2.0 -t -K -R Now better 🙂\nVD-PAU I installed vdpauinfo tool to see if it’s working:\napt-get install -y vdpauinfo It wasn’t:\nvdpauinfo display: :0 screen: 0 Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory Error creating VDPAU device: 1 I checked this library and couldn’t find it - it wasn’t installed. Easy fix:\napt-get install -y libvdpau-va-gl1 Check again:\nvdpauinfo display: :0 screen: 0 libva info: VA-API version 0.39.0 libva info: va_getDriverName() returns 0 libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so libva info: Found init function __vaDriverInit_0_39 libva info: va_openDriver() returns 0 API version: 1 Information string: OpenGL/VAAPI/libswscale backend for VDPAU Video surface: name width height types ------------------------------------------- 420 1920 1080 NV12 YV12 UYVY YUYV Y8U8V8A8 V8U8Y8A8 422 1920 1080 NV12 YV12 UYVY YUYV Y8U8V8A8 V8U8Y8A8 444 1920 1080 NV12 YV12 UYVY YUYV Y8U8V8A8 V8U8Y8A8 Decoder capabilities: name level macbs width height ---------------------------------------------------- MPEG1 --- not supported --- MPEG2_SIMPLE --- not supported --- MPEG2_MAIN --- not supported --- H264_BASELINE 51 16384 2048 2048 H264_MAIN 51 16384 2048 2048 H264_HIGH 51 16384 2048 2048 VC1_SIMPLE --- not supported --- VC1_MAIN --- not supported --- VC1_ADVANCED --- not supported --- MPEG4_PART2_SP --- not supported --- MPEG4_PART2_ASP --- not supported --- DIVX4_QMOBILE --- not supported --- DIVX4_MOBILE --- not supported --- DIVX4_HOME_THEATER --- not supported --- DIVX4_HD_1080P --- not supported --- DIVX5_QMOBILE --- not supported --- DIVX5_MOBILE --- not supported --- DIVX5_HOME_THEATER --- not supported --- DIVX5_HD_1080P --- not supported --- H264_CONSTRAINED_BASELINE 51 16384 2048 2048 H264_EXTENDED --- not supported --- H264_PROGRESSIVE_HIGH --- not supported --- H264_CONSTRAINED_HIGH --- not supported --- H264_HIGH_444_PREDICTIVE --- not supported --- HEVC_MAIN --- not supported --- HEVC_MAIN_10 --- not supported --- HEVC_MAIN_STILL --- not supported --- HEVC_MAIN_12 --- not supported --- HEVC_MAIN_444 --- not supported --- Output surface: name width height nat types ---------------------------------------------------- B8G8R8A8 8192 8192 y R8G8B8A8 8192 8192 y R10G10B10A2 8192 8192 y B10G10R10A2 8192 8192 y A8 8192 8192 y Bitmap surface: name width height ------------------------------ B8G8R8A8 8192 8192 R8G8B8A8 8192 8192 R10G10B10A2 8192 8192 B10G10R10A2 8192 8192 A8 8192 8192 Video mixer: feature name sup ------------------------------------ DEINTERLACE_TEMPORAL - DEINTERLACE_TEMPORAL_SPATIAL - INVERSE_TELECINE - NOISE_REDUCTION - SHARPNESS - LUMA_KEY - HIGH QUALITY SCALING - L1 - HIGH QUALITY SCALING - L2 - HIGH QUALITY SCALING - L3 - HIGH QUALITY SCALING - L4 - HIGH QUALITY SCALING - L5 - HIGH QUALITY SCALING - L6 - HIGH QUALITY SCALING - L7 - HIGH QUALITY SCALING - L8 - HIGH QUALITY SCALING - L9 - parameter name sup min max ----------------------------------------------------- VIDEO_SURFACE_WIDTH - VIDEO_SURFACE_HEIGHT - CHROMA_TYPE - LAYERS - attribute name sup min max ----------------------------------------------------- BACKGROUND_COLOR - CSC_MATRIX - NOISE_REDUCTION_LEVEL - SHARPNESS_LEVEL - LUMA_KEY_MIN_LUMA - LUMA_KEY_MAX_LUMA - Looks better now… But not impressive, there’s only H264 support.\nI’ve tried it in VLC but it was crashing from time to time the whole VLC (leaving it running in background). Time to test VA-API 🙂\nVA-API Like earlier I have to install one tool to see what we have: vainfo\napt-get install -y vainfo Checking what we have on system:\nvainfo libva info: VA-API version 0.39.0 libva info: va_getDriverName() returns 0 libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so libva info: Found init function __vaDriverInit_0_39 libva info: va_openDriver() returns 0 vainfo: VA-API version: 0.39 (libva 1.7.0) vainfo: Driver version: Intel i965 driver for Intel(R) Skylake - 1.7.0 vainfo: Supported profile and entrypoints VAProfileMPEG2Simple :\tVAEntrypointVLD VAProfileMPEG2Simple :\tVAEntrypointEncSlice VAProfileMPEG2Main :\tVAEntrypointVLD VAProfileMPEG2Main :\tVAEntrypointEncSlice VAProfileH264ConstrainedBaseline:\tVAEntrypointVLD VAProfileH264ConstrainedBaseline:\tVAEntrypointEncSlice VAProfileH264Main :\tVAEntrypointVLD VAProfileH264Main :\tVAEntrypointEncSlice VAProfileH264High :\tVAEntrypointVLD VAProfileH264High :\tVAEntrypointEncSlice VAProfileH264MultiviewHigh :\tVAEntrypointVLD VAProfileH264MultiviewHigh :\tVAEntrypointEncSlice VAProfileH264StereoHigh :\tVAEntrypointVLD VAProfileH264StereoHigh :\tVAEntrypointEncSlice VAProfileVC1Simple :\tVAEntrypointVLD VAProfileVC1Main :\tVAEntrypointVLD VAProfileVC1Advanced :\tVAEntrypointVLD VAProfileNone :\tVAEntrypointVideoProc VAProfileJPEGBaseline :\tVAEntrypointVLD VAProfileJPEGBaseline :\tVAEntrypointEncPicture VAProfileVP8Version0_3 :\tVAEntrypointVLD VAProfileVP8Version0_3 :\tVAEntrypointEncSlice VAProfileHEVCMain :\tVAEntrypointVLD VAProfileHEVCMain :\tVAEntrypointEncSlice It requires package i965-va-driver to work but on my system it was installed (probably during VDPAU installation as dependency).\nIt was working almost fine… In VLC on my machine VA-API on X11 was drawing through all desktops. VA-API DRM was working better… But crashed my X11 server after few minutes of watching ;/\nOpenCL You may thing: for what the hell you need OpenCL on such tiny machine? I doesn’t care - I want it 🙂\nFirst install clinfo package:\napt-get install -y clinfo And run it:\nclinfo Number of platforms 0 Not too much 😀\nFor Intel GPU/CPU OpenCL support we will need beignet package:\napt-get install -y beignet clinfo Number of platforms 1 Platform Name Intel Gen OCL Driver Platform Vendor Intel Platform Version OpenCL 1.2 beignet 1.1.1 Platform Profile FULL_PROFILE Platform Extensions cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_khr_spir cl_khr_icd Platform Extensions function suffix Intel Platform Name Intel Gen OCL Driver Number of devices 1 Device Name Intel(R) HD Graphics Skylake ULX GT2 Device Vendor Intel Device Vendor ID 0x8086 Device Version OpenCL 1.2 beignet 1.1.1 Driver Version 1.1.1 Device OpenCL C Version OpenCL C 1.2 beignet 1.1.1 Device Type GPU Device Profile FULL_PROFILE Max compute units 24 Max clock frequency 1000MHz Device Partition (core) Max number of sub-devices 1 Supported partition types None, None, None Max work item dimensions 3 Max work item sizes 512x512x512 Max work group size 512 Preferred work group size multiple 16 Preferred / native vector sizes char 16 / 8 short 8 / 8 int 4 / 4 long 2 / 2 half 0 / 8 (cl_khr_fp16) float 4 / 4 double 0 / 2 (n/a) Half-precision Floating-point support (cl_khr_fp16) Denormals No Infinity and NANs Yes Round to nearest Yes Round to zero No Round to infinity No IEEE754-2008 fused multiply-add No Support is emulated in software No Correctly-rounded divide and sqrt operations No Single-precision Floating-point support (core) Denormals No Infinity and NANs Yes Round to nearest Yes Round to zero No Round to infinity No IEEE754-2008 fused multiply-add No Support is emulated in software No Correctly-rounded divide and sqrt operations No Double-precision Floating-point support (n/a) Address bits 32, Little-Endian Global memory size 2147483648 (2GiB) Error Correction support No Max memory allocation 1073741824 (1024MiB) Unified memory for Host and Device Yes Minimum alignment for any data type 128 bytes Alignment of base address 1024 bits (128 bytes) Global Memory cache type Read/Write Global Memory cache size 8192 Global Memory cache line 64 bytes Image support Yes Max number of samplers per kernel 16 Max size for 1D images from buffer 65536 pixels Max 1D or 2D image array size 2048 images Max 2D image size 8192x8192 pixels Max 3D image size 8192x8192x2048 pixels Max number of read image args 128 Max number of write image args 8 Local memory type Global Local memory size 65536 (64KiB) Max constant buffer size 134217728 (128MiB) Max number of constant args 8 Max size of kernel argument 1024 Queue properties Out-of-order execution No Profiling Yes Prefer user sync for interop Yes Profiling timer resolution 80ns Execution capabilities Run OpenCL kernels Yes Run native kernels Yes SPIR versions printf() buffer size 1048576 (1024KiB) Built-in kernels __cl_copy_region_align4;__cl_copy_region_align16;__cl_cpy_region_unalign_same_offset;__cl_copy_region_unalign_dst_offset;__cl_copy_region_unalign_src_offset;__cl_copy_buffer_rect;__cl_copy_image_1d_to_1d;__cl_copy_image_2d_to_2d;__cl_copy_image_3d_to_2d;__cl_copy_image_2d_to_3d;__cl_copy_image_3d_to_3d;__cl_copy_image_2d_to_buffer;__cl_copy_image_3d_to_buffer;__cl_copy_buffer_to_image_2d;__cl_copy_buffer_to_image_3d;__cl_fill_region_unalign;__cl_fill_region_align2;__cl_fill_region_align4;__cl_fill_region_align8_2;__cl_fill_region_align8_4;__cl_fill_region_align8_8;__cl_fill_region_align8_16;__cl_fill_region_align128;__cl_fill_image_1d;__cl_fill_image_1d_array;__cl_fill_image_2d;__cl_fill_image_2d_array;__cl_fill_image_3d; Device Available Yes Compiler Available Yes Linker Available Yes Device Extensions cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_khr_fp16 cl_khr_spir cl_khr_icd NULL platform behavior clGetPlatformInfo(NULL, CL_PLATFORM_NAME, ...) Intel Gen OCL Driver clGetDeviceIDs(NULL, CL_DEVICE_TYPE_ALL, ...) Success [Intel] clCreateContext(NULL, ...) [default] Success [Intel] clCreateContextFromType(NULL, CL_DEVICE_TYPE_CPU) No devices found in platform clCreateContextFromType(NULL, CL_DEVICE_TYPE_GPU) Success (1) Platform Name Intel Gen OCL Driver Device Name Intel(R) HD Graphics Skylake ULX GT2 clCreateContextFromType(NULL, CL_DEVICE_TYPE_ACCELERATOR) No devices found in platform clCreateContextFromType(NULL, CL_DEVICE_TYPE_CUSTOM) No devices found in platform clCreateContextFromType(NULL, CL_DEVICE_TYPE_ALL) Success (1) Platform Name Intel Gen OCL Driver Device Name Intel(R) HD Graphics Skylake ULX GT2 ICD loader properties ICD loader Name OpenCL ICD Loader ICD loader Vendor OCL Icd free software ICD loader Version 2.2.8 ICD loader Profile OpenCL 1.2 NOTE:\tyour OpenCL library declares to support OpenCL 1.2, but it seems to support up to OpenCL 2.1 too. Sources https://wiki.archlinux.org/index.php/GPGPU#Intel\nSuspend/Hibernate on lid close Default configuration of Ubuntu 16.04 was that after I close lid screen was blocked and LCD disabled. But system was still working normally - I strongly prefer to hibernate in such case and use no battery at all.\nI achieved that with systemd-logind. Edit /etc/systemd/logind.conf and uncomment line with HandleLidSwitch:\n[Login] HandleLidSwitch=suspend HandleLidSwitchDocked=ignore Now restart systemd-logind service with:\nsystemctl restart systemd-logind.service Problem with function keys Function keys were mostly working but not always like I expected. For example when I disable touchpad - it’s not disabled 🙂\nI found that module asus-nb-wmi is responssible for that and it’s still buggy. So I disabled it at all with:\necho \"blacklist asus-nb-wmi\"  /etc/modprobe.d/blacklist-ux305.conf Volume UP/DOWN/MUTE are still working fine - that’s enough for me. Rest could be configured with some keyboard shortcuts - more info here.\nTODO/Issues I still face some bugs:\n I could see occasional flickering from time to time. Rather after running notebook for some time than overheating/overloading it. This may be driver issue or maybe SNA acceleration method - I have to experiment a little to get this solved.\nLooks like disabling Virtualization support and VT-d in BIOS helped. It’s not final solution but for now I don’t need it… A lot 😉 Tapping sometimes behave strange, for ex. tap to click stops to work and I have to use touchpad buttons for that. I think this may be related to syndaemon configuration because it started after I tuned it.\nIt was that. My hack for syndaemon broke touchpad. I will play with this a little more later. I like to use copy by selection and paste by middle click on my desktop - I’m addicted to this option but it’s not working on my laptop. I’m not sure if this will be convenient enough on touchpad to use.\nTo right click just tap with two fingers, to middle click (third button) tap with three fingers. Copy/paste is again easy like before.  If you found errors in my text of know better solutions for described problems, please let me know in comments.\n","wordCount":"2150","inLanguage":"en","datePublished":"2016-04-21T00:00:00Z","dateModified":"2016-04-21T00:00:00Z","mainEntityOfPage":{"@type":"WebPage","@id":"https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/"},"publisher":{"@type":"Organization","name":"timor's site","logo":{"@type":"ImageObject","url":"https://timor.site/favicon.ico"}}}</script>
-</head>
-<body id=top>
-<script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
-<header class=header>
-<nav class=nav>
-<div class=logo>
-<a href=https://timor.site/ accesskey=h title="timor's site (Alt + H)">
-<img src=https://timor.site/favicon-72x72.png alt aria-label=logo height=36>timor's site</a>
-<div class=logo-switches>
-<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-</button>
-</div>
-</div>
-<ul id=menu>
-<li>
-<a href=https://timor.site/search/ title="Search (Alt + /)" accesskey=/>
-<span>Search</span>
-</a>
-</li>
-<li>
-<a href=https://timor.site/projects/ title=Projects>
-<span>Projects</span>
-</a>
-</li>
-<li>
-<a href=https://timor.site/archives/ title=Archive>
-<span>Archive</span>
-</a>
-</li>
-<li>
-<a href=https://timor.site/tags/ title=Tags>
-<span>Tags</span>
-</a>
-</li>
-<li>
-<a href=https://timor.site/about/ title=About>
-<span>About</span>
-</a>
-</li>
-</ul>
-</nav>
-</header>
-<main class=main>
-<article class=post-single>
-<header class=post-header>
-<div class=breadcrumbs><a href=https://timor.site/>Home</a>&nbsp;»&nbsp;<a href=https://timor.site/posts/>Posts</a></div>
-<h1 class=post-title>
-Tweaking ASUS Zenbook UX305CA on Linux
-</h1>
-<div class=post-meta><span title="2016-04-21 00:00:00 +0000 UTC">2016-04-21</span>&nbsp;·&nbsp;11 min
-</div>
-</header> <div class=toc>
-<details open>
-<summary accesskey=c title="(Alt + C)">
-<span class=details>Table of Contents</span>
-</summary>
-<div class=inner><ul>
-<li>
-<a href=#some-ssd-tweaks aria-label="Some SSD tweaks">Some SSD tweaks</a></li>
-<li>
-<a href=#power-usage-tweaks aria-label="Power usage tweaks">Power usage tweaks</a><ul>
-<ul>
-<ul>
-<li>
-<a href=#sources aria-label=Sources>Sources</a></li></ul>
-</ul>
-</ul>
-</li>
-<li>
-<a href=#disable-touchpad-when-writing aria-label="Disable touchpad when writing">Disable touchpad when writing</a></li>
-<li>
-<a href=#vd-pau aria-label=VD-PAU>VD-PAU</a></li>
-<li>
-<a href=#va-api aria-label=VA-API>VA-API</a></li>
-<li>
-<a href=#opencl aria-label=OpenCL>OpenCL</a><ul>
-<ul>
-<ul>
-<li>
-<a href=#sources-1 aria-label=Sources>Sources</a></li></ul>
-</ul>
-</ul>
-</li>
-<li>
-<a href=#suspendhibernate-on-lid-close aria-label="Suspend/Hibernate on lid close">Suspend/Hibernate on lid close</a></li>
-<li>
-<a href=#problem-with-function-keys aria-label="Problem with function keys">Problem with function keys</a></li>
-<li>
-<a href=#todoissues aria-label=TODO/Issues>TODO/Issues</a>
-</li>
-</ul>
-</div>
-</details>
-</div>
-<div class=post-content><p>Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &lsquo;mobile&rsquo; word. Then I saw ASUS Zenbook that I didn&rsquo;t take into account before and it was exactly what I was searching for.</p>
-<p>Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed. I want to sum up what I&rsquo;ve done after installation. I started with fresh Ubuntu 16.04 to get Debian based distro with possibly latest kernel and patches.</p>
-<h2 id=some-ssd-tweaks>Some SSD tweaks<a hidden class=anchor aria-hidden=true href=#some-ssd-tweaks>#</a></h2>
-<p>Change mount options for filesystems on SSD from:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>/dev/mapper/ubuntu--vg-root / ext4 errors<span style=color:#f92672>=</span>remount-ro <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>1</span>
-</code></pre></div><p>to:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>/dev/mapper/ubuntu--vg-root / ext4 discard,noatime,errors<span style=color:#f92672>=</span>remount-ro <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>1</span>
-</code></pre></div><p>And move <code>/tmp</code> to RAM with this additional line in <code>/etc/fstab</code>:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>tmpfs /tmp tmpfs defaults,noatime,mode<span style=color:#f92672>=</span><span style=color:#ae81ff>1777</span> <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>0</span>
-</code></pre></div><p>Now add <code>deadline</code> scheduler for root disk - edit <code>/etc/rc.local</code> and add this line before <code>exit 0</code>:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>echo deadline &gt; /sys/block/sda/queue/scheduler
-echo <span style=color:#ae81ff>1</span> &gt; /sys/block/sda/queue/iosched/fifo_batch
-</code></pre></div><p>I have configured swap but I don&rsquo;t want to use it too much and setting low swappines sysctl option will help. Run this as root:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>echo <span style=color:#e6db74>&#34;vm.swappiness = 1&#34;</span> &gt; /etc/sysctl.conf.d/90-swappines.conf
-sysctl -p /etc/sysctl.conf.d/90-swappines.conf
-</code></pre></div><h2 id=power-usage-tweaks>Power usage tweaks<a hidden class=anchor aria-hidden=true href=#power-usage-tweaks>#</a></h2>
-<p>I&rsquo;ve installed <code>laptop-mode-tools</code> to achieve lower power usage on battery. So:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>apt-get install -y laptop-mode-tools
-</code></pre></div><p>By default it&rsquo;s cutting hard CPU performance on battery (half performance, no turbo) so I fixed this by changing <code>/etc/laptop-mode/conf.d/intel_pstate.conf</code> section <code>On battery</code>:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>#On battery
-BATT_INTEL_PSTATE_PERF_MIN_PCT=0 # Minimum performance, in percent
-BATT_INTEL_PSTATE_PERF_MAX_PCT=100 # Maximum performance, in percent
-BATT_INTEL_PSTATE_NO_TURBO=0 # Disable &#34;Turbo Boost&#34;?
-</code></pre></div><p>Laptop mode tools won&rsquo;t start automatically so we may integrate them with <code>pm-utils</code> (that are already installed on Ubuntu) to get it running when needed. We have to create new config file:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo touch /etc/pm/sleep.d/10-laptop-mode-tools
-sudo chmod a+x /etc/pm/sleep.d/10-laptop-mode-tools
-</code></pre></div><p>with content like this:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#66d9ef>case</span> $1 in
-    hibernate<span style=color:#f92672>)</span>
-        /etc/init.d/laptop-mode stop
-        ;;
-    suspend<span style=color:#f92672>)</span>
-        /etc/init.d/laptop-mode stop
-        ;;
-    thaw<span style=color:#f92672>)</span>d
-        /etc/init.d/laptop-mode start
-        ;;
-    resume<span style=color:#f92672>)</span>
-        /etc/init.d/laptop-mode start
-        ;;
-    *<span style=color:#f92672>)</span>
-        echo Something is not right.
-        ;;
-<span style=color:#66d9ef>esac</span>
-</code></pre></div><p>Now I will enable ALPM for SATA in AHCI mode optimizations:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>echo SATA_ALPM_ENABLE<span style=color:#f92672>=</span>true | sudo tee /etc/pm/config.d/sata_alpm
-</code></pre></div><p>And some kernel parameters in <code>/etc/default/grub</code>:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>GRUB_CMDLINE_LINUX<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;pcie_aspm=force drm.vblankoffdelay=1 i915.semaphores=1&#34;</span>
-</code></pre></div><p>and update-grub with:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>update-grub
-</code></pre></div><p>You may use <code>powertop</code> to nail power heavy processes. There is also <code>powerstat</code> to benchmark power usage through time - I have:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sudo pm-powersave true
-powerstat
-......
-
-Summary:
-System: 4.49 Watts on average with standard deviation 0.46
-</code></pre></div><p>It&rsquo;s really nice. I should be able to run about 8~9h! Sweet!</p>
-<h5 id=sources>Sources<a hidden class=anchor aria-hidden=true href=#sources>#</a></h5>
-<p><a href=https://www.reddit.com/r/linux/comments/3ia8ta/review_of_ubuntu_on_asus_ux305fa/>https://www.reddit.com/r/linux/comments/3ia8ta/review_of_ubuntu_on_asus_ux305fa/</a><br>
-<a href=https://help.ubuntu.com/community/PowerManagement/ReducedPower#Using_less_power_with_laptop-mode-tools>https://help.ubuntu.com/community/PowerManagement/ReducedPower#Using_less_power_with_laptop-mode-tools</a><br>
-<a href=https://help.ubuntu.com/community/AsusZenbook>https://help.ubuntu.com/community/AsusZenbook</a><br>
-<a href=https://wiki.ubuntu.com/Kernel/PowerManagementALPM>https://wiki.ubuntu.com/Kernel/PowerManagementALPM</a></p>
-<h2 id=disable-touchpad-when-writing>Disable touchpad when writing<a hidden class=anchor aria-hidden=true href=#disable-touchpad-when-writing>#</a></h2>
-<p>It&rsquo;s crazy annoying when you tap touchpad during writing text and lose focus on editor window. There is solution for that, it&rsquo;s even installed by default on Ubuntu and it&rsquo;s called: <code>syndaemon</code>. It&rsquo;s started by default like this:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>syndaemon -i 1.0 -t -K -R
-</code></pre></div><p>1 second feels too small for me. I will adjust it to 2s. There is no easy way to do this. I created script to run on login:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e>#!/bin/bash
-</span><span style=color:#75715e></span>killall syndaemon
-syndaemon -d -i 2.0 -t -K -R
-</code></pre></div><p>Now better 🙂</p>
-<h2 id=vd-pau>VD-PAU<a hidden class=anchor aria-hidden=true href=#vd-pau>#</a></h2>
-<p>I installed <code>vdpauinfo</code> tool to see if it&rsquo;s working:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>apt-get install -y vdpauinfo
-</code></pre></div><p>It wasn&rsquo;t:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>vdpauinfo
-display: :0   screen: <span style=color:#ae81ff>0</span>
-Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
-Error creating VDPAU device: <span style=color:#ae81ff>1</span>
-</code></pre></div><p>I checked this library and couldn&rsquo;t find it - it wasn&rsquo;t installed. Easy fix:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>apt-get install -y libvdpau-va-gl1
-</code></pre></div><p>Check again:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>vdpauinfo
-display: :0   screen: <span style=color:#ae81ff>0</span>
-libva info: VA-API version 0.39.0
-libva info: va_getDriverName<span style=color:#f92672>()</span> returns <span style=color:#ae81ff>0</span>
-libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
-libva info: Found init <span style=color:#66d9ef>function</span> __vaDriverInit_0_39
-libva info: va_openDriver<span style=color:#f92672>()</span> returns <span style=color:#ae81ff>0</span>
-API version: <span style=color:#ae81ff>1</span>
-Information string: OpenGL/VAAPI/libswscale backend <span style=color:#66d9ef>for</span> VDPAU
-
-Video surface:
-
-name   width height types
--------------------------------------------
-<span style=color:#ae81ff>420</span>     <span style=color:#ae81ff>1920</span>  <span style=color:#ae81ff>1080</span>  NV12 YV12 UYVY YUYV Y8U8V8A8 V8U8Y8A8
-<span style=color:#ae81ff>422</span>     <span style=color:#ae81ff>1920</span>  <span style=color:#ae81ff>1080</span>  NV12 YV12 UYVY YUYV Y8U8V8A8 V8U8Y8A8
-<span style=color:#ae81ff>444</span>     <span style=color:#ae81ff>1920</span>  <span style=color:#ae81ff>1080</span>  NV12 YV12 UYVY YUYV Y8U8V8A8 V8U8Y8A8
-
-Decoder capabilities:
-
-name                        level macbs width height
-----------------------------------------------------
-MPEG1                          --- not supported ---
-MPEG2_SIMPLE                   --- not supported ---
-MPEG2_MAIN                     --- not supported ---
-H264_BASELINE                  <span style=color:#ae81ff>51</span> <span style=color:#ae81ff>16384</span>  <span style=color:#ae81ff>2048</span>  <span style=color:#ae81ff>2048</span>
-H264_MAIN                      <span style=color:#ae81ff>51</span> <span style=color:#ae81ff>16384</span>  <span style=color:#ae81ff>2048</span>  <span style=color:#ae81ff>2048</span>
-H264_HIGH                      <span style=color:#ae81ff>51</span> <span style=color:#ae81ff>16384</span>  <span style=color:#ae81ff>2048</span>  <span style=color:#ae81ff>2048</span>
-VC1_SIMPLE                     --- not supported ---
-VC1_MAIN                       --- not supported ---
-VC1_ADVANCED                   --- not supported ---
-MPEG4_PART2_SP                 --- not supported ---
-MPEG4_PART2_ASP                --- not supported ---
-DIVX4_QMOBILE                  --- not supported ---
-DIVX4_MOBILE                   --- not supported ---
-DIVX4_HOME_THEATER             --- not supported ---
-DIVX4_HD_1080P                 --- not supported ---
-DIVX5_QMOBILE                  --- not supported ---
-DIVX5_MOBILE                   --- not supported ---
-DIVX5_HOME_THEATER             --- not supported ---
-DIVX5_HD_1080P                 --- not supported ---
-H264_CONSTRAINED_BASELINE      <span style=color:#ae81ff>51</span> <span style=color:#ae81ff>16384</span>  <span style=color:#ae81ff>2048</span>  <span style=color:#ae81ff>2048</span>
-H264_EXTENDED                  --- not supported ---
-H264_PROGRESSIVE_HIGH          --- not supported ---
-H264_CONSTRAINED_HIGH          --- not supported ---
-H264_HIGH_444_PREDICTIVE       --- not supported ---
-HEVC_MAIN                      --- not supported ---
-HEVC_MAIN_10                   --- not supported ---
-HEVC_MAIN_STILL                --- not supported ---
-HEVC_MAIN_12                   --- not supported ---
-HEVC_MAIN_444                  --- not supported ---
-
-Output surface:
-
-name              width height nat types
-----------------------------------------------------
-B8G8R8A8          <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>    y  
-R8G8B8A8          <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>    y  
-R10G10B10A2       <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>    y  
-B10G10R10A2       <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>    y  
-A8                <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>    y  
-
-Bitmap surface:
-
-name              width height
-------------------------------
-B8G8R8A8          <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>
-R8G8B8A8          <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>
-R10G10B10A2       <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>
-B10G10R10A2       <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>
-A8                <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>
-
-Video mixer:
-
-feature name                    sup
-------------------------------------
-DEINTERLACE_TEMPORAL             -
-DEINTERLACE_TEMPORAL_SPATIAL     -
-INVERSE_TELECINE                 -
-NOISE_REDUCTION                  -
-SHARPNESS                        -
-LUMA_KEY                         -
-HIGH QUALITY SCALING - L1        -
-HIGH QUALITY SCALING - L2        -
-HIGH QUALITY SCALING - L3        -
-HIGH QUALITY SCALING - L4        -
-HIGH QUALITY SCALING - L5        -
-HIGH QUALITY SCALING - L6        -
-HIGH QUALITY SCALING - L7        -
-HIGH QUALITY SCALING - L8        -
-HIGH QUALITY SCALING - L9        -
-
-parameter name                  sup      min      max
------------------------------------------------------
-VIDEO_SURFACE_WIDTH              -  
-VIDEO_SURFACE_HEIGHT             -  
-CHROMA_TYPE                      -  
-LAYERS                           -  
-
-attribute name                  sup      min      max
------------------------------------------------------
-BACKGROUND_COLOR                 -  
-CSC_MATRIX                       -  
-NOISE_REDUCTION_LEVEL            -  
-SHARPNESS_LEVEL                  -  
-LUMA_KEY_MIN_LUMA                -  
-LUMA_KEY_MAX_LUMA                -
-</code></pre></div><p>Looks better now&mldr; But not impressive, there&rsquo;s only H264 support.</p>
-<p>I&rsquo;ve tried it in VLC but it was crashing from time to time the whole VLC (leaving it running in background). Time to test VA-API 🙂</p>
-<h2 id=va-api>VA-API<a hidden class=anchor aria-hidden=true href=#va-api>#</a></h2>
-<p>Like earlier I have to install one tool to see what we have: <code>vainfo</code></p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>apt-get install -y vainfo
-</code></pre></div><p>Checking what we have on system:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>vainfo
-libva info: VA-API version 0.39.0
-libva info: va_getDriverName() returns 0
-libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
-libva info: Found init function __vaDriverInit_0_39
-libva info: va_openDriver() returns 0
-vainfo: VA-API version: 0.39 (libva 1.7.0)
-vainfo: Driver version: Intel i965 driver for Intel(R) Skylake - 1.7.0
-vainfo: Supported profile and entrypoints
-      VAProfileMPEG2Simple            :	VAEntrypointVLD
-      VAProfileMPEG2Simple            :	VAEntrypointEncSlice
-      VAProfileMPEG2Main              :	VAEntrypointVLD
-      VAProfileMPEG2Main              :	VAEntrypointEncSlice
-      VAProfileH264ConstrainedBaseline:	VAEntrypointVLD
-      VAProfileH264ConstrainedBaseline:	VAEntrypointEncSlice
-      VAProfileH264Main               :	VAEntrypointVLD
-      VAProfileH264Main               :	VAEntrypointEncSlice
-      VAProfileH264High               :	VAEntrypointVLD
-      VAProfileH264High               :	VAEntrypointEncSlice
-      VAProfileH264MultiviewHigh      :	VAEntrypointVLD
-      VAProfileH264MultiviewHigh      :	VAEntrypointEncSlice
-      VAProfileH264StereoHigh         :	VAEntrypointVLD
-      VAProfileH264StereoHigh         :	VAEntrypointEncSlice
-      VAProfileVC1Simple              :	VAEntrypointVLD
-      VAProfileVC1Main                :	VAEntrypointVLD
-      VAProfileVC1Advanced            :	VAEntrypointVLD
-      VAProfileNone                   :	VAEntrypointVideoProc
-      VAProfileJPEGBaseline           :	VAEntrypointVLD
-      VAProfileJPEGBaseline           :	VAEntrypointEncPicture
-      VAProfileVP8Version0_3          :	VAEntrypointVLD
-      VAProfileVP8Version0_3          :	VAEntrypointEncSlice
-      VAProfileHEVCMain               :	VAEntrypointVLD
-      VAProfileHEVCMain               :	VAEntrypointEncSlice
-</code></pre></div><p>It requires package <code>i965-va-driver</code> to work but on my system it was installed (probably during VDPAU installation as dependency).</p>
-<p>It was working almost fine&mldr; In VLC on my machine VA-API on X11 was drawing through all desktops. VA-API DRM was working better&mldr; But crashed my X11 server after few minutes of watching ;/</p>
-<h2 id=opencl>OpenCL<a hidden class=anchor aria-hidden=true href=#opencl>#</a></h2>
-<p>You may thing: for what the hell you need OpenCL on such tiny machine? I doesn&rsquo;t care - I want it 🙂</p>
-<p>First install <code>clinfo</code> package:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>apt-get install -y clinfo
-</code></pre></div><p>And run it:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>clinfo
-Number of platforms                               <span style=color:#ae81ff>0</span>
-</code></pre></div><p>Not too much 😀</p>
-<p>For Intel GPU/CPU OpenCL support we will need <code>beignet</code> package:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>apt-get install -y beignet
-</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>clinfo
-Number of platforms                               1
-  Platform Name                                   Intel Gen OCL Driver
-  Platform Vendor                                 Intel
-  Platform Version                                OpenCL 1.2 beignet 1.1.1
-  Platform Profile                                FULL_PROFILE
-  Platform Extensions                             cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_khr_spir cl_khr_icd
-  Platform Extensions function suffix             Intel
-
-  Platform Name                                   Intel Gen OCL Driver
-Number of devices                                 1
-  Device Name                                     Intel(R) HD Graphics Skylake ULX GT2
-  Device Vendor                                   Intel
-  Device Vendor ID                                0x8086
-  Device Version                                  OpenCL 1.2 beignet 1.1.1
-  Driver Version                                  1.1.1
-  Device OpenCL C Version                         OpenCL C 1.2 beignet 1.1.1
-  Device Type                                     GPU
-  Device Profile                                  FULL_PROFILE
-  Max compute units                               24
-  Max clock frequency                             1000MHz
-  Device Partition                                (core)
-    Max number of sub-devices                     1
-    Supported partition types                     None, None, None
-  Max work item dimensions                        3
-  Max work item sizes                             512x512x512
-  Max work group size                             512
-  Preferred work group size multiple              16
-  Preferred / native vector sizes                 
-    char                                                16 / 8       
-    short                                                8 / 8       
-    int                                                  4 / 4       
-    long                                                 2 / 2       
-    half                                                 0 / 8        (cl_khr_fp16)
-    float                                                4 / 4       
-    double                                               0 / 2        (n/a)
-  Half-precision Floating-point support           (cl_khr_fp16)
-    Denormals                                     No
-    Infinity and NANs                             Yes
-    Round to nearest                              Yes
-    Round to zero                                 No
-    Round to infinity                             No
-    IEEE754-2008 fused multiply-add               No
-    Support is emulated in software               No
-    Correctly-rounded divide and sqrt operations  No
-  Single-precision Floating-point support         (core)
-    Denormals                                     No
-    Infinity and NANs                             Yes
-    Round to nearest                              Yes
-    Round to zero                                 No
-    Round to infinity                             No
-    IEEE754-2008 fused multiply-add               No
-    Support is emulated in software               No
-    Correctly-rounded divide and sqrt operations  No
-  Double-precision Floating-point support         (n/a)
-  Address bits                                    32, Little-Endian
-  Global memory size                              2147483648 (2GiB)
-  Error Correction support                        No
-  Max memory allocation                           1073741824 (1024MiB)
-  Unified memory for Host and Device              Yes
-  Minimum alignment for any data type             128 bytes
-  Alignment of base address                       1024 bits (128 bytes)
-  Global Memory cache type                        Read/Write
-  Global Memory cache size                        8192
-  Global Memory cache line                        64 bytes
-  Image support                                   Yes
-    Max number of samplers per kernel             16
-    Max size for 1D images from buffer            65536 pixels
-    Max 1D or 2D image array size                 2048 images
-    Max 2D image size                             8192x8192 pixels
-    Max 3D image size                             8192x8192x2048 pixels
-    Max number of read image args                 128
-    Max number of write image args                8
-  Local memory type                               Global
-  Local memory size                               65536 (64KiB)
-  Max constant buffer size                        134217728 (128MiB)
-  Max number of constant args                     8
-  Max size of kernel argument                     1024
-  Queue properties                                
-    Out-of-order execution                        No
-    Profiling                                     Yes
-  Prefer user sync for interop                    Yes
-  Profiling timer resolution                      80ns
-  Execution capabilities                          
-    Run OpenCL kernels                            Yes
-    Run native kernels                            Yes
-    SPIR versions                                 
-  printf() buffer size                            1048576 (1024KiB)
-  Built-in kernels                                __cl_copy_region_align4;__cl_copy_region_align16;__cl_cpy_region_unalign_same_offset;__cl_copy_region_unalign_dst_offset;__cl_copy_region_unalign_src_offset;__cl_copy_buffer_rect;__cl_copy_image_1d_to_1d;__cl_copy_image_2d_to_2d;__cl_copy_image_3d_to_2d;__cl_copy_image_2d_to_3d;__cl_copy_image_3d_to_3d;__cl_copy_image_2d_to_buffer;__cl_copy_image_3d_to_buffer;__cl_copy_buffer_to_image_2d;__cl_copy_buffer_to_image_3d;__cl_fill_region_unalign;__cl_fill_region_align2;__cl_fill_region_align4;__cl_fill_region_align8_2;__cl_fill_region_align8_4;__cl_fill_region_align8_8;__cl_fill_region_align8_16;__cl_fill_region_align128;__cl_fill_image_1d;__cl_fill_image_1d_array;__cl_fill_image_2d;__cl_fill_image_2d_array;__cl_fill_image_3d;
-  Device Available                                Yes
-  Compiler Available                              Yes
-  Linker Available                                Yes
-  Device Extensions                               cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_khr_fp16 cl_khr_spir cl_khr_icd
-
-NULL platform behavior
-  clGetPlatformInfo(NULL, CL_PLATFORM_NAME, ...)  Intel Gen OCL Driver
-  clGetDeviceIDs(NULL, CL_DEVICE_TYPE_ALL, ...)   Success [Intel]
-  clCreateContext(NULL, ...) [default]            Success [Intel]
-  clCreateContextFromType(NULL, CL_DEVICE_TYPE_CPU)  No devices found in platform
-  clCreateContextFromType(NULL, CL_DEVICE_TYPE_GPU)  Success (1)
-    Platform Name                                 Intel Gen OCL Driver
-    Device Name                                   Intel(R) HD Graphics Skylake ULX GT2
-  clCreateContextFromType(NULL, CL_DEVICE_TYPE_ACCELERATOR)  No devices found in platform
-  clCreateContextFromType(NULL, CL_DEVICE_TYPE_CUSTOM)  No devices found in platform
-  clCreateContextFromType(NULL, CL_DEVICE_TYPE_ALL)  Success (1)
-    Platform Name                                 Intel Gen OCL Driver
-    Device Name                                   Intel(R) HD Graphics Skylake ULX GT2
-
-ICD loader properties
-  ICD loader Name                                 OpenCL ICD Loader
-  ICD loader Vendor                               OCL Icd free software
-  ICD loader Version                              2.2.8
-  ICD loader Profile                              OpenCL 1.2
-  NOTE:	your OpenCL library declares to support OpenCL 1.2,
-    but it seems to support up to OpenCL 2.1 too.
-</code></pre></div><h5 id=sources-1>Sources<a hidden class=anchor aria-hidden=true href=#sources-1>#</a></h5>
-<p><a href=https://wiki.archlinux.org/index.php/GPGPU#Intel>https://wiki.archlinux.org/index.php/GPGPU#Intel</a></p>
-<h2 id=suspendhibernate-on-lid-close>Suspend/Hibernate on lid close<a hidden class=anchor aria-hidden=true href=#suspendhibernate-on-lid-close>#</a></h2>
-<p>Default configuration of Ubuntu 16.04 was that after I close lid screen was blocked and LCD disabled. But system was still working normally - I strongly prefer to hibernate in such case and use no battery at all.</p>
-<p>I achieved that with <code>systemd-logind</code>. Edit <code>/etc/systemd/logind.conf</code> and uncomment line with <code>HandleLidSwitch</code>:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>[Login]
-HandleLidSwitch=suspend
-HandleLidSwitchDocked=ignore
-</code></pre></div><p>Now restart <code>systemd-logind</code> service with:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>systemctl restart systemd-logind.service
-</code></pre></div><h2 id=problem-with-function-keys>Problem with function keys<a hidden class=anchor aria-hidden=true href=#problem-with-function-keys>#</a></h2>
-<p>Function keys were mostly working but not always like I expected. For example when I disable touchpad - it&rsquo;s not disabled 🙂</p>
-<p>I found that module <code>asus-nb-wmi</code> is responssible for that and it&rsquo;s still buggy. So I disabled it at all with:</p>
-<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>echo <span style=color:#e6db74>&#34;blacklist asus-nb-wmi&#34;</span> &gt; /etc/modprobe.d/blacklist-ux305.conf
-</code></pre></div><p>Volume UP/DOWN/MUTE are still working fine - that&rsquo;s enough for me. Rest could be configured with some keyboard shortcuts - <a href=https://www.reddit.com/r/linux/comments/3ia8ta/review_of_ubuntu_on_asus_ux305fa/>more info here</a>.</p>
-<h2 id=todoissues>TODO/Issues<a hidden class=anchor aria-hidden=true href=#todoissues>#</a></h2>
-<p>I still face some bugs:</p>
-<ul>
-<li><del>I could see occasional flickering from time to time. Rather after running notebook for some time than overheating/overloading it. This may be driver issue or maybe SNA acceleration method - I have to experiment a little to get this solved.</del><br> Looks like disabling <del>Virtualization support and</del> VT-d in BIOS helped. It&rsquo;s not final solution but for now I don&rsquo;t need it&mldr; A lot 😉</li>
-<li><del>Tapping sometimes behave strange, for ex. tap to click stops to work and I have to use touchpad buttons for that. I think this may be related to syndaemon configuration because it started after I tuned it.</del><br> It was that. My hack for syndaemon broke touchpad. I will play with this a little more later.</li>
-<li><del>I like to use copy by selection and paste by middle click on my desktop - I&rsquo;m addicted to this option but it&rsquo;s not working on my laptop. I&rsquo;m not sure if this will be convenient enough on touchpad to use.</del><br> To right click just tap with two fingers, to middle click (third button) tap with three fingers. Copy/paste is again easy like before.</li>
-</ul>
-<p>If you found errors in my text of know better solutions for described problems, please let me know in comments.</p>
-</div>
-<footer class=post-footer>
-<ul class=post-tags>
-<li><a href=https://timor.site/tags/debian/>Debian</a></li>
-<li><a href=https://timor.site/tags/linux/>Linux</a></li>
-<li><a href=https://timor.site/tags/ubuntu/>Ubuntu</a></li>
-<li><a href=https://timor.site/tags/zenbook/>Zenbook</a></li>
-</ul>
-<nav class=paginav>
-<a class=prev href=https://timor.site/2016/04/use-bastion-host-with-ansible/>
-<span class=title>« Prev</span>
-<br>
-<span>Use bastion host with Ansible</span>
-</a>
-<a class=next href=https://timor.site/2016/03/prefer-ipv4-over-ipv6/>
-<span class=title>Next »</span>
-<br>
-<span>Prefer IPv4 over IPv6</span>
-</a>
-</nav>
-<div class=share-buttons>
-<a target=_blank rel="noopener noreferrer" aria-label="share Tweaking ASUS Zenbook UX305CA on Linux on twitter" href="https://twitter.com/intent/tweet/?text=Tweaking%20ASUS%20Zenbook%20UX305CA%20on%20Linux&url=https%3a%2f%2ftimor.site%2f2016%2f04%2ftweaking-asus-zenbook-ux305ca-on-linux%2f&hashtags=Debian%2cLinux%2cUbuntu%2cZenbook"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentcolor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg>
-</a>
-<a target=_blank rel="noopener noreferrer" aria-label="share Tweaking ASUS Zenbook UX305CA on Linux on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2ftimor.site%2f2016%2f04%2ftweaking-asus-zenbook-ux305ca-on-linux%2f&title=Tweaking%20ASUS%20Zenbook%20UX305CA%20on%20Linux&summary=Tweaking%20ASUS%20Zenbook%20UX305CA%20on%20Linux&source=https%3a%2f%2ftimor.site%2f2016%2f04%2ftweaking-asus-zenbook-ux305ca-on-linux%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentcolor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg>
-</a>
-<a target=_blank rel="noopener noreferrer" aria-label="share Tweaking ASUS Zenbook UX305CA on Linux on reddit" href="https://reddit.com/submit?url=https%3a%2f%2ftimor.site%2f2016%2f04%2ftweaking-asus-zenbook-ux305ca-on-linux%2f&title=Tweaking%20ASUS%20Zenbook%20UX305CA%20on%20Linux"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentcolor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg>
-</a>
-<a target=_blank rel="noopener noreferrer" aria-label="share Tweaking ASUS Zenbook UX305CA on Linux on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ftimor.site%2f2016%2f04%2ftweaking-asus-zenbook-ux305ca-on-linux%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentcolor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg>
-</a>
-<a target=_blank rel="noopener noreferrer" aria-label="share Tweaking ASUS Zenbook UX305CA on Linux on whatsapp" href="https://api.whatsapp.com/send?text=Tweaking%20ASUS%20Zenbook%20UX305CA%20on%20Linux%20-%20https%3a%2f%2ftimor.site%2f2016%2f04%2ftweaking-asus-zenbook-ux305ca-on-linux%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentcolor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg>
-</a>
-<a target=_blank rel="noopener noreferrer" aria-label="share Tweaking ASUS Zenbook UX305CA on Linux on telegram" href="https://telegram.me/share/url?text=Tweaking%20ASUS%20Zenbook%20UX305CA%20on%20Linux&url=https%3a%2f%2ftimor.site%2f2016%2f04%2ftweaking-asus-zenbook-ux305ca-on-linux%2f"><svg viewBox="2 2 28 28" height="30" width="30" fill="currentcolor"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg>
-</a>
-</div>
-</footer><div id=disqus_thread></div>
-<script type=application/javascript>var disqus_config=function(){};(function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById('disqus_thread').innerHTML='Disqus comments not available by default when the website is previewed locally.';return}var b=document,a=b.createElement('script');a.async=!0,a.src='//gagor-pl.disqus.com/embed.js',a.setAttribute('data-timestamp',+new Date),(b.head||b.body).appendChild(a)})()</script>
-<noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript>
-<a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a>
-</article>
-</main>
-<footer class=footer>
-<span><a href=https://timor.site/>timor's site</a> &copy; 2008-2022</span>
-<span>Content licensed under <a rel="license noopener noreferrer" target=_blank href=http://creativecommons.org/licenses/by-sa/4.0/>(CC BY-SA 4.0)</a></span>
-</footer>
-<script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
-<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
-<script>document.querySelectorAll('pre > code').forEach(b=>{const c=b.parentNode.parentNode,a=document.createElement('button');a.classList.add('copy-code'),a.innerHTML='copy';function d(){a.innerHTML='copied!',setTimeout(()=>{a.innerHTML='copy'},2e3)}a.addEventListener('click',e=>{if('clipboard'in navigator){navigator.clipboard.writeText(b.textContent),d();return}const a=document.createRange();a.selectNodeContents(b);const c=window.getSelection();c.removeAllRanges(),c.addRange(a);try{document.execCommand('copy'),d()}catch(a){}c.removeRange(a)}),c.classList.contains("highlight")?c.appendChild(a):c.parentNode.firstChild==c||(b.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?b.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(a):b.parentNode.appendChild(a))})</script>
-</body>
-</html>
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Tweaking ASUS Zenbook UX305CA on Linux | timor's site</title><meta name=keywords content="Debian,Linux,Ubuntu,Zenbook"><meta name=description content="Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common "><meta name=author content><link rel=canonical href=https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/><link crossorigin=anonymous href=/assets/css/stylesheet.3463bda35fd55b9ad6187f681d9b6a97123e084572ffc8e144d794f0d2a914df.css integrity="sha256-NGO9o1/VW5rWGH9oHZtqlxI+CEVy/8jhRNeU8NKpFN8=" rel="preload stylesheet" as=style><script defer crossorigin=anonymous src=/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG+9vmJ0cTS+ovo0FeA=" onload=hljs.initHighlightingOnLoad()></script>
+<link rel=icon href=https://timor.site/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://timor.site/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://timor.site/favicon-32x32.png><link rel=apple-touch-icon href=https://timor.site/apple-touch-icon.png><link rel=mask-icon href=https://timor.site/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(e,t,n,s,o,i,a){e.GoogleAnalyticsObject=o,e[o]=e[o]||function(){(e[o].q=e[o].q||[]).push(arguments)},e[o].l=1*new Date,i=t.createElement(n),a=t.getElementsByTagName(n)[0],i.async=1,i.src=s,a.parentNode.insertBefore(i,a)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-88996819-1","auto"),ga("send","pageview"))</script><meta property="og:title" content="Tweaking ASUS Zenbook UX305CA on Linux"><meta property="og:description" content="Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &lsquo;mobile&rsquo; word. Then I saw ASUS Zenbook that I didn&rsquo;t take into account before and it was exactly what I was searching for.
+Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed."><meta property="og:type" content="article"><meta property="og:url" content="https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2016-04-21T00:00:00+00:00"><meta property="article:modified_time" content="2016-04-21T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Tweaking ASUS Zenbook UX305CA on Linux"><meta name=twitter:description content="Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &lsquo;mobile&rsquo; word. Then I saw ASUS Zenbook that I didn&rsquo;t take into account before and it was exactly what I was searching for.
+Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://timor.site/posts/"},{"@type":"ListItem","position":2,"name":"Tweaking ASUS Zenbook UX305CA on Linux","item":"https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Tweaking ASUS Zenbook UX305CA on Linux","name":"Tweaking ASUS Zenbook UX305CA on Linux","description":"Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with \u0026lsquo;mobile\u0026rsquo; word. Then I saw ASUS Zenbook that I didn\u0026rsquo;t take into account before and it was exactly what I was searching for.\nConfiguration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed.","keywords":["Debian","Linux","Ubuntu","Zenbook"],"articleBody":"Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with ‘mobile’ word. Then I saw ASUS Zenbook that I didn’t take into account before and it was exactly what I was searching for.\nConfiguration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed. I want to sum up what I’ve done after installation. I started with fresh Ubuntu 16.04 to get Debian based distro with possibly latest kernel and patches.\nSome SSD tweaks Change mount options for filesystems on SSD from:\n/dev/mapper/ubuntu--vg-root / ext4 errors=remount-ro 0 1 to:\n/dev/mapper/ubuntu--vg-root / ext4 discard,noatime,errors=remount-ro 0 1 And move /tmp to RAM with this additional line in /etc/fstab:\ntmpfs /tmp tmpfs defaults,noatime,mode=1777 0 0 Now add deadline scheduler for root disk - edit /etc/rc.local and add this line before exit 0:\necho deadline \u003e /sys/block/sda/queue/scheduler echo 1 \u003e /sys/block/sda/queue/iosched/fifo_batch I have configured swap but I don’t want to use it too much and setting low swappines sysctl option will help. Run this as root:\necho \"vm.swappiness = 1\" \u003e /etc/sysctl.conf.d/90-swappines.conf sysctl -p /etc/sysctl.conf.d/90-swappines.conf Power usage tweaks I’ve installed laptop-mode-tools to achieve lower power usage on battery. So:\napt-get install -y laptop-mode-tools By default it’s cutting hard CPU performance on battery (half performance, no turbo) so I fixed this by changing /etc/laptop-mode/conf.d/intel_pstate.conf section On battery:\n#On battery BATT_INTEL_PSTATE_PERF_MIN_PCT=0 # Minimum performance, in percent BATT_INTEL_PSTATE_PERF_MAX_PCT=100 # Maximum performance, in percent BATT_INTEL_PSTATE_NO_TURBO=0 # Disable \"Turbo Boost\"? Laptop mode tools won’t start automatically so we may integrate them with pm-utils (that are already installed on Ubuntu) to get it running when needed. We have to create new config file:\nsudo touch /etc/pm/sleep.d/10-laptop-mode-tools sudo chmod a+x /etc/pm/sleep.d/10-laptop-mode-tools with content like this:\ncase $1 in hibernate) /etc/init.d/laptop-mode stop ;; suspend) /etc/init.d/laptop-mode stop ;; thaw)d /etc/init.d/laptop-mode start ;; resume) /etc/init.d/laptop-mode start ;; *) echo Something is not right. ;; esac Now I will enable ALPM for SATA in AHCI mode optimizations:\necho SATA_ALPM_ENABLE=true | sudo tee /etc/pm/config.d/sata_alpm And some kernel parameters in /etc/default/grub:\nGRUB_CMDLINE_LINUX=\"pcie_aspm=force drm.vblankoffdelay=1 i915.semaphores=1\" and update-grub with:\nupdate-grub You may use powertop to nail power heavy processes. There is also powerstat to benchmark power usage through time - I have:\nsudo pm-powersave true powerstat ...... Summary: System: 4.49 Watts on average with standard deviation 0.46 It’s really nice. I should be able to run about 8~9h! Sweet!\nSources https://www.reddit.com/r/linux/comments/3ia8ta/review_of_ubuntu_on_asus_ux305fa/\nhttps://help.ubuntu.com/community/PowerManagement/ReducedPower#Using_less_power_with_laptop-mode-tools\nhttps://help.ubuntu.com/community/AsusZenbook\nhttps://wiki.ubuntu.com/Kernel/PowerManagementALPM\nDisable touchpad when writing It’s crazy annoying when you tap touchpad during writing text and lose focus on editor window. There is solution for that, it’s even installed by default on Ubuntu and it’s called: syndaemon. It’s started by default like this:\nsyndaemon -i 1.0 -t -K -R 1 second feels too small for me. I will adjust it to 2s. There is no easy way to do this. I created script to run on login:\n#!/bin/bash killall syndaemon syndaemon -d -i 2.0 -t -K -R Now better 🙂\nVD-PAU I installed vdpauinfo tool to see if it’s working:\napt-get install -y vdpauinfo It wasn’t:\nvdpauinfo display: :0 screen: 0 Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory Error creating VDPAU device: 1 I checked this library and couldn’t find it - it wasn’t installed. Easy fix:\napt-get install -y libvdpau-va-gl1 Check again:\nvdpauinfo display: :0 screen: 0 libva info: VA-API version 0.39.0 libva info: va_getDriverName() returns 0 libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so libva info: Found init function __vaDriverInit_0_39 libva info: va_openDriver() returns 0 API version: 1 Information string: OpenGL/VAAPI/libswscale backend for VDPAU Video surface: name width height types ------------------------------------------- 420 1920 1080 NV12 YV12 UYVY YUYV Y8U8V8A8 V8U8Y8A8 422 1920 1080 NV12 YV12 UYVY YUYV Y8U8V8A8 V8U8Y8A8 444 1920 1080 NV12 YV12 UYVY YUYV Y8U8V8A8 V8U8Y8A8 Decoder capabilities: name level macbs width height ---------------------------------------------------- MPEG1 --- not supported --- MPEG2_SIMPLE --- not supported --- MPEG2_MAIN --- not supported --- H264_BASELINE 51 16384 2048 2048 H264_MAIN 51 16384 2048 2048 H264_HIGH 51 16384 2048 2048 VC1_SIMPLE --- not supported --- VC1_MAIN --- not supported --- VC1_ADVANCED --- not supported --- MPEG4_PART2_SP --- not supported --- MPEG4_PART2_ASP --- not supported --- DIVX4_QMOBILE --- not supported --- DIVX4_MOBILE --- not supported --- DIVX4_HOME_THEATER --- not supported --- DIVX4_HD_1080P --- not supported --- DIVX5_QMOBILE --- not supported --- DIVX5_MOBILE --- not supported --- DIVX5_HOME_THEATER --- not supported --- DIVX5_HD_1080P --- not supported --- H264_CONSTRAINED_BASELINE 51 16384 2048 2048 H264_EXTENDED --- not supported --- H264_PROGRESSIVE_HIGH --- not supported --- H264_CONSTRAINED_HIGH --- not supported --- H264_HIGH_444_PREDICTIVE --- not supported --- HEVC_MAIN --- not supported --- HEVC_MAIN_10 --- not supported --- HEVC_MAIN_STILL --- not supported --- HEVC_MAIN_12 --- not supported --- HEVC_MAIN_444 --- not supported --- Output surface: name width height nat types ---------------------------------------------------- B8G8R8A8 8192 8192 y R8G8B8A8 8192 8192 y R10G10B10A2 8192 8192 y B10G10R10A2 8192 8192 y A8 8192 8192 y Bitmap surface: name width height ------------------------------ B8G8R8A8 8192 8192 R8G8B8A8 8192 8192 R10G10B10A2 8192 8192 B10G10R10A2 8192 8192 A8 8192 8192 Video mixer: feature name sup ------------------------------------ DEINTERLACE_TEMPORAL - DEINTERLACE_TEMPORAL_SPATIAL - INVERSE_TELECINE - NOISE_REDUCTION - SHARPNESS - LUMA_KEY - HIGH QUALITY SCALING - L1 - HIGH QUALITY SCALING - L2 - HIGH QUALITY SCALING - L3 - HIGH QUALITY SCALING - L4 - HIGH QUALITY SCALING - L5 - HIGH QUALITY SCALING - L6 - HIGH QUALITY SCALING - L7 - HIGH QUALITY SCALING - L8 - HIGH QUALITY SCALING - L9 - parameter name sup min max ----------------------------------------------------- VIDEO_SURFACE_WIDTH - VIDEO_SURFACE_HEIGHT - CHROMA_TYPE - LAYERS - attribute name sup min max ----------------------------------------------------- BACKGROUND_COLOR - CSC_MATRIX - NOISE_REDUCTION_LEVEL - SHARPNESS_LEVEL - LUMA_KEY_MIN_LUMA - LUMA_KEY_MAX_LUMA - Looks better now… But not impressive, there’s only H264 support.\nI’ve tried it in VLC but it was crashing from time to time the whole VLC (leaving it running in background). Time to test VA-API 🙂\nVA-API Like earlier I have to install one tool to see what we have: vainfo\napt-get install -y vainfo Checking what we have on system:\nvainfo libva info: VA-API version 0.39.0 libva info: va_getDriverName() returns 0 libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so libva info: Found init function __vaDriverInit_0_39 libva info: va_openDriver() returns 0 vainfo: VA-API version: 0.39 (libva 1.7.0) vainfo: Driver version: Intel i965 driver for Intel(R) Skylake - 1.7.0 vainfo: Supported profile and entrypoints VAProfileMPEG2Simple :\tVAEntrypointVLD VAProfileMPEG2Simple :\tVAEntrypointEncSlice VAProfileMPEG2Main :\tVAEntrypointVLD VAProfileMPEG2Main :\tVAEntrypointEncSlice VAProfileH264ConstrainedBaseline:\tVAEntrypointVLD VAProfileH264ConstrainedBaseline:\tVAEntrypointEncSlice VAProfileH264Main :\tVAEntrypointVLD VAProfileH264Main :\tVAEntrypointEncSlice VAProfileH264High :\tVAEntrypointVLD VAProfileH264High :\tVAEntrypointEncSlice VAProfileH264MultiviewHigh :\tVAEntrypointVLD VAProfileH264MultiviewHigh :\tVAEntrypointEncSlice VAProfileH264StereoHigh :\tVAEntrypointVLD VAProfileH264StereoHigh :\tVAEntrypointEncSlice VAProfileVC1Simple :\tVAEntrypointVLD VAProfileVC1Main :\tVAEntrypointVLD VAProfileVC1Advanced :\tVAEntrypointVLD VAProfileNone :\tVAEntrypointVideoProc VAProfileJPEGBaseline :\tVAEntrypointVLD VAProfileJPEGBaseline :\tVAEntrypointEncPicture VAProfileVP8Version0_3 :\tVAEntrypointVLD VAProfileVP8Version0_3 :\tVAEntrypointEncSlice VAProfileHEVCMain :\tVAEntrypointVLD VAProfileHEVCMain :\tVAEntrypointEncSlice It requires package i965-va-driver to work but on my system it was installed (probably during VDPAU installation as dependency).\nIt was working almost fine… In VLC on my machine VA-API on X11 was drawing through all desktops. VA-API DRM was working better… But crashed my X11 server after few minutes of watching ;/\nOpenCL You may thing: for what the hell you need OpenCL on such tiny machine? I doesn’t care - I want it 🙂\nFirst install clinfo package:\napt-get install -y clinfo And run it:\nclinfo Number of platforms 0 Not too much 😀\nFor Intel GPU/CPU OpenCL support we will need beignet package:\napt-get install -y beignet clinfo Number of platforms 1 Platform Name Intel Gen OCL Driver Platform Vendor Intel Platform Version OpenCL 1.2 beignet 1.1.1 Platform Profile FULL_PROFILE Platform Extensions cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_khr_spir cl_khr_icd Platform Extensions function suffix Intel Platform Name Intel Gen OCL Driver Number of devices 1 Device Name Intel(R) HD Graphics Skylake ULX GT2 Device Vendor Intel Device Vendor ID 0x8086 Device Version OpenCL 1.2 beignet 1.1.1 Driver Version 1.1.1 Device OpenCL C Version OpenCL C 1.2 beignet 1.1.1 Device Type GPU Device Profile FULL_PROFILE Max compute units 24 Max clock frequency 1000MHz Device Partition (core) Max number of sub-devices 1 Supported partition types None, None, None Max work item dimensions 3 Max work item sizes 512x512x512 Max work group size 512 Preferred work group size multiple 16 Preferred / native vector sizes char 16 / 8 short 8 / 8 int 4 / 4 long 2 / 2 half 0 / 8 (cl_khr_fp16) float 4 / 4 double 0 / 2 (n/a) Half-precision Floating-point support (cl_khr_fp16) Denormals No Infinity and NANs Yes Round to nearest Yes Round to zero No Round to infinity No IEEE754-2008 fused multiply-add No Support is emulated in software No Correctly-rounded divide and sqrt operations No Single-precision Floating-point support (core) Denormals No Infinity and NANs Yes Round to nearest Yes Round to zero No Round to infinity No IEEE754-2008 fused multiply-add No Support is emulated in software No Correctly-rounded divide and sqrt operations No Double-precision Floating-point support (n/a) Address bits 32, Little-Endian Global memory size 2147483648 (2GiB) Error Correction support No Max memory allocation 1073741824 (1024MiB) Unified memory for Host and Device Yes Minimum alignment for any data type 128 bytes Alignment of base address 1024 bits (128 bytes) Global Memory cache type Read/Write Global Memory cache size 8192 Global Memory cache line 64 bytes Image support Yes Max number of samplers per kernel 16 Max size for 1D images from buffer 65536 pixels Max 1D or 2D image array size 2048 images Max 2D image size 8192x8192 pixels Max 3D image size 8192x8192x2048 pixels Max number of read image args 128 Max number of write image args 8 Local memory type Global Local memory size 65536 (64KiB) Max constant buffer size 134217728 (128MiB) Max number of constant args 8 Max size of kernel argument 1024 Queue properties Out-of-order execution No Profiling Yes Prefer user sync for interop Yes Profiling timer resolution 80ns Execution capabilities Run OpenCL kernels Yes Run native kernels Yes SPIR versions printf() buffer size 1048576 (1024KiB) Built-in kernels __cl_copy_region_align4;__cl_copy_region_align16;__cl_cpy_region_unalign_same_offset;__cl_copy_region_unalign_dst_offset;__cl_copy_region_unalign_src_offset;__cl_copy_buffer_rect;__cl_copy_image_1d_to_1d;__cl_copy_image_2d_to_2d;__cl_copy_image_3d_to_2d;__cl_copy_image_2d_to_3d;__cl_copy_image_3d_to_3d;__cl_copy_image_2d_to_buffer;__cl_copy_image_3d_to_buffer;__cl_copy_buffer_to_image_2d;__cl_copy_buffer_to_image_3d;__cl_fill_region_unalign;__cl_fill_region_align2;__cl_fill_region_align4;__cl_fill_region_align8_2;__cl_fill_region_align8_4;__cl_fill_region_align8_8;__cl_fill_region_align8_16;__cl_fill_region_align128;__cl_fill_image_1d;__cl_fill_image_1d_array;__cl_fill_image_2d;__cl_fill_image_2d_array;__cl_fill_image_3d; Device Available Yes Compiler Available Yes Linker Available Yes Device Extensions cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_khr_fp16 cl_khr_spir cl_khr_icd NULL platform behavior clGetPlatformInfo(NULL, CL_PLATFORM_NAME, ...) Intel Gen OCL Driver clGetDeviceIDs(NULL, CL_DEVICE_TYPE_ALL, ...) Success [Intel] clCreateContext(NULL, ...) [default] Success [Intel] clCreateContextFromType(NULL, CL_DEVICE_TYPE_CPU) No devices found in platform clCreateContextFromType(NULL, CL_DEVICE_TYPE_GPU) Success (1) Platform Name Intel Gen OCL Driver Device Name Intel(R) HD Graphics Skylake ULX GT2 clCreateContextFromType(NULL, CL_DEVICE_TYPE_ACCELERATOR) No devices found in platform clCreateContextFromType(NULL, CL_DEVICE_TYPE_CUSTOM) No devices found in platform clCreateContextFromType(NULL, CL_DEVICE_TYPE_ALL) Success (1) Platform Name Intel Gen OCL Driver Device Name Intel(R) HD Graphics Skylake ULX GT2 ICD loader properties ICD loader Name OpenCL ICD Loader ICD loader Vendor OCL Icd free software ICD loader Version 2.2.8 ICD loader Profile OpenCL 1.2 NOTE:\tyour OpenCL library declares to support OpenCL 1.2, but it seems to support up to OpenCL 2.1 too. Sources https://wiki.archlinux.org/index.php/GPGPU#Intel\nSuspend/Hibernate on lid close Default configuration of Ubuntu 16.04 was that after I close lid screen was blocked and LCD disabled. But system was still working normally - I strongly prefer to hibernate in such case and use no battery at all.\nI achieved that with systemd-logind. Edit /etc/systemd/logind.conf and uncomment line with HandleLidSwitch:\n[Login] HandleLidSwitch=suspend HandleLidSwitchDocked=ignore Now restart systemd-logind service with:\nsystemctl restart systemd-logind.service Problem with function keys Function keys were mostly working but not always like I expected. For example when I disable touchpad - it’s not disabled 🙂\nI found that module asus-nb-wmi is responssible for that and it’s still buggy. So I disabled it at all with:\necho \"blacklist asus-nb-wmi\" \u003e /etc/modprobe.d/blacklist-ux305.conf Volume UP/DOWN/MUTE are still working fine - that’s enough for me. Rest could be configured with some keyboard shortcuts - more info here.\nTODO/Issues I still face some bugs:\nI could see occasional flickering from time to time. Rather after running notebook for some time than overheating/overloading it. This may be driver issue or maybe SNA acceleration method - I have to experiment a little to get this solved.\nLooks like disabling Virtualization support and VT-d in BIOS helped. It’s not final solution but for now I don’t need it… A lot 😉 Tapping sometimes behave strange, for ex. tap to click stops to work and I have to use touchpad buttons for that. I think this may be related to syndaemon configuration because it started after I tuned it.\nIt was that. My hack for syndaemon broke touchpad. I will play with this a little more later. I like to use copy by selection and paste by middle click on my desktop - I’m addicted to this option but it’s not working on my laptop. I’m not sure if this will be convenient enough on touchpad to use.\nTo right click just tap with two fingers, to middle click (third button) tap with three fingers. Copy/paste is again easy like before. If you found errors in my text of know better solutions for described problems, please let me know in comments.\n","wordCount":"2150","inLanguage":"en","datePublished":"2016-04-21T00:00:00Z","dateModified":"2016-04-21T00:00:00Z","mainEntityOfPage":{"@type":"WebPage","@id":"https://timor.site/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/"},"publisher":{"@type":"Organization","name":"timor's site","logo":{"@type":"ImageObject","url":"https://timor.site/favicon.ico"}}}</script></head><body id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://timor.site/ accesskey=h title="timor's site (Alt + H)"><img src=https://timor.site/favicon-72x72.png alt aria-label=logo height=36>timor's site</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://timor.site/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li><li><a href=https://timor.site/projects/ title=Projects><span>Projects</span></a></li><li><a href=https://timor.site/archives/ title=Archive><span>Archive</span></a></li><li><a href=https://timor.site/tags/ title=Tags><span>Tags</span></a></li><li><a href=https://timor.site/about/ title=About><span>About</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><div class=breadcrumbs><a href=https://timor.site/>Home</a>&nbsp;»&nbsp;<a href=https://timor.site/posts/>Posts</a></div><h1 class=post-title>Tweaking ASUS Zenbook UX305CA on Linux</h1><div class=post-meta><span title='2016-04-21 00:00:00 +0000 UTC'>2016-04-21</span>&nbsp;·&nbsp;11 min</div></header><div class=toc><details open><summary accesskey=c title="(Alt + C)"><span class=details>Table of Contents</span></summary><div class=inner><ul><li><a href=#some-ssd-tweaks aria-label="Some SSD tweaks">Some SSD tweaks</a></li><li><a href=#power-usage-tweaks aria-label="Power usage tweaks">Power usage tweaks</a><ul><ul><ul><li><a href=#sources aria-label=Sources>Sources</a></li></ul></ul></ul></li><li><a href=#disable-touchpad-when-writing aria-label="Disable touchpad when writing">Disable touchpad when writing</a></li><li><a href=#vd-pau aria-label=VD-PAU>VD-PAU</a></li><li><a href=#va-api aria-label=VA-API>VA-API</a></li><li><a href=#opencl aria-label=OpenCL>OpenCL</a><ul><ul><ul><li><a href=#sources-1 aria-label=Sources>Sources</a></li></ul></ul></ul></li><li><a href=#suspendhibernate-on-lid-close aria-label="Suspend/Hibernate on lid close">Suspend/Hibernate on lid close</a></li><li><a href=#problem-with-function-keys aria-label="Problem with function keys">Problem with function keys</a></li><li><a href=#todoissues aria-label=TODO/Issues>TODO/Issues</a></li></ul></div></details></div><div class=post-content><p>Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &lsquo;mobile&rsquo; word. Then I saw ASUS Zenbook that I didn&rsquo;t take into account before and it was exactly what I was searching for.</p><p>Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed. I want to sum up what I&rsquo;ve done after installation. I started with fresh Ubuntu 16.04 to get Debian based distro with possibly latest kernel and patches.</p><h2 id=some-ssd-tweaks>Some SSD tweaks<a hidden class=anchor aria-hidden=true href=#some-ssd-tweaks>#</a></h2><p>Change mount options for filesystems on SSD from:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>/dev/mapper/ubuntu--vg-root / ext4 errors<span style=color:#f92672>=</span>remount-ro <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>1</span>
+</span></span></code></pre></div><p>to:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>/dev/mapper/ubuntu--vg-root / ext4 discard,noatime,errors<span style=color:#f92672>=</span>remount-ro <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>1</span>
+</span></span></code></pre></div><p>And move <code>/tmp</code> to RAM with this additional line in <code>/etc/fstab</code>:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>tmpfs /tmp tmpfs defaults,noatime,mode<span style=color:#f92672>=</span><span style=color:#ae81ff>1777</span> <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>0</span>
+</span></span></code></pre></div><p>Now add <code>deadline</code> scheduler for root disk - edit <code>/etc/rc.local</code> and add this line before <code>exit 0</code>:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>echo deadline &gt; /sys/block/sda/queue/scheduler
+</span></span><span style=display:flex><span>echo <span style=color:#ae81ff>1</span> &gt; /sys/block/sda/queue/iosched/fifo_batch
+</span></span></code></pre></div><p>I have configured swap but I don&rsquo;t want to use it too much and setting low swappines sysctl option will help. Run this as root:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>echo <span style=color:#e6db74>&#34;vm.swappiness = 1&#34;</span> &gt; /etc/sysctl.conf.d/90-swappines.conf
+</span></span><span style=display:flex><span>sysctl -p /etc/sysctl.conf.d/90-swappines.conf
+</span></span></code></pre></div><h2 id=power-usage-tweaks>Power usage tweaks<a hidden class=anchor aria-hidden=true href=#power-usage-tweaks>#</a></h2><p>I&rsquo;ve installed <code>laptop-mode-tools</code> to achieve lower power usage on battery. So:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>apt-get install -y laptop-mode-tools
+</span></span></code></pre></div><p>By default it&rsquo;s cutting hard CPU performance on battery (half performance, no turbo) so I fixed this by changing <code>/etc/laptop-mode/conf.d/intel_pstate.conf</code> section <code>On battery</code>:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>#On battery
+</span></span><span style=display:flex><span>BATT_INTEL_PSTATE_PERF_MIN_PCT=0 # Minimum performance, in percent
+</span></span><span style=display:flex><span>BATT_INTEL_PSTATE_PERF_MAX_PCT=100 # Maximum performance, in percent
+</span></span><span style=display:flex><span>BATT_INTEL_PSTATE_NO_TURBO=0 # Disable &#34;Turbo Boost&#34;?
+</span></span></code></pre></div><p>Laptop mode tools won&rsquo;t start automatically so we may integrate them with <code>pm-utils</code> (that are already installed on Ubuntu) to get it running when needed. We have to create new config file:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo touch /etc/pm/sleep.d/10-laptop-mode-tools
+</span></span><span style=display:flex><span>sudo chmod a+x /etc/pm/sleep.d/10-laptop-mode-tools
+</span></span></code></pre></div><p>with content like this:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#66d9ef>case</span> $1 in
+</span></span><span style=display:flex><span>    hibernate<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>        /etc/init.d/laptop-mode stop
+</span></span><span style=display:flex><span>        ;;
+</span></span><span style=display:flex><span>    suspend<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>        /etc/init.d/laptop-mode stop
+</span></span><span style=display:flex><span>        ;;
+</span></span><span style=display:flex><span>    thaw<span style=color:#f92672>)</span>d
+</span></span><span style=display:flex><span>        /etc/init.d/laptop-mode start
+</span></span><span style=display:flex><span>        ;;
+</span></span><span style=display:flex><span>    resume<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>        /etc/init.d/laptop-mode start
+</span></span><span style=display:flex><span>        ;;
+</span></span><span style=display:flex><span>    *<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>        echo Something is not right.
+</span></span><span style=display:flex><span>        ;;
+</span></span><span style=display:flex><span><span style=color:#66d9ef>esac</span>
+</span></span></code></pre></div><p>Now I will enable ALPM for SATA in AHCI mode optimizations:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>echo SATA_ALPM_ENABLE<span style=color:#f92672>=</span>true | sudo tee /etc/pm/config.d/sata_alpm
+</span></span></code></pre></div><p>And some kernel parameters in <code>/etc/default/grub</code>:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>GRUB_CMDLINE_LINUX<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;pcie_aspm=force drm.vblankoffdelay=1 i915.semaphores=1&#34;</span>
+</span></span></code></pre></div><p>and update-grub with:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>update-grub
+</span></span></code></pre></div><p>You may use <code>powertop</code> to nail power heavy processes. There is also <code>powerstat</code> to benchmark power usage through time - I have:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo pm-powersave true
+</span></span><span style=display:flex><span>powerstat
+</span></span><span style=display:flex><span>......
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>Summary:
+</span></span><span style=display:flex><span>System: 4.49 Watts on average with standard deviation 0.46
+</span></span></code></pre></div><p>It&rsquo;s really nice. I should be able to run about 8~9h! Sweet!</p><h5 id=sources>Sources<a hidden class=anchor aria-hidden=true href=#sources>#</a></h5><p><a href=https://www.reddit.com/r/linux/comments/3ia8ta/review_of_ubuntu_on_asus_ux305fa/>https://www.reddit.com/r/linux/comments/3ia8ta/review_of_ubuntu_on_asus_ux305fa/</a><br><a href=https://help.ubuntu.com/community/PowerManagement/ReducedPower#Using_less_power_with_laptop-mode-tools>https://help.ubuntu.com/community/PowerManagement/ReducedPower#Using_less_power_with_laptop-mode-tools</a><br><a href=https://help.ubuntu.com/community/AsusZenbook>https://help.ubuntu.com/community/AsusZenbook</a><br><a href=https://wiki.ubuntu.com/Kernel/PowerManagementALPM>https://wiki.ubuntu.com/Kernel/PowerManagementALPM</a></p><h2 id=disable-touchpad-when-writing>Disable touchpad when writing<a hidden class=anchor aria-hidden=true href=#disable-touchpad-when-writing>#</a></h2><p>It&rsquo;s crazy annoying when you tap touchpad during writing text and lose focus on editor window. There is solution for that, it&rsquo;s even installed by default on Ubuntu and it&rsquo;s called: <code>syndaemon</code>. It&rsquo;s started by default like this:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>syndaemon -i 1.0 -t -K -R
+</span></span></code></pre></div><p>1 second feels too small for me. I will adjust it to 2s. There is no easy way to do this. I created script to run on login:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#!/bin/bash
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>killall syndaemon
+</span></span><span style=display:flex><span>syndaemon -d -i 2.0 -t -K -R
+</span></span></code></pre></div><p>Now better 🙂</p><h2 id=vd-pau>VD-PAU<a hidden class=anchor aria-hidden=true href=#vd-pau>#</a></h2><p>I installed <code>vdpauinfo</code> tool to see if it&rsquo;s working:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>apt-get install -y vdpauinfo
+</span></span></code></pre></div><p>It wasn&rsquo;t:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>vdpauinfo
+</span></span><span style=display:flex><span>display: :0   screen: <span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span>Failed to open VDPAU backend libvdpau_va_gl.so: cannot open shared object file: No such file or directory
+</span></span><span style=display:flex><span>Error creating VDPAU device: <span style=color:#ae81ff>1</span>
+</span></span></code></pre></div><p>I checked this library and couldn&rsquo;t find it - it wasn&rsquo;t installed. Easy fix:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>apt-get install -y libvdpau-va-gl1
+</span></span></code></pre></div><p>Check again:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>vdpauinfo
+</span></span><span style=display:flex><span>display: :0   screen: <span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span>libva info: VA-API version 0.39.0
+</span></span><span style=display:flex><span>libva info: va_getDriverName<span style=color:#f92672>()</span> returns <span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span>libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+</span></span><span style=display:flex><span>libva info: Found init <span style=color:#66d9ef>function</span> __vaDriverInit_0_39
+</span></span><span style=display:flex><span>libva info: va_openDriver<span style=color:#f92672>()</span> returns <span style=color:#ae81ff>0</span>
+</span></span><span style=display:flex><span>API version: <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>Information string: OpenGL/VAAPI/libswscale backend <span style=color:#66d9ef>for</span> VDPAU
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>Video surface:
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>name   width height types
+</span></span><span style=display:flex><span>-------------------------------------------
+</span></span><span style=display:flex><span><span style=color:#ae81ff>420</span>     <span style=color:#ae81ff>1920</span>  <span style=color:#ae81ff>1080</span>  NV12 YV12 UYVY YUYV Y8U8V8A8 V8U8Y8A8
+</span></span><span style=display:flex><span><span style=color:#ae81ff>422</span>     <span style=color:#ae81ff>1920</span>  <span style=color:#ae81ff>1080</span>  NV12 YV12 UYVY YUYV Y8U8V8A8 V8U8Y8A8
+</span></span><span style=display:flex><span><span style=color:#ae81ff>444</span>     <span style=color:#ae81ff>1920</span>  <span style=color:#ae81ff>1080</span>  NV12 YV12 UYVY YUYV Y8U8V8A8 V8U8Y8A8
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>Decoder capabilities:
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>name                        level macbs width height
+</span></span><span style=display:flex><span>----------------------------------------------------
+</span></span><span style=display:flex><span>MPEG1                          --- not supported ---
+</span></span><span style=display:flex><span>MPEG2_SIMPLE                   --- not supported ---
+</span></span><span style=display:flex><span>MPEG2_MAIN                     --- not supported ---
+</span></span><span style=display:flex><span>H264_BASELINE                  <span style=color:#ae81ff>51</span> <span style=color:#ae81ff>16384</span>  <span style=color:#ae81ff>2048</span>  <span style=color:#ae81ff>2048</span>
+</span></span><span style=display:flex><span>H264_MAIN                      <span style=color:#ae81ff>51</span> <span style=color:#ae81ff>16384</span>  <span style=color:#ae81ff>2048</span>  <span style=color:#ae81ff>2048</span>
+</span></span><span style=display:flex><span>H264_HIGH                      <span style=color:#ae81ff>51</span> <span style=color:#ae81ff>16384</span>  <span style=color:#ae81ff>2048</span>  <span style=color:#ae81ff>2048</span>
+</span></span><span style=display:flex><span>VC1_SIMPLE                     --- not supported ---
+</span></span><span style=display:flex><span>VC1_MAIN                       --- not supported ---
+</span></span><span style=display:flex><span>VC1_ADVANCED                   --- not supported ---
+</span></span><span style=display:flex><span>MPEG4_PART2_SP                 --- not supported ---
+</span></span><span style=display:flex><span>MPEG4_PART2_ASP                --- not supported ---
+</span></span><span style=display:flex><span>DIVX4_QMOBILE                  --- not supported ---
+</span></span><span style=display:flex><span>DIVX4_MOBILE                   --- not supported ---
+</span></span><span style=display:flex><span>DIVX4_HOME_THEATER             --- not supported ---
+</span></span><span style=display:flex><span>DIVX4_HD_1080P                 --- not supported ---
+</span></span><span style=display:flex><span>DIVX5_QMOBILE                  --- not supported ---
+</span></span><span style=display:flex><span>DIVX5_MOBILE                   --- not supported ---
+</span></span><span style=display:flex><span>DIVX5_HOME_THEATER             --- not supported ---
+</span></span><span style=display:flex><span>DIVX5_HD_1080P                 --- not supported ---
+</span></span><span style=display:flex><span>H264_CONSTRAINED_BASELINE      <span style=color:#ae81ff>51</span> <span style=color:#ae81ff>16384</span>  <span style=color:#ae81ff>2048</span>  <span style=color:#ae81ff>2048</span>
+</span></span><span style=display:flex><span>H264_EXTENDED                  --- not supported ---
+</span></span><span style=display:flex><span>H264_PROGRESSIVE_HIGH          --- not supported ---
+</span></span><span style=display:flex><span>H264_CONSTRAINED_HIGH          --- not supported ---
+</span></span><span style=display:flex><span>H264_HIGH_444_PREDICTIVE       --- not supported ---
+</span></span><span style=display:flex><span>HEVC_MAIN                      --- not supported ---
+</span></span><span style=display:flex><span>HEVC_MAIN_10                   --- not supported ---
+</span></span><span style=display:flex><span>HEVC_MAIN_STILL                --- not supported ---
+</span></span><span style=display:flex><span>HEVC_MAIN_12                   --- not supported ---
+</span></span><span style=display:flex><span>HEVC_MAIN_444                  --- not supported ---
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>Output surface:
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>name              width height nat types
+</span></span><span style=display:flex><span>----------------------------------------------------
+</span></span><span style=display:flex><span>B8G8R8A8          <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>    y  
+</span></span><span style=display:flex><span>R8G8B8A8          <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>    y  
+</span></span><span style=display:flex><span>R10G10B10A2       <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>    y  
+</span></span><span style=display:flex><span>B10G10R10A2       <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>    y  
+</span></span><span style=display:flex><span>A8                <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>    y  
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>Bitmap surface:
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>name              width height
+</span></span><span style=display:flex><span>------------------------------
+</span></span><span style=display:flex><span>B8G8R8A8          <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>
+</span></span><span style=display:flex><span>R8G8B8A8          <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>
+</span></span><span style=display:flex><span>R10G10B10A2       <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>
+</span></span><span style=display:flex><span>B10G10R10A2       <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>
+</span></span><span style=display:flex><span>A8                <span style=color:#ae81ff>8192</span>  <span style=color:#ae81ff>8192</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>Video mixer:
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>feature name                    sup
+</span></span><span style=display:flex><span>------------------------------------
+</span></span><span style=display:flex><span>DEINTERLACE_TEMPORAL             -
+</span></span><span style=display:flex><span>DEINTERLACE_TEMPORAL_SPATIAL     -
+</span></span><span style=display:flex><span>INVERSE_TELECINE                 -
+</span></span><span style=display:flex><span>NOISE_REDUCTION                  -
+</span></span><span style=display:flex><span>SHARPNESS                        -
+</span></span><span style=display:flex><span>LUMA_KEY                         -
+</span></span><span style=display:flex><span>HIGH QUALITY SCALING - L1        -
+</span></span><span style=display:flex><span>HIGH QUALITY SCALING - L2        -
+</span></span><span style=display:flex><span>HIGH QUALITY SCALING - L3        -
+</span></span><span style=display:flex><span>HIGH QUALITY SCALING - L4        -
+</span></span><span style=display:flex><span>HIGH QUALITY SCALING - L5        -
+</span></span><span style=display:flex><span>HIGH QUALITY SCALING - L6        -
+</span></span><span style=display:flex><span>HIGH QUALITY SCALING - L7        -
+</span></span><span style=display:flex><span>HIGH QUALITY SCALING - L8        -
+</span></span><span style=display:flex><span>HIGH QUALITY SCALING - L9        -
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>parameter name                  sup      min      max
+</span></span><span style=display:flex><span>-----------------------------------------------------
+</span></span><span style=display:flex><span>VIDEO_SURFACE_WIDTH              -  
+</span></span><span style=display:flex><span>VIDEO_SURFACE_HEIGHT             -  
+</span></span><span style=display:flex><span>CHROMA_TYPE                      -  
+</span></span><span style=display:flex><span>LAYERS                           -  
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>attribute name                  sup      min      max
+</span></span><span style=display:flex><span>-----------------------------------------------------
+</span></span><span style=display:flex><span>BACKGROUND_COLOR                 -  
+</span></span><span style=display:flex><span>CSC_MATRIX                       -  
+</span></span><span style=display:flex><span>NOISE_REDUCTION_LEVEL            -  
+</span></span><span style=display:flex><span>SHARPNESS_LEVEL                  -  
+</span></span><span style=display:flex><span>LUMA_KEY_MIN_LUMA                -  
+</span></span><span style=display:flex><span>LUMA_KEY_MAX_LUMA                -
+</span></span></code></pre></div><p>Looks better now&mldr; But not impressive, there&rsquo;s only H264 support.</p><p>I&rsquo;ve tried it in VLC but it was crashing from time to time the whole VLC (leaving it running in background). Time to test VA-API 🙂</p><h2 id=va-api>VA-API<a hidden class=anchor aria-hidden=true href=#va-api>#</a></h2><p>Like earlier I have to install one tool to see what we have: <code>vainfo</code></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>apt-get install -y vainfo
+</span></span></code></pre></div><p>Checking what we have on system:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>vainfo
+</span></span><span style=display:flex><span>libva info: VA-API version 0.39.0
+</span></span><span style=display:flex><span>libva info: va_getDriverName() returns 0
+</span></span><span style=display:flex><span>libva info: Trying to open /usr/lib/x86_64-linux-gnu/dri/i965_drv_video.so
+</span></span><span style=display:flex><span>libva info: Found init function __vaDriverInit_0_39
+</span></span><span style=display:flex><span>libva info: va_openDriver() returns 0
+</span></span><span style=display:flex><span>vainfo: VA-API version: 0.39 (libva 1.7.0)
+</span></span><span style=display:flex><span>vainfo: Driver version: Intel i965 driver for Intel(R) Skylake - 1.7.0
+</span></span><span style=display:flex><span>vainfo: Supported profile and entrypoints
+</span></span><span style=display:flex><span>      VAProfileMPEG2Simple            :	VAEntrypointVLD
+</span></span><span style=display:flex><span>      VAProfileMPEG2Simple            :	VAEntrypointEncSlice
+</span></span><span style=display:flex><span>      VAProfileMPEG2Main              :	VAEntrypointVLD
+</span></span><span style=display:flex><span>      VAProfileMPEG2Main              :	VAEntrypointEncSlice
+</span></span><span style=display:flex><span>      VAProfileH264ConstrainedBaseline:	VAEntrypointVLD
+</span></span><span style=display:flex><span>      VAProfileH264ConstrainedBaseline:	VAEntrypointEncSlice
+</span></span><span style=display:flex><span>      VAProfileH264Main               :	VAEntrypointVLD
+</span></span><span style=display:flex><span>      VAProfileH264Main               :	VAEntrypointEncSlice
+</span></span><span style=display:flex><span>      VAProfileH264High               :	VAEntrypointVLD
+</span></span><span style=display:flex><span>      VAProfileH264High               :	VAEntrypointEncSlice
+</span></span><span style=display:flex><span>      VAProfileH264MultiviewHigh      :	VAEntrypointVLD
+</span></span><span style=display:flex><span>      VAProfileH264MultiviewHigh      :	VAEntrypointEncSlice
+</span></span><span style=display:flex><span>      VAProfileH264StereoHigh         :	VAEntrypointVLD
+</span></span><span style=display:flex><span>      VAProfileH264StereoHigh         :	VAEntrypointEncSlice
+</span></span><span style=display:flex><span>      VAProfileVC1Simple              :	VAEntrypointVLD
+</span></span><span style=display:flex><span>      VAProfileVC1Main                :	VAEntrypointVLD
+</span></span><span style=display:flex><span>      VAProfileVC1Advanced            :	VAEntrypointVLD
+</span></span><span style=display:flex><span>      VAProfileNone                   :	VAEntrypointVideoProc
+</span></span><span style=display:flex><span>      VAProfileJPEGBaseline           :	VAEntrypointVLD
+</span></span><span style=display:flex><span>      VAProfileJPEGBaseline           :	VAEntrypointEncPicture
+</span></span><span style=display:flex><span>      VAProfileVP8Version0_3          :	VAEntrypointVLD
+</span></span><span style=display:flex><span>      VAProfileVP8Version0_3          :	VAEntrypointEncSlice
+</span></span><span style=display:flex><span>      VAProfileHEVCMain               :	VAEntrypointVLD
+</span></span><span style=display:flex><span>      VAProfileHEVCMain               :	VAEntrypointEncSlice
+</span></span></code></pre></div><p>It requires package <code>i965-va-driver</code> to work but on my system it was installed (probably during VDPAU installation as dependency).</p><p>It was working almost fine&mldr; In VLC on my machine VA-API on X11 was drawing through all desktops. VA-API DRM was working better&mldr; But crashed my X11 server after few minutes of watching ;/</p><h2 id=opencl>OpenCL<a hidden class=anchor aria-hidden=true href=#opencl>#</a></h2><p>You may thing: for what the hell you need OpenCL on such tiny machine? I doesn&rsquo;t care - I want it 🙂</p><p>First install <code>clinfo</code> package:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>apt-get install -y clinfo
+</span></span></code></pre></div><p>And run it:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>clinfo
+</span></span><span style=display:flex><span>Number of platforms                               <span style=color:#ae81ff>0</span>
+</span></span></code></pre></div><p>Not too much 😀</p><p>For Intel GPU/CPU OpenCL support we will need <code>beignet</code> package:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>apt-get install -y beignet
+</span></span></code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>clinfo
+</span></span><span style=display:flex><span>Number of platforms                               1
+</span></span><span style=display:flex><span>  Platform Name                                   Intel Gen OCL Driver
+</span></span><span style=display:flex><span>  Platform Vendor                                 Intel
+</span></span><span style=display:flex><span>  Platform Version                                OpenCL 1.2 beignet 1.1.1
+</span></span><span style=display:flex><span>  Platform Profile                                FULL_PROFILE
+</span></span><span style=display:flex><span>  Platform Extensions                             cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_khr_spir cl_khr_icd
+</span></span><span style=display:flex><span>  Platform Extensions function suffix             Intel
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>  Platform Name                                   Intel Gen OCL Driver
+</span></span><span style=display:flex><span>Number of devices                                 1
+</span></span><span style=display:flex><span>  Device Name                                     Intel(R) HD Graphics Skylake ULX GT2
+</span></span><span style=display:flex><span>  Device Vendor                                   Intel
+</span></span><span style=display:flex><span>  Device Vendor ID                                0x8086
+</span></span><span style=display:flex><span>  Device Version                                  OpenCL 1.2 beignet 1.1.1
+</span></span><span style=display:flex><span>  Driver Version                                  1.1.1
+</span></span><span style=display:flex><span>  Device OpenCL C Version                         OpenCL C 1.2 beignet 1.1.1
+</span></span><span style=display:flex><span>  Device Type                                     GPU
+</span></span><span style=display:flex><span>  Device Profile                                  FULL_PROFILE
+</span></span><span style=display:flex><span>  Max compute units                               24
+</span></span><span style=display:flex><span>  Max clock frequency                             1000MHz
+</span></span><span style=display:flex><span>  Device Partition                                (core)
+</span></span><span style=display:flex><span>    Max number of sub-devices                     1
+</span></span><span style=display:flex><span>    Supported partition types                     None, None, None
+</span></span><span style=display:flex><span>  Max work item dimensions                        3
+</span></span><span style=display:flex><span>  Max work item sizes                             512x512x512
+</span></span><span style=display:flex><span>  Max work group size                             512
+</span></span><span style=display:flex><span>  Preferred work group size multiple              16
+</span></span><span style=display:flex><span>  Preferred / native vector sizes                 
+</span></span><span style=display:flex><span>    char                                                16 / 8       
+</span></span><span style=display:flex><span>    short                                                8 / 8       
+</span></span><span style=display:flex><span>    int                                                  4 / 4       
+</span></span><span style=display:flex><span>    long                                                 2 / 2       
+</span></span><span style=display:flex><span>    half                                                 0 / 8        (cl_khr_fp16)
+</span></span><span style=display:flex><span>    float                                                4 / 4       
+</span></span><span style=display:flex><span>    double                                               0 / 2        (n/a)
+</span></span><span style=display:flex><span>  Half-precision Floating-point support           (cl_khr_fp16)
+</span></span><span style=display:flex><span>    Denormals                                     No
+</span></span><span style=display:flex><span>    Infinity and NANs                             Yes
+</span></span><span style=display:flex><span>    Round to nearest                              Yes
+</span></span><span style=display:flex><span>    Round to zero                                 No
+</span></span><span style=display:flex><span>    Round to infinity                             No
+</span></span><span style=display:flex><span>    IEEE754-2008 fused multiply-add               No
+</span></span><span style=display:flex><span>    Support is emulated in software               No
+</span></span><span style=display:flex><span>    Correctly-rounded divide and sqrt operations  No
+</span></span><span style=display:flex><span>  Single-precision Floating-point support         (core)
+</span></span><span style=display:flex><span>    Denormals                                     No
+</span></span><span style=display:flex><span>    Infinity and NANs                             Yes
+</span></span><span style=display:flex><span>    Round to nearest                              Yes
+</span></span><span style=display:flex><span>    Round to zero                                 No
+</span></span><span style=display:flex><span>    Round to infinity                             No
+</span></span><span style=display:flex><span>    IEEE754-2008 fused multiply-add               No
+</span></span><span style=display:flex><span>    Support is emulated in software               No
+</span></span><span style=display:flex><span>    Correctly-rounded divide and sqrt operations  No
+</span></span><span style=display:flex><span>  Double-precision Floating-point support         (n/a)
+</span></span><span style=display:flex><span>  Address bits                                    32, Little-Endian
+</span></span><span style=display:flex><span>  Global memory size                              2147483648 (2GiB)
+</span></span><span style=display:flex><span>  Error Correction support                        No
+</span></span><span style=display:flex><span>  Max memory allocation                           1073741824 (1024MiB)
+</span></span><span style=display:flex><span>  Unified memory for Host and Device              Yes
+</span></span><span style=display:flex><span>  Minimum alignment for any data type             128 bytes
+</span></span><span style=display:flex><span>  Alignment of base address                       1024 bits (128 bytes)
+</span></span><span style=display:flex><span>  Global Memory cache type                        Read/Write
+</span></span><span style=display:flex><span>  Global Memory cache size                        8192
+</span></span><span style=display:flex><span>  Global Memory cache line                        64 bytes
+</span></span><span style=display:flex><span>  Image support                                   Yes
+</span></span><span style=display:flex><span>    Max number of samplers per kernel             16
+</span></span><span style=display:flex><span>    Max size for 1D images from buffer            65536 pixels
+</span></span><span style=display:flex><span>    Max 1D or 2D image array size                 2048 images
+</span></span><span style=display:flex><span>    Max 2D image size                             8192x8192 pixels
+</span></span><span style=display:flex><span>    Max 3D image size                             8192x8192x2048 pixels
+</span></span><span style=display:flex><span>    Max number of read image args                 128
+</span></span><span style=display:flex><span>    Max number of write image args                8
+</span></span><span style=display:flex><span>  Local memory type                               Global
+</span></span><span style=display:flex><span>  Local memory size                               65536 (64KiB)
+</span></span><span style=display:flex><span>  Max constant buffer size                        134217728 (128MiB)
+</span></span><span style=display:flex><span>  Max number of constant args                     8
+</span></span><span style=display:flex><span>  Max size of kernel argument                     1024
+</span></span><span style=display:flex><span>  Queue properties                                
+</span></span><span style=display:flex><span>    Out-of-order execution                        No
+</span></span><span style=display:flex><span>    Profiling                                     Yes
+</span></span><span style=display:flex><span>  Prefer user sync for interop                    Yes
+</span></span><span style=display:flex><span>  Profiling timer resolution                      80ns
+</span></span><span style=display:flex><span>  Execution capabilities                          
+</span></span><span style=display:flex><span>    Run OpenCL kernels                            Yes
+</span></span><span style=display:flex><span>    Run native kernels                            Yes
+</span></span><span style=display:flex><span>    SPIR versions                                 
+</span></span><span style=display:flex><span>  printf() buffer size                            1048576 (1024KiB)
+</span></span><span style=display:flex><span>  Built-in kernels                                __cl_copy_region_align4;__cl_copy_region_align16;__cl_cpy_region_unalign_same_offset;__cl_copy_region_unalign_dst_offset;__cl_copy_region_unalign_src_offset;__cl_copy_buffer_rect;__cl_copy_image_1d_to_1d;__cl_copy_image_2d_to_2d;__cl_copy_image_3d_to_2d;__cl_copy_image_2d_to_3d;__cl_copy_image_3d_to_3d;__cl_copy_image_2d_to_buffer;__cl_copy_image_3d_to_buffer;__cl_copy_buffer_to_image_2d;__cl_copy_buffer_to_image_3d;__cl_fill_region_unalign;__cl_fill_region_align2;__cl_fill_region_align4;__cl_fill_region_align8_2;__cl_fill_region_align8_4;__cl_fill_region_align8_8;__cl_fill_region_align8_16;__cl_fill_region_align128;__cl_fill_image_1d;__cl_fill_image_1d_array;__cl_fill_image_2d;__cl_fill_image_2d_array;__cl_fill_image_3d;
+</span></span><span style=display:flex><span>  Device Available                                Yes
+</span></span><span style=display:flex><span>  Compiler Available                              Yes
+</span></span><span style=display:flex><span>  Linker Available                                Yes
+</span></span><span style=display:flex><span>  Device Extensions                               cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_byte_addressable_store cl_khr_fp16 cl_khr_spir cl_khr_icd
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>NULL platform behavior
+</span></span><span style=display:flex><span>  clGetPlatformInfo(NULL, CL_PLATFORM_NAME, ...)  Intel Gen OCL Driver
+</span></span><span style=display:flex><span>  clGetDeviceIDs(NULL, CL_DEVICE_TYPE_ALL, ...)   Success [Intel]
+</span></span><span style=display:flex><span>  clCreateContext(NULL, ...) [default]            Success [Intel]
+</span></span><span style=display:flex><span>  clCreateContextFromType(NULL, CL_DEVICE_TYPE_CPU)  No devices found in platform
+</span></span><span style=display:flex><span>  clCreateContextFromType(NULL, CL_DEVICE_TYPE_GPU)  Success (1)
+</span></span><span style=display:flex><span>    Platform Name                                 Intel Gen OCL Driver
+</span></span><span style=display:flex><span>    Device Name                                   Intel(R) HD Graphics Skylake ULX GT2
+</span></span><span style=display:flex><span>  clCreateContextFromType(NULL, CL_DEVICE_TYPE_ACCELERATOR)  No devices found in platform
+</span></span><span style=display:flex><span>  clCreateContextFromType(NULL, CL_DEVICE_TYPE_CUSTOM)  No devices found in platform
+</span></span><span style=display:flex><span>  clCreateContextFromType(NULL, CL_DEVICE_TYPE_ALL)  Success (1)
+</span></span><span style=display:flex><span>    Platform Name                                 Intel Gen OCL Driver
+</span></span><span style=display:flex><span>    Device Name                                   Intel(R) HD Graphics Skylake ULX GT2
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>ICD loader properties
+</span></span><span style=display:flex><span>  ICD loader Name                                 OpenCL ICD Loader
+</span></span><span style=display:flex><span>  ICD loader Vendor                               OCL Icd free software
+</span></span><span style=display:flex><span>  ICD loader Version                              2.2.8
+</span></span><span style=display:flex><span>  ICD loader Profile                              OpenCL 1.2
+</span></span><span style=display:flex><span>  NOTE:	your OpenCL library declares to support OpenCL 1.2,
+</span></span><span style=display:flex><span>    but it seems to support up to OpenCL 2.1 too.
+</span></span></code></pre></div><h5 id=sources-1>Sources<a hidden class=anchor aria-hidden=true href=#sources-1>#</a></h5><p><a href=https://wiki.archlinux.org/index.php/GPGPU#Intel>https://wiki.archlinux.org/index.php/GPGPU#Intel</a></p><h2 id=suspendhibernate-on-lid-close>Suspend/Hibernate on lid close<a hidden class=anchor aria-hidden=true href=#suspendhibernate-on-lid-close>#</a></h2><p>Default configuration of Ubuntu 16.04 was that after I close lid screen was blocked and LCD disabled. But system was still working normally - I strongly prefer to hibernate in such case and use no battery at all.</p><p>I achieved that with <code>systemd-logind</code>. Edit <code>/etc/systemd/logind.conf</code> and uncomment line with <code>HandleLidSwitch</code>:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback><span style=display:flex><span>[Login]
+</span></span><span style=display:flex><span>HandleLidSwitch=suspend
+</span></span><span style=display:flex><span>HandleLidSwitchDocked=ignore
+</span></span></code></pre></div><p>Now restart <code>systemd-logind</code> service with:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>systemctl restart systemd-logind.service
+</span></span></code></pre></div><h2 id=problem-with-function-keys>Problem with function keys<a hidden class=anchor aria-hidden=true href=#problem-with-function-keys>#</a></h2><p>Function keys were mostly working but not always like I expected. For example when I disable touchpad - it&rsquo;s not disabled 🙂</p><p>I found that module <code>asus-nb-wmi</code> is responssible for that and it&rsquo;s still buggy. So I disabled it at all with:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>echo <span style=color:#e6db74>&#34;blacklist asus-nb-wmi&#34;</span> &gt; /etc/modprobe.d/blacklist-ux305.conf
+</span></span></code></pre></div><p>Volume UP/DOWN/MUTE are still working fine - that&rsquo;s enough for me. Rest could be configured with some keyboard shortcuts - <a href=https://www.reddit.com/r/linux/comments/3ia8ta/review_of_ubuntu_on_asus_ux305fa/>more info here</a>.</p><h2 id=todoissues>TODO/Issues<a hidden class=anchor aria-hidden=true href=#todoissues>#</a></h2><p>I still face some bugs:</p><ul><li><del>I could see occasional flickering from time to time. Rather after running notebook for some time than overheating/overloading it. This may be driver issue or maybe SNA acceleration method - I have to experiment a little to get this solved.</del><br>Looks like disabling <del>Virtualization support and</del> VT-d in BIOS helped. It&rsquo;s not final solution but for now I don&rsquo;t need it&mldr; A lot 😉</li><li><del>Tapping sometimes behave strange, for ex. tap to click stops to work and I have to use touchpad buttons for that. I think this may be related to syndaemon configuration because it started after I tuned it.</del><br>It was that. My hack for syndaemon broke touchpad. I will play with this a little more later.</li><li><del>I like to use copy by selection and paste by middle click on my desktop - I&rsquo;m addicted to this option but it&rsquo;s not working on my laptop. I&rsquo;m not sure if this will be convenient enough on touchpad to use.</del><br>To right click just tap with two fingers, to middle click (third button) tap with three fingers. Copy/paste is again easy like before.</li></ul><p>If you found errors in my text of know better solutions for described problems, please let me know in comments.</p></div><footer class=post-footer><ul class=post-tags><li><a href=https://timor.site/tags/debian/>Debian</a></li><li><a href=https://timor.site/tags/linux/>Linux</a></li><li><a href=https://timor.site/tags/ubuntu/>Ubuntu</a></li><li><a href=https://timor.site/tags/zenbook/>Zenbook</a></li></ul><nav class=paginav><a class=prev href=https://timor.site/2016/04/use-bastion-host-with-ansible/><span class=title>« Prev</span><br><span>Use bastion host with Ansible</span></a>
+<a class=next href=https://timor.site/2016/03/prefer-ipv4-over-ipv6/><span class=title>Next »</span><br><span>Prefer IPv4 over IPv6</span></a></nav><div class=share-buttons><a target=_blank rel="noopener noreferrer" aria-label="share Tweaking ASUS Zenbook UX305CA on Linux on twitter" href="https://twitter.com/intent/tweet/?text=Tweaking%20ASUS%20Zenbook%20UX305CA%20on%20Linux&url=https%3a%2f%2ftimor.site%2f2016%2f04%2ftweaking-asus-zenbook-ux305ca-on-linux%2f&hashtags=Debian%2cLinux%2cUbuntu%2cZenbook"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentcolor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM195.519 424.544c135.939.0 210.268-112.643 210.268-210.268.0-3.218.0-6.437-.153-9.502 14.406-10.421 26.973-23.448 36.935-38.314-13.18 5.824-27.433 9.809-42.452 11.648 15.326-9.196 26.973-23.602 32.49-40.92-14.252 8.429-30.038 14.56-46.896 17.931-13.487-14.406-32.644-23.295-53.946-23.295-40.767.0-73.87 33.104-73.87 73.87.0 5.824.613 11.494 1.992 16.858-61.456-3.065-115.862-32.49-152.337-77.241-6.284 10.881-9.962 23.601-9.962 37.088.0 25.594 13.027 48.276 32.95 61.456-12.107-.307-23.448-3.678-33.41-9.196v.92c0 35.862 25.441 65.594 59.311 72.49-6.13 1.686-12.72 2.606-19.464 2.606-4.751.0-9.348-.46-13.946-1.38 9.349 29.426 36.628 50.728 68.965 51.341-25.287 19.771-57.164 31.571-91.8 31.571-5.977.0-11.801-.306-17.625-1.073 32.337 21.15 71.264 33.41 112.95 33.41z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share Tweaking ASUS Zenbook UX305CA on Linux on linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2ftimor.site%2f2016%2f04%2ftweaking-asus-zenbook-ux305ca-on-linux%2f&title=Tweaking%20ASUS%20Zenbook%20UX305CA%20on%20Linux&summary=Tweaking%20ASUS%20Zenbook%20UX305CA%20on%20Linux&source=https%3a%2f%2ftimor.site%2f2016%2f04%2ftweaking-asus-zenbook-ux305ca-on-linux%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentcolor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM160.461 423.278V197.561h-75.04v225.717h75.04zm270.539.0V293.839c0-69.333-37.018-101.586-86.381-101.586-39.804.0-57.634 21.891-67.617 37.266v-31.958h-75.021c.995 21.181.0 225.717.0 225.717h75.02V297.222c0-6.748.486-13.492 2.474-18.315 5.414-13.475 17.767-27.434 38.494-27.434 27.135.0 38.007 20.707 38.007 51.037v120.768H431zM123.448 88.722C97.774 88.722 81 105.601 81 127.724c0 21.658 16.264 39.002 41.455 39.002h.484c26.165.0 42.452-17.344 42.452-39.002-.485-22.092-16.241-38.954-41.943-39.002z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share Tweaking ASUS Zenbook UX305CA on Linux on reddit" href="https://reddit.com/submit?url=https%3a%2f%2ftimor.site%2f2016%2f04%2ftweaking-asus-zenbook-ux305ca-on-linux%2f&title=Tweaking%20ASUS%20Zenbook%20UX305CA%20on%20Linux"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentcolor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zM446 265.638c0-22.964-18.616-41.58-41.58-41.58-11.211.0-21.361 4.457-28.841 11.666-28.424-20.508-67.586-33.757-111.204-35.278l18.941-89.121 61.884 13.157c.756 15.734 13.642 28.29 29.56 28.29 16.407.0 29.706-13.299 29.706-29.701.0-16.403-13.299-29.702-29.706-29.702-11.666.0-21.657 6.792-26.515 16.578l-69.105-14.69c-1.922-.418-3.939-.042-5.585 1.036-1.658 1.073-2.811 2.761-3.224 4.686l-21.152 99.438c-44.258 1.228-84.046 14.494-112.837 35.232-7.468-7.164-17.589-11.591-28.757-11.591-22.965.0-41.585 18.616-41.585 41.58.0 16.896 10.095 31.41 24.568 37.918-.639 4.135-.99 8.328-.99 12.576.0 63.977 74.469 115.836 166.33 115.836s166.334-51.859 166.334-115.836c0-4.218-.347-8.387-.977-12.493 14.564-6.47 24.735-21.034 24.735-38.001zM326.526 373.831c-20.27 20.241-59.115 21.816-70.534 21.816-11.428.0-50.277-1.575-70.522-21.82-3.007-3.008-3.007-7.882.0-10.889 3.003-2.999 7.882-3.003 10.885.0 12.777 12.781 40.11 17.317 59.637 17.317 19.522.0 46.86-4.536 59.657-17.321 3.016-2.999 7.886-2.995 10.885.008 3.008 3.011 3.003 7.882-.008 10.889zm-5.23-48.781c-16.373.0-29.701-13.324-29.701-29.698.0-16.381 13.328-29.714 29.701-29.714 16.378.0 29.706 13.333 29.706 29.714.0 16.374-13.328 29.698-29.706 29.698zM160.91 295.348c0-16.381 13.328-29.71 29.714-29.71 16.369.0 29.689 13.329 29.689 29.71.0 16.373-13.32 29.693-29.689 29.693-16.386.0-29.714-13.32-29.714-29.693z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share Tweaking ASUS Zenbook UX305CA on Linux on facebook" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ftimor.site%2f2016%2f04%2ftweaking-asus-zenbook-ux305ca-on-linux%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentcolor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H342.978V319.085h66.6l12.672-82.621h-79.272v-53.617c0-22.603 11.073-44.636 46.58-44.636H425.6v-70.34s-32.71-5.582-63.982-5.582c-65.288.0-107.96 39.569-107.96 111.204v62.971h-72.573v82.621h72.573V512h-191.104c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share Tweaking ASUS Zenbook UX305CA on Linux on whatsapp" href="https://api.whatsapp.com/send?text=Tweaking%20ASUS%20Zenbook%20UX305CA%20on%20Linux%20-%20https%3a%2f%2ftimor.site%2f2016%2f04%2ftweaking-asus-zenbook-ux305ca-on-linux%2f"><svg viewBox="0 0 512 512" height="30" width="30" fill="currentcolor"><path d="M449.446.0C483.971.0 512 28.03 512 62.554v386.892C512 483.97 483.97 512 449.446 512H62.554c-34.524.0-62.554-28.03-62.554-62.554V62.554c0-34.524 28.029-62.554 62.554-62.554h386.892zm-58.673 127.703c-33.842-33.881-78.847-52.548-126.798-52.568-98.799.0-179.21 80.405-179.249 179.234-.013 31.593 8.241 62.428 23.927 89.612l-25.429 92.884 95.021-24.925c26.181 14.28 55.659 21.807 85.658 21.816h.074c98.789.0 179.206-80.413 179.247-179.243.018-47.895-18.61-92.93-52.451-126.81zM263.976 403.485h-.06c-26.734-.01-52.954-7.193-75.828-20.767l-5.441-3.229-56.386 14.792 15.05-54.977-3.542-5.637c-14.913-23.72-22.791-51.136-22.779-79.287.033-82.142 66.867-148.971 149.046-148.971 39.793.014 77.199 15.531 105.329 43.692 28.128 28.16 43.609 65.592 43.594 105.4-.034 82.149-66.866 148.983-148.983 148.984zm81.721-111.581c-4.479-2.242-26.499-13.075-30.604-14.571-4.105-1.495-7.091-2.241-10.077 2.241-2.986 4.483-11.569 14.572-14.182 17.562-2.612 2.988-5.225 3.364-9.703 1.12-4.479-2.241-18.91-6.97-36.017-22.23C231.8 264.15 222.81 249.484 220.198 245s-.279-6.908 1.963-9.14c2.016-2.007 4.48-5.232 6.719-7.847 2.24-2.615 2.986-4.484 4.479-7.472 1.493-2.99.747-5.604-.374-7.846-1.119-2.241-10.077-24.288-13.809-33.256-3.635-8.733-7.327-7.55-10.077-7.688-2.609-.13-5.598-.158-8.583-.158-2.986.0-7.839 1.121-11.944 5.604-4.105 4.484-15.675 15.32-15.675 37.364.0 22.046 16.048 43.342 18.287 46.332 2.24 2.99 31.582 48.227 76.511 67.627 10.685 4.615 19.028 7.371 25.533 9.434 10.728 3.41 20.492 2.929 28.209 1.775 8.605-1.285 26.499-10.833 30.231-21.295 3.732-10.464 3.732-19.431 2.612-21.298-1.119-1.869-4.105-2.99-8.583-5.232z"/></svg></a><a target=_blank rel="noopener noreferrer" aria-label="share Tweaking ASUS Zenbook UX305CA on Linux on telegram" href="https://telegram.me/share/url?text=Tweaking%20ASUS%20Zenbook%20UX305CA%20on%20Linux&url=https%3a%2f%2ftimor.site%2f2016%2f04%2ftweaking-asus-zenbook-ux305ca-on-linux%2f"><svg viewBox="2 2 28 28" height="30" width="30" fill="currentcolor"><path d="M26.49 29.86H5.5a3.37 3.37.0 01-2.47-1 3.35 3.35.0 01-1-2.47V5.48A3.36 3.36.0 013 3 3.37 3.37.0 015.5 2h21A3.38 3.38.0 0129 3a3.36 3.36.0 011 2.46V26.37a3.35 3.35.0 01-1 2.47 3.38 3.38.0 01-2.51 1.02zm-5.38-6.71a.79.79.0 00.85-.66L24.73 9.24a.55.55.0 00-.18-.46.62.62.0 00-.41-.17q-.08.0-16.53 6.11a.59.59.0 00-.41.59.57.57.0 00.43.52l4 1.24 1.61 4.83a.62.62.0 00.63.43.56.56.0 00.4-.17L16.54 20l4.09 3A.9.9.0 0021.11 23.15zM13.8 20.71l-1.21-4q8.72-5.55 8.78-5.55c.15.0.23.0.23.16a.18.18.0 010 .06s-2.51 2.3-7.52 6.8z"/></svg></a></div></footer><div id=disqus_thread></div><script type=application/javascript>window.disqus_config=function(){},function(){if(["localhost","127.0.0.1"].indexOf(window.location.hostname)!=-1){document.getElementById("disqus_thread").innerHTML="Disqus comments not available by default when the website is previewed locally.";return}var t=document,e=t.createElement("script");e.async=!0,e.src="//gagor-pl.disqus.com/embed.js",e.setAttribute("data-timestamp",+new Date),(t.head||t.body).appendChild(e)}()</script><noscript>Please enable JavaScript to view the <a href=https://disqus.com/?ref_noscript>comments powered by Disqus.</a></noscript><a href=https://disqus.com class=dsq-brlink>comments powered by <span class=logo-disqus>Disqus</span></a></article></main><footer class=footer><span><a href=https://timor.site/>timor's site</a> &copy; 2008-2022</span>
+<span>Content licensed under <a rel="license noopener noreferrer" target=_blank href=http://creativecommons.org/licenses/by-sa/4.0/>(CC BY-SA 4.0)</a></span></footer><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script><script>document.querySelectorAll("pre > code").forEach(e=>{const n=e.parentNode.parentNode,t=document.createElement("button");t.classList.add("copy-code"),t.innerHTML="copy";function s(){t.innerHTML="copied!",setTimeout(()=>{t.innerHTML="copy"},2e3)}t.addEventListener("click",t=>{if("clipboard"in navigator){navigator.clipboard.writeText(e.textContent),s();return}const n=document.createRange();n.selectNodeContents(e);const o=window.getSelection();o.removeAllRanges(),o.addRange(n);try{document.execCommand("copy"),s()}catch{}o.removeRange(n)}),n.classList.contains("highlight")?n.appendChild(t):n.parentNode.firstChild==n||(e.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName=="TABLE"?e.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(t):e.parentNode.appendChild(t))})</script></body></html>

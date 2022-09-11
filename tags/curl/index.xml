@@ -15,7 +15,7 @@
       
       <guid>https://timor.site/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</guid>
       <description>Sometimes deployment process or other havy task may cause some Nagios checks to rise below normal levels and bother admin. If this is expected and you want to add downtime on host/service during this task you may use this script:
-#!/bin/bash  function die { echo $1; exit 1; } if [[ $# -eq 0 ]] ; then die &amp;#34;Give hostname and time in minutes as parameter!&amp;#34; fi if [[ $# -eq 1 ]] ; then MINUTES=15 else MINUTES=$2 fi HOST=$1 NAGURL=http://nagios.</description>
+#!/bin/bash function die { echo $1; exit 1; } if [[ $# -eq 0 ]] ; then die &amp;#34;Give hostname and time in minutes as parameter!&amp;#34; fi if [[ $# -eq 1 ]] ; then MINUTES=15 else MINUTES=$2 fi HOST=$1 NAGURL=http://nagios.</description>
     </item>
     
   </channel>
