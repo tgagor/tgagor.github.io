@@ -78,6 +78,18 @@ HOWTO
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Command to change root password
+</h2>
+</header>
+<div class=entry-content>
+<p>Everybody knows passwd command but it’s useless when you need to change ex. root password from command line without waiting for input. In such case oneliner below could help:
+echo "root:new_password" | chpasswd </p>
+</div>
+<footer class=entry-footer><span title="2014-05-08 00:00:00 +0000 UTC">2014-05-08</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Command to change root password" href=https://timor.site/2014/05/command-to-change-root-password/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Install Steam on Debian/Ubuntu
 </h2>
 </header>
@@ -200,19 +212,6 @@ grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n This will search for all l
 </div>
 <footer class=entry-footer><span title="2014-02-18 00:00:00 +0000 UTC">2014-02-18</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Comparing two lists in bash" href=https://timor.site/2014/02/comparing-two-lists-in-bash/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Change default WSUS port from 8530 to 80 on Windows Server 2012
-</h2>
-</header>
-<div class=entry-content>
-<p>After WSUS installing on Windows Server 2012 I discovered that it’s running on port 8530, different than on older version of Windows (it was using port 80 from beginning). But what’s more interesting it was running ONLY on IPv6 interface! Switching binding configuration in IIS doesn’t help.
-I could stand switching port - it’s nothing hard with GPO, but IPv6 only configuration was not acceptable.
-After googling for some time I found one command that solved my problems by switching WSUS to older behavior and run it on port 80 (on default website)....</p>
-</div>
-<footer class=entry-footer><span title="2014-01-24 00:00:00 +0000 UTC">2014-01-24</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Change default WSUS port from 8530 to 80 on Windows Server 2012" href=https://timor.site/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

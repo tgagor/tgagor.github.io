@@ -78,6 +78,19 @@ HOWTO
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>fail2ban - block wp-login.php brute force attacks
+</h2>
+</header>
+<div class=entry-content>
+<p>Lately I had a lot of brute force attacks on my WordPress blog. I used basic auth to /wp-admin part in nginx configuration to block this and as a better solution I wan’t to block source IPs at all on firewall.
+To do this, place this filter code in /etc/fail2ban/filter.d/wp-login.conf:
+# WordPress brute force wp-login.php filter: # # Block IPs trying to authenticate in WordPress blog # # Matches e.g. # 178....</p>
+</div>
+<footer class=entry-footer><span title="2015-12-31 00:00:00 +0000 UTC">2015-12-31</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to fail2ban - block wp-login.php brute force attacks" href=https://timor.site/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Ansible on Vagrant - skipping: no hosts matched
 </h2>
 </header>
@@ -190,18 +203,6 @@ php -c /etc/php-cli.ini script.php But this a little burdensome. So I do it like
 </div>
 <footer class=entry-footer><span title="2014-05-08 00:00:00 +0000 UTC">2014-05-08</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Changing default php.ini file for PHP-CLI on CentOS" href=https://timor.site/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Command to change root password
-</h2>
-</header>
-<div class=entry-content>
-<p>Everybody knows passwd command but it’s useless when you need to change ex. root password from command line without waiting for input. In such case oneliner below could help:
-echo "root:new_password" | chpasswd </p>
-</div>
-<footer class=entry-footer><span title="2014-05-08 00:00:00 +0000 UTC">2014-05-08</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Command to change root password" href=https://timor.site/2014/05/command-to-change-root-password/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

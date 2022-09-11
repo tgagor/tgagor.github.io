@@ -79,6 +79,19 @@ Posts
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Nginx - hide server version and name in Server header and error pages
+</h2>
+</header>
+<div class=entry-content>
+<p>On Debian you have to install nginx-extras package (because it have built in headers_more module). Then you need two options (best in global configuration /etc/nginx/nginx.conf file, http part):
+server_tokens off; more_set_headers 'Server: BadAss'; And it’s good to setup non standard error pages on every site (500 and 404 at minimum):
+error_page 403 404 http://mysite.com/areyoulost; error_page 502 503 504 /500.html; </p>
+</div>
+<footer class=entry-footer><span title="2013-01-24 00:00:00 +0000 UTC">2013-01-24</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Nginx - hide server version and name in Server header and error pages" href=https://timor.site/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>PHP - max_input_vars
 </h2>
 </header>
@@ -185,17 +198,6 @@ apt-get install ldap-utils Teraz możemy próbować przeszukiwać katalog np....
 </div>
 <footer class=entry-footer><span title="2012-11-20 00:00:00 +0000 UTC">2012-11-20</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Ciastka z kleiku ryżowego" href=https://timor.site/2012/11/ciastka-z-kleiku-ryzowego/></a>
-</article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Ciasto z dynią
-</h2>
-</header>
-<div class=entry-content>
-<p>Składniki 2 szklanki miąższu dyni (startego lub zmiksowanego), 2 szklanki mąki, 0,75 szklanki cukru, 3 jajka, 5 łyżeczek cynamonu, 16 g cukru wanilinowego, 0,75 szklanki oleju, łyżeczka sody oczyszczonej, garść orzechów włoskich. Sposób przygotowania Ubijamy białka z cukrem. Do ubitej piany dodajemy żółtka i kolejne składniki: mąkę, olej, cukier wanilinowy, sodę i cynamon. Całość miksujemy jeszcze przez chwilę, a następnie dodajemy posiekany lub starty i odsączony (można np. mocno ścisnąć w dłoniach) miąższ dyni oraz drobno pokrojone orzechy włoskie i jeszcze chwilę mieszamy....</p>
-</div>
-<footer class=entry-footer><span title="2012-11-12 00:00:00 +0000 UTC">2012-11-12</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Ciasto z dynią" href=https://timor.site/2012/11/ciasto-z-dynia/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

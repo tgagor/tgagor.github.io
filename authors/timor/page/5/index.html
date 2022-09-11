@@ -78,6 +78,19 @@ timor
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>InfluxDB - installation and configuration on Debian/Ubuntu
+</h2>
+</header>
+<div class=entry-content>
+<p>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
+Let’s start! On project page there is no info about repo but it’s available, configure it:
+curl -sL https://repos.influxdata.com/influxdb.key | apt-key add - echo "deb https://repos.influxdata.com/debian wheezy stable" > /etc/apt.sources.list.d/influxdb.conf for Ubuntu use url like (of course selecting your version):...</p>
+</div>
+<footer class=entry-footer><span title="2016-01-09 00:00:00 +0000 UTC">2016-01-09</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to InfluxDB - installation and configuration on Debian/Ubuntu" href=https://timor.site/2016/01/influxdb-installation-and-configuration-on-debianubuntu/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>CollectD - installation and configuration with InfluxDB on Debian/Ubuntu
 </h2>
 </header>
@@ -188,18 +201,6 @@ I think I will write shorter, less descriptive articles just to be pointers to u
 </div>
 <footer class=entry-footer><span title="2015-12-25 00:00:00 +0000 UTC">2015-12-25</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to I’m back" href=https://timor.site/2015/12/im-back/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Apache AuthBasic but excluding IP
-</h2>
-</header>
-<div class=entry-content>
-<p>Allow from IP without password prompt, and also allow from any address with password prompt
-Order deny,allow Deny from all AuthName "htaccess password prompt" AuthUserFile /web/askapache.com/.htpasswd AuthType Basic Require valid-user Allow from 172.17.10.1 Satisfy Any Sources http://www.askapache.com/htaccess/apache-authentication-in-htaccess.html</p>
-</div>
-<footer class=entry-footer><span title="2015-12-23 00:00:00 +0000 UTC">2015-12-23</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Apache AuthBasic but excluding IP" href=https://timor.site/2015/12/apache-authbasic-but-excluding-ip/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

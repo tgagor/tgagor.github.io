@@ -78,17 +78,6 @@ Linux
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Nginx - kompresowanie plików dla gzip_static
-</h2>
-</header>
-<div class=entry-content>
-<p>Ruski serwer WWW ma przydatną funkcję serwowania wersji plików skompresowanych gzip’em - przez co możemy plik skompresować raz i będzie on serwowany klientom obsługującym kompresję HTTP ale już bez każdorazowego kompresowania go. Jest to bardzo przydatne na stronach z dużym ruchem gdzie można w ten sposób zaoszczędzić takty CPU na właściwą obsługę połączeń a nie kompresję. Drugie miejsce gdzie może to być przydatne to VPS’y i “cienkie” serwery, które na kompresji przy większym obciążeniu spędzają zbyt dużo czasu i daje się to odczuć w działaniu strony....</p>
-</div>
-<footer class=entry-footer><span title="2012-12-17 00:00:00 +0000 UTC">2012-12-17</span>&nbsp;·&nbsp;3 min</footer>
-<a class=entry-link aria-label="post link to Nginx - kompresowanie plików dla gzip_static" href=https://timor.site/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
 <h2>Apache: mod_authnz_ldap z Active Directory
 </h2>
 </header>
@@ -196,6 +185,17 @@ mount 192.168.1.10:/mnt/pools/A/A0/Music /mnt/music </p>
 </div>
 <footer class=entry-footer><span title="2012-09-10 00:00:00 +0000 UTC">2012-09-10</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Listowanie zasobów NFS" href=https://timor.site/2012/09/listowanie-zasobow-nfs/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic
+</h2>
+</header>
+<div class=entry-content>
+<p>Niedawno trafiłem na ciekawy problem w mod_rewrite - by przekierowywać użytkowników logujących się jednym z modułów mod_auth_basic do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej %{REMOTE_USER} - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w RewriteCond zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można RewriteCond’y połączyć wyrażeniami logicznymi typu AND/OR to nie ma możliwości porównania czy dopasowania z kolejnych RewriteCond’ów są identyczne....</p>
+</div>
+<footer class=entry-footer><span title="2012-09-09 00:00:00 +0000 UTC">2012-09-09</span>&nbsp;·&nbsp;3 min</footer>
+<a class=entry-link aria-label="post link to Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic" href=https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

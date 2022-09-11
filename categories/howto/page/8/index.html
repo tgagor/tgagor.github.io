@@ -78,6 +78,19 @@ HOWTO
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Reenable web interface on Polycom VBP 5300 ST from CLI
+</h2>
+</header>
+<div class=entry-content>
+<p>After some configuration changes I’ve stuck with VBP not listening nor on HTTP, nor on SSH port. Last resort was to use CLI to reenable HTTP access. Connect with parameters:
+Baud rate: 9600 Parity: none Bits: 8 Stopbits: 1 Flow control: none Then in login prompt you have to use login credentials (yes - they’re the same on every box (WTF?)):
+User: - root Pass: - @#$%^&*!() Password is shift + 2345678190 - there is 1 before 9!...</p>
+</div>
+<footer class=entry-footer><span title="2013-11-18 00:00:00 +0000 UTC">2013-11-18</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Reenable web interface on Polycom VBP 5300 ST from CLI" href=https://timor.site/2013/11/reenable-web-interface-on-polycom-vbp-5300-st-from-cli/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>GearmanManager: wygodne zarządzanie workerami
 </h2>
 </header>
@@ -186,19 +199,6 @@ Na początek wystarczy a sprawdzając na stronach projektów okazało się że w
 </div>
 <footer class=entry-footer><span title="2013-09-13 00:00:00 +0000 UTC">2013-09-13</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Raspberry Pi: pierwsze kroki" href=https://timor.site/2013/09/raspberry-pi-pierwsze-kroki/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Nginx - przydatne rewrite’y i różne sztuczki
-</h2>
-</header>
-<div class=entry-content>
-<p>Polubiłem Nginx’a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach 😃
-Słowo wstępu Niektóre rewrite’y kończą się znakiem ? - czemu?
-Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną $request_uri to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku ?...</p>
-</div>
-<footer class=entry-footer><span title="2013-09-09 00:00:00 +0000 UTC">2013-09-09</span>&nbsp;·&nbsp;6 min</footer>
-<a class=entry-link aria-label="post link to Nginx - przydatne rewrite’y i różne sztuczki" href=https://timor.site/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

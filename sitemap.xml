@@ -14,13 +14,7 @@
     <loc>https://timor.site/tags/docker/</loc>
     <lastmod>2022-09-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://timor.site/2022/09/dockerfile-writing-best-practices/</loc>
-    <lastmod>2022-09-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://timor.site/categories/howto/</loc>
-    <lastmod>2022-09-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/linux/</loc>
     <lastmod>2022-09-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/posts/</loc>
@@ -34,6 +28,12 @@
   </url><url>
     <loc>https://timor.site/</loc>
     <lastmod>2022-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/2022/09/use-dockerignore/</loc>
+    <lastmod>2022-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/2022/09/dockerfile-writing-best-practices/</loc>
+    <lastmod>2022-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</loc>
     <lastmod>2022-09-03T00:00:00+00:00</lastmod>
@@ -51,6 +51,9 @@
     <lastmod>2022-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/devops/</loc>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/linux/</loc>
     <lastmod>2022-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/backup/</loc>

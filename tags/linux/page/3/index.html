@@ -78,19 +78,6 @@ Linux
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Ansible on Vagrant - skipping: no hosts matched
-</h2>
-</header>
-<div class=entry-content>
-<p>I have some Ansible roles to configure my vps, Raspberry Pi, etc. I like to test them before I broke something on my real, not clustered machines - I use Vagrant for that.
-But with it I had one problem - in playbooks I define hosts as groups of severs ex. web for my vps:
-- hosts: web gather_facts: True sudo: True ... But testing machine wasn’t in this group and when I run vagrant I could only see:...</p>
-</div>
-<footer class=entry-footer><span title="2015-12-29 00:00:00 +0000 UTC">2015-12-29</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Ansible on Vagrant - skipping: no hosts matched" href=https://timor.site/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
 <h2>Apache - Force caching dynamic PHP content with mod_headers
 </h2>
 </header>
@@ -203,6 +190,21 @@ rm -f /var/lib/rpm/__db* rpm --rebuilddb yum clean all yum update Instead rm on 
 </div>
 <footer class=entry-footer><span title="2014-04-04 00:00:00 +0000 UTC">2014-04-04</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Rebuild yum/rpm database" href=https://timor.site/2014/04/rebuild-yum-rpm-database/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Nagios - run checks as root with NRPE
+</h2>
+</header>
+<div class=entry-content>
+<p>I’ve few Nagios checks that require root privileges but running nrpe as root user is not acceptable. I prefer to use sudo for only these few commands.
+Run visudo and coment out this line:
+#Defaults requiretty This change is crucial to get scripts working.
+Then add at the end of file:
+%nrpe ALL=(ALL) NOPASSWD: /usr/lib64/nagios/plugins/ I’ve used nrpe group, but you have to add exactly group that your nrpe process uses....</p>
+</div>
+<footer class=entry-footer><span title="2014-03-29 00:00:00 +0000 UTC">2014-03-29</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Nagios - run checks as root with NRPE" href=https://timor.site/2014/03/nagios-run-checks-as-root-with-nrpe/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

@@ -78,6 +78,17 @@ timor
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Daily MySQL backups with xtrabackup
+</h2>
+</header>
+<div class=entry-content>
+<p>I’ve been using standard MySQL dumps as backup technique on my VPS for few years. It works fine and backups were usable few times when I needed them. But in other places I’m using xtrabackup. It’s faster when crating backups and a lot faster when restoring them - they’re binary so there is no need to reevaluate all SQL create tables/inserts/etc. Backups also include my.cnf config file so restoring on other machine should be easy....</p>
+</div>
+<footer class=entry-footer><span title="2016-04-23 00:00:00 +0000 UTC">2016-04-23</span>&nbsp;·&nbsp;3 min</footer>
+<a class=entry-link aria-label="post link to Daily MySQL backups with xtrabackup" href=https://timor.site/2016/04/daily-mysql-backups-with-xtrabackup/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Use bastion host with Ansible
 </h2>
 </header>
@@ -193,22 +204,6 @@ Install prerequisites:...</p>
 </div>
 <footer class=entry-footer><span title="2016-02-11 00:00:00 +0000 UTC">2016-02-11</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Manual installation of Docker on Debian/Ubuntu" href=https://timor.site/2016/02/manual-installation-of-docker-on-debian-ubuntu/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Some useful commands in Docker
-</h2>
-</header>
-<div class=entry-content>
-<p>I started playing with Docker and here I will write some commands that where not so obvious at beginning 😃
-List running containers:
-docker ps List also not running containers:
-docker ps -a Remove all containers (be careful with that):
-docker rm $(docker ps -a -q) Remove all images:
-docker rmi $(docker images -q) Docker won’t remove any old volumes used by containers, so after some time you may be interested in deleting them all:...</p>
-</div>
-<footer class=entry-footer><span title="2016-02-11 00:00:00 +0000 UTC">2016-02-11</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Some useful commands in Docker" href=https://timor.site/2016/02/some-useful-commands-in-docker/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

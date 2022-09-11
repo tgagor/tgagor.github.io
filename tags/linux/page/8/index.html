@@ -78,17 +78,6 @@ Linux
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
-<h2>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic
-</h2>
-</header>
-<div class=entry-content>
-<p>Niedawno trafiłem na ciekawy problem w mod_rewrite - by przekierowywać użytkowników logujących się jednym z modułów mod_auth_basic do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej %{REMOTE_USER} - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w RewriteCond zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można RewriteCond’y połączyć wyrażeniami logicznymi typu AND/OR to nie ma możliwości porównania czy dopasowania z kolejnych RewriteCond’ów są identyczne....</p>
-</div>
-<footer class=entry-footer><span title="2012-09-09 00:00:00 +0000 UTC">2012-09-09</span>&nbsp;·&nbsp;3 min</footer>
-<a class=entry-link aria-label="post link to Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic" href=https://timor.site/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
 <h2>unicode-rxvt - moje ustawienia
 </h2>
 </header>
@@ -197,6 +186,17 @@ Przywykłem w darmowych dystrybucjach że gdy pojawiała się nowszą “większ
 </div>
 <footer class=entry-footer><span title="2011-10-20 00:00:00 +0000 UTC">2011-10-20</span>&nbsp;·&nbsp;3 min</footer>
 <a class=entry-link aria-label="post link to SLES 11 - instalacja Service Pack’a" href=https://timor.site/2011/10/sles-11-instalacja-service-packa/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
+<h2>Ochrona usług przed atakami brute force z fail2ban’em
+</h2>
+</header>
+<div class=entry-content>
+<p>Bardzo często konfigurując usługi dostępne publicznie poświęca się sporo czasu na maksymalne zwiększenie bezpieczeństwa przez “dopieszczanie” konfiguracji (certyfikaty z mocnym szyfrowaniem, ochronę pewnych stron hasłem, dostęp do SSH tylko kluczami, itd.) ale całkowicie pomija się przygotowanie systemu aktywnie monitorującego błędne próby autoryzacji. Oczywiście nie można umniejszać wagi pierwszego z wymienionych etapów ale zdecydowanie nie powinno pomijać się też tego drugiego. Przecież każdy admin chciałby wiedzieć gdy ktoś próbuje włamać się na jego serwer (FTP, HTTP, SSH, itp....</p>
+</div>
+<footer class=entry-footer><span title="2011-10-03 00:00:00 +0000 UTC">2011-10-03</span>&nbsp;·&nbsp;4 min</footer>
+<a class=entry-link aria-label="post link to Ochrona usług przed atakami brute force z fail2ban’em" href=https://timor.site/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

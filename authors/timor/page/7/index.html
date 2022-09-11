@@ -78,6 +78,18 @@ timor
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Checking memcached status
+</h2>
+</header>
+<div class=entry-content>
+<p>I need to check memory usage of memcached server so I used:
+echo stats | nc 127.0.0.1 11211 STAT pid 2743 STAT uptime 263 STAT time 1395438951 STAT version 1.4.13 STAT pointer_size 64 STAT rusage_user 0.482926 STAT rusage_system 2.675593 STAT curr_items 8667 STAT total_items 10742 STAT bytes 23802513 STAT curr_connections 296 STAT total_connections 399 STAT connection_structures 297 STAT cmd_flush 0 STAT cmd_get 52578 STAT cmd_set 10792 STAT get_hits 28692 STAT get_misses 23886 STAT evictions 0 STAT bytes_read 35984361 STAT bytes_written 192647437 STAT limit_maxbytes 536870912 STAT threads 2 STAT accepting_conns 1 STAT listen_disabled_num 0 STAT replication MASTER STAT repcached_qi_free 8189 STAT repcached_wdata 0 STAT repcached_wsize 1026048 END For me, bytes value was important but you could find more about all statistics here....</p>
+</div>
+<footer class=entry-footer><span title="2014-03-21 00:00:00 +0000 UTC">2014-03-21</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Checking memcached status" href=https://timor.site/2014/03/checking-memcached-status/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Postfix - automatically drop outbound mail
 </h2>
 </header>
@@ -195,19 +207,6 @@ http://support.microsoft.com/kb/2720211 http://support....</p>
 </div>
 <footer class=entry-footer><span title="2014-01-16 00:00:00 +0000 UTC">2014-01-16</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Manage Windows 8.1 and Windows Server 2012 R2 in WSUS 3.0" href=https://timor.site/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Regenerate thumbnails in Shotwell 0.15 (for last month)
-</h2>
-</header>
-<div class=entry-content>
-<p>I love Shotwell for it’s simplicity and easy export to Piwigo. After Christmas I added new photos to my library but after that I made some modifications to them (red eye reduction, etc…). Because Shotwell generate thumbnails only on import, all my modifications were not visible on preview.
-I’ve started searching how to regenerate thumbs and found this info. There were two issues with this method:
-this howto was for old version (with old paths) and only for 128px thumbs I definitely don’t want to regenerate thumbnails for 40k photos!...</p>
-</div>
-<footer class=entry-footer><span title="2014-01-08 00:00:00 +0000 UTC">2014-01-08</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Regenerate thumbnails in Shotwell 0.15 (for last month)" href=https://timor.site/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

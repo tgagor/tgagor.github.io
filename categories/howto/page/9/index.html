@@ -78,6 +78,19 @@ HOWTO
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Nginx - przydatne rewrite’y i różne sztuczki
+</h2>
+</header>
+<div class=entry-content>
+<p>Polubiłem Nginx’a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach 😃
+Słowo wstępu Niektóre rewrite’y kończą się znakiem ? - czemu?
+Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną $request_uri to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku ?...</p>
+</div>
+<footer class=entry-footer><span title="2013-09-09 00:00:00 +0000 UTC">2013-09-09</span>&nbsp;·&nbsp;6 min</footer>
+<a class=entry-link aria-label="post link to Nginx - przydatne rewrite’y i różne sztuczki" href=https://timor.site/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>tor: generowanie milszej nazwy dla hidden service
 </h2>
 </header>
@@ -191,19 +204,6 @@ wget http://www.yeasoft.com/downloads/various/btsync-linux-deploy.tar.gz Ja wyci
 </div>
 <footer class=entry-footer><span title="2013-07-16 00:00:00 +0000 UTC">2013-07-16</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Debian - Instalacja Bittorrent Sync (btsync)" href=https://timor.site/2013/07/debian-instalacja-bittorrent-sync-btsync/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Tworzenie patch’y z poleceniami diff i patch
-</h2>
-</header>
-<div class=entry-content>
-<p>Jest kilka powodów dla których tworzenie patchy jest przydatne - jeśli tu jesteś to pewnie masz jakiś własny…
-Tworzenie patch’a diff -crB old new > from-old-to-new.patch W powyższym poleceniu założyłem że old i new to katalogi z wieloma podkatalogami i plikami - stąd opcja -r. -c dodaje kilka linijek “kontekstu” przez co łatwiej rozeznać się w patch’u. Opcja -B ignoruje puste linie, których patchowanie mnie nie interesuje.
-Patchowanie Na początek zawsze warto wywołać polecenie z opcją -dry-run by zobaczyć czy patch wykona się poprawnie:...</p>
-</div>
-<footer class=entry-footer><span title="2013-04-01 00:00:00 +0000 UTC">2013-04-01</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to Tworzenie patch’y z poleceniami diff i patch" href=https://timor.site/2013/04/tworzenie-patchy-z-poleceniami-diff-i-patch/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

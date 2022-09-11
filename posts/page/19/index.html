@@ -79,6 +79,20 @@ Posts
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>JPGraph, wykresy z PHP’a
+</h2>
+</header>
+<div class=entry-content>
+<p>Onego czasu próbowałem znaleźć coś co ułatwiłoby mi rysowanie prostych wykresów w PHP’ie inaczej niż z palca w GD. Kumpel polecił mi JPGraph.
+JPGraph to świetna sprawa, do generowania statystyk jak chociażby na mojej stronie, ale biblioteka potrafi dużo więcej…
+Załóżmy, że ze stronki zbieramy do bazy takie rzeczy jak: datę, adres IP, ilość połączeń z tego adresu. Prosta tabela (przykład w Postgre SQL’u):
+CREATE TABLE wizyty ( pid serial NOT NULL, "data" date NOT NULL DEFAULT ('now'::text)::date, odslony integer NOT NULL DEFAULT 1, CONSTRAINT visits_pkey PRIMARY KEY (id) ); Dane z takiej tabeli można łatwo wyciągnąć jednym select’em:...</p>
+</div>
+<footer class=entry-footer><span title="2011-08-29 00:00:00 +0000 UTC">2011-08-29</span>&nbsp;·&nbsp;3 min</footer>
+<a class=entry-link aria-label="post link to JPGraph, wykresy z PHP’a" href=https://timor.site/2011/08/jpgraph-wykresy-z-phpa/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>Konfiguracja backportów na Debianie
 </h2>
 </header>
@@ -190,22 +204,12 @@ for i in `seq 1 100`; do (cat tekst.txt; uuencode test.zip test.zip) \ | mail -s
 <footer class=entry-footer><span title="2011-08-27 00:00:00 +0000 UTC">2011-08-27</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Wysyłanie załączników poleceniem mail" href=https://timor.site/2011/08/wysylanie-zalacznikow-poleceniem-mail/></a>
 </article>
-<article class=post-entry>
-<header class=entry-header>
-<h2>Włam na lokalne konto root’a
-</h2>
-</header>
-<div class=entry-content>
-<p>Jeżeli tu zaglądasz pewnie zdarzyło Ci się kiedyś, że przykładowo wygrzebujesz jakiś stary serwer i nie masz pojęcia co na nim było, ani do czego służyło, czy jeszcze działa… Albo jeszcze inaczej - serwer działał tak długo, że wszystkie osoby znające hasło na root’a przeszły na emeryturę lub zmarły… Nieistotne 😃
-Jest pewna prosta sztuczka, pozwalająca wbić się na konto root’a nie znając hasła - dając nam możliwość jego zmiany. Potrzebne dwa restarty ale za to nie trzeba korzystać z żadnychlive cd....</p>
-</div>
-<footer class=entry-footer><span title="2011-08-27 00:00:00 +0000 UTC">2011-08-27</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Włam na lokalne konto root’a" href=https://timor.site/2011/08/wlam-na-lokalne-konto-roota/></a>
-</article>
 <footer class=page-footer>
 <nav class=pagination>
 <a class=prev href=https://timor.site/posts/page/18/>
 «&nbsp;Prev&nbsp;
+</a>
+<a class=next href=https://timor.site/posts/page/20/>Next&nbsp;&nbsp;»
 </a>
 </nav>
 </footer>

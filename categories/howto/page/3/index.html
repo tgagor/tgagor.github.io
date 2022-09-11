@@ -78,6 +78,19 @@ HOWTO
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu
+</h2>
+</header>
+<div class=entry-content>
+<p>From few days I have access to UPC’s www.horizon.tv platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it’s working pretty well - you’re just few commands away from achieving that:
+# stop browser killall firefox # remove old version if you have it sudo apt-get remove pipelight Now configure repos and install packages:
+sudo apt-add-repository ppa:pipelight/stable sudo apt-get update sudo apt-get install --install-recommends pipelight-multi sudo pipelight-plugin --update Enable plugin (run it with sudo for system wide installation):...</p>
+</div>
+<footer class=entry-footer><span title="2016-02-09 00:00:00 +0000 UTC">2016-02-09</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu" href=https://timor.site/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Prepare for DoS like Cloudflare do
 </h2>
 </header>
@@ -192,19 +205,6 @@ Current project with automatic configuration is not what I want to use at all. I
 </div>
 <footer class=entry-footer><span title="2016-01-04 00:00:00 +0000 UTC">2016-01-04</span>&nbsp;·&nbsp;1 min</footer>
 <a class=entry-link aria-label="post link to Let’s Encrypt - without auto configuration" href=https://timor.site/2016/01/lets-encrypt-without-auto-configuration/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>fail2ban - block wp-login.php brute force attacks
-</h2>
-</header>
-<div class=entry-content>
-<p>Lately I had a lot of brute force attacks on my WordPress blog. I used basic auth to /wp-admin part in nginx configuration to block this and as a better solution I wan’t to block source IPs at all on firewall.
-To do this, place this filter code in /etc/fail2ban/filter.d/wp-login.conf:
-# WordPress brute force wp-login.php filter: # # Block IPs trying to authenticate in WordPress blog # # Matches e.g. # 178....</p>
-</div>
-<footer class=entry-footer><span title="2015-12-31 00:00:00 +0000 UTC">2015-12-31</span>&nbsp;·&nbsp;1 min</footer>
-<a class=entry-link aria-label="post link to fail2ban - block wp-login.php brute force attacks" href=https://timor.site/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>

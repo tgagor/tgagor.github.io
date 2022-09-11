@@ -78,6 +78,19 @@ HOWTO
 </header>
 <article class="post-entry tag-entry">
 <header class=entry-header>
+<h2>Tworzenie patch’y z poleceniami diff i patch
+</h2>
+</header>
+<div class=entry-content>
+<p>Jest kilka powodów dla których tworzenie patchy jest przydatne - jeśli tu jesteś to pewnie masz jakiś własny…
+Tworzenie patch’a diff -crB old new > from-old-to-new.patch W powyższym poleceniu założyłem że old i new to katalogi z wieloma podkatalogami i plikami - stąd opcja -r. -c dodaje kilka linijek “kontekstu” przez co łatwiej rozeznać się w patch’u. Opcja -B ignoruje puste linie, których patchowanie mnie nie interesuje.
+Patchowanie Na początek zawsze warto wywołać polecenie z opcją -dry-run by zobaczyć czy patch wykona się poprawnie:...</p>
+</div>
+<footer class=entry-footer><span title="2013-04-01 00:00:00 +0000 UTC">2013-04-01</span>&nbsp;·&nbsp;1 min</footer>
+<a class=entry-link aria-label="post link to Tworzenie patch’y z poleceniami diff i patch" href=https://timor.site/2013/04/tworzenie-patchy-z-poleceniami-diff-i-patch/></a>
+</article>
+<article class="post-entry tag-entry">
+<header class=entry-header>
 <h2>Rozsynchronizowane serwery NTP
 </h2>
 </header>
@@ -185,19 +198,6 @@ a2enmod ldap a2enmod authnz_ldap Teraz możemy edytujemy globalny plik konfigura
 </div>
 <footer class=entry-footer><span title="2012-12-14 00:00:00 +0000 UTC">2012-12-14</span>&nbsp;·&nbsp;2 min</footer>
 <a class=entry-link aria-label="post link to Apache: mod_authnz_ldap z Active Directory" href=https://timor.site/2012/12/apache-mod_authnz_ldap-z-active-directory/></a>
-</article>
-<article class="post-entry tag-entry">
-<header class=entry-header>
-<h2>Python - wysyłanie maili w unicode
-</h2>
-</header>
-<div class=entry-content>
-<p>Chciałem wysłać z Python’a maila z krzakami tab by ładnie się wyświetlały i okazało się to całkiem nietrywialne.
-Na szczęście googiel podpowiedział mi doskonałego gotowca, którego zamierzam zapisać by mi nie zginął:
-#!/usr/bin/env python # -*- coding: utf-8 -*- import smtplib from email.mime.text import MIMEText from email.Header import Header from email.Utils import parseaddr, formataddr def send_email(sender, recipient, subject, body): """Send an email. All arguments should be Unicode strings (plain ASCII works as well)....</p>
-</div>
-<footer class=entry-footer><span title="2012-12-10 00:00:00 +0000 UTC">2012-12-10</span>&nbsp;·&nbsp;2 min</footer>
-<a class=entry-link aria-label="post link to Python - wysyłanie maili w unicode" href=https://timor.site/2012/12/python-wysylanie-maili-w-unicode/></a>
 </article>
 <footer class=page-footer>
 <nav class=pagination>
