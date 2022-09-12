@@ -16,7 +16,7 @@
       <guid>https://timor.site/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</guid>
       <description>I have some Ansible roles to configure my vps, Raspberry Pi, etc. I like to test them before I broke something on my real, not clustered machines - I use Vagrant for that.
 But with it I had one problem - in playbooks I define hosts as groups of severs ex. web for my vps:
-- hosts: web gather_facts: True sudo: True ... But testing machine wasn&amp;rsquo;t in this group and when I run vagrant I could only see:</description>
+Example Ansible playbook - hosts: web gather_facts: True sudo: True ... But testing machine wasn&amp;rsquo;t in this group and when I run vagrant I could only see:</description>
     </item>
     
   </channel>
