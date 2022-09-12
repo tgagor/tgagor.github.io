@@ -9,22 +9,22 @@
 </copyright>
     <lastBuildDate>Sun, 11 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/categories/howto/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Use .dockerignore</title>
-      <link>https://timor.site/2022/09/use-dockerignore/</link>
+      <title>Best practices for writing Dockerfiles - Use .dockerignore</title>
+      <link>https://timor.site/2022/09/best-practices-for-writing-dockerfiles-use-dockerignore/</link>
       <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2022/09/use-dockerignore/</guid>
+      <guid>https://timor.site/2022/09/best-practices-for-writing-dockerfiles-use-dockerignore/</guid>
       <description>People often complain, that building Docker image takes a long time but they&amp;rsquo;re just adding single jar package. Really?
 They often don&amp;rsquo;t remember that whole &amp;ldquo;build context&amp;rdquo;1 is uploaded to Docker daemon during build, which often means they&amp;rsquo;re not only adding &amp;ldquo;single jar&amp;rdquo;, but also all sources, test results and whatever you have in your context directory.
 Solution is simple - use .dockerignore file2 dropped in the directory where you build the image.</description>
     </item>
     
     <item>
-      <title>Use VOLUME for all mutable, temporary file locations</title>
-      <link>https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/</link>
+      <title>Best practices for writing Dockerfiles - Use VOLUME for all mutable, temporary file locations</title>
+      <link>https://timor.site/2022/09/best-practices-for-writing-dockerfiles-use-volume-for-all-mutable-temporary-file-locations/</link>
       <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2022/09/use-volume-for-all-mutable-temporary-file-locations/</guid>
+      <guid>https://timor.site/2022/09/best-practices-for-writing-dockerfiles-use-volume-for-all-mutable-temporary-file-locations/</guid>
       <description>IMO people don&amp;rsquo;t understand how VOLUME1 works so they don&amp;rsquo;t use it. It&amp;rsquo;s generally used far too rarely!
 In short VOLUME means two things:
 Whatever is left in directory marked as VOLUME, stays there and can&amp;rsquo;t be changed in later layers (actually it can be changed but changes won&amp;rsquo;t be persistent). Volumes are not part of layered image FS. They&amp;rsquo;re mounted as anonymous volumes located on standard file system. This means they&amp;rsquo;re working much faster.</description>
