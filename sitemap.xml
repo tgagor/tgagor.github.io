@@ -3,36 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://timor.site/authors/</loc>
-    <lastmod>2022-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/best-practices/</loc>
-    <lastmod>2022-09-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/2022/09/best-practices-for-writing-dockerfiles-use-dockerignore/</loc>
-    <lastmod>2022-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/2022/09/best-practices-for-writing-dockerfiles-use-volume-for-all-mutable-temporary-file-locations/</loc>
-    <lastmod>2022-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/categories/</loc>
-    <lastmod>2022-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/docker/</loc>
-    <lastmod>2022-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/categories/howto/</loc>
-    <lastmod>2022-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/posts/</loc>
-    <lastmod>2022-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/</loc>
-    <lastmod>2022-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/authors/timor/</loc>
-    <lastmod>2022-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/2022/09/best-practices-for-writing-dockerfiles-use-dockerignore/</loc>
     <lastmod>2022-09-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/2022/09/dockerfile-writing-best-practices/</loc>
