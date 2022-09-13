@@ -25,7 +25,7 @@ Whatever is left in directory marked as VOLUME, stays there and can&amp;rsquo;t 
       <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/2022/09/best-practices-for-writing-dockerfiles-use-dockerignore/</guid>
-      <description>People often complain, that building Docker image takes a long time. &amp;ldquo;I just just added a single jar package&amp;rdquo; they say&amp;hellip; Really?
+      <description>People often complain, that building Docker image takes a long time. &amp;ldquo;I just added a single jar package&amp;rdquo; they say&amp;hellip; Really?
 They often don&amp;rsquo;t remember that whole &amp;ldquo;build context&amp;rdquo;1 is uploaded to Docker daemon during build, which often means they&amp;rsquo;re not only adding &amp;ldquo;single jar&amp;rdquo;, but also all sources, test results and whatever they have in working directory.
 Solution is simple - to use .dockerignore file2. Syntax is similar to .</description>
     </item>
