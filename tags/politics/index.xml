@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Politics on timor&#39;s site</title>
+    <link>https://timor.site/tags/politics/</link>
+    <description>Recent content in Politics on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Mon, 22 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/politics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Szpieg</title>
+      <link>https://timor.site/books/2017/szpieg/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2017/szpieg/</guid>
+      <description> SzpiegCzyli podstawy szpiegowskiego fachu
+Author: Wiktor Suworow
+empik.com </description>
+    </item>
+    
+    <item>
+      <title>Sztuka wojny</title>
+      <link>https://timor.site/books/2017/sztuka-wojny/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2017/sztuka-wojny/</guid>
+      <description> Sztuka wojnyWydanie 3
+Authors: Sun Tzu, Sun Pin
+maklerska.pl </description>
+    </item>
+    
+  </channel>
+</rss>

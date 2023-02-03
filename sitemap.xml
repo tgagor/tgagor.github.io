@@ -218,6 +218,21 @@
     <loc>https://timor.site/books/2018/a-discovery-of-witches/</loc>
     <lastmod>2018-10-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://timor.site/books/2017/black-hack-python/</loc>
+    <lastmod>2017-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/politics/</loc>
+    <lastmod>2017-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/python/</loc>
+    <lastmod>2017-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2017/szpieg/</loc>
+    <lastmod>2017-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2017/sztuka-wojny/</loc>
+    <lastmod>2017-05-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://timor.site/2016/07/debuging-commands-running-on-memcached/</loc>
     <lastmod>2016-07-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -225,9 +240,6 @@
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/2016/04/pip-uninstall-package-with-dependencies/</loc>
-    <lastmod>2016-04-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/python/</loc>
     <lastmod>2016-04-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/2016/04/daily-mysql-backups-with-xtrabackup/</loc>
