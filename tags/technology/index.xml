@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Technology on timor&#39;s site</title>
+    <link>https://timor.site/tags/technology/</link>
+    <description>Recent content in Technology on timor&#39;s site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Mon, 21 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Starość aksolotla</title>
+      <link>https://timor.site/books/2022/starosc-aksolotla/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2022/starosc-aksolotla/</guid>
+      <description>Source: amazon.pl
+Starość Aksolotla is a book written by Polish author Jacek Dukaj that I recently had the pleasure of reading. The book is a science fiction novel that explores themes of longevity, immortality, and the meaning of life. The protagonist of the story is a centuries-old axolotl, a species of salamander that is capable of regenerating its limbs and organs, who embarks on a journey of self-discovery as he grapples with the consequences of his own immortality.</description>
+    </item>
+    
+    <item>
+      <title>The three-body problem</title>
+      <link>https://timor.site/books/2022/three-body-problem/</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2022/three-body-problem/</guid>
+      <description>Source: amazon.pl
+The novel is set in the future and follows the discovery of an alien civilization, the Trisolarans, and humanity&amp;rsquo;s attempts to make contact and defend against them. The book is known for its complex scientific concepts, philosophical ideas, and intricate storyline.
+Overall, &amp;ldquo;The Three-Body Problem&amp;rdquo; has been highly praised by readers and critics for its unique and thought-provoking approach to science fiction.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes Operators</title>
+      <link>https://timor.site/books/2022/kubernetes-operators/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2022/kubernetes-operators/</guid>
+      <description>Source: amazon.pl</description>
+    </item>
+    
+  </channel>
+</rss>

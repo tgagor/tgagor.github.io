@@ -3,15 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://timor.site/authors/</loc>
-    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/categories/book/</loc>
+    <lastmod>2023-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/</loc>
+    <lastmod>2023-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/business/</loc>
+    <lastmod>2023-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/categories/</loc>
+    <lastmod>2023-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/management/</loc>
+    <lastmod>2023-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2023/praca-gleboka/</loc>
+    <lastmod>2023-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/</loc>
+    <lastmod>2023-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/authors/timor/</loc>
+    <lastmod>2023-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/</loc>
+    <lastmod>2023-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/leadership/</loc>
+    <lastmod>2022-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2022/5-disfunctions-of-a-team/</loc>
+    <lastmod>2022-11-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/sci-fi/</loc>
+    <lastmod>2022-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2022/starosc-aksolotla/</loc>
+    <lastmod>2022-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/technology/</loc>
+    <lastmod>2022-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2022/bladza-wszyscy-ale-nie-ja/</loc>
+    <lastmod>2022-11-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/psychology/</loc>
+    <lastmod>2022-11-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/sociology/</loc>
+    <lastmod>2022-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/best-practices/</loc>
     <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/2022/09/best-practices-for-writing-dockerfiles-use-volume-for-all-mutable-temporary-file-locations/</loc>
-    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/categories/</loc>
     <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/docker/</loc>
@@ -23,20 +71,17 @@
     <loc>https://timor.site/posts/</loc>
     <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://timor.site/tags/</loc>
-    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/authors/timor/</loc>
-    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/</loc>
-    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://timor.site/2022/09/best-practices-for-writing-dockerfiles-use-dockerignore/</loc>
     <lastmod>2022-09-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/2022/09/dockerfile-writing-best-practices/</loc>
     <lastmod>2022-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2022/thinking-fast-and-slow/</loc>
+    <lastmod>2022-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2022/three-body-problem/</loc>
+    <lastmod>2022-09-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</loc>
     <lastmod>2022-09-03T00:00:00+00:00</lastmod>
@@ -46,6 +91,9 @@
   </url><url>
     <loc>https://timor.site/categories/tip/</loc>
     <lastmod>2022-09-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2022/kubernetes-operators/</loc>
+    <lastmod>2022-06-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/2022/06/back-on-the-big-stage/</loc>
     <lastmod>2022-06-13T00:00:00+00:00</lastmod>
@@ -58,6 +106,9 @@
   </url><url>
     <loc>https://timor.site/tags/linux/</loc>
     <lastmod>2022-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2022/drive/</loc>
+    <lastmod>2022-04-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/backup/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
@@ -115,6 +166,9 @@
   </url><url>
     <loc>https://timor.site/tags/windows/</loc>
     <lastmod>2021-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2021/od-dobrego-do-wielkiego/</loc>
+    <lastmod>2021-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/2021/07/official-centos-8-stream-docker-image-finally-available/</loc>
     <lastmod>2021-07-25T00:00:00+00:00</lastmod>
@@ -1008,6 +1062,8 @@
     <lastmod>2011-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/archives/</loc>
+  </url><url>
+    <loc>https://timor.site/bookshelf/</loc>
   </url><url>
     <loc>https://timor.site/search/</loc>
   </url><url>
