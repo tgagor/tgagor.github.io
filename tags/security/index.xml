@@ -20,6 +20,16 @@ I&amp;rsquo;ve read few documents about different approaches 1 2 3. I wanted to 
     </item>
     
     <item>
+      <title>Bezpieczeństwo aplikacji webowych</title>
+      <link>https://timor.site/books/2019/bezpieczenstwo-aplikacji-webowych/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2019/bezpieczenstwo-aplikacji-webowych/</guid>
+      <description> Bezpieczeństwo aplikacji webowychAuthors: Michał Bentkowski, Gynvael Coldwind, Artur Czyż, Rafał Janicki, Jarosław Kamiński, Adrian Michalczyk, Mateusz Niezabitowski, Marcin Piosek, Michał Sajdak, Grzegorz Trawiński, Bohdan Widła
+ksiazka.sekurak.pl </description>
+    </item>
+    
+    <item>
       <title>Black Hat Python</title>
       <link>https://timor.site/books/2017/black-hack-python/</link>
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
@@ -27,7 +37,18 @@ I&amp;rsquo;ve read few documents about different approaches 1 2 3. I wanted to 
       <guid>https://timor.site/books/2017/black-hack-python/</guid>
       <description> Black Hat PythonJęzyk Python dla hakerów i pentesterów
 Author: Justin Seitz
-amazon.plempik.comhelion.pl </description>
+amazon.plhelion.pl </description>
+    </item>
+    
+    <item>
+      <title>Sztuka podstępu</title>
+      <link>https://timor.site/books/2016/sztuka-podstepu/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2016/sztuka-podstepu/</guid>
+      <description> Sztuka podstępuŁamałem ludzi, nie hasła
+Authors: Kevin Mitnick, William L. Simon
+helion.pl </description>
     </item>
     
     <item>
@@ -49,6 +70,17 @@ Howto prepare against ACK/FIN/RST/X-mas flood Use conntrack rule:</description>
       <guid>https://timor.site/2016/01/lets-encrypt-without-auto-configuration/</guid>
       <description>From the first moment I heard about Let&amp;rsquo;s Encrypt I liked it and wanted to use it as fast as possible. But the more I read how they want to implement it, the more I dislike it.
 Current project with automatic configuration is not what I want to use at all. I have many very complicated configs and I do not trust such tools enough to use them. I like UNIX&amp;rsquo;s single purpose principle, tools should do one thing and do it well - nothing more.</description>
+    </item>
+    
+    <item>
+      <title>Splątana sieć</title>
+      <link>https://timor.site/books/2015/splatana-siec/</link>
+      <pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2015/splatana-siec/</guid>
+      <description> Splątana siećPrzewodnik po bezpieczeństwie nowoczesnych aplikacji WWW
+Author: Michał Zalewski
+helion.pl </description>
     </item>
     
     <item>
@@ -129,6 +161,17 @@ Tworzymy plik: /etc/fail2ban/filter.d/dovecot.conf
       
       <guid>https://timor.site/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</guid>
       <description>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.</description>
+    </item>
+    
+    <item>
+      <title>Bezpieczeństwo sieci</title>
+      <link>https://timor.site/books/2007/bezpieczenstwo-sieci/</link>
+      <pubDate>Sat, 10 Feb 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2007/bezpieczenstwo-sieci/</guid>
+      <description> Bezpieczeństwo sieciNarzędzia
+Authors: Nitesh Dhanjani, Justin Clarke
+helion.pl </description>
     </item>
     
   </channel>

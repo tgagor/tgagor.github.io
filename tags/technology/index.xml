@@ -16,7 +16,7 @@
       <guid>https://timor.site/books/2022/starosc-aksolotla/</guid>
       <description>Starość aksolotlaHardware dreams
 Author: Jacek Dukaj
-amazon.plamazon.comempik.com Starość Aksolotla is a book written by Polish author Jacek Dukaj that I recently had the pleasure of reading. The book is a science fiction novel that explores themes of longevity, immortality, and the meaning of life. The protagonist of the story is a centuries-old axolotl, a species of salamander that is capable of regenerating its limbs and organs, who embarks on a journey of self-discovery as he grapples with the consequences of his own immortality.</description>
+amazon.plamazon.com Starość Aksolotla is a book written by Polish author Jacek Dukaj that I recently had the pleasure of reading. The book is a science fiction novel that explores themes of longevity, immortality, and the meaning of life. The protagonist of the story is a centuries-old axolotl, a species of salamander that is capable of regenerating its limbs and organs, who embarks on a journey of self-discovery as he grapples with the consequences of his own immortality.</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@ amazon.plamazon.comempik.com Starość Aksolotla is a book written by Polish aut
       
       <guid>https://timor.site/books/2022/three-body-problem/</guid>
       <description>The three-body problemAuthor: Cixin Liu
-amazon.plamazon.comempik.comhelion.pl The novel is set in the future and follows the discovery of an alien civilization, the Trisolarans, and humanity&amp;rsquo;s attempts to make contact and defend against them. The book is known for its complex scientific concepts, philosophical ideas, and intricate storyline.
+amazon.plamazon.comhelion.pl The novel is set in the future and follows the discovery of an alien civilization, the Trisolarans, and humanity&amp;rsquo;s attempts to make contact and defend against them. The book is known for its complex scientific concepts, philosophical ideas, and intricate storyline.
 Overall, &amp;ldquo;The Three-Body Problem&amp;rdquo; has been highly praised by readers and critics for its unique and thought-provoking approach to science fiction.
 Personally, I found this book to be annoying in a few places, especially when it referred to people&amp;rsquo;s commitment following government decisions.</description>
     </item>
@@ -43,6 +43,69 @@ amazon.plamazon.comhelion.pl </description>
     </item>
     
     <item>
+      <title>Java Performance Companion</title>
+      <link>https://timor.site/books/2020/java-performance-companion/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2020/java-performance-companion/</guid>
+      <description> Java Performance CompanionAuthors: Charlie Hunt, Monica Beckwith, Poonam Parhar, Bengt Rutisson
+amazon.pl </description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting Java Performance</title>
+      <link>https://timor.site/books/2020/trubleshooting-java-performance/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2020/trubleshooting-java-performance/</guid>
+      <description> Troubleshooting Java PerformanceDetecting Anti-Patterns with Open Source Tools 1st ed. Edition
+Author: Erik Ostermueller
+amazon.com </description>
+    </item>
+    
+    <item>
+      <title>Bezpieczeństwo aplikacji webowych</title>
+      <link>https://timor.site/books/2019/bezpieczenstwo-aplikacji-webowych/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2019/bezpieczenstwo-aplikacji-webowych/</guid>
+      <description> Bezpieczeństwo aplikacji webowychAuthors: Michał Bentkowski, Gynvael Coldwind, Artur Czyż, Rafał Janicki, Jarosław Kamiński, Adrian Michalczyk, Mateusz Niezabitowski, Marcin Piosek, Michał Sajdak, Grzegorz Trawiński, Bohdan Widła
+ksiazka.sekurak.pl </description>
+    </item>
+    
+    <item>
+      <title>Czysty kod</title>
+      <link>https://timor.site/books/2017/czysty-kod/</link>
+      <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2017/czysty-kod/</guid>
+      <description> Czysty kodPodręcznik dobrego programisty
+Author: Robert C. Martin
+helion.pl </description>
+    </item>
+    
+    <item>
+      <title>Java. Efektywne programowanie</title>
+      <link>https://timor.site/books/2017/java-efektywne-programowanie/</link>
+      <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2017/java-efektywne-programowanie/</guid>
+      <description> Java. Efektywne programowanieWydanie II
+helion.pl </description>
+    </item>
+    
+    <item>
+      <title>Pragmatyczny programista</title>
+      <link>https://timor.site/books/2017/pragmatyczny-programista/</link>
+      <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2017/pragmatyczny-programista/</guid>
+      <description> Pragmatyczny programistaOd czeladnika do mistrza
+Authors: Andrew Hunt, David Thomas
+helion.pl </description>
+    </item>
+    
+    <item>
       <title>Black Hat Python</title>
       <link>https://timor.site/books/2017/black-hack-python/</link>
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
@@ -50,7 +113,128 @@ amazon.plamazon.comhelion.pl </description>
       <guid>https://timor.site/books/2017/black-hack-python/</guid>
       <description> Black Hat PythonJęzyk Python dla hakerów i pentesterów
 Author: Justin Seitz
-amazon.plempik.comhelion.pl </description>
+amazon.plhelion.pl </description>
+    </item>
+    
+    <item>
+      <title>Wydajność Javy</title>
+      <link>https://timor.site/books/2017/wydajnosc-javy/</link>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2017/wydajnosc-javy/</guid>
+      <description> Wydajność JavyPoznaj i wykorzystaj optymalne sposoby na regulowanie wydajności oprogramowania Java!
+Authors: Charlie Hunt, Binu John
+helion.pl </description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://timor.site/books/2016/ruby-wzorce-projektowe/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2016/ruby-wzorce-projektowe/</guid>
+      <description> RubyWzorce projektowe
+Author: Russ Olsen
+helion.pl </description>
+    </item>
+    
+    <item>
+      <title>Sztuka podstępu</title>
+      <link>https://timor.site/books/2016/sztuka-podstepu/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2016/sztuka-podstepu/</guid>
+      <description> Sztuka podstępuŁamałem ludzi, nie hasła
+Authors: Kevin Mitnick, William L. Simon
+helion.pl </description>
+    </item>
+    
+    <item>
+      <title>Splątana sieć</title>
+      <link>https://timor.site/books/2015/splatana-siec/</link>
+      <pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2015/splatana-siec/</guid>
+      <description> Splątana siećPrzewodnik po bezpieczeństwie nowoczesnych aplikacji WWW
+Author: Michał Zalewski
+helion.pl </description>
+    </item>
+    
+    <item>
+      <title>Ruby</title>
+      <link>https://timor.site/books/2015/ruby-programowanie/</link>
+      <pubDate>Thu, 13 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2015/ruby-programowanie/</guid>
+      <description> RubyProgramowanie
+Authors: David Flanagan, Yukihiro Matsumoto
+helion.pl </description>
+    </item>
+    
+    <item>
+      <title>GIT</title>
+      <link>https://timor.site/books/2015/git/</link>
+      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2015/git/</guid>
+      <description> GITRozproszony system kontroli wersji
+Author: Włodzimierz Gajda
+helion.pl </description>
+    </item>
+    
+    <item>
+      <title>Rzecz o istocie informatyki</title>
+      <link>https://timor.site/books/2010/algorytmika/</link>
+      <pubDate>Fri, 10 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2010/algorytmika/</guid>
+      <description> Rzecz o istocie informatykiAlgorytmika
+Authors: David Harel, Yishai Feldman
+empik.com </description>
+    </item>
+    
+    <item>
+      <title>Perełki oprogramowania</title>
+      <link>https://timor.site/books/2009/perelki-oprogramowania/</link>
+      <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2009/perelki-oprogramowania/</guid>
+      <description> Perełki oprogramowaniaSeria Klasyka informatyki
+Author: Jon Bentley
+helion.pl </description>
+    </item>
+    
+    <item>
+      <title>Zarządzanie czasem</title>
+      <link>https://timor.site/books/2008/zarzadzanie-czasem/</link>
+      <pubDate>Mon, 10 Mar 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2008/zarzadzanie-czasem/</guid>
+      <description> Zarządzanie czasemStrategie dla administratorów systemów
+Author: Thomas Limoncelli
+helion.pl </description>
+    </item>
+    
+    <item>
+      <title>Bezpieczeństwo sieci</title>
+      <link>https://timor.site/books/2007/bezpieczenstwo-sieci/</link>
+      <pubDate>Sat, 10 Feb 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2007/bezpieczenstwo-sieci/</guid>
+      <description> Bezpieczeństwo sieciNarzędzia
+Authors: Nitesh Dhanjani, Justin Clarke
+helion.pl </description>
+    </item>
+    
+    <item>
+      <title>Kukułcze jajo</title>
+      <link>https://timor.site/books/2000/kukulcze-jajo/</link>
+      <pubDate>Wed, 09 Feb 2000 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2000/kukulcze-jajo/</guid>
+      <description> Kukułcze jajoEkscytujące łowy na nieuchwytnego hackera
+Author: Clifford Stoll
+lubimyczytac.plamazon.pl </description>
     </item>
     
   </channel>
