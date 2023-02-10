@@ -161,6 +161,27 @@ ksiazka.sekurak.pl </description>
     </item>
     
     <item>
+      <title>DevOps</title>
+      <link>https://timor.site/books/2019/devops-gene-kim/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2019/devops-gene-kim/</guid>
+      <description> DevOpsŚwiatowej klasy zwinność, niezawodność i bezpieczeństwo w Twojej organizacji
+Authors: Gene Kim, Patrick Debois, John Willis, Jez Humble, John Allspaw
+helion.pl </description>
+    </item>
+    
+    <item>
+      <title>DevOps Hiring</title>
+      <link>https://timor.site/books/2019/devops-hiring/</link>
+      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2019/devops-hiring/</guid>
+      <description> DevOps HiringAuthor: Dave Zwieback
+oreilly.com </description>
+    </item>
+    
+    <item>
       <title>Book of Life</title>
       <link>https://timor.site/books/2018/book-of-life/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
@@ -188,6 +209,17 @@ amazon.plamazon.com </description>
       <guid>https://timor.site/books/2018/a-discovery-of-witches/</guid>
       <description> A Discovery of WitchesAuthor: Deborah Harkness
 amazon.plamazon.com </description>
+    </item>
+    
+    <item>
+      <title>Projekt Feniks</title>
+      <link>https://timor.site/books/2018/projekt-feniks/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2018/projekt-feniks/</guid>
+      <description> Projekt FeniksPowieść o IT, modelu DevOps i o tym, jak pomóc firmie w odniesieniu sukcesu
+Authors: Gene Kim, Kevin Behr, George Spafford
+helion.pl </description>
     </item>
     
     <item>
