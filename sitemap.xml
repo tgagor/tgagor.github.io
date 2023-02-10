@@ -32,6 +32,18 @@
     <loc>https://timor.site/</loc>
     <lastmod>2023-01-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://timor.site/tags/devops/</loc>
+    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/novel/</loc>
+    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2022/projekt-jednorozec/</loc>
+    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/technology/</loc>
+    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://timor.site/tags/leadership/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -45,9 +57,6 @@
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2022/starosc-aksolotla/</loc>
-    <lastmod>2022-11-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/technology/</loc>
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2022/bladza-wszyscy-ale-nie-ja/</loc>
@@ -95,6 +104,12 @@
     <loc>https://timor.site/categories/tip/</loc>
     <lastmod>2022-09-03T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://timor.site/books/2022/czy-jestes-tym-ktory-puka/</loc>
+    <lastmod>2022-08-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/finance/</loc>
+    <lastmod>2022-08-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://timor.site/tags/kubernetes/</loc>
     <lastmod>2022-06-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -107,14 +122,17 @@
     <loc>https://timor.site/tags/conference/</loc>
     <lastmod>2022-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://timor.site/tags/devops/</loc>
-    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://timor.site/tags/linux/</loc>
     <lastmod>2022-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2022/drive/</loc>
     <lastmod>2022-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/trading/</loc>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2022/wewnetrzna-gra/</loc>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/backup/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
@@ -200,9 +218,6 @@
     <loc>https://timor.site/tags/hugo/</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://timor.site/tags/trading/</loc>
-    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://timor.site/books/2020/w-transie-investowania/</loc>
     <lastmod>2020-06-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -247,9 +262,6 @@
   </url><url>
     <loc>https://timor.site/books/2018/a-discovery-of-witches/</loc>
     <lastmod>2018-10-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/novel/</loc>
-    <lastmod>2018-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2018/projekt-feniks/</loc>
     <lastmod>2018-08-18T00:00:00+00:00</lastmod>
