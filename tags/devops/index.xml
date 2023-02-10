@@ -7,18 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Fri, 09 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/devops/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Projekt Jednorożec</title>
-      <link>https://timor.site/books/2022/projekt-jednorozec/</link>
-      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/books/2022/projekt-jednorozec/</guid>
-      <description> Projekt JednorożecPowieść o szansie w epoce przewrotów cyfrowych
-Author: Gene Kim
-helion.pl </description>
-    </item>
-    
+    <lastBuildDate>Mon, 13 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Back on the big stage!</title>
       <link>https://timor.site/2022/06/back-on-the-big-stage/</link>
@@ -29,6 +18,17 @@ helion.pl </description>
 I haven&amp;rsquo;t attend any big conferences as presenter for some time, but this year will change it. I&amp;rsquo;m starting big, with a talk: Docker base images - Ideas how to manage them on scale on Devoxx conference in Kraków, that will take place on 22-24th June 2022.
 Want to meet? Meet there 😄
 Update I uploaded slides from presentation to my Github account.</description>
+    </item>
+    
+    <item>
+      <title>Projekt Jednorożec</title>
+      <link>https://timor.site/books/2021/projekt-jednorozec/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2021/projekt-jednorozec/</guid>
+      <description> Projekt JednorożecPowieść o szansie w epoce przewrotów cyfrowych
+Author: Gene Kim
+helion.pl </description>
     </item>
     
     <item>

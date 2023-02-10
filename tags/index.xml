@@ -27,33 +27,6 @@
     </item>
     
     <item>
-      <title>DevOps</title>
-      <link>https://timor.site/tags/devops/</link>
-      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Novel</title>
-      <link>https://timor.site/tags/novel/</link>
-      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/novel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Technology</title>
-      <link>https://timor.site/tags/technology/</link>
-      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/technology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Leadership</title>
       <link>https://timor.site/tags/leadership/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
@@ -68,6 +41,15 @@
       <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/sci-fi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Technology</title>
+      <link>https://timor.site/tags/technology/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/technology/</guid>
       <description></description>
     </item>
     
@@ -135,6 +117,15 @@
     </item>
     
     <item>
+      <title>DevOps</title>
+      <link>https://timor.site/tags/devops/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Linux</title>
       <link>https://timor.site/tags/linux/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
@@ -149,6 +140,15 @@
       <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/trading/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Novel</title>
+      <link>https://timor.site/tags/novel/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/novel/</guid>
       <description></description>
     </item>
     
@@ -266,6 +266,15 @@
       <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Science</title>
+      <link>https://timor.site/tags/science/</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/science/</guid>
       <description></description>
     </item>
     

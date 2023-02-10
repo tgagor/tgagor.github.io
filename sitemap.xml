@@ -32,18 +32,6 @@
     <loc>https://timor.site/</loc>
     <lastmod>2023-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://timor.site/tags/devops/</loc>
-    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/novel/</loc>
-    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/books/2022/projekt-jednorozec/</loc>
-    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/technology/</loc>
-    <lastmod>2022-12-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://timor.site/tags/leadership/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -57,6 +45,9 @@
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2022/starosc-aksolotla/</loc>
+    <lastmod>2022-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/technology/</loc>
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2022/bladza-wszyscy-ale-nie-ja/</loc>
@@ -122,6 +113,9 @@
     <loc>https://timor.site/tags/conference/</loc>
     <lastmod>2022-06-13T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://timor.site/tags/devops/</loc>
+    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://timor.site/tags/linux/</loc>
     <lastmod>2022-06-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -133,6 +127,12 @@
   </url><url>
     <loc>https://timor.site/books/2022/wewnetrzna-gra/</loc>
     <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/novel/</loc>
+    <lastmod>2021-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2021/projekt-jednorozec/</loc>
+    <lastmod>2021-12-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/backup/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
@@ -194,8 +194,17 @@
     <loc>https://timor.site/books/2021/od-dobrego-do-wielkiego/</loc>
     <lastmod>2021-10-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://timor.site/books/2021/milosc-i-matematyka/</loc>
+    <lastmod>2021-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/science/</loc>
+    <lastmod>2021-09-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://timor.site/2021/07/official-centos-8-stream-docker-image-finally-available/</loc>
     <lastmod>2021-07-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2021/inteligentny-inwestor/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/projects/</loc>
     <lastmod>2021-04-09T00:00:00+00:00</lastmod>
@@ -236,11 +245,20 @@
     <loc>https://timor.site/2020/01/moving-from-linux-to-macos-first-steps/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://timor.site/books/2019/teoria-kwanotowa-nie-gryzie/</loc>
+    <lastmod>2019-12-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://timor.site/books/2019/czas-spekulacji/</loc>
     <lastmod>2019-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/politics/</loc>
     <lastmod>2019-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2019/jeszcze-krotsza-historia-czasu/</loc>
+    <lastmod>2019-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2019/teoria-wszystkiego/</loc>
+    <lastmod>2019-10-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2019/bezpieczenstwo-aplikacji-webowych/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
@@ -1210,6 +1228,9 @@
   </url><url>
     <loc>https://timor.site/books/2010/algorytmika/</loc>
     <lastmod>2010-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2009/krotka-historia-czasu/</loc>
+    <lastmod>2009-10-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2009/perelki-oprogramowania/</loc>
     <lastmod>2009-09-10T00:00:00+00:00</lastmod>

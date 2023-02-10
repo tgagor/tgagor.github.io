@@ -20,17 +20,6 @@ amazon.plamazon.comhelion.pl Deep Work is a book written by Cal Newport that exp
     </item>
     
     <item>
-      <title>Projekt Jednorożec</title>
-      <link>https://timor.site/books/2022/projekt-jednorozec/</link>
-      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/books/2022/projekt-jednorozec/</guid>
-      <description> Projekt JednorożecPowieść o szansie w epoce przewrotów cyfrowych
-Author: Gene Kim
-helion.pl </description>
-    </item>
-    
-    <item>
       <title>Zaczynaj od DLACZEGO</title>
       <link>https://timor.site/books/2020/zaczynaj-od-dlaczego/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
@@ -195,6 +184,17 @@ maklerska.pl </description>
     </item>
     
     <item>
+      <title>Projekt Jednorożec</title>
+      <link>https://timor.site/books/2021/projekt-jednorozec/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2021/projekt-jednorozec/</guid>
+      <description> Projekt JednorożecPowieść o szansie w epoce przewrotów cyfrowych
+Author: Gene Kim
+helion.pl </description>
+    </item>
+    
+    <item>
       <title>Creating fully encrypted ZFS pool</title>
       <link>https://timor.site/2021/11/creating-fully-encrypted-zfs-pool/</link>
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
@@ -273,6 +273,17 @@ The book is well-written and provides a wealth of practical insights and advice 
     </item>
     
     <item>
+      <title>Miłość i matematyka</title>
+      <link>https://timor.site/books/2021/milosc-i-matematyka/</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2021/milosc-i-matematyka/</guid>
+      <description> Miłość i matematykaIstota ukrytej rzeczywistości
+Author: Edward Frenkel
+empik.com </description>
+    </item>
+    
+    <item>
       <title>Official CentOS 8 Stream Docker image finally available!</title>
       <link>https://timor.site/2021/07/official-centos-8-stream-docker-image-finally-available/</link>
       <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
@@ -280,6 +291,17 @@ The book is well-written and provides a wealth of practical insights and advice 
       <guid>https://timor.site/2021/07/official-centos-8-stream-docker-image-finally-available/</guid>
       <description>Finally, they&amp;rsquo;re available! Wait a moment.. Actually they&amp;rsquo;re available for few months, just nobody published information about moving them to quay.io and dropped poor guys using hub.docker.com without any updates! Yes, that how they did!
 I found new place accidentally, reading some news about CentOS Stream 9 on their blog. There was reference to CentOS 9 Stream dev builds of Docker images and I found &amp;ldquo;missing&amp;rdquo; stream and stream8 tags too.</description>
+    </item>
+    
+    <item>
+      <title>Inteligentny inwestor</title>
+      <link>https://timor.site/books/2021/inteligentny-inwestor/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2021/inteligentny-inwestor/</guid>
+      <description> Inteligentny inwestorNajlepsza książka o inwestowaniu wartościowym
+Author: Benjamin Graham
+empik.com </description>
     </item>
     
     <item>
@@ -387,6 +409,16 @@ Corporations don&amp;rsquo;t like Linux - they can&amp;rsquo;t manage it, they c
     </item>
     
     <item>
+      <title>Teoria kwantowa nie gryzie</title>
+      <link>https://timor.site/books/2019/teoria-kwanotowa-nie-gryzie/</link>
+      <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2019/teoria-kwanotowa-nie-gryzie/</guid>
+      <description> Teoria kwantowa nie gryzieAuthor: Marcus Chown
+lubimyczytac.pl </description>
+    </item>
+    
+    <item>
       <title>Czas Spekulacji</title>
       <link>https://timor.site/books/2019/czas-spekulacji/</link>
       <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
@@ -394,6 +426,27 @@ Corporations don&amp;rsquo;t like Linux - they can&amp;rsquo;t manage it, they c
       <guid>https://timor.site/books/2019/czas-spekulacji/</guid>
       <description> Czas SpekulacjiAuthor: Gregory J. Millman
 lubimyczytac.pl </description>
+    </item>
+    
+    <item>
+      <title>Krótka historia czasu</title>
+      <link>https://timor.site/books/2019/jeszcze-krotsza-historia-czasu/</link>
+      <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2019/jeszcze-krotsza-historia-czasu/</guid>
+      <description> Krótka historia czasuOd Wielkiego Wybuchu do czarnych dziur
+Author: Stephen Hawking
+empik.com </description>
+    </item>
+    
+    <item>
+      <title>Teoria wszystkiego, czyli krótka historia wszechświata</title>
+      <link>https://timor.site/books/2019/teoria-wszystkiego/</link>
+      <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2019/teoria-wszystkiego/</guid>
+      <description> Teoria wszystkiego, czyli krótka historia wszechświataAuthor: Stephen Hawking
+empik.com </description>
     </item>
     
     <item>
@@ -2597,6 +2650,16 @@ I&amp;rsquo;m generalist, touched many, strange topic across my career. I used t
       <description> Rzecz o istocie informatykiAlgorytmika
 Authors: David Harel, Yishai Feldman
 empik.com </description>
+    </item>
+    
+    <item>
+      <title>Jeszcze krótsza historia czasu</title>
+      <link>https://timor.site/books/2009/krotka-historia-czasu/</link>
+      <pubDate>Thu, 29 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2009/krotka-historia-czasu/</guid>
+      <description> Jeszcze krótsza historia czasuAuthor: Stephen Hawking
+amazon.pl </description>
     </item>
     
     <item>
