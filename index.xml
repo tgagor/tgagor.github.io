@@ -325,6 +325,16 @@ Install imagemagick sudo apt install -y imagemagick To remove them just use: Str
     </item>
     
     <item>
+      <title>Książę</title>
+      <link>https://timor.site/books/2021/ksiaze/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/books/2021/ksiaze/</guid>
+      <description> KsiążęAuthor: Nicolo Machiavelli
+empik.com </description>
+    </item>
+    
+    <item>
       <title>How to run JMX monitoring in Docker image?</title>
       <link>https://timor.site/2021/02/how-to-run-jmx-monitoring-in-docker-image/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
