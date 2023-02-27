@@ -3,37 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://timor.site/authors/</loc>
-    <lastmod>2023-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/categories/book/</loc>
-    <lastmod>2023-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/</loc>
-    <lastmod>2023-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/business/</loc>
-    <lastmod>2023-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/categories/</loc>
-    <lastmod>2023-01-13T00:00:00+00:00</lastmod>
+    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/leadership/</loc>
+    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2023/przywodztwo-i-oszukiwanie-samego-siebie/</loc>
+    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/psychology/</loc>
+    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/</loc>
+    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/authors/timor/</loc>
+    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/</loc>
+    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/management/</loc>
     <lastmod>2023-01-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2023/praca-gleboka/</loc>
     <lastmod>2023-01-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/</loc>
-    <lastmod>2023-01-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/authors/timor/</loc>
-    <lastmod>2023-01-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/</loc>
-    <lastmod>2023-01-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/leadership/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2020/zaczynaj-od-dlaczego/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
@@ -51,9 +57,6 @@
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2022/bladza-wszyscy-ale-nie-ja/</loc>
-    <lastmod>2022-11-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/psychology/</loc>
     <lastmod>2022-11-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/sociology/</loc>
@@ -346,6 +349,9 @@
   </url><url>
     <loc>https://timor.site/books/2017/perfekcyjna-niedoskonalosc/</loc>
     <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2017/trylogia-ciagu/</loc>
+    <lastmod>2017-08-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2017/black-hack-python/</loc>
     <lastmod>2017-05-22T00:00:00+00:00</lastmod>
