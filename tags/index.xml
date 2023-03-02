@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sat, 25 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Belles-lettres</title>
+      <link>https://timor.site/tags/belles-lettres/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/belles-lettres/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Business</title>
       <link>https://timor.site/tags/business/</link>
@@ -302,15 +311,6 @@
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Belles-lettres</title>
-      <link>https://timor.site/tags/belles-lettres/</link>
-      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/belles-lettres/</guid>
       <description></description>
     </item>
     
