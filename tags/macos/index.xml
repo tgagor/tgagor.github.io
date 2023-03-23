@@ -15,7 +15,7 @@
       
       <guid>https://timor.site/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</guid>
       <description>I switched recently from Docker Desktop on my MacBook to Rancher Desktop. The most important reason for me to do it, was possibility to gently switch between docker and containerd runtimes.
-There&amp;rsquo;s still one feature that I miss on Rancher Desktop - possibility to change Docker daemon configuration. I use it often with experimental features enabled1, but also with BuildKit2. Sadly, there&amp;rsquo;s no easy way to add it on Rancher&amp;hellip; But there&amp;rsquo;s a magical way3.</description>
+There&amp;rsquo;s still one feature that I miss on Rancher Desktop - possibility to change Docker daemon configuration. I used to enable experimental features1 and BuildKit2. Sadly, there&amp;rsquo;s no easy way to do it on Rancher&amp;hellip; But there&amp;rsquo;s a magical way3.</description>
     </item>
     
     <item>
