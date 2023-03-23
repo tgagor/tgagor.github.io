@@ -7,22 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HOWTO</title>
+      <link>https://timor.site/categories/howto/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/categories/howto/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Book</title>
       <link>https://timor.site/categories/book/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/categories/book/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HOWTO</title>
-      <link>https://timor.site/categories/howto/</link>
-      <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/categories/howto/</guid>
       <description></description>
     </item>
     

@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Change configuration of Docker daemon in Rancher Desktop</title>
+      <link>https://timor.site/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</guid>
+      <description>I switched recently from Docker Desktop on my MacBook to Rancher Desktop. The most important reason for me to do it, was possibility to gently switch between docker and containerd runtimes.
+There&amp;rsquo;s still one feature that I miss on Rancher Desktop - possibility to change Docker daemon configuration. I use it often with experimental features enabled1, but also with BuildKit2. Sadly, there&amp;rsquo;s no easy way to add it on Rancher&amp;hellip; But there&amp;rsquo;s a magical way3.</description>
+    </item>
+    
     <item>
       <title>Automatically add ticket ID to every commit message in Git</title>
       <link>https://timor.site/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</link>
