@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Business</title>
+      <link>https://timor.site/tags/business/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finance</title>
+      <link>https://timor.site/tags/finance/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/finance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psychology</title>
+      <link>https://timor.site/tags/psychology/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/psychology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trading</title>
+      <link>https://timor.site/tags/trading/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/trading/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Docker</title>
       <link>https://timor.site/tags/docker/</link>
@@ -27,15 +63,6 @@
     </item>
     
     <item>
-      <title>Business</title>
-      <link>https://timor.site/tags/business/</link>
-      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/business/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Leadership</title>
       <link>https://timor.site/tags/leadership/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
@@ -50,15 +77,6 @@
       <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/belles-lettres/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Psychology</title>
-      <link>https://timor.site/tags/psychology/</link>
-      <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/psychology/</guid>
       <description></description>
     </item>
     
@@ -108,15 +126,6 @@
     </item>
     
     <item>
-      <title>Finance</title>
-      <link>https://timor.site/tags/finance/</link>
-      <pubDate>Sat, 13 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/finance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Kubernetes</title>
       <link>https://timor.site/tags/kubernetes/</link>
       <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
@@ -149,15 +158,6 @@
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Trading</title>
-      <link>https://timor.site/tags/trading/</link>
-      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/trading/</guid>
       <description></description>
     </item>
     

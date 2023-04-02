@@ -3,10 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://timor.site/authors/</loc>
-    <lastmod>2023-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/categories/book/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/business/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/categories/</loc>
-    <lastmod>2023-03-23T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/finance/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/books/2023/psychologia-pieniedzy/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/psychology/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/authors/timor/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/trading/</loc>
+    <lastmod>2023-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
@@ -23,24 +53,6 @@
     <loc>https://timor.site/posts/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://timor.site/tags/</loc>
-    <lastmod>2023-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/authors/timor/</loc>
-    <lastmod>2023-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/</loc>
-    <lastmod>2023-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/categories/book/</loc>
-    <lastmod>2023-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/books/</loc>
-    <lastmod>2023-03-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/business/</loc>
-    <lastmod>2023-03-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://timor.site/tags/leadership/</loc>
     <lastmod>2023-03-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -54,9 +66,6 @@
     <lastmod>2023-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2023/przywodztwo-i-oszukiwanie-samego-siebie/</loc>
-    <lastmod>2023-02-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/psychology/</loc>
     <lastmod>2023-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/management/</loc>
@@ -116,9 +125,6 @@
     <loc>https://timor.site/books/2022/czy-jestes-tym-ktory-puka/</loc>
     <lastmod>2022-08-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://timor.site/tags/finance/</loc>
-    <lastmod>2022-08-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://timor.site/tags/kubernetes/</loc>
     <lastmod>2022-06-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -139,9 +145,6 @@
   </url><url>
     <loc>https://timor.site/books/2022/drive/</loc>
     <lastmod>2022-04-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/trading/</loc>
-    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2022/wewnetrzna-gra/</loc>
     <lastmod>2022-02-12T00:00:00+00:00</lastmod>
