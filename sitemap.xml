@@ -3,7 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://timor.site/authors/</loc>
-    <lastmod>2023-04-11T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/bash/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/categories/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/devops/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/docker/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/categories/howto/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/linux/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/posts/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/2023/04/the-best-way-to-get-nvm-working-in-ci/cd-systems/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/authors/timor/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/</loc>
+    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/categories/book/</loc>
     <lastmod>2023-04-11T00:00:00+00:00</lastmod>
@@ -14,22 +47,10 @@
     <loc>https://timor.site/tags/business/</loc>
     <lastmod>2023-04-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://timor.site/categories/</loc>
-    <lastmod>2023-04-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://timor.site/tags/leadership/</loc>
     <lastmod>2023-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2023/nowy-jednominutowy-menedzer/</loc>
-    <lastmod>2023-04-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/</loc>
-    <lastmod>2023-04-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/authors/timor/</loc>
-    <lastmod>2023-04-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/</loc>
     <lastmod>2023-04-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/finance/</loc>
@@ -47,16 +68,7 @@
     <loc>https://timor.site/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://timor.site/tags/docker/</loc>
-    <lastmod>2023-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/categories/howto/</loc>
-    <lastmod>2023-03-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://timor.site/tags/macos/</loc>
-    <lastmod>2023-03-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/posts/</loc>
     <lastmod>2023-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2023/who-moved-my-cheese/</loc>
@@ -140,12 +152,6 @@
     <loc>https://timor.site/tags/conference/</loc>
     <lastmod>2022-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://timor.site/tags/devops/</loc>
-    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/linux/</loc>
-    <lastmod>2022-06-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://timor.site/books/2022/drive/</loc>
     <lastmod>2022-04-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -180,9 +186,6 @@
     <lastmod>2021-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</loc>
-    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/bash/</loc>
     <lastmod>2021-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/git/</loc>
@@ -1319,6 +1322,8 @@
     <loc>https://timor.site/archives/</loc>
   </url><url>
     <loc>https://timor.site/bookshelf/</loc>
+  </url><url>
+    <loc>https://timor.site/tags/ci/cd/</loc>
   </url><url>
     <loc>https://timor.site/search/</loc>
   </url><url>

@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 11 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bash</title>
+      <link>https://timor.site/tags/bash/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://timor.site/tags/devops/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://timor.site/tags/docker/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://timor.site/tags/linux/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/linux/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Business</title>
       <link>https://timor.site/tags/business/</link>
@@ -50,15 +86,6 @@
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/trading/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://timor.site/tags/docker/</link>
-      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/docker/</guid>
       <description></description>
     </item>
     
@@ -144,24 +171,6 @@
     </item>
     
     <item>
-      <title>DevOps</title>
-      <link>https://timor.site/tags/devops/</link>
-      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://timor.site/tags/linux/</link>
-      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Novel</title>
       <link>https://timor.site/tags/novel/</link>
       <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
@@ -212,15 +221,6 @@
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/zfs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bash</title>
-      <link>https://timor.site/tags/bash/</link>
-      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/bash/</guid>
       <description></description>
     </item>
     
@@ -1337,6 +1337,15 @@
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/selfsigned/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CI/CD</title>
+      <link>https://timor.site/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/ci/cd/</guid>
       <description></description>
     </item>
     
