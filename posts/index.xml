@@ -29,6 +29,16 @@ There&amp;rsquo;s still one feature that I miss on Rancher Desktop - possibility
     </item>
     
     <item>
+      <title>Ubuntu - Key is stored in legacy trusted.gpg keyring...</title>
+      <link>https://timor.site/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</link>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</guid>
+      <description>Since upgrade to Ubuntu 22.04 keep seeing those warnings:
+W: http://ppa.launchpad.net/yubico/stable/ubuntu/dists/jammy/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details. W: https://updates.signal.org/desktop/apt/dists/xenial/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details. W: https://repo.skype.com/deb/dists/stable/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details. W: https://packagecloud.io/AtomEditor/atom/any/dists/any/InRelease: Key is stored in legacy trusted.</description>
+    </item>
+    
+    <item>
       <title>Best practices for writing Dockerfiles - Use VOLUME for all mutable, temporary file locations</title>
       <link>https://timor.site/2022/09/best-practices-for-writing-dockerfiles-use-volume-for-all-mutable-temporary-file-locations/</link>
       <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>

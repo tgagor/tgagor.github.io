@@ -113,6 +113,18 @@
     <loc>https://timor.site/tags/sociology/</loc>
     <lastmod>2022-11-03T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://timor.site/tags/debian/</loc>
+    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/categories/tip/</loc>
+    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/tags/ubuntu/</loc>
+    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://timor.site/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</loc>
+    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://timor.site/tags/best-practices/</loc>
     <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -135,9 +147,6 @@
     <lastmod>2022-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/categories/off-topic/</loc>
-    <lastmod>2022-09-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/categories/tip/</loc>
     <lastmod>2022-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/books/2022/czy-jestes-tym-ktory-puka/</loc>
@@ -173,13 +182,7 @@
     <loc>https://timor.site/2021/11/creating-fully-encrypted-zfs-pool/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://timor.site/tags/debian/</loc>
-    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://timor.site/tags/security/</loc>
-    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://timor.site/tags/ubuntu/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://timor.site/tags/zfs/</loc>
