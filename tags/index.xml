@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 17 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Business</title>
       <link>https://timor.site/tags/business/</link>
-      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/business/</guid>
       <description></description>
@@ -20,9 +20,27 @@
     <item>
       <title>Leadership</title>
       <link>https://timor.site/tags/leadership/</link>
-      <pubDate>Tue, 17 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/leadership/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Psychology</title>
+      <link>https://timor.site/tags/psychology/</link>
+      <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/psychology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sociology</title>
+      <link>https://timor.site/tags/sociology/</link>
+      <pubDate>Tue, 19 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://timor.site/tags/sociology/</guid>
       <description></description>
     </item>
     
@@ -68,15 +86,6 @@
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/finance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Psychology</title>
-      <link>https://timor.site/tags/psychology/</link>
-      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/psychology/</guid>
       <description></description>
     </item>
     
@@ -131,15 +140,6 @@
       <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://timor.site/tags/technology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sociology</title>
-      <link>https://timor.site/tags/sociology/</link>
-      <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://timor.site/tags/sociology/</guid>
       <description></description>
     </item>
     
