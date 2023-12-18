@@ -12,12 +12,12 @@ a2enmod ldap a2enmod authnz_ldap Teraz możemy edytujemy globalny plik konfigura
 </span></span><span style=display:flex><span>LDAPOpCacheEntries <span style=color:#ae81ff>1024</span>
 </span></span><span style=display:flex><span>LDAPOpCacheTTL <span style=color:#ae81ff>600</span>
 </span></span><span style=display:flex><span><span style=color:#f92672>&lt;Location</span> <span style=color:#e6db74>/ldap-status</span><span style=color:#f92672>&gt;</span>
-</span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010> </span> SetHandler ldap-status
-</span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010> </span> Order deny,allow
-</span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010> </span> Deny from <span style=color:#66d9ef>all</span>
-</span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010> </span> <span style=color:#75715e># Allow from 127.0.0.1 ::1</span>
-</span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010> </span> Allow from <span style=color:#ae81ff>192.168.1.15/32</span>
-</span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010> </span> Satisfy <span style=color:#66d9ef>all</span>
+</span></span><span style=display:flex><span>  SetHandler ldap-status
+</span></span><span style=display:flex><span>  Order deny,allow
+</span></span><span style=display:flex><span>  Deny from <span style=color:#66d9ef>all</span>
+</span></span><span style=display:flex><span>  <span style=color:#75715e># Allow from 127.0.0.1 ::1</span>
+</span></span><span style=display:flex><span>  Allow from <span style=color:#ae81ff>192.168.1.15/32</span>
+</span></span><span style=display:flex><span>  Satisfy <span style=color:#66d9ef>all</span>
 </span></span><span style=display:flex><span><span style=color:#f92672>&lt;/Location&gt;</span>
 </span></span></code></pre></div><p>Warto zwrócić uwagę na drugą część - można aktywować podgląd statusu mod_ldap&rsquo;a co bywa przydatne na etapie testów (np. by zobaczyć kto aktualnie jest zalogowany) - ja umożliwiłem dostęp ze swojego zdalnego komputera. Teraz restart Apachego aby wszystko się załadowało:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>invoke-rc.d apache2 restart
 </span></span></code></pre></div><p>Środowisko mamy gotowe, możemy skonfigurować vhosta. Poniższe opcje wrzucamy np. do klauzuli <code>&lt;Directory></code> lub <code>&lt;Location></code>:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-apache data-lang=apache><span style=display:flex><span>Authtype basic
