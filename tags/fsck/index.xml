@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>fsck on timor&#39;s site</title>
-    <link>https://timor.site/tags/fsck/</link>
+    <link>https://gagor.pl/tags/fsck/</link>
     <description>Recent content in fsck on timor&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sat, 08 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/fsck/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/fsck/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wymuszenie fsck po restarcie</title>
-      <link>https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/</link>
+      <link>https://gagor.pl/2012/09/wymuszenie-fsck-po-restarcie/</link>
       <pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2012/09/wymuszenie-fsck-po-restarcie/</guid>
+      <guid>https://gagor.pl/2012/09/wymuszenie-fsck-po-restarcie/</guid>
       <description>Jeżeli chcemy by po ponownym uruchomieniu w czasie startu zostały sprawdzone wszystkie dyski narzędziem to można to osiągnąć na dwa sposoby. Zawsze gdy tego potrzebuję zastanawiam się tylko jaki plik trzeba było utworzyć&amp;hellip; forcefsck, fsck, fsckforce&amp;hellip; więc notuję 😉
 Utworzenie pliku /forcefsck Pierwsza metoda polega na utworzeniu pliku forcefsck w głównym katalog, robimy to poniższym poleceniem:
 sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F polecenia shutdown ale nie działa na wszystkich dystrybucjach (w takiej sytuacji patrz pierwsza metoda):</description>
@@ -21,10 +21,10 @@ sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F p
     
     <item>
       <title>fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed</title>
-      <link>https://timor.site/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</link>
+      <link>https://gagor.pl/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</link>
       <pubDate>Wed, 21 Sep 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</guid>
+      <guid>https://gagor.pl/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</guid>
       <description>Miałem ostatnio dziwną przygodę: pewien serwer do backupu gdzie ląduje dużo małych plików i dodatkowo tworzonych jest sporo hardlinków zaliczył pada. Co prawda starałem się go grzecznie położyć z pomocą Magic SysRq ale ponieważ nie wiedziałem co było przyczyną awarii fsck wydawał się wskazany.
 Podczas próby uruchomienia fsck.ext4 na systemie plików o rozmiarze ok 14TB z kilkuset milionami plików po kilkudziesięciu sekundach otrzymywałem komunikat:
 Błąd podczas przydzielania struktury icount: Memory allocation failed</description>

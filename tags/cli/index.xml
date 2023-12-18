@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>cli on timor&#39;s site</title>
-    <link>https://timor.site/tags/cli/</link>
+    <link>https://gagor.pl/tags/cli/</link>
     <description>Recent content in cli on timor&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resize images from command line on MacOS</title>
-      <link>https://timor.site/2021/11/resize-images-from-command-line-on-macos/</link>
+      <link>https://gagor.pl/2021/11/resize-images-from-command-line-on-macos/</link>
       <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2021/11/resize-images-from-command-line-on-macos/</guid>
+      <guid>https://gagor.pl/2021/11/resize-images-from-command-line-on-macos/</guid>
       <description>I was updating my blog and needed to generate few variants of images, in different resolution.
 Option 1 - sips There&amp;rsquo;s simple, builtin tool sips, that can be used for simple resizing 1:
 Resize single image sips -Z 36 orig.png --out static/favicon36x36.png -Z - maintain image aspect ratio 36 - maximum height and width It can be also used for batch image processing:
@@ -23,10 +23,10 @@ Beware, without &amp;ndash;out param, it will overwrite images in place!</descri
     
     <item>
       <title>Homebrew - uninstall formula with dependencies</title>
-      <link>https://timor.site/2021/11/homebrew-uninstall-formula-with-dependencies/</link>
+      <link>https://gagor.pl/2021/11/homebrew-uninstall-formula-with-dependencies/</link>
       <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2021/11/homebrew-uninstall-formula-with-dependencies/</guid>
+      <guid>https://gagor.pl/2021/11/homebrew-uninstall-formula-with-dependencies/</guid>
       <description>I use brew extensively on MacOS. It&amp;rsquo;s just as convenient as many Linux package managers. What I don&amp;rsquo;t like, it leaves dependencies after removal of formula. There&amp;rsquo;s simple way to clean it up by running one command 1.
 Uninstall with dependencies brew uninstall FORMULA brew autoremove Info
 In my case running brew autoremove actually removed few packages I really wanted to have. Check the output carefully!

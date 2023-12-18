@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>SCSI on timor&#39;s site</title>
-    <link>https://timor.site/tags/scsi/</link>
+    <link>https://gagor.pl/tags/scsi/</link>
     <description>Recent content in SCSI on timor&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Wed, 17 Jul 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/scsi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 Jul 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/scsi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dodawanie urządzeń SCSI/FC bez restartu serwera</title>
-      <link>https://timor.site/2013/07/dodawanie-urzadzen-scsifc-bez-restartu-serwera/</link>
+      <link>https://gagor.pl/2013/07/dodawanie-urzadzen-scsifc-bez-restartu-serwera/</link>
       <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2013/07/dodawanie-urzadzen-scsifc-bez-restartu-serwera/</guid>
+      <guid>https://gagor.pl/2013/07/dodawanie-urzadzen-scsifc-bez-restartu-serwera/</guid>
       <description>Raz na jakiś czas gdy grzebię przy maciorach muszę &amp;ldquo;odkryć&amp;rdquo; nowy volumen FC (lub rzadziej SCSI), który właśnie utworzyłem a restart serwera nie wchodzi w rachubę (zresztą na części systemów nic on nie da).
 By to zrobić są dwie możliwości:
 Ręczne wydanie poleceń odkrywających volumeny (na jajkach od 2.6.x) Sprawdzamy jakie mamy karty:

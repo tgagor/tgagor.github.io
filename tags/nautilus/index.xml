@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Nautilus on timor&#39;s site</title>
-    <link>https://timor.site/tags/nautilus/</link>
+    <link>https://gagor.pl/tags/nautilus/</link>
     <description>Recent content in Nautilus on timor&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 30 Oct 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/nautilus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Oct 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/nautilus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nautilus - ukrywanie lost&#43;found</title>
-      <link>https://timor.site/2012/10/nautilus-ukrywanie-lostfound/</link>
+      <link>https://gagor.pl/2012/10/nautilus-ukrywanie-lostfound/</link>
       <pubDate>Tue, 30 Oct 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2012/10/nautilus-ukrywanie-lostfound/</guid>
+      <guid>https://gagor.pl/2012/10/nautilus-ukrywanie-lostfound/</guid>
       <description>Lubię mieć porządek w folderach i jedna rzecz, która nie daje mi spokoju w systemach plików ext to widoczność folderu lost+found - niby można go skasować i powinien się odtworzyć (choć podobno odtworzenie w czasie fsck&amp;rsquo;a może spowodować utratę danych - trochę to dziwne i nie znalazłem źródła no ale powiedzmy że nie chcę go usuwać). Chciałem go ukryć (choćby w Nautilusie) by mnie nie drażnił. Oczywiście opcja z &amp;ldquo;.&amp;rdquo; na początku odpada, ale na szczęście Nautilus wykorzystuje pewien hack, który umożliwia ukrycie dowolnego pliku/folderu.</description>
     </item>
     

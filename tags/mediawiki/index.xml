@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MediaWiki on timor&#39;s site</title>
-    <link>https://timor.site/tags/mediawiki/</link>
+    <link>https://gagor.pl/tags/mediawiki/</link>
     <description>Recent content in MediaWiki on timor&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 25 Mar 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/mediawiki/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Mar 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/mediawiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mediawiki - recover admin rights</title>
-      <link>https://timor.site/2014/03/mediawiki-recover-admin-rights/</link>
+      <link>https://gagor.pl/2014/03/mediawiki-recover-admin-rights/</link>
       <pubDate>Tue, 25 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2014/03/mediawiki-recover-admin-rights/</guid>
+      <guid>https://gagor.pl/2014/03/mediawiki-recover-admin-rights/</guid>
       <description>Let say you have MediaWiki installation but you lost admin credentials. If you have other account or if you could create one without any rights we&amp;rsquo;re in home 😉
 We have few options to do this.
 Reset admin password We have to connect to database and use this SQL:

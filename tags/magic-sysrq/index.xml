@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Magic SysRq on timor&#39;s site</title>
-    <link>https://timor.site/tags/magic-sysrq/</link>
+    <link>https://gagor.pl/tags/magic-sysrq/</link>
     <description>Recent content in Magic SysRq on timor&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sat, 17 Sep 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/magic-sysrq/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Sep 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/magic-sysrq/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Magic SysRq - bezpieczny reset Linux’a</title>
-      <link>https://timor.site/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</link>
+      <link>https://gagor.pl/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</link>
       <pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</guid>
+      <guid>https://gagor.pl/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</guid>
       <description>Pomimo iż Linux uchodzi za stabilne środowisko to raz na jakiś czas trafi się ciężka zwiecha - z powodu przeciążenia, awarii sprzętu&amp;hellip; nieistotne&amp;hellip;
 Załóżmy że licho wzięło za cel główny serwer plików lub bazę danych dla wielu, wielu stron internetowych. Dostać się po ssh nie możemy bo lecą timeout&amp;rsquo;y, a siedząc bezpośrednio przy klawiaturze konsola nie reaguje. Mimo to coś ostro daje po dyskach, więc ewentualny twardy reset to na bank utrata części plików&amp;hellip; jeśli system po nim w ogóle wstanie&amp;hellip; 😑</description>
     </item>

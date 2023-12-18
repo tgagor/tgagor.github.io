@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python on timor&#39;s site</title>
-    <link>https://timor.site/tags/python/</link>
+    <link>https://gagor.pl/tags/python/</link>
     <description>Recent content in Python on timor&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Mon, 22 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Black Hat Python</title>
-      <link>https://timor.site/books/2017/black-hack-python/</link>
+      <link>https://gagor.pl/books/2017/black-hack-python/</link>
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/books/2017/black-hack-python/</guid>
+      <guid>https://gagor.pl/books/2017/black-hack-python/</guid>
       <description> Black Hat PythonJęzyk Python dla hakerów i pentesterów
 Author: Justin Seitz
 amazon.plhelion.pl </description>
@@ -21,20 +21,20 @@ amazon.plhelion.pl </description>
     
     <item>
       <title>pip - uninstall package with dependencies</title>
-      <link>https://timor.site/2016/04/pip-uninstall-package-with-dependencies/</link>
+      <link>https://gagor.pl/2016/04/pip-uninstall-package-with-dependencies/</link>
       <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2016/04/pip-uninstall-package-with-dependencies/</guid>
+      <guid>https://gagor.pl/2016/04/pip-uninstall-package-with-dependencies/</guid>
       <description>Virtualenvs in python are cheap but from time to time you will install something with pip on your system and when time comes removing all this crap could be difficult. I found this bash snippet that will uninstall package with all dependencies:
 for dep in $(pip show python-neutronclient | grep Requires | sed &amp;#39;s/Requires: //g; s/,//g&amp;#39;) ; do sudo pip uninstall -y $dep ; done pip uninstall -y python-neutronclient Source: http://stackoverflow.</description>
     </item>
     
     <item>
       <title>Extract password saved in remmina</title>
-      <link>https://timor.site/2015/12/extract-password-saved-in-remmina/</link>
+      <link>https://gagor.pl/2015/12/extract-password-saved-in-remmina/</link>
       <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2015/12/extract-password-saved-in-remmina/</guid>
+      <guid>https://gagor.pl/2015/12/extract-password-saved-in-remmina/</guid>
       <description>I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in .remmina directory.
 Then I used this script to the decrypt them 1:
 Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
@@ -42,40 +42,40 @@ Extract script import base64 from Crypto.Cipher import DES3 secret = base64.deco
     
     <item>
       <title>Quickly setup SQL query logging on console in Django</title>
-      <link>https://timor.site/2014/05/quickly-setup-sql-query-logging-on-console-in-django/</link>
+      <link>https://gagor.pl/2014/05/quickly-setup-sql-query-logging-on-console-in-django/</link>
       <pubDate>Wed, 28 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2014/05/quickly-setup-sql-query-logging-on-console-in-django/</guid>
+      <guid>https://gagor.pl/2014/05/quickly-setup-sql-query-logging-on-console-in-django/</guid>
       <description>There is need plugin for Django, named django-debug-toolbar but it needs some time to configure. So when I need simple way to debug SQL queries I use small hack. Add to your settings.py:
 LOGGING = { &amp;#39;version&amp;#39;: 1, &amp;#39;disable_existing_loggers&amp;#39;: False, &amp;#39;handlers&amp;#39;: { &amp;#39;console&amp;#39;: { &amp;#39;level&amp;#39;: &amp;#39;DEBUG&amp;#39;, &amp;#39;class&amp;#39;: &amp;#39;logging.StreamHandler&amp;#39;, } }, &amp;#39;loggers&amp;#39;: { &amp;#39;django.db.backends&amp;#39;: { &amp;#39;handlers&amp;#39;: [&amp;#39;console&amp;#39;], &amp;#39;level&amp;#39;: &amp;#39;DEBUG&amp;#39;, }, } } To get this working DEBUG option have to be set to True:</description>
     </item>
     
     <item>
       <title>Instalacja Python’a na Windowsie</title>
-      <link>https://timor.site/2013/09/instalacja-pythona-na-windowsie/</link>
+      <link>https://gagor.pl/2013/09/instalacja-pythona-na-windowsie/</link>
       <pubDate>Wed, 25 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2013/09/instalacja-pythona-na-windowsie/</guid>
+      <guid>https://gagor.pl/2013/09/instalacja-pythona-na-windowsie/</guid>
       <description>Pomimo że Python dużo częściej wykorzystywany jest w środowiskach UNIX&amp;rsquo;owcy/Linux&amp;rsquo;owych to znajdzie się kilka fajnych zastosowań dla tego języka na Windowsie. Możliwości na instalację jest kilka, a najprostsza to wykorzystanie instalatora ActiveState. Wersja ta ma w sobie wszystko co potrzebne:
 rozszerzenia dla API Windows menadżera pakietów PyPM dokumentację Niestety jakiś czas temu zmieniły się zasady licencjonowania w ActiveState i aktualne wersje dla zastosowań produkcyjnych wymagają zakupu licencji (1000$/rok - aż chce się zacytować z Dnia Świra: czizys k&amp;hellip;wa&amp;hellip;).</description>
     </item>
     
     <item>
       <title>Sprawdzanie zainstalowanej wersji Django</title>
-      <link>https://timor.site/2013/09/sprawdzanie-zainstalowanej-wersji-django/</link>
+      <link>https://gagor.pl/2013/09/sprawdzanie-zainstalowanej-wersji-django/</link>
       <pubDate>Mon, 16 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2013/09/sprawdzanie-zainstalowanej-wersji-django/</guid>
+      <guid>https://gagor.pl/2013/09/sprawdzanie-zainstalowanej-wersji-django/</guid>
       <description>Ten one liner załatwia sprawę:
 python -c &amp;#39;import django; print &amp;#34;.&amp;#34;.join([str(s) for s in django.VERSION]);&amp;#39; </description>
     </item>
     
     <item>
       <title>Python - wysyłanie maili w unicode</title>
-      <link>https://timor.site/2012/12/python-wysylanie-maili-w-unicode/</link>
+      <link>https://gagor.pl/2012/12/python-wysylanie-maili-w-unicode/</link>
       <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2012/12/python-wysylanie-maili-w-unicode/</guid>
+      <guid>https://gagor.pl/2012/12/python-wysylanie-maili-w-unicode/</guid>
       <description>Chciałem wysłać z Python&amp;rsquo;a maila z krzakami tab by ładnie się wyświetlały i okazało się to całkiem nietrywialne.
 Na szczęście googiel podpowiedział mi doskonałego gotowca, którego zamierzam zapisać by mi nie zginął:
 #!/usr/bin/env python # -*- coding: utf-8 -*- import smtplib from email.mime.text import MIMEText from email.Header import Header from email.Utils import parseaddr, formataddr def send_email(sender, recipient, subject, body): &amp;#34;&amp;#34;&amp;#34;Send an email. All arguments should be Unicode strings (plain ASCII works as well).</description>

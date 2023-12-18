@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>OpenSSL on timor&#39;s site</title>
-    <link>https://timor.site/tags/openssl/</link>
+    <link>https://gagor.pl/tags/openssl/</link>
     <description>Recent content in OpenSSL on timor&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Mon, 04 Jan 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/openssl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/openssl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Let’s Encrypt - without auto configuration</title>
-      <link>https://timor.site/2016/01/lets-encrypt-without-auto-configuration/</link>
+      <link>https://gagor.pl/2016/01/lets-encrypt-without-auto-configuration/</link>
       <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2016/01/lets-encrypt-without-auto-configuration/</guid>
+      <guid>https://gagor.pl/2016/01/lets-encrypt-without-auto-configuration/</guid>
       <description>From the first moment I heard about Let&amp;rsquo;s Encrypt I liked it and wanted to use it as fast as possible. But the more I read how they want to implement it, the more I dislike it.
 Current project with automatic configuration is not what I want to use at all. I have many very complicated configs and I do not trust such tools enough to use them. I like UNIX&amp;rsquo;s single purpose principle, tools should do one thing and do it well - nothing more.</description>
     </item>
     
     <item>
       <title>Generate ECDSA key with OpenSSL</title>
-      <link>https://timor.site/2013/12/generate-ecdsa-key-with-openssl/</link>
+      <link>https://gagor.pl/2013/12/generate-ecdsa-key-with-openssl/</link>
       <pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2013/12/generate-ecdsa-key-with-openssl/</guid>
+      <guid>https://gagor.pl/2013/12/generate-ecdsa-key-with-openssl/</guid>
       <description>After the last NSA scandal I&amp;rsquo;ve found some time to read some texts about PFS and ECDSA keys lately. I always used RSA keys but wanted to give a try to ECDSA so I wanted to give it a try (test performance, etc). Here is how I&amp;rsquo;ve done it.
 Firstly find your favorite curve. A short tip about bit length and complexity could be found here. From it you will now that using 256 bit ECDSA key should be enough for next 10-20 years.</description>
     </item>
     
     <item>
       <title>Certyfikaty nazwaSSL na własnym serwerze</title>
-      <link>https://timor.site/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</link>
+      <link>https://gagor.pl/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</link>
       <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</guid>
+      <guid>https://gagor.pl/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</guid>
       <description>Od jakiegoś czasu można kupić w NetArcie certyfikaty SSL, a niedawno zrobili na nie promocję - 15zł za pierwszy rok (za certyfikat na jedną stronkę). Tzw. tanie i dobre. Po wyrobieniu certyfikatu i zapisaniu z panelu klienta mam pliczki: stonka.crt i netart_rootca.crt, które wrzucamy do Apachego, powiedzmy tak:
 SSLCertificateFile /etc/ssl/certs/stonka.crt SSLCertificateKeyFile /etc/ssl/private/priv.key SSLCACertificateFile /etc/ssl/certs/netart_rootca.crt Certyfikat działa w Chromie ale nie weryfikuje się w Firefoxie i Internet Explorerze. FF wyświetla błąd: sec_error_unknown_issuer - co oznacza brak certyfikatu wystawcy gdzieś w łańcuchu certyfikatów.</description>
     </item>
     
     <item>
       <title>Konwersja formatu certyfikatu dla telefonów Nokia</title>
-      <link>https://timor.site/2012/04/konwersja-formatu-certyfikatu-dla-telefonow-nokia/</link>
+      <link>https://gagor.pl/2012/04/konwersja-formatu-certyfikatu-dla-telefonow-nokia/</link>
       <pubDate>Wed, 11 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2012/04/konwersja-formatu-certyfikatu-dla-telefonow-nokia/</guid>
+      <guid>https://gagor.pl/2012/04/konwersja-formatu-certyfikatu-dla-telefonow-nokia/</guid>
       <description>Chciałem zaimportować mój certyfikat self-signed do Nokii E72 by nie krzyczała przy sprawdzaniu poczty. Potrzebowałem certyfikatu w formacie DER, a miałem w PEM - chwilę szukałem jak dokonać konwersji, więc ku pamięci zapisuję kilka gotowych poleceń:
 Konwersja certyfikatu z PEM na DER openssl x509 -in in.crt -inform PEM -out out.crt -outform DER Konwersja certyfikatu z DER na PEM openssl x509 -in in.crt -inform DER -out out.crt -outform DER Konwersja klucza z formatu PEM na DER openssl rsa -in in.</description>
     </item>
     
     <item>
       <title>Certyfikaty SelfSigned</title>
-      <link>https://timor.site/2011/08/certyfikaty-selfsigned/</link>
+      <link>https://gagor.pl/2011/08/certyfikaty-selfsigned/</link>
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2011/08/certyfikaty-selfsigned/</guid>
+      <guid>https://gagor.pl/2011/08/certyfikaty-selfsigned/</guid>
       <description>Certyfikaty oparte o SSL stanowią obecnie podstawę bezpieczeństwa wielu usług sieciowych zaczynając od HTTP, przez POPS, IMAPS, itd&amp;hellip; Niestety zakupienie certyfikatu w organizacjach jak VeriSgin czy Thawte jest dość kosztowe, a jeżeli potrzebujemy kilka certyfikatów to często na lokalne potrzeby jest to po prostu nie opłacalne.
 Postaram się przedstawić wersję &amp;ldquo;ekonomiczną&amp;rdquo; certyfikacji 😃
 Generowanie Certificate Signing Request Pierwszym etapem generowania certyfikatu jest przygotowanie Certificate Signing Request, czyli czegoś w rodzaju &amp;ldquo;prośby&amp;rdquo; o certyfikat.</description>

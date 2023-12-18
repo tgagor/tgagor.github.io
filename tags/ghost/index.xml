@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Ghost on timor&#39;s site</title>
-    <link>https://timor.site/tags/ghost/</link>
+    <link>https://gagor.pl/tags/ghost/</link>
     <description>Recent content in Ghost on timor&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Thu, 28 Nov 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://timor.site/tags/ghost/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Nov 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/ghost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reset user password in your own Ghost Blog</title>
-      <link>https://timor.site/2013/11/reset-user-password-in-your-own-ghost-blog/</link>
+      <link>https://gagor.pl/2013/11/reset-user-password-in-your-own-ghost-blog/</link>
       <pubDate>Thu, 28 Nov 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://timor.site/2013/11/reset-user-password-in-your-own-ghost-blog/</guid>
+      <guid>https://gagor.pl/2013/11/reset-user-password-in-your-own-ghost-blog/</guid>
       <description>I&amp;rsquo;ve started testing new Ghost blogging platform for a while on a virtual machine before I take decision about switching to it (or maybe won&amp;rsquo;t)&amp;hellip; After few days, I wanted to go forward with more testing and stuck on &amp;ldquo;e-mail and password&amp;rdquo; login prompt 😃
 I&amp;rsquo;ve started looking into files and found ghost_dir/content/data/ghost-dev.db SQLite database. It can be opened like that:
 sqlite3 content/data/ghost-dev.db Then you could see whats your mail (and other info):</description>
