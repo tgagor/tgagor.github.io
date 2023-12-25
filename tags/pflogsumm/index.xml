@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pflogsumm on timor&#39;s site</title>
     <link>https://gagor.pl/tags/pflogsumm/</link>
@@ -8,16 +8,15 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Thu, 22 Sep 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/pflogsumm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Sep 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/pflogsumm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>pflogsumm - statystyki poczty dla postfix’a</title>
       <link>https://gagor.pl/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</link>
       <pubDate>Thu, 22 Sep 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</guid>
       <description>Jeżeli administrujesz nawet niedużym serwerem pocztowym na pewno masz świadomość, że nie jesteś w stanie monitorować logów na bieżąco. Ciężko jest wyłapać np. problem w komunikacji z pewną domeną. Ciężko też oszacować skalę ruchu na serwerze zarówno pod kątem ilości jak i wolumenu maili. Trudno wybrać domeny, dla których warto by zrezygnować z greylistingu, itd, itp&amp;hellip;
 Na szczęście dostępne jest narzędzie pflogsumm, które wygeneruje nam dość wyczerpujące statystyki z logów postfix&amp;rsquo;a.</description>
     </item>
-    
   </channel>
 </rss>

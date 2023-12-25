@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on timor&#39;s site</title>
     <link>https://gagor.pl/tags/docker/</link>
@@ -8,153 +8,127 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The best way to get NVM working in CI/CD systems</title>
       <link>https://gagor.pl/2023/04/the-best-way-to-get-nvm-working-in-ci/cd-systems/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2023/04/the-best-way-to-get-nvm-working-in-ci/cd-systems/</guid>
       <description>TL;DR While reasoning is important, readers may not be interested in all the frustrations I experienced while figuring out how to get things done. If you&amp;rsquo;re looking for a quick solution, skip to the &amp;ldquo;What eventually worked?&amp;rdquo; section. However, if you&amp;rsquo;re interested in the thought process behind the solution, keep reading.
 NVM is nice and simple, how hard it might be to get it working with CI/CD? Over the past few days, I&amp;rsquo;ve been working on providing nvm for both my company&amp;rsquo;s Docker base images and for CI/CD.</description>
     </item>
-    
     <item>
       <title>Change configuration of Docker daemon in Rancher Desktop</title>
       <link>https://gagor.pl/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</guid>
       <description>I switched recently from Docker Desktop on my MacBook to Rancher Desktop. The most important reason for me to do it, was possibility to gently switch between docker and containerd runtimes.
 There&amp;rsquo;s still one feature that I miss on Rancher Desktop - possibility to change Docker daemon configuration. I used to enable experimental features1 and BuildKit2. Sadly, there&amp;rsquo;s no easy way to do it on Rancher&amp;hellip; But there&amp;rsquo;s a magical way3.</description>
     </item>
-    
     <item>
       <title>Best practices for writing Dockerfiles - Use VOLUME for all mutable, temporary file locations</title>
       <link>https://gagor.pl/2022/09/best-practices-for-writing-dockerfiles-use-volume-for-all-mutable-temporary-file-locations/</link>
       <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2022/09/best-practices-for-writing-dockerfiles-use-volume-for-all-mutable-temporary-file-locations/</guid>
       <description>IMO people don&amp;rsquo;t understand how VOLUME1 works so they don&amp;rsquo;t use it. It&amp;rsquo;s generally used far too rarely!
 In short VOLUME means two things:
 Whatever is left in directory marked as VOLUME, stays there and can&amp;rsquo;t be changed in later layers (actually it can be changed but changes won&amp;rsquo;t be persistent). Volumes are not part of layered image FS. They&amp;rsquo;re mounted as anonymous volumes located on standard file system. This means they&amp;rsquo;re working much faster.</description>
     </item>
-    
     <item>
       <title>Best practices for writing Dockerfiles - Use .dockerignore</title>
       <link>https://gagor.pl/2022/09/best-practices-for-writing-dockerfiles-use-dockerignore/</link>
       <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2022/09/best-practices-for-writing-dockerfiles-use-dockerignore/</guid>
       <description>People often complain, that building Docker image takes a long time. &amp;ldquo;I just added a single jar package&amp;rdquo; they say&amp;hellip; Really?
 They often don&amp;rsquo;t remember that whole &amp;ldquo;build context&amp;rdquo;1 is uploaded to Docker daemon during build, which often means they&amp;rsquo;re not only adding &amp;ldquo;single jar&amp;rdquo;, but also all sources, test results and whatever they have in working directory.
 Solution is simple - to use .dockerignore file2. Syntax is similar to .</description>
     </item>
-    
     <item>
       <title>Dockerfile writing best practices</title>
       <link>https://gagor.pl/2022/09/dockerfile-writing-best-practices/</link>
       <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2022/09/dockerfile-writing-best-practices/</guid>
       <description>I&amp;rsquo;ve been thinking for a long time about writing set of articles on the topic of: &amp;ldquo;Dockerfile writing best practices&amp;rdquo;.
 As it&amp;rsquo;s often my daily job to prepare best in class containers, that are later used by thousands of company&amp;rsquo;s applications, I have quite good insights on the topic. Some experience and knowledge gathered is often against intuition and building it took me a while. I want to share it, with a hope that feedback I get will allow me to excel on the topic even further.</description>
     </item>
-    
     <item>
       <title>Back on the big stage!</title>
       <link>https://gagor.pl/2022/06/back-on-the-big-stage/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2022/06/back-on-the-big-stage/</guid>
       <description>I&amp;rsquo;m back on the big stage!
 I haven&amp;rsquo;t attend any big conferences as presenter for some time, but this year will change it. I&amp;rsquo;m starting big, with a talk: Docker base images - Ideas how to manage them on scale on Devoxx conference in Kraków, that will take place on 22-24th June 2022.
 Want to meet? Meet there 😄
 Update I uploaded slides from presentation to my Github account.</description>
     </item>
-    
     <item>
       <title>Official CentOS 8 Stream Docker image finally available!</title>
       <link>https://gagor.pl/2021/07/official-centos-8-stream-docker-image-finally-available/</link>
       <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2021/07/official-centos-8-stream-docker-image-finally-available/</guid>
       <description>Finally, they&amp;rsquo;re available! Wait a moment.. Actually they&amp;rsquo;re available for few months, just nobody published information about moving them to quay.io and dropped poor guys using hub.docker.com without any updates! Yes, that how they did!
 I found new place accidentally, reading some news about CentOS Stream 9 on their blog. There was reference to CentOS 9 Stream dev builds of Docker images and I found &amp;ldquo;missing&amp;rdquo; stream and stream8 tags too.</description>
     </item>
-    
     <item>
       <title>How to run JMX monitoring in Docker image?</title>
       <link>https://gagor.pl/2021/02/how-to-run-jmx-monitoring-in-docker-image/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2021/02/how-to-run-jmx-monitoring-in-docker-image/</guid>
       <description>It&amp;rsquo;s sometimes useful to quickly connect to JMX console, to checkout what&amp;rsquo;s going on in your application, but the whole thing get&amp;rsquo;s tricky if you&amp;rsquo;re running your app in a container. I need it from time to time and I keep myself few times searching for set of params below:
 ~/2021/02/how-to-run-jmx-monitoring-in-docker-image/ java \ ... -Dcom.sun.management.jmxremote \ -Dcom.sun.management.jmxremote.rmi.port=${PORT1} \ -Dcom.sun.management.jmxremote.port=${PORT1} \ -Dcom.sun.management.jmxremote.local.only=false \ -Dcom.sun.management.jmxremote.authenticate=false \ -Dcom.sun.management.jmxremote.ssl=false \ -Djava.rmi.server.hostname=${HOST} The whole magic here is that PORT1 in container is app&amp;rsquo;s second port.</description>
     </item>
-    
     <item>
       <title>CentOS 8 Stream Docker image</title>
       <link>https://gagor.pl/2021/02/centos-8-stream-docker-image/</link>
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2021/02/centos-8-stream-docker-image/</guid>
       <description>We&amp;rsquo;re all divided with recent decision to focus on CentOS Stream, which essentially means that stable, professional distro will turn into rolling release now. Also CentOS board members don&amp;rsquo;t gave us more confidence for the future.
 I don&amp;rsquo;t want to be totally sceptic, I would like to test it on my own and only then, decide if it&amp;rsquo;s stable enough. But I work mostly with Docker containers and there are no official Docker images with Stream variant.</description>
     </item>
-    
     <item>
       <title>How old are Official Docker images?</title>
       <link>https://gagor.pl/2021/01/how-old-are-official-docker-images/</link>
       <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2021/01/how-old-are-official-docker-images/</guid>
       <description>TL;DR
 CentOS base images sucks! They&amp;rsquo;re old, not updated for months!
 As a professional DevOps I concern about a lot of things&amp;hellip; but security is always close to the top of the list. With Docker build environments and deployments became much more stable, which often is a result of just being stale ;/
 I&amp;rsquo;ve been talking about this for long time but it&amp;rsquo;s still hard for people to believe it.</description>
     </item>
-    
     <item>
       <title>Automatically build after file change</title>
       <link>https://gagor.pl/2016/02/automatically-build-after-file-change/</link>
       <pubDate>Tue, 23 Feb 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/02/automatically-build-after-file-change/</guid>
       <description>I&amp;rsquo;m playing a lot with Docker lately. Building images, and then rebuilding, and then building again&amp;hellip; It&amp;rsquo;s pretty boring. To automate this task a little I used inotify to build automatically after I changed any file. This trick could be used in many different situations.
 You will need inotify-tools package:
 sudo apt-get install -y inotify-tools Then run something like this:
 while inotifywait -e modify -r .; do docker-compose build; done This commands will rebuild my Docker images after any file change in current directory.</description>
     </item>
-    
     <item>
       <title>Install Docker Compose</title>
       <link>https://gagor.pl/2016/02/install-docker-compose/</link>
       <pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/02/install-docker-compose/</guid>
       <description>When I started playing with Docker I was running a lot of commands to build image, delete containers running on old image, run containers based on new image, etc&amp;hellip; A lot of log commands with links, volumes, etc&amp;hellip;
 Then I started searching for something to automate this task and here I get to docker-compse command, this is how you may install it:
 pip install docker-compose And install additional bash completions (run as root):</description>
     </item>
-    
     <item>
       <title>Manual installation of Docker on Debian/Ubuntu</title>
       <link>https://gagor.pl/2016/02/manual-installation-of-docker-on-debian-ubuntu/</link>
       <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/02/manual-installation-of-docker-on-debian-ubuntu/</guid>
       <description>I&amp;rsquo;ve played with Docker a little in it early days but didn&amp;rsquo;t stick for longer with it. It&amp;rsquo;s stable now so I wanted to check how it&amp;rsquo;s running now.
 I really can&amp;rsquo;t accept this method of installation:
 curl -fsSL https://get.docker.com/ | sh I think that world is going to it&amp;rsquo;s end when I see such scritps&amp;hellip; I prefer to do this manually, knowing exactly what I have to do.
 Install prerequisites:</description>
     </item>
-    
     <item>
       <title>Some useful commands in Docker</title>
       <link>https://gagor.pl/2016/02/some-useful-commands-in-docker/</link>
       <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/02/some-useful-commands-in-docker/</guid>
       <description>I started playing with Docker and here I will write some commands that where not so obvious at beginning 😃
 List running containers:
@@ -163,6 +137,5 @@ docker ps -a Remove all containers (be careful with that):
 docker rm $(docker ps -a -q) Remove all images:
 docker rmi $(docker images -q) Docker won&amp;rsquo;t remove any old volumes used by containers, so after some time you may be interested in deleting them all:</description>
     </item>
-    
   </channel>
 </rss>

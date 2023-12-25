@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>backup on timor&#39;s site</title>
     <link>https://gagor.pl/tags/backup/</link>
@@ -8,46 +8,39 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/backup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating fully encrypted ZFS pool</title>
       <link>https://gagor.pl/2021/11/creating-fully-encrypted-zfs-pool/</link>
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2021/11/creating-fully-encrypted-zfs-pool/</guid>
       <description>What I want to do? I use my pool to securely store backups, archive my old documents and keep huge family&amp;rsquo;s photo library.
 I have new disks. They were tortured with badblocks, so they&amp;rsquo;re ready to create ZFS pool.
 I&amp;rsquo;ve read few documents about different approaches 1 2 3. I wanted to be sure if anything changed during past years. One of articles recommends mirroring over RAIDZ. Resilvering is faster, at the same time putting IO less stress on whole pool.</description>
     </item>
-    
     <item>
       <title>Shucking WD Elements 14TB</title>
       <link>https://gagor.pl/2021/11/shucking-wd-elements-14tb/</link>
       <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2021/11/shucking-wd-elements-14tb/</guid>
       <description>I used to have RAID (or at least some variation of it) for my main storage. For redundancy, in case of disk failure. I started with some crazy LVM mirrors done on two disks of different size. Sync job was starting on every boot 😄
 Then came time for RAID5 on mdadm + LVM for volume management. It was working nice until the moment when disks became bigger. Long array rebuilds or checks, required my PC to stay turned on overnight just to validate if stuff works still.</description>
     </item>
-    
     <item>
       <title>Daily MySQL backups with xtrabackup</title>
       <link>https://gagor.pl/2016/04/daily-mysql-backups-with-xtrabackup/</link>
       <pubDate>Sat, 23 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/04/daily-mysql-backups-with-xtrabackup/</guid>
       <description>I&amp;rsquo;ve been using standard MySQL dumps as backup technique on my VPS for few years. It works fine and backups were usable few times when I needed them. But in other places I&amp;rsquo;m using xtrabackup. It&amp;rsquo;s faster when crating backups and a lot faster when restoring them - they&amp;rsquo;re binary so there is no need to reevaluate all SQL create tables/inserts/etc. Backups also include my.cnf config file so restoring on other machine should be easy.</description>
     </item>
-    
     <item>
       <title>Automatyczne backupy w stylu snapshot z rsync’iem</title>
       <link>https://gagor.pl/2011/12/automatyczne-backupy-w-stylu-snapshot-z-rsynciem/</link>
       <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2011/12/automatyczne-backupy-w-stylu-snapshot-z-rsynciem/</guid>
       <description>Można znaleźć wiele tutoriali jakimi narzędziami wykonywać backupy. W większości przypadków absolutnie wystarczający okaże się flexbackup. Bardziej wymagający wykorzystają BackupPC, Baculę lub Amandę. Narzędzia te pozwalają wykonać kopie pełne, różnicowe, przyrostowe - kompresując je dla zaoszczędzenia miejsca.
 Wszystko fajnie - ale problemy pojawiają się przy dostępie do tych danych. Żeby odzyskać plik zmodyfikowany dzisiaj trzeba rozpakować najpierw kopię pełną, potem różnicową, przyrostową by wreszcie wyciągnąć plik z wczoraj&amp;hellip; hmm ten też jest skopany.</description>
     </item>
-    
   </channel>
 </rss>

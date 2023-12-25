@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SLES on timor&#39;s site</title>
     <link>https://gagor.pl/tags/sles/</link>
@@ -8,16 +8,15 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Thu, 20 Oct 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/sles/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Oct 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/sles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SLES 11 - instalacja Service Pack’a</title>
       <link>https://gagor.pl/2011/10/sles-11-instalacja-service-packa/</link>
       <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2011/10/sles-11-instalacja-service-packa/</guid>
       <description>Administrowałem do tej pory głównie darmowymi distro, ale gdzieś tam ukradkiem wkradło się kilka &amp;ldquo;siusiaków&amp;rdquo; (aka SUSE Linux Enterprise Server). Żyłem w utopijnym przekonaniu że skoro się za nie płaci to powinno się z nimi łatwiej współpracować&amp;hellip; w przypadku instalacji aktualizacji (a w szczególności SP) nie było to aż takie proste.
 Przywykłem w darmowych dystrybucjach że gdy pojawiała się nowszą &amp;ldquo;większa wersja&amp;rdquo; to po prostu można było jednym poleceniem zaktualizować wszystkie pakiety.</description>
     </item>
-    
   </channel>
 </rss>

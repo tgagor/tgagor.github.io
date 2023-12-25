@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on timor&#39;s site</title>
     <link>https://gagor.pl/books/</link>
@@ -8,966 +8,787 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jak zdobyć przyjaciół i zjednać sobie ludzi</title>
       <link>https://gagor.pl/books/2023/jak-zjednac-sobie-ludzi/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/jak-zjednac-sobie-ludzi/</guid>
       <description> Jak zdobyć przyjaciół i zjednać sobie ludziAuthor: Carnegie Dale
 empik.com </description>
     </item>
-    
     <item>
       <title>Lider w trampkach</title>
       <link>https://gagor.pl/books/2023/lider-w-trampkach/</link>
       <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/lider-w-trampkach/</guid>
       <description> Lider w trampkachCzyli jak być przywódcą w zgodzie ze sobą
 Author: Małgorzata Jakubicz
 empik.com </description>
     </item>
-    
     <item>
       <title>Taka praca nie ma sensu</title>
       <link>https://gagor.pl/books/2023/taka-praca-nie-ma-sensu/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/taka-praca-nie-ma-sensu/</guid>
       <description> Taka praca nie ma sensuCzyli jak zarządzać swoją energią
 Author: Tony Schwartz
 empik.com </description>
     </item>
-    
     <item>
       <title>Collaborating with the Enemy</title>
       <link>https://gagor.pl/books/2023/collaborating-with-the-enemy/</link>
       <pubDate>Mon, 09 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/collaborating-with-the-enemy/</guid>
       <description> Collaborating with the EnemyHow to Work with People You Don&amp;rsquo;t Agree with or Like or Trust
 Author: Adam Kahane
 amazon.com </description>
     </item>
-    
     <item>
       <title>Legendarna obsługa klienta</title>
       <link>https://gagor.pl/books/2023/legendarna-obsluga-klienta/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/legendarna-obsluga-klienta/</guid>
       <description> Legendarna obsługa klientaTroska jest najważniejsza
 Authors: Blanchard Ken, Halsey Vicki, Cuff Kathy
 empik.com </description>
     </item>
-    
     <item>
       <title>The Effective Manager: Second Edition</title>
       <link>https://gagor.pl/books/2023/the-effective-manager-second-edition/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/the-effective-manager-second-edition/</guid>
       <description> The Effective Manager: Second EditionCompletely Revised and Updated
 Authors: Mark Horstman, Kate Braun, Sarah Sentes
 amazon.pl </description>
     </item>
-    
     <item>
       <title>The Effective Manager</title>
       <link>https://gagor.pl/books/2023/effective-manager/</link>
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/effective-manager/</guid>
       <description> The Effective ManagerAuthor: Mark Horstman
 amazon.pl </description>
     </item>
-    
     <item>
       <title>Nowy jednominutowy menedżer</title>
       <link>https://gagor.pl/books/2023/nowy-jednominutowy-menedzer/</link>
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/nowy-jednominutowy-menedzer/</guid>
       <description> Nowy jednominutowy menedżerAuthors: Blanchard Ken, Spencer Johnson
 empik.com </description>
     </item>
-    
     <item>
       <title>Psychologia pieniędzy</title>
       <link>https://gagor.pl/books/2023/psychologia-pieniedzy/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/psychologia-pieniedzy/</guid>
       <description> Psychologia pieniędzyPonadczasowe lekcje o bogactwie, chciwości i szczęściu
 Author: Morgan Housel
 empik.com </description>
     </item>
-    
     <item>
       <title>Who Moved My Cheese?</title>
       <link>https://gagor.pl/books/2023/who-moved-my-cheese/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/who-moved-my-cheese/</guid>
       <description> Who Moved My Cheese?An Amazing Way to Deal With Change in Your Work and in Your Life
 Author: Spencer Johnson
 amazon.pl </description>
     </item>
-    
     <item>
       <title>Rycerz nieistniejący</title>
       <link>https://gagor.pl/books/2023/rycerz-nieistniejacy/</link>
       <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/rycerz-nieistniejacy/</guid>
       <description> Rycerz nieistniejącyAuthor: Calvino Italo
 empik.com </description>
     </item>
-    
     <item>
       <title>Przywództwo i oszukiwanie samego siebie</title>
       <link>https://gagor.pl/books/2023/przywodztwo-i-oszukiwanie-samego-siebie/</link>
       <pubDate>Sat, 25 Feb 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/przywodztwo-i-oszukiwanie-samego-siebie/</guid>
       <description> Przywództwo i oszukiwanie samego siebieJak uwolnić się z pułapki uprzedzeń
 Author: Praca zbiorowa
 empik.com </description>
     </item>
-    
     <item>
       <title>Praca głęboka</title>
       <link>https://gagor.pl/books/2023/praca-gleboka/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/praca-gleboka/</guid>
       <description>Praca głębokaJak odnieść sukces w świecie, w którym ciągle coś nas rozprasza
 Author: Cal Newport
 amazon.plamazon.comhelion.pl Deep Work is a book written by Cal Newport that explores the concept of deep work and how it can be leveraged to achieve professional success and lead a more fulfilling life. Newport argues that in an increasingly connected and fast-paced world, the ability to focus and produce high-quality work is becoming increasingly valuable and rare.</description>
     </item>
-    
     <item>
       <title>Zaczynaj od DLACZEGO</title>
       <link>https://gagor.pl/books/2020/zaczynaj-od-dlaczego/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2020/zaczynaj-od-dlaczego/</guid>
       <description> Zaczynaj od DLACZEGOJak wielcy liderzy inspirują innych do działania
 Author: Simon Sinek
 amazon.pl </description>
     </item>
-    
     <item>
       <title>Pięć dysfunkcji pracy zespołowej</title>
       <link>https://gagor.pl/books/2022/5-disfunctions-of-a-team/</link>
       <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2022/5-disfunctions-of-a-team/</guid>
       <description> Pięć dysfunkcji pracy zespołowejOpowieść o przywództwie
 Author: Patrick M. Lencioni
 amazon.plamazon.com </description>
     </item>
-    
     <item>
       <title>Starość aksolotla</title>
       <link>https://gagor.pl/books/2022/starosc-aksolotla/</link>
       <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2022/starosc-aksolotla/</guid>
       <description>Starość aksolotlaHardware dreams
 Author: Jacek Dukaj
 amazon.plamazon.com Starość Aksolotla is a book written by Polish author Jacek Dukaj that I recently had the pleasure of reading. The book is a science fiction novel that explores themes of longevity, immortality, and the meaning of life. The protagonist of the story is a centuries-old axolotl, a species of salamander that is capable of regenerating its limbs and organs, who embarks on a journey of self-discovery as he grapples with the consequences of his own immortality.</description>
     </item>
-    
     <item>
       <title>Błądzą wszyscy (ale nie ja)</title>
       <link>https://gagor.pl/books/2022/bladza-wszyscy-ale-nie-ja/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2022/bladza-wszyscy-ale-nie-ja/</guid>
       <description> Błądzą wszyscy (ale nie ja)Dlaczego usprawiedliwiamy głupie poglądy, złe decyzje i szkodliwe działania?
 Authors: Elliot Aronson, Carol Tavris
 amazon.com </description>
     </item>
-    
     <item>
       <title>Pułapki myślenia</title>
       <link>https://gagor.pl/books/2022/thinking-fast-and-slow/</link>
       <pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2022/thinking-fast-and-slow/</guid>
       <description> Pułapki myśleniaO myśleniu szybkim i wolnym
 Author: Daniel Kahneman
 amazon.plamazon.com </description>
     </item>
-    
     <item>
       <title>The three-body problem</title>
       <link>https://gagor.pl/books/2022/three-body-problem/</link>
       <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2022/three-body-problem/</guid>
       <description>The three-body problemAuthor: Cixin Liu
 amazon.plamazon.comhelion.pl The novel is set in the future and follows the discovery of an alien civilization, the Trisolarans, and humanity&amp;rsquo;s attempts to make contact and defend against them. The book is known for its complex scientific concepts, philosophical ideas, and intricate storyline.
 Overall, &amp;ldquo;The Three-Body Problem&amp;rdquo; has been highly praised by readers and critics for its unique and thought-provoking approach to science fiction.
 Personally, I found this book to be annoying in a few places, especially when it referred to people&amp;rsquo;s commitment following government decisions.</description>
     </item>
-    
     <item>
       <title>Czy jesteś tym, który puka?</title>
       <link>https://gagor.pl/books/2022/czy-jestes-tym-ktory-puka/</link>
       <pubDate>Sat, 13 Aug 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2022/czy-jestes-tym-ktory-puka/</guid>
       <description> Czy jesteś tym, który puka?Author: Dariusz Użycki
 empik.com </description>
     </item>
-    
     <item>
       <title>Kubernetes Operators</title>
       <link>https://gagor.pl/books/2022/kubernetes-operators/</link>
       <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2022/kubernetes-operators/</guid>
       <description> Kubernetes OperatorsAutomating the Container Orchestration Platform
 Authors: Jason Dobies, Joshua Wood
 amazon.plamazon.comhelion.pl </description>
     </item>
-    
     <item>
       <title>Drive</title>
       <link>https://gagor.pl/books/2022/drive/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2022/drive/</guid>
       <description>DriveThe Surprising Truth About What Motivates Us
 Author: Daniel H. Pink
 amazon.plamazon.com Drive: The Surprising Truth About What Motivates Us is a book that I recently read and found to be highly insightful. The author, Daniel H. Pink, explores the science of motivation and argues that the traditional carrot-and-stick approach is outdated and ineffective. He claims that in today&amp;rsquo;s rapidly changing and complex world, autonomy, mastery, and purpose are the most important drivers of motivation.</description>
     </item>
-    
     <item>
       <title>Wewnętrzna gra</title>
       <link>https://gagor.pl/books/2022/wewnetrzna-gra/</link>
       <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2022/wewnetrzna-gra/</guid>
       <description> Wewnętrzna graKształtowanie psychiki gracza giełdowego
 Authors: Robert Koppel, Howard Abell
 maklerska.pl </description>
     </item>
-    
     <item>
       <title>Projekt Jednorożec</title>
       <link>https://gagor.pl/books/2021/projekt-jednorozec/</link>
       <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2021/projekt-jednorozec/</guid>
       <description> Projekt JednorożecPowieść o szansie w epoce przewrotów cyfrowych
 Author: Gene Kim
 helion.pl </description>
     </item>
-    
     <item>
       <title>Od dobrego do wielkiego</title>
       <link>https://gagor.pl/books/2021/od-dobrego-do-wielkiego/</link>
       <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2021/od-dobrego-do-wielkiego/</guid>
       <description>Od dobrego do wielkiegoCzynniki trwałego rozwoju i zwycięstwa ﬁrm
 Author: Jim Collins
 amazon.plamazon.com The book is a comprehensive analysis of what makes a good company great, and how organizations can achieve long-term success. Collins and his team conducted extensive research to identify common characteristics and practices among companies that have made the leap from good to great, and the book presents the results of their findings.
 The book is well-written and provides a wealth of practical insights and advice for organizations looking to improve their performance and achieve lasting success.</description>
     </item>
-    
     <item>
       <title>Miłość i matematyka</title>
       <link>https://gagor.pl/books/2021/milosc-i-matematyka/</link>
       <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2021/milosc-i-matematyka/</guid>
       <description> Miłość i matematykaIstota ukrytej rzeczywistości
 Author: Edward Frenkel
 empik.com </description>
     </item>
-    
     <item>
       <title>Inteligentny inwestor</title>
       <link>https://gagor.pl/books/2021/inteligentny-inwestor/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2021/inteligentny-inwestor/</guid>
       <description> Inteligentny inwestorNajlepsza książka o inwestowaniu wartościowym
 Author: Benjamin Graham
 empik.com </description>
     </item>
-    
     <item>
       <title>Bogaty albo biedny</title>
       <link>https://gagor.pl/books/2021/bogaty-albo-biedny/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2021/bogaty-albo-biedny/</guid>
       <description> Bogaty albo biednyPo prostu różni mentalnie
 Author: T. Harv Eker
 empik.com </description>
     </item>
-    
     <item>
       <title>Książę</title>
       <link>https://gagor.pl/books/2021/ksiaze/</link>
       <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2021/ksiaze/</guid>
       <description> KsiążęAuthor: Nicolo Machiavelli
 empik.com </description>
     </item>
-    
     <item>
       <title>Eryk</title>
       <link>https://gagor.pl/books/2021/pratchett-eryk/</link>
       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2021/pratchett-eryk/</guid>
       <description> ErykAuthor: Terry Pratchett
 empik.com </description>
     </item>
-    
     <item>
       <title>Czarodzicielstwo</title>
       <link>https://gagor.pl/books/2021/pratchett-czarodzicielstwo/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2021/pratchett-czarodzicielstwo/</guid>
       <description> CzarodzicielstwoAuthor: Terry Pratchett
 empik.com </description>
     </item>
-    
     <item>
       <title>Równoumagicznienie</title>
       <link>https://gagor.pl/books/2021/pratchett-rownoumagicznienie/</link>
       <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2021/pratchett-rownoumagicznienie/</guid>
       <description> RównoumagicznienieAuthor: Terry Pratchett
 empik.com </description>
     </item>
-    
     <item>
       <title>Blask fantastyczny</title>
       <link>https://gagor.pl/books/2021/pratchett-blask-fantastyczny/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2021/pratchett-blask-fantastyczny/</guid>
       <description> Blask fantastycznyAuthor: Terry Pratchett
 empik.com </description>
     </item>
-    
     <item>
       <title>Kolor magii</title>
       <link>https://gagor.pl/books/2021/pratchett-kolor-magii/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2021/pratchett-kolor-magii/</guid>
       <description> Kolor magiiAuthor: Terry Pratchett
 empik.com </description>
     </item>
-    
     <item>
       <title>W transie inwestowania</title>
       <link>https://gagor.pl/books/2020/w-transie-investowania/</link>
       <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2020/w-transie-investowania/</guid>
       <description> W transie inwestowaniaPodbij rynek pewnością siebie, żelazną dyscypliną i postawą zwycięzcy
 Author: Mark Douglas
 empik.com </description>
     </item>
-    
     <item>
       <title>Teoretyczne minimum</title>
       <link>https://gagor.pl/books/2020/teoretyczne-minimum/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2020/teoretyczne-minimum/</guid>
       <description> Teoretyczne minimumCo musisz wiedzieć, żeby zacząć zajmować się fizyką
 Authors: Leonard Susskind, George Hrabovsky
 legimi.pl </description>
     </item>
-    
     <item>
       <title>Przeciw bogom</title>
       <link>https://gagor.pl/books/2020/przeciw-bogom/</link>
       <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2020/przeciw-bogom/</guid>
       <description> Przeciw bogomNiezwykłe dzieje ryzyka
 Author: Peter L. Bernstein
 empik.com </description>
     </item>
-    
     <item>
       <title>Podróż ludzi Księgi</title>
       <link>https://gagor.pl/books/2020/tokarczuk/</link>
       <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2020/tokarczuk/</guid>
       <description>Podróż ludzi KsięgiAuthor: Olga Tokarczuk</description>
     </item>
-    
     <item>
       <title>Java Performance Companion</title>
       <link>https://gagor.pl/books/2020/java-performance-companion/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2020/java-performance-companion/</guid>
       <description> Java Performance CompanionAuthors: Charlie Hunt, Monica Beckwith, Poonam Parhar, Bengt Rutisson
 amazon.pl </description>
     </item>
-    
     <item>
       <title>Troubleshooting Java Performance</title>
       <link>https://gagor.pl/books/2020/trubleshooting-java-performance/</link>
       <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2020/trubleshooting-java-performance/</guid>
       <description> Troubleshooting Java PerformanceDetecting Anti-Patterns with Open Source Tools 1st ed. Edition
 Author: Erik Ostermueller
 amazon.com </description>
     </item>
-    
     <item>
       <title>Teoria kwantowa nie gryzie</title>
       <link>https://gagor.pl/books/2019/teoria-kwanotowa-nie-gryzie/</link>
       <pubDate>Mon, 02 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2019/teoria-kwanotowa-nie-gryzie/</guid>
       <description> Teoria kwantowa nie gryzieAuthor: Marcus Chown
 lubimyczytac.pl </description>
     </item>
-    
     <item>
       <title>Czas Spekulacji</title>
       <link>https://gagor.pl/books/2019/czas-spekulacji/</link>
       <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2019/czas-spekulacji/</guid>
       <description> Czas SpekulacjiAuthor: Gregory J. Millman
 lubimyczytac.pl </description>
     </item>
-    
     <item>
       <title>Krótka historia czasu</title>
       <link>https://gagor.pl/books/2019/jeszcze-krotsza-historia-czasu/</link>
       <pubDate>Tue, 12 Nov 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2019/jeszcze-krotsza-historia-czasu/</guid>
       <description> Krótka historia czasuOd Wielkiego Wybuchu do czarnych dziur
 Author: Stephen Hawking
 empik.com </description>
     </item>
-    
     <item>
       <title>Teoria wszystkiego, czyli krótka historia wszechświata</title>
       <link>https://gagor.pl/books/2019/teoria-wszystkiego/</link>
       <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2019/teoria-wszystkiego/</guid>
       <description> Teoria wszystkiego, czyli krótka historia wszechświataAuthor: Stephen Hawking
 empik.com </description>
     </item>
-    
     <item>
       <title>Bezpieczeństwo aplikacji webowych</title>
       <link>https://gagor.pl/books/2019/bezpieczenstwo-aplikacji-webowych/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2019/bezpieczenstwo-aplikacji-webowych/</guid>
       <description> Bezpieczeństwo aplikacji webowychAuthors: Michał Bentkowski, Gynvael Coldwind, Artur Czyż, Rafał Janicki, Jarosław Kamiński, Adrian Michalczyk, Mateusz Niezabitowski, Marcin Piosek, Michał Sajdak, Grzegorz Trawiński, Bohdan Widła
 ksiazka.sekurak.pl </description>
     </item>
-    
     <item>
       <title>DevOps</title>
       <link>https://gagor.pl/books/2019/devops-gene-kim/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2019/devops-gene-kim/</guid>
       <description> DevOpsŚwiatowej klasy zwinność, niezawodność i bezpieczeństwo w Twojej organizacji
 Authors: Gene Kim, Patrick Debois, John Willis, Jez Humble, John Allspaw
 helion.pl </description>
     </item>
-    
     <item>
       <title>DevOps Hiring</title>
       <link>https://gagor.pl/books/2019/devops-hiring/</link>
       <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2019/devops-hiring/</guid>
       <description> DevOps HiringAuthor: Dave Zwieback
 oreilly.com </description>
     </item>
-    
     <item>
       <title>Book of Life</title>
       <link>https://gagor.pl/books/2018/book-of-life/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2018/book-of-life/</guid>
       <description> Book of LifeAuthor: Deborah Harkness
 amazon.plamazon.com </description>
     </item>
-    
     <item>
       <title>Shadow of Night</title>
       <link>https://gagor.pl/books/2018/shadow-of-night/</link>
       <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2018/shadow-of-night/</guid>
       <description> Shadow of NightAuthor: Deborah Harkness
 amazon.plamazon.com </description>
     </item>
-    
     <item>
       <title>A Discovery of Witches</title>
       <link>https://gagor.pl/books/2018/a-discovery-of-witches/</link>
       <pubDate>Wed, 24 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2018/a-discovery-of-witches/</guid>
       <description> A Discovery of WitchesAuthor: Deborah Harkness
 amazon.plamazon.com </description>
     </item>
-    
     <item>
       <title>Projekt Feniks</title>
       <link>https://gagor.pl/books/2018/projekt-feniks/</link>
       <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2018/projekt-feniks/</guid>
       <description> Projekt FeniksPowieść o IT, modelu DevOps i o tym, jak pomóc firmie w odniesieniu sukcesu
 Authors: Gene Kim, Kevin Behr, George Spafford
 helion.pl </description>
     </item>
-    
     <item>
       <title>Broń matematycznej zagłady</title>
       <link>https://gagor.pl/books/2018/bron-matematycznej-zaglady/</link>
       <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2018/bron-matematycznej-zaglady/</guid>
       <description> Broń matematycznej zagładyJak algorytmy zwiększają nierówności i zagrażają demokracji
 Author: Cathy O&amp;#39;Neil
 helion.pl </description>
     </item>
-    
     <item>
       <title>Paragraf 22</title>
       <link>https://gagor.pl/books/2018/paragraf-22/</link>
       <pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2018/paragraf-22/</guid>
       <description> Paragraf 22Author: Joseph Heller
 empik.com </description>
     </item>
-    
     <item>
       <title>Cisza w sieci</title>
       <link>https://gagor.pl/books/2018/cisza-w-sieci/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2018/cisza-w-sieci/</guid>
       <description> Cisza w sieciAuthor: Michał Zalewski
 helion.pl </description>
     </item>
-    
     <item>
       <title>Nowy dom</title>
       <link>https://gagor.pl/books/2018/drizzt-nowy-dom/</link>
       <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2018/drizzt-nowy-dom/</guid>
       <description> Nowy domTrylogia Mrocznego Elfa. Tom 3
 Author: R. A. Salvatore
 lubimyczytac.pl </description>
     </item>
-    
     <item>
       <title>Wygnanie</title>
       <link>https://gagor.pl/books/2018/drizzt-wygnanie/</link>
       <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2018/drizzt-wygnanie/</guid>
       <description> WygnanieTrylogia Mrocznego Elfa. Tom 2
 Author: R. A. Salvatore
 lubimyczytac.pl </description>
     </item>
-    
     <item>
       <title>Odliczając do dnia zero</title>
       <link>https://gagor.pl/books/2018/odliczajac-do-dnia-zero/</link>
       <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2018/odliczajac-do-dnia-zero/</guid>
       <description> Odliczając do dnia zeroStuxnet, czyli prawdziwa historia cyfrowej broni
 Author: Kim Zetter
 helion.pl </description>
     </item>
-    
     <item>
       <title>Ojczyzna</title>
       <link>https://gagor.pl/books/2018/drizzt-ojczyzna/</link>
       <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2018/drizzt-ojczyzna/</guid>
       <description> OjczyznaTrylogia Mrocznego Elfa. Tom 1
 Author: R. A. Salvatore
 lubimyczytac.pl </description>
     </item>
-    
     <item>
       <title>Klejnot halflinga</title>
       <link>https://gagor.pl/books/2017/tdlw-klejnot-halflinga/</link>
       <pubDate>Fri, 22 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2017/tdlw-klejnot-halflinga/</guid>
       <description> Klejnot halflingaTrylogia Doliny Lodowego Wichru. Tom 3
 Author: R. A. Salvatore
 lubimyczytac.pl </description>
     </item>
-    
     <item>
       <title>Strumienie srebra</title>
       <link>https://gagor.pl/books/2017/tdlw-strumienie-srebra/</link>
       <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2017/tdlw-strumienie-srebra/</guid>
       <description> Strumienie srebraTrylogia Doliny Lodowego Wichru. Tom 2
 Author: R. A. Salvatore
 lubimyczytac.pl </description>
     </item>
-    
     <item>
       <title>Kryształowy relikt</title>
       <link>https://gagor.pl/books/2017/tdlw-krysztalowy-relikt/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2017/tdlw-krysztalowy-relikt/</guid>
       <description> Kryształowy reliktTrylogia Doliny Lodowego Wichru. Tom 1
 Author: R. A. Salvatore
 lubimyczytac.pl </description>
     </item>
-    
     <item>
       <title>Czysty kod</title>
       <link>https://gagor.pl/books/2017/czysty-kod/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2017/czysty-kod/</guid>
       <description> Czysty kodPodręcznik dobrego programisty
 Author: Robert C. Martin
 helion.pl </description>
     </item>
-    
     <item>
       <title>Java. Efektywne programowanie</title>
       <link>https://gagor.pl/books/2017/java-efektywne-programowanie/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2017/java-efektywne-programowanie/</guid>
       <description> Java. Efektywne programowanieWydanie II
 helion.pl </description>
     </item>
-    
     <item>
       <title>Pragmatyczny programista</title>
       <link>https://gagor.pl/books/2017/pragmatyczny-programista/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2017/pragmatyczny-programista/</guid>
       <description> Pragmatyczny programistaOd czeladnika do mistrza
 Authors: Andrew Hunt, David Thomas
 helion.pl </description>
     </item>
-    
     <item>
       <title>Perfekcyjna niedoskonałość</title>
       <link>https://gagor.pl/books/2017/perfekcyjna-niedoskonalosc/</link>
       <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2017/perfekcyjna-niedoskonalosc/</guid>
       <description> Perfekcyjna niedoskonałośćAuthor: Jacek Dukaj
 empik.com </description>
     </item>
-    
     <item>
       <title>Trylogia ciągu</title>
       <link>https://gagor.pl/books/2017/trylogia-ciagu/</link>
       <pubDate>Fri, 11 Aug 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2017/trylogia-ciagu/</guid>
       <description> Trylogia ciąguNeuromancer / Graf Zero / Mona Liza Turbo
 Author: William Gibson
 empik.com </description>
     </item>
-    
     <item>
       <title>Inne pieśni</title>
       <link>https://gagor.pl/books/2017/inne-piesni/</link>
       <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2017/inne-piesni/</guid>
       <description> Inne pieśniAuthor: Jacek Dukaj
 empik.com </description>
     </item>
-    
     <item>
       <title>Black Hat Python</title>
       <link>https://gagor.pl/books/2017/black-hack-python/</link>
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2017/black-hack-python/</guid>
       <description> Black Hat PythonJęzyk Python dla hakerów i pentesterów
 Author: Justin Seitz
 amazon.plhelion.pl </description>
     </item>
-    
     <item>
       <title>Szpieg</title>
       <link>https://gagor.pl/books/2017/szpieg/</link>
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2017/szpieg/</guid>
       <description>SzpiegCzyli podstawy szpiegowskiego fachu
 Author: Wiktor Suworow</description>
     </item>
-    
     <item>
       <title>Sztuka wojny</title>
       <link>https://gagor.pl/books/2017/sztuka-wojny/</link>
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2017/sztuka-wojny/</guid>
       <description> Sztuka wojnyWydanie 3
 Authors: Sun Tzu, Sun Pin
 maklerska.pl </description>
     </item>
-    
     <item>
       <title>Extensa</title>
       <link>https://gagor.pl/books/2017/extensa/</link>
       <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2017/extensa/</guid>
       <description> ExtensaAuthor: Jacek Dukaj
 empik.com </description>
     </item>
-    
     <item>
       <title>Wydajność Javy</title>
       <link>https://gagor.pl/books/2017/wydajnosc-javy/</link>
       <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2017/wydajnosc-javy/</guid>
       <description> Wydajność JavyPoznaj i wykorzystaj optymalne sposoby na regulowanie wydajności oprogramowania Java!
 Authors: Charlie Hunt, Binu John
 helion.pl </description>
     </item>
-    
     <item>
       <title>Gra Endera</title>
       <link>https://gagor.pl/books/2016/gra-endera/</link>
       <pubDate>Mon, 10 Oct 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2016/gra-endera/</guid>
       <description> Gra EnderaSaga Endera. Tom 1
 Author: Card Orson Scott
 empik.com </description>
     </item>
-    
     <item>
       <title>Ruby</title>
       <link>https://gagor.pl/books/2016/ruby-wzorce-projektowe/</link>
       <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2016/ruby-wzorce-projektowe/</guid>
       <description> RubyWzorce projektowe
 Author: Russ Olsen
 helion.pl </description>
     </item>
-    
     <item>
       <title>Sztuka podstępu</title>
       <link>https://gagor.pl/books/2016/sztuka-podstepu/</link>
       <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2016/sztuka-podstepu/</guid>
       <description> Sztuka podstępuŁamałem ludzi, nie hasła
 Authors: Kevin Mitnick, William L. Simon
 helion.pl </description>
     </item>
-    
     <item>
       <title>Splątana sieć</title>
       <link>https://gagor.pl/books/2015/splatana-siec/</link>
       <pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2015/splatana-siec/</guid>
       <description> Splątana siećPrzewodnik po bezpieczeństwie nowoczesnych aplikacji WWW
 Author: Michał Zalewski
 helion.pl </description>
     </item>
-    
     <item>
       <title>Ruby</title>
       <link>https://gagor.pl/books/2015/ruby-programowanie/</link>
       <pubDate>Thu, 13 Aug 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2015/ruby-programowanie/</guid>
       <description> RubyProgramowanie
 Authors: David Flanagan, Yukihiro Matsumoto
 helion.pl </description>
     </item>
-    
     <item>
       <title>GIT</title>
       <link>https://gagor.pl/books/2015/git/</link>
       <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2015/git/</guid>
       <description> GITRozproszony system kontroli wersji
 Author: Włodzimierz Gajda
 helion.pl </description>
     </item>
-    
     <item>
       <title>Getting Things Done</title>
       <link>https://gagor.pl/books/2012/getting-things-done/</link>
       <pubDate>Mon, 24 Dec 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2012/getting-things-done/</guid>
       <description> Getting Things DoneCzyli sztuka bezstresowej efektywności
 Author: David Allen
 amazon.pl </description>
     </item>
-    
     <item>
       <title>Rzecz o istocie informatyki</title>
       <link>https://gagor.pl/books/2010/algorytmika/</link>
       <pubDate>Fri, 10 Dec 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2010/algorytmika/</guid>
       <description> Rzecz o istocie informatykiAlgorytmika
 Authors: David Harel, Yishai Feldman
 empik.com </description>
     </item>
-    
     <item>
       <title>Jeszcze krótsza historia czasu</title>
       <link>https://gagor.pl/books/2009/krotka-historia-czasu/</link>
       <pubDate>Thu, 29 Oct 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2009/krotka-historia-czasu/</guid>
       <description> Jeszcze krótsza historia czasuAuthor: Stephen Hawking
 amazon.pl </description>
     </item>
-    
     <item>
       <title>Perełki oprogramowania</title>
       <link>https://gagor.pl/books/2009/perelki-oprogramowania/</link>
       <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2009/perelki-oprogramowania/</guid>
       <description> Perełki oprogramowaniaSeria Klasyka informatyki
 Author: Jon Bentley
 helion.pl </description>
     </item>
-    
     <item>
       <title>Zarządzanie czasem</title>
       <link>https://gagor.pl/books/2008/zarzadzanie-czasem/</link>
       <pubDate>Mon, 10 Mar 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2008/zarzadzanie-czasem/</guid>
       <description> Zarządzanie czasemStrategie dla administratorów systemów
 Author: Thomas Limoncelli
 helion.pl </description>
     </item>
-    
     <item>
       <title>Głębia</title>
       <link>https://gagor.pl/books/2008/glebia/</link>
       <pubDate>Wed, 20 Feb 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2008/glebia/</guid>
       <description> GłębiaAuthor: Lincoln Child
 amazon.com </description>
     </item>
-    
     <item>
       <title>Bezpieczeństwo sieci</title>
       <link>https://gagor.pl/books/2007/bezpieczenstwo-sieci/</link>
       <pubDate>Sat, 10 Feb 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2007/bezpieczenstwo-sieci/</guid>
       <description> Bezpieczeństwo sieciNarzędzia
 Authors: Nitesh Dhanjani, Justin Clarke
 helion.pl </description>
     </item>
-    
     <item>
       <title>Kurs Szybkiego Czytania</title>
       <link>https://gagor.pl/books/2006/kurs-szybkiego-czytania/</link>
       <pubDate>Tue, 04 Apr 2006 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2006/kurs-szybkiego-czytania/</guid>
       <description> Kurs Szybkiego CzytaniaAuthor: Jamruszkiewicz Jolanta
 empik.com </description>
     </item>
-    
     <item>
       <title>Władca Pierścieni</title>
       <link>https://gagor.pl/books/2005/lotr1/</link>
       <pubDate>Fri, 11 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2005/lotr1/</guid>
       <description> Władca PierścieniDrużyna pierścienia. Tom 1
 Author: J. R. R. Tolkien
 empik.com </description>
     </item>
-    
     <item>
       <title>Władca Pierścieni</title>
       <link>https://gagor.pl/books/2005/lotr2/</link>
       <pubDate>Fri, 11 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2005/lotr2/</guid>
       <description> Władca PierścieniDwie wieże. Tom 2
 Author: J. R. R. Tolkien
 empik.com </description>
     </item>
-    
     <item>
       <title>Władca Pierścieni</title>
       <link>https://gagor.pl/books/2005/lotr3/</link>
       <pubDate>Fri, 11 Mar 2005 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2005/lotr3/</guid>
       <description> Władca PierścieniPowrót króla. Tom 3
 Author: J. R. R. Tolkien
 empik.com </description>
     </item>
-    
     <item>
       <title>Kukułcze jajo</title>
       <link>https://gagor.pl/books/2000/kukulcze-jajo/</link>
       <pubDate>Wed, 09 Feb 2000 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2000/kukulcze-jajo/</guid>
       <description> Kukułcze jajoEkscytujące łowy na nieuchwytnego hackera
 Author: Clifford Stoll
 lubimyczytac.plamazon.pl </description>
     </item>
-    
   </channel>
 </rss>

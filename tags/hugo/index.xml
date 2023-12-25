@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on timor&#39;s site</title>
     <link>https://gagor.pl/tags/hugo/</link>
@@ -8,16 +8,15 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bye Bye Wordpress!</title>
       <link>https://gagor.pl/2020/10/bye-bye-wordpress/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2020/10/bye-bye-wordpress/</guid>
       <description>I started my blog on custom (written by my) engine, but as I didn&amp;rsquo;t had enough time to enhance it I switched to Wordpress. I&amp;rsquo;ve been using Wordpress as an engine of my blog for past 8~9 years. I have small VPS with PHP + Nginx and you can find a lot of configuration examples from my config on this site 😄
 There was a time, when I was really satisfied by what it provides.</description>
     </item>
-    
   </channel>
 </rss>

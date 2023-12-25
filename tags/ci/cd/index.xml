@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CI/CD on timor&#39;s site</title>
     <link>https://gagor.pl/tags/ci/cd/</link>
@@ -7,16 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
-</copyright><atom:link href="https://gagor.pl/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
+</copyright>
+    <atom:link href="https://gagor.pl/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The best way to get NVM working in CI/CD systems</title>
       <link>https://gagor.pl/2023/04/the-best-way-to-get-nvm-working-in-ci/cd-systems/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2023/04/the-best-way-to-get-nvm-working-in-ci/cd-systems/</guid>
       <description>TL;DR While reasoning is important, readers may not be interested in all the frustrations I experienced while figuring out how to get things done. If you&amp;rsquo;re looking for a quick solution, skip to the &amp;ldquo;What eventually worked?&amp;rdquo; section. However, if you&amp;rsquo;re interested in the thought process behind the solution, keep reading.
 NVM is nice and simple, how hard it might be to get it working with CI/CD? Over the past few days, I&amp;rsquo;ve been working on providing nvm for both my company&amp;rsquo;s Docker base images and for CI/CD.</description>
     </item>
-    
   </channel>
 </rss>

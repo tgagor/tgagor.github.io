@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mod_antiloris on timor&#39;s site</title>
     <link>https://gagor.pl/tags/mod_antiloris/</link>
@@ -8,15 +8,14 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Mon, 12 Sep 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/mod_antiloris/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Sep 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/mod_antiloris/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zabezpieczenie Apachego na Debianie przed slowloris’em</title>
       <link>https://gagor.pl/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</link>
       <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</guid>
       <description>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.</description>
     </item>
-    
   </channel>
 </rss>

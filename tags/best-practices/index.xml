@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Best practices on timor&#39;s site</title>
     <link>https://gagor.pl/tags/best-practices/</link>
@@ -8,38 +8,33 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Mon, 12 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/best-practices/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/best-practices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Best practices for writing Dockerfiles - Use VOLUME for all mutable, temporary file locations</title>
       <link>https://gagor.pl/2022/09/best-practices-for-writing-dockerfiles-use-volume-for-all-mutable-temporary-file-locations/</link>
       <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2022/09/best-practices-for-writing-dockerfiles-use-volume-for-all-mutable-temporary-file-locations/</guid>
       <description>IMO people don&amp;rsquo;t understand how VOLUME1 works so they don&amp;rsquo;t use it. It&amp;rsquo;s generally used far too rarely!
 In short VOLUME means two things:
 Whatever is left in directory marked as VOLUME, stays there and can&amp;rsquo;t be changed in later layers (actually it can be changed but changes won&amp;rsquo;t be persistent). Volumes are not part of layered image FS. They&amp;rsquo;re mounted as anonymous volumes located on standard file system. This means they&amp;rsquo;re working much faster.</description>
     </item>
-    
     <item>
       <title>Best practices for writing Dockerfiles - Use .dockerignore</title>
       <link>https://gagor.pl/2022/09/best-practices-for-writing-dockerfiles-use-dockerignore/</link>
       <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2022/09/best-practices-for-writing-dockerfiles-use-dockerignore/</guid>
       <description>People often complain, that building Docker image takes a long time. &amp;ldquo;I just added a single jar package&amp;rdquo; they say&amp;hellip; Really?
 They often don&amp;rsquo;t remember that whole &amp;ldquo;build context&amp;rdquo;1 is uploaded to Docker daemon during build, which often means they&amp;rsquo;re not only adding &amp;ldquo;single jar&amp;rdquo;, but also all sources, test results and whatever they have in working directory.
 Solution is simple - to use .dockerignore file2. Syntax is similar to .</description>
     </item>
-    
     <item>
       <title>Dockerfile writing best practices</title>
       <link>https://gagor.pl/2022/09/dockerfile-writing-best-practices/</link>
       <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2022/09/dockerfile-writing-best-practices/</guid>
       <description>I&amp;rsquo;ve been thinking for a long time about writing set of articles on the topic of: &amp;ldquo;Dockerfile writing best practices&amp;rdquo;.
 As it&amp;rsquo;s often my daily job to prepare best in class containers, that are later used by thousands of company&amp;rsquo;s applications, I have quite good insights on the topic. Some experience and knowledge gathered is often against intuition and building it took me a while. I want to share it, with a hope that feedback I get will allow me to excel on the topic even further.</description>
     </item>
-    
   </channel>
 </rss>

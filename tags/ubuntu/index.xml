@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ubuntu on timor&#39;s site</title>
     <link>https://gagor.pl/tags/ubuntu/</link>
@@ -8,110 +8,92 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Fri, 21 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu - Key is stored in legacy trusted.gpg keyring...</title>
       <link>https://gagor.pl/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</link>
       <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</guid>
       <description>Since upgrade to Ubuntu 22.04 keep seeing those warnings:
 W: http://ppa.launchpad.net/yubico/stable/ubuntu/dists/jammy/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details. W: https://updates.signal.org/desktop/apt/dists/xenial/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details. W: https://repo.skype.com/deb/dists/stable/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details. W: https://packagecloud.io/AtomEditor/atom/any/dists/any/InRelease: Key is stored in legacy trusted.</description>
     </item>
-    
     <item>
       <title>Creating fully encrypted ZFS pool</title>
       <link>https://gagor.pl/2021/11/creating-fully-encrypted-zfs-pool/</link>
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2021/11/creating-fully-encrypted-zfs-pool/</guid>
       <description>What I want to do? I use my pool to securely store backups, archive my old documents and keep huge family&amp;rsquo;s photo library.
 I have new disks. They were tortured with badblocks, so they&amp;rsquo;re ready to create ZFS pool.
 I&amp;rsquo;ve read few documents about different approaches 1 2 3. I wanted to be sure if anything changed during past years. One of articles recommends mirroring over RAIDZ. Resilvering is faster, at the same time putting IO less stress on whole pool.</description>
     </item>
-    
     <item>
       <title>Tweaking ASUS Zenbook UX305CA on Linux</title>
       <link>https://gagor.pl/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</link>
       <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</guid>
       <description>Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &amp;lsquo;mobile&amp;rsquo; word. Then I saw ASUS Zenbook that I didn&amp;rsquo;t take into account before and it was exactly what I was searching for.
 Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed.</description>
     </item>
-    
     <item>
       <title>Manual installation of Docker on Debian/Ubuntu</title>
       <link>https://gagor.pl/2016/02/manual-installation-of-docker-on-debian-ubuntu/</link>
       <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/02/manual-installation-of-docker-on-debian-ubuntu/</guid>
       <description>I&amp;rsquo;ve played with Docker a little in it early days but didn&amp;rsquo;t stick for longer with it. It&amp;rsquo;s stable now so I wanted to check how it&amp;rsquo;s running now.
 I really can&amp;rsquo;t accept this method of installation:
 curl -fsSL https://get.docker.com/ | sh I think that world is going to it&amp;rsquo;s end when I see such scritps&amp;hellip; I prefer to do this manually, knowing exactly what I have to do.
 Install prerequisites:</description>
     </item>
-    
     <item>
       <title>Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu</title>
       <link>https://gagor.pl/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</link>
       <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</guid>
       <description>From few days I have access to UPC&amp;rsquo;s www.horizon.tv platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it&amp;rsquo;s working pretty well - you&amp;rsquo;re just few commands away from achieving that:
 # stop browser killall firefox # remove old version if you have it sudo apt-get remove pipelight Now configure repos and install packages:
 sudo apt-add-repository ppa:pipelight/stable sudo apt-get update sudo apt-get install --install-recommends pipelight-multi sudo pipelight-plugin --update Enable plugin (run it with sudo for system wide installation):</description>
     </item>
-    
     <item>
       <title>Grafana - installation and configuraton with InfluxDB and CollectD on Debian/Ubuntu</title>
       <link>https://gagor.pl/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</link>
       <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</guid>
       <description>Now when you have CollectD and InfluxDB installed you may configure Grafana 😃
 First configure repo with current Grafana version (select your distro):
 curl https://packagecloud.io/gpg.key | sudo apt-key add - deb https://packagecloud.io/grafana/testing/debian/ wheezy main Now install package (on wheezy I needed to install apt-transport-https to allow installation of packages from repo via HTTPS):
 apt-get update apt-get install -y apt-transport-https apt-get install -y grafana By default Grafana will use sqlite database to keep information about users, etc:</description>
     </item>
-    
     <item>
       <title>InfluxDB - installation and configuration on Debian/Ubuntu</title>
       <link>https://gagor.pl/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</link>
       <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</guid>
       <description>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
 Let&amp;rsquo;s start! On project page there is no info about repo but it&amp;rsquo;s available, configure it:
 curl -sL https://repos.influxdata.com/influxdb.key | apt-key add - echo &amp;#34;deb https://repos.influxdata.com/debian wheezy stable&amp;#34; &amp;gt; /etc/apt.sources.list.d/influxdb.conf for Ubuntu use url like (of course selecting your version):</description>
     </item>
-    
     <item>
       <title>CollectD - installation and configuration with InfluxDB on Debian/Ubuntu</title>
       <link>https://gagor.pl/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</link>
       <pubDate>Fri, 08 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</guid>
       <description>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
 Installation of collectd is easy on Debian because packages are in default repo. One problem is that packages may be old, ex. on wheezy it version 5.1. But in backports/backports-sloppy you may find current 5.</description>
     </item>
-    
     <item>
       <title>Extract password saved in remmina</title>
       <link>https://gagor.pl/2015/12/extract-password-saved-in-remmina/</link>
       <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2015/12/extract-password-saved-in-remmina/</guid>
       <description>I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in .remmina directory.
 Then I used this script to the decrypt them 1:
 Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
-    
     <item>
       <title>Copy GTP partiotion table between disks</title>
       <link>https://gagor.pl/2014/07/copy-gtp-partiotion-table-between-disks/</link>
       <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2014/07/copy-gtp-partiotion-table-between-disks/</guid>
       <description>When configuring RAID it&amp;rsquo;s quite important to have the same partition tables on every disk. I&amp;rsquo;v done this many times on msdos partition tables like this:
 sfdisk -d /dev/sda | sfdisk /dev/sdb but it&amp;rsquo;s not working any more on GPT partition tables. Hopefully it still can be done but with different toolstack 😄
@@ -119,47 +101,38 @@ Install gdisk:
 apt-get install -y gdisk Then use sgdisk like this:
 sgdisk -R /dev/sd_dest /dev/sd_src sgdisk -G /dev/sd_dest First command will copy partition from /dev/sd_src to /dev/sd_dest.</description>
     </item>
-    
     <item>
       <title>Install Steam on Debian/Ubuntu</title>
       <link>https://gagor.pl/2014/04/install-steam-on-debian-ubuntu/</link>
       <pubDate>Tue, 22 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2014/04/install-steam-on-debian-ubuntu/</guid>
       <description>These are few steps to get Steam running on Ubuntu:
 wget -c media.steampowered.com/client/installer/steam.deb dpkg -i steam.deb apt-get install -f apt-get update Solutions for some issues Some time ago I needed 32 bit flash even on 64 bit system - I don&amp;rsquo;t need it currently but I&amp;rsquo;m living this as a tip.
 apt-get install adobe-flashplugin:i386 After Ubuntu upgrade I was unable to run Steam anymore - It shouted on me with strange &amp;ldquo;networking problem&amp;rdquo;.</description>
     </item>
-    
     <item>
       <title>Regenerate thumbnails in Shotwell 0.15 (for last month)</title>
       <link>https://gagor.pl/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</link>
       <pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</guid>
       <description>I love Shotwell for it&amp;rsquo;s simplicity and easy export to Piwigo. After Christmas I added new photos to my library but after that I made some modifications to them (red eye reduction, etc&amp;hellip;). Because Shotwell generate thumbnails only on import, all my modifications were not visible on preview.
 I&amp;rsquo;ve started searching how to regenerate thumbs and found this info. There were two issues with this method:
 this howto was for old version (with old paths) and only for 128px thumbs I definitely don&amp;rsquo;t want to regenerate thumbnails for 40k photos!</description>
     </item>
-    
     <item>
       <title>Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04</title>
       <link>https://gagor.pl/2012/11/instalacja-drukarki-i-skanera-brother-dcp-130c-na-ubuntu-12-04/</link>
       <pubDate>Sun, 04 Nov 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2012/11/instalacja-drukarki-i-skanera-brother-dcp-130c-na-ubuntu-12-04/</guid>
       <description>Po każdej aktualizacji Ubuntu mam trochę zabawy by pozbierać do kupy skaner i drukarkę z mojego urządzenia wielofunkcyjnego Brother DCP-130C. Wybrałem je bo był to jedyny producent, który deklarował wsparcie dla Linux&amp;rsquo;a&amp;hellip; choć z perspektywy czasu nie jestem pewien czy otrzymałem to czego się spodziewałem&amp;hellip; Co prawda zamieszczają instrukcje i aktualizują drivery ale jeszcze ani raz nie zdarzyło mi się by po aktualizacji systemu postępowanie według tych instrukcji zadziałało bez dodatkowej pomocy.</description>
     </item>
-    
     <item>
       <title>Empathy - zamykanie okienka chatu przyciskiem Escape</title>
       <link>https://gagor.pl/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/</link>
       <pubDate>Fri, 30 Dec 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/</guid>
       <description>W Gajim&amp;rsquo;ie od dawna brakowało mi wygodnego przeszukiwania po liście kontaktów (takiego jakie ma się pojawić już niebawem w wersji 0.15 - z półtora roku już na to czekam&amp;hellip;). W między czasie znalazłem chwilę by pobawić się Empathy - brzydki, nie ma przeglądarki usług XMPP, ale wyszukiwanie na rosterze jest dokładnie takie jakiego szukałem (w miarę wpisywania znaków zawęża listę kontaktów by pasowały do wpisywanego wzorca).
 Tyle że skróty klawiaturowe w tym programie zwyczajnie mnie rozwalają - przez lata przyzwyczaiłem się że okienka czatu można zamknąć Escape&amp;rsquo;m - a tutaj nawet nie ma opcji, która pozwalała by na taką zmianę zachowania.</description>
     </item>
-    
   </channel>
 </rss>

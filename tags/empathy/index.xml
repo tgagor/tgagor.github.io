@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Empathy on timor&#39;s site</title>
     <link>https://gagor.pl/tags/empathy/</link>
@@ -8,16 +8,15 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Fri, 30 Dec 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/empathy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Dec 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/empathy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Empathy - zamykanie okienka chatu przyciskiem Escape</title>
       <link>https://gagor.pl/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/</link>
       <pubDate>Fri, 30 Dec 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/</guid>
       <description>W Gajim&amp;rsquo;ie od dawna brakowało mi wygodnego przeszukiwania po liście kontaktów (takiego jakie ma się pojawić już niebawem w wersji 0.15 - z półtora roku już na to czekam&amp;hellip;). W między czasie znalazłem chwilę by pobawić się Empathy - brzydki, nie ma przeglądarki usług XMPP, ale wyszukiwanie na rosterze jest dokładnie takie jakiego szukałem (w miarę wpisywania znaków zawęża listę kontaktów by pasowały do wpisywanego wzorca).
 Tyle że skróty klawiaturowe w tym programie zwyczajnie mnie rozwalają - przez lata przyzwyczaiłem się że okienka czatu można zamknąć Escape&amp;rsquo;m - a tutaj nawet nie ma opcji, która pozwalała by na taką zmianę zachowania.</description>
     </item>
-    
   </channel>
 </rss>

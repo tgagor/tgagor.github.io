@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DDoS on timor&#39;s site</title>
     <link>https://gagor.pl/tags/ddos/</link>
@@ -8,17 +8,16 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Fri, 05 Feb 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/ddos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/ddos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prepare for DoS like Cloudflare do</title>
       <link>https://gagor.pl/2016/02/prepare-for-dos-like-cloudflare-do/</link>
       <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/02/prepare-for-dos-like-cloudflare-do/</guid>
       <description>I watched nice presentation about how Cloudflare protects itself against DoS. Most of us are not able to do that exactly like them but some of tips were general enough to be used on typical web front server.
 I took notes from this presentation and presented here. Thanks to Marek agreement I also reposted all examples (in easier to copy paste way).
 Howto prepare against ACK/FIN/RST/X-mas flood Use conntrack rule:</description>
     </item>
-    
   </channel>
 </rss>

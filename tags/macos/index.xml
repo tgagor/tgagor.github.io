@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MacOS on timor&#39;s site</title>
     <link>https://gagor.pl/tags/macos/</link>
@@ -8,31 +8,27 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/macos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Change configuration of Docker daemon in Rancher Desktop</title>
       <link>https://gagor.pl/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</guid>
       <description>I switched recently from Docker Desktop on my MacBook to Rancher Desktop. The most important reason for me to do it, was possibility to gently switch between docker and containerd runtimes.
 There&amp;rsquo;s still one feature that I miss on Rancher Desktop - possibility to change Docker daemon configuration. I used to enable experimental features1 and BuildKit2. Sadly, there&amp;rsquo;s no easy way to do it on Rancher&amp;hellip; But there&amp;rsquo;s a magical way3.</description>
     </item>
-    
     <item>
       <title>Automatically add ticket ID to every commit message in Git</title>
       <link>https://gagor.pl/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</link>
       <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</guid>
       <description>I don&amp;rsquo;t know how it is in your company, but in mine it&amp;rsquo;s considered a good practice to add ticket numbers to commit messages. It allows to easily determine why something was changed, etc. Makes sense, but this also means, that I should be adding this ticket to every message&amp;hellip; And this doesn&amp;rsquo;t make sense for me. I will accidentally avoid it from time to time or make a lot of typos.</description>
     </item>
-    
     <item>
       <title>Resize images from command line on MacOS</title>
       <link>https://gagor.pl/2021/11/resize-images-from-command-line-on-macos/</link>
       <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2021/11/resize-images-from-command-line-on-macos/</guid>
       <description>I was updating my blog and needed to generate few variants of images, in different resolution.
 Option 1 - sips There&amp;rsquo;s simple, builtin tool sips, that can be used for simple resizing 1:
@@ -40,28 +36,23 @@ Resize single image sips -Z 36 orig.png --out static/favicon36x36.png -Z - maint
 Warning
 Beware, without &amp;ndash;out param, it will overwrite images in place!</description>
     </item>
-    
     <item>
       <title>Homebrew - uninstall formula with dependencies</title>
       <link>https://gagor.pl/2021/11/homebrew-uninstall-formula-with-dependencies/</link>
       <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2021/11/homebrew-uninstall-formula-with-dependencies/</guid>
       <description>I use brew extensively on MacOS. It&amp;rsquo;s just as convenient as many Linux package managers. What I don&amp;rsquo;t like, it leaves dependencies after removal of formula. There&amp;rsquo;s simple way to clean it up by running one command 1.
 Uninstall with dependencies brew uninstall FORMULA brew autoremove Info
 In my case running brew autoremove actually removed few packages I really wanted to have. Check the output carefully!
 https://stackoverflow.com/questions/7323261/uninstall-remove-a-homebrew-package-including-all-its-dependencies&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
-    
     <item>
       <title>Moving from Linux to MacOS – first steps</title>
       <link>https://gagor.pl/2020/01/moving-from-linux-to-macos-first-steps/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2020/01/moving-from-linux-to-macos-first-steps/</guid>
       <description>Few years ago I moved from Linux desktop to MacOS for my business, day to day work. There were 2 main reasons for that:
 Corporations don&amp;rsquo;t like Linux - they can&amp;rsquo;t manage it, they can&amp;rsquo;t support it, so they blocked it with &amp;ldquo;Security policy&amp;rdquo;, ISO20001, or other nonsense. Actually they&amp;rsquo;re partially right but in different place - many business collaboration applications don&amp;rsquo;t work well on LInux (or they don&amp;rsquo;t work at all) Skype for Business - there&amp;rsquo;s open source alternative but to get full support you have to pay for additional codecs (as far as I remember) - it&amp;rsquo;s not working stable even in paid version Outlook and calendar support - I love Thunderbird and I use it for years, but calendar invitations didn&amp;rsquo;t work nice (honestly, they didn&amp;rsquo;t work nice even between different Outlook versions&amp;hellip;) Corporate VPN apps - Christ, I always was able to get it working eventually, but&amp;hellip; why bother I&amp;rsquo;m older, maybe lazier, maybe smarter - I don&amp;rsquo;t like to spend my time resolving problems that don&amp;rsquo;t give me any value.</description>
     </item>
-    
   </channel>
 </rss>

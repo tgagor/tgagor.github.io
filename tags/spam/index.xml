@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SPAM on timor&#39;s site</title>
     <link>https://gagor.pl/tags/spam/</link>
@@ -8,25 +8,22 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sun, 15 Sep 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/spam/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Sep 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/spam/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Spammer screwed up</title>
       <link>https://gagor.pl/2013/09/spammer-screwed-up/</link>
       <pubDate>Sun, 15 Sep 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2013/09/spammer-screwed-up/</guid>
       <description>I&amp;rsquo;ve just received a comment on my blog with text attached below. It looks like spam message template. I think it could be easily used for creation of banning rules, etc. Use it in a way that will make this dumbass spammer look even more stupid ;-)
 { {I have|I’ve} been {surfing|browsing} online more than {three|3|2|4} hours today, yet I never found any interesting article like yours. {It’s|It is} pretty worth enough for me.</description>
     </item>
-    
     <item>
       <title>Jak dokuczać spamerom</title>
       <link>https://gagor.pl/2012/12/jak-dokuczac-spamerom/</link>
       <pubDate>Tue, 18 Dec 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2012/12/jak-dokuczac-spamerom/</guid>
       <description>Dawno, dawno temu&amp;hellip; Za górami, za lasami&amp;hellip; czytałem sobie tekst Lemat&amp;rsquo;a o dokuczaniu spamerom i pomyślałem że sam też tak mogę i nawet chcę więc popełniłem skrypcik, który dla losowych słów generował maile. Skrypcik działał z dwa lata na mojej poprzedniej stronie i nie raz zdarzyło się tam jakiejś mendzie zapętlić. Jakoś nie miałem czasu od razu, a później zapomniałem wrzucić go na nową stronie i tak zostało - na pewien czas.</description>
     </item>
-    
   </channel>
 </rss>

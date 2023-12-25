@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Raspberry Pi on timor&#39;s site</title>
     <link>https://gagor.pl/tags/raspberry-pi/</link>
@@ -8,17 +8,16 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Fri, 13 Sep 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Sep 2013 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Raspberry Pi: pierwsze kroki</title>
       <link>https://gagor.pl/2013/09/raspberry-pi-pierwsze-kroki/</link>
       <pubDate>Fri, 13 Sep 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2013/09/raspberry-pi-pierwsze-kroki/</guid>
       <description>Wyprzeć się nie mogę że gadżety działające na Linuksie po prostu mnie kręcą, więc tylko kwestią czasu było aż Pi zawita na moim biurku. Zakupiłem więc model B w drugiej wersji, obudowę z możliwością mocowania VESA, kabelek HDMI, ładowarka z mojej myszy pasowała idealnie (5.05V i 1A) i na początek karta SD klasa 10 4GB.
 Szukając różnych systemów (a może ROM&amp;rsquo;ów) natrafiłem na oficjalną stronę: http://www.raspberrypi.org/downloads
 Na początek wystarczy a sprawdzając na stronach projektów okazało się że wersje na tej stronie są całkiem aktualne.</description>
     </item>
-    
   </channel>
 </rss>

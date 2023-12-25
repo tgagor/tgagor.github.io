@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CollectD on timor&#39;s site</title>
     <link>https://gagor.pl/tags/collectd/</link>
@@ -8,39 +8,34 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sun, 10 Jan 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/collectd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/collectd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grafana - installation and configuraton with InfluxDB and CollectD on Debian/Ubuntu</title>
       <link>https://gagor.pl/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</link>
       <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</guid>
       <description>Now when you have CollectD and InfluxDB installed you may configure Grafana 😃
 First configure repo with current Grafana version (select your distro):
 curl https://packagecloud.io/gpg.key | sudo apt-key add - deb https://packagecloud.io/grafana/testing/debian/ wheezy main Now install package (on wheezy I needed to install apt-transport-https to allow installation of packages from repo via HTTPS):
 apt-get update apt-get install -y apt-transport-https apt-get install -y grafana By default Grafana will use sqlite database to keep information about users, etc:</description>
     </item>
-    
     <item>
       <title>InfluxDB - installation and configuration on Debian/Ubuntu</title>
       <link>https://gagor.pl/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</link>
       <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</guid>
       <description>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
 Let&amp;rsquo;s start! On project page there is no info about repo but it&amp;rsquo;s available, configure it:
 curl -sL https://repos.influxdata.com/influxdb.key | apt-key add - echo &amp;#34;deb https://repos.influxdata.com/debian wheezy stable&amp;#34; &amp;gt; /etc/apt.sources.list.d/influxdb.conf for Ubuntu use url like (of course selecting your version):</description>
     </item>
-    
     <item>
       <title>CollectD - installation and configuration with InfluxDB on Debian/Ubuntu</title>
       <link>https://gagor.pl/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</link>
       <pubDate>Fri, 08 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</guid>
       <description>I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.
 Installation of collectd is easy on Debian because packages are in default repo. One problem is that packages may be old, ex. on wheezy it version 5.1. But in backports/backports-sloppy you may find current 5.</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on timor&#39;s site</title>
     <link>https://gagor.pl/tags/git/</link>
@@ -8,15 +8,14 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automatically add ticket ID to every commit message in Git</title>
       <link>https://gagor.pl/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</link>
       <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</guid>
       <description>I don&amp;rsquo;t know how it is in your company, but in mine it&amp;rsquo;s considered a good practice to add ticket numbers to commit messages. It allows to easily determine why something was changed, etc. Makes sense, but this also means, that I should be adding this ticket to every message&amp;hellip; And this doesn&amp;rsquo;t make sense for me. I will accidentally avoid it from time to time or make a lot of typos.</description>
     </item>
-    
   </channel>
 </rss>

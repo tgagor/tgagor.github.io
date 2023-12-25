@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kubernetes on timor&#39;s site</title>
     <link>https://gagor.pl/tags/kubernetes/</link>
@@ -8,17 +8,16 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Wed, 22 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes Operators</title>
       <link>https://gagor.pl/books/2022/kubernetes-operators/</link>
       <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2022/kubernetes-operators/</guid>
       <description> Kubernetes OperatorsAutomating the Container Orchestration Platform
 Authors: Jason Dobies, Joshua Wood
 amazon.plamazon.comhelion.pl </description>
     </item>
-    
   </channel>
 </rss>

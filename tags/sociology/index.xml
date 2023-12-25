@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sociology on timor&#39;s site</title>
     <link>https://gagor.pl/tags/sociology/</link>
@@ -8,38 +8,33 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/sociology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/sociology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jak zdobyć przyjaciół i zjednać sobie ludzi</title>
       <link>https://gagor.pl/books/2023/jak-zjednac-sobie-ludzi/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/jak-zjednac-sobie-ludzi/</guid>
       <description> Jak zdobyć przyjaciół i zjednać sobie ludziAuthor: Carnegie Dale
 empik.com </description>
     </item>
-    
     <item>
       <title>Collaborating with the Enemy</title>
       <link>https://gagor.pl/books/2023/collaborating-with-the-enemy/</link>
       <pubDate>Mon, 09 Oct 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2023/collaborating-with-the-enemy/</guid>
       <description> Collaborating with the EnemyHow to Work with People You Don&amp;rsquo;t Agree with or Like or Trust
 Author: Adam Kahane
 amazon.com </description>
     </item>
-    
     <item>
       <title>Błądzą wszyscy (ale nie ja)</title>
       <link>https://gagor.pl/books/2022/bladza-wszyscy-ale-nie-ja/</link>
       <pubDate>Thu, 03 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/books/2022/bladza-wszyscy-ale-nie-ja/</guid>
       <description> Błądzą wszyscy (ale nie ja)Dlaczego usprawiedliwiamy głupie poglądy, złe decyzje i szkodliwe działania?
 Authors: Elliot Aronson, Carol Tavris
 amazon.com </description>
     </item>
-    
   </channel>
 </rss>

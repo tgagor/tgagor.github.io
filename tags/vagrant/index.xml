@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vagrant on timor&#39;s site</title>
     <link>https://gagor.pl/tags/vagrant/</link>
@@ -8,17 +8,16 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 29 Dec 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/vagrant/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Dec 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/vagrant/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ansible on Vagrant - skipping: no hosts matched</title>
       <link>https://gagor.pl/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</link>
       <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</guid>
       <description>I have some Ansible roles to configure my vps, Raspberry Pi, etc. I like to test them before I broke something on my real, not clustered machines - I use Vagrant for that.
 But with it I had one problem - in playbooks I define hosts as groups of severs ex. web for my vps:
 Example Ansible playbook - hosts: web gather_facts: True sudo: True ... But testing machine wasn&amp;rsquo;t in this group and when I run vagrant I could only see:</description>
     </item>
-    
   </channel>
 </rss>

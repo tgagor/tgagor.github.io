@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>XCache on timor&#39;s site</title>
     <link>https://gagor.pl/tags/xcache/</link>
@@ -8,17 +8,16 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Wed, 02 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://gagor.pl/tags/xcache/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Nov 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/xcache/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Porównanie optymalizatorów PHP - eAccelerator, PHP APC, XCache</title>
       <link>https://gagor.pl/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</link>
       <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://gagor.pl/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</guid>
       <description>Przez pewien czas korzystałem z eAcceleratora do przyspieszenia działania stron pisanych w PHP&amp;rsquo;ie ale czasem bywał niestabilny. Aktualizacje pojawiały się rzadko a od czasu do czasu miewałem problemy ze stabilnością tej wtyczki na kilku bardziej skomplikowanych aplikacjach. Zdarzało się że pomimo zmiany kodu w skrypcie php, eAccelerator serwował wciąż stary plik - konieczny był restart Apache&amp;rsquo;go by wszystko działało jak trzeba.
 Zacząłem szukać alternatywy i trafiłem na dwa moduły:
 APC (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w PHP od wersji 5.</description>
     </item>
-    
   </channel>
 </rss>
