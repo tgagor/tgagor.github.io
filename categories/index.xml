@@ -8,8 +8,15 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tip</title>
+      <link>https://gagor.pl/categories/tip/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/categories/tip/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Book</title>
       <link>https://gagor.pl/categories/book/</link>
@@ -22,13 +29,6 @@
       <link>https://gagor.pl/categories/howto/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/categories/howto/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Tip</title>
-      <link>https://gagor.pl/categories/tip/</link>
-      <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/categories/tip/</guid>
       <description></description>
     </item>
     <item>

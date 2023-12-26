@@ -8,8 +8,16 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Fri, 21 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/categories/tip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use Github with SSH on port 443</title>
+      <link>https://gagor.pl/2023/12/use-github-with-ssh-on-port-443/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2023/12/use-github-with-ssh-on-port-443/</guid>
+      <description>Today, I was trying to pull/push repos from Github and I was getting timeout errors. I use SSH for clonning and I prefer it this way over HTTPS.
+I was looking for the reason but it felt like a temporary glitch, either on Github&amp;rsquo;s or my provider&amp;rsquo;s side. I was googling for anything, that could help me and I found1 the way to use Github ssh clone/push/pull via SSH (as I want), but via port 443&amp;hellip; Simulating HTTPS traffic&amp;hellip; OK&amp;hellip;</description>
+    </item>
     <item>
       <title>Ubuntu - Key is stored in legacy trusted.gpg keyring...</title>
       <link>https://gagor.pl/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</link>
