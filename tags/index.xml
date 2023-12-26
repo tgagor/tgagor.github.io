@@ -11,6 +11,13 @@
     <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>hugo</title>
+      <link>https://gagor.pl/tags/hugo/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Linux</title>
       <link>https://gagor.pl/tags/linux/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
@@ -18,24 +25,31 @@
       <description></description>
     </item>
     <item>
-      <title>Business</title>
-      <link>https://gagor.pl/tags/business/</link>
-      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/business/</guid>
+      <title>Politics</title>
+      <link>https://gagor.pl/tags/politics/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/politics/</guid>
       <description></description>
     </item>
     <item>
       <title>Psychology</title>
       <link>https://gagor.pl/tags/psychology/</link>
-      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/tags/psychology/</guid>
       <description></description>
     </item>
     <item>
       <title>Sociology</title>
       <link>https://gagor.pl/tags/sociology/</link>
-      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/tags/sociology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business</title>
+      <link>https://gagor.pl/tags/business/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/business/</guid>
       <description></description>
     </item>
     <item>
@@ -228,24 +242,10 @@
       <description></description>
     </item>
     <item>
-      <title>Politics</title>
-      <link>https://gagor.pl/tags/politics/</link>
-      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/politics/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Fantasy</title>
       <link>https://gagor.pl/tags/fantasy/</link>
       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/tags/fantasy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>hugo</title>
-      <link>https://gagor.pl/tags/hugo/</link>
-      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/hugo/</guid>
       <description></description>
     </item>
     <item>

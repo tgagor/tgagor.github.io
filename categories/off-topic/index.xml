@@ -8,8 +8,16 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sat, 03 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/categories/off-topic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Changing comments provider for my blog</title>
+      <link>https://gagor.pl/2023/12/changing-comments-provider-for-my-blog/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2023/12/changing-comments-provider-for-my-blog/</guid>
+      <description>I&amp;rsquo;ve been thinking about switching comments system to something different on my blog. Since I moved to Hugo, I used Disqus. Integration was easy and it was also easy to move comments from Wordpress. Maybe the move was easy, but people somehow don&amp;rsquo;t like the interface. It&amp;rsquo;s bloated and to be honest, when I see comments with Disqus - I don&amp;rsquo;t really want to share anything&amp;hellip;
+Looks like people think the same, because I receive 6 comments since I switched from Wordpress 3 years ago 😄 I was thinking about switch to something else, something different, but I was waiting for this punch, until Disqus went to far and started showing adds on my page!</description>
+    </item>
     <item>
       <title>Ford S-MAX - kasowanie ostrzeżenia wymiany oleju</title>
       <link>https://gagor.pl/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</link>

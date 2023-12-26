@@ -2,16 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gagor.pl/books/2023/48-praw-wladzy/</loc>
+    <lastmod>2023-12-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gagor.pl/authors/</loc>
+    <lastmod>2023-12-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/categories/book/</loc>
+    <lastmod>2023-12-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/books/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/categories/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://gagor.pl/2023/12/changing-comments-provider-for-my-blog/</loc>
+    <lastmod>2023-12-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/hugo/</loc>
+    <lastmod>2023-12-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gagor.pl/tags/linux/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://gagor.pl/categories/off-topic/</loc>
+    <lastmod>2023-12-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/politics/</loc>
+    <lastmod>2023-12-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gagor.pl/posts/</loc>
+    <lastmod>2023-12-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/psychology/</loc>
+    <lastmod>2023-12-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/sociology/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/</loc>
@@ -29,22 +56,10 @@
     <loc>https://gagor.pl/2023/12/use-github-with-ssh-on-port-443/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/categories/book/</loc>
-    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/books/</loc>
-    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/tags/business/</loc>
     <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/books/2023/jak-zjednac-sobie-ludzi/</loc>
-    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/psychology/</loc>
-    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/sociology/</loc>
     <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/leadership/</loc>
@@ -167,9 +182,6 @@
     <loc>https://gagor.pl/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</loc>
     <lastmod>2022-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/categories/off-topic/</loc>
-    <lastmod>2022-09-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/books/2022/czy-jestes-tym-ktory-puka/</loc>
     <lastmod>2022-08-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -269,9 +281,6 @@
     <loc>https://gagor.pl/books/2021/ksiaze/</loc>
     <lastmod>2021-03-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/tags/politics/</loc>
-    <lastmod>2021-03-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/2021/02/how-to-run-jmx-monitoring-in-docker-image/</loc>
     <lastmod>2021-02-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -300,9 +309,6 @@
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/2020/10/bye-bye-wordpress/</loc>
-    <lastmod>2020-10-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/hugo/</loc>
     <lastmod>2020-10-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/books/2020/w-transie-investowania/</loc>
