@@ -131,6 +131,13 @@ server_tokens off; more_set_headers &amp;#39;Server: BadAss&amp;#39;; And it&amp
 error_page 403 404 http://mysite.com/areyoulost; error_page 502 503 504 /500.html; </description>
     </item>
     <item>
+      <title>Hybrid Rainbow DB</title>
+      <link>https://gagor.pl/2012/11/hybrid-rainbow-db/</link>
+      <pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2012/11/hybrid-rainbow-db/</guid>
+      <description>Jakiś czas temu napisałem swoją własną tęczową tablicę i odkąd zainteresowałem się tym tematem zastanawiałem się jak jeszcze bardziej usprawnić tę aplikację. Testowałem różne długości łańcuchów i zauważyłem że zwiększanie długości łańcucha bardzo szybko powoduje znaczne zwiększenie ilości kolizji, co drastycznie obniżało wydajność (nie wspominając o czasie potrzebnym na wygenerowanie całej tablicy). Z tego powodu ostateczna implementacja choć była rzeczywiście tęczową tablicą działała bardziej jak tablica hashy - bo łańcuchy były bardzo krótkie.</description>
+    </item>
+    <item>
       <title>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic</title>
       <link>https://gagor.pl/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</link>
       <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>

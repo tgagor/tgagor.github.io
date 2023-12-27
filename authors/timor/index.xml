@@ -465,6 +465,14 @@ empik.com </description>
 empik.com </description>
     </item>
     <item>
+      <title>Mort</title>
+      <link>https://gagor.pl/books/2021/pratchett-mort/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/books/2021/pratchett-mort/</guid>
+      <description> MortAuthor: Terry Pratchett
+empik.com </description>
+    </item>
+    <item>
       <title>Równoumagicznienie</title>
       <link>https://gagor.pl/books/2021/pratchett-rownoumagicznienie/</link>
       <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
@@ -1811,6 +1819,13 @@ apt-get install ldap-utils Teraz możemy próbować przeszukiwać katalog np.</d
 #!/bin/bash IP=&amp;#34;10.0.0.121&amp;#34; DBS=`curl -sS -X GET http://$IP:5984/_all_dbs | sed -r &amp;#34;s/([,\&amp;#34;[])|(\])+/ /g&amp;#34;` for d in $DBS; do curl -H &amp;#34;Content-Type: application/json&amp;#34; -X POST http://$IP:5984/$d/_compact done More informations about compacting could be found here (also for version 1.</description>
     </item>
     <item>
+      <title>Hybrid Rainbow DB</title>
+      <link>https://gagor.pl/2012/11/hybrid-rainbow-db/</link>
+      <pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2012/11/hybrid-rainbow-db/</guid>
+      <description>Jakiś czas temu napisałem swoją własną tęczową tablicę i odkąd zainteresowałem się tym tematem zastanawiałem się jak jeszcze bardziej usprawnić tę aplikację. Testowałem różne długości łańcuchów i zauważyłem że zwiększanie długości łańcucha bardzo szybko powoduje znaczne zwiększenie ilości kolizji, co drastycznie obniżało wydajność (nie wspominając o czasie potrzebnym na wygenerowanie całej tablicy). Z tego powodu ostateczna implementacja choć była rzeczywiście tęczową tablicą działała bardziej jak tablica hashy - bo łańcuchy były bardzo krótkie.</description>
+    </item>
+    <item>
       <title>LVM na RAID5 i dysku z sektorami 4KB</title>
       <link>https://gagor.pl/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/</link>
       <pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate>
@@ -2366,6 +2381,14 @@ Tak zainstalowana baza nasłuchuje na lokalnym porcie (localhost:3306) umożliwi
 Dobrym przykładem jest serwer FTP z wirtualnymi kontami użytkowników. Czyli usługa serwera działa jako pewien nieuprzywilejowany użytkownik systemowy (przeważnie ftp) przypisany do nieuprzywilejowanej grupy (np. nogroup). Konta użytkowników serwera FTP są zdefiniowane w bazie danych lub serwerze LDAP.</description>
     </item>
     <item>
+      <title>RainbowDB</title>
+      <link>https://gagor.pl/2011/08/rainbowdb/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2011/08/rainbowdb/</guid>
+      <description>Pewnego popołudnia przeczytałem artykuł o tęczowych tabelach i pod jego wpływem zacząłem kombinować jak zrobić coś takiego ale swojego.
+Do bazy wrzuciłem cały słownik z aspell&amp;rsquo;a dla języka polskiego (słowa z ogonkami i bez), angielskiego, kilka słowników z popularnymi hasłami, długą listę haseł z yourock i kilka innych. Sporo się nakombinowałem aby wygenerować dużo kombinacji szczególnie pod kątem polskich haseł (wszystkie: misiaczki, dupeczki, itp&amp;hellip;) razem z różnymi popularnymi modyfikacjami (typu: misiaczki1, DUPECZKI, etc&amp;hellip;).</description>
+    </item>
+    <item>
       <title>Włam na lokalne konto root’a</title>
       <link>https://gagor.pl/2011/08/wlam-na-lokalne-konto-roota/</link>
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
@@ -2399,6 +2422,15 @@ I&amp;rsquo;m generalist, touched many, strange topic across my career. I used t
       <description> Rzecz o istocie informatykiAlgorytmika
 Authors: David Harel, Yishai Feldman
 empik.com </description>
+    </item>
+    <item>
+      <title>Więcej perełek oprogramowania</title>
+      <link>https://gagor.pl/books/2010/wiecej-perelek-oprogramowania/</link>
+      <pubDate>Wed, 10 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/books/2010/wiecej-perelek-oprogramowania/</guid>
+      <description> Więcej perełek oprogramowaniaWyznania programisty
+Author: Jon Bentley
+gandalf.com.pl </description>
     </item>
     <item>
       <title>Jeszcze krótsza historia czasu</title>
@@ -2476,6 +2508,15 @@ empik.com </description>
       <guid>https://gagor.pl/books/2005/lotr3/</guid>
       <description> Władca PierścieniPowrót króla. Tom 3
 Author: J. R. R. Tolkien
+empik.com </description>
+    </item>
+    <item>
+      <title>Hobbit</title>
+      <link>https://gagor.pl/books/2005/hobbit/</link>
+      <pubDate>Fri, 11 Feb 2005 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/books/2005/hobbit/</guid>
+      <description> HobbitCzyli tam i z powrotem
+Author: J.R.R. Tolkien
 empik.com </description>
     </item>
     <item>

@@ -299,6 +299,9 @@
     <loc>https://gagor.pl/books/2021/pratchett-czarodzicielstwo/</loc>
     <lastmod>2021-01-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://gagor.pl/books/2021/pratchett-mort/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gagor.pl/books/2021/pratchett-rownoumagicznienie/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -959,10 +962,19 @@
     <loc>https://gagor.pl/tags/ext4/</loc>
     <lastmod>2012-11-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://gagor.pl/2012/11/hybrid-rainbow-db/</loc>
+    <lastmod>2012-11-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gagor.pl/tags/lvm/</loc>
     <lastmod>2012-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/</loc>
+    <lastmod>2012-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/categories/projects/</loc>
+    <lastmod>2012-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/rainbowdb/</loc>
     <lastmod>2012-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/2012/11/instalacja-drukarki-i-skanera-brother-dcp-130c-na-ubuntu-12-04/</loc>
@@ -1289,7 +1301,13 @@
     <loc>https://gagor.pl/tags/grub/</loc>
     <lastmod>2011-08-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://gagor.pl/tags/hash/</loc>
+    <lastmod>2011-08-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gagor.pl/2011/08/klastrowanie-sesji-php-z-memcached/</loc>
+    <lastmod>2011-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/md5/</loc>
     <lastmod>2011-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/2011/08/mysql-na-szybko/</loc>
@@ -1299,6 +1317,9 @@
     <lastmod>2011-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/2011/08/quota-na-katalog-w-xfsie/</loc>
+    <lastmod>2011-08-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/2011/08/rainbowdb/</loc>
     <lastmod>2011-08-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/rbl/</loc>
@@ -1321,6 +1342,9 @@
   </url><url>
     <loc>https://gagor.pl/books/2010/algorytmika/</loc>
     <lastmod>2010-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/books/2010/wiecej-perelek-oprogramowania/</loc>
+    <lastmod>2010-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/books/2009/krotka-historia-czasu/</loc>
     <lastmod>2009-10-29T00:00:00+00:00</lastmod>
@@ -1348,6 +1372,9 @@
   </url><url>
     <loc>https://gagor.pl/books/2005/lotr3/</loc>
     <lastmod>2005-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/books/2005/hobbit/</loc>
+    <lastmod>2005-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/books/2000/kukulcze-jajo/</loc>
     <lastmod>2000-02-09T00:00:00+00:00</lastmod>
