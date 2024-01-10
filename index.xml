@@ -8,8 +8,16 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Year&#39;s reflections and Leadership path</title>
+      <link>https://gagor.pl/2024/01/new-years-reflections-and-leadership-path/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/01/new-years-reflections-and-leadership-path/</guid>
+      <description>Almost 2 years ago I was promoted to a Team Lead position. Since then at least half of my time is dedidcated to &amp;ldquo;the people&amp;rsquo;s stuff&amp;rdquo; 😄
+On one side, I have less time to code and write about technical stuff, which sometimes makes me feel guilty (just a little bit). On the other side, I&amp;rsquo;m discovering a whole new world of possibilities to solve technical problems without touching the code (almost).</description>
+    </item>
     <item>
       <title>How to run Google Tasks in separate browser tab?</title>
       <link>https://gagor.pl/2024/01/how-to-run-google-tasks-in-separate-browser-tab/</link>
