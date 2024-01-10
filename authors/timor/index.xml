@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>timor on timor&#39;s site</title>
+    <title>timor on Tom&#39;s Blog</title>
     <link>https://gagor.pl/authors/timor/</link>
-    <description>Recent content in timor on timor&#39;s site</description>
+    <description>Recent content in timor on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
@@ -2428,7 +2428,7 @@ for i in `seq 1 100`; do (cat tekst.txt; uuencode test.zip test.zip) \ | mail -s
       <link>https://gagor.pl/about/</link>
       <pubDate>Fri, 26 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/about/</guid>
-      <description>My name is Tomasz Gągor, for some people known as TiMoR.
+      <description>My name is Tomasz Gągor.
 I&amp;rsquo;m passionate day to day DevOps practitioner. I enjoy anything Linux driven, especially containerised web services. Security freak who loves to work with, managing, scaling Cloud systems.
 I&amp;rsquo;m generalist, touched many, strange topic across my career. I used to speak with DBAs about advantages of one DB engine over the another and how to tune them for better performance. With Network guys, it happen to me to debug IKE proto by raw packets.</description>
     </item>
