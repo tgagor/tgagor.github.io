@@ -646,7 +646,7 @@ I&amp;rsquo;ve started looking into files and found ghost_dir/content/data/ghost
 sqlite3 content/data/ghost-dev.db Then you could see whats your mail (and other info):</description>
     </item>
     <item>
-      <title>Inodes on XFS</title>
+      <title>Inodes exhaustion on XFS</title>
       <link>https://gagor.pl/2013/11/inodes-on-xfs/</link>
       <pubDate>Wed, 27 Nov 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/11/inodes-on-xfs/</guid>
