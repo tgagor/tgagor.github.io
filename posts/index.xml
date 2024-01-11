@@ -8,8 +8,19 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tuning Cloudflare page configuration for speed and security</title>
+      <link>https://gagor.pl/2024/01/tuning-cloudflare-page-configuration-for-speed-and-security/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/01/tuning-cloudflare-page-configuration-for-speed-and-security/</guid>
+      <description>Info
+I use free tier of Cloudflare and all recommendations assume only those are available.
+Why to cache statically generated blog? My Blog is statically generated website served from Github Pages. As Github don&amp;rsquo;t allow to easily set my own domain (at least in free version), I needed some kind of proxy that:
+can server page from my domain, will provide valid certificate for HTTPS. Info
+I know HTTPS for static site is a non-sense, but to keep it performant with HTTP/2 and HTTP/3 - you need it.</description>
+    </item>
     <item>
       <title>New Year&#39;s reflections and Leadership path</title>
       <link>https://gagor.pl/2024/01/new-years-reflections-and-leadership-path/</link>
