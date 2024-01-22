@@ -16,7 +16,7 @@
       <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</guid>
       <description>After reading some SEO stuff I wanted to add some meta tags to my WordPress blog. I found this site: codex.wordpress.org/Meta_Tags_in_WordPress.
-So WordPress thinks that it&amp;rsquo;s not necessary to have this meta tags any more&amp;hellip; But I want it! 😃 Next funny thing is how they suggest to add meta tags: copy header.php - what about theme updates?
+So WordPress thinks that it&amp;rsquo;s not necessary to have this meta tags any more&amp;hellip; But I want it! &amp;#x1f603; Next funny thing is how they suggest to add meta tags: copy header.php - what about theme updates?
 I prefer to use functions.php file - just create it in your courrent theme directory with such content:</description>
     </item>
   </channel>

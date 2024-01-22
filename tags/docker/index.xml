@@ -59,7 +59,7 @@ As it&amp;rsquo;s often my daily job to prepare best in class containers, that a
       <guid>https://gagor.pl/2022/06/back-on-the-big-stage/</guid>
       <description>I&amp;rsquo;m back on the big stage!
 I haven&amp;rsquo;t attend any big conferences as presenter for some time, but this year will change it. I&amp;rsquo;m starting big, with a talk: Docker base images - Ideas how to manage them on scale on Devoxx conference in Kraków, that will take place on 22-24th June 2022.
-Want to meet? Meet there 😄
+Want to meet? Meet there &amp;#x1f604;
 Update I uploaded slides from presentation to my Github account.
 There&amp;rsquo;s also a video available: </description>
     </item>
@@ -131,7 +131,7 @@ Install prerequisites:</description>
       <link>https://gagor.pl/2016/02/some-useful-commands-in-docker/</link>
       <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/some-useful-commands-in-docker/</guid>
-      <description>I started playing with Docker and here I will write some commands that where not so obvious at beginning 😃
+      <description>I started playing with Docker and here I will write some commands that where not so obvious at beginning &amp;#x1f603;
 List running containers:
 docker ps List also not running containers:
 docker ps -a Remove all containers (be careful with that):

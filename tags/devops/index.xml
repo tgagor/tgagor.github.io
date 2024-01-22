@@ -25,7 +25,7 @@ NVM is nice and simple, how hard it might be to get it working with CI/CD? Over 
       <guid>https://gagor.pl/2022/06/back-on-the-big-stage/</guid>
       <description>I&amp;rsquo;m back on the big stage!
 I haven&amp;rsquo;t attend any big conferences as presenter for some time, but this year will change it. I&amp;rsquo;m starting big, with a talk: Docker base images - Ideas how to manage them on scale on Devoxx conference in Kraków, that will take place on 22-24th June 2022.
-Want to meet? Meet there 😄
+Want to meet? Meet there &amp;#x1f604;
 Update I uploaded slides from presentation to my Github account.
 There&amp;rsquo;s also a video available: </description>
     </item>
@@ -54,7 +54,7 @@ helion.pl </description>
       <guid>https://gagor.pl/2014/03/ansible-ssh-pipelining/</guid>
       <description>In recent Ansible update to 1.5 version there is really nice feature ssh pipelining. This option is serious alternative to accelerated mode.
 Just add to you config file (ex. ~/.ansible.cfg):
-[ssh_connection] pipelining=True Now run any playbook - you will see the difference 😄
+[ssh_connection] pipelining=True Now run any playbook - you will see the difference &amp;#x1f604;
 Source (and extended info about):
 http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansible-1-5/</description>
     </item>

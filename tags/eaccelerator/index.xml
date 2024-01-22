@@ -24,7 +24,7 @@ APC (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w P
       <link>https://gagor.pl/2011/08/optymalizacja-php-z-eacceleratorem/</link>
       <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/08/optymalizacja-php-z-eacceleratorem/</guid>
-      <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy 😃
+      <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy &amp;#x1f603;
 Niestety nie ma go w repozytoriach Debiana, więc trzeba go sobie skompilować - cały proces jest dość prosty. Zaczynamy od pobrania najświeższej paczki, obecnie jest to wersja 0.9.5.3:
 Pobierz eAccelerator (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)
 Pobieramy i rozpakowujemy pliki:</description>

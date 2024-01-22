@@ -41,7 +41,7 @@ W: http://ppa.launchpad.net/yubico/stable/ubuntu/dists/jammy/InRelease: Key is s
       <guid>https://gagor.pl/2022/06/back-on-the-big-stage/</guid>
       <description>I&amp;rsquo;m back on the big stage!
 I haven&amp;rsquo;t attend any big conferences as presenter for some time, but this year will change it. I&amp;rsquo;m starting big, with a talk: Docker base images - Ideas how to manage them on scale on Devoxx conference in Kraków, that will take place on 22-24th June 2022.
-Want to meet? Meet there 😄
+Want to meet? Meet there &amp;#x1f604;
 Update I uploaded slides from presentation to my Github account.
 There&amp;rsquo;s also a video available: </description>
     </item>
@@ -59,7 +59,7 @@ I&amp;rsquo;ve read few documents about different approaches 1 2 3. I wanted to 
       <link>https://gagor.pl/2021/11/shucking-wd-elements-14tb/</link>
       <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/11/shucking-wd-elements-14tb/</guid>
-      <description>I used to have RAID (or at least some variation of it) for my main storage. For redundancy, in case of disk failure. I started with some crazy LVM mirrors done on two disks of different size. Sync job was starting on every boot 😄
+      <description>I used to have RAID (or at least some variation of it) for my main storage. For redundancy, in case of disk failure. I started with some crazy LVM mirrors done on two disks of different size. Sync job was starting on every boot &amp;#x1f604;
 Then came time for RAID5 on mdadm + LVM for volume management. It was working nice until the moment when disks became bigger. Long array rebuilds or checks, required my PC to stay turned on overnight just to validate if stuff works still.</description>
     </item>
     <item>
@@ -135,7 +135,7 @@ support AC standard have 5GHz network support (2,4GHz channels are cluttered hea
       <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/01/optimize-nginx-for-performance/</guid>
       <description>There are many possible real life cases and not all optimization technics will be suitable for you but I hope it will be a good starting place.
-Also you shouldn&amp;rsquo;t copy paste examples with faith that they will make your server fly 😃 You have to support your decisions with excessive tests and help of monitoring system (ex. Grafana).
+Also you shouldn&amp;rsquo;t copy paste examples with faith that they will make your server fly &amp;#x1f603; You have to support your decisions with excessive tests and help of monitoring system (ex. Grafana).
 Cache static and dynamic content Setting caching static and dynamic content strategy may offload your server from additional load from repetitive downloads of same, rarely updated files.</description>
     </item>
     <item>
@@ -143,7 +143,7 @@ Cache static and dynamic content Setting caching static and dynamic content stra
       <link>https://gagor.pl/2016/01/xenserver-export-vm-to-file/</link>
       <pubDate>Tue, 12 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/01/xenserver-export-vm-to-file/</guid>
-      <description>Sometime you need to make quick and dirty image backup of VM running on XenServer and this post is about such case 😃
+      <description>Sometime you need to make quick and dirty image backup of VM running on XenServer and this post is about such case &amp;#x1f603;
 List machines:
 xl list Name ID Mem VCPUs State Time(s) Domain-0 0 4066 8 r----- 3526567.3 webfront1.example.com 1 4096 4 r----- 3186487.2 webfront2.example.com 2 2048 2 -b---- 920408.2 Now you may export one:
 xe vm-export vm=webfront1.example.com filename=/srv/backup/webfront.xva Export succeeded You may also use uuid for that - list machines with xe vm-list (best with less) and then:</description>
@@ -161,7 +161,7 @@ xe vm-export vm=webfront1.example.com filename=/srv/backup/webfront.xva Export s
       <link>https://gagor.pl/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</link>
       <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</guid>
-      <description>Now when you have CollectD and InfluxDB installed you may configure Grafana 😃
+      <description>Now when you have CollectD and InfluxDB installed you may configure Grafana &amp;#x1f603;
 First configure repo with current Grafana version (select your distro):
 curl https://packagecloud.io/gpg.key | sudo apt-key add - deb https://packagecloud.io/grafana/testing/debian/ wheezy main Now install package (on wheezy I needed to install apt-transport-https to allow installation of packages from repo via HTTPS):
 apt-get update apt-get install -y apt-transport-https apt-get install -y grafana By default Grafana will use sqlite database to keep information about users, etc:</description>
@@ -222,7 +222,7 @@ Example Ansible playbook - hosts: web gather_facts: True sudo: True ... But test
       <link>https://gagor.pl/2015/12/mysql-reset-root-password/</link>
       <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2015/12/mysql-reset-root-password/</guid>
-      <description>It will happen from time to time, that you&amp;rsquo;re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn&amp;rsquo;t be used in app 😃 ) but will work for any user.
+      <description>It will happen from time to time, that you&amp;rsquo;re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn&amp;rsquo;t be used in app &amp;#x1f603; ) but will work for any user.
 shutdown db service mysql stop create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt SET PASSWORD FOR &amp;#34;root&amp;#34;@&amp;#34;localhost&amp;#34; = PASSWORD(&amp;#34;HereYourNewPassword&amp;#34;); start mysqld with --init-file param mysqld_safe --init-file=/tmp/pwchange.</description>
     </item>
     <item>
@@ -258,7 +258,7 @@ Order deny,allow Deny from all AuthName &amp;#34;htaccess password prompt&amp;#3
       <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/07/copy-gtp-partiotion-table-between-disks/</guid>
       <description>When configuring RAID it&amp;rsquo;s quite important to have the same partition tables on every disk. I&amp;rsquo;v done this many times on msdos partition tables like this:
-sfdisk -d /dev/sda | sfdisk /dev/sdb but it&amp;rsquo;s not working any more on GPT partition tables. Hopefully it still can be done but with different toolstack 😄
+sfdisk -d /dev/sda | sfdisk /dev/sdb but it&amp;rsquo;s not working any more on GPT partition tables. Hopefully it still can be done but with different toolstack &amp;#x1f604;
 Install gdisk:
 apt-get install -y gdisk Then use sgdisk like this:
 sgdisk -R /dev/sd_dest /dev/sd_src sgdisk -G /dev/sd_dest First command will copy partition from /dev/sd_src to /dev/sd_dest.</description>
@@ -326,7 +326,7 @@ postfix reload Test if it works:</description>
       <guid>https://gagor.pl/2014/03/ansible-ssh-pipelining/</guid>
       <description>In recent Ansible update to 1.5 version there is really nice feature ssh pipelining. This option is serious alternative to accelerated mode.
 Just add to you config file (ex. ~/.ansible.cfg):
-[ssh_connection] pipelining=True Now run any playbook - you will see the difference 😄
+[ssh_connection] pipelining=True Now run any playbook - you will see the difference &amp;#x1f604;
 Source (and extended info about):
 http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansible-1-5/</description>
     </item>
@@ -356,7 +356,7 @@ sudo apt-get update sudo apt-get install mariadb-server It could be better to in
       <link>https://gagor.pl/2014/01/nginx-enabling-spdy-with-freeware-certificate/</link>
       <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/01/nginx-enabling-spdy-with-freeware-certificate/</guid>
-      <description>I was thinking about allowing access to my website using SPDY protocol for better performance and security (and for fun of course 😃 ). But SPDY have one disadvantage - you need SSL certificate signed by known authority that will verfiy in common browsers. So you can&amp;rsquo;t use self signed certificates because everyone will see a warning entering your site. Certs are quite expensive so I started searching for free one and to my surprise I found such!</description>
+      <description>I was thinking about allowing access to my website using SPDY protocol for better performance and security (and for fun of course &amp;#x1f603; ). But SPDY have one disadvantage - you need SSL certificate signed by known authority that will verfiy in common browsers. So you can&amp;rsquo;t use self signed certificates because everyone will see a warning entering your site. Certs are quite expensive so I started searching for free one and to my surprise I found such!</description>
     </item>
     <item>
       <title>Regenerate thumbnails in Shotwell 0.15 (for last month)</title>
@@ -491,7 +491,7 @@ Na początek wystarczy a sprawdzając na stronach projektów okazało się że w
       <link>https://gagor.pl/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/</link>
       <pubDate>Mon, 09 Sep 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/</guid>
-      <description>Polubiłem Nginx&amp;rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach 😃
+      <description>Polubiłem Nginx&amp;rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach &amp;#x1f603;
 Słowo wstępu Niektóre rewrite&amp;rsquo;y kończą się znakiem ? - czemu?
 Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną $request_uri to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku ?</description>
     </item>
@@ -751,7 +751,7 @@ Błąd podczas przydzielania struktury icount: Memory allocation failed</descrip
       <pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</guid>
       <description>Pomimo iż Linux uchodzi za stabilne środowisko to raz na jakiś czas trafi się ciężka zwiecha - z powodu przeciążenia, awarii sprzętu&amp;hellip; nieistotne&amp;hellip;
-Załóżmy że licho wzięło za cel główny serwer plików lub bazę danych dla wielu, wielu stron internetowych. Dostać się po ssh nie możemy bo lecą timeout&amp;rsquo;y, a siedząc bezpośrednio przy klawiaturze konsola nie reaguje. Mimo to coś ostro daje po dyskach, więc ewentualny twardy reset to na bank utrata części plików&amp;hellip; jeśli system po nim w ogóle wstanie&amp;hellip; 😑</description>
+Załóżmy że licho wzięło za cel główny serwer plików lub bazę danych dla wielu, wielu stron internetowych. Dostać się po ssh nie możemy bo lecą timeout&amp;rsquo;y, a siedząc bezpośrednio przy klawiaturze konsola nie reaguje. Mimo to coś ostro daje po dyskach, więc ewentualny twardy reset to na bank utrata części plików&amp;hellip; jeśli system po nim w ogóle wstanie&amp;hellip; &amp;#x1f611;</description>
     </item>
     <item>
       <title>approx - cachujące proxy dla repozytoriów Debiana</title>
@@ -782,7 +782,7 @@ Na szczęście można to zrobić w prosty sposób:</description>
       <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid>
       <description>Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.
-Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić 😃</description>
+Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić &amp;#x1f603;</description>
     </item>
     <item>
       <title>Konfiguracja backportów na Debianie</title>
@@ -797,7 +797,7 @@ Rozwiązaniem tego problemu może być instalacja pakietów z testowej gałęzi
       <link>https://gagor.pl/2011/08/optymalizacja-php-z-eacceleratorem/</link>
       <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/08/optymalizacja-php-z-eacceleratorem/</guid>
-      <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy 😃
+      <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy &amp;#x1f603;
 Niestety nie ma go w repozytoriach Debiana, więc trzeba go sobie skompilować - cały proces jest dość prosty. Zaczynamy od pobrania najświeższej paczki, obecnie jest to wersja 0.9.5.3:
 Pobierz eAccelerator (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)
 Pobieramy i rozpakowujemy pliki:</description>
@@ -823,7 +823,7 @@ Niestety wszystko to diabli biorą w momencie gdy wygasa mi leasse DHCP i do
       <link>https://gagor.pl/2011/08/wlam-na-lokalne-konto-roota/</link>
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/08/wlam-na-lokalne-konto-roota/</guid>
-      <description>Jeżeli tu zaglądasz pewnie zdarzyło Ci się kiedyś, że przykładowo wygrzebujesz jakiś stary serwer i nie masz pojęcia co na nim było, ani do czego służyło, czy jeszcze działa&amp;hellip; Albo jeszcze inaczej - serwer działał tak długo, że wszystkie osoby znające hasło na root&amp;rsquo;a przeszły na emeryturę lub zmarły&amp;hellip; Nieistotne 😃
+      <description>Jeżeli tu zaglądasz pewnie zdarzyło Ci się kiedyś, że przykładowo wygrzebujesz jakiś stary serwer i nie masz pojęcia co na nim było, ani do czego służyło, czy jeszcze działa&amp;hellip; Albo jeszcze inaczej - serwer działał tak długo, że wszystkie osoby znające hasło na root&amp;rsquo;a przeszły na emeryturę lub zmarły&amp;hellip; Nieistotne &amp;#x1f603;
 Jest pewna prosta sztuczka, pozwalająca wbić się na konto root&amp;rsquo;a nie znając hasła - dając nam możliwość jego zmiany. Potrzebne dwa restarty ale za to nie trzeba korzystać z żadnychlive cd.</description>
     </item>
     <item>

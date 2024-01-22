@@ -85,7 +85,7 @@ I&amp;rsquo;ve read few documents about different approaches 1 2 3. I wanted to 
       <link>https://gagor.pl/2021/11/shucking-wd-elements-14tb/</link>
       <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/11/shucking-wd-elements-14tb/</guid>
-      <description>I used to have RAID (or at least some variation of it) for my main storage. For redundancy, in case of disk failure. I started with some crazy LVM mirrors done on two disks of different size. Sync job was starting on every boot 😄
+      <description>I used to have RAID (or at least some variation of it) for my main storage. For redundancy, in case of disk failure. I started with some crazy LVM mirrors done on two disks of different size. Sync job was starting on every boot &amp;#x1f604;
 Then came time for RAID5 on mdadm + LVM for volume management. It was working nice until the moment when disks became bigger. Long array rebuilds or checks, required my PC to stay turned on overnight just to validate if stuff works still.</description>
     </item>
     <item>
@@ -150,7 +150,7 @@ echo &amp;#39;Acquire::ForceIPv4 &amp;#34;true&amp;#34;;&amp;#39; &amp;gt; /etc/
       <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/list-octal-file-permissions-in-bash/</guid>
       <description>Sometimes it&amp;rsquo;s easier to use octal file permissions but they&amp;rsquo;re not so easy to list. I caught myself few times that I didn&amp;rsquo;t remember how to list them - so this is a reason for that note.
-stat -c &amp;#34;%a %n&amp;#34; * 755 bin 755 games 755 include Yes, it&amp;rsquo;s that easy 😃
+stat -c &amp;#34;%a %n&amp;#34; * 755 bin 755 games 755 include Yes, it&amp;rsquo;s that easy &amp;#x1f603;
 And here also with human readable attributes:
 stat -c &amp;#39;%A %a %n&amp;#39; * drwxr-xr-x 755 bin drwxr-xr-x 755 games drwxr-xr-x 755 include </description>
     </item>
@@ -207,7 +207,7 @@ Install prerequisites:</description>
       <link>https://gagor.pl/2016/02/some-useful-commands-in-docker/</link>
       <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/some-useful-commands-in-docker/</guid>
-      <description>I started playing with Docker and here I will write some commands that where not so obvious at beginning 😃
+      <description>I started playing with Docker and here I will write some commands that where not so obvious at beginning &amp;#x1f603;
 List running containers:
 docker ps List also not running containers:
 docker ps -a Remove all containers (be careful with that):
@@ -220,7 +220,7 @@ docker rmi $(docker images -q) Docker won&amp;rsquo;t remove any old volumes use
       <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/mass-replace-in-wordpress-posts-via-mysql-query/</guid>
       <description>&lt;p&gt;I was doing a lot of changes to my old posts, switched to HTTPS, etc. Sometimes it was useful to change some particular text in all my old posts at a time, but there is no such feature in WordPress. But WordPress runs on MySQL and I could use SQL query to update such posts.&lt;/p&gt;
-&lt;p&gt;Make backup - it&amp;rsquo;s not required but strongly advised 😃&lt;/p&gt;
+&lt;p&gt;Make backup - it&amp;rsquo;s not required but strongly advised &amp;#x1f603;&lt;/p&gt;
 &lt;p&gt;Now use this query as template to replace in place whatever you need:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;</description>
     </item>
@@ -258,7 +258,7 @@ ps axu | grep zeitgeist-daemon timor 9105 0.0 0.</description>
       <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/01/optimize-nginx-for-performance/</guid>
       <description>There are many possible real life cases and not all optimization technics will be suitable for you but I hope it will be a good starting place.
-Also you shouldn&amp;rsquo;t copy paste examples with faith that they will make your server fly 😃 You have to support your decisions with excessive tests and help of monitoring system (ex. Grafana).
+Also you shouldn&amp;rsquo;t copy paste examples with faith that they will make your server fly &amp;#x1f603; You have to support your decisions with excessive tests and help of monitoring system (ex. Grafana).
 Cache static and dynamic content Setting caching static and dynamic content strategy may offload your server from additional load from repetitive downloads of same, rarely updated files.</description>
     </item>
     <item>
@@ -266,7 +266,7 @@ Cache static and dynamic content Setting caching static and dynamic content stra
       <link>https://gagor.pl/2016/01/xenserver-export-vm-to-file/</link>
       <pubDate>Tue, 12 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/01/xenserver-export-vm-to-file/</guid>
-      <description>Sometime you need to make quick and dirty image backup of VM running on XenServer and this post is about such case 😃
+      <description>Sometime you need to make quick and dirty image backup of VM running on XenServer and this post is about such case &amp;#x1f603;
 List machines:
 xl list Name ID Mem VCPUs State Time(s) Domain-0 0 4066 8 r----- 3526567.3 webfront1.example.com 1 4096 4 r----- 3186487.2 webfront2.example.com 2 2048 2 -b---- 920408.2 Now you may export one:
 xe vm-export vm=webfront1.example.com filename=/srv/backup/webfront.xva Export succeeded You may also use uuid for that - list machines with xe vm-list (best with less) and then:</description>
@@ -284,7 +284,7 @@ xe vm-export vm=webfront1.example.com filename=/srv/backup/webfront.xva Export s
       <link>https://gagor.pl/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</link>
       <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</guid>
-      <description>Now when you have CollectD and InfluxDB installed you may configure Grafana 😃
+      <description>Now when you have CollectD and InfluxDB installed you may configure Grafana &amp;#x1f603;
 First configure repo with current Grafana version (select your distro):
 curl https://packagecloud.io/gpg.key | sudo apt-key add - deb https://packagecloud.io/grafana/testing/debian/ wheezy main Now install package (on wheezy I needed to install apt-transport-https to allow installation of packages from repo via HTTPS):
 apt-get update apt-get install -y apt-transport-https apt-get install -y grafana By default Grafana will use sqlite database to keep information about users, etc:</description>
@@ -345,7 +345,7 @@ Example Ansible playbook - hosts: web gather_facts: True sudo: True ... But test
       <link>https://gagor.pl/2015/12/mysql-reset-root-password/</link>
       <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2015/12/mysql-reset-root-password/</guid>
-      <description>It will happen from time to time, that you&amp;rsquo;re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn&amp;rsquo;t be used in app 😃 ) but will work for any user.
+      <description>It will happen from time to time, that you&amp;rsquo;re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn&amp;rsquo;t be used in app &amp;#x1f603; ) but will work for any user.
 shutdown db service mysql stop create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt SET PASSWORD FOR &amp;#34;root&amp;#34;@&amp;#34;localhost&amp;#34; = PASSWORD(&amp;#34;HereYourNewPassword&amp;#34;); start mysqld with --init-file param mysqld_safe --init-file=/tmp/pwchange.</description>
     </item>
     <item>
@@ -381,7 +381,7 @@ Order deny,allow Deny from all AuthName &amp;#34;htaccess password prompt&amp;#3
       <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/07/copy-gtp-partiotion-table-between-disks/</guid>
       <description>When configuring RAID it&amp;rsquo;s quite important to have the same partition tables on every disk. I&amp;rsquo;v done this many times on msdos partition tables like this:
-sfdisk -d /dev/sda | sfdisk /dev/sdb but it&amp;rsquo;s not working any more on GPT partition tables. Hopefully it still can be done but with different toolstack 😄
+sfdisk -d /dev/sda | sfdisk /dev/sdb but it&amp;rsquo;s not working any more on GPT partition tables. Hopefully it still can be done but with different toolstack &amp;#x1f604;
 Install gdisk:
 apt-get install -y gdisk Then use sgdisk like this:
 sgdisk -R /dev/sd_dest /dev/sd_src sgdisk -G /dev/sd_dest First command will copy partition from /dev/sd_src to /dev/sd_dest.</description>
@@ -445,7 +445,7 @@ Then add at the end of file:
       <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</guid>
       <description>After reading some SEO stuff I wanted to add some meta tags to my WordPress blog. I found this site: codex.wordpress.org/Meta_Tags_in_WordPress.
-So WordPress thinks that it&amp;rsquo;s not necessary to have this meta tags any more&amp;hellip; But I want it! 😃 Next funny thing is how they suggest to add meta tags: copy header.php - what about theme updates?
+So WordPress thinks that it&amp;rsquo;s not necessary to have this meta tags any more&amp;hellip; But I want it! &amp;#x1f603; Next funny thing is how they suggest to add meta tags: copy header.php - what about theme updates?
 I prefer to use functions.php file - just create it in your courrent theme directory with such content:</description>
     </item>
     <item>
@@ -485,7 +485,7 @@ postfix reload Test if it works:</description>
       <guid>https://gagor.pl/2014/03/ansible-ssh-pipelining/</guid>
       <description>In recent Ansible update to 1.5 version there is really nice feature ssh pipelining. This option is serious alternative to accelerated mode.
 Just add to you config file (ex. ~/.ansible.cfg):
-[ssh_connection] pipelining=True Now run any playbook - you will see the difference 😄
+[ssh_connection] pipelining=True Now run any playbook - you will see the difference &amp;#x1f604;
 Source (and extended info about):
 http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansible-1-5/</description>
     </item>
@@ -524,7 +524,7 @@ sudo apt-get update sudo apt-get install mariadb-server It could be better to in
       <link>https://gagor.pl/2014/01/nginx-enabling-spdy-with-freeware-certificate/</link>
       <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/01/nginx-enabling-spdy-with-freeware-certificate/</guid>
-      <description>I was thinking about allowing access to my website using SPDY protocol for better performance and security (and for fun of course 😃 ). But SPDY have one disadvantage - you need SSL certificate signed by known authority that will verfiy in common browsers. So you can&amp;rsquo;t use self signed certificates because everyone will see a warning entering your site. Certs are quite expensive so I started searching for free one and to my surprise I found such!</description>
+      <description>I was thinking about allowing access to my website using SPDY protocol for better performance and security (and for fun of course &amp;#x1f603; ). But SPDY have one disadvantage - you need SSL certificate signed by known authority that will verfiy in common browsers. So you can&amp;rsquo;t use self signed certificates because everyone will see a warning entering your site. Certs are quite expensive so I started searching for free one and to my surprise I found such!</description>
     </item>
     <item>
       <title>Searching for better code editor</title>
@@ -641,7 +641,7 @@ What I do:</description>
       <link>https://gagor.pl/2013/11/reset-user-password-in-your-own-ghost-blog/</link>
       <pubDate>Thu, 28 Nov 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/11/reset-user-password-in-your-own-ghost-blog/</guid>
-      <description>I&amp;rsquo;ve started testing new Ghost blogging platform for a while on a virtual machine before I take decision about switching to it (or maybe won&amp;rsquo;t)&amp;hellip; After few days, I wanted to go forward with more testing and stuck on &amp;ldquo;e-mail and password&amp;rdquo; login prompt 😃
+      <description>I&amp;rsquo;ve started testing new Ghost blogging platform for a while on a virtual machine before I take decision about switching to it (or maybe won&amp;rsquo;t)&amp;hellip; After few days, I wanted to go forward with more testing and stuck on &amp;ldquo;e-mail and password&amp;rdquo; login prompt &amp;#x1f603;
 I&amp;rsquo;ve started looking into files and found ghost_dir/content/data/ghost-dev.db SQLite database. It can be opened like that:
 sqlite3 content/data/ghost-dev.db Then you could see whats your mail (and other info):</description>
     </item>
@@ -758,7 +758,7 @@ Na początek wystarczy a sprawdzając na stronach projektów okazało się że w
       <link>https://gagor.pl/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/</link>
       <pubDate>Mon, 09 Sep 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/</guid>
-      <description>Polubiłem Nginx&amp;rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach 😃
+      <description>Polubiłem Nginx&amp;rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach &amp;#x1f603;
 Słowo wstępu Niektóre rewrite&amp;rsquo;y kończą się znakiem ? - czemu?
 Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną $request_uri to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku ?</description>
     </item>
@@ -783,7 +783,7 @@ dfsrdiag ReplicationState /member:nazwaservera Polecenie co prawda nie podaje po
       <pubDate>Wed, 04 Sep 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/09/rootowanie-androida-4-3-na-google-nexus-7-po-aktualizacji-do-jwr66y/</guid>
       <description>Ostatnio aktualizowałem swojego Nexusa do 4.3 i było miło tylko mi roota i recovery wystrzeliło&amp;hellip; No ale żaden problem - chwila googlania, kilka poleceń i mam recovery i roota. Dzisiaj wrzuciłem niedużą aktualizację, która łata kilka bugów i znów po root&amp;rsquo;cie ;/
-Zapisze sobie więc instrukcję by kolejnym razem już nie googlać 😃
+Zapisze sobie więc instrukcję by kolejnym razem już nie googlać &amp;#x1f603;
 P.S. Wiem co robię ryzykując uceglenie swojego urządzenia - u mnie ta instrukcja działa ale nie mogę tego zagwarantować każdemu - dlatego jeśli już się zdecydujesz to ROBISZ TO NA WŁASNĄ ODPOWIEDZIALNOŚĆ!</description>
     </item>
     <item>
@@ -882,7 +882,7 @@ error_page 403 404 http://mysite.com/areyoulost; error_page 502 503 504 /500.htm
       <link>https://gagor.pl/2013/01/php-max_input_vars/</link>
       <pubDate>Tue, 22 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/01/php-max_input_vars/</guid>
-      <description>W PHP 5.3 pojawiła się nowa zmienna: max_input_vars, która limituje ilość pól możliwych do przesłania przez formularz, obcinając nadmiarowe. Pozwala to zapobiec atakom DoS na tablice hashujące (przynajmniej w tym jednym miejscu). Domyślna wartość tej zmiennej to 1000 i kreatywnym programistom udaje się tą wartość bez problemu osiągnąć 😃
+      <description>W PHP 5.3 pojawiła się nowa zmienna: max_input_vars, która limituje ilość pól możliwych do przesłania przez formularz, obcinając nadmiarowe. Pozwala to zapobiec atakom DoS na tablice hashujące (przynajmniej w tym jednym miejscu). Domyślna wartość tej zmiennej to 1000 i kreatywnym programistom udaje się tą wartość bez problemu osiągnąć &amp;#x1f603;
 Warte odnotowania jest to że mając suhosin&amp;rsquo;a trzeba pamiętać o jeszcze dwóch innych zmiennych:
 max_input_vars = 3000 suhosin.post.max_vars = 3000 suhosin.request.max_vars = 3000 Zmienne można zmienić od razu w /etc/php5/apache2/php.</description>
     </item>
@@ -1076,7 +1076,7 @@ sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F p
       <pubDate>Fri, 07 Sep 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/09/moje-ulubione-aplikacje-na-androida/</guid>
       <description>Znajomi co jakiś czas pytają mnie: jak nazywa się ta aplikacja, którą masz na telefonie do&amp;hellip;? Z jakiego programu do poczty korzystasz na tel&amp;hellip;? itd&amp;hellip;
-Pytacie - więc macie 😃
+Pytacie - więc macie &amp;#x1f603;
 DGT GTD Bardzo przydatna lista TODO. Stworzona z myślą o metodzie Getting Things Done i bardzo ułatwia pamiętanie u różnych zadaniach. Posiada też bardzo wygodny widżet, na którym możemy podglądnąć nasze najbliższe zadania.
 Opera Mini Wbudowana przeglądarka jest niezła, ale Opera Mini kompresuje mocno strony wykorzystując pośredniczące serwery proxy co znacznie obniża koszty transmisji danych.</description>
     </item>
@@ -1250,7 +1250,7 @@ Taki objaw przeważnie jest skutkiem problemów z działaniem DNS&amp;rsquo;a po
       <link>https://gagor.pl/2012/01/sniffowanie-w-fortios/</link>
       <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/01/sniffowanie-w-fortios/</guid>
-      <description>Zawsze gdy potrzebuję zesniffować coś na żywo na Fortigate&amp;rsquo;ach muszę przeszukać Knowledge Base by przypomnieć sobie wszystkie polecenia do tego potrzebne. Tym razem robię notatki 😃
+      <description>Zawsze gdy potrzebuję zesniffować coś na żywo na Fortigate&amp;rsquo;ach muszę przeszukać Knowledge Base by przypomnieć sobie wszystkie polecenia do tego potrzebne. Tym razem robię notatki &amp;#x1f603;
 Sniffowanie diagnose debug enable diagnose debug flow filter addr ip address clear clear filter daddr dest ip address dport destination port negate inverse filter port port proto protocol number saddr source ip address sport source port vd index of virtual domain # np. diagnose debug flow filter saddr 10.</description>
     </item>
     <item>
@@ -1270,7 +1270,7 @@ cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://ftp.pl.debian.
       <pubDate>Thu, 12 Jan 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/</guid>
       <description>Jeżeli jesteś właścicielem Skody Fabii I to wcześniej czy później Twój BAT-Mobil zgłosi któreś z ostrzeżeń serwisowych:
-OIL - pojawia się przeważnie co 10 tys. km i wtedy gdy jeszcze nie trzeba wymieniać oleju w silniku 😄 service INSP - nie wiem jak często się pojawia a oznacza mniej więcej &amp;ldquo;czas wesprzeć finansowo lokalny autoryzowany serwis&amp;rdquo;. Kasowanie ostrzeżenia &amp;ldquo;OIL&amp;rdquo; Przy wyłączonym silniku wciskamy i przytrzymujemy przycisk kasowania przebiegu dziennego/pokrętło ustawiania godziny, od teraz nazywany po prostu &amp;lsquo;przyciskiem&amp;rsquo;.</description>
+OIL - pojawia się przeważnie co 10 tys. km i wtedy gdy jeszcze nie trzeba wymieniać oleju w silniku &amp;#x1f604; service INSP - nie wiem jak często się pojawia a oznacza mniej więcej &amp;ldquo;czas wesprzeć finansowo lokalny autoryzowany serwis&amp;rdquo;. Kasowanie ostrzeżenia &amp;ldquo;OIL&amp;rdquo; Przy wyłączonym silniku wciskamy i przytrzymujemy przycisk kasowania przebiegu dziennego/pokrętło ustawiania godziny, od teraz nazywany po prostu &amp;lsquo;przyciskiem&amp;rsquo;.</description>
     </item>
     <item>
       <title>Mój domyślny config dla SciTE</title>
@@ -1279,7 +1279,7 @@ OIL - pojawia się przeważnie co 10 tys. km i wtedy gdy jeszcze nie trzeba wymi
       <guid>https://gagor.pl/2012/01/moj-domyslny-config-dla-scite/</guid>
       <description>Uruchamiamy SciTE i klikamy menu Options -&amp;gt; Open User Options File, wpisujemy dane:
 # domyślne korzystanie z fontów o stałej szerokości font.base=$(font.monospace) font.small=$(font.monospace) font.comment=$(font.monospace) font.text=$(font.monospace) font.text.comment=$(font.monospace) font.embedded.base=$(font.monospace) font.embedded.comment=$(font.monospace) font.vbs=$(font.monospace) # numerowanie wierszy line.margin.visible=1 line.margin.width=3+ # ikonki toolbara z tematu systemowego toolbar.usestockicons=1 # zaznaczanie blokowe rectangular.selection.modifier=8 # ustawienia wgłębień kodu indent.size=4 use.tabs=1 indent.automatic=1 Więcej opcji tutaj: http://www.scintilla.org/SciTEDoc.html
-Sam pewnie jeszcze nie raz zaktualizuję ten wpis 😄</description>
+Sam pewnie jeszcze nie raz zaktualizuję ten wpis &amp;#x1f604;</description>
     </item>
     <item>
       <title>Empathy - zamykanie okienka chatu przyciskiem Escape</title>
@@ -1380,7 +1380,7 @@ Błąd podczas przydzielania struktury icount: Memory allocation failed</descrip
       <pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</guid>
       <description>Pomimo iż Linux uchodzi za stabilne środowisko to raz na jakiś czas trafi się ciężka zwiecha - z powodu przeciążenia, awarii sprzętu&amp;hellip; nieistotne&amp;hellip;
-Załóżmy że licho wzięło za cel główny serwer plików lub bazę danych dla wielu, wielu stron internetowych. Dostać się po ssh nie możemy bo lecą timeout&amp;rsquo;y, a siedząc bezpośrednio przy klawiaturze konsola nie reaguje. Mimo to coś ostro daje po dyskach, więc ewentualny twardy reset to na bank utrata części plików&amp;hellip; jeśli system po nim w ogóle wstanie&amp;hellip; 😑</description>
+Załóżmy że licho wzięło za cel główny serwer plików lub bazę danych dla wielu, wielu stron internetowych. Dostać się po ssh nie możemy bo lecą timeout&amp;rsquo;y, a siedząc bezpośrednio przy klawiaturze konsola nie reaguje. Mimo to coś ostro daje po dyskach, więc ewentualny twardy reset to na bank utrata części plików&amp;hellip; jeśli system po nim w ogóle wstanie&amp;hellip; &amp;#x1f611;</description>
     </item>
     <item>
       <title>approx - cachujące proxy dla repozytoriów Debiana</title>
@@ -1411,7 +1411,7 @@ Na szczęście można to zrobić w prosty sposób:</description>
       <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid>
       <description>Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.
-Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić 😃</description>
+Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić &amp;#x1f603;</description>
     </item>
     <item>
       <title>JPGraph, wykresy z PHP’a</title>
@@ -1436,7 +1436,7 @@ Rozwiązaniem tego problemu może być instalacja pakietów z testowej gałęzi
       <link>https://gagor.pl/2011/08/optymalizacja-php-z-eacceleratorem/</link>
       <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/08/optymalizacja-php-z-eacceleratorem/</guid>
-      <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy 😃
+      <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy &amp;#x1f603;
 Niestety nie ma go w repozytoriach Debiana, więc trzeba go sobie skompilować - cały proces jest dość prosty. Zaczynamy od pobrania najświeższej paczki, obecnie jest to wersja 0.9.5.3:
 Pobierz eAccelerator (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)
 Pobieramy i rozpakowujemy pliki:</description>
@@ -1455,7 +1455,7 @@ Stąd też chwilę pogooglałem i znalazłem świetny Open Source&amp;rsquo;ow
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/08/certyfikaty-selfsigned/</guid>
       <description>Certyfikaty oparte o SSL stanowią obecnie podstawę bezpieczeństwa wielu usług sieciowych zaczynając od HTTP, przez POPS, IMAPS, itd&amp;hellip; Niestety zakupienie certyfikatu w organizacjach jak VeriSgin czy Thawte jest dość kosztowe, a jeżeli potrzebujemy kilka certyfikatów to często na lokalne potrzeby jest to po prostu nie opłacalne.
-Postaram się przedstawić wersję &amp;ldquo;ekonomiczną&amp;rdquo; certyfikacji 😃
+Postaram się przedstawić wersję &amp;ldquo;ekonomiczną&amp;rdquo; certyfikacji &amp;#x1f603;
 Generowanie Certificate Signing Request Pierwszym etapem generowania certyfikatu jest przygotowanie Certificate Signing Request, czyli czegoś w rodzaju &amp;ldquo;prośby&amp;rdquo; o certyfikat.</description>
     </item>
     <item>
@@ -1496,7 +1496,7 @@ Dobrym przykładem jest serwer FTP z wirtualnymi kontami użytkowników. Czyl
       <link>https://gagor.pl/2011/08/wlam-na-lokalne-konto-roota/</link>
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/08/wlam-na-lokalne-konto-roota/</guid>
-      <description>Jeżeli tu zaglądasz pewnie zdarzyło Ci się kiedyś, że przykładowo wygrzebujesz jakiś stary serwer i nie masz pojęcia co na nim było, ani do czego służyło, czy jeszcze działa&amp;hellip; Albo jeszcze inaczej - serwer działał tak długo, że wszystkie osoby znające hasło na root&amp;rsquo;a przeszły na emeryturę lub zmarły&amp;hellip; Nieistotne 😃
+      <description>Jeżeli tu zaglądasz pewnie zdarzyło Ci się kiedyś, że przykładowo wygrzebujesz jakiś stary serwer i nie masz pojęcia co na nim było, ani do czego służyło, czy jeszcze działa&amp;hellip; Albo jeszcze inaczej - serwer działał tak długo, że wszystkie osoby znające hasło na root&amp;rsquo;a przeszły na emeryturę lub zmarły&amp;hellip; Nieistotne &amp;#x1f603;
 Jest pewna prosta sztuczka, pozwalająca wbić się na konto root&amp;rsquo;a nie znając hasła - dając nam możliwość jego zmiany. Potrzebne dwa restarty ale za to nie trzeba korzystać z żadnychlive cd.</description>
     </item>
     <item>

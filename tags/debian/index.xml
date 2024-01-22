@@ -59,7 +59,7 @@ support AC standard have 5GHz network support (2,4GHz channels are cluttered hea
       <link>https://gagor.pl/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</link>
       <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</guid>
-      <description>Now when you have CollectD and InfluxDB installed you may configure Grafana 😃
+      <description>Now when you have CollectD and InfluxDB installed you may configure Grafana &amp;#x1f603;
 First configure repo with current Grafana version (select your distro):
 curl https://packagecloud.io/gpg.key | sudo apt-key add - deb https://packagecloud.io/grafana/testing/debian/ wheezy main Now install package (on wheezy I needed to install apt-transport-https to allow installation of packages from repo via HTTPS):
 apt-get update apt-get install -y apt-transport-https apt-get install -y grafana By default Grafana will use sqlite database to keep information about users, etc:</description>
@@ -96,7 +96,7 @@ Extract script import base64 from Crypto.Cipher import DES3 secret = base64.deco
       <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/07/copy-gtp-partiotion-table-between-disks/</guid>
       <description>When configuring RAID it&amp;rsquo;s quite important to have the same partition tables on every disk. I&amp;rsquo;v done this many times on msdos partition tables like this:
-sfdisk -d /dev/sda | sfdisk /dev/sdb but it&amp;rsquo;s not working any more on GPT partition tables. Hopefully it still can be done but with different toolstack 😄
+sfdisk -d /dev/sda | sfdisk /dev/sdb but it&amp;rsquo;s not working any more on GPT partition tables. Hopefully it still can be done but with different toolstack &amp;#x1f604;
 Install gdisk:
 apt-get install -y gdisk Then use sgdisk like this:
 sgdisk -R /dev/sd_dest /dev/sd_src sgdisk -G /dev/sd_dest First command will copy partition from /dev/sd_src to /dev/sd_dest.</description>
@@ -297,7 +297,7 @@ I w tym momencie zaczynamy się zastanawiać czy może nie warto byłoby zrobić
       <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid>
       <description>Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.
-Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić 😃</description>
+Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić &amp;#x1f603;</description>
     </item>
     <item>
       <title>Konfiguracja backportów na Debianie</title>
@@ -312,7 +312,7 @@ Rozwiązaniem tego problemu może być instalacja pakietów z testowej gałęzi
       <link>https://gagor.pl/2011/08/optymalizacja-php-z-eacceleratorem/</link>
       <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/08/optymalizacja-php-z-eacceleratorem/</guid>
-      <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy 😃
+      <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy &amp;#x1f603;
 Niestety nie ma go w repozytoriach Debiana, więc trzeba go sobie skompilować - cały proces jest dość prosty. Zaczynamy od pobrania najświeższej paczki, obecnie jest to wersja 0.9.5.3:
 Pobierz eAccelerator (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)
 Pobieramy i rozpakowujemy pliki:</description>

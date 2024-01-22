@@ -16,7 +16,7 @@
       <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/01/optimize-nginx-for-performance/</guid>
       <description>There are many possible real life cases and not all optimization technics will be suitable for you but I hope it will be a good starting place.
-Also you shouldn&amp;rsquo;t copy paste examples with faith that they will make your server fly 😃 You have to support your decisions with excessive tests and help of monitoring system (ex. Grafana).
+Also you shouldn&amp;rsquo;t copy paste examples with faith that they will make your server fly &amp;#x1f603; You have to support your decisions with excessive tests and help of monitoring system (ex. Grafana).
 Cache static and dynamic content Setting caching static and dynamic content strategy may offload your server from additional load from repetitive downloads of same, rarely updated files.</description>
     </item>
     <item>
@@ -33,7 +33,7 @@ To do this, place this filter code in /etc/fail2ban/filter.d/wp-login.conf:
       <link>https://gagor.pl/2014/01/nginx-enabling-spdy-with-freeware-certificate/</link>
       <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/01/nginx-enabling-spdy-with-freeware-certificate/</guid>
-      <description>I was thinking about allowing access to my website using SPDY protocol for better performance and security (and for fun of course 😃 ). But SPDY have one disadvantage - you need SSL certificate signed by known authority that will verfiy in common browsers. So you can&amp;rsquo;t use self signed certificates because everyone will see a warning entering your site. Certs are quite expensive so I started searching for free one and to my surprise I found such!</description>
+      <description>I was thinking about allowing access to my website using SPDY protocol for better performance and security (and for fun of course &amp;#x1f603; ). But SPDY have one disadvantage - you need SSL certificate signed by known authority that will verfiy in common browsers. So you can&amp;rsquo;t use self signed certificates because everyone will see a warning entering your site. Certs are quite expensive so I started searching for free one and to my surprise I found such!</description>
     </item>
     <item>
       <title>Preparing video files for streaming on website in MP4 and WEBM format</title>
@@ -50,7 +50,7 @@ MP4 HandBrakeCLI -e x264 -q 20.</description>
       <link>https://gagor.pl/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/</link>
       <pubDate>Mon, 09 Sep 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/</guid>
-      <description>Polubiłem Nginx&amp;rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach 😃
+      <description>Polubiłem Nginx&amp;rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach &amp;#x1f603;
 Słowo wstępu Niektóre rewrite&amp;rsquo;y kończą się znakiem ? - czemu?
 Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną $request_uri to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku ?</description>
     </item>

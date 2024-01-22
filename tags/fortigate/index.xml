@@ -32,7 +32,7 @@ config log gui set logdevice {memory | disk | fortianalyzer} end Ja potrzebował
       <link>https://gagor.pl/2012/01/sniffowanie-w-fortios/</link>
       <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/01/sniffowanie-w-fortios/</guid>
-      <description>Zawsze gdy potrzebuję zesniffować coś na żywo na Fortigate&amp;rsquo;ach muszę przeszukać Knowledge Base by przypomnieć sobie wszystkie polecenia do tego potrzebne. Tym razem robię notatki 😃
+      <description>Zawsze gdy potrzebuję zesniffować coś na żywo na Fortigate&amp;rsquo;ach muszę przeszukać Knowledge Base by przypomnieć sobie wszystkie polecenia do tego potrzebne. Tym razem robię notatki &amp;#x1f603;
 Sniffowanie diagnose debug enable diagnose debug flow filter addr ip address clear clear filter daddr dest ip address dport destination port negate inverse filter port port proto protocol number saddr source ip address sport source port vd index of virtual domain # np. diagnose debug flow filter saddr 10.</description>
     </item>
     <item>

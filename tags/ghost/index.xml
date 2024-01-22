@@ -15,7 +15,7 @@
       <link>https://gagor.pl/2013/11/reset-user-password-in-your-own-ghost-blog/</link>
       <pubDate>Thu, 28 Nov 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/11/reset-user-password-in-your-own-ghost-blog/</guid>
-      <description>I&amp;rsquo;ve started testing new Ghost blogging platform for a while on a virtual machine before I take decision about switching to it (or maybe won&amp;rsquo;t)&amp;hellip; After few days, I wanted to go forward with more testing and stuck on &amp;ldquo;e-mail and password&amp;rdquo; login prompt 😃
+      <description>I&amp;rsquo;ve started testing new Ghost blogging platform for a while on a virtual machine before I take decision about switching to it (or maybe won&amp;rsquo;t)&amp;hellip; After few days, I wanted to go forward with more testing and stuck on &amp;ldquo;e-mail and password&amp;rdquo; login prompt &amp;#x1f603;
 I&amp;rsquo;ve started looking into files and found ghost_dir/content/data/ghost-dev.db SQLite database. It can be opened like that:
 sqlite3 content/data/ghost-dev.db Then you could see whats your mail (and other info):</description>
     </item>

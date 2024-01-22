@@ -24,7 +24,7 @@ I&amp;rsquo;ve read few documents about different approaches 1 2 3. I wanted to 
       <link>https://gagor.pl/2021/11/shucking-wd-elements-14tb/</link>
       <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/11/shucking-wd-elements-14tb/</guid>
-      <description>I used to have RAID (or at least some variation of it) for my main storage. For redundancy, in case of disk failure. I started with some crazy LVM mirrors done on two disks of different size. Sync job was starting on every boot 😄
+      <description>I used to have RAID (or at least some variation of it) for my main storage. For redundancy, in case of disk failure. I started with some crazy LVM mirrors done on two disks of different size. Sync job was starting on every boot &amp;#x1f604;
 Then came time for RAID5 on mdadm + LVM for volume management. It was working nice until the moment when disks became bigger. Long array rebuilds or checks, required my PC to stay turned on overnight just to validate if stuff works still.</description>
     </item>
     <item>

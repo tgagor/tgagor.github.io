@@ -15,7 +15,7 @@
       <link>https://gagor.pl/2016/01/xenserver-export-vm-to-file/</link>
       <pubDate>Tue, 12 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/01/xenserver-export-vm-to-file/</guid>
-      <description>Sometime you need to make quick and dirty image backup of VM running on XenServer and this post is about such case 😃
+      <description>Sometime you need to make quick and dirty image backup of VM running on XenServer and this post is about such case &amp;#x1f603;
 List machines:
 xl list Name ID Mem VCPUs State Time(s) Domain-0 0 4066 8 r----- 3526567.3 webfront1.example.com 1 4096 4 r----- 3186487.2 webfront2.example.com 2 2048 2 -b---- 920408.2 Now you may export one:
 xe vm-export vm=webfront1.example.com filename=/srv/backup/webfront.xva Export succeeded You may also use uuid for that - list machines with xe vm-list (best with less) and then:</description>

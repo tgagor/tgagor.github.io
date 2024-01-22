@@ -17,7 +17,7 @@
       <guid>https://gagor.pl/2012/01/moj-domyslny-config-dla-scite/</guid>
       <description>Uruchamiamy SciTE i klikamy menu Options -&amp;gt; Open User Options File, wpisujemy dane:
 # domyślne korzystanie z fontów o stałej szerokości font.base=$(font.monospace) font.small=$(font.monospace) font.comment=$(font.monospace) font.text=$(font.monospace) font.text.comment=$(font.monospace) font.embedded.base=$(font.monospace) font.embedded.comment=$(font.monospace) font.vbs=$(font.monospace) # numerowanie wierszy line.margin.visible=1 line.margin.width=3+ # ikonki toolbara z tematu systemowego toolbar.usestockicons=1 # zaznaczanie blokowe rectangular.selection.modifier=8 # ustawienia wgłębień kodu indent.size=4 use.tabs=1 indent.automatic=1 Więcej opcji tutaj: http://www.scintilla.org/SciTEDoc.html
-Sam pewnie jeszcze nie raz zaktualizuję ten wpis 😄</description>
+Sam pewnie jeszcze nie raz zaktualizuję ten wpis &amp;#x1f604;</description>
     </item>
   </channel>
 </rss>

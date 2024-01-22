@@ -48,7 +48,7 @@ Konwersja certyfikatu z PEM na DER openssl x509 -in in.crt -inform PEM -out out.
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/08/certyfikaty-selfsigned/</guid>
       <description>Certyfikaty oparte o SSL stanowią obecnie podstawę bezpieczeństwa wielu usług sieciowych zaczynając od HTTP, przez POPS, IMAPS, itd&amp;hellip; Niestety zakupienie certyfikatu w organizacjach jak VeriSgin czy Thawte jest dość kosztowe, a jeżeli potrzebujemy kilka certyfikatów to często na lokalne potrzeby jest to po prostu nie opłacalne.
-Postaram się przedstawić wersję &amp;ldquo;ekonomiczną&amp;rdquo; certyfikacji 😃
+Postaram się przedstawić wersję &amp;ldquo;ekonomiczną&amp;rdquo; certyfikacji &amp;#x1f603;
 Generowanie Certificate Signing Request Pierwszym etapem generowania certyfikatu jest przygotowanie Certificate Signing Request, czyli czegoś w rodzaju &amp;ldquo;prośby&amp;rdquo; o certyfikat.</description>
     </item>
   </channel>

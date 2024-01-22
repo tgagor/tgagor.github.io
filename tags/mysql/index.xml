@@ -23,7 +23,7 @@
       <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/mass-replace-in-wordpress-posts-via-mysql-query/</guid>
       <description>&lt;p&gt;I was doing a lot of changes to my old posts, switched to HTTPS, etc. Sometimes it was useful to change some particular text in all my old posts at a time, but there is no such feature in WordPress. But WordPress runs on MySQL and I could use SQL query to update such posts.&lt;/p&gt;
-&lt;p&gt;Make backup - it&amp;rsquo;s not required but strongly advised 😃&lt;/p&gt;
+&lt;p&gt;Make backup - it&amp;rsquo;s not required but strongly advised &amp;#x1f603;&lt;/p&gt;
 &lt;p&gt;Now use this query as template to replace in place whatever you need:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;</description>
     </item>
@@ -32,7 +32,7 @@
       <link>https://gagor.pl/2015/12/mysql-reset-root-password/</link>
       <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2015/12/mysql-reset-root-password/</guid>
-      <description>It will happen from time to time, that you&amp;rsquo;re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn&amp;rsquo;t be used in app 😃 ) but will work for any user.
+      <description>It will happen from time to time, that you&amp;rsquo;re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn&amp;rsquo;t be used in app &amp;#x1f603; ) but will work for any user.
 shutdown db service mysql stop create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt SET PASSWORD FOR &amp;#34;root&amp;#34;@&amp;#34;localhost&amp;#34; = PASSWORD(&amp;#34;HereYourNewPassword&amp;#34;); start mysqld with --init-file param mysqld_safe --init-file=/tmp/pwchange.</description>
     </item>
     <item>
