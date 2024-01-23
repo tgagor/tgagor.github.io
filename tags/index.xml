@@ -11,6 +11,13 @@
     <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Business</title>
+      <link>https://gagor.pl/tags/business/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/business/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Hiring</title>
       <link>https://gagor.pl/tags/hiring/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
@@ -27,8 +34,15 @@
     <item>
       <title>Leadership</title>
       <link>https://gagor.pl/tags/leadership/</link>
-      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/tags/leadership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Management</title>
+      <link>https://gagor.pl/tags/management/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/management/</guid>
       <description></description>
     </item>
     <item>
@@ -120,20 +134,6 @@
       <link>https://gagor.pl/tags/sociology/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/tags/sociology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Business</title>
-      <link>https://gagor.pl/tags/business/</link>
-      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/business/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Management</title>
-      <link>https://gagor.pl/tags/management/</link>
-      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/management/</guid>
       <description></description>
     </item>
     <item>

@@ -5,6 +5,15 @@
     <loc>https://gagor.pl/authors/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://gagor.pl/categories/book/</loc>
+    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/books/</loc>
+    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/business/</loc>
+    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gagor.pl/categories/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -17,7 +26,13 @@
     <loc>https://gagor.pl/tags/interview/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://gagor.pl/tags/leadership/</loc>
+    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gagor.pl/categories/leadership/</loc>
+    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/management/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/posts/</loc>
@@ -32,10 +47,10 @@
     <loc>https://gagor.pl/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/2024/01/how-to-give-probation-period-feedback/</loc>
-    <lastmod>2024-01-22T00:00:00+00:00</lastmod>
+    <loc>https://gagor.pl/books/2024/working-backwards/</loc>
+    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/tags/leadership/</loc>
+    <loc>https://gagor.pl/2024/01/how-to-give-probation-period-feedback/</loc>
     <lastmod>2024-01-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/categories/gardening/</loc>
@@ -89,12 +104,6 @@
     <loc>https://gagor.pl/books/2023/48-praw-wladzy/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/categories/book/</loc>
-    <lastmod>2023-12-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/books/</loc>
-    <lastmod>2023-12-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/2023/12/changing-comments-provider-for-my-blog/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -119,17 +128,11 @@
     <loc>https://gagor.pl/2023/12/use-github-with-ssh-on-port-443/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/tags/business/</loc>
-    <lastmod>2023-12-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/books/2023/jak-zjednac-sobie-ludzi/</loc>
     <lastmod>2023-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/books/2023/lider-w-trampkach/</loc>
     <lastmod>2023-10-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/management/</loc>
-    <lastmod>2023-10-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/books/2023/taka-praca-nie-ma-sensu/</loc>
     <lastmod>2023-10-21T00:00:00+00:00</lastmod>

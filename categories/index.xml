@@ -11,6 +11,13 @@
     <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Book</title>
+      <link>https://gagor.pl/categories/book/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/categories/book/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Leadership</title>
       <link>https://gagor.pl/categories/leadership/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
@@ -36,13 +43,6 @@
       <link>https://gagor.pl/categories/tip/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/categories/tip/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Book</title>
-      <link>https://gagor.pl/categories/book/</link>
-      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/categories/book/</guid>
       <description></description>
     </item>
     <item>
