@@ -8,8 +8,15 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compressed Docker Size Hack</title>
+      <link>https://gagor.pl/2024/01/compressed-docker-size-hack/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/01/compressed-docker-size-hack/</guid>
+      <description>One day, I was looking for some gains to improve the startup time for Jenkins agents. We run them as containers and because images are quite big, I was thinking about cutting the size, by cutting less frequently used features. I was looking for the metrics I could use to decide which changes are most valuable. I could think about two: download time and startup time. Together they combine to the gap between the request to start agent and the moment you can start to use it.</description>
+    </item>
     <item>
       <title>How to interview DevOps candidates?</title>
       <link>https://gagor.pl/2024/01/how-to-interview-devops-candidates/</link>

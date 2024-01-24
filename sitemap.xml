@@ -3,7 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gagor.pl/authors/</loc>
-    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/categories/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/2024/01/compressed-docker-size-hack/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/docker/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/linux/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/posts/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/authors/timor/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/categories/tip/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/</loc>
+    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/categories/book/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
@@ -12,9 +39,6 @@
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/business/</loc>
-    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/categories/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/hiring/</loc>
@@ -33,18 +57,6 @@
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/management/</loc>
-    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/posts/</loc>
-    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/</loc>
-    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/authors/timor/</loc>
-    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/books/2024/working-backwards/</loc>
@@ -89,9 +101,6 @@
     <loc>https://gagor.pl/2024/01/how-to-run-google-tasks-in-separate-browser-tab/</loc>
     <lastmod>2024-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/categories/tip/</loc>
-    <lastmod>2024-01-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/2023/12/how-to-run-zwift-in-full-screen/</loc>
     <lastmod>2023-12-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -108,9 +117,6 @@
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/hugo/</loc>
-    <lastmod>2023-12-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/linux/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/categories/off-topic/</loc>
@@ -153,9 +159,6 @@
     <lastmod>2023-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/devops/</loc>
-    <lastmod>2023-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/docker/</loc>
     <lastmod>2023-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/2023/04/the-best-way-to-get-nvm-working-in-ci/cd-systems/</loc>
