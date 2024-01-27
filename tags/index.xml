@@ -8,20 +8,41 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Wed, 24 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Docker</title>
-      <link>https://gagor.pl/tags/docker/</link>
-      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/docker/</guid>
+      <title>bash</title>
+      <link>https://gagor.pl/tags/bash/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/bash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>git</title>
+      <link>https://gagor.pl/tags/git/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
       <link>https://gagor.pl/tags/linux/</link>
-      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MacOS</title>
+      <link>https://gagor.pl/tags/macos/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/macos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://gagor.pl/tags/docker/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/docker/</guid>
       <description></description>
     </item>
     <item>
@@ -144,13 +165,6 @@
       <description></description>
     </item>
     <item>
-      <title>bash</title>
-      <link>https://gagor.pl/tags/bash/</link>
-      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/bash/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>DevOps</title>
       <link>https://gagor.pl/tags/devops/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
@@ -169,13 +183,6 @@
       <link>https://gagor.pl/tags/trading/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/tags/trading/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MacOS</title>
-      <link>https://gagor.pl/tags/macos/</link>
-      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/macos/</guid>
       <description></description>
     </item>
     <item>
@@ -260,13 +267,6 @@
       <link>https://gagor.pl/tags/zfs/</link>
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/tags/zfs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>git</title>
-      <link>https://gagor.pl/tags/git/</link>
-      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/git/</guid>
       <description></description>
     </item>
     <item>
