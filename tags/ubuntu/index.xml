@@ -8,8 +8,16 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Fri, 21 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tuning PipeWire for best audio quality on Ubuntu</title>
+      <link>https://gagor.pl/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</guid>
+      <description>I&amp;rsquo;m not an audiophile, but I spent whole days in the headphones and I like when sound sounds good. I like slight bass boost, which adds this kick to the melody, but won&amp;rsquo;t overwhelm me after an hour of listening. I like when high tones are clear, but I get annoyed if they&amp;rsquo;re too strong. And finally, I hate all cracks, hisses or electric circuit noises.
+My hardware I&amp;rsquo;ve collected a bunch of these over the years &amp;#x1f604;</description>
+    </item>
     <item>
       <title>Ubuntu - Key is stored in legacy trusted.gpg keyring...</title>
       <link>https://gagor.pl/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</link>
