@@ -8,8 +8,16 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My pre-commit config for Hugo blog</title>
+      <link>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</guid>
+      <description>I love blogging with Hugo and I have two blogs already that use it. The good thing about static sites is that you have all the data in the files. You can optimize them locally, batch process, amend, etc. Powerful templating engine allows to quickly pre fill documents in the format I like.
+I have some steps in the Makefile for things like image optimization, but I often don&amp;rsquo;t remember to run them &amp;#x1f603;</description>
+    </item>
     <item>
       <title>Tuning PipeWire for best audio quality on Ubuntu</title>
       <link>https://gagor.pl/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</link>
