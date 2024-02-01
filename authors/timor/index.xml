@@ -487,8 +487,11 @@ empik.com </description>
       <link>https://gagor.pl/2021/07/official-centos-8-stream-docker-image-finally-available/</link>
       <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/07/official-centos-8-stream-docker-image-finally-available/</guid>
-      <description>Finally, they&amp;rsquo;re available! Wait a moment.. Actually they&amp;rsquo;re available for few months, just nobody published information about moving them to quay.io and dropped poor guys using hub.docker.com without any updates! Yes, that how they did!
-I found new place accidentally, reading some news about CentOS Stream 9 on their blog. There was reference to CentOS 9 Stream dev builds of Docker images and I found &amp;ldquo;missing&amp;rdquo; stream and stream8 tags too.</description>
+      <description>Update on EOL Before you read further, CentOS 8 Stream is dead.
+Citing from this official blog:
+CentOS Linux 7 End of Life: June 30, 2024 After June 30, 2024, there will be no updates published for CentOS Linux 7.
+CentOS Stream 8 End of Builds: May 31, 2024 After May 31, 2024, CentOS Stream 8 will be archived and no further updates will be provided.
+I will keep my up to date images as long as updates will be available, but it&amp;rsquo;s better to not waste and upgrade to CentOS 9 Stream.</description>
     </item>
     <item>
       <title>Inteligentny inwestor</title>
