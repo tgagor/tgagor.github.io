@@ -3,12 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gagor.pl/authors/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/tags/bash/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
+    <loc>https://gagor.pl/categories/book/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/books/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/business/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/categories/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/books/2024/extreme-ownership/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/leadership/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/authors/timor/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/</loc>
+    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/bash/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/git/</loc>
@@ -26,16 +50,7 @@
     <loc>https://gagor.pl/posts/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/tags/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/authors/timor/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/categories/tip/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/audio/</loc>
@@ -62,15 +77,6 @@
     <loc>https://gagor.pl/tags/docker/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/categories/book/</loc>
-    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/books/</loc>
-    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/business/</loc>
-    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/tags/hiring/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -78,9 +84,6 @@
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/interview/</loc>
-    <lastmod>2024-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/leadership/</loc>
     <lastmod>2024-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/categories/leadership/</loc>
