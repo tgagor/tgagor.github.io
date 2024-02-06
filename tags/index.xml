@@ -8,8 +8,29 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker</title>
+      <link>https://gagor.pl/tags/docker/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MacOS</title>
+      <link>https://gagor.pl/tags/macos/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/macos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rancher</title>
+      <link>https://gagor.pl/tags/rancher/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/rancher/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Business</title>
       <link>https://gagor.pl/tags/business/</link>
@@ -46,13 +67,6 @@
       <description></description>
     </item>
     <item>
-      <title>MacOS</title>
-      <link>https://gagor.pl/tags/macos/</link>
-      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/macos/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Audio</title>
       <link>https://gagor.pl/tags/audio/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
@@ -71,13 +85,6 @@
       <link>https://gagor.pl/tags/ubuntu/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://gagor.pl/tags/docker/</link>
-      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/docker/</guid>
       <description></description>
     </item>
     <item>

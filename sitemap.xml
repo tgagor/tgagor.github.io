@@ -3,7 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gagor.pl/authors/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/categories/</loc>
+    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/docker/</loc>
+    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</loc>
+    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/macos/</loc>
+    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/posts/</loc>
+    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/rancher/</loc>
+    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/</loc>
+    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/authors/timor/</loc>
+    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/categories/tip/</loc>
+    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/</loc>
+    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/categories/book/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
@@ -14,22 +44,10 @@
     <loc>https://gagor.pl/tags/business/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/categories/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/books/2024/extreme-ownership/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/leadership/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/authors/timor/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/bash/</loc>
@@ -41,16 +59,7 @@
     <loc>https://gagor.pl/tags/linux/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/tags/macos/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/posts/</loc>
-    <lastmod>2024-01-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/categories/tip/</loc>
     <lastmod>2024-01-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/audio/</loc>
@@ -72,9 +81,6 @@
     <lastmod>2024-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/2024/01/checking-compressed-size-of-docker-image/</loc>
-    <lastmod>2024-01-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/docker/</loc>
     <lastmod>2024-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/hiring/</loc>
