@@ -8,13 +8,34 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Tue, 06 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps</title>
+      <link>https://gagor.pl/tags/devops/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/devops/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Docker</title>
       <link>https://gagor.pl/tags/docker/</link>
-      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://gagor.pl/tags/linux/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://gagor.pl/tags/security/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/security/</guid>
       <description></description>
     </item>
     <item>
@@ -39,31 +60,10 @@
       <description></description>
     </item>
     <item>
-      <title>DevOps</title>
-      <link>https://gagor.pl/tags/devops/</link>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/devops/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Leadership</title>
       <link>https://gagor.pl/tags/leadership/</link>
       <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/tags/leadership/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>https://gagor.pl/tags/linux/</link>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security</title>
-      <link>https://gagor.pl/tags/security/</link>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/security/</guid>
       <description></description>
     </item>
     <item>

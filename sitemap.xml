@@ -3,13 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gagor.pl/authors/</loc>
-    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/categories/</loc>
-    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/devops/</loc>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/docker/</loc>
-    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/categories/howto/</loc>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/2024/02/keeping-docker-afloat-best-practices-for-patching-and-deprecating-images/</loc>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/linux/</loc>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/posts/</loc>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/security/</loc>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/</loc>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/authors/timor/</loc>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/</loc>
+    <lastmod>2024-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</loc>
     <lastmod>2024-02-06T00:00:00+00:00</lastmod>
@@ -17,22 +44,10 @@
     <loc>https://gagor.pl/tags/macos/</loc>
     <lastmod>2024-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/posts/</loc>
-    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/tags/rancher/</loc>
     <lastmod>2024-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/tags/</loc>
-    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/authors/timor/</loc>
-    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/categories/tip/</loc>
-    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/</loc>
     <lastmod>2024-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/categories/book/</loc>
@@ -44,25 +59,10 @@
     <loc>https://gagor.pl/tags/business/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/tags/devops/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/books/2024/extreme-ownership/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/categories/howto/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/2024/02/keeping-docker-afloat-best-practices-for-patching-and-deprecating-images/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/tags/leadership/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/linux/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/security/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/bash/</loc>
