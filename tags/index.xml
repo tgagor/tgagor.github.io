@@ -39,10 +39,31 @@
       <description></description>
     </item>
     <item>
+      <title>DevOps</title>
+      <link>https://gagor.pl/tags/devops/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Leadership</title>
       <link>https://gagor.pl/tags/leadership/</link>
       <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/tags/leadership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://gagor.pl/tags/linux/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://gagor.pl/tags/security/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/security/</guid>
       <description></description>
     </item>
     <item>
@@ -57,13 +78,6 @@
       <link>https://gagor.pl/tags/git/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/tags/git/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>https://gagor.pl/tags/linux/</link>
-      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/linux/</guid>
       <description></description>
     </item>
     <item>
@@ -193,13 +207,6 @@
       <description></description>
     </item>
     <item>
-      <title>DevOps</title>
-      <link>https://gagor.pl/tags/devops/</link>
-      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/devops/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Finance</title>
       <link>https://gagor.pl/tags/finance/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
@@ -274,13 +281,6 @@
       <link>https://gagor.pl/tags/backup/</link>
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/tags/backup/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security</title>
-      <link>https://gagor.pl/tags/security/</link>
-      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/tags/security/</guid>
       <description></description>
     </item>
     <item>

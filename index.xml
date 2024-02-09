@@ -29,6 +29,15 @@ Authors: Jocko Willink, Leif Babin
 amazon.pl The book is a compelling and practical leadership guide co-authored by Jocko Willink and Leif Babin, both former Navy SEAL officers. The book revolves around the central theme of taking absolute responsibility for every aspect of one&amp;rsquo;s life and leadership role. Through gripping combat stories from their SEAL experiences, the authors illustrate key principles such as accountability, decisiveness, and humility.</description>
     </item>
     <item>
+      <title>Keeping Docker afloat - Best practices for patching and deprecating images</title>
+      <link>https://gagor.pl/2024/02/keeping-docker-afloat-best-practices-for-patching-and-deprecating-images/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/02/keeping-docker-afloat-best-practices-for-patching-and-deprecating-images/</guid>
+      <description>Intro One of the biggest benefits of Docker images is their immutability. Once they&amp;rsquo;re built, they don&amp;rsquo;t change. Built once, would work forever&amp;hellip; That&amp;rsquo;s how nightmares of security guys starts &amp;#x1f923;
+We have then two contradictory concepts:
+flowchart LR id1(Keep it stable) &lt;---&gt; id2(Keep is up to date and secure) For day to day work, usually first concept wins. You want your builds stable and try to avoid tempting distractions of upgrading log4j to latest version&amp;hellip; Who knows what might break.</description>
+    </item>
+    <item>
       <title>My pre-commit config for Hugo blog</title>
       <link>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>

@@ -8,8 +8,17 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Mon, 29 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keeping Docker afloat - Best practices for patching and deprecating images</title>
+      <link>https://gagor.pl/2024/02/keeping-docker-afloat-best-practices-for-patching-and-deprecating-images/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/02/keeping-docker-afloat-best-practices-for-patching-and-deprecating-images/</guid>
+      <description>Intro One of the biggest benefits of Docker images is their immutability. Once they&amp;rsquo;re built, they don&amp;rsquo;t change. Built once, would work forever&amp;hellip; That&amp;rsquo;s how nightmares of security guys starts &amp;#x1f923;
+We have then two contradictory concepts:
+flowchart LR id1(Keep it stable) &lt;---&gt; id2(Keep is up to date and secure) For day to day work, usually first concept wins. You want your builds stable and try to avoid tempting distractions of upgrading log4j to latest version&amp;hellip; Who knows what might break.</description>
+    </item>
     <item>
       <title>My pre-commit config for Hugo blog</title>
       <link>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</link>
