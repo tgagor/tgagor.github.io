@@ -8,8 +8,19 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Fri, 09 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I stopped worrying and loved the GNU Make and Makefiles</title>
+      <link>https://gagor.pl/2024/02/how-i-stopped-worrying-and-loved-the-gnu-make-and-makefiles/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/02/how-i-stopped-worrying-and-loved-the-gnu-make-and-makefiles/</guid>
+      <description>First contact with make When I was invited for my first job interview in the IT, I&amp;rsquo;ve been asked such question:
+How would you typically build a program from sources, what commands will you use?
+I answered:
+It&amp;rsquo;s obvious:
+./configure make make install Those times belong to the past now and not many programmers use GNU Make1 today. Try asking this question and you will see disgust or be called a moron &amp;#x1f603;</description>
+    </item>
     <item>
       <title>Keeping Docker afloat - Best practices for patching and deprecating images</title>
       <link>https://gagor.pl/2024/02/keeping-docker-afloat-best-practices-for-patching-and-deprecating-images/</link>
