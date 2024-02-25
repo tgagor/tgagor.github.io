@@ -101,9 +101,9 @@ Simple status/log checks git s s = status --short --branch --untracked-files Sho
       <link>https://gagor.pl/books/2024/working-backwards/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/books/2024/working-backwards/</guid>
-      <description> Working BackwardsInsights, Stories, and Secrets from Inside Amazon
+      <description>Working BackwardsInsights, Stories, and Secrets from Inside Amazon
 Author: Bryar Colin
-empik.com </description>
+empik.com Still reading&amp;hellip;</description>
     </item>
     <item>
       <title>How to give Probation Period feedback?</title>
@@ -2698,7 +2698,7 @@ Author: Clifford Stoll
 lubimyczytac.plamazon.pl </description>
     </item>
     <item>
-      <title>Bookshelf</title>
+      <title>My bookshelf</title>
       <link>https://gagor.pl/bookshelf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/bookshelf/</guid>
