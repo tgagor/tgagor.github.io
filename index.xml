@@ -8,8 +8,16 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding Mermaid diagrams to Hugo</title>
+      <link>https://gagor.pl/2024/02/adding-mermaid-diagrams-to-hugo/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/02/adding-mermaid-diagrams-to-hugo/</guid>
+      <description>I used Chart.js charts on one of my Hugo blogs for few years already. Recently I needed to add few diagrams and I started glueing them in Chart.js but then I found that Hugo supports GoAT and Mermaid diagrams. They&amp;rsquo;re not working out of the box, but it&amp;rsquo;s easy to extend. Much easier than my custom shortcodes.
+I tried to follow up the instruction1 but failed. After few minutes I found slightly simpler solution.</description>
+    </item>
     <item>
       <title>How I stopped worrying and loved the GNU Make and Makefiles</title>
       <link>https://gagor.pl/2024/02/how-i-stopped-worrying-and-loved-the-gnu-make-and-makefiles/</link>

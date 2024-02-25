@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gagor.pl/authors/</loc>
-    <lastmod>2024-02-16T00:00:00+00:00</lastmod>
+    <loc>https://gagor.pl/2024/02/adding-mermaid-diagrams-to-hugo/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/tags/bash/</loc>
-    <lastmod>2024-02-16T00:00:00+00:00</lastmod>
+    <loc>https://gagor.pl/authors/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/categories/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/hugo/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/mermaid/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/posts/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/authors/timor/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/categories/tip/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/bash/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/devops/</loc>
@@ -24,18 +48,6 @@
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/categories/off-topic/</loc>
-    <lastmod>2024-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/posts/</loc>
-    <lastmod>2024-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/</loc>
-    <lastmod>2024-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/authors/timor/</loc>
-    <lastmod>2024-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/docker/</loc>
@@ -54,9 +66,6 @@
     <lastmod>2024-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/rancher/</loc>
-    <lastmod>2024-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/categories/tip/</loc>
     <lastmod>2024-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/categories/book/</loc>
@@ -165,9 +174,6 @@
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/2023/12/changing-comments-provider-for-my-blog/</loc>
-    <lastmod>2023-12-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/hugo/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/politics/</loc>
