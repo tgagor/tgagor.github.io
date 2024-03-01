@@ -24,7 +24,6 @@
 /root/.rsync-passwd / 301
 /srv/backup/server / 301
 /tags/brew/ / 301
-/tags/ci/cd/index.xml / 301
 /tags/hash/ / 301
 /tags/iotop/ / 301
 /tags/mail/ / 301
