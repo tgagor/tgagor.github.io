@@ -11,6 +11,9 @@
     <loc>https://gagor.pl/tags/bash/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://gagor.pl/books/2024/blekina-kropka/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gagor.pl/categories/book/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -41,6 +44,9 @@
     <loc>https://gagor.pl/tags/sci-fi/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://gagor.pl/tags/science/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gagor.pl/tags/security/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -48,6 +54,9 @@
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/technology/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/authors/timor/</loc>
@@ -263,9 +272,6 @@
     <loc>https://gagor.pl/books/2022/starosc-aksolotla/</loc>
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/tags/technology/</loc>
-    <lastmod>2022-11-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/books/2022/bladza-wszyscy-ale-nie-ja/</loc>
     <lastmod>2022-11-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -363,9 +369,6 @@
     <lastmod>2021-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/books/2021/milosc-i-matematyka/</loc>
-    <lastmod>2021-09-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/science/</loc>
     <lastmod>2021-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/2021/07/official-centos-8-stream-docker-image-finally-available/</loc>
