@@ -11,6 +11,12 @@
     <loc>https://gagor.pl/tags/bash/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://gagor.pl/categories/book/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/books/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gagor.pl/categories/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -32,7 +38,13 @@
     <loc>https://gagor.pl/tags/renovate/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://gagor.pl/tags/sci-fi/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://gagor.pl/tags/security/</loc>
+    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/books/2024/slepowidzenie/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/</loc>
@@ -73,12 +85,6 @@
   </url><url>
     <loc>https://gagor.pl/tags/rancher/</loc>
     <lastmod>2024-02-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/categories/book/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/books/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/business/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
@@ -253,9 +259,6 @@
   </url><url>
     <loc>https://gagor.pl/books/2022/5-disfunctions-of-a-team/</loc>
     <lastmod>2022-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/sci-fi/</loc>
-    <lastmod>2022-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/books/2022/starosc-aksolotla/</loc>
     <lastmod>2022-11-21T00:00:00+00:00</lastmod>
