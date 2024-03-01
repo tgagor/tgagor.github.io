@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MacOS on Tom&#39;s Blog</title>
+    <link>https://gagor.pl/tags/macos/</link>
+    <description>Recent content in MacOS on Tom&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Fri, 16 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I stopped worrying and loved the GNU Make and Makefiles</title>
+      <link>https://gagor.pl/2024/02/how-i-stopped-worrying-and-loved-the-gnu-make-and-makefiles/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/02/how-i-stopped-worrying-and-loved-the-gnu-make-and-makefiles/</guid>
+      <description>First contact with make When I was invited for my first job interview in the IT, I&amp;rsquo;ve been asked such question:
+How would you typically build a program from sources, what commands will you use?
+I answered:
+It&amp;rsquo;s obvious:
+./configure make make install Those times belong to the past now and not many programmers use GNU Make1 nowadays. Try asking this question and you will see disgust at best.
+For many it&amp;rsquo;s the fist contact with make and often the last one, but not for me &amp;#x1f609;</description>
+    </item>
+    <item>
+      <title>How to run x86-64 Docker images on Apple&#39;s MacBook with M1/M2/M3 CPU</title>
+      <link>https://gagor.pl/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</guid>
+      <description>Working with Docker environments amid diverse architectures, like Apple&amp;rsquo;s arm64 and x86-64/AMD64, presents challenges. I&amp;rsquo;ve encountered the clash between my Mac&amp;rsquo;s M1 arm64 architecture and my x86-centric server workloads. The solution? Just use DOCKER_DEFAULT_PLATFORM 1 2.
+Just run in the terminal:
+Enforce platform for all commands export DOCKER_DEFAULT_PLATFORM=linux/amd64 With this command, Docker enforces x86 architecture by default on commands supporting --platform parameter, streamlining workflows and sparing the need for repetitive --platform specifications.</description>
+    </item>
+    <item>
+      <title>My pre-commit config for Hugo blog</title>
+      <link>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</guid>
+      <description>I love blogging with Hugo and I have two blogs already that use it. The good thing about static sites is that you have all the data in the files. You can optimize them locally, batch process, amend, etc. Powerful templating engine allows to quickly pre fill documents in the format I like.
+I have some steps in the Makefile for things like image optimization, but I often don&amp;rsquo;t remember to run them &amp;#x1f603;</description>
+    </item>
+    <item>
+      <title>Git hacks - a set of my favorite git aliases</title>
+      <link>https://gagor.pl/2024/01/git-hacks-a-set-of-my-favorite-git-aliases/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/01/git-hacks-a-set-of-my-favorite-git-aliases/</guid>
+      <description>I use Git a lot, even writing this article i will commit text few times. There&amp;rsquo;s a set of aliases I rely on daily and they&amp;rsquo;re first I add in new place.
+Some Git commands are unnecessarily verbose. You can make your life much easier with bash-completions, but if you write it tens of times per day, it&amp;rsquo;s anyway a lot of typing&amp;hellip; and I&amp;rsquo;m a lazy man &amp;#x1f604;
+Simple status/log checks git s s = status --short --branch --untracked-files Shows a short, branch-focused status with untracked files.</description>
+    </item>
+    <item>
+      <title>Change configuration of Docker daemon in Rancher Desktop</title>
+      <link>https://gagor.pl/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</guid>
+      <description>I switched recently from Docker Desktop on my MacBook to Rancher Desktop. The most important reason for me to do it, was possibility to gently switch between docker and containerd runtimes.
+There&amp;rsquo;s still one feature that I miss on Rancher Desktop - possibility to change Docker daemon configuration. I used to enable experimental features1 and BuildKit2. Sadly, there&amp;rsquo;s no easy way to do it on Rancher&amp;hellip; But there&amp;rsquo;s a magical way3.</description>
+    </item>
+    <item>
+      <title>Automatically add ticket ID to every commit message in Git</title>
+      <link>https://gagor.pl/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</guid>
+      <description>I don&amp;rsquo;t know how it is in your company, but in mine it&amp;rsquo;s considered a good practice to add ticket numbers to commit messages. It allows to easily determine why something was changed, etc. Makes sense, but this also means, that I should be adding this ticket to every message&amp;hellip; And this doesn&amp;rsquo;t make sense for me. I will accidentally avoid it from time to time or make a lot of typos.</description>
+    </item>
+    <item>
+      <title>Resize images from command line on MacOS</title>
+      <link>https://gagor.pl/2021/11/resize-images-from-command-line-on-macos/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2021/11/resize-images-from-command-line-on-macos/</guid>
+      <description>I was updating my blog and needed to generate few variants of images, in different resolution.
+Option 1 - sips There&amp;rsquo;s simple, builtin tool sips, that can be used for simple resizing 1:
+Resize single image sips -Z 36 orig.png --out static/favicon36x36.png -Z - maintain image aspect ratio 36 - maximum height and width It can be also used for batch image processing:
+Warning
+Beware, without &amp;ndash;out param, it will overwrite images in place!</description>
+    </item>
+    <item>
+      <title>Homebrew - uninstall formula with dependencies</title>
+      <link>https://gagor.pl/2021/11/homebrew-uninstall-formula-with-dependencies/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2021/11/homebrew-uninstall-formula-with-dependencies/</guid>
+      <description>I use brew extensively on MacOS. It&amp;rsquo;s just as convenient as many Linux package managers. What I don&amp;rsquo;t like, it leaves dependencies after removal of formula. There&amp;rsquo;s simple way to clean it up by running one command 1.
+Uninstall with dependencies brew uninstall FORMULA brew autoremove Info
+In my case running brew autoremove actually removed few packages I really wanted to have. Check the output carefully!
+https://stackoverflow.com/questions/7323261/uninstall-remove-a-homebrew-package-including-all-its-dependencies&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+    </item>
+    <item>
+      <title>Moving from Linux to MacOS – first steps</title>
+      <link>https://gagor.pl/2020/01/moving-from-linux-to-macos-first-steps/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2020/01/moving-from-linux-to-macos-first-steps/</guid>
+      <description>Few years ago I moved from Linux desktop to MacOS for my business, day to day work. There were 2 main reasons for that:
+Corporations don&amp;rsquo;t like Linux - they can&amp;rsquo;t manage it, they can&amp;rsquo;t support it, so they blocked it with &amp;ldquo;Security policy&amp;rdquo;, ISO20001, or other nonsense. Actually they&amp;rsquo;re partially right but in different place - many business collaboration applications don&amp;rsquo;t work well on LInux (or they don&amp;rsquo;t work at all) Skype for Business - there&amp;rsquo;s open source alternative but to get full support you have to pay for additional codecs (as far as I remember) - it&amp;rsquo;s not working stable even in paid version Outlook and calendar support - I love Thunderbird and I use it for years, but calendar invitations didn&amp;rsquo;t work nice (honestly, they didn&amp;rsquo;t work nice even between different Outlook versions&amp;hellip;) Corporate VPN apps - Christ, I always was able to get it working eventually, but&amp;hellip; why bother I&amp;rsquo;m older, maybe lazier, maybe smarter - I don&amp;rsquo;t like to spend my time resolving problems that don&amp;rsquo;t give me any value.</description>
+    </item>
+  </channel>
+</rss>

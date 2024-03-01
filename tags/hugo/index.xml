@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Tom&#39;s Blog</title>
+    <link>https://gagor.pl/tags/hugo/</link>
+    <description>Recent content in hugo on Tom&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding Mermaid diagrams to Hugo</title>
+      <link>https://gagor.pl/2024/02/adding-mermaid-diagrams-to-hugo/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/02/adding-mermaid-diagrams-to-hugo/</guid>
+      <description>I used Chart.js charts on one of my Hugo blogs for few years already. Recently I needed to add few diagrams and I started glueing them in Chart.js but then I found that Hugo supports GoAT and Mermaid diagrams. They&amp;rsquo;re not working out of the box, but it&amp;rsquo;s easy to extend. Much easier than my custom shortcodes.
+I tried to follow up the instruction1 but failed. After few minutes I found slightly simpler solution.</description>
+    </item>
+    <item>
+      <title>Changing comments provider for my blog</title>
+      <link>https://gagor.pl/2023/12/changing-comments-provider-for-my-blog/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2023/12/changing-comments-provider-for-my-blog/</guid>
+      <description>I&amp;rsquo;ve been thinking about switching comments system to something different on my blog. Since I moved to Hugo, I used Disqus. Integration was easy and it was also easy to move comments from Wordpress. Maybe the move was easy, but people somehow didn&amp;rsquo;t like the interface. I receive 6 comments since I switched from Wordpress 3 years ago &amp;#x1f604; To be honest, I don&amp;rsquo;t like it too.
+I was thinking about switch to something else, something different, but I was waiting for this punch.</description>
+    </item>
+    <item>
+      <title>Bye Bye Wordpress!</title>
+      <link>https://gagor.pl/2020/10/bye-bye-wordpress/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2020/10/bye-bye-wordpress/</guid>
+      <description>I started my blog on custom (written by my) engine, but as I didn&amp;rsquo;t had enough time to enhance it I switched to Wordpress. I&amp;rsquo;ve been using Wordpress as an engine of my blog for past 8~9 years. I have small VPS with PHP + Nginx and you can find a lot of configuration examples from my config on this site &amp;#x1f604;
+There was a time, when I was really satisfied by what it provides.</description>
+    </item>
+  </channel>
+</rss>

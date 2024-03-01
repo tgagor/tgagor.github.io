@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IPv6 on Tom&#39;s Blog</title>
+    <link>https://gagor.pl/tags/ipv6/</link>
+    <description>Recent content in IPv6 on Tom&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Tue, 29 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/ipv6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prefer IPv4 over IPv6</title>
+      <link>https://gagor.pl/2016/03/prefer-ipv4-over-ipv6/</link>
+      <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2016/03/prefer-ipv4-over-ipv6/</guid>
+      <description>I try to use IPv6 where it&amp;rsquo;s available but it&amp;rsquo;s sometimes so hard&amp;hellip; It happen quite often that I can&amp;rsquo;t download packages from repos because they weren&amp;rsquo;t configured on IPv6 vhosts even when host is available via IPv6 address. For APT you may use this trick to force IPv4 connections only:
+echo &amp;#39;Acquire::ForceIPv4 &amp;#34;true&amp;#34;;&amp;#39; &amp;gt; /etc/apt/apt.conf.d/99force-ipv4 If you need more than that, then gai.conf will allow you to filter where you will be connecting via IPv4 and where via IPv6 - in example bellow you will prefer IPv4 whenever it&amp;rsquo;s available:</description>
+    </item>
+  </channel>
+</rss>

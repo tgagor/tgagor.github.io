@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Novel on Tom&#39;s Blog</title>
+    <link>https://gagor.pl/tags/novel/</link>
+    <description>Recent content in Novel on Tom&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Thu, 09 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/novel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projekt Jednorożec</title>
+      <link>https://gagor.pl/books/2021/projekt-jednorozec/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/books/2021/projekt-jednorozec/</guid>
+      <description> Projekt JednorożecPowieść o szansie w epoce przewrotów cyfrowych
+Author: Gene Kim
+helion.pl </description>
+    </item>
+    <item>
+      <title>Projekt Feniks</title>
+      <link>https://gagor.pl/books/2018/projekt-feniks/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/books/2018/projekt-feniks/</guid>
+      <description> Projekt FeniksPowieść o IT, modelu DevOps i o tym, jak pomóc firmie w odniesieniu sukcesu
+Authors: Gene Kim, Kevin Behr, George Spafford
+helion.pl </description>
+    </item>
+  </channel>
+</rss>

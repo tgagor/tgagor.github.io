@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Percona on Tom&#39;s Blog</title>
+    <link>https://gagor.pl/tags/percona/</link>
+    <description>Recent content in Percona on Tom&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Sat, 23 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/percona/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daily MySQL backups with xtrabackup</title>
+      <link>https://gagor.pl/2016/04/daily-mysql-backups-with-xtrabackup/</link>
+      <pubDate>Sat, 23 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2016/04/daily-mysql-backups-with-xtrabackup/</guid>
+      <description>I&amp;rsquo;ve been using standard MySQL dumps as backup technique on my VPS for few years. It works fine and backups were usable few times when I needed them. But in other places I&amp;rsquo;m using xtrabackup. It&amp;rsquo;s faster when crating backups and a lot faster when restoring them - they&amp;rsquo;re binary so there is no need to reevaluate all SQL create tables/inserts/etc. Backups also include my.cnf config file so restoring on other machine should be easy.</description>
+    </item>
+    <item>
+      <title>MySQL - reset root password</title>
+      <link>https://gagor.pl/2015/12/mysql-reset-root-password/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2015/12/mysql-reset-root-password/</guid>
+      <description>It will happen from time to time, that you&amp;rsquo;re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn&amp;rsquo;t be used in app &amp;#x1f603; ) but will work for any user.
+shutdown db service mysql stop create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt SET PASSWORD FOR &amp;#34;root&amp;#34;@&amp;#34;localhost&amp;#34; = PASSWORD(&amp;#34;HereYourNewPassword&amp;#34;); start mysqld with --init-file param mysqld_safe --init-file=/tmp/pwchange.</description>
+    </item>
+    <item>
+      <title>MySQL - Proste metody optymalizacji</title>
+      <link>https://gagor.pl/2011/12/mysql-proste-metody-optymalizacji/</link>
+      <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2011/12/mysql-proste-metody-optymalizacji/</guid>
+      <description>Wcześniej czy później zawsze pojawia się potrzeba zoptymalizowania naszej bazy MySQL. Przedstawię kilka zmian w konfiguracji, które powinny zwiększyć wydajność w większości przypadków.
+MyISAM - key_buffer_size Najprostszą optymalizacją baz/tabel z mechanizmem MyISAM jest odpowiednie dobranie bufora na cache dla kluczy i indeksów (dane nigdy nie są cachowane). Poniższe zapytanie pozwala oszacować zalecany rozmiar cache&amp;rsquo;u:
+SELECT CONCAT(ROUND(KBS/POWER(1024, IF(PowerOf1024&amp;lt;0,0,IF(PowerOf1024&amp;gt;3,0,PowerOf1024)))+0.4999), SUBSTR(&amp;#39; KMG&amp;#39;,IF(PowerOf1024&amp;lt;0,0, IF(PowerOf1024&amp;gt;3,0,PowerOf1024))+1,1)) recommended_key_buffer_size FROM (SELECT LEAST(POWER(2,32),KBS1) KBS FROM (SELECT SUM(index_length) KBS1 FROM information_schema.</description>
+    </item>
+    <item>
+      <title>MySQL - dostęp zdalny na szybko</title>
+      <link>https://gagor.pl/2011/08/mysql-na-szybko/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2011/08/mysql-na-szybko/</guid>
+      <description>Instalacja serwera MySQL na Debianie jest niezwykle prosta i sprowadza się do jednego polecenia:
+sudo apt-get install mysql-server Polecenie to zainstaluje i uruchomi usługę serwerową MySQL. W czasie instalacji będziemy proszeni o podanie hasła dla root&amp;rsquo;a (które oczywiście dobrze jest zapamiętać bądź zapisać).
+Tak zainstalowana baza nasłuchuje na lokalnym porcie (localhost:3306) umożliwiająć dostęp wyłącznie root&amp;rsquo;owi. Jest to bardzo bezpieczna konfiguracja&amp;hellip; Ale jeśli nie mamy zamiaru na tej samej maszynie instalować oprogramowania zarządzającego to nie zawsze jest to wygodne, tym bardziej gdy przykładowo mamy działającego phpmyadmin&amp;rsquo;a na jakimś serwerze www.</description>
+    </item>
+  </channel>
+</rss>

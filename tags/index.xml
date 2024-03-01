@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tom&#39;s Blog</title>
+    <link>https://gagor.pl/tags/</link>
+    <description>Recent content in Tags on Tom&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bash</title>
+      <link>https://gagor.pl/tags/bash/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/bash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>https://gagor.pl/tags/devops/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Docker</title>
+      <link>https://gagor.pl/tags/docker/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/docker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://gagor.pl/tags/linux/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Renovate</title>
+      <link>https://gagor.pl/tags/renovate/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/renovate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://gagor.pl/tags/security/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>hugo</title>
+      <link>https://gagor.pl/tags/hugo/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mermaid</title>
+      <link>https://gagor.pl/tags/mermaid/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/mermaid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MacOS</title>
+      <link>https://gagor.pl/tags/macos/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/macos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rancher</title>
+      <link>https://gagor.pl/tags/rancher/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/rancher/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business</title>
+      <link>https://gagor.pl/tags/business/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leadership</title>
+      <link>https://gagor.pl/tags/leadership/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/leadership/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>git</title>
+      <link>https://gagor.pl/tags/git/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Audio</title>
+      <link>https://gagor.pl/tags/audio/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/audio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PipeWire</title>
+      <link>https://gagor.pl/tags/pipewire/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/pipewire/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>https://gagor.pl/tags/ubuntu/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hiring</title>
+      <link>https://gagor.pl/tags/hiring/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/hiring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interview</title>
+      <link>https://gagor.pl/tags/interview/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/interview/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Management</title>
+      <link>https://gagor.pl/tags/management/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kwiaty</title>
+      <link>https://gagor.pl/tags/kwiaty/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/kwiaty/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ogrodnictwo</title>
+      <link>https://gagor.pl/tags/ogrodnictwo/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/ogrodnictwo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloudflare</title>
+      <link>https://gagor.pl/tags/cloudflare/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/cloudflare/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Off-topic</title>
+      <link>https://gagor.pl/tags/off-topic/</link>
+      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/off-topic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>https://gagor.pl/tags/google/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GTD</title>
+      <link>https://gagor.pl/tags/gtd/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/gtd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>https://gagor.pl/tags/windows/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zwift</title>
+      <link>https://gagor.pl/tags/zwift/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/zwift/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Politics</title>
+      <link>https://gagor.pl/tags/politics/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/politics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Psychology</title>
+      <link>https://gagor.pl/tags/psychology/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/psychology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sociology</title>
+      <link>https://gagor.pl/tags/sociology/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/sociology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Finance</title>
+      <link>https://gagor.pl/tags/finance/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/finance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trading</title>
+      <link>https://gagor.pl/tags/trading/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/trading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Belles-lettres</title>
+      <link>https://gagor.pl/tags/belles-lettres/</link>
+      <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/belles-lettres/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sci-fi</title>
+      <link>https://gagor.pl/tags/sci-fi/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/sci-fi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>https://gagor.pl/tags/technology/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debian</title>
+      <link>https://gagor.pl/tags/debian/</link>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/debian/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Best practices</title>
+      <link>https://gagor.pl/tags/best-practices/</link>
+      <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://gagor.pl/tags/kubernetes/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conference</title>
+      <link>https://gagor.pl/tags/conference/</link>
+      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/conference/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Novel</title>
+      <link>https://gagor.pl/tags/novel/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/novel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>backup</title>
+      <link>https://gagor.pl/tags/backup/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/backup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ZFS</title>
+      <link>https://gagor.pl/tags/zfs/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/zfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jira</title>
+      <link>https://gagor.pl/tags/jira/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/jira/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>cli</title>
+      <link>https://gagor.pl/tags/cli/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/cli/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>brew</title>
+      <link>https://gagor.pl/tags/brew/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/brew/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PC</title>
+      <link>https://gagor.pl/tags/pc/</link>
+      <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/pc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science</title>
+      <link>https://gagor.pl/tags/science/</link>
+      <pubDate>Sun, 19 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fantasy</title>
+      <link>https://gagor.pl/tags/fantasy/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/fantasy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thriller</title>
+      <link>https://gagor.pl/tags/thriller/</link>
+      <pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/thriller/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://gagor.pl/tags/python/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MySQL</title>
+      <link>https://gagor.pl/tags/mysql/</link>
+      <pubDate>Sat, 23 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Percona</title>
+      <link>https://gagor.pl/tags/percona/</link>
+      <pubDate>Sat, 23 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/percona/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ssh</title>
+      <link>https://gagor.pl/tags/ssh/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/ssh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zenbook</title>
+      <link>https://gagor.pl/tags/zenbook/</link>
+      <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/zenbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IPv6</title>
+      <link>https://gagor.pl/tags/ipv6/</link>
+      <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/ipv6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PHP</title>
+      <link>https://gagor.pl/tags/php/</link>
+      <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/php/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wordpress</title>
+      <link>https://gagor.pl/tags/wordpress/</link>
+      <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Biography</title>
+      <link>https://gagor.pl/tags/biography/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/biography/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Silverlight</title>
+      <link>https://gagor.pl/tags/silverlight/</link>
+      <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/silverlight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DDoS</title>
+      <link>https://gagor.pl/tags/ddos/</link>
+      <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/ddos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DoS</title>
+      <link>https://gagor.pl/tags/dos/</link>
+      <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/dos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>iptables</title>
+      <link>https://gagor.pl/tags/iptables/</link>
+      <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/iptables/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gnome</title>
+      <link>https://gagor.pl/tags/gnome/</link>
+      <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/gnome/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>nginx</title>
+      <link>https://gagor.pl/tags/nginx/</link>
+      <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/nginx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Xen</title>
+      <link>https://gagor.pl/tags/xen/</link>
+      <pubDate>Tue, 12 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/xen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>curl</title>
+      <link>https://gagor.pl/tags/curl/</link>
+      <pubDate>Mon, 11 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/curl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nagios</title>
+      <link>https://gagor.pl/tags/nagios/</link>
+      <pubDate>Mon, 11 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/nagios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CollectD</title>
+      <link>https://gagor.pl/tags/collectd/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/collectd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Grafana</title>
+      <link>https://gagor.pl/tags/grafana/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/grafana/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>InfluxDB</title>
+      <link>https://gagor.pl/tags/influxdb/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/influxdb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LetsEncrypt</title>
+      <link>https://gagor.pl/tags/letsencrypt/</link>
+      <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/letsencrypt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenSSL</title>
+      <link>https://gagor.pl/tags/openssl/</link>
+      <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/openssl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>fail2ban</title>
+      <link>https://gagor.pl/tags/fail2ban/</link>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/fail2ban/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ansible</title>
+      <link>https://gagor.pl/tags/ansible/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/ansible/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache</title>
+      <link>https://gagor.pl/tags/apache/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/apache/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vagrant</title>
+      <link>https://gagor.pl/tags/vagrant/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/vagrant/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MariaDB</title>
+      <link>https://gagor.pl/tags/mariadb/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/mariadb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Django</title>
+      <link>https://gagor.pl/tags/django/</link>
+      <pubDate>Wed, 28 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/django/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CentOS</title>
+      <link>https://gagor.pl/tags/centos/</link>
+      <pubDate>Thu, 08 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/centos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fedora</title>
+      <link>https://gagor.pl/tags/fedora/</link>
+      <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/fedora/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Red Hat</title>
+      <link>https://gagor.pl/tags/red-hat/</link>
+      <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/red-hat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SEO</title>
+      <link>https://gagor.pl/tags/seo/</link>
+      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/seo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MediaWiki</title>
+      <link>https://gagor.pl/tags/mediawiki/</link>
+      <pubDate>Tue, 25 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/mediawiki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>memcached</title>
+      <link>https://gagor.pl/tags/memcached/</link>
+      <pubDate>Fri, 21 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/memcached/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>postfix</title>
+      <link>https://gagor.pl/tags/postfix/</link>
+      <pubDate>Tue, 18 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/postfix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Active Directory</title>
+      <link>https://gagor.pl/tags/active-directory/</link>
+      <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/active-directory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SPDY</title>
+      <link>https://gagor.pl/tags/spdy/</link>
+      <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/spdy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WSUS</title>
+      <link>https://gagor.pl/tags/wsus/</link>
+      <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/wsus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>https://gagor.pl/tags/javascript/</link>
+      <pubDate>Tue, 07 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>mod_rewrite</title>
+      <link>https://gagor.pl/tags/mod_rewrite/</link>
+      <pubDate>Fri, 27 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/mod_rewrite/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android</title>
+      <link>https://gagor.pl/tags/android/</link>
+      <pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>mdadm</title>
+      <link>https://gagor.pl/tags/mdadm/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/mdadm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RAID</title>
+      <link>https://gagor.pl/tags/raid/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/raid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ghost</title>
+      <link>https://gagor.pl/tags/ghost/</link>
+      <pubDate>Thu, 28 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/ghost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XFS</title>
+      <link>https://gagor.pl/tags/xfs/</link>
+      <pubDate>Wed, 27 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/xfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gearman</title>
+      <link>https://gagor.pl/tags/gearman/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/gearman/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SPAM</title>
+      <link>https://gagor.pl/tags/spam/</link>
+      <pubDate>Sun, 15 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/spam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Raspberry Pi</title>
+      <link>https://gagor.pl/tags/raspberry-pi/</link>
+      <pubDate>Fri, 13 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPO</title>
+      <link>https://gagor.pl/tags/gpo/</link>
+      <pubDate>Tue, 06 Aug 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/gpo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FC</title>
+      <link>https://gagor.pl/tags/fc/</link>
+      <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/fc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SCSI</title>
+      <link>https://gagor.pl/tags/scsi/</link>
+      <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/scsi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BitTorrent</title>
+      <link>https://gagor.pl/tags/bittorrent/</link>
+      <pubDate>Tue, 16 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/bittorrent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>btsync</title>
+      <link>https://gagor.pl/tags/btsync/</link>
+      <pubDate>Tue, 16 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/btsync/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fortigate</title>
+      <link>https://gagor.pl/tags/fortigate/</link>
+      <pubDate>Sat, 30 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/fortigate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FortiOS</title>
+      <link>https://gagor.pl/tags/fortios/</link>
+      <pubDate>Sat, 30 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/fortios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VPN</title>
+      <link>https://gagor.pl/tags/vpn/</link>
+      <pubDate>Sat, 30 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/vpn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>badblocks</title>
+      <link>https://gagor.pl/tags/badblocks/</link>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/badblocks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>smartctl</title>
+      <link>https://gagor.pl/tags/smartctl/</link>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/smartctl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Piwik</title>
+      <link>https://gagor.pl/tags/piwik/</link>
+      <pubDate>Fri, 21 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/piwik/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LDAP</title>
+      <link>https://gagor.pl/tags/ldap/</link>
+      <pubDate>Fri, 14 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/ldap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CouchDB</title>
+      <link>https://gagor.pl/tags/couchdb/</link>
+      <pubDate>Thu, 08 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/couchdb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ext4</title>
+      <link>https://gagor.pl/tags/ext4/</link>
+      <pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/ext4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LVM</title>
+      <link>https://gagor.pl/tags/lvm/</link>
+      <pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/lvm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RainbowDB</title>
+      <link>https://gagor.pl/tags/rainbowdb/</link>
+      <pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/rainbowdb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>mail</title>
+      <link>https://gagor.pl/tags/mail/</link>
+      <pubDate>Wed, 31 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/mail/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>poczta</title>
+      <link>https://gagor.pl/tags/poczta/</link>
+      <pubDate>Wed, 31 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/poczta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nautilus</title>
+      <link>https://gagor.pl/tags/nautilus/</link>
+      <pubDate>Tue, 30 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/nautilus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AutoIt</title>
+      <link>https://gagor.pl/tags/autoit/</link>
+      <pubDate>Mon, 22 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/autoit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open Source</title>
+      <link>https://gagor.pl/tags/open-source/</link>
+      <pubDate>Wed, 26 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wheezy</title>
+      <link>https://gagor.pl/tags/wheezy/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/wheezy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LTO</title>
+      <link>https://gagor.pl/tags/lto/</link>
+      <pubDate>Tue, 11 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/lto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NFS</title>
+      <link>https://gagor.pl/tags/nfs/</link>
+      <pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/nfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>mod_auth_basic</title>
+      <link>https://gagor.pl/tags/mod_auth_basic/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/mod_auth_basic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>urxvt</title>
+      <link>https://gagor.pl/tags/urxvt/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/urxvt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>fsck</title>
+      <link>https://gagor.pl/tags/fsck/</link>
+      <pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/fsck/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>reverse proxy</title>
+      <link>https://gagor.pl/tags/reverse-proxy/</link>
+      <pubDate>Fri, 29 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/reverse-proxy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SciTE</title>
+      <link>https://gagor.pl/tags/scite/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/scite/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Empathy</title>
+      <link>https://gagor.pl/tags/empathy/</link>
+      <pubDate>Fri, 30 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/empathy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>rsync</title>
+      <link>https://gagor.pl/tags/rsync/</link>
+      <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/rsync/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>snapshot</title>
+      <link>https://gagor.pl/tags/snapshot/</link>
+      <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/snapshot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>dovecot</title>
+      <link>https://gagor.pl/tags/dovecot/</link>
+      <pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/dovecot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>APC</title>
+      <link>https://gagor.pl/tags/apc/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/apc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>eAccelerator</title>
+      <link>https://gagor.pl/tags/eaccelerator/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/eaccelerator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XCache</title>
+      <link>https://gagor.pl/tags/xcache/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/xcache/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SLES</title>
+      <link>https://gagor.pl/tags/sles/</link>
+      <pubDate>Thu, 20 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/sles/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>pflogsumm</title>
+      <link>https://gagor.pl/tags/pflogsumm/</link>
+      <pubDate>Thu, 22 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/pflogsumm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Magic SysRq</title>
+      <link>https://gagor.pl/tags/magic-sysrq/</link>
+      <pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/magic-sysrq/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>approx</title>
+      <link>https://gagor.pl/tags/approx/</link>
+      <pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/approx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>apt</title>
+      <link>https://gagor.pl/tags/apt/</link>
+      <pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/apt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>backports</title>
+      <link>https://gagor.pl/tags/backports/</link>
+      <pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/backports/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>proxy</title>
+      <link>https://gagor.pl/tags/proxy/</link>
+      <pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/proxy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>cache</title>
+      <link>https://gagor.pl/tags/cache/</link>
+      <pubDate>Thu, 15 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/cache/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>proc</title>
+      <link>https://gagor.pl/tags/proc/</link>
+      <pubDate>Thu, 15 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/proc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>mod_antiloris</title>
+      <link>https://gagor.pl/tags/mod_antiloris/</link>
+      <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/mod_antiloris/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>mod_reqtimeout</title>
+      <link>https://gagor.pl/tags/mod_reqtimeout/</link>
+      <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/mod_reqtimeout/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Slowloris</title>
+      <link>https://gagor.pl/tags/slowloris/</link>
+      <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/slowloris/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IO Wait</title>
+      <link>https://gagor.pl/tags/io-wait/</link>
+      <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/io-wait/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>iostat</title>
+      <link>https://gagor.pl/tags/iostat/</link>
+      <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/iostat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>iotop</title>
+      <link>https://gagor.pl/tags/iotop/</link>
+      <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/iotop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>vmstat</title>
+      <link>https://gagor.pl/tags/vmstat/</link>
+      <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/vmstat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AWStats</title>
+      <link>https://gagor.pl/tags/awstats/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/awstats/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CGI</title>
+      <link>https://gagor.pl/tags/cgi/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/cgi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JPGraph</title>
+      <link>https://gagor.pl/tags/jpgraph/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/jpgraph/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lenny</title>
+      <link>https://gagor.pl/tags/lenny/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/lenny/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PostgreSQL</title>
+      <link>https://gagor.pl/tags/postgresql/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Squeeze</title>
+      <link>https://gagor.pl/tags/squeeze/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/squeeze/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CA</title>
+      <link>https://gagor.pl/tags/ca/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/ca/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FTP</title>
+      <link>https://gagor.pl/tags/ftp/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/ftp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GRUB</title>
+      <link>https://gagor.pl/tags/grub/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/grub/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>hash</title>
+      <link>https://gagor.pl/tags/hash/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/hash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MD5</title>
+      <link>https://gagor.pl/tags/md5/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/md5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>quota</title>
+      <link>https://gagor.pl/tags/quota/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/quota/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RBL</title>
+      <link>https://gagor.pl/tags/rbl/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/rbl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>rblcheck</title>
+      <link>https://gagor.pl/tags/rblcheck/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/rblcheck/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SelfSigned</title>
+      <link>https://gagor.pl/tags/selfsigned/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/selfsigned/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CI/CD</title>
+      <link>https://gagor.pl/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/tags/ci/cd/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

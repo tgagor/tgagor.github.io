@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PHP on Tom&#39;s Blog</title>
+    <link>https://gagor.pl/tags/php/</link>
+    <description>Recent content in PHP on Tom&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Wed, 24 Feb 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordPress with HyperDB on PHP 7.0</title>
+      <link>https://gagor.pl/2016/02/wordpress-with-hyperdb-on-php-7-0/</link>
+      <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2016/02/wordpress-with-hyperdb-on-php-7-0/</guid>
+      <description>I was configuring WordPress with HyperDB plugin on PHP 7.0 but the only I get were constant 500 errors. As I found here PHP 7.0 is not supported by HyperDB for now - it&amp;rsquo;s rely on mysql php extension but in PHP 7.0 there is only mysqli extension. But few folks fixed it and it&amp;rsquo;s possible to use it.
+curl -O https://raw.githubusercontent.com/soulseekah/hyperdb-mysqli/master/db.php mv db.php /var/www/wordpress/wp-content/ And configure it ex. like this:</description>
+    </item>
+    <item>
+      <title>Apache - Force caching dynamic PHP content with mod_headers</title>
+      <link>https://gagor.pl/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</guid>
+      <description>Normally you want dynamic content to be fresh and not catchable. But sometimes it may be useful to cache it, like when you have website behind reverse proxy. To do this try something like this:
+&amp;lt;filesmatch &amp;#34;\.(php|cgi|pl)$&amp;#34;&amp;gt; Header unset Pragma Header unset Expires Header set Cache-Control &amp;#34;max-age=3600, public&amp;#34; &amp;lt;/filesmatch&amp;gt; Sources http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html</description>
+    </item>
+    <item>
+      <title>Running Apache with mod_spdy and PHP-FPM</title>
+      <link>https://gagor.pl/2013/12/running-apache-with-mod_spdy-and-php-fpm/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2013/12/running-apache-with-mod_spdy-and-php-fpm/</guid>
+      <description>SPDY is new protocol proposed by Google as an alternative for HTTP(S). Currently Chrome and Firefox browsers are using it as default if available on server. It is faster in most cases by few to several percent. The side effect of using mod_spdy is that it&amp;rsquo;s working well only with thread safe Apache&amp;rsquo;s modules. PHP module for Apache is not thread safe so we need to use PHP as CGI or FastCGI service.</description>
+    </item>
+    <item>
+      <title>GearmanManager: wygodne zarządzanie workerami</title>
+      <link>https://gagor.pl/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</guid>
+      <description>Niedawno zainteresowałem się usługą Gearman i jedynej rzeczy której mi brakowało to jakiegoś łatwego mechanizmu zarządzającego workerami. Ale jak zwykle okazało się że inni mieli już ten problem i odpowiednie narzędzie istnieje - mowa o GearmanManagerze.
+Instalacja GearmanManagera Aby zainstalować GeramanManagera na serwerze gdzie już mamy Gearmana trzeba wykonać kilka kroków (wcześniej powinniśmy też zainstalować moduł gearmana do php&amp;rsquo;a):
+apt-get install git -y git clone https://github.com/brianlmoon/GearmanManager.git cd GearmanManager/install chmod +x install.</description>
+    </item>
+    <item>
+      <title>Instalacja gearman-job-server 1.0.6 na Debianie Wheezy</title>
+      <link>https://gagor.pl/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/</link>
+      <pubDate>Tue, 29 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/</guid>
+      <description>Ostatnio trafiłem na ciekawą usługę, która pozwala oddelegować długo trwające zadania z usługi webowej. Mowa o Gearman&amp;rsquo;ie. Usługa jest o tyle ciekawa że nie narzuca ani języka dla klienta (większość popularnych ma gotowe biblioteki), ani język dla skryptów w tej usłudze nie jest narzucany. Można tę usługę wykorzystać jako most pomiędzy PHP a np. Javą/Pythonem lub do zlecenia zadań z serwera na Linux&amp;rsquo;ie do wykonania na serwerze Windowsowym (bo np. narzędzia dostępne są tylko dla Windowsa).</description>
+    </item>
+    <item>
+      <title>PHP - max_input_vars</title>
+      <link>https://gagor.pl/2013/01/php-max_input_vars/</link>
+      <pubDate>Tue, 22 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2013/01/php-max_input_vars/</guid>
+      <description>W PHP 5.3 pojawiła się nowa zmienna: max_input_vars, która limituje ilość pól możliwych do przesłania przez formularz, obcinając nadmiarowe. Pozwala to zapobiec atakom DoS na tablice hashujące (przynajmniej w tym jednym miejscu). Domyślna wartość tej zmiennej to 1000 i kreatywnym programistom udaje się tą wartość bez problemu osiągnąć &amp;#x1f603;
+Warte odnotowania jest to że mając suhosin&amp;rsquo;a trzeba pamiętać o jeszcze dwóch innych zmiennych:
+max_input_vars = 3000 suhosin.post.max_vars = 3000 suhosin.request.max_vars = 3000 Zmienne można zmienić od razu w /etc/php5/apache2/php.</description>
+    </item>
+    <item>
+      <title>Jak dokuczać spamerom</title>
+      <link>https://gagor.pl/2012/12/jak-dokuczac-spamerom/</link>
+      <pubDate>Tue, 18 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2012/12/jak-dokuczac-spamerom/</guid>
+      <description>Dawno, dawno temu&amp;hellip; Za górami, za lasami&amp;hellip; czytałem sobie tekst Lemat&amp;rsquo;a o dokuczaniu spamerom i pomyślałem że sam też tak mogę i nawet chcę więc popełniłem skrypcik, który dla losowych słów generował maile. Skrypcik działał z dwa lata na mojej poprzedniej stronie i nie raz zdarzyło się tam jakiejś mendzie zapętlić. Jakoś nie miałem czasu od razu, a później zapomniałem wrzucić go na nową stronie i tak zostało - na pewien czas.</description>
+    </item>
+    <item>
+      <title>Porównanie optymalizatorów PHP - eAccelerator, PHP APC, XCache</title>
+      <link>https://gagor.pl/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</guid>
+      <description>Przez pewien czas korzystałem z eAcceleratora do przyspieszenia działania stron pisanych w PHP&amp;rsquo;ie ale czasem bywał niestabilny. Aktualizacje pojawiały się rzadko a od czasu do czasu miewałem problemy ze stabilnością tej wtyczki na kilku bardziej skomplikowanych aplikacjach. Zdarzało się że pomimo zmiany kodu w skrypcie php, eAccelerator serwował wciąż stary plik - konieczny był restart Apache&amp;rsquo;go by wszystko działało jak trzeba.
+Zacząłem szukać alternatywy i trafiłem na dwa moduły:
+APC (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w PHP od wersji 5.</description>
+    </item>
+    <item>
+      <title>JPGraph, wykresy z PHP’a</title>
+      <link>https://gagor.pl/2011/08/jpgraph-wykresy-z-phpa/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2011/08/jpgraph-wykresy-z-phpa/</guid>
+      <description>Onego czasu próbowałem znaleźć coś co ułatwiłoby mi rysowanie prostych wykresów w PHP&amp;rsquo;ie inaczej niż z palca w GD. Kumpel polecił mi JPGraph.
+JPGraph to świetna sprawa, do generowania statystyk jak chociażby na mojej stronie, ale biblioteka potrafi dużo więcej&amp;hellip;
+Załóżmy, że ze stronki zbieramy do bazy takie rzeczy jak: datę, adres IP, ilość połączeń z tego adresu. Prosta tabela (przykład w Postgre SQL&amp;rsquo;u):
+CREATE TABLE wizyty ( pid serial NOT NULL, &amp;#34;data&amp;#34; date NOT NULL DEFAULT (&amp;#39;now&amp;#39;::text)::date, odslony integer NOT NULL DEFAULT 1, CONSTRAINT visits_pkey PRIMARY KEY (id) ); Dane z takiej tabeli można łatwo wyciągnąć jednym select&amp;rsquo;em:</description>
+    </item>
+    <item>
+      <title>Optymalizacja PHP z eAccelerator’em</title>
+      <link>https://gagor.pl/2011/08/optymalizacja-php-z-eacceleratorem/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2011/08/optymalizacja-php-z-eacceleratorem/</guid>
+      <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy &amp;#x1f603;
+Niestety nie ma go w repozytoriach Debiana, więc trzeba go sobie skompilować - cały proces jest dość prosty. Zaczynamy od pobrania najświeższej paczki, obecnie jest to wersja 0.9.5.3:
+Pobierz eAccelerator (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)
+Pobieramy i rozpakowujemy pliki:</description>
+    </item>
+    <item>
+      <title>Klastrowanie sesji PHP z memcached</title>
+      <link>https://gagor.pl/2011/08/klastrowanie-sesji-php-z-memcached/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2011/08/klastrowanie-sesji-php-z-memcached/</guid>
+      <description>Klastrowanie to może zbyt dumnie powiedziane. Rozwiązanie to wyszukałem gdy chcąc skonfigurować dwa serwery apache do współpracy na rzecz jednego serwisu okazało się, że sejse trzymane są tylko przez jeden serwer a drugi nic o nich nie wie. To oczywiście nie pozwalało na prawidłowe działanie jakiegokolwiek serwisu korzystającego z sesji.
+Pomysł jest taki, że zastępujemy domyśny mechanizm przechowywania sesji w plikach na dysku mechanizmem memcache. Ponieważ memcached działa jako usługa sieciowa, różne serwery mogą się odwoływać do puli memcached i odczytywać zapisane w niej dane.</description>
+    </item>
+  </channel>
+</rss>

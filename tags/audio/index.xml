@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audio on Tom&#39;s Blog</title>
+    <link>https://gagor.pl/tags/audio/</link>
+    <description>Recent content in Audio on Tom&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/audio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tuning PipeWire for best audio quality on Ubuntu</title>
+      <link>https://gagor.pl/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</guid>
+      <description>TL;DR If you&amp;rsquo;re not interested in the &amp;ldquo;story of my life&amp;rdquo;, go directly to &amp;ldquo;Tuning PipeWire&amp;rdquo; section.
+I&amp;rsquo;m not an audiophile, but I spent whole days in the headphones and I like when sound sounds good. I like slight bass boost, which adds this kick to the melody, but won&amp;rsquo;t overwhelm me after an hour of listening. I like when high tones are clear, but I get annoyed if they&amp;rsquo;re too strong.</description>
+    </item>
+  </channel>
+</rss>

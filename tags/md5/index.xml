@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MD5 on Tom&#39;s Blog</title>
+    <link>https://gagor.pl/tags/md5/</link>
+    <description>Recent content in MD5 on Tom&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Sat, 27 Aug 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/md5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RainbowDB</title>
+      <link>https://gagor.pl/2011/08/rainbowdb/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2011/08/rainbowdb/</guid>
+      <description>Pewnego popołudnia przeczytałem artykuł o tęczowych tabelach i pod jego wpływem zacząłem kombinować jak zrobić coś takiego ale swojego.
+Do bazy wrzuciłem cały słownik z aspell&amp;rsquo;a dla języka polskiego (słowa z ogonkami i bez), angielskiego, kilka słowników z popularnymi hasłami, długą listę haseł z yourock i kilka innych. Sporo się nakombinowałem aby wygenerować dużo kombinacji szczególnie pod kątem polskich haseł (wszystkie: misiaczki, dupeczki, itp&amp;hellip;) razem z różnymi popularnymi modyfikacjami (typu: misiaczki1, DUPECZKI, etc&amp;hellip;).</description>
+    </item>
+  </channel>
+</rss>

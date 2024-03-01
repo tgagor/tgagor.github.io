@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SEO on Tom&#39;s Blog</title>
+    <link>https://gagor.pl/tags/seo/</link>
+    <description>Recent content in SEO on Tom&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Thu, 27 Mar 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordPress - add meta tags: author, description, keywords, etc</title>
+      <link>https://gagor.pl/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</link>
+      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</guid>
+      <description>After reading some SEO stuff I wanted to add some meta tags to my WordPress blog. I found this site: codex.wordpress.org/Meta_Tags_in_WordPress.
+So WordPress thinks that it&amp;rsquo;s not necessary to have this meta tags any more&amp;hellip; But I want it! &amp;#x1f603; Next funny thing is how they suggest to add meta tags: copy header.php - what about theme updates?
+I prefer to use functions.php file - just create it in your courrent theme directory with such content:</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PostgreSQL on Tom&#39;s Blog</title>
+    <link>https://gagor.pl/tags/postgresql/</link>
+    <description>Recent content in PostgreSQL on Tom&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Mon, 29 Aug 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://gagor.pl/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JPGraph, wykresy z PHP’a</title>
+      <link>https://gagor.pl/2011/08/jpgraph-wykresy-z-phpa/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2011/08/jpgraph-wykresy-z-phpa/</guid>
+      <description>Onego czasu próbowałem znaleźć coś co ułatwiłoby mi rysowanie prostych wykresów w PHP&amp;rsquo;ie inaczej niż z palca w GD. Kumpel polecił mi JPGraph.
+JPGraph to świetna sprawa, do generowania statystyk jak chociażby na mojej stronie, ale biblioteka potrafi dużo więcej&amp;hellip;
+Załóżmy, że ze stronki zbieramy do bazy takie rzeczy jak: datę, adres IP, ilość połączeń z tego adresu. Prosta tabela (przykład w Postgre SQL&amp;rsquo;u):
+CREATE TABLE wizyty ( pid serial NOT NULL, &amp;#34;data&amp;#34; date NOT NULL DEFAULT (&amp;#39;now&amp;#39;::text)::date, odslony integer NOT NULL DEFAULT 1, CONSTRAINT visits_pkey PRIMARY KEY (id) ); Dane z takiej tabeli można łatwo wyciągnąć jednym select&amp;rsquo;em:</description>
+    </item>
+  </channel>
+</rss>
