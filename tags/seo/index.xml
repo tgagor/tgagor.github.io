@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SEO on Tom&#39;s Blog</title>
-    <link>https://gagor.pl/tags/seo/</link>
+    <link>/tags/seo/</link>
     <description>Recent content in SEO on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Sun, 03 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gagor.pl/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/seo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SEO kicks my stats</title>
-      <link>https://gagor.pl/2024/03/seo-kicks-my-stats/</link>
+      <link>/2024/03/seo-kicks-my-stats/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2024/03/seo-kicks-my-stats/</guid>
+      <guid>/2024/03/seo-kicks-my-stats/</guid>
       <description>Towards the end of the year, I received a notification reminding me to renew the domain for my blog. The domain in question was timor.site. This was the first invoice I had received from GoDaddy since they acquired Uniregistry, and to my dismay, it was significantly more expensive than what I had been accustomed to paying. With the year drawing to a close, I was reluctant to invest too much time or money into the renewal process.</description>
     </item>
     <item>
       <title>WordPress - add meta tags: author, description, keywords, etc</title>
-      <link>https://gagor.pl/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</link>
+      <link>/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</link>
       <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</guid>
+      <guid>/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</guid>
       <description>After reading some SEO stuff I wanted to add some meta tags to my WordPress blog. I found this site: codex.wordpress.org/Meta_Tags_in_WordPress&amp;thinsp; external link .
 So WordPress thinks that it&amp;rsquo;s not necessary to have this meta tags any more&amp;hellip; But I want it! &amp;#x1f603; Next funny thing is how they suggest to add meta tags: copy header.php - what about theme updates?
 I prefer to use functions.php file - just create it in your courrent theme directory with such content:</description>

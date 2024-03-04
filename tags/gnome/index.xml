@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gnome on Tom&#39;s Blog</title>
-    <link>https://gagor.pl/tags/gnome/</link>
+    <link>/tags/gnome/</link>
     <description>Recent content in Gnome on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Thu, 04 Feb 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gagor.pl/tags/gnome/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/gnome/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zeitgeist activity.sqlite-wal getting huge</title>
-      <link>https://gagor.pl/2016/02/zeitgeist-activity-sqlite-wal-getting-huge/</link>
+      <link>/2016/02/zeitgeist-activity-sqlite-wal-getting-huge/</link>
       <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/02/zeitgeist-activity-sqlite-wal-getting-huge/</guid>
+      <guid>/2016/02/zeitgeist-activity-sqlite-wal-getting-huge/</guid>
       <description>I was looking at backup task running on my desk and saw that it&amp;rsquo;s spending a lot of time on ~/.local/share/zeitgeist directory. I checked and it had 4.6GB:
 du -sh ~/.local/share/zeitgeist/* 118M activity.sqlite 44M activity.sqlite.bck 32K activity.sqlite-shm 4,4G activity.sqlite-wal 311M fts.index WTF? Fortunately I found here&amp;thinsp; external link that I could easily delete some of this:
 zeitgeist-daemon --quit Now check that it&amp;rsquo;s not running:

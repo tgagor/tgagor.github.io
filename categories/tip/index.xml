@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tip on Tom&#39;s Blog</title>
-    <link>https://gagor.pl/categories/tip/</link>
+    <link>/categories/tip/</link>
     <description>Recent content in Tip on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gagor.pl/categories/tip/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/tip/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adding Mermaid diagrams to Hugo</title>
-      <link>https://gagor.pl/2024/02/adding-mermaid-diagrams-to-hugo/</link>
+      <link>/2024/02/adding-mermaid-diagrams-to-hugo/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2024/02/adding-mermaid-diagrams-to-hugo/</guid>
+      <guid>/2024/02/adding-mermaid-diagrams-to-hugo/</guid>
       <description>I used Chart.js charts on one of my Hugo blogs for few years already. Recently I needed to add few diagrams and I started glueing them in Chart.js but then I found that Hugo supports GoAT and Mermaid diagrams&amp;thinsp; external link . They&amp;rsquo;re not working out of the box, but it&amp;rsquo;s easy to extend. Much easier than my custom shortcodes.
 I tried to follow up the instruction1 but failed. After few minutes I found slightly simpler solution.</description>
     </item>
     <item>
       <title>How to run x86-64 Docker images on Apple&#39;s MacBook with M1/M2/M3 CPU</title>
-      <link>https://gagor.pl/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</link>
+      <link>/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</link>
       <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</guid>
+      <guid>/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</guid>
       <description>Working with Docker environments amid diverse architectures, like Apple&amp;rsquo;s arm64 and x86-64/AMD64, presents challenges. I&amp;rsquo;ve encountered the clash between my Mac&amp;rsquo;s M1 arm64 architecture and my x86-centric server workloads. The solution? Just use DOCKER_DEFAULT_PLATFORM 1 2.
 Just run in the terminal:
 Enforce platform for all commands export DOCKER_DEFAULT_PLATFORM=linux/amd64 With this command, Docker enforces x86 architecture by default on commands supporting --platform parameter, streamlining workflows and sparing the need for repetitive --platform specifications.</description>
     </item>
     <item>
       <title>My pre-commit config for Hugo blog</title>
-      <link>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</link>
+      <link>/2024/01/my-pre-commit-config-for-hugo-blog/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</guid>
+      <guid>/2024/01/my-pre-commit-config-for-hugo-blog/</guid>
       <description>I love blogging with Hugo&amp;thinsp; external link and I have two blogs already that use it. The good thing about static sites is that you have all the data in the files. You can optimize them locally, batch process, amend, etc. Powerful templating engine allows to quickly pre fill documents in the format I like.
 I have some steps in the Makefile for things like image optimization, but I often don&amp;rsquo;t remember to run them &amp;#x1f603;</description>
     </item>
     <item>
       <title>Git hacks - a set of my favorite git aliases</title>
-      <link>https://gagor.pl/2024/01/git-hacks-a-set-of-my-favorite-git-aliases/</link>
+      <link>/2024/01/git-hacks-a-set-of-my-favorite-git-aliases/</link>
       <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2024/01/git-hacks-a-set-of-my-favorite-git-aliases/</guid>
+      <guid>/2024/01/git-hacks-a-set-of-my-favorite-git-aliases/</guid>
       <description>I use Git a lot, even writing this article i will commit text few times. There&amp;rsquo;s a set of aliases I rely on daily and they&amp;rsquo;re first I add in new place.
 Some Git commands are unnecessarily verbose. You can make your life much easier with bash-completions, but if you write it tens of times per day, it&amp;rsquo;s anyway a lot of typing&amp;hellip; and I&amp;rsquo;m a lazy man &amp;#x1f604;
 Simple status/log checks git s s = status --short --branch --untracked-files Shows a short, branch-focused status with untracked files.</description>
     </item>
     <item>
       <title>Checking compressed size of Docker image</title>
-      <link>https://gagor.pl/2024/01/checking-compressed-size-of-docker-image/</link>
+      <link>/2024/01/checking-compressed-size-of-docker-image/</link>
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2024/01/checking-compressed-size-of-docker-image/</guid>
+      <guid>/2024/01/checking-compressed-size-of-docker-image/</guid>
       <description>One day, I was looking for some gains to improve the startup time for Jenkins agents. We run them as containers and because images are quite big, I was thinking about cutting the size, by cutting less frequently used features. I was looking for the metrics I could use to decide which changes are most valuable. I could think about two: download time and startup time. Together they combine to the gap between the request to start agent and the moment you can start to use it.</description>
     </item>
     <item>
       <title>How to run Google Tasks in separate browser tab?</title>
-      <link>https://gagor.pl/2024/01/how-to-run-google-tasks-in-separate-browser-tab/</link>
+      <link>/2024/01/how-to-run-google-tasks-in-separate-browser-tab/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2024/01/how-to-run-google-tasks-in-separate-browser-tab/</guid>
+      <guid>/2024/01/how-to-run-google-tasks-in-separate-browser-tab/</guid>
       <description>I&amp;rsquo;m a fan of Getting Things Done1 methodology and I recommend to read the book of the same title to anyone. I know, it looks like a typical, american corpo bull****, but it&amp;rsquo;s not! Wheter you&amp;rsquo;re a busy manager or a father of three - it might help you to manage things you have to do, on time and with less stress.
 I&amp;rsquo;ve been trying multiple apps to support this methodology, but eventually I stick to Google Tasks app 2.</description>
     </item>
     <item>
       <title>How to run Zwift in full screen</title>
-      <link>https://gagor.pl/2023/12/how-to-run-zwift-in-full-screen/</link>
+      <link>/2023/12/how-to-run-zwift-in-full-screen/</link>
       <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2023/12/how-to-run-zwift-in-full-screen/</guid>
+      <guid>/2023/12/how-to-run-zwift-in-full-screen/</guid>
       <description>Zwift runs by default in windowed mode, with ugly start menu at bottom and title bar. It&amp;rsquo;s not a big deal, just something irritating. It might be as silly as funny, but I wasn&amp;rsquo;t able to find a good answer for it. There are instructions but, where the heck is &amp;ldquo;Settings&amp;rdquo; button? &amp;#x1f604;
 Eventually, accidentaly I found it! So let me share, with pictures &amp;#x1f60e;
 Find in top-right corner icon with your points and click it From menu, choose &amp;ldquo;My settings&amp;rdquo; In new window, choose &amp;ldquo;Sound &amp;amp; Display&amp;rdquo; tab There it is!</description>
     </item>
     <item>
       <title>Use Github with SSH on port 443</title>
-      <link>https://gagor.pl/2023/12/use-github-with-ssh-on-port-443/</link>
+      <link>/2023/12/use-github-with-ssh-on-port-443/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2023/12/use-github-with-ssh-on-port-443/</guid>
+      <guid>/2023/12/use-github-with-ssh-on-port-443/</guid>
       <description>Today, I was trying to pull/push repos from Github and I was getting timeout errors. I use SSH for clonning and I prefer it this way over HTTPS.
 I was looking for the reason but it felt like a temporary glitch, either on Github&amp;rsquo;s or my provider&amp;rsquo;s side. I was googling for anything, that could help me and I found1 the way to use Github ssh clone/push/pull via SSH (as I want), but via port 443&amp;hellip; Simulating HTTPS traffic&amp;hellip; OK&amp;hellip;</description>
     </item>
     <item>
       <title>Ubuntu - Key is stored in legacy trusted.gpg keyring...</title>
-      <link>https://gagor.pl/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</link>
+      <link>/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</link>
       <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</guid>
+      <guid>/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</guid>
       <description>Since upgrade to Ubuntu 22.04 keep seeing those warnings:
 W: http://ppa.launchpad.net/yubico/stable/ubuntu/dists/jammy/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details. W: https://updates.signal.org/desktop/apt/dists/xenial/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details. W: https://repo.skype.com/deb/dists/stable/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details. W: https://packagecloud.io/AtomEditor/atom/any/dists/any/InRelease: Key is stored in legacy trusted.</description>
     </item>
     <item>
       <title>Ford S-MAX - kasowanie ostrzeżenia wymiany oleju</title>
-      <link>https://gagor.pl/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</link>
+      <link>/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</link>
       <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</guid>
+      <guid>/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</guid>
       <description>Auta się zmieniają a problemy z nimi pozostają te same :)
 Kasowanie ostrzeżenia wymiany oleju 1 Przekręcić kluczyk w stacyjce do drugiej pozycji, gdy zapalają się wszystkie kontrolki (nie uruchamiamy silnika). Wciskamy równocześnie pedały hamulca i gazu do oporu, trzymamy do zakończenia procesu. Pojawi komunikat o rozpoczęciu resetowania inspekcji. Możemy zatwierdzić OK. Czekamy aż pojawi się komunikat: Zatwierdzamy OK. Dopiero teraz zwalniamy pedały. https://forum.fordclubpolska.org/showthread.php?t=108532&amp;thinsp; external link &amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
       <title>Automatically add ticket ID to every commit message in Git</title>
-      <link>https://gagor.pl/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</link>
+      <link>/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</link>
       <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</guid>
+      <guid>/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</guid>
       <description>I don&amp;rsquo;t know how it is in your company, but in mine it&amp;rsquo;s considered a good practice to add ticket numbers to commit messages. It allows to easily determine why something was changed, etc. Makes sense, but this also means, that I should be adding this ticket to every message&amp;hellip; And this doesn&amp;rsquo;t make sense for me. I will accidentally avoid it from time to time or make a lot of typos.</description>
     </item>
     <item>
       <title>Resize images from command line on MacOS</title>
-      <link>https://gagor.pl/2021/11/resize-images-from-command-line-on-macos/</link>
+      <link>/2021/11/resize-images-from-command-line-on-macos/</link>
       <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2021/11/resize-images-from-command-line-on-macos/</guid>
+      <guid>/2021/11/resize-images-from-command-line-on-macos/</guid>
       <description>I was updating my blog and needed to generate few variants of images, in different resolution.
 Option 1 - sips There&amp;rsquo;s simple, builtin tool sips, that can be used for simple resizing 1:
 Resize single image sips -Z 36 orig.png --out static/favicon36x36.png -Z - maintain image aspect ratio 36 - maximum height and width It can be also used for batch image processing:
@@ -112,9 +112,9 @@ Beware, without &amp;ndash;out param, it will overwrite images in place!</descri
     </item>
     <item>
       <title>Homebrew - uninstall formula with dependencies</title>
-      <link>https://gagor.pl/2021/11/homebrew-uninstall-formula-with-dependencies/</link>
+      <link>/2021/11/homebrew-uninstall-formula-with-dependencies/</link>
       <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2021/11/homebrew-uninstall-formula-with-dependencies/</guid>
+      <guid>/2021/11/homebrew-uninstall-formula-with-dependencies/</guid>
       <description>I use brew extensively on MacOS. It&amp;rsquo;s just as convenient as many Linux package managers. What I don&amp;rsquo;t like, it leaves dependencies after removal of formula. There&amp;rsquo;s simple way to clean it up by running one command 1.
 Uninstall with dependencies brew uninstall FORMULA brew autoremove Info
 In my case running brew autoremove actually removed few packages I really wanted to have. Check the output carefully!
@@ -122,52 +122,53 @@ https://stackoverflow.com/questions/7323261/uninstall-remove-a-homebrew-package-
     </item>
     <item>
       <title>Asus ROG STRIX Z590-E GAMING WIFI - my UEFI BIOS settings</title>
-      <link>https://gagor.pl/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</link>
+      <link>/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</link>
       <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</guid>
+      <guid>/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</guid>
       <description>I&amp;rsquo;ve build new PC - it&amp;rsquo;s based on Asus ROG STRIX Z590-E GAMING WIFI&amp;thinsp; external link motherboard. Generally, I&amp;rsquo;m quite satisfied, but it have one irritating downside - after each UEFI BIOS upgrade, it&amp;rsquo;s silently resetting some of settings.
 Let me note, what I want to have there:
 Ai Tweaker (use my RAM capabilities) AI Overcloack Tuner -&amp;gt; [XMP I] DRAM Frequency -&amp;gt; [DDR4-3600MHz] DRAM CAS# Latency -&amp;gt; [16] DRAM RAS# to CAS# Delay -&amp;gt; [19] DRAM RAS# ACT Time -&amp;gt; [39] DRAM Voltage -&amp;gt; [1.</description>
     </item>
     <item>
       <title>Official CentOS 8 Stream Docker image finally available!</title>
-      <link>https://gagor.pl/2021/07/official-centos-8-stream-docker-image-finally-available/</link>
+      <link>/2021/07/official-centos-8-stream-docker-image-finally-available/</link>
       <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2021/07/official-centos-8-stream-docker-image-finally-available/</guid>
+      <guid>/2021/07/official-centos-8-stream-docker-image-finally-available/</guid>
       <description>Finally, they&amp;rsquo;re available! Wait a moment.. Actually they&amp;rsquo;re available for few months, just nobody published information about moving them to quay.io&amp;thinsp; external link and dropped poor guys using hub.docker.com&amp;thinsp; external link without any updates! Yes, that how they did!
 I found new place accidentally, reading some news about CentOS Stream 9 on their blog&amp;thinsp; external link . There was reference to CentOS 9 Stream dev builds of Docker images and I found &amp;ldquo;missing&amp;rdquo; stream and stream8 tags too.</description>
     </item>
     <item>
       <title>How to remove geo-localization/EXIF data from photos</title>
-      <link>https://gagor.pl/2021/03/how-to-remove-geo-localization/exif-data-from-photos/</link>
+      <link>/2021/03/how-to-remove-geo-localization/exif-data-from-photos/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2021/03/how-to-remove-geo-localization/exif-data-from-photos/</guid>
+      <guid>/2021/03/how-to-remove-geo-localization/exif-data-from-photos/</guid>
       <description>I wanted to share publicly some photos, but I performed them with navigation enabled so they contained accurate localization of my house. I wanted to remove EXIF data GPS tags, my phone type and other irrelevant stuff.
 Tip
-There&amp;rsquo;s a way that requires less effort. Check how to automate this process with pre-commit hooks&amp;thinsp; external link .
-TL;DR You will need imagemagick installed (use apt/yum/dnf of whatever you have there):</description>
+There&amp;rsquo;s a way that requires less effort. Check how to automate this process with pre-commit hooks .
+TL;DR You will need imagemagick installed (use apt/yum/dnf of whatever you have there):
+Install imagemagick sudo apt install -y imagemagick To remove them just use: Strip EXIF data mogrify -strip image.</description>
     </item>
     <item>
       <title>How to run JMX monitoring in Docker image?</title>
-      <link>https://gagor.pl/2021/02/how-to-run-jmx-monitoring-in-docker-image/</link>
+      <link>/2021/02/how-to-run-jmx-monitoring-in-docker-image/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2021/02/how-to-run-jmx-monitoring-in-docker-image/</guid>
+      <guid>/2021/02/how-to-run-jmx-monitoring-in-docker-image/</guid>
       <description>It&amp;rsquo;s sometimes useful to quickly connect to JMX console, to checkout what&amp;rsquo;s going on in your application, but the whole thing get&amp;rsquo;s tricky if you&amp;rsquo;re running your app in a container. I need it from time to time and I keep myself few times searching for set of params below:
 ~/2021/02/how-to-run-jmx-monitoring-in-docker-image/ java \ ... -Dcom.sun.management.jmxremote \ -Dcom.sun.management.jmxremote.rmi.port=${PORT1} \ -Dcom.sun.management.jmxremote.port=${PORT1} \ -Dcom.sun.management.jmxremote.local.only=false \ -Dcom.sun.management.jmxremote.authenticate=false \ -Dcom.sun.management.jmxremote.ssl=false \ -Djava.rmi.server.hostname=${HOST} The whole magic here is that PORT1 in container is app&amp;rsquo;s second port.</description>
     </item>
     <item>
       <title>CentOS 8 Stream Docker image</title>
-      <link>https://gagor.pl/2021/02/centos-8-stream-docker-image/</link>
+      <link>/2021/02/centos-8-stream-docker-image/</link>
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2021/02/centos-8-stream-docker-image/</guid>
+      <guid>/2021/02/centos-8-stream-docker-image/</guid>
       <description>We&amp;rsquo;re all divided with recent decision to focus on CentOS Stream&amp;thinsp; external link , which essentially means that stable, professional distro will turn into rolling release now. Also CentOS board members don&amp;rsquo;t gave us more confidence for the future&amp;thinsp; external link .
 I don&amp;rsquo;t want to be totally sceptic, I would like to test it on my own and only then, decide if it&amp;rsquo;s stable enough. But I work mostly with Docker containers and there are no official Docker images with Stream variant.</description>
     </item>
     <item>
       <title>How old are Official Docker images?</title>
-      <link>https://gagor.pl/2021/01/how-old-are-official-docker-images/</link>
+      <link>/2021/01/how-old-are-official-docker-images/</link>
       <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2021/01/how-old-are-official-docker-images/</guid>
+      <guid>/2021/01/how-old-are-official-docker-images/</guid>
       <description>TL;DR
 CentOS base images sucks! They&amp;rsquo;re old, not updated for months!
 As a professional DevOps I concern about a lot of things&amp;hellip; but security is always close to the top of the list. With Docker build environments and deployments became much more stable, which often is a result of just being stale ;/
@@ -175,42 +176,42 @@ I&amp;rsquo;ve been talking about this for long time but it&amp;rsquo;s still ha
     </item>
     <item>
       <title>Debuging commands running on memcached</title>
-      <link>https://gagor.pl/2016/07/debuging-commands-running-on-memcached/</link>
+      <link>/2016/07/debuging-commands-running-on-memcached/</link>
       <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/07/debuging-commands-running-on-memcached/</guid>
+      <guid>/2016/07/debuging-commands-running-on-memcached/</guid>
       <description>I had stragne statistics on one memcached servers. I had to look what it&amp;rsquo;s doing there. I found such commands that may be used to sniff, extract and make statistics from running memcached server.
 Debug GET commands tcpflow -c dst port 11211 | cut -b46- | grep ^get cut command will remove 46 bytes at beginning of every string (src, dst, port). You may need to adjust numeric parameter for cut to leave commands only.</description>
     </item>
     <item>
       <title>How to stole ssh session when you’re root</title>
-      <link>https://gagor.pl/2016/04/how-to-stole-ssh-session-when-youre-root/</link>
+      <link>/2016/04/how-to-stole-ssh-session-when-youre-root/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/04/how-to-stole-ssh-session-when-youre-root/</guid>
+      <guid>/2016/04/how-to-stole-ssh-session-when-youre-root/</guid>
       <description>It happen to me all the time that one of developers notifies me about some kind of problem that I can&amp;rsquo;t confirm from my account. Sometimes it was because of bad ssh keys configuration, other times file permissions, mostly such stuff. It&amp;rsquo;s sometimes convenient to &amp;ldquo;enter into someone&amp;rsquo;s shoes&amp;rdquo; to see what&amp;rsquo;s going on there.
 If you&amp;rsquo;re root on machine you may do that like this:
 su developer - Easy one but that&amp;rsquo;s not enough for all cases.</description>
     </item>
     <item>
       <title>pip - uninstall package with dependencies</title>
-      <link>https://gagor.pl/2016/04/pip-uninstall-package-with-dependencies/</link>
+      <link>/2016/04/pip-uninstall-package-with-dependencies/</link>
       <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/04/pip-uninstall-package-with-dependencies/</guid>
+      <guid>/2016/04/pip-uninstall-package-with-dependencies/</guid>
       <description>Virtualenvs in python are cheap but from time to time you will install something with pip on your system and when time comes removing all this crap could be difficult. I found this bash snippet that will uninstall package with all dependencies:
 for dep in $(pip show python-neutronclient | grep Requires | sed &amp;#39;s/Requires: //g; s/,//g&amp;#39;) ; do sudo pip uninstall -y $dep ; done pip uninstall -y python-neutronclient Source: http://stackoverflow.</description>
     </item>
     <item>
       <title>Prefer IPv4 over IPv6</title>
-      <link>https://gagor.pl/2016/03/prefer-ipv4-over-ipv6/</link>
+      <link>/2016/03/prefer-ipv4-over-ipv6/</link>
       <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/03/prefer-ipv4-over-ipv6/</guid>
+      <guid>/2016/03/prefer-ipv4-over-ipv6/</guid>
       <description>I try to use IPv6 where it&amp;rsquo;s available but it&amp;rsquo;s sometimes so hard&amp;hellip; It happen quite often that I can&amp;rsquo;t download packages from repos because they weren&amp;rsquo;t configured on IPv6 vhosts even when host is available via IPv6 address. For APT you may use this trick to force IPv4 connections only:
 echo &amp;#39;Acquire::ForceIPv4 &amp;#34;true&amp;#34;;&amp;#39; &amp;gt; /etc/apt/apt.conf.d/99force-ipv4 If you need more than that, then gai.conf will allow you to filter where you will be connecting via IPv4 and where via IPv6 - in example bellow you will prefer IPv4 whenever it&amp;rsquo;s available:</description>
     </item>
     <item>
       <title>List octal file permissions in bash</title>
-      <link>https://gagor.pl/2016/02/list-octal-file-permissions-in-bash/</link>
+      <link>/2016/02/list-octal-file-permissions-in-bash/</link>
       <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/02/list-octal-file-permissions-in-bash/</guid>
+      <guid>/2016/02/list-octal-file-permissions-in-bash/</guid>
       <description>Sometimes it&amp;rsquo;s easier to use octal file permissions but they&amp;rsquo;re not so easy to list. I caught myself few times that I didn&amp;rsquo;t remember how to list them - so this is a reason for that note.
 stat -c &amp;#34;%a %n&amp;#34; * 755 bin 755 games 755 include Yes, it&amp;rsquo;s that easy &amp;#x1f603;
 And here also with human readable attributes:
@@ -218,17 +219,17 @@ stat -c &amp;#39;%A %a %n&amp;#39; * drwxr-xr-x 755 bin drwxr-xr-x 755 games drw
     </item>
     <item>
       <title>WordPress with HyperDB on PHP 7.0</title>
-      <link>https://gagor.pl/2016/02/wordpress-with-hyperdb-on-php-7-0/</link>
+      <link>/2016/02/wordpress-with-hyperdb-on-php-7-0/</link>
       <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/02/wordpress-with-hyperdb-on-php-7-0/</guid>
+      <guid>/2016/02/wordpress-with-hyperdb-on-php-7-0/</guid>
       <description>I was configuring WordPress with HyperDB&amp;thinsp; external link plugin on PHP 7.0 but the only I get were constant 500 errors. As I found here&amp;thinsp; external link PHP 7.0 is not supported by HyperDB for now - it&amp;rsquo;s rely on mysql php extension but in PHP 7.0 there is only mysqli extension. But few folks fixed it and it&amp;rsquo;s possible to use it.
 curl -O https://raw.githubusercontent.com/soulseekah/hyperdb-mysqli/master/db.php mv db.php /var/www/wordpress/wp-content/ And configure it ex.</description>
     </item>
     <item>
       <title>Automatically build after file change</title>
-      <link>https://gagor.pl/2016/02/automatically-build-after-file-change/</link>
+      <link>/2016/02/automatically-build-after-file-change/</link>
       <pubDate>Tue, 23 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/02/automatically-build-after-file-change/</guid>
+      <guid>/2016/02/automatically-build-after-file-change/</guid>
       <description>I&amp;rsquo;m playing a lot with Docker lately. Building images, and then rebuilding, and then building again&amp;hellip; It&amp;rsquo;s pretty boring. To automate this task a little I used inotify to build automatically after I changed any file. This trick could be used in many different situations.
 You will need inotify-tools package:
 sudo apt-get install -y inotify-tools Then run something like this:
@@ -236,18 +237,18 @@ while inotifywait -e modify -r .; do docker-compose build; done This commands wi
     </item>
     <item>
       <title>Install Docker Compose</title>
-      <link>https://gagor.pl/2016/02/install-docker-compose/</link>
+      <link>/2016/02/install-docker-compose/</link>
       <pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/02/install-docker-compose/</guid>
+      <guid>/2016/02/install-docker-compose/</guid>
       <description>When I started playing with Docker I was running a lot of commands to build image, delete containers running on old image, run containers based on new image, etc&amp;hellip; A lot of log commands with links, volumes, etc&amp;hellip;
 Then I started searching for something to automate this task and here I get to docker-compse command, this is how you may install it:
 pip install docker-compose And install additional bash completions (run as root):</description>
     </item>
     <item>
       <title>Manual installation of Docker on Debian/Ubuntu</title>
-      <link>https://gagor.pl/2016/02/manual-installation-of-docker-on-debian-ubuntu/</link>
+      <link>/2016/02/manual-installation-of-docker-on-debian-ubuntu/</link>
       <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/02/manual-installation-of-docker-on-debian-ubuntu/</guid>
+      <guid>/2016/02/manual-installation-of-docker-on-debian-ubuntu/</guid>
       <description>I&amp;rsquo;ve played with Docker a little in it early days but didn&amp;rsquo;t stick for longer with it. It&amp;rsquo;s stable now so I wanted to check how it&amp;rsquo;s running now.
 I really can&amp;rsquo;t accept this method of installation:
 curl -fsSL https://get.docker.com/ | sh I think that world is going to it&amp;rsquo;s end when I see such scritps&amp;hellip; I prefer to do this manually, knowing exactly what I have to do.
@@ -255,9 +256,9 @@ Install prerequisites:</description>
     </item>
     <item>
       <title>Some useful commands in Docker</title>
-      <link>https://gagor.pl/2016/02/some-useful-commands-in-docker/</link>
+      <link>/2016/02/some-useful-commands-in-docker/</link>
       <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/02/some-useful-commands-in-docker/</guid>
+      <guid>/2016/02/some-useful-commands-in-docker/</guid>
       <description>I started playing with Docker and here I will write some commands that where not so obvious at beginning &amp;#x1f603;
 List running containers:
 docker ps List also not running containers:
@@ -267,9 +268,9 @@ docker rmi $(docker images -q) Docker won&amp;rsquo;t remove any old volumes use
     </item>
     <item>
       <title>Mass replace in WordPress posts via MySQL query</title>
-      <link>https://gagor.pl/2016/02/mass-replace-in-wordpress-posts-via-mysql-query/</link>
+      <link>/2016/02/mass-replace-in-wordpress-posts-via-mysql-query/</link>
       <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/02/mass-replace-in-wordpress-posts-via-mysql-query/</guid>
+      <guid>/2016/02/mass-replace-in-wordpress-posts-via-mysql-query/</guid>
       <description>&lt;p&gt;I was doing a lot of changes to my old posts, switched to HTTPS, etc. Sometimes it was useful to change some particular text in all my old posts at a time, but there is no such feature in WordPress. But WordPress runs on MySQL and I could use SQL query to update such posts.&lt;/p&gt;
 &lt;p&gt;Make backup - it&amp;rsquo;s not required but strongly advised &amp;#x1f603;&lt;/p&gt;
 &lt;p&gt;Now use this query as template to replace in place whatever you need:&lt;/p&gt;
@@ -277,17 +278,17 @@ docker rmi $(docker images -q) Docker won&amp;rsquo;t remove any old volumes use
     </item>
     <item>
       <title>Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu</title>
-      <link>https://gagor.pl/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</link>
+      <link>/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</link>
       <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</guid>
+      <guid>/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</guid>
       <description>From few days I have access to UPC&amp;rsquo;s www.horizon.tv&amp;thinsp; external link platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it&amp;rsquo;s working pretty well - you&amp;rsquo;re just few commands away from achieving that:
 # stop browser killall firefox # remove old version if you have it sudo apt-get remove pipelight Now configure repos and install packages:</description>
     </item>
     <item>
       <title>Zeitgeist activity.sqlite-wal getting huge</title>
-      <link>https://gagor.pl/2016/02/zeitgeist-activity-sqlite-wal-getting-huge/</link>
+      <link>/2016/02/zeitgeist-activity-sqlite-wal-getting-huge/</link>
       <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/02/zeitgeist-activity-sqlite-wal-getting-huge/</guid>
+      <guid>/2016/02/zeitgeist-activity-sqlite-wal-getting-huge/</guid>
       <description>I was looking at backup task running on my desk and saw that it&amp;rsquo;s spending a lot of time on ~/.local/share/zeitgeist directory. I checked and it had 4.6GB:
 du -sh ~/.local/share/zeitgeist/* 118M activity.sqlite 44M activity.sqlite.bck 32K activity.sqlite-shm 4,4G activity.sqlite-wal 311M fts.index WTF? Fortunately I found here&amp;thinsp; external link that I could easily delete some of this:
 zeitgeist-daemon --quit Now check that it&amp;rsquo;s not running:
@@ -295,9 +296,9 @@ ps axu | grep zeitgeist-daemon timor 9105 0.</description>
     </item>
     <item>
       <title>XenServer - export VM to file</title>
-      <link>https://gagor.pl/2016/01/xenserver-export-vm-to-file/</link>
+      <link>/2016/01/xenserver-export-vm-to-file/</link>
       <pubDate>Tue, 12 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/01/xenserver-export-vm-to-file/</guid>
+      <guid>/2016/01/xenserver-export-vm-to-file/</guid>
       <description>Sometime you need to make quick and dirty image backup of VM running on XenServer and this post is about such case &amp;#x1f603;
 List machines:
 xl list Name ID Mem VCPUs State Time(s) Domain-0 0 4066 8 r----- 3526567.3 webfront1.example.com 1 4096 4 r----- 3186487.2 webfront2.example.com 2 2048 2 -b---- 920408.2 Now you may export one:
@@ -305,85 +306,85 @@ xe vm-export vm=webfront1.example.com filename=/srv/backup/webfront.xva Export s
     </item>
     <item>
       <title>Nagios - downtime on host/service from command line with curl</title>
-      <link>https://gagor.pl/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</link>
+      <link>/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</link>
       <pubDate>Mon, 11 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</guid>
+      <guid>/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</guid>
       <description>Sometimes deployment process or other havy task may cause some Nagios checks to rise below normal levels and bother admin. If this is expected and you want to add downtime on host/service during this task you may use this script:
 #!/bin/bash function die { echo $1; exit 1; } if [[ $# -eq 0 ]] ; then die &amp;#34;Give hostname and time in minutes as parameter!&amp;#34; fi if [[ $# -eq 1 ]] ; then MINUTES=15 else MINUTES=$2 fi HOST=$1 NAGURL=http://nagios.</description>
     </item>
     <item>
       <title>Let’s Encrypt - without auto configuration</title>
-      <link>https://gagor.pl/2016/01/lets-encrypt-without-auto-configuration/</link>
+      <link>/2016/01/lets-encrypt-without-auto-configuration/</link>
       <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2016/01/lets-encrypt-without-auto-configuration/</guid>
+      <guid>/2016/01/lets-encrypt-without-auto-configuration/</guid>
       <description>From the first moment I heard about Let&amp;rsquo;s Encrypt I liked it and wanted to use it as fast as possible. But the more I read how they want to implement it, the more I dislike it.
 Current project with automatic configuration is not what I want to use at all. I have many very complicated configs and I do not trust such tools enough to use them. I like UNIX&amp;rsquo;s single purpose principle, tools should do one thing and do it well - nothing more.</description>
     </item>
     <item>
       <title>fail2ban - block wp-login.php brute force attacks</title>
-      <link>https://gagor.pl/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</link>
+      <link>/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</link>
       <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</guid>
+      <guid>/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</guid>
       <description>Lately I had a lot of brute force attacks on my WordPress blog. I used basic auth to /wp-admin part in nginx configuration to block this and as a better solution I wan&amp;rsquo;t to block source IPs at all on firewall.
 To do this, place this filter code in /etc/fail2ban/filter.d/wp-login.conf:
 # WordPress brute force wp-login.php filter: # # Block IPs trying to authenticate in WordPress blog # # Matches e.g. # 178.</description>
     </item>
     <item>
       <title>Ansible on Vagrant - skipping: no hosts matched</title>
-      <link>https://gagor.pl/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</link>
+      <link>/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</link>
       <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</guid>
+      <guid>/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</guid>
       <description>I have some Ansible roles to configure my vps, Raspberry Pi, etc. I like to test them before I broke something on my real, not clustered machines - I use Vagrant for that.
 But with it I had one problem - in playbooks I define hosts as groups of severs ex. web for my vps:
 Example Ansible playbook - hosts: web gather_facts: True sudo: True ... But testing machine wasn&amp;rsquo;t in this group and when I run vagrant I could only see:</description>
     </item>
     <item>
       <title>Apache - Force caching dynamic PHP content with mod_headers</title>
-      <link>https://gagor.pl/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</link>
+      <link>/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</link>
       <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</guid>
+      <guid>/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</guid>
       <description>Normally you want dynamic content to be fresh and not catchable. But sometimes it may be useful to cache it, like when you have website behind reverse proxy. To do this try something like this:
 &amp;lt;filesmatch &amp;#34;\.(php|cgi|pl)$&amp;#34;&amp;gt; Header unset Pragma Header unset Expires Header set Cache-Control &amp;#34;max-age=3600, public&amp;#34; &amp;lt;/filesmatch&amp;gt; Sources http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html&amp;thinsp; external link </description>
     </item>
     <item>
       <title>MySQL - reset root password</title>
-      <link>https://gagor.pl/2015/12/mysql-reset-root-password/</link>
+      <link>/2015/12/mysql-reset-root-password/</link>
       <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2015/12/mysql-reset-root-password/</guid>
+      <guid>/2015/12/mysql-reset-root-password/</guid>
       <description>It will happen from time to time, that you&amp;rsquo;re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn&amp;rsquo;t be used in app &amp;#x1f603; ) but will work for any user.
 shutdown db service mysql stop create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt SET PASSWORD FOR &amp;#34;root&amp;#34;@&amp;#34;localhost&amp;#34; = PASSWORD(&amp;#34;HereYourNewPassword&amp;#34;); start mysqld with --init-file param mysqld_safe --init-file=/tmp/pwchange.</description>
     </item>
     <item>
       <title>Rotate movies</title>
-      <link>https://gagor.pl/2015/12/rotate-movies/</link>
+      <link>/2015/12/rotate-movies/</link>
       <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2015/12/rotate-movies/</guid>
+      <guid>/2015/12/rotate-movies/</guid>
       <description>I hate movies recorded on phone in vertical position. This just short tip how I dealt with with it last time:
 for m in *.mp4 do avconv -i $m -vf &amp;#34;transpose=1&amp;#34; -codec:a copy -codec:v libx264 -preset slow -crf 23 rotated-$m done Other examples:
 http://stackoverflow.com/questions/3937387/rotating-videos-with-ffmpeg&amp;thinsp; external link http://superuser.com/questions/578321/how-to-flip-a-video-180&amp;thinsp; external link °-vertical-upside-down-with-ffmpeg</description>
     </item>
     <item>
       <title>Extract password saved in remmina</title>
-      <link>https://gagor.pl/2015/12/extract-password-saved-in-remmina/</link>
+      <link>/2015/12/extract-password-saved-in-remmina/</link>
       <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2015/12/extract-password-saved-in-remmina/</guid>
+      <guid>/2015/12/extract-password-saved-in-remmina/</guid>
       <description>I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in .remmina directory.
 Then I used this script to the decrypt them 1:
 Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&amp;thinsp; external link &amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
       <title>Apache AuthBasic but excluding IP</title>
-      <link>https://gagor.pl/2015/12/apache-authbasic-but-excluding-ip/</link>
+      <link>/2015/12/apache-authbasic-but-excluding-ip/</link>
       <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2015/12/apache-authbasic-but-excluding-ip/</guid>
+      <guid>/2015/12/apache-authbasic-but-excluding-ip/</guid>
       <description>Allow from IP without password prompt, and also allow from any address with password prompt
 Order deny,allow Deny from all AuthName &amp;#34;htaccess password prompt&amp;#34; AuthUserFile /web/askapache.com/.htpasswd AuthType Basic Require valid-user Allow from 172.17.10.1 Satisfy Any Sources http://www.askapache.com/htaccess/apache-authentication-in-htaccess.html&amp;thinsp; external link </description>
     </item>
     <item>
       <title>Copy GTP partiotion table between disks</title>
-      <link>https://gagor.pl/2014/07/copy-gtp-partiotion-table-between-disks/</link>
+      <link>/2014/07/copy-gtp-partiotion-table-between-disks/</link>
       <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2014/07/copy-gtp-partiotion-table-between-disks/</guid>
+      <guid>/2014/07/copy-gtp-partiotion-table-between-disks/</guid>
       <description>When configuring RAID it&amp;rsquo;s quite important to have the same partition tables on every disk. I&amp;rsquo;v done this many times on msdos partition tables like this:
 sfdisk -d /dev/sda | sfdisk /dev/sdb but it&amp;rsquo;s not working any more on GPT partition tables. Hopefully it still can be done but with different toolstack &amp;#x1f604;
 Install gdisk:
@@ -392,59 +393,59 @@ sgdisk -R /dev/sd_dest /dev/sd_src sgdisk -G /dev/sd_dest First command will cop
     </item>
     <item>
       <title>Quickly setup SQL query logging on console in Django</title>
-      <link>https://gagor.pl/2014/05/quickly-setup-sql-query-logging-on-console-in-django/</link>
+      <link>/2014/05/quickly-setup-sql-query-logging-on-console-in-django/</link>
       <pubDate>Wed, 28 May 2014 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2014/05/quickly-setup-sql-query-logging-on-console-in-django/</guid>
+      <guid>/2014/05/quickly-setup-sql-query-logging-on-console-in-django/</guid>
       <description>There is need plugin for Django, named django-debug-toolbar but it needs some time to configure. So when I need simple way to debug SQL queries I use small hack. Add to your settings.py:
 LOGGING = { &amp;#39;version&amp;#39;: 1, &amp;#39;disable_existing_loggers&amp;#39;: False, &amp;#39;handlers&amp;#39;: { &amp;#39;console&amp;#39;: { &amp;#39;level&amp;#39;: &amp;#39;DEBUG&amp;#39;, &amp;#39;class&amp;#39;: &amp;#39;logging.StreamHandler&amp;#39;, } }, &amp;#39;loggers&amp;#39;: { &amp;#39;django.db.backends&amp;#39;: { &amp;#39;handlers&amp;#39;: [&amp;#39;console&amp;#39;], &amp;#39;level&amp;#39;: &amp;#39;DEBUG&amp;#39;, }, } } To get this working DEBUG option have to be set to True:</description>
     </item>
     <item>
       <title>Changing default php.ini file for PHP-CLI on CentOS</title>
-      <link>https://gagor.pl/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/</link>
+      <link>/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/</link>
       <pubDate>Thu, 08 May 2014 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/</guid>
+      <guid>/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/</guid>
       <description>On Debian in default installation you have different configuration files for PHP in Apache, FPM, CLI, etc. But on CentOS you have only one php.ini for all of them. In case I have, I need to have different configuration file for scripts running in CLI mode (more memory, etc). I could run it like this:
 php -c /etc/php-cli.ini script.php But this a little burdensome. So I do it like this:</description>
     </item>
     <item>
       <title>Command to change root password</title>
-      <link>https://gagor.pl/2014/05/command-to-change-root-password/</link>
+      <link>/2014/05/command-to-change-root-password/</link>
       <pubDate>Thu, 08 May 2014 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2014/05/command-to-change-root-password/</guid>
+      <guid>/2014/05/command-to-change-root-password/</guid>
       <description>Everybody knows passwd command but it&amp;rsquo;s useless when you need to change ex. root password from command line without waiting for input. In such case oneliner below could help:
 echo &amp;#34;root:new_password&amp;#34; | chpasswd </description>
     </item>
     <item>
       <title>Install Steam on Debian/Ubuntu</title>
-      <link>https://gagor.pl/2014/04/install-steam-on-debian-ubuntu/</link>
+      <link>/2014/04/install-steam-on-debian-ubuntu/</link>
       <pubDate>Tue, 22 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2014/04/install-steam-on-debian-ubuntu/</guid>
+      <guid>/2014/04/install-steam-on-debian-ubuntu/</guid>
       <description>These are few steps to get Steam running on Ubuntu:
 wget -c media.steampowered.com/client/installer/steam.deb dpkg -i steam.deb apt-get install -f apt-get update Solutions for some issues Some time ago I needed 32 bit flash even on 64 bit system - I don&amp;rsquo;t need it currently but I&amp;rsquo;m living this as a tip.
 apt-get install adobe-flashplugin:i386 After Ubuntu upgrade I was unable to run Steam anymore - It shouted on me with strange &amp;ldquo;networking problem&amp;rdquo;.</description>
     </item>
     <item>
       <title>Rebuild yum/rpm database</title>
-      <link>https://gagor.pl/2014/04/rebuild-yum-rpm-database/</link>
+      <link>/2014/04/rebuild-yum-rpm-database/</link>
       <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2014/04/rebuild-yum-rpm-database/</guid>
+      <guid>/2014/04/rebuild-yum-rpm-database/</guid>
       <description>When I was trying to update packages on one host I&amp;rsquo;ve stuck with yum hung on update. I run strace and see:
 strace -p 43734 Process 43734 attached - interrupt to quit futex(0x807c938, FUTEX_WAIT, 1, NULL &amp;lt;unfinished ...&amp;gt; Process 43734 detached It looks like yum database was corrupted, to repair this run:
 rm -f /var/lib/rpm/__db* rpm --rebuilddb yum clean all yum update Instead rm on db-files you could use gzip to have backup of these files.</description>
     </item>
     <item>
       <title>Checking memcached status</title>
-      <link>https://gagor.pl/2014/03/checking-memcached-status/</link>
+      <link>/2014/03/checking-memcached-status/</link>
       <pubDate>Fri, 21 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2014/03/checking-memcached-status/</guid>
+      <guid>/2014/03/checking-memcached-status/</guid>
       <description>I need to check memory usage of memcached server so I used:
 echo stats | nc 127.0.0.1 11211 STAT pid 2743 STAT uptime 263 STAT time 1395438951 STAT version 1.4.13 STAT pointer_size 64 STAT rusage_user 0.482926 STAT rusage_system 2.675593 STAT curr_items 8667 STAT total_items 10742 STAT bytes 23802513 STAT curr_connections 296 STAT total_connections 399 STAT connection_structures 297 STAT cmd_flush 0 STAT cmd_get 52578 STAT cmd_set 10792 STAT get_hits 28692 STAT get_misses 23886 STAT evictions 0 STAT bytes_read 35984361 STAT bytes_written 192647437 STAT limit_maxbytes 536870912 STAT threads 2 STAT accepting_conns 1 STAT listen_disabled_num 0 STAT replication MASTER STAT repcached_qi_free 8189 STAT repcached_wdata 0 STAT repcached_wsize 1026048 END For me, bytes value was important but you could find more about all statistics here&amp;thinsp; external link .</description>
     </item>
     <item>
       <title>Ansible - ssh pipelining</title>
-      <link>https://gagor.pl/2014/03/ansible-ssh-pipelining/</link>
+      <link>/2014/03/ansible-ssh-pipelining/</link>
       <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2014/03/ansible-ssh-pipelining/</guid>
+      <guid>/2014/03/ansible-ssh-pipelining/</guid>
       <description>In recent Ansible update to 1.5 version there is really nice feature ssh pipelining. This option is serious alternative to accelerated mode.
 Just add to you config file (ex. ~/.ansible.cfg):
 [ssh_connection] pipelining=True Now run any playbook - you will see the difference &amp;#x1f604;
@@ -453,9 +454,9 @@ http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansibl
     </item>
     <item>
       <title>Comparing two lists in bash</title>
-      <link>https://gagor.pl/2014/02/comparing-two-lists-in-bash/</link>
+      <link>/2014/02/comparing-two-lists-in-bash/</link>
       <pubDate>Tue, 18 Feb 2014 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2014/02/comparing-two-lists-in-bash/</guid>
+      <guid>/2014/02/comparing-two-lists-in-bash/</guid>
       <description>I had quite simple task - compare two lists of hosts and check if hosts from first one are also on the second one. I started with diff:
 diff -u biglist.txt hosts_to_check.txt | grep -E &amp;#34;^\+&amp;#34; It was fine but output needs some filtering to get what I want.
 I&amp;rsquo;ve found another example with grep:
@@ -463,184 +464,184 @@ grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n This will search for all l
     </item>
     <item>
       <title>Change default WSUS port from 8530 to 80 on Windows Server 2012</title>
-      <link>https://gagor.pl/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</link>
+      <link>/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</link>
       <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</guid>
+      <guid>/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</guid>
       <description>After WSUS installing on Windows Server 2012 I discovered that it&amp;rsquo;s running on port 8530, different than on older version of Windows (it was using port 80 from beginning). But what&amp;rsquo;s more interesting it was running ONLY on IPv6 interface! Switching binding configuration in IIS doesn&amp;rsquo;t help.
 I could stand switching port - it&amp;rsquo;s nothing hard with GPO, but IPv6 only configuration was not acceptable.
 After googling for some time I found one command that solved my problems by switching WSUS to older behavior and run it on port 80 (on default website).</description>
     </item>
     <item>
       <title>Loop unlooping in Javascript</title>
-      <link>https://gagor.pl/2014/01/loop-unlooping-in-javascript/</link>
+      <link>/2014/01/loop-unlooping-in-javascript/</link>
       <pubDate>Tue, 07 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2014/01/loop-unlooping-in-javascript/</guid>
+      <guid>/2014/01/loop-unlooping-in-javascript/</guid>
       <description>Few days ago I&amp;rsquo;ve read a book ‘Even Faster Web Sites‘ about websites optimisation and I found one thing usefuluseful, not only on websites. There was a small tip about looploop unlooping. I want to quote them for later use.
 First - with switch statement var iterations = Math.ceil(values.length / 8); var startAt = values.length % 8; var i = 0; do { switch(startAt) { case 0: process(values[i++]); case 7: process(values[i++]); case 6: process(values[i++]); case 5: process(values[i++]); case 4: process(values[i++]); case 3: process(values[i++]); case 2: process(values[i++]); case 1: process(values[i++]); } startAt = 0; } while(--iterations &amp;gt; 0); Second - without switch var iterations = Math.</description>
     </item>
     <item>
       <title>Apache - precompressing static files with gzip</title>
-      <link>https://gagor.pl/2013/12/apache-precompressing-static-files-with-gzip/</link>
+      <link>/2013/12/apache-precompressing-static-files-with-gzip/</link>
       <pubDate>Fri, 27 Dec 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/12/apache-precompressing-static-files-with-gzip/</guid>
+      <guid>/2013/12/apache-precompressing-static-files-with-gzip/</guid>
       <description>Some time ago I&amp;rsquo;ve show how to precompress js and css file with gzip to be available for Nginx&amp;rsquo;s mod_gzip. In default configuration Apache don&amp;rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.
 Basically we will start with these rewrites to serve gzipped CSS/JS files if they exist and the client accepts gzip compression:
 RewriteEngine on RewriteCond %{HTTP:Accept-encoding} gzip RewriteCond %{REQUEST_FILENAME}\.gz -s RewriteRule ^(.*)\.(js|css)$ $1\.$2\.gz [QSA] Then we need to setup proper content types for such compressed files - I know how to do this in two ways:</description>
     </item>
     <item>
       <title>Android: Xposed &#43; AppOps - reclaim control over installed applications permissions</title>
-      <link>https://gagor.pl/2013/12/android-xposed-appops-reclaim-control-over-installed-applications-permissions/</link>
+      <link>/2013/12/android-xposed-appops-reclaim-control-over-installed-applications-permissions/</link>
       <pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/12/android-xposed-appops-reclaim-control-over-installed-applications-permissions/</guid>
+      <guid>/2013/12/android-xposed-appops-reclaim-control-over-installed-applications-permissions/</guid>
       <description>I&amp;rsquo;m happy owner of Galaxy Nexus 7 and lately I updated my tablet to Android 4.4 Kitkat. One of features I most expected was ability to block some permissions of some applications. Such setting was available in 4.4 version but was removed in latest 4.4.2 - Google didn&amp;rsquo;t explain it exactly why. I don&amp;rsquo;t like when for ex. game need: camera or GPS access - for what I asked?
 But there is new app so called App Ops that unhides build-in interface allowing edit of application permissions.</description>
     </item>
     <item>
       <title>Delete audio track from mkv file</title>
-      <link>https://gagor.pl/2013/12/delete-audio-track-from-mkv-file/</link>
+      <link>/2013/12/delete-audio-track-from-mkv-file/</link>
       <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/12/delete-audio-track-from-mkv-file/</guid>
+      <guid>/2013/12/delete-audio-track-from-mkv-file/</guid>
       <description>Lately I tried to remove some streams from MKV file - I wanted: video, audio in my language and no subtitles. I achieved it with mkvtoolnix utils.
 Firstly I have to identify streams in file:
 $ mkvmerge -i input_file.mkv File &amp;#39;test.mkv&amp;#39;: container: Matroska Track ID 0: video (V_MPEG4/ISO/AVC) Track ID 1: audio (A_DTS) Track ID 2: audio (A_AC3) Track ID 3: audio (A_DTS) Track ID 4: audio (A_AC3) Track ID 5: subtitles (S_TEXT/UTF8) Track ID 6: subtitles (S_TEXT/UTF8) Chapters: 16 entries You could use more verbose tool mkvinfo for that purpose too.</description>
     </item>
     <item>
       <title>Preparing video files for streaming on website in MP4 and WEBM format</title>
-      <link>https://gagor.pl/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/</link>
+      <link>/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/</link>
       <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/</guid>
+      <guid>/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/</guid>
       <description>Some time ago I prepared a PC that was responsible for batch encoding of movies to formats suitable for web players (such as. Video.js&amp;thinsp; external link , JW Player&amp;thinsp; external link , Flowplayer&amp;thinsp; external link , etc.)
 I used HandBrake for conversion to MP4 format (becase this soft was the fastest one) and ffmpeg (aka avconv in new version) for two pass encoding to WEBM.
 Below are commands used by me for that conversion:</description>
     </item>
     <item>
       <title>Ansible - Dynamicaly update /etc/hosts files on target servers</title>
-      <link>https://gagor.pl/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/</link>
+      <link>/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/</link>
       <pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/</guid>
+      <guid>/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/</guid>
       <description>I was configuring GlusterFS on few servers using Ansible&amp;thinsp; external link and have a need to update /etc/hosts with hostnames for easier configuration. I found this one working:
 - name: Update /etc/hosts lineinfile: dest=/etc/hosts regexp=&amp;#39;.*{{item}}$&amp;#39; line=&amp;#39;{{hostvars.{{item}}.ansible_default_ipv4.address}} {{item}}&amp;#39; state=present with_items: &amp;#39;{{groups.somegroup}}&amp;#39; Source: http://xmeblog.blogspot.com/2013/06/ansible-dynamicaly-update-etchosts.html&amp;thinsp; external link </description>
     </item>
     <item>
       <title>Reset user password in your own Ghost Blog</title>
-      <link>https://gagor.pl/2013/11/reset-user-password-in-your-own-ghost-blog/</link>
+      <link>/2013/11/reset-user-password-in-your-own-ghost-blog/</link>
       <pubDate>Thu, 28 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/11/reset-user-password-in-your-own-ghost-blog/</guid>
+      <guid>/2013/11/reset-user-password-in-your-own-ghost-blog/</guid>
       <description>I&amp;rsquo;ve started testing new Ghost blogging platform for a while on a virtual machine before I take decision about switching to it (or maybe won&amp;rsquo;t)&amp;hellip; After few days, I wanted to go forward with more testing and stuck on &amp;ldquo;e-mail and password&amp;rdquo; login prompt &amp;#x1f603;
 I&amp;rsquo;ve started looking into files and found ghost_dir/content/data/ghost-dev.db SQLite database. It can be opened like that:
 sqlite3 content/data/ghost-dev.db Then you could see whats your mail (and other info):</description>
     </item>
     <item>
       <title>Inodes exhaustion on XFS</title>
-      <link>https://gagor.pl/2013/11/inodes-on-xfs/</link>
+      <link>/2013/11/inodes-on-xfs/</link>
       <pubDate>Wed, 27 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/11/inodes-on-xfs/</guid>
+      <guid>/2013/11/inodes-on-xfs/</guid>
       <description>It&amp;rsquo;s quite rare to have problems with XFS and inodes exhaustion. Mostly because XFS doesn&amp;rsquo;t have inode limit in a manner known from other filesystems - it&amp;rsquo;s using some percentage of whole filesystem as a limit and in most distributions it&amp;rsquo;s 25%. So it&amp;rsquo;s really huge amount of inodes. But some tools and distributions lowered limit ex. 5% or 10% and there you could have problems more often.
 You could check what is you limit by issuing xfs_info with drive and searching for imaxpct value:</description>
     </item>
     <item>
       <title>Kill with SIGSTOP and SIGCONT</title>
-      <link>https://gagor.pl/2013/11/kill-with-sigstop-and-sigcont/</link>
+      <link>/2013/11/kill-with-sigstop-and-sigcont/</link>
       <pubDate>Thu, 21 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/11/kill-with-sigstop-and-sigcont/</guid>
+      <guid>/2013/11/kill-with-sigstop-and-sigcont/</guid>
       <description>I&amp;rsquo;ve bought a NAS and customized it a little. But there was one thing which make my nights sleepless. NAS was seeking disks every 5~10 seconds - these was really irritating - especially when it was silent in room. I found that part of firmware was indexing or logging something so I wanted it dead! kill -9 was unsuccessful - process restarted after a while&amp;hellip;. wrrr&amp;hellip;
 I googled a little and found another signal I could use SIGSTOP, which will freeze process until I send SIGCONT to it - that was exactly what I need (because I normally use NFS/Samba and don&amp;rsquo;t need nothing more running on this device).</description>
     </item>
     <item>
       <title>My new toy - Iomega StorCenter ix2-200 Cloud Edition</title>
-      <link>https://gagor.pl/2013/11/my-new-toy-iomega-storcenter-ix2-200-cloud-edition/</link>
+      <link>/2013/11/my-new-toy-iomega-storcenter-ix2-200-cloud-edition/</link>
       <pubDate>Tue, 19 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/11/my-new-toy-iomega-storcenter-ix2-200-cloud-edition/</guid>
+      <guid>/2013/11/my-new-toy-iomega-storcenter-ix2-200-cloud-edition/</guid>
       <description>I&amp;rsquo;ve just bought new toy - Iomega StorCenter ix2-200 Cloud Edition. I have to play with few options before I could start using it. First thing - Firmware upgrade.
 Firmware upgrade I&amp;rsquo;ve started searching for latest firmware for ix2-200 Cloud and found that I have to register on Lenovo site to get firmware&amp;hellip; I don&amp;rsquo;t like such sites where they force me to give all private data, but after few clicks on &amp;ldquo;Recommended articles&amp;rdquo; on that site I landed here:</description>
     </item>
     <item>
       <title>Debian - zablokowanie aktualizacji pakietu</title>
-      <link>https://gagor.pl/2013/11/debian-zablokowanie-aktualizacji-pakietu/</link>
+      <link>/2013/11/debian-zablokowanie-aktualizacji-pakietu/</link>
       <pubDate>Tue, 05 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/11/debian-zablokowanie-aktualizacji-pakietu/</guid>
+      <guid>/2013/11/debian-zablokowanie-aktualizacji-pakietu/</guid>
       <description>W teorii nie powinno się blokować aktualizacji pakietów bo łatają dziury itd&amp;hellip;. Ale! Zdarzyły mi się ostatnio dwie sytuacje, które do tego mnie zmusiły:
 aktualizacja hudsona kończyła się błędem przy starcie usługi, aktualizacja domU Xen skończyła się problemem z kompatybilnością mechanizmu udev w systemie i jądrze (hypervisor miał starsze jądro niż spodziewało się DomU). W takich sytuacjach bardzo przydaje się możliwość zablokowania aktualizacji jednej &amp;ldquo;psującej&amp;rdquo; paczki na pewien okres czasu by nie opóźniać innych aktualizacji a sobie dać czas na rozpracowanie problemu.</description>
     </item>
     <item>
       <title>Uruchamianie aplikacji .NET jako 32-bitowej w 64-bitowym systemie</title>
-      <link>https://gagor.pl/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/</link>
+      <link>/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/</link>
       <pubDate>Tue, 29 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/</guid>
+      <guid>/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/</guid>
       <description>Kolejna zabawna sytuacja - pewna aplikacja dotNET&amp;rsquo;owa działała dziwnie na 64-bitowym systemie, a tymczasem na 32-bitowej maszynie ta sama aplikacja działała bez problemów. Jedyna różnica to inne wersje klientów ODBC na tych systemach, które po kilku testach okazały się być przyczyną całego zła.
 Pojawił się pomysł by odpalić aplikacje na 64 bitowym systemie ale w trybie 32 bit - poniżej krótkie HOWTO jak to osiągnąć:
 potrzebujemy narzędzia corflags.exe które pozwoli oznaczyć nam binarkę jako 32-bitową, do pobrania tutaj&amp;thinsp; external link a instrukcja jej użycia tutaj&amp;thinsp; external link .</description>
     </item>
     <item>
       <title>Certyfikaty nazwaSSL na własnym serwerze</title>
-      <link>https://gagor.pl/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</link>
+      <link>/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</link>
       <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</guid>
+      <guid>/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</guid>
       <description>Od jakiegoś czasu można kupić w NetArcie certyfikaty SSL, a niedawno zrobili na nie promocję - 15zł za pierwszy rok (za certyfikat na jedną stronkę). Tzw. tanie i dobre. Po wyrobieniu certyfikatu i zapisaniu z panelu klienta mam pliczki: stonka.crt i netart_rootca.crt, które wrzucamy do Apachego, powiedzmy tak:
 SSLCertificateFile /etc/ssl/certs/stonka.crt SSLCertificateKeyFile /etc/ssl/private/priv.key SSLCACertificateFile /etc/ssl/certs/netart_rootca.crt Certyfikat działa w Chromie ale nie weryfikuje się w Firefoxie i Internet Explorerze. FF wyświetla błąd: sec_error_unknown_issuer - co oznacza brak certyfikatu wystawcy gdzieś w łańcuchu certyfikatów.</description>
     </item>
     <item>
       <title>Postfix: ciekawy problem z smtpd_delay_reject i permit_sasl_authenticated</title>
-      <link>https://gagor.pl/2013/10/postfix-ciekawy-problem-z-smtpd_delay_reject-i-permit_sasl_authenticated/</link>
+      <link>/2013/10/postfix-ciekawy-problem-z-smtpd_delay_reject-i-permit_sasl_authenticated/</link>
       <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/10/postfix-ciekawy-problem-z-smtpd_delay_reject-i-permit_sasl_authenticated/</guid>
+      <guid>/2013/10/postfix-ciekawy-problem-z-smtpd_delay_reject-i-permit_sasl_authenticated/</guid>
       <description>Trafił mi się ostatnio ciekawy problem - otóż standardowo przed końcem roku poprawiałem filtry antyspamowe i optymalizowałem konfigurację Postfix&amp;rsquo;a. Chciałem zmienić domyślną wartość smtpd_delay_reject=yes na smtpd_delay_reject=no by odrzucać spamerów najwcześniej jak to możliwe. I ciekawe kuku, które sobie zrobiłem polegało na tym że sam nie mogłem wysyłać poczty po logowaniu SSL&amp;rsquo;em&amp;hellip;
 Dostawałem przy tym bardzo wymowną odpowiedź:
 Oct 8 16:30:39 tyr postfix/smtpd[21039]: NOQUEUE: reject: CONNECT from unknown[67.x.x.x]: 554 5.7.1 &amp;lt;unknown [67.</description>
     </item>
     <item>
       <title>Sprawdzanie zainstalowanej wersji Django</title>
-      <link>https://gagor.pl/2013/09/sprawdzanie-zainstalowanej-wersji-django/</link>
+      <link>/2013/09/sprawdzanie-zainstalowanej-wersji-django/</link>
       <pubDate>Mon, 16 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/09/sprawdzanie-zainstalowanej-wersji-django/</guid>
+      <guid>/2013/09/sprawdzanie-zainstalowanej-wersji-django/</guid>
       <description>Ten one liner załatwia sprawę:
 python -c &amp;#39;import django; print &amp;#34;.&amp;#34;.join([str(s) for s in django.VERSION]);&amp;#39; </description>
     </item>
     <item>
       <title>Raspberry Pi: pierwsze kroki</title>
-      <link>https://gagor.pl/2013/09/raspberry-pi-pierwsze-kroki/</link>
+      <link>/2013/09/raspberry-pi-pierwsze-kroki/</link>
       <pubDate>Fri, 13 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/09/raspberry-pi-pierwsze-kroki/</guid>
+      <guid>/2013/09/raspberry-pi-pierwsze-kroki/</guid>
       <description>Wyprzeć się nie mogę że gadżety działające na Linuksie po prostu mnie kręcą, więc tylko kwestią czasu było aż Pi zawita na moim biurku. Zakupiłem więc model B w drugiej wersji&amp;thinsp; external link , obudowę z możliwością mocowania VESA&amp;thinsp; external link , kabelek HDMI&amp;thinsp; external link , ładowarka z mojej myszy pasowała idealnie (5.05V i 1A) i na początek karta SD klasa 10 4GB.
 Szukając różnych systemów (a może ROM&amp;rsquo;ów) natrafiłem na oficjalną stronę: http://www.</description>
     </item>
     <item>
       <title>tor: generowanie milszej nazwy dla hidden service</title>
-      <link>https://gagor.pl/2013/09/tor-generowanie-milszej-nazwy-dla-hidden-service/</link>
+      <link>/2013/09/tor-generowanie-milszej-nazwy-dla-hidden-service/</link>
       <pubDate>Mon, 09 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/09/tor-generowanie-milszej-nazwy-dla-hidden-service/</guid>
+      <guid>/2013/09/tor-generowanie-milszej-nazwy-dla-hidden-service/</guid>
       <description>Chcąc pobawić się tor&amp;rsquo;em postanowiłem udostępnić jedna z moich stron z wykorzystaniem mechanizmu hidden service. Nie spodobał mi się jedynie sposób generowania nazw, które były mało opisowe - ale najwidoczniej nie mnie jednemu, bo szybko namierzyłem Shallot&amp;thinsp; external link , który generuje kolejne nazwy aż trafi na pasującą do zadanego regexp&amp;rsquo;a.</description>
     </item>
     <item>
       <title>DFS - sprawdzanie statusu replikacji</title>
-      <link>https://gagor.pl/2013/09/dfs-sprawdzanie-statusu-replikacji/</link>
+      <link>/2013/09/dfs-sprawdzanie-statusu-replikacji/</link>
       <pubDate>Wed, 04 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/09/dfs-sprawdzanie-statusu-replikacji/</guid>
+      <guid>/2013/09/dfs-sprawdzanie-statusu-replikacji/</guid>
       <description>Ostatnio zbyt dużo grzebię przy &amp;ldquo;windach&amp;rdquo; - ale cóż, czasem trzeba. Ostatnio ustawiałem DFS&amp;rsquo;a z replikacją dla dwóch sporych zasobów i jedna z rzeczy, o którą się rozbiłem to brak jakiegokolwiek podglądu tej synchronizacji z GUI. Ale znalazłem jedno polecenie, które działa w shellu (choć to się chyba batch tutaj nazywa) od Windows Server 2008 R2:
 dfsrdiag ReplicationState /member:nazwaservera Polecenie co prawda nie podaje postępu procentowego ale można zobaczyć &amp;ldquo;czy coś jeszcze się synchronizuje&amp;rdquo; i czy nie ma żadnych błędów.</description>
     </item>
     <item>
       <title>logrotate: kompresja logów xz</title>
-      <link>https://gagor.pl/2013/07/logrotate-kompresja-logow-xz/</link>
+      <link>/2013/07/logrotate-kompresja-logow-xz/</link>
       <pubDate>Mon, 29 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/07/logrotate-kompresja-logow-xz/</guid>
+      <guid>/2013/07/logrotate-kompresja-logow-xz/</guid>
       <description>Narzędzia xz-utils dostępne w nowszych systemach korzystają z mocniejszych algorytmów kompresji (jakaś odmiana LZMA, coś w stylu 7zip&amp;rsquo;a) przy zachowaniu kompatybilności składni poleceń z gzip&amp;rsquo;em/bzip&amp;rsquo;em - da się je zatem łatwo zintegrować w obecnych systemach. Ja chciałem wykorzystać xz do kompresji logów, które bywają przydatne ale przez większość czasy tylko zajmują miejsce :simple_smile:
 W /etc/logrotate.conf dopisujemy:
 compresscmd /usr/bin/xz uncompresscmd /usr/bin/unxz compressext .xz compressoptions -9T2 compressoptions można nie ustawiać bo domyślnie ma wartość -9 (czyli kompresuj na maxa), mój dodatek (czyli -T2) użyje dwóch wątków procesora gdy już ten mechanizm zostanie zimplementowany (bo na razie nie jest) :simple_smile:</description>
     </item>
     <item>
       <title>Bezstratna konwersja MKV z DTS do AC3 lub AAC</title>
-      <link>https://gagor.pl/2013/07/bezstratna-konwersja-mkv-z-dts-do-ac3-lub-aac/</link>
+      <link>/2013/07/bezstratna-konwersja-mkv-z-dts-do-ac3-lub-aac/</link>
       <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/07/bezstratna-konwersja-mkv-z-dts-do-ac3-lub-aac/</guid>
+      <guid>/2013/07/bezstratna-konwersja-mkv-z-dts-do-ac3-lub-aac/</guid>
       <description>Na jednym z urządzeń miałem problem z odtworzeniem plików (głównie MKV) z dźwiękiem zakodowanym w DTS. Pomijając że np. na tablecie 6-cio kanały DTS jest mi &amp;ldquo;niezbędny inaczej&amp;rdquo; to konwertując go do AAC stereo plik jest po prostu sporo mniejszy. Oczywiście nie zamierzam transkodować ścieżki video i na moje potrzeby mogłem sobie odpuścić zmianę częstotliwości próbkowania.
 Najprościej wykorzystać pakiet ffmpeg (po nowemu avconv) lub mencoder (choć ten miewał niegdyś problem z poprawnym zapisywaniem wynikowych plików mkv, więc potrzebny jest dodatkowo mkvmerge z pakietu mkvtoolnix).</description>
     </item>
     <item>
       <title>Dodawanie urządzeń SCSI/FC bez restartu serwera</title>
-      <link>https://gagor.pl/2013/07/dodawanie-urzadzen-scsifc-bez-restartu-serwera/</link>
+      <link>/2013/07/dodawanie-urzadzen-scsifc-bez-restartu-serwera/</link>
       <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/07/dodawanie-urzadzen-scsifc-bez-restartu-serwera/</guid>
+      <guid>/2013/07/dodawanie-urzadzen-scsifc-bez-restartu-serwera/</guid>
       <description>Raz na jakiś czas gdy grzebię przy maciorach muszę &amp;ldquo;odkryć&amp;rdquo; nowy volumen FC (lub rzadziej SCSI), który właśnie utworzyłem a restart serwera nie wchodzi w rachubę (zresztą na części systemów nic on nie da).
 By to zrobić są dwie możliwości:
 Ręczne wydanie poleceń odkrywających volumeny (na jajkach od 2.6.x) Sprawdzamy jakie mamy karty:
@@ -649,151 +650,151 @@ Wydajemy do wybranej przez nas karty żądanie wykonania LIP (to się chyba tłu
     </item>
     <item>
       <title>Tworzenie patch’y z poleceniami diff i patch</title>
-      <link>https://gagor.pl/2013/04/tworzenie-patchy-z-poleceniami-diff-i-patch/</link>
+      <link>/2013/04/tworzenie-patchy-z-poleceniami-diff-i-patch/</link>
       <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/04/tworzenie-patchy-z-poleceniami-diff-i-patch/</guid>
+      <guid>/2013/04/tworzenie-patchy-z-poleceniami-diff-i-patch/</guid>
       <description>Jest kilka powodów dla których tworzenie patchy jest przydatne - jeśli tu jesteś to pewnie masz jakiś własny&amp;hellip;
 Tworzenie patch&amp;rsquo;a diff -crB old new &amp;gt; from-old-to-new.patch W powyższym poleceniu założyłem że old i new to katalogi z wieloma podkatalogami i plikami - stąd opcja -r. -c dodaje kilka linijek &amp;ldquo;kontekstu&amp;rdquo; przez co łatwiej rozeznać się w patch&amp;rsquo;u. Opcja -B ignoruje puste linie, których patchowanie mnie nie interesuje.
 Patchowanie Na początek zawsze warto wywołać polecenie z opcją -dry-run by zobaczyć czy patch wykona się poprawnie:</description>
     </item>
     <item>
       <title>Rozsynchronizowane serwery NTP</title>
-      <link>https://gagor.pl/2013/03/rozsynchronizowane-serwery-ntp/</link>
+      <link>/2013/03/rozsynchronizowane-serwery-ntp/</link>
       <pubDate>Sun, 31 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/03/rozsynchronizowane-serwery-ntp/</guid>
+      <guid>/2013/03/rozsynchronizowane-serwery-ntp/</guid>
       <description>Miałem ostatnio zabawną sytuację gdy kilka serwerów z zainstalowanym NTPD miało rozjazdy rzędu kilkunastu sekund. Wyszło na to że moje serwery synchronizowały się z różnymi zewnętrznymi serwerami NTP pomiędzy, którymi były rozjazdy i te rozjazdy synchronizowały się na moich serwerach. Jeden &amp;ldquo;z moich&amp;rdquo; ustanowiłem głównym a wszystkie inne przekierowałem na niego (komentując wszystkie inne serwery NTP w konfiguracji). Wymusiłem synchronizację:
 ntp -q Sprawdziłem jak duży jest offset i jitter (powinny być bardzo małe):</description>
     </item>
     <item>
       <title>Nginx - hide server version and name in Server header and error pages</title>
-      <link>https://gagor.pl/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</link>
+      <link>/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</link>
       <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</guid>
+      <guid>/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</guid>
       <description>On Debian you have to install nginx-extras package (because it have built in headers_more&amp;thinsp; external link module). Then you need two options (best in global configuration /etc/nginx/nginx.conf file, http part):
 server_tokens off; more_set_headers &amp;#39;Server: BadAss&amp;#39;; And it&amp;rsquo;s good to setup non standard error pages on every site (500 and 404 at minimum):
 error_page 403 404 http://mysite.com/areyoulost; error_page 502 503 504 /500.html; </description>
     </item>
     <item>
       <title>PHP - max_input_vars</title>
-      <link>https://gagor.pl/2013/01/php-max_input_vars/</link>
+      <link>/2013/01/php-max_input_vars/</link>
       <pubDate>Tue, 22 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2013/01/php-max_input_vars/</guid>
+      <guid>/2013/01/php-max_input_vars/</guid>
       <description>W PHP 5.3 pojawiła się nowa zmienna: max_input_vars, która limituje ilość pól możliwych do przesłania przez formularz, obcinając nadmiarowe. Pozwala to zapobiec atakom DoS na tablice hashujące (przynajmniej w tym jednym miejscu). Domyślna wartość tej zmiennej to 1000 i kreatywnym programistom udaje się tą wartość bez problemu osiągnąć &amp;#x1f603;
 Warte odnotowania jest to że mając suhosin&amp;rsquo;a trzeba pamiętać o jeszcze dwóch innych zmiennych:
 max_input_vars = 3000 suhosin.post.max_vars = 3000 suhosin.request.max_vars = 3000 Zmienne można zmienić od razu w /etc/php5/apache2/php.</description>
     </item>
     <item>
       <title>Piwik: śledzenie asynchroniczne &#43; logowanie ksywy komentującego w WordPress’ie</title>
-      <link>https://gagor.pl/2012/12/piwik-sledzenie-asynchroniczne-logowanie-ksywy-komentujacego-w-wordpressie/</link>
+      <link>/2012/12/piwik-sledzenie-asynchroniczne-logowanie-ksywy-komentujacego-w-wordpressie/</link>
       <pubDate>Fri, 21 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/12/piwik-sledzenie-asynchroniczne-logowanie-ksywy-komentujacego-w-wordpressie/</guid>
+      <guid>/2012/12/piwik-sledzenie-asynchroniczne-logowanie-ksywy-komentujacego-w-wordpressie/</guid>
       <description>Korzystam z instancji Piwik&amp;rsquo;a do monitorowania odwiedzin na stronie i postanowiłem pokombinować czy da się w ten sposób monitorować wejścia konkretnych osób na bazie wpisanego w polu komentarza loginu/ksywki. Jak zacząłem grzebać to przy okazji zmieniłem też sposób ładowania skryptów Piwika na asynchroniczny.
 A leci to mniej więcej tak:
 &amp;lt;script type=&amp;#34;text/javascript&amp;#34;&amp;gt; var i,x,y,ARRcookies=document.cookie.split(&amp;#34;;&amp;#34;); var comment_author = &amp;#34;&amp;#34;; for (i=0;i&amp;lt;ARRcookies.length;i++) { x=ARRcookies[i].substr(0,ARRcookies[i].indexOf(&amp;#34;=&amp;#34;)); y=ARRcookies[i].substr(ARRcookies[i].indexOf(&amp;#34;=&amp;#34;)+1); x=x.replace(/^\s+|\s+$/g,&amp;#34;&amp;#34;); if (x.indexOf(&amp;#34;comment_author&amp;#34;) != -1 &amp;amp;&amp;amp; x.indexOf(&amp;#34;comment_author_email&amp;#34;) == -1 &amp;amp;&amp;amp; x.</description>
     </item>
     <item>
       <title>Nginx - kompresowanie plików dla gzip_static</title>
-      <link>https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</link>
+      <link>/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</link>
       <pubDate>Mon, 17 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</guid>
+      <guid>/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</guid>
       <description>Ruski serwer WWW&amp;thinsp; external link ma przydatną funkcję serwowania wersji plików skompresowanych gzip&amp;rsquo;em - przez co możemy plik skompresować raz i będzie on serwowany klientom obsługującym kompresję HTTP ale już bez każdorazowego kompresowania go. Jest to bardzo przydatne na stronach z dużym ruchem gdzie można w ten sposób zaoszczędzić takty CPU na właściwą obsługę połączeń a nie kompresję. Drugie miejsce gdzie może to być przydatne to VPS&amp;rsquo;y i &amp;ldquo;cienkie&amp;rdquo; serwery, które na kompresji przy większym obciążeniu spędzają zbyt dużo czasu i daje się to odczuć w działaniu strony.</description>
     </item>
     <item>
       <title>Python - wysyłanie maili w unicode</title>
-      <link>https://gagor.pl/2012/12/python-wysylanie-maili-w-unicode/</link>
+      <link>/2012/12/python-wysylanie-maili-w-unicode/</link>
       <pubDate>Mon, 10 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/12/python-wysylanie-maili-w-unicode/</guid>
+      <guid>/2012/12/python-wysylanie-maili-w-unicode/</guid>
       <description>Chciałem wysłać z Python&amp;rsquo;a maila z krzakami tab by ładnie się wyświetlały i okazało się to całkiem nietrywialne.
 Na szczęście googiel podpowiedział mi doskonałego gotowca, którego zamierzam zapisać by mi nie zginął:
 #!/usr/bin/env python # -*- coding: utf-8 -*- import smtplib from email.mime.text import MIMEText from email.Header import Header from email.Utils import parseaddr, formataddr def send_email(sender, recipient, subject, body): &amp;#34;&amp;#34;&amp;#34;Send an email. All arguments should be Unicode strings (plain ASCII works as well).</description>
     </item>
     <item>
       <title>ldapsearch w Active Directory</title>
-      <link>https://gagor.pl/2012/12/ldapsearch-w-active-directory/</link>
+      <link>/2012/12/ldapsearch-w-active-directory/</link>
       <pubDate>Wed, 05 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/12/ldapsearch-w-active-directory/</guid>
+      <guid>/2012/12/ldapsearch-w-active-directory/</guid>
       <description>Można lubieć AD, można go nie lubieć&amp;hellip; Ale jak już się ma to warto czasem zintegrować go z tym&amp;hellip; i tamtym&amp;hellip; Od strony Linuksa najwygodniej można to osiągnąć przez LDAP. A żeby to dobrze zrobić trzeba najpierw przetestować czy aby wszystko działa jak byśmy sobie tego życzyli. I tutaj bardzo przydatne jest narzędzie ldapsearch.
 Do odpytywania LDAP&amp;rsquo;a potrzebujemy jeden pakiecik, który zawiera kilka narzędzi do jego obsługi:
 apt-get install ldap-utils Teraz możemy próbować przeszukiwać katalog np.</description>
     </item>
     <item>
       <title>Nautilus - ukrywanie lost&#43;found</title>
-      <link>https://gagor.pl/2012/10/nautilus-ukrywanie-lostfound/</link>
+      <link>/2012/10/nautilus-ukrywanie-lostfound/</link>
       <pubDate>Tue, 30 Oct 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/10/nautilus-ukrywanie-lostfound/</guid>
+      <guid>/2012/10/nautilus-ukrywanie-lostfound/</guid>
       <description>Lubię mieć porządek w folderach i jedna rzecz, która nie daje mi spokoju w systemach plików ext to widoczność folderu lost+found - niby można go skasować i powinien się odtworzyć (choć podobno odtworzenie w czasie fsck&amp;rsquo;a może spowodować utratę danych - trochę to dziwne i nie znalazłem źródła no ale powiedzmy że nie chcę go usuwać). Chciałem go ukryć (choćby w Nautilusie) by mnie nie drażnił. Oczywiście opcja z &amp;ldquo;.&amp;rdquo; na początku odpada, ale na szczęście Nautilus wykorzystuje pewien hack, który umożliwia ukrycie dowolnego pliku/folderu.</description>
     </item>
     <item>
       <title>Piwik - alternatywa dla Google Analytics</title>
-      <link>https://gagor.pl/2012/09/piwik-alternatywa-dla-google-analytics/</link>
+      <link>/2012/09/piwik-alternatywa-dla-google-analytics/</link>
       <pubDate>Wed, 26 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/09/piwik-alternatywa-dla-google-analytics/</guid>
+      <guid>/2012/09/piwik-alternatywa-dla-google-analytics/</guid>
       <description>Jeśli szukamy statystyk dla strony internetowej i ze względu na jej zawartość (np. sklep, coś ze zwiększonym naciskiem na poufność etc..) nie potrafimy zaufaj wujkowi Googlowi to warto przyglądnąć się Piwikowi.
 Jest to system statystyk aspirujący do bycia Open Source&amp;rsquo;ową alternatywą dla Google Analytics. Aspirujący (a nie będący) z tego względu że Google przechodząc na domyślny HTTPS (SPDY) dla zalogowanych użytkowników uniemożliwił śledzenie stron z których pochodzą odwiedziny (tzw. refferals) - tym prostym sposobem tylko GA jest w stanie dostarczyć pełnych informacji o wszystkich użytkownikach.</description>
     </item>
     <item>
       <title>mod_rewrite - wymuszenie małych liter w adresie URL</title>
-      <link>https://gagor.pl/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</link>
+      <link>/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</link>
       <pubDate>Tue, 25 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</guid>
+      <guid>/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</guid>
       <description>Co prawda adresy URL pozwalają na stosowanie zarówno dużych jak i małych liter ale różne systemy mogą je różnie obsługiwać i może się trafić sytuacja, w której nie zechcemy by np. duże litery w ogóle pojawiały się w adresach URL. Doskonały przykład to mój niedawny wpis: Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic .
 Zachodzi tam sytuacja, w której katalog użytkownika jest jego loginem małymi literami (bądź dużymi - jak kto woli), a użytkownik wpisując login może użyć zarówno małych jak i dużych liter i tutaj zaczyna się jazda.</description>
     </item>
     <item>
       <title>GPO: Windows 7 - postęp przetwarzania polityk przy starcie systemu</title>
-      <link>https://gagor.pl/2012/09/gpo-windows-7-postep-przetwarzania-polityk-przy-starcie-systemu/</link>
+      <link>/2012/09/gpo-windows-7-postep-przetwarzania-polityk-przy-starcie-systemu/</link>
       <pubDate>Thu, 20 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/09/gpo-windows-7-postep-przetwarzania-polityk-przy-starcie-systemu/</guid>
+      <guid>/2012/09/gpo-windows-7-postep-przetwarzania-polityk-przy-starcie-systemu/</guid>
       <description>Dziś TIP z przeciwnego obozu - oprócz linuksowych systemów administruję również paroma serwerami windowsowymi i tutaj również (a czasem nawet bardziej) uda mi się znaleźć coś wartego zapamiętania.
 Jedna z najbardziej charakterystycznych rzeczy na komputerach przyłączonych do domeny Windows to wyświetlanie &amp;ldquo;różnych dziwnych rzeczy&amp;rdquo; przy starcie systemu. Zarówno na Windowsie 2000 jak i na XP&amp;rsquo;ku na małym okienku przewijają informacje o aktualizacji polityk, instalacji oprogramowania itp&amp;hellip;
 Zachowanie to zmieniło się na Vistach i 7-kach, które są nieco mniej rozmowne i wyświetlają jedynie komunikat typu &amp;ldquo;Trwa uruchamianie systemu&amp;hellip;&amp;rdquo; i tyla&amp;hellip; Załóżmy że wrzucimy do instalacji kilka paczek i jeszcze zmienimy kilka polityk i przez to komputer na tym napisie zatrzyma się na 5~10 minut - co zrobi użyszkodnik po 3 minutach?</description>
     </item>
     <item>
       <title>Sprawdzanie nieaktywnych linków na stronie</title>
-      <link>https://gagor.pl/2012/09/sprawdzanie-nieaktywnych-linkow-na-stronie/</link>
+      <link>/2012/09/sprawdzanie-nieaktywnych-linkow-na-stronie/</link>
       <pubDate>Tue, 18 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/09/sprawdzanie-nieaktywnych-linkow-na-stronie/</guid>
+      <guid>/2012/09/sprawdzanie-nieaktywnych-linkow-na-stronie/</guid>
       <description>Gdy administruje się dużymi stronami internetowymi raz na czas np. po większych zmianach w konfiguracji zachodzi potrzeba sprawdzenia czy na stronie nie ma stron prowadzących donikąd. O ile w małych serwisach można samemu szybko przeklikać się przez stronkę to dla starych rozrośniętych serwisów nie jest to takie proste.
 Jest kilka narzędzi których można użyć do testowania linków na stronach - każde z nich ma swoje zalety i wady, postaram się je przybliżyć.</description>
     </item>
     <item>
       <title>Generator kodów paskowych dla napędów taśmowych LTO</title>
-      <link>https://gagor.pl/2012/09/generator-kodow-paskowych-dla-napedow-tasmowych-lto/</link>
+      <link>/2012/09/generator-kodow-paskowych-dla-napedow-tasmowych-lto/</link>
       <pubDate>Tue, 11 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/09/generator-kodow-paskowych-dla-napedow-tasmowych-lto/</guid>
+      <guid>/2012/09/generator-kodow-paskowych-dla-napedow-tasmowych-lto/</guid>
       <description>Jeśli posiadasz napęd taśmowy LTO do archiwizacji/backupu danych to wiesz że bardzo ważne jest opisywanie taśm szczególnie gdy trzeba coś odzyskać. Jeżeli masz szczęście to posiadasz nie pojedynczy napęd a autoloader obsługujący wiele taśm i wiesz że najlepiej gdy taśmy są opisane kodami paskowymi które autoloader potrafi rozpoznać. Dzięki temu nie ma potrzeby odczytywania nr. seryjnego z taśmy tylko szybciutko skanerem kodów. Tasiemki można kupować już z kodami ale tańsze są te bez kodów&amp;hellip; i tu pytanie - czy da się tanio zdobyć etykiety?</description>
     </item>
     <item>
       <title>Listowanie zasobów NFS</title>
-      <link>https://gagor.pl/2012/09/listowanie-zasobow-nfs/</link>
+      <link>/2012/09/listowanie-zasobow-nfs/</link>
       <pubDate>Mon, 10 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/09/listowanie-zasobow-nfs/</guid>
+      <guid>/2012/09/listowanie-zasobow-nfs/</guid>
       <description>Szkoda że polecenia do obsługi NFS&amp;rsquo;a nie zaczynają się od nfs* - łatwiej byłoby mi je zapamiętać. A jednym z takich, zapominanych najczęściej jest listowanie zasobów, szczególnie przydatne gdy korzysta się z NFS&amp;rsquo;a na jakimś NAS&amp;rsquo;ie (którego magiczny soft nie pokazuje gdzie i co eksportuje):
 showmount -e 192.168.1.10 Export list for 192.168.1.10: /mnt/pools/A/A0/Music * /mnt/pools/A/A0/Movies * /mnt/pools/A/A0/Backups * /mnt/pools/A/A0/Pictures * /mnt/pools/A/A0/Documents * Teraz możemy zamontować zasób:
 mount 192.168.1.10:/mnt/pools/A/A0/Music /mnt/music </description>
     </item>
     <item>
       <title>unicode-rxvt - moje ustawienia</title>
-      <link>https://gagor.pl/2012/09/unicode-rxvt-moje-ustawienia/</link>
+      <link>/2012/09/unicode-rxvt-moje-ustawienia/</link>
       <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/09/unicode-rxvt-moje-ustawienia/</guid>
+      <guid>/2012/09/unicode-rxvt-moje-ustawienia/</guid>
       <description>Wybór dobrego X-terminala to w życiu admina prawie jak wybór żony&amp;hellip; spędza się wspólnie dużo czasu i miło gdy estetycznie wygląda, robi to co chcemy, itd&amp;hellip; 😉
 Nie lubię gnome-terminal&#39;a bo domyślnie binduje F10 co wnerwia mnie w midnight commanderze, stąd szukałem i szukałem i jak dotychczas najbardziej podpasował mi unicode-rxvt. Można uruchamiać go po prostu jako urxvt lub uruchomić demona urxvtd po zalogowaniu i potem odpalać tylko klienta urxvtc. Druga metoda skutkuje natychmiastowym startem terminala, wiec gdy podbinduję go sobie pod F12 mam terminal zawsze pod ręką w mniej niż sekundę.</description>
     </item>
     <item>
       <title>Wymuszenie fsck po restarcie</title>
-      <link>https://gagor.pl/2012/09/wymuszenie-fsck-po-restarcie/</link>
+      <link>/2012/09/wymuszenie-fsck-po-restarcie/</link>
       <pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/09/wymuszenie-fsck-po-restarcie/</guid>
+      <guid>/2012/09/wymuszenie-fsck-po-restarcie/</guid>
       <description>Jeżeli chcemy by po ponownym uruchomieniu w czasie startu zostały sprawdzone wszystkie dyski narzędziem to można to osiągnąć na dwa sposoby. Zawsze gdy tego potrzebuję zastanawiam się tylko jaki plik trzeba było utworzyć&amp;hellip; forcefsck, fsck, fsckforce&amp;hellip; więc notuję 😉
 Utworzenie pliku /forcefsck Pierwsza metoda polega na utworzeniu pliku forcefsck w głównym katalog, robimy to poniższym poleceniem:
 sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F polecenia shutdown ale nie działa na wszystkich dystrybucjach (w takiej sytuacji patrz pierwsza metoda):</description>
     </item>
     <item>
       <title>Moje ulubione aplikacje na Android’a</title>
-      <link>https://gagor.pl/2012/09/moje-ulubione-aplikacje-na-androida/</link>
+      <link>/2012/09/moje-ulubione-aplikacje-na-androida/</link>
       <pubDate>Fri, 07 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/09/moje-ulubione-aplikacje-na-androida/</guid>
+      <guid>/2012/09/moje-ulubione-aplikacje-na-androida/</guid>
       <description>Znajomi co jakiś czas pytają mnie: jak nazywa się ta aplikacja, którą masz na telefonie do&amp;hellip;? Z jakiego programu do poczty korzystasz na tel&amp;hellip;? itd&amp;hellip;
 Pytacie - więc macie &amp;#x1f603;
 DGT GTD&amp;thinsp; external link Bardzo przydatna lista TODO. Stworzona z myślą o metodzie Getting Things Done i bardzo ułatwia pamiętanie u różnych zadaniach. Posiada też bardzo wygodny widżet, na którym możemy podglądnąć nasze najbliższe zadania.
@@ -801,25 +802,25 @@ Opera Mini&amp;thinsp; external link Wbudowana przeglądarka jest niezła, ale O
     </item>
     <item>
       <title>Przeszukiwanie plików danego typu pod kątem tekstu</title>
-      <link>https://gagor.pl/2012/08/przeszukiwanie-plikow-danego-typu-pod-katem-tekstu/</link>
+      <link>/2012/08/przeszukiwanie-plikow-danego-typu-pod-katem-tekstu/</link>
       <pubDate>Fri, 31 Aug 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/08/przeszukiwanie-plikow-danego-typu-pod-katem-tekstu/</guid>
+      <guid>/2012/08/przeszukiwanie-plikow-danego-typu-pod-katem-tekstu/</guid>
       <description>Kiedyś poproszono mnie o przeszukanie wszystkich plików php na serwerze webowym po kątem wywołania pewnej funkcji. Oczywiste wydało mi się użycie rekurencyjnie grep&amp;rsquo;a, więc:
 grep -R &amp;#34;JAKAS_FUNKCJA&amp;#34; /var/www/*.php Ale szybko okazało się że grep dopasowuje maskę *.php również do katalogów, więc nie przeszukiwał katalogów które nie kończyły się na .php ehhh&amp;hellip;..
 Drugie podejście okazało się trafniejsze - najpierw poleceniem find wyszukuję wszystkie pliki php, a dopiero później grepuję (wypisując nazwę pliku i numer linii):</description>
     </item>
     <item>
       <title>Nginx - ustawienie domyślnego vhosta</title>
-      <link>https://gagor.pl/2012/06/nginx-ustawienie-domyslnego-vhosta/</link>
+      <link>/2012/06/nginx-ustawienie-domyslnego-vhosta/</link>
       <pubDate>Mon, 18 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/06/nginx-ustawienie-domyslnego-vhosta/</guid>
+      <guid>/2012/06/nginx-ustawienie-domyslnego-vhosta/</guid>
       <description>Ustawienie domyślnego vhosta w nginx&amp;rsquo;ie jest ładnie opisane w dokumentacji i początkowo wydawało się dobrze działać ale gdy wykorzystałem tą konfigurację na serwerze z wieloma adresami IP i nasłuchiwaniem na porcie 80 (bez podania IP) to zachowywało się to dość dziwnie (przeważnie nie ładowało tej strony którą chciałem). Od teraz tworzę konfigurację domyślnego vhosta dla każdego z dostępnych adresów IP. Powiem szczerze że nie miałem czasu na głębsze zbadanie tego zachowania i wykorzystałem rozwiązanie, które działało w każdym przypadku czyli po jednym konfigu na IP + przekierowanie na ogólną stronę.</description>
     </item>
     <item>
       <title>Dynamiczna zmiana rozmiaru partycji EXT4 na LVM’ie</title>
-      <link>https://gagor.pl/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/</link>
+      <link>/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/</link>
       <pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/</guid>
+      <guid>/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/</guid>
       <description>Używam LVM&amp;rsquo;a zarówno na desktopie jak i wielu serwerach bo bardzo podoba mi się możliwość powiększenia akurat tej partycji, na której brakuje miejsca. O ile pamiętam jak powiększyć partycję XFS (xfs_growfs /punkt/montowania) to zawsze mam problem jak to zrobić na EXT3/4, więc notuję.
 Powiększenie wolumenu LVM (np. o 10 gigabajtów):
 lvextend -L+10G /dev/vggroup/vol Zwiększenie rozmiaru systemu plików do nowego rozmiaru wolumenu:
@@ -827,107 +828,107 @@ resize2fs /dev/vggroup/vol Powyższe polecenie można wykonać na zamontowanym z
     </item>
     <item>
       <title>Nginx - mój domyślny config</title>
-      <link>https://gagor.pl/2012/06/nginx-moj-domyslny-config/</link>
+      <link>/2012/06/nginx-moj-domyslny-config/</link>
       <pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/06/nginx-moj-domyslny-config/</guid>
+      <guid>/2012/06/nginx-moj-domyslny-config/</guid>
       <description>W tym poście nie rozpiszę się zbytnio - wrzucam tylko config od którego zaczynam konfigurację nginx&amp;rsquo;a.
 user www-data; worker_processes 4; pid /var/run/nginx.pid; events { worker_connections 1024; ## zaakceptuj tak dużo połączeń jak to możliwe multi_accept on; ## epoll jest preferowany na jajkach od 2.6 ## http://www.kegel.com/c10k.html#nb.epoll use epoll; } http { include /etc/nginx/mime.types; default_type application/octet-stream; access_log /var/log/nginx/access.log; error_log /var/log/nginx/error.log; ## opcje TCP sendfile on; tcp_nopush on; tcp_nodelay on; ## maksymalny rozmiar zapytnia client_max_body_size 10m; ## timeout&amp;#39;y client_body_timeout 60; client_header_timeout 60; keepalive_timeout 10; send_timeout 60; ## kompresja gzip on; gzip_static on; gzip_vary on; gzip_disable &amp;#34;msie6&amp;#34;; gzip_comp_level 1; gzip_proxied any; gzip_buffers 16 8k; gzip_min_length 50; gzip_types text/plain text/css application/json application/x-javascript application/javascript text/javascript application/atom+xml application/xml application/xml+rss text/xml image/x-icon text/x-js application/xhtml+xml; ## bezpieczeństwo ## security by obscurity - ukrywamy wersję nginx&amp;#39;a server_tokens off; ignore_invalid_headers on; ## resetuj zbyt długie połączenia - powinno pomóc na slowlorisa reset_timedout_connection on; ## włączenie ochrony przed clickjackingiem - uruchamiam to per vhost ## https://developer.</description>
     </item>
     <item>
       <title>Fortigate: Warning: SQL Logging is not enabled</title>
-      <link>https://gagor.pl/2012/04/fortigate-warning-sql-logging-is-not-enabled/</link>
+      <link>/2012/04/fortigate-warning-sql-logging-is-not-enabled/</link>
       <pubDate>Wed, 11 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/04/fortigate-warning-sql-logging-is-not-enabled/</guid>
+      <guid>/2012/04/fortigate-warning-sql-logging-is-not-enabled/</guid>
       <description>Jeśli po aktualizacji firmware na swoim firewall&amp;rsquo;u do wersji MR3 natrafisz na komunikat Warning: SQL Logging is not enabled przy dostępie do logów to prawdopodobnie musisz zmienić źródło logów dla interfejsu gui. Poniżej polecenie CLI i możliwe opcje:
 config log gui set logdevice {memory | disk | fortianalyzer} end Ja potrzebowałem ustawić tę opcję na fortianalyzer by uzyskać dostęp do moich logów.</description>
     </item>
     <item>
       <title>Konwersja formatu certyfikatu dla telefonów Nokia</title>
-      <link>https://gagor.pl/2012/04/konwersja-formatu-certyfikatu-dla-telefonow-nokia/</link>
+      <link>/2012/04/konwersja-formatu-certyfikatu-dla-telefonow-nokia/</link>
       <pubDate>Wed, 11 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/04/konwersja-formatu-certyfikatu-dla-telefonow-nokia/</guid>
+      <guid>/2012/04/konwersja-formatu-certyfikatu-dla-telefonow-nokia/</guid>
       <description>Chciałem zaimportować mój certyfikat self-signed do Nokii E72 by nie krzyczała przy sprawdzaniu poczty. Potrzebowałem certyfikatu w formacie DER, a miałem w PEM - chwilę szukałem jak dokonać konwersji, więc ku pamięci zapisuję kilka gotowych poleceń:
 Konwersja certyfikatu z PEM na DER openssl x509 -in in.crt -inform PEM -out out.crt -outform DER Konwersja certyfikatu z DER na PEM openssl x509 -in in.crt -inform DER -out out.crt -outform DER Konwersja klucza z formatu PEM na DER openssl rsa -in in.</description>
     </item>
     <item>
       <title>Xen - ustawienie autostartu DomU</title>
-      <link>https://gagor.pl/2012/02/xen-ustawienie-autostartu-domu/</link>
+      <link>/2012/02/xen-ustawienie-autostartu-domu/</link>
       <pubDate>Mon, 27 Feb 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/02/xen-ustawienie-autostartu-domu/</guid>
+      <guid>/2012/02/xen-ustawienie-autostartu-domu/</guid>
       <description>Aby wybrane systemy DomU startowały automatycznie po restarcie hypervisora należy podlinkować ich pliki konfiguracyjne w katalogu /etc/xen/auto po uprzednim jego utworzeniu. Przykładowo:
 mkdir /etc/xen/auto ln -s /etc/xen/example.cfg /etc/xen/auto/example.cfg Od teraz DomU example będzie startować automatycznie.</description>
     </item>
     <item>
       <title>Xen - Włączenie Live Migration</title>
-      <link>https://gagor.pl/2012/02/xen-wlaczenie-live-migration/</link>
+      <link>/2012/02/xen-wlaczenie-live-migration/</link>
       <pubDate>Sat, 25 Feb 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/02/xen-wlaczenie-live-migration/</guid>
+      <guid>/2012/02/xen-wlaczenie-live-migration/</guid>
       <description>Jeżeli zdecydowaliśmy się na systemu DomU w obrazach to możemy korzystać z live migration. By uruchomić jej obsługę, trzeba w pliku /etc/xen/xend-config.sxp odkomentować odpowiednie linie i ustawić adres IP:
 (xend-relocation-server yes) (xend-relocation-port 8002) (xend-relocation-address &amp;#39;10.0.10.91&amp;#39;) Wykonywanie migracji xm migrate --live nazwa-domu nazwa.lub.ip.zdalnego.hosta </description>
     </item>
     <item>
       <title>Wstępne ładowanie programów przy starcie z ureadahead</title>
-      <link>https://gagor.pl/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</link>
+      <link>/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</link>
       <pubDate>Tue, 24 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</guid>
+      <guid>/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</guid>
       <description>Jakiś czas temu korzystałem z preload&amp;rsquo;a&amp;thinsp; external link który sam uczył się jakie aplikacje odpalam i te programy ładował już podczas startu - przeważnie nieco spowalnia to start systemu ale gdy już się załaduje to programy, które uruchamiam jako pierwsze startują &amp;ldquo;z kopa&amp;rdquo;. Od jakiegoś czasu popularniejszy jest instalowany domyślnie w Ubuntu ureadahead - pełni on podobną funkcję jak preload.
 Można zmusić ureadahead do ponownego wygenerowania nowej listy programów wczytywanych przy starcie do cache a oto jak zrobić:</description>
     </item>
     <item>
       <title>Długie oczekiwanie na nawiązanie połączenia ssh</title>
-      <link>https://gagor.pl/2012/01/dlugie-oczekiwanie-na-nawiazanie-polaczenia-ssh/</link>
+      <link>/2012/01/dlugie-oczekiwanie-na-nawiazanie-polaczenia-ssh/</link>
       <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/01/dlugie-oczekiwanie-na-nawiazanie-polaczenia-ssh/</guid>
+      <guid>/2012/01/dlugie-oczekiwanie-na-nawiazanie-polaczenia-ssh/</guid>
       <description>Objaw przeważnie jest taki: łączysz się po ssh podając klucz/hasło i czekasz nawet i 10 sekund aż pojawi się prompt. Po połączeniu wszystkie polecenia działają z normalną szybkością. Brzmi znajomo? 😉
 Taki objaw przeważnie jest skutkiem problemów z działaniem DNS&amp;rsquo;a po stronie klienta lub serwera. Warto sprawdzić poleceniami host/dig/nslookup po obu stronach jak dużo czasu potrzeba na rozwiązanie nazw. Najlepiej rozwiązać problem z DNS&amp;rsquo;em ustawiając szybkie serwery ale gdy nie mamy takiej możliwości to po stronie serwera można ustawić w /etc/sshd_config opcję:</description>
     </item>
     <item>
       <title>Sniffowanie w FortiOS</title>
-      <link>https://gagor.pl/2012/01/sniffowanie-w-fortios/</link>
+      <link>/2012/01/sniffowanie-w-fortios/</link>
       <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/01/sniffowanie-w-fortios/</guid>
+      <guid>/2012/01/sniffowanie-w-fortios/</guid>
       <description>Zawsze gdy potrzebuję zesniffować coś na żywo na Fortigate&amp;rsquo;ach muszę przeszukać Knowledge Base&amp;thinsp; external link by przypomnieć sobie wszystkie polecenia do tego potrzebne. Tym razem robię notatki &amp;#x1f603;
 Sniffowanie diagnose debug enable diagnose debug flow filter addr ip address clear clear filter daddr dest ip address dport destination port negate inverse filter port port proto protocol number saddr source ip address sport source port vd index of virtual domain # np.</description>
     </item>
     <item>
       <title>Skoda Fabia - Kasownie ostrzeżeń OIL i service INSP</title>
-      <link>https://gagor.pl/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/</link>
+      <link>/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/</link>
       <pubDate>Thu, 12 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/</guid>
+      <guid>/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/</guid>
       <description>Jeżeli jesteś właścicielem Skody Fabii I to wcześniej czy później Twój BAT-Mobil zgłosi któreś z ostrzeżeń serwisowych:
 OIL - pojawia się przeważnie co 10 tys. km i wtedy gdy jeszcze nie trzeba wymieniać oleju w silniku &amp;#x1f604; service INSP - nie wiem jak często się pojawia a oznacza mniej więcej &amp;ldquo;czas wesprzeć finansowo lokalny autoryzowany serwis&amp;rdquo;. Kasowanie ostrzeżenia &amp;ldquo;OIL&amp;rdquo; Przy wyłączonym silniku wciskamy i przytrzymujemy przycisk kasowania przebiegu dziennego/pokrętło ustawiania godziny, od teraz nazywany po prostu &amp;lsquo;przyciskiem&amp;rsquo;.</description>
     </item>
     <item>
       <title>Mój domyślny config dla SciTE</title>
-      <link>https://gagor.pl/2012/01/moj-domyslny-config-dla-scite/</link>
+      <link>/2012/01/moj-domyslny-config-dla-scite/</link>
       <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/01/moj-domyslny-config-dla-scite/</guid>
+      <guid>/2012/01/moj-domyslny-config-dla-scite/</guid>
       <description>Uruchamiamy SciTE i klikamy menu Options -&amp;gt; Open User Options File, wpisujemy dane:
 # domyślne korzystanie z fontów o stałej szerokości font.base=$(font.monospace) font.small=$(font.monospace) font.comment=$(font.monospace) font.text=$(font.monospace) font.text.comment=$(font.monospace) font.embedded.base=$(font.monospace) font.embedded.comment=$(font.monospace) font.vbs=$(font.monospace) # numerowanie wierszy line.margin.visible=1 line.margin.width=3+ # ikonki toolbara z tematu systemowego toolbar.usestockicons=1 # zaznaczanie blokowe rectangular.selection.modifier=8 # ustawienia wgłębień kodu indent.size=4 use.tabs=1 indent.automatic=1 Więcej opcji tutaj: http://www.scintilla.org/SciTEDoc.html
 Sam pewnie jeszcze nie raz zaktualizuję ten wpis &amp;#x1f604;</description>
     </item>
     <item>
       <title>Empathy - zamykanie okienka chatu przyciskiem Escape</title>
-      <link>https://gagor.pl/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/</link>
+      <link>/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/</link>
       <pubDate>Fri, 30 Dec 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/</guid>
+      <guid>/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/</guid>
       <description>W Gajim&amp;rsquo;ie od dawna brakowało mi wygodnego przeszukiwania po liście kontaktów (takiego jakie ma się pojawić już niebawem w wersji 0.15 - z półtora roku już na to czekam&amp;hellip;). W między czasie znalazłem chwilę by pobawić się Empathy - brzydki, nie ma przeglądarki usług XMPP, ale wyszukiwanie na rosterze jest dokładnie takie jakiego szukałem (w miarę wpisywania znaków zawęża listę kontaktów by pasowały do wpisywanego wzorca).
 Tyle że skróty klawiaturowe w tym programie zwyczajnie mnie rozwalają - przez lata przyzwyczaiłem się że okienka czatu można zamknąć Escape&amp;rsquo;m - a tutaj nawet nie ma opcji, która pozwalała by na taką zmianę zachowania.</description>
     </item>
     <item>
       <title>Konfiguracja modemu USB iPlus na urządzeniach FortiGate</title>
-      <link>https://gagor.pl/2011/12/konfiguracja-modemu-usb-iplus-na-urzadzeniach-fortigate/</link>
+      <link>/2011/12/konfiguracja-modemu-usb-iplus-na-urzadzeniach-fortigate/</link>
       <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/12/konfiguracja-modemu-usb-iplus-na-urzadzeniach-fortigate/</guid>
+      <guid>/2011/12/konfiguracja-modemu-usb-iplus-na-urzadzeniach-fortigate/</guid>
       <description>Zdarzyło mi się bawić sprzętowymi Firewallami firmy Fortigate - chcąc sprawdzić działanie pewnych funkcji potrzebowałem uruchomić dwa/trzy pudełka na osobnych łączach. Pomysł polegał na próbie zmuszenia pudełek do współpracy z modemem iPlus na USB.
 Drugim fajnym zastosowaniem tego triku jest możliwość wykorzystania iPlusa jako &amp;ldquo;zapasowego łącza&amp;rdquo; w przypadku awarii głównego.
 Dzięki pomocy inżyniera Fortigate szybko udało mi się zebrać potrzebne do działania parametry, które należy uruchomić poprzez command line (telnet/ssh).</description>
     </item>
     <item>
       <title>fail2ban - regułki dla dovecot’a</title>
-      <link>https://gagor.pl/2011/11/fail2ban-regulki-dla-dovecota/</link>
+      <link>/2011/11/fail2ban-regulki-dla-dovecota/</link>
       <pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/11/fail2ban-regulki-dla-dovecota/</guid>
+      <guid>/2011/11/fail2ban-regulki-dla-dovecota/</guid>
       <description>Domyślna konfiguracja fail2ban&amp;rsquo;a (na Debianie) nie zawiera reguł pozwalających na blokowanie prób włamań na skrzynki POP/IMAP dla dovecota (no chyba że korzystamy z saslauthd). Można szybko utworzyć własny zestaw filtrów co przedstawię poniżej.
 Tworzymy plik: /etc/fail2ban/filter.d/dovecot.conf
 [Definition] failregex = (?: pop3-login|imap-login): .*(?:Authentication failure|Aborted login \(auth failed|Aborted login \(tried to use disabled|Disconnected \(auth failed|Aborted login \(\d+ authentication attempts).*rip=(?P&amp;lt;host&amp;gt;\S*),.* ignoreregex = Później dopisujemy na końcu pliku: /etc/fail2ban/jail.conf
@@ -935,66 +936,66 @@ Tworzymy plik: /etc/fail2ban/filter.d/dovecot.conf
     </item>
     <item>
       <title>X-Forwarded-For &#43; mod_rpaf - logowanie rzeczywistych adresów IP na Apache za reverse proxy</title>
-      <link>https://gagor.pl/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</link>
+      <link>/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</link>
       <pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</guid>
+      <guid>/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</guid>
       <description>Gdy już ustawimy reverse proxy przed Apache szybko można zauważyć że w logach zamiast adresów IP zdalnych użytkowników pojawia się tylko jeden adres: adres naszego proxy. Również z poziomu php&amp;rsquo;a jako adres klienta widać IP naszego proxy.
 By poradzić sobie z tym problemem trzeba na serwerze reverse proxy ustawić przekazywanie informacji o oryginalnym adresie IP klienta w nagłówku X-Forwarded-For. W przypadku gdy reverse proxy działa na nginx&amp;rsquo;e wystarczy dodać taki wpis:</description>
     </item>
     <item>
       <title>pflogsumm - statystyki poczty dla postfix’a</title>
-      <link>https://gagor.pl/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</link>
+      <link>/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</link>
       <pubDate>Thu, 22 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</guid>
+      <guid>/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</guid>
       <description>Jeżeli administrujesz nawet niedużym serwerem pocztowym na pewno masz świadomość, że nie jesteś w stanie monitorować logów na bieżąco. Ciężko jest wyłapać np. problem w komunikacji z pewną domeną. Ciężko też oszacować skalę ruchu na serwerze zarówno pod kątem ilości jak i wolumenu maili. Trudno wybrać domeny, dla których warto by zrezygnować z greylistingu, itd, itp&amp;hellip;
 Na szczęście dostępne jest narzędzie pflogsumm, które wygeneruje nam dość wyczerpujące statystyki z logów postfix&amp;rsquo;a.</description>
     </item>
     <item>
       <title>fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed</title>
-      <link>https://gagor.pl/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</link>
+      <link>/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</link>
       <pubDate>Wed, 21 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</guid>
+      <guid>/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</guid>
       <description>Miałem ostatnio dziwną przygodę: pewien serwer do backupu gdzie ląduje dużo małych plików i dodatkowo tworzonych jest sporo hardlinków zaliczył pada. Co prawda starałem się go grzecznie położyć z pomocą Magic SysRq ale ponieważ nie wiedziałem co było przyczyną awarii fsck wydawał się wskazany.
 Podczas próby uruchomienia fsck.ext4 na systemie plików o rozmiarze ok 14TB z kilkuset milionami plików po kilkudziesięciu sekundach otrzymywałem komunikat:
 Błąd podczas przydzielania struktury icount: Memory allocation failed</description>
     </item>
     <item>
       <title>Magic SysRq - bezpieczny reset Linux’a</title>
-      <link>https://gagor.pl/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</link>
+      <link>/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</link>
       <pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</guid>
+      <guid>/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</guid>
       <description>Pomimo iż Linux uchodzi za stabilne środowisko to raz na jakiś czas trafi się ciężka zwiecha - z powodu przeciążenia, awarii sprzętu&amp;hellip; nieistotne&amp;hellip;
 Załóżmy że licho wzięło za cel główny serwer plików lub bazę danych dla wielu, wielu stron internetowych. Dostać się po ssh nie możemy bo lecą timeout&amp;rsquo;y, a siedząc bezpośrednio przy klawiaturze konsola nie reaguje. Mimo to coś ostro daje po dyskach, więc ewentualny twardy reset to na bank utrata części plików&amp;hellip; jeśli system po nim w ogóle wstanie&amp;hellip; &amp;#x1f611;</description>
     </item>
     <item>
       <title>Wymuszenie zwolnienia pamięci buforów dyskowych na Linux’ie</title>
-      <link>https://gagor.pl/2011/09/wymuszenie-zwolnienia-pamieci-buforow-dyskowych-na-linuxie/</link>
+      <link>/2011/09/wymuszenie-zwolnienia-pamieci-buforow-dyskowych-na-linuxie/</link>
       <pubDate>Thu, 15 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/09/wymuszenie-zwolnienia-pamieci-buforow-dyskowych-na-linuxie/</guid>
+      <guid>/2011/09/wymuszenie-zwolnienia-pamieci-buforow-dyskowych-na-linuxie/</guid>
       <description>Linux bardzo agresywnie wykorzystuje wolną pamięć RAM do buforowania danych odczytywanych z dysków (inode&amp;rsquo;ów, plików, itd&amp;hellip;). Ma to niebagatelny wpływ na zwiększenie szybkości uruchamiania programów które już raz zostały uruchomione. Jednak nie zawsze jest to pożądane zachowanie, np. testując szybkość uruchomienia/wykonywania tworzonej przez nas aplikacji - buforowanie zmienia czas ładowania aplikacji przy kolejnych uruchomieniach. Dobrze byłoby móc wymusić zwolnienie buforów by każdy start programu miał porównywalne &amp;ldquo;warunki startowe&amp;rdquo;.
 Na szczęście można to zrobić w prosty sposób:</description>
     </item>
     <item>
       <title>Sprawdzenie który proces obciąża dyski</title>
-      <link>https://gagor.pl/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</link>
+      <link>/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</link>
       <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid>
+      <guid>/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid>
       <description>Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.
 Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić &amp;#x1f603;</description>
     </item>
     <item>
       <title>Włam na lokalne konto root’a</title>
-      <link>https://gagor.pl/2011/08/wlam-na-lokalne-konto-roota/</link>
+      <link>/2011/08/wlam-na-lokalne-konto-roota/</link>
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/08/wlam-na-lokalne-konto-roota/</guid>
+      <guid>/2011/08/wlam-na-lokalne-konto-roota/</guid>
       <description>Jeżeli tu zaglądasz pewnie zdarzyło Ci się kiedyś, że przykładowo wygrzebujesz jakiś stary serwer i nie masz pojęcia co na nim było, ani do czego służyło, czy jeszcze działa&amp;hellip; Albo jeszcze inaczej - serwer działał tak długo, że wszystkie osoby znające hasło na root&amp;rsquo;a przeszły na emeryturę lub zmarły&amp;hellip; Nieistotne &amp;#x1f603;
 Jest pewna prosta sztuczka, pozwalająca wbić się na konto root&amp;rsquo;a nie znając hasła - dając nam możliwość jego zmiany. Potrzebne dwa restarty ale za to nie trzeba korzystać z żadnychlive cd.</description>
     </item>
     <item>
       <title>Wysyłanie załączników poleceniem mail</title>
-      <link>https://gagor.pl/2011/08/wysylanie-zalacznikow-poleceniem-mail/</link>
+      <link>/2011/08/wysylanie-zalacznikow-poleceniem-mail/</link>
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/08/wysylanie-zalacznikow-poleceniem-mail/</guid>
+      <guid>/2011/08/wysylanie-zalacznikow-poleceniem-mail/</guid>
       <description>Kiedyś potrzebowałem w ramach testu obciążeniowego wysłać dużo wiadomości z załącznikami. Chciałem to zrobić na szybko z shell&amp;rsquo;a i tutaj chwilę musiałem pogooglać aby znaleźć działające polecenie. To co znalazłem wygląda tak:
 (echo &amp;#34;testowa wiadomosc&amp;#34;; uuencode test.zip test.zip) \ | mail -s &amp;#34;Test&amp;#34; testowy@mail.pl Wiedząc już jak wysyłać maile z załącznikami, mały mail bombing mogłem zrobić tak:
 for i in `seq 1 100`; do (cat tekst.txt; uuencode test.zip test.zip) \ | mail -s &amp;#34;Test $i&amp;#34; testowy@mail.</description>

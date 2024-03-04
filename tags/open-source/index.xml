@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Open Source on Tom&#39;s Blog</title>
-    <link>https://gagor.pl/tags/open-source/</link>
+    <link>/tags/open-source/</link>
     <description>Recent content in Open Source on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Wed, 26 Sep 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gagor.pl/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piwik - alternatywa dla Google Analytics</title>
-      <link>https://gagor.pl/2012/09/piwik-alternatywa-dla-google-analytics/</link>
+      <link>/2012/09/piwik-alternatywa-dla-google-analytics/</link>
       <pubDate>Wed, 26 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/09/piwik-alternatywa-dla-google-analytics/</guid>
+      <guid>/2012/09/piwik-alternatywa-dla-google-analytics/</guid>
       <description>Jeśli szukamy statystyk dla strony internetowej i ze względu na jej zawartość (np. sklep, coś ze zwiększonym naciskiem na poufność etc..) nie potrafimy zaufaj wujkowi Googlowi to warto przyglądnąć się Piwikowi.
 Jest to system statystyk aspirujący do bycia Open Source&amp;rsquo;ową alternatywą dla Google Analytics. Aspirujący (a nie będący) z tego względu że Google przechodząc na domyślny HTTPS (SPDY) dla zalogowanych użytkowników uniemożliwił śledzenie stron z których pochodzą odwiedziny (tzw. refferals) - tym prostym sposobem tylko GA jest w stanie dostarczyć pełnych informacji o wszystkich użytkownikach.</description>
     </item>

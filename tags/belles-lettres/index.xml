@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Belles-lettres on Tom&#39;s Blog</title>
-    <link>https://gagor.pl/tags/belles-lettres/</link>
+    <link>/tags/belles-lettres/</link>
     <description>Recent content in Belles-lettres on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Thu, 02 Mar 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gagor.pl/tags/belles-lettres/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/belles-lettres/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rycerz nieistniejący</title>
-      <link>https://gagor.pl/books/2023/rycerz-nieistniejacy/</link>
+      <link>/books/2023/rycerz-nieistniejacy/</link>
       <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/books/2023/rycerz-nieistniejacy/</guid>
+      <guid>/books/2023/rycerz-nieistniejacy/</guid>
       <description> Rycerz nieistniejącyAuthor: Calvino Italo
 empik.com </description>
     </item>
     <item>
       <title>Podróż ludzi Księgi</title>
-      <link>https://gagor.pl/books/2020/tokarczuk/</link>
+      <link>/books/2020/tokarczuk/</link>
       <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/books/2020/tokarczuk/</guid>
+      <guid>/books/2020/tokarczuk/</guid>
       <description> Podróż ludzi KsięgiAuthor: Olga Tokarczuk
 empik.com </description>
     </item>

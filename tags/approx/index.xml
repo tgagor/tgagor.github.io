@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>approx on Tom&#39;s Blog</title>
-    <link>https://gagor.pl/tags/approx/</link>
+    <link>/tags/approx/</link>
     <description>Recent content in approx on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Fri, 16 Sep 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gagor.pl/tags/approx/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/approx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>approx - cachujące proxy dla repozytoriów Debiana</title>
-      <link>https://gagor.pl/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</link>
+      <link>/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</link>
       <pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</guid>
+      <guid>/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</guid>
       <description>Wielu administratorów gdy zaczyna swoją przygodę zarządza jedną/dwoma maszynami&amp;hellip; Po pewnym czasie jest ich już kilka&amp;hellip; W którymś momencie dostrzega się zalety wirtualizacji i na kilku maszynach fizycznych działa kilkanaście czy kilkadziesiąt maszyn wirtualnych. W takiej sytuacji pobieranie aktualizacji dla wszystkich maszyn potrafi mocno zabić łącze.
 I w tym momencie zaczynamy się zastanawiać czy może nie warto byłoby zrobić własnego mirror&amp;rsquo;a paczek dla naszego ulubionego distro&amp;hellip; do prywatnego użytku&amp;hellip; synchronizowanego w nocy by nikomu nie przeszkadzać&amp;hellip; i dostępnego nawet gdy będziemy offline&amp;hellip; Zaczynamy liczyć miejsce i okazuje się że repozytorium Debiana dla architektury i386 to prawie 60GB (sic!</description>
     </item>

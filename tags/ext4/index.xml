@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ext4 on Tom&#39;s Blog</title>
-    <link>https://gagor.pl/tags/ext4/</link>
+    <link>/tags/ext4/</link>
     <description>Recent content in ext4 on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Wed, 07 Nov 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gagor.pl/tags/ext4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/ext4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LVM na RAID5 i dysku z sektorami 4KB</title>
-      <link>https://gagor.pl/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/</link>
+      <link>/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/</link>
       <pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/</guid>
+      <guid>/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/</guid>
       <description>Po zakupie nowych dysków zamierzam utworzyć zdegradowaną macierz RAID5 z dwóch dysków (na trzecim na razie znajdują się dane), potem utworzyć wolumen LVM, sformatować go, przekopiować dane z pojedynczego dysku na macierz i dołączyć trzeci dysk do macierzy odbudowując parzystość. Zadanie będzie o tyle ciekawe że dysk ma 4KB sektory i trzeb będzie dbać o wyrównanie zasobu do rozmiaru sektora, a w przypadku LVM&amp;rsquo;a wyrównanie do chunk&amp;rsquo;a z macierzy.
 Prawidłowe wyrównanie partycji Kupując nowy dysk (o pojemności od 500GB w górę), mamy spore szanse że trafimy na sztukę, która wykorzystuje 4KB sektory do alokacji danych.</description>
     </item>
     <item>
       <title>Montowanie partycji z obrazu dysku</title>
-      <link>https://gagor.pl/2012/09/montowanie-partycji-z-obrazu-dysku/</link>
+      <link>/2012/09/montowanie-partycji-z-obrazu-dysku/</link>
       <pubDate>Thu, 06 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/09/montowanie-partycji-z-obrazu-dysku/</guid>
+      <guid>/2012/09/montowanie-partycji-z-obrazu-dysku/</guid>
       <description>Jedną z rzeczy, które podobają mi się w maszynach wirtualnych Xen jest możliwość zrobienia backupu całego obrazu i szybkie odzyskanie już w trakcie ciężkiej awarii. Gdy dodatkowo korzysta się z LVM&amp;rsquo;a to można na chwilę wyłączyć DomU, utworzyć snapshot jego dysków, uruchomić DomU i w trakcie działania robić spójny backup ze snapshot&amp;rsquo;a. Dzięki takiemu mechanizmowi serwer jest niedostępny przez kilkanaście sekund, a backup spójny jakby został wykonany przy całkowicie wyłączonej maszynie.</description>
     </item>
     <item>
       <title>Dynamiczna zmiana rozmiaru partycji EXT4 na LVM’ie</title>
-      <link>https://gagor.pl/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/</link>
+      <link>/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/</link>
       <pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/</guid>
+      <guid>/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/</guid>
       <description>Używam LVM&amp;rsquo;a zarówno na desktopie jak i wielu serwerach bo bardzo podoba mi się możliwość powiększenia akurat tej partycji, na której brakuje miejsca. O ile pamiętam jak powiększyć partycję XFS (xfs_growfs /punkt/montowania) to zawsze mam problem jak to zrobić na EXT3/4, więc notuję.
 Powiększenie wolumenu LVM (np. o 10 gigabajtów):
 lvextend -L+10G /dev/vggroup/vol Zwiększenie rozmiaru systemu plików do nowego rozmiaru wolumenu:
@@ -37,9 +37,9 @@ resize2fs /dev/vggroup/vol Powyższe polecenie można wykonać na zamontowanym z
     </item>
     <item>
       <title>fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed</title>
-      <link>https://gagor.pl/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</link>
+      <link>/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</link>
       <pubDate>Wed, 21 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</guid>
+      <guid>/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</guid>
       <description>Miałem ostatnio dziwną przygodę: pewien serwer do backupu gdzie ląduje dużo małych plików i dodatkowo tworzonych jest sporo hardlinków zaliczył pada. Co prawda starałem się go grzecznie położyć z pomocą Magic SysRq ale ponieważ nie wiedziałem co było przyczyną awarii fsck wydawał się wskazany.
 Podczas próby uruchomienia fsck.ext4 na systemie plików o rozmiarze ok 14TB z kilkuset milionami plików po kilkudziesięciu sekundach otrzymywałem komunikat:
 Błąd podczas przydzielania struktury icount: Memory allocation failed</description>

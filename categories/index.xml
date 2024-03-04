@@ -2,68 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Tom&#39;s Blog</title>
-    <link>https://gagor.pl/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gagor.pl/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HOWTO</title>
-      <link>https://gagor.pl/categories/howto/</link>
+      <link>/categories/howto/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/categories/howto/</guid>
+      <guid>/categories/howto/</guid>
       <description></description>
     </item>
     <item>
       <title>Off-topic</title>
-      <link>https://gagor.pl/categories/off-topic/</link>
+      <link>/categories/off-topic/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/categories/off-topic/</guid>
+      <guid>/categories/off-topic/</guid>
       <description></description>
     </item>
     <item>
       <title>Book</title>
-      <link>https://gagor.pl/categories/book/</link>
+      <link>/categories/book/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/categories/book/</guid>
+      <guid>/categories/book/</guid>
       <description></description>
     </item>
     <item>
       <title>Tip</title>
-      <link>https://gagor.pl/categories/tip/</link>
+      <link>/categories/tip/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/categories/tip/</guid>
+      <guid>/categories/tip/</guid>
       <description></description>
     </item>
     <item>
       <title>Leadership</title>
-      <link>https://gagor.pl/categories/leadership/</link>
+      <link>/categories/leadership/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/categories/leadership/</guid>
+      <guid>/categories/leadership/</guid>
       <description></description>
     </item>
     <item>
       <title>Gardening</title>
-      <link>https://gagor.pl/categories/gardening/</link>
+      <link>/categories/gardening/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/categories/gardening/</guid>
+      <guid>/categories/gardening/</guid>
       <description></description>
     </item>
     <item>
       <title>Gotowanie</title>
-      <link>https://gagor.pl/categories/gotowanie/</link>
+      <link>/categories/gotowanie/</link>
       <pubDate>Wed, 26 Feb 2014 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/categories/gotowanie/</guid>
+      <guid>/categories/gotowanie/</guid>
       <description></description>
     </item>
     <item>
       <title>Projects</title>
-      <link>https://gagor.pl/categories/projects/</link>
+      <link>/categories/projects/</link>
       <pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/categories/projects/</guid>
+      <guid>/categories/projects/</guid>
       <description></description>
     </item>
   </channel>

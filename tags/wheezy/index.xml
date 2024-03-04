@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wheezy on Tom&#39;s Blog</title>
-    <link>https://gagor.pl/tags/wheezy/</link>
+    <link>/tags/wheezy/</link>
     <description>Recent content in Wheezy on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Mon, 24 Sep 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gagor.pl/tags/wheezy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/wheezy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aktualizacja Debian Squeeze do Wheezy</title>
-      <link>https://gagor.pl/2012/09/aktualizacja-debian-squeeze-do-wheezy/</link>
+      <link>/2012/09/aktualizacja-debian-squeeze-do-wheezy/</link>
       <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2012/09/aktualizacja-debian-squeeze-do-wheezy/</guid>
+      <guid>/2012/09/aktualizacja-debian-squeeze-do-wheezy/</guid>
       <description>Obecnie dostępna jest już beta 2 Debiana Wheezy i utrzymywane są aktualizacje bezpieczeństwa więc powolutku można na testowych maszynach sprawdzać co i jak się zmieniło.
 Ponieważ do finalnej wersji pewnie sporo się jeszcze zmieni to postaram się z czasem aktualizować ten post by zawierał bieżące informacje.
 W razie wątpliwości patrz tutaj: http://wiki.debian.org/DebianTesting

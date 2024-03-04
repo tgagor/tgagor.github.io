@@ -2,82 +2,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Management on Tom&#39;s Blog</title>
-    <link>https://gagor.pl/tags/management/</link>
+    <link>/tags/management/</link>
     <description>Recent content in Management on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gagor.pl/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Working Backwards</title>
-      <link>https://gagor.pl/books/2024/working-backwards/</link>
+      <link>/books/2024/working-backwards/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/books/2024/working-backwards/</guid>
+      <guid>/books/2024/working-backwards/</guid>
       <description>Working BackwardsInsights, Stories, and Secrets from Inside Amazon
 Author: Bryar Colin
 empik.com Still reading&amp;hellip;</description>
     </item>
     <item>
       <title>Taka praca nie ma sensu</title>
-      <link>https://gagor.pl/books/2023/taka-praca-nie-ma-sensu/</link>
+      <link>/books/2023/taka-praca-nie-ma-sensu/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/books/2023/taka-praca-nie-ma-sensu/</guid>
+      <guid>/books/2023/taka-praca-nie-ma-sensu/</guid>
       <description> Taka praca nie ma sensuCzyli jak zarządzać swoją energią
 Author: Tony Schwartz
 empik.com </description>
     </item>
     <item>
       <title>Praca głęboka</title>
-      <link>https://gagor.pl/books/2023/praca-gleboka/</link>
+      <link>/books/2023/praca-gleboka/</link>
       <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/books/2023/praca-gleboka/</guid>
+      <guid>/books/2023/praca-gleboka/</guid>
       <description>Praca głębokaJak odnieść sukces w świecie, w którym ciągle coś nas rozprasza
 Author: Cal Newport
 amazon.plamazon.comempik.comhelion.pl Deep Work is a book written by Cal Newport that explores the concept of deep work and how it can be leveraged to achieve professional success and lead a more fulfilling life. Newport argues that in an increasingly connected and fast-paced world, the ability to focus and produce high-quality work is becoming increasingly valuable and rare.</description>
     </item>
     <item>
       <title>Drive</title>
-      <link>https://gagor.pl/books/2022/drive/</link>
+      <link>/books/2022/drive/</link>
       <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/books/2022/drive/</guid>
+      <guid>/books/2022/drive/</guid>
       <description>DriveThe Surprising Truth About What Motivates Us
 Author: Daniel H. Pink
 amazon.plamazon.comempik.com Drive: The Surprising Truth About What Motivates Us is a book that I recently read and found to be highly insightful. The author, Daniel H. Pink, explores the science of motivation and argues that the traditional carrot-and-stick approach is outdated and ineffective. He claims that in today&amp;rsquo;s rapidly changing and complex world, autonomy, mastery, and purpose are the most important drivers of motivation.</description>
     </item>
     <item>
       <title>Projekt Feniks</title>
-      <link>https://gagor.pl/books/2018/projekt-feniks/</link>
+      <link>/books/2018/projekt-feniks/</link>
       <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/books/2018/projekt-feniks/</guid>
+      <guid>/books/2018/projekt-feniks/</guid>
       <description> Projekt FeniksPowieść o IT, modelu DevOps i o tym, jak pomóc firmie w odniesieniu sukcesu
 Authors: Gene Kim, Kevin Behr, George Spafford
 helion.pl </description>
     </item>
     <item>
       <title>Pragmatyczny programista</title>
-      <link>https://gagor.pl/books/2017/pragmatyczny-programista/</link>
+      <link>/books/2017/pragmatyczny-programista/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/books/2017/pragmatyczny-programista/</guid>
+      <guid>/books/2017/pragmatyczny-programista/</guid>
       <description> Pragmatyczny programistaOd czeladnika do mistrza
 Authors: Andrew Hunt, David Thomas
 helion.pl </description>
     </item>
     <item>
       <title>Getting Things Done</title>
-      <link>https://gagor.pl/books/2012/getting-things-done/</link>
+      <link>/books/2012/getting-things-done/</link>
       <pubDate>Mon, 24 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/books/2012/getting-things-done/</guid>
+      <guid>/books/2012/getting-things-done/</guid>
       <description> Getting Things DoneCzyli sztuka bezstresowej efektywności
 Author: David Allen
 amazon.pl </description>
     </item>
     <item>
       <title>Zarządzanie czasem</title>
-      <link>https://gagor.pl/books/2008/zarzadzanie-czasem/</link>
+      <link>/books/2008/zarzadzanie-czasem/</link>
       <pubDate>Mon, 10 Mar 2008 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/books/2008/zarzadzanie-czasem/</guid>
+      <guid>/books/2008/zarzadzanie-czasem/</guid>
       <description> Zarządzanie czasemStrategie dla administratorów systemów
 Author: Thomas Limoncelli
 helion.pl </description>

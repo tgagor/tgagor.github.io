@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>fail2ban on Tom&#39;s Blog</title>
-    <link>https://gagor.pl/tags/fail2ban/</link>
+    <link>/tags/fail2ban/</link>
     <description>Recent content in fail2ban on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Thu, 31 Dec 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gagor.pl/tags/fail2ban/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/fail2ban/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>fail2ban - block wp-login.php brute force attacks</title>
-      <link>https://gagor.pl/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</link>
+      <link>/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</link>
       <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</guid>
+      <guid>/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</guid>
       <description>Lately I had a lot of brute force attacks on my WordPress blog. I used basic auth to /wp-admin part in nginx configuration to block this and as a better solution I wan&amp;rsquo;t to block source IPs at all on firewall.
 To do this, place this filter code in /etc/fail2ban/filter.d/wp-login.conf:
 # WordPress brute force wp-login.php filter: # # Block IPs trying to authenticate in WordPress blog # # Matches e.g. # 178.</description>
     </item>
     <item>
       <title>fail2ban - regułki dla dovecot’a</title>
-      <link>https://gagor.pl/2011/11/fail2ban-regulki-dla-dovecota/</link>
+      <link>/2011/11/fail2ban-regulki-dla-dovecota/</link>
       <pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/11/fail2ban-regulki-dla-dovecota/</guid>
+      <guid>/2011/11/fail2ban-regulki-dla-dovecota/</guid>
       <description>Domyślna konfiguracja fail2ban&amp;rsquo;a (na Debianie) nie zawiera reguł pozwalających na blokowanie prób włamań na skrzynki POP/IMAP dla dovecota (no chyba że korzystamy z saslauthd). Można szybko utworzyć własny zestaw filtrów co przedstawię poniżej.
 Tworzymy plik: /etc/fail2ban/filter.d/dovecot.conf
 [Definition] failregex = (?: pop3-login|imap-login): .*(?:Authentication failure|Aborted login \(auth failed|Aborted login \(tried to use disabled|Disconnected \(auth failed|Aborted login \(\d+ authentication attempts).*rip=(?P&amp;lt;host&amp;gt;\S*),.* ignoreregex = Później dopisujemy na końcu pliku: /etc/fail2ban/jail.conf
@@ -31,9 +31,9 @@ Tworzymy plik: /etc/fail2ban/filter.d/dovecot.conf
     </item>
     <item>
       <title>Ochrona usług przed atakami brute force z fail2ban’em</title>
-      <link>https://gagor.pl/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</link>
+      <link>/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</link>
       <pubDate>Mon, 03 Oct 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</guid>
+      <guid>/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</guid>
       <description>Bardzo często konfigurując usługi dostępne publicznie poświęca się sporo czasu na maksymalne zwiększenie bezpieczeństwa przez &amp;ldquo;dopieszczanie&amp;rdquo; konfiguracji (certyfikaty z mocnym szyfrowaniem, ochronę pewnych stron hasłem, dostęp do SSH tylko kluczami, itd.) ale całkowicie pomija się przygotowanie systemu aktywnie monitorującego błędne próby autoryzacji. Oczywiście nie można umniejszać wagi pierwszego z wymienionych etapów ale zdecydowanie nie powinno pomijać się też tego drugiego. Przecież każdy admin chciałby wiedzieć gdy ktoś próbuje włamać się na jego serwer (FTP, HTTP, SSH, itp.</description>
     </item>
   </channel>
