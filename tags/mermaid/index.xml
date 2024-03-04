@@ -15,7 +15,7 @@
       <link>https://gagor.pl/2024/02/adding-mermaid-diagrams-to-hugo/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2024/02/adding-mermaid-diagrams-to-hugo/</guid>
-      <description>I used Chart.js charts on one of my Hugo blogs for few years already. Recently I needed to add few diagrams and I started glueing them in Chart.js but then I found that Hugo supports GoAT and Mermaid diagrams. They&amp;rsquo;re not working out of the box, but it&amp;rsquo;s easy to extend. Much easier than my custom shortcodes.
+      <description>I used Chart.js charts on one of my Hugo blogs for few years already. Recently I needed to add few diagrams and I started glueing them in Chart.js but then I found that Hugo supports GoAT and Mermaid diagrams&amp;thinsp; external link . They&amp;rsquo;re not working out of the box, but it&amp;rsquo;s easy to extend. Much easier than my custom shortcodes.
 I tried to follow up the instruction1 but failed. After few minutes I found slightly simpler solution.</description>
     </item>
   </channel>

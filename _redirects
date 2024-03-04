@@ -19,8 +19,6 @@
 /home/timor/.config/pipewire/pipewire.conf.d/dsp-defaults.conf / 301
 /images/book-cover.webp / 301
 /images/cover.webp / 301
-/main/ / 301
-/main/index/* / 301
 /root/.rsync-passwd / 301
 /srv/backup/server / 301
 /tags/brew/ / 301
@@ -41,4 +39,5 @@
 /wp-json/ / 301
 /tag/* /tags/:splat 301
 /category/* /categories/:splat 301
+/main/* / 301
 /author/* /authors/:splat 301

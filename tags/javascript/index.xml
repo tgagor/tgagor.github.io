@@ -23,9 +23,9 @@ First - with switch statement var iterations = Math.ceil(values.length / 8); var
       <link>https://gagor.pl/2014/01/tracking-users-by-nickname-on-wordpress-using-google-analytics/</link>
       <pubDate>Tue, 07 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/01/tracking-users-by-nickname-on-wordpress-using-google-analytics/</guid>
-      <description>Some time ago I write article about tracking nicknames of users (from comments) on a WordPress blog with Piwik. This time I&amp;rsquo;m doing same but for Google Analytics.
-I&amp;rsquo;m using Google Analytics plugin for WordPress so I&amp;rsquo;ve edited googleanalytics.php file to add some additional code for user tracking:
-&amp;lt;script type=&amp;#34;text/javascript&amp;#34;&amp;gt; var i,x,y,ARRcookies=document.cookie.split(&amp;#34;;&amp;#34;); var comment_author = &amp;#34;&amp;#34;; for (i=0;i&amp;lt;ARRcookies.length;i++) { x=ARRcookies[i].substr(0,ARRcookies[i].indexOf(&amp;#34;=&amp;#34;)); y=ARRcookies[i].substr(ARRcookies[i].indexOf(&amp;#34;=&amp;#34;)+1); x=x.replace(/^\s+|\s+$/g,&amp;#34;&amp;#34;); if (x.indexOf(&amp;#34;comment_author&amp;#34;) != -1 &amp;amp;&amp;amp; x.indexOf(&amp;#34;comment_author_email&amp;#34;) == -1 &amp;amp;&amp;amp; x.</description>
+      <description>Some time ago I write article about tracking nicknames of users (from comments) on a WordPress blog with Piwik . This time I&amp;rsquo;m doing same but for Google Analytics.
+I&amp;rsquo;m using Google Analytics&amp;thinsp; external link plugin for WordPress so I&amp;rsquo;ve edited googleanalytics.php file to add some additional code for user tracking:
+&amp;lt;script type=&amp;#34;text/javascript&amp;#34;&amp;gt; var i,x,y,ARRcookies=document.cookie.split(&amp;#34;;&amp;#34;); var comment_author = &amp;#34;&amp;#34;; for (i=0;i&amp;lt;ARRcookies.length;i++) { x=ARRcookies[i].substr(0,ARRcookies[i].indexOf(&amp;#34;=&amp;#34;)); y=ARRcookies[i].substr(ARRcookies[i].indexOf(&amp;#34;=&amp;#34;)+1); x=x.replace(/^\s+|\s+$/g,&amp;#34;&amp;#34;); if (x.indexOf(&amp;#34;comment_author&amp;#34;) != -1 &amp;amp;&amp;amp; x.</description>
     </item>
   </channel>
 </rss>

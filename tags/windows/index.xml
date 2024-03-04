@@ -24,7 +24,7 @@ Find in top-right corner icon with your points and click it From menu, choose &a
       <link>https://gagor.pl/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</link>
       <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</guid>
-      <description>I&amp;rsquo;ve build new PC - it&amp;rsquo;s based on Asus ROG STRIX Z590-E GAMING WIFI motherboard. Generally, I&amp;rsquo;m quite satisfied, but it have one irritating downside - after each UEFI BIOS upgrade, it&amp;rsquo;s silently resetting some of settings.
+      <description>I&amp;rsquo;ve build new PC - it&amp;rsquo;s based on Asus ROG STRIX Z590-E GAMING WIFI&amp;thinsp; external link motherboard. Generally, I&amp;rsquo;m quite satisfied, but it have one irritating downside - after each UEFI BIOS upgrade, it&amp;rsquo;s silently resetting some of settings.
 Let me note, what I want to have there:
 Ai Tweaker (use my RAM capabilities) AI Overcloack Tuner -&amp;gt; [XMP I] DRAM Frequency -&amp;gt; [DDR4-3600MHz] DRAM CAS# Latency -&amp;gt; [16] DRAM RAS# to CAS# Delay -&amp;gt; [19] DRAM RAS# ACT Time -&amp;gt; [39] DRAM Voltage -&amp;gt; [1.</description>
     </item>
@@ -44,7 +44,7 @@ After googling for some time I found one command that solved my problems by swit
       <guid>https://gagor.pl/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</guid>
       <description>After connecting few computers with Windows 8.1 to domain we found that these computers are not recognized or recognized as Windows 6.3 (which is true) on WSUS 3.0 running on Windows Server 2008. The bad thing was that they can&amp;rsquo;t properly report to WSUS and get updates from it.
 I found that there are two updates that have to be installed (but they&amp;rsquo;re not working without additional steps):
-http://support.microsoft.com/kb/2720211 http://support.microsoft.com/kb/2734608 After installation of second update there are two additional steps that have to be performed to get WSUS working:</description>
+http://support.microsoft.com/kb/2720211&amp;thinsp; external link http://support.</description>
     </item>
     <item>
       <title>Uruchamianie aplikacji .NET jako 32-bitowej w 64-bitowym systemie</title>
@@ -53,7 +53,7 @@ http://support.microsoft.com/kb/2720211 http://support.microsoft.com/kb/2734608 
       <guid>https://gagor.pl/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/</guid>
       <description>Kolejna zabawna sytuacja - pewna aplikacja dotNET&amp;rsquo;owa działała dziwnie na 64-bitowym systemie, a tymczasem na 32-bitowej maszynie ta sama aplikacja działała bez problemów. Jedyna różnica to inne wersje klientów ODBC na tych systemach, które po kilku testach okazały się być przyczyną całego zła.
 Pojawił się pomysł by odpalić aplikacje na 64 bitowym systemie ale w trybie 32 bit - poniżej krótkie HOWTO jak to osiągnąć:
-potrzebujemy narzędzia corflags.exe które pozwoli oznaczyć nam binarkę jako 32-bitową, do pobrania tutaj a instrukcja jej użycia tutaj.</description>
+potrzebujemy narzędzia corflags.exe które pozwoli oznaczyć nam binarkę jako 32-bitową, do pobrania tutaj&amp;thinsp; external link a instrukcja jej użycia tutaj&amp;thinsp; external link .</description>
     </item>
     <item>
       <title>Instalacja Python’a na Windowsie</title>

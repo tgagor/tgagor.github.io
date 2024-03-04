@@ -34,7 +34,7 @@ for dep in $(pip show python-neutronclient | grep Requires | sed &amp;#39;s/Requ
       <guid>https://gagor.pl/2015/12/extract-password-saved-in-remmina/</guid>
       <description>I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in .remmina directory.
 Then I used this script to the decrypt them 1:
-Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&amp;thinsp; external link &amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
       <title>Quickly setup SQL query logging on console in Django</title>

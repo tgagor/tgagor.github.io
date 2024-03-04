@@ -34,8 +34,7 @@ For many it&amp;rsquo;s the fist contact with make and often the last one, but n
       <link>https://gagor.pl/2023/12/changing-comments-provider-for-my-blog/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2023/12/changing-comments-provider-for-my-blog/</guid>
-      <description>I&amp;rsquo;ve been thinking about switching comments system to something different on my blog. Since I moved to Hugo, I used Disqus. Integration was easy and it was also easy to move comments from Wordpress. Maybe the move was easy, but people somehow didn&amp;rsquo;t like the interface. I receive 6 comments since I switched from Wordpress 3 years ago &amp;#x1f604; To be honest, I don&amp;rsquo;t like it too.
-I was thinking about switch to something else, something different, but I was waiting for this punch.</description>
+      <description>I&amp;rsquo;ve been thinking about switching comments system to something different on my blog. Since I moved to Hugo&amp;thinsp; external link , I used Disqus&amp;thinsp; external link . Integration was easy and it was also easy to move comments from Wordpress. Maybe the move was easy, but people somehow didn&amp;rsquo;t like the interface. I receive 6 comments since I switched from Wordpress 3 years ago &amp;#x1f604; To be honest, I don&amp;rsquo;t like it too.</description>
     </item>
     <item>
       <title>Ford S-MAX - kasowanie ostrzeżenia wymiany oleju</title>
@@ -43,7 +42,7 @@ I was thinking about switch to something else, something different, but I was wa
       <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</guid>
       <description>Auta się zmieniają a problemy z nimi pozostają te same :)
-Kasowanie ostrzeżenia wymiany oleju 1 Przekręcić kluczyk w stacyjce do drugiej pozycji, gdy zapalają się wszystkie kontrolki (nie uruchamiamy silnika). Wciskamy równocześnie pedały hamulca i gazu do oporu, trzymamy do zakończenia procesu. Pojawi komunikat o rozpoczęciu resetowania inspekcji. Możemy zatwierdzić OK. Czekamy aż pojawi się komunikat: Zatwierdzamy OK. Dopiero teraz zwalniamy pedały. https://forum.fordclubpolska.org/showthread.php?t=108532&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+Kasowanie ostrzeżenia wymiany oleju 1 Przekręcić kluczyk w stacyjce do drugiej pozycji, gdy zapalają się wszystkie kontrolki (nie uruchamiamy silnika). Wciskamy równocześnie pedały hamulca i gazu do oporu, trzymamy do zakończenia procesu. Pojawi komunikat o rozpoczęciu resetowania inspekcji. Możemy zatwierdzić OK. Czekamy aż pojawi się komunikat: Zatwierdzamy OK. Dopiero teraz zwalniamy pedały. https://forum.fordclubpolska.org/showthread.php?t=108532&amp;thinsp; external link &amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
       <title>Back on the big stage!</title>
@@ -51,10 +50,9 @@ Kasowanie ostrzeżenia wymiany oleju 1 Przekręcić kluczyk w stacyjce do drugie
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2022/06/back-on-the-big-stage/</guid>
       <description>I&amp;rsquo;m back on the big stage!
-I haven&amp;rsquo;t attend any big conferences as presenter for some time, but this year will change it. I&amp;rsquo;m starting big, with a talk: Docker base images - Ideas how to manage them on scale on Devoxx conference in Kraków, that will take place on 22-24th June 2022.
+I haven&amp;rsquo;t attend any big conferences as presenter for some time, but this year will change it. I&amp;rsquo;m starting big, with a talk: Docker base images - Ideas how to manage them on scale&amp;thinsp; external link on Devoxx&amp;thinsp; external link conference in Kraków, that will take place on 22-24th June 2022.
 Want to meet? Meet there &amp;#x1f604;
-Update I uploaded slides from presentation to my Github account.
-There&amp;rsquo;s also a video available: </description>
+Update I uploaded slides from presentation to my Github account&amp;thinsp; external link .</description>
     </item>
     <item>
       <title>Bye Bye Wordpress!</title>
@@ -69,7 +67,7 @@ There was a time, when I was really satisfied by what it provides.</description>
       <link>https://gagor.pl/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</link>
       <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</guid>
-      <description>I just bought new wifi card for my desktop computer. Like in topic, it&amp;rsquo;s Intel Dual Band Wireless-AC 7260 for Desktop.
+      <description>I just bought new wifi card for my desktop computer. Like in topic, it&amp;rsquo;s Intel Dual Band Wireless-AC 7260 for Desktop&amp;thinsp; external link .
 I was searching for card that:
 support AC standard have 5GHz network support (2,4GHz channels are cluttered heavily in my neighborhood have PCI/PCIx or USB3 connector is Linux friendly (no modules compilation by hand, support for aircrack-ng, kismet) This one is the only I found that comply my expectations.</description>
     </item>

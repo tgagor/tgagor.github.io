@@ -16,7 +16,7 @@
       <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/01/optimize-nginx-for-performance/</guid>
       <description>There are many possible real life cases and not all optimization technics will be suitable for you but I hope it will be a good starting place.
-Also you shouldn&amp;rsquo;t copy paste examples with faith that they will make your server fly &amp;#x1f603; You have to support your decisions with excessive tests and help of monitoring system (ex. Grafana).
+Also you shouldn&amp;rsquo;t copy paste examples with faith that they will make your server fly &amp;#x1f603; You have to support your decisions with excessive tests and help of monitoring system (ex. Grafana ).
 Cache static and dynamic content Setting caching static and dynamic content strategy may offload your server from additional load from repetitive downloads of same, rarely updated files.</description>
     </item>
     <item>
@@ -40,10 +40,9 @@ To do this, place this filter code in /etc/fail2ban/filter.d/wp-login.conf:
       <link>https://gagor.pl/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/</link>
       <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/</guid>
-      <description>Some time ago I prepared a PC that was responsible for batch encoding of movies to formats suitable for web players (such as. Video.js, JW Player, Flowplayer, etc.)
+      <description>Some time ago I prepared a PC that was responsible for batch encoding of movies to formats suitable for web players (such as. Video.js&amp;thinsp; external link , JW Player&amp;thinsp; external link , Flowplayer&amp;thinsp; external link , etc.)
 I used HandBrake for conversion to MP4 format (becase this soft was the fastest one) and ffmpeg (aka avconv in new version) for two pass encoding to WEBM.
-Below are commands used by me for that conversion:
-MP4 HandBrakeCLI -e x264 -q 20.</description>
+Below are commands used by me for that conversion:</description>
     </item>
     <item>
       <title>Nginx - przydatne rewrite’y i różne sztuczki</title>
@@ -59,7 +58,7 @@ Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego ad
       <link>https://gagor.pl/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</link>
       <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</guid>
-      <description>On Debian you have to install nginx-extras package (because it have built in headers_more module). Then you need two options (best in global configuration /etc/nginx/nginx.conf file, http part):
+      <description>On Debian you have to install nginx-extras package (because it have built in headers_more&amp;thinsp; external link module). Then you need two options (best in global configuration /etc/nginx/nginx.conf file, http part):
 server_tokens off; more_set_headers &amp;#39;Server: BadAss&amp;#39;; And it&amp;rsquo;s good to setup non standard error pages on every site (500 and 404 at minimum):
 error_page 403 404 http://mysite.com/areyoulost; error_page 502 503 504 /500.html; </description>
     </item>
@@ -68,7 +67,7 @@ error_page 403 404 http://mysite.com/areyoulost; error_page 502 503 504 /500.htm
       <link>https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</link>
       <pubDate>Mon, 17 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</guid>
-      <description>Ruski serwer WWW ma przydatną funkcję serwowania wersji plików skompresowanych gzip&amp;rsquo;em - przez co możemy plik skompresować raz i będzie on serwowany klientom obsługującym kompresję HTTP ale już bez każdorazowego kompresowania go. Jest to bardzo przydatne na stronach z dużym ruchem gdzie można w ten sposób zaoszczędzić takty CPU na właściwą obsługę połączeń a nie kompresję. Drugie miejsce gdzie może to być przydatne to VPS&amp;rsquo;y i &amp;ldquo;cienkie&amp;rdquo; serwery, które na kompresji przy większym obciążeniu spędzają zbyt dużo czasu i daje się to odczuć w działaniu strony.</description>
+      <description>Ruski serwer WWW&amp;thinsp; external link ma przydatną funkcję serwowania wersji plików skompresowanych gzip&amp;rsquo;em - przez co możemy plik skompresować raz i będzie on serwowany klientom obsługującym kompresję HTTP ale już bez każdorazowego kompresowania go. Jest to bardzo przydatne na stronach z dużym ruchem gdzie można w ten sposób zaoszczędzić takty CPU na właściwą obsługę połączeń a nie kompresję. Drugie miejsce gdzie może to być przydatne to VPS&amp;rsquo;y i &amp;ldquo;cienkie&amp;rdquo; serwery, które na kompresji przy większym obciążeniu spędzają zbyt dużo czasu i daje się to odczuć w działaniu strony.</description>
     </item>
     <item>
       <title>Nginx - konfiguracja pod WordPress’a</title>

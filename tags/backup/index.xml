@@ -16,7 +16,7 @@
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/11/creating-fully-encrypted-zfs-pool/</guid>
       <description>What I want to do? I use my pool to securely store backups, archive my old documents and keep huge family&amp;rsquo;s photo library.
-I have new disks. They were tortured with badblocks, so they&amp;rsquo;re ready to create ZFS pool.
+I have new disks. They were tortured with badblocks , so they&amp;rsquo;re ready to create ZFS pool.
 I&amp;rsquo;ve read few documents about different approaches 1 2 3. I wanted to be sure if anything changed during past years. One of articles recommends mirroring over RAIDZ. Resilvering is faster, at the same time putting IO less stress on whole pool.</description>
     </item>
     <item>

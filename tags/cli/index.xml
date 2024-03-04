@@ -29,7 +29,7 @@ Beware, without &amp;ndash;out param, it will overwrite images in place!</descri
       <description>I use brew extensively on MacOS. It&amp;rsquo;s just as convenient as many Linux package managers. What I don&amp;rsquo;t like, it leaves dependencies after removal of formula. There&amp;rsquo;s simple way to clean it up by running one command 1.
 Uninstall with dependencies brew uninstall FORMULA brew autoremove Info
 In my case running brew autoremove actually removed few packages I really wanted to have. Check the output carefully!
-https://stackoverflow.com/questions/7323261/uninstall-remove-a-homebrew-package-including-all-its-dependencies&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+https://stackoverflow.com/questions/7323261/uninstall-remove-a-homebrew-package-including-all-its-dependencies&amp;thinsp; external link &amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
   </channel>
 </rss>

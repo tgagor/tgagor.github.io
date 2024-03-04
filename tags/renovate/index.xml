@@ -15,7 +15,7 @@
       <link>https://gagor.pl/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</guid>
-      <description>I&amp;rsquo;ve been writing recently about best practices for patching and deprecating Docker images, but today I want to show how to automate a huge part of this process.
+      <description>I&amp;rsquo;ve been writing recently about best practices for patching and deprecating Docker images , but today I want to show how to automate a huge part of this process.
 You might already hear about Dependabot1, it&amp;rsquo;s a Github&amp;rsquo;s way to notify developers about security vulnerabilities in their projects. Renovate2 is similar tool3, but doesn&amp;rsquo;t require Github. For my professional work I use Bitbucket, so Renovate feels more universal as can be used anywhere.</description>
     </item>
   </channel>

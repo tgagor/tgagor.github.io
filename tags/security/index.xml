@@ -15,7 +15,7 @@
       <link>https://gagor.pl/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</guid>
-      <description>I&amp;rsquo;ve been writing recently about best practices for patching and deprecating Docker images, but today I want to show how to automate a huge part of this process.
+      <description>I&amp;rsquo;ve been writing recently about best practices for patching and deprecating Docker images , but today I want to show how to automate a huge part of this process.
 You might already hear about Dependabot1, it&amp;rsquo;s a Github&amp;rsquo;s way to notify developers about security vulnerabilities in their projects. Renovate2 is similar tool3, but doesn&amp;rsquo;t require Github. For my professional work I use Bitbucket, so Renovate feels more universal as can be used anywhere.</description>
     </item>
     <item>
@@ -33,7 +33,7 @@ flowchart LR id1(Keep it stable) &lt;---&gt; id2(Keep is up to date and secure) 
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/11/creating-fully-encrypted-zfs-pool/</guid>
       <description>What I want to do? I use my pool to securely store backups, archive my old documents and keep huge family&amp;rsquo;s photo library.
-I have new disks. They were tortured with badblocks, so they&amp;rsquo;re ready to create ZFS pool.
+I have new disks. They were tortured with badblocks , so they&amp;rsquo;re ready to create ZFS pool.
 I&amp;rsquo;ve read few documents about different approaches 1 2 3. I wanted to be sure if anything changed during past years. One of articles recommends mirroring over RAIDZ. Resilvering is faster, at the same time putting IO less stress on whole pool.</description>
     </item>
     <item>
@@ -127,7 +127,7 @@ Firstly find your favorite curve. A short tip about bit length and complexity co
       <link>https://gagor.pl/2013/12/running-apache-with-mod_spdy-and-php-fpm/</link>
       <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/12/running-apache-with-mod_spdy-and-php-fpm/</guid>
-      <description>SPDY is new protocol proposed by Google as an alternative for HTTP(S). Currently Chrome and Firefox browsers are using it as default if available on server. It is faster in most cases by few to several percent. The side effect of using mod_spdy is that it&amp;rsquo;s working well only with thread safe Apache&amp;rsquo;s modules. PHP module for Apache is not thread safe so we need to use PHP as CGI or FastCGI service.</description>
+      <description>SPDY is new protocol proposed by Google as an alternative for HTTP(S). Currently Chrome and Firefox browsers are using it as default if available on server. It is faster in most cases by few to several percent. The side effect of using mod_spdy&amp;thinsp; external link is that it&amp;rsquo;s working well only with thread safe Apache&amp;rsquo;s modules. PHP module for Apache is not thread safe so we need to use PHP as CGI or FastCGI service.</description>
     </item>
     <item>
       <title>Fortigate - VPN IPSec PSK XAuth z Android’a 4.x</title>
@@ -143,7 +143,7 @@ Pokażę jak skonfigurować swojego Fortigate&amp;rsquo;a by umożliwić połąc
       <link>https://gagor.pl/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</link>
       <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</guid>
-      <description>On Debian you have to install nginx-extras package (because it have built in headers_more module). Then you need two options (best in global configuration /etc/nginx/nginx.conf file, http part):
+      <description>On Debian you have to install nginx-extras package (because it have built in headers_more&amp;thinsp; external link module). Then you need two options (best in global configuration /etc/nginx/nginx.conf file, http part):
 server_tokens off; more_set_headers &amp;#39;Server: BadAss&amp;#39;; And it&amp;rsquo;s good to setup non standard error pages on every site (500 and 404 at minimum):
 error_page 403 404 http://mysite.com/areyoulost; error_page 502 503 504 /500.html; </description>
     </item>
@@ -183,7 +183,7 @@ Tworzymy plik: /etc/fail2ban/filter.d/dovecot.conf
       <link>https://gagor.pl/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</link>
       <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</guid>
-      <description>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.</description>
+      <description>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl&amp;thinsp; external link pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.</description>
     </item>
     <item>
       <title>Bezpieczeństwo sieci</title>

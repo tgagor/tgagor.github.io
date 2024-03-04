@@ -24,7 +24,7 @@ W: http://ppa.launchpad.net/yubico/stable/ubuntu/dists/jammy/InRelease: Key is s
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/11/creating-fully-encrypted-zfs-pool/</guid>
       <description>What I want to do? I use my pool to securely store backups, archive my old documents and keep huge family&amp;rsquo;s photo library.
-I have new disks. They were tortured with badblocks, so they&amp;rsquo;re ready to create ZFS pool.
+I have new disks. They were tortured with badblocks , so they&amp;rsquo;re ready to create ZFS pool.
 I&amp;rsquo;ve read few documents about different approaches 1 2 3. I wanted to be sure if anything changed during past years. One of articles recommends mirroring over RAIDZ. Resilvering is faster, at the same time putting IO less stress on whole pool.</description>
     </item>
     <item>
@@ -50,7 +50,7 @@ Install prerequisites:</description>
       <link>https://gagor.pl/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</link>
       <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</guid>
-      <description>I just bought new wifi card for my desktop computer. Like in topic, it&amp;rsquo;s Intel Dual Band Wireless-AC 7260 for Desktop.
+      <description>I just bought new wifi card for my desktop computer. Like in topic, it&amp;rsquo;s Intel Dual Band Wireless-AC 7260 for Desktop&amp;thinsp; external link .
 I was searching for card that:
 support AC standard have 5GHz network support (2,4GHz channels are cluttered heavily in my neighborhood have PCI/PCIx or USB3 connector is Linux friendly (no modules compilation by hand, support for aircrack-ng, kismet) This one is the only I found that comply my expectations.</description>
     </item>
@@ -88,7 +88,7 @@ Installation of collectd is easy on Debian because packages are in default repo.
       <guid>https://gagor.pl/2015/12/extract-password-saved-in-remmina/</guid>
       <description>I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in .remmina directory.
 Then I used this script to the decrypt them 1:
-Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&amp;thinsp; external link &amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
       <title>Copy GTP partiotion table between disks</title>
@@ -117,9 +117,9 @@ apt-get install adobe-flashplugin:i386 After Ubuntu upgrade I was unable to run 
       <guid>https://gagor.pl/2014/01/debian-upgrade-mysql-to-mariadb/</guid>
       <description>After reading some good opinions about MariaDB I wanted to give it a try. Upgrade looks quite straight forward but I found some issues a little tricky.
 Installation Add repo and key:
-cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main deb-src http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main SRC (find more repositories here)
+cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main deb-src http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main SRC (find more repositories here&amp;thinsp; external link )
 Now install MariaDB:
-sudo apt-get update sudo apt-get install mariadb-server It could be better to install mariadb-server-5.5 and mariadb-client-5.5 package instead, because of this error.</description>
+sudo apt-get update sudo apt-get install mariadb-server It could be better to install mariadb-server-5.5 and mariadb-client-5.</description>
     </item>
     <item>
       <title>GearmanManager: wygodne zarządzanie workerami</title>
@@ -187,9 +187,7 @@ sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F p
       <pubDate>Mon, 18 Jun 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/06/xen-konfiguracja-interfejsu-sieciowego-dom0-jako-brdigea-dla-roznych-vlanow/</guid>
       <description>VLAN&amp;rsquo;y są prostą metodą na separację sieci. Gdy mamy wiele sieci może zajść potrzeba by poszczególne DomU miały dostęp do różnych VLAN&amp;rsquo;ów (czasem nawet wielu równocześnie). Jeżeli serwer z Dom0 posiada minimum giga-bitową kartę sieciową (a najlepiej kilka) to powinniśmy być w stanie z godziwą jakością udostępnić systemom DomU różne VLAN&amp;rsquo;y z interfejsów gospodarza.
-Zaprezentowane poniżej skrypty zapożyczyłem z tej strony: http://renial.net/weblog/2007/02/27/xen-vlan
-Na początek musimy zainstalować pakiet vlan:
-apt-get install vlan Później w pliku /etc/xen/xend-config.</description>
+Zaprezentowane poniżej skrypty zapożyczyłem z tej strony: http://renial.net/weblog/2007/02/27/xen-vlan&amp;thinsp; external link Na początek musimy zainstalować pakiet vlan:</description>
     </item>
     <item>
       <title>CouchDB - Instalacja i wstępna konfiguracja</title>
@@ -213,7 +211,7 @@ dpkg-reconfigure openssh-server I na koniec restartujemy usługę by załadować
       <link>https://gagor.pl/2012/02/xen-na-squeeze-instalowanie-i-konfiguracja-hostow-gosci-domu/</link>
       <pubDate>Fri, 24 Feb 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/02/xen-na-squeeze-instalowanie-i-konfiguracja-hostow-gosci-domu/</guid>
-      <description>Ostatnio pisałem o konfiguracji Dom0 - dzisiaj napiszę o uruchamianiu DomU.
+      <description>Ostatnio pisałem o konfiguracji Dom0&amp;thinsp; external link - dzisiaj napiszę o uruchamianiu DomU.
 Do instalacji DomU wykorzystuję skrypty z pakietu xen-tools, można go zainstalować poleceniem:
 apt-get install xen-tools Oczywiście aby wszystko działało fajnie musimy ustawić kilka domyślnych opcji, robimy to edytując plik /etc/xen-tools/xen-tools.conf. Lecimy po kolei:
 # Virtual machine disks are created as logical volumes in # volume group &amp;#39;universe&amp;#39; (hint: LVM storage is much faster # than file) lvm = universe Osobiście korzystam z LVM&amp;rsquo;a który zgodnie z hint&amp;rsquo;em jest znacznie szybszy od plików obrazów.</description>
@@ -230,7 +228,7 @@ apt-get install xen-tools Oczywiście aby wszystko działało fajnie musimy usta
       <link>https://gagor.pl/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</link>
       <pubDate>Tue, 24 Jan 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</guid>
-      <description>Jakiś czas temu korzystałem z preload&amp;rsquo;a który sam uczył się jakie aplikacje odpalam i te programy ładował już podczas startu - przeważnie nieco spowalnia to start systemu ale gdy już się załaduje to programy, które uruchamiam jako pierwsze startują &amp;ldquo;z kopa&amp;rdquo;. Od jakiegoś czasu popularniejszy jest instalowany domyślnie w Ubuntu ureadahead - pełni on podobną funkcję jak preload.
+      <description>Jakiś czas temu korzystałem z preload&amp;rsquo;a&amp;thinsp; external link który sam uczył się jakie aplikacje odpalam i te programy ładował już podczas startu - przeważnie nieco spowalnia to start systemu ale gdy już się załaduje to programy, które uruchamiam jako pierwsze startują &amp;ldquo;z kopa&amp;rdquo;. Od jakiegoś czasu popularniejszy jest instalowany domyślnie w Ubuntu ureadahead - pełni on podobną funkcję jak preload.
 Można zmusić ureadahead do ponownego wygenerowania nowej listy programów wczytywanych przy starcie do cache a oto jak zrobić:</description>
     </item>
     <item>
@@ -289,7 +287,7 @@ I w tym momencie zaczynamy się zastanawiać czy może nie warto byłoby zrobić
       <link>https://gagor.pl/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</link>
       <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</guid>
-      <description>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.</description>
+      <description>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl&amp;thinsp; external link pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.</description>
     </item>
     <item>
       <title>Sprawdzenie który proces obciąża dyski</title>
@@ -314,8 +312,7 @@ Rozwiązaniem tego problemu może być instalacja pakietów z testowej gałęzi
       <guid>https://gagor.pl/2011/08/optymalizacja-php-z-eacceleratorem/</guid>
       <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy &amp;#x1f603;
 Niestety nie ma go w repozytoriach Debiana, więc trzeba go sobie skompilować - cały proces jest dość prosty. Zaczynamy od pobrania najświeższej paczki, obecnie jest to wersja 0.9.5.3:
-Pobierz eAccelerator (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)
-Pobieramy i rozpakowujemy pliki:</description>
+Pobierz eAccelerator&amp;thinsp; external link (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)</description>
     </item>
     <item>
       <title>Statystyki odwiedzin dla wielu serwisów z AWStats</title>

@@ -8,8 +8,15 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sun, 03 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HOWTO</title>
+      <link>https://gagor.pl/categories/howto/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/categories/howto/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Off-topic</title>
       <link>https://gagor.pl/categories/off-topic/</link>
@@ -22,13 +29,6 @@
       <link>https://gagor.pl/categories/book/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/categories/book/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>HOWTO</title>
-      <link>https://gagor.pl/categories/howto/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pl/categories/howto/</guid>
       <description></description>
     </item>
     <item>

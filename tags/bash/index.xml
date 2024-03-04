@@ -15,7 +15,7 @@
       <link>https://gagor.pl/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</guid>
-      <description>I&amp;rsquo;ve been writing recently about best practices for patching and deprecating Docker images, but today I want to show how to automate a huge part of this process.
+      <description>I&amp;rsquo;ve been writing recently about best practices for patching and deprecating Docker images , but today I want to show how to automate a huge part of this process.
 You might already hear about Dependabot1, it&amp;rsquo;s a Github&amp;rsquo;s way to notify developers about security vulnerabilities in their projects. Renovate2 is similar tool3, but doesn&amp;rsquo;t require Github. For my professional work I use Bitbucket, so Renovate feels more universal as can be used anywhere.</description>
     </item>
     <item>
@@ -35,7 +35,7 @@ For many it&amp;rsquo;s the fist contact with make and often the last one, but n
       <link>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</guid>
-      <description>I love blogging with Hugo and I have two blogs already that use it. The good thing about static sites is that you have all the data in the files. You can optimize them locally, batch process, amend, etc. Powerful templating engine allows to quickly pre fill documents in the format I like.
+      <description>I love blogging with Hugo&amp;thinsp; external link and I have two blogs already that use it. The good thing about static sites is that you have all the data in the files. You can optimize them locally, batch process, amend, etc. Powerful templating engine allows to quickly pre fill documents in the format I like.
 I have some steps in the Makefile for things like image optimization, but I often don&amp;rsquo;t remember to run them &amp;#x1f603;</description>
     </item>
     <item>
@@ -54,7 +54,7 @@ Simple status/log checks git s s = status --short --branch --untracked-files Sho
       <guid>https://gagor.pl/2023/04/the-best-way-to-get-nvm-working-in-ci/cd-systems/</guid>
       <description>TL;DR While reasoning is important, readers may not be interested in all the frustrations I experienced while figuring out how to get things done. If you&amp;rsquo;re looking for a quick solution, skip to the &amp;ldquo;What eventually worked?&amp;rdquo; section. However, if you&amp;rsquo;re interested in the thought process behind the solution, keep reading.
 Why? Some might bother why the hell I&amp;rsquo;d like to make my life so hard? &amp;#x1f923;
-We used to use nodeenv for that purpose.</description>
+We used to use nodeenv&amp;thinsp; external link for that purpose.</description>
     </item>
     <item>
       <title>Automatically add ticket ID to every commit message in Git</title>
@@ -82,7 +82,7 @@ Beware, without &amp;ndash;out param, it will overwrite images in place!</descri
       <description>I use brew extensively on MacOS. It&amp;rsquo;s just as convenient as many Linux package managers. What I don&amp;rsquo;t like, it leaves dependencies after removal of formula. There&amp;rsquo;s simple way to clean it up by running one command 1.
 Uninstall with dependencies brew uninstall FORMULA brew autoremove Info
 In my case running brew autoremove actually removed few packages I really wanted to have. Check the output carefully!
-https://stackoverflow.com/questions/7323261/uninstall-remove-a-homebrew-package-including-all-its-dependencies&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+https://stackoverflow.com/questions/7323261/uninstall-remove-a-homebrew-package-including-all-its-dependencies&amp;thinsp; external link &amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
       <title>How to remove geo-localization/EXIF data from photos</title>
@@ -91,9 +91,8 @@ https://stackoverflow.com/questions/7323261/uninstall-remove-a-homebrew-package-
       <guid>https://gagor.pl/2021/03/how-to-remove-geo-localization/exif-data-from-photos/</guid>
       <description>I wanted to share publicly some photos, but I performed them with navigation enabled so they contained accurate localization of my house. I wanted to remove EXIF data GPS tags, my phone type and other irrelevant stuff.
 Tip
-There&amp;rsquo;s a way that requires less effort. Check how to automate this process with pre-commit hooks.
-TL;DR You will need imagemagick installed (use apt/yum/dnf of whatever you have there):
-Install imagemagick sudo apt install -y imagemagick To remove them just use: Strip EXIF data mogrify -strip image.</description>
+There&amp;rsquo;s a way that requires less effort. Check how to automate this process with pre-commit hooks&amp;thinsp; external link .
+TL;DR You will need imagemagick installed (use apt/yum/dnf of whatever you have there):</description>
     </item>
     <item>
       <title>Moving from Linux to MacOS – first steps</title>
@@ -125,8 +124,7 @@ for dep in $(pip show python-neutronclient | grep Requires | sed &amp;#39;s/Requ
       <link>https://gagor.pl/2016/04/use-bastion-host-with-ansible/</link>
       <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/04/use-bastion-host-with-ansible/</guid>
-      <description>When you deploy your application in cloud you don&amp;rsquo;t need and don&amp;rsquo;t want your hosts exposed via SSH to the world. Malware scans whole network for easy SSH access and when find something will try some brute force attacks, overloading such machines. It&amp;rsquo;s easier to have one exposed, but secured host, that doesn&amp;rsquo;t host anything and is used as proxy/gateway to access our infrastructure- it&amp;rsquo;s called bastion host.
-Ansible is quite easy to integrate with bastion host configuration.</description>
+      <description>When you deploy your application in cloud you don&amp;rsquo;t need and don&amp;rsquo;t want your hosts exposed via SSH to the world. Malware scans whole network for easy SSH access and when find something will try some brute force attacks, overloading such machines. It&amp;rsquo;s easier to have one exposed, but secured host, that doesn&amp;rsquo;t host anything and is used as proxy/gateway to access our infrastructure- it&amp;rsquo;s called bastion host&amp;thinsp; external link .</description>
     </item>
     <item>
       <title>List octal file permissions in bash</title>
@@ -153,7 +151,7 @@ while inotifywait -e modify -r .; do docker-compose build; done This commands wi
       <link>https://gagor.pl/2016/02/install-wordpress-from-command-line/</link>
       <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/install-wordpress-from-command-line/</guid>
-      <description>I never tried it before but today I needed to install WordPress&amp;hellip; From command line only. And there is a way to do this with wp-cli.
+      <description>I never tried it before but today I needed to install WordPress&amp;hellip; From command line only. And there is a way to do this with wp-cli&amp;thinsp; external link .
 WP-CLI installation First some requirements (as root):
 apt-get install php5-cli php5-mysql mysql-client curl And now installation of wp-cli (as root too):
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar chmod +x wp-cli.phar mv wp-cli.phar /usr/local/bin/wp Check if it&amp;rsquo;s working:
@@ -198,9 +196,8 @@ grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n This will search for all l
       <link>https://gagor.pl/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</link>
       <pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</guid>
-      <description>I love Shotwell for it&amp;rsquo;s simplicity and easy export to Piwigo. After Christmas I added new photos to my library but after that I made some modifications to them (red eye reduction, etc&amp;hellip;). Because Shotwell generate thumbnails only on import, all my modifications were not visible on preview.
-I&amp;rsquo;ve started searching how to regenerate thumbs and found this info. There were two issues with this method:
-this howto was for old version (with old paths) and only for 128px thumbs I definitely don&amp;rsquo;t want to regenerate thumbnails for 40k photos!</description>
+      <description>I love Shotwell&amp;thinsp; external link for it&amp;rsquo;s simplicity and easy export to Piwigo&amp;thinsp; external link . After Christmas I added new photos to my library but after that I made some modifications to them (red eye reduction, etc&amp;hellip;). Because Shotwell generate thumbnails only on import, all my modifications were not visible on preview.
+I&amp;rsquo;ve started searching how to regenerate thumbs and found this info&amp;thinsp; external link . There were two issues with this method:</description>
     </item>
     <item>
       <title>Debian - zablokowanie aktualizacji pakietu</title>
@@ -247,7 +244,7 @@ ntp -q Sprawdziłem jak duży jest offset i jitter (powinny być bardzo małe):<
       <link>https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</link>
       <pubDate>Mon, 17 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</guid>
-      <description>Ruski serwer WWW ma przydatną funkcję serwowania wersji plików skompresowanych gzip&amp;rsquo;em - przez co możemy plik skompresować raz i będzie on serwowany klientom obsługującym kompresję HTTP ale już bez każdorazowego kompresowania go. Jest to bardzo przydatne na stronach z dużym ruchem gdzie można w ten sposób zaoszczędzić takty CPU na właściwą obsługę połączeń a nie kompresję. Drugie miejsce gdzie może to być przydatne to VPS&amp;rsquo;y i &amp;ldquo;cienkie&amp;rdquo; serwery, które na kompresji przy większym obciążeniu spędzają zbyt dużo czasu i daje się to odczuć w działaniu strony.</description>
+      <description>Ruski serwer WWW&amp;thinsp; external link ma przydatną funkcję serwowania wersji plików skompresowanych gzip&amp;rsquo;em - przez co możemy plik skompresować raz i będzie on serwowany klientom obsługującym kompresję HTTP ale już bez każdorazowego kompresowania go. Jest to bardzo przydatne na stronach z dużym ruchem gdzie można w ten sposób zaoszczędzić takty CPU na właściwą obsługę połączeń a nie kompresję. Drugie miejsce gdzie może to być przydatne to VPS&amp;rsquo;y i &amp;ldquo;cienkie&amp;rdquo; serwery, które na kompresji przy większym obciążeniu spędzają zbyt dużo czasu i daje się to odczuć w działaniu strony.</description>
     </item>
     <item>
       <title>ldapsearch w Active Directory</title>

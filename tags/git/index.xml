@@ -15,7 +15,7 @@
       <link>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</guid>
-      <description>I love blogging with Hugo and I have two blogs already that use it. The good thing about static sites is that you have all the data in the files. You can optimize them locally, batch process, amend, etc. Powerful templating engine allows to quickly pre fill documents in the format I like.
+      <description>I love blogging with Hugo&amp;thinsp; external link and I have two blogs already that use it. The good thing about static sites is that you have all the data in the files. You can optimize them locally, batch process, amend, etc. Powerful templating engine allows to quickly pre fill documents in the format I like.
 I have some steps in the Makefile for things like image optimization, but I often don&amp;rsquo;t remember to run them &amp;#x1f603;</description>
     </item>
     <item>

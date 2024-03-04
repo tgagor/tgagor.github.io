@@ -36,7 +36,7 @@ Enforce platform for all commands export DOCKER_DEFAULT_PLATFORM=linux/amd64 Wit
       <link>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</guid>
-      <description>I love blogging with Hugo and I have two blogs already that use it. The good thing about static sites is that you have all the data in the files. You can optimize them locally, batch process, amend, etc. Powerful templating engine allows to quickly pre fill documents in the format I like.
+      <description>I love blogging with Hugo&amp;thinsp; external link and I have two blogs already that use it. The good thing about static sites is that you have all the data in the files. You can optimize them locally, batch process, amend, etc. Powerful templating engine allows to quickly pre fill documents in the format I like.
 I have some steps in the Makefile for things like image optimization, but I often don&amp;rsquo;t remember to run them &amp;#x1f603;</description>
     </item>
     <item>
@@ -53,7 +53,7 @@ Simple status/log checks git s s = status --short --branch --untracked-files Sho
       <link>https://gagor.pl/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</guid>
-      <description>I switched recently from Docker Desktop on my MacBook to Rancher Desktop. The most important reason for me to do it, was possibility to gently switch between docker and containerd runtimes.
+      <description>I switched recently from Docker Desktop&amp;thinsp; external link on my MacBook to Rancher Desktop&amp;thinsp; external link . The most important reason for me to do it, was possibility to gently switch between docker and containerd runtimes.
 There&amp;rsquo;s still one feature that I miss on Rancher Desktop - possibility to change Docker daemon configuration. I used to enable experimental features1 and BuildKit2. Sadly, there&amp;rsquo;s no easy way to do it on Rancher&amp;hellip; But there&amp;rsquo;s a magical way3.</description>
     </item>
     <item>
@@ -82,7 +82,7 @@ Beware, without &amp;ndash;out param, it will overwrite images in place!</descri
       <description>I use brew extensively on MacOS. It&amp;rsquo;s just as convenient as many Linux package managers. What I don&amp;rsquo;t like, it leaves dependencies after removal of formula. There&amp;rsquo;s simple way to clean it up by running one command 1.
 Uninstall with dependencies brew uninstall FORMULA brew autoremove Info
 In my case running brew autoremove actually removed few packages I really wanted to have. Check the output carefully!
-https://stackoverflow.com/questions/7323261/uninstall-remove-a-homebrew-package-including-all-its-dependencies&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+https://stackoverflow.com/questions/7323261/uninstall-remove-a-homebrew-package-including-all-its-dependencies&amp;thinsp; external link &amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
       <title>Moving from Linux to MacOS – first steps</title>

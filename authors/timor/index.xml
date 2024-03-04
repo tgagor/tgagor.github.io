@@ -8,8 +8,17 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sun, 03 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/authors/timor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimizing Hugo static site redirects with Cloudflare Pages</title>
+      <link>https://gagor.pl/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</guid>
+      <description>I used to utilize GitHub Pages to serve static content for my blog. I secured it behind Cloudflare to employ a custom domain and automate HTTPS certificate management. Additionally, I utilized a few Page Rules to implement redirects:
+From www.* to non-www, From HTTP to HTTPS, And for some SEO renaming. Unfortunately, in the Free plan from Cloudflare, you are limited to:
+3 Page Rules (with simple glob matching), 10 Transformation Rules (no regex rules), 10 Redirect Rules (no regex).</description>
+    </item>
     <item>
       <title>SEO kicks my stats</title>
       <link>https://gagor.pl/2024/03/seo-kicks-my-stats/</link>
@@ -22,7 +31,7 @@
       <link>https://gagor.pl/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</guid>
-      <description>I&amp;rsquo;ve been writing recently about best practices for patching and deprecating Docker images, but today I want to show how to automate a huge part of this process.
+      <description>I&amp;rsquo;ve been writing recently about best practices for patching and deprecating Docker images , but today I want to show how to automate a huge part of this process.
 You might already hear about Dependabot1, it&amp;rsquo;s a Github&amp;rsquo;s way to notify developers about security vulnerabilities in their projects. Renovate2 is similar tool3, but doesn&amp;rsquo;t require Github. For my professional work I use Bitbucket, so Renovate feels more universal as can be used anywhere.</description>
     </item>
     <item>
@@ -47,7 +56,7 @@ amazon.plempik.com Still reading&amp;hellip;</description>
       <link>https://gagor.pl/2024/02/adding-mermaid-diagrams-to-hugo/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2024/02/adding-mermaid-diagrams-to-hugo/</guid>
-      <description>I used Chart.js charts on one of my Hugo blogs for few years already. Recently I needed to add few diagrams and I started glueing them in Chart.js but then I found that Hugo supports GoAT and Mermaid diagrams. They&amp;rsquo;re not working out of the box, but it&amp;rsquo;s easy to extend. Much easier than my custom shortcodes.
+      <description>I used Chart.js charts on one of my Hugo blogs for few years already. Recently I needed to add few diagrams and I started glueing them in Chart.js but then I found that Hugo supports GoAT and Mermaid diagrams&amp;thinsp; external link . They&amp;rsquo;re not working out of the box, but it&amp;rsquo;s easy to extend. Much easier than my custom shortcodes.
 I tried to follow up the instruction1 but failed. After few minutes I found slightly simpler solution.</description>
     </item>
     <item>
@@ -94,7 +103,7 @@ amazon.pl The book is a compelling and practical leadership guide co-authored by
       <link>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2024/01/my-pre-commit-config-for-hugo-blog/</guid>
-      <description>I love blogging with Hugo and I have two blogs already that use it. The good thing about static sites is that you have all the data in the files. You can optimize them locally, batch process, amend, etc. Powerful templating engine allows to quickly pre fill documents in the format I like.
+      <description>I love blogging with Hugo&amp;thinsp; external link and I have two blogs already that use it. The good thing about static sites is that you have all the data in the files. You can optimize them locally, batch process, amend, etc. Powerful templating engine allows to quickly pre fill documents in the format I like.
 I have some steps in the Makefile for things like image optimization, but I often don&amp;rsquo;t remember to run them &amp;#x1f603;</description>
     </item>
     <item>
@@ -102,7 +111,7 @@ I have some steps in the Makefile for things like image optimization, but I ofte
       <link>https://gagor.pl/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</guid>
-      <description>TL;DR If you&amp;rsquo;re not interested in the &amp;ldquo;story of my life&amp;rdquo;, go directly to &amp;ldquo;Tuning PipeWire&amp;rdquo; section.
+      <description>TL;DR If you&amp;rsquo;re not interested in the &amp;ldquo;story of my life&amp;rdquo;, go directly to &amp;ldquo;Tuning PipeWire &amp;rdquo; section.
 I&amp;rsquo;m not an audiophile, but I spent whole days in the headphones and I like when sound sounds good. I like slight bass boost, which adds this kick to the melody, but won&amp;rsquo;t overwhelm me after an hour of listening. I like when high tones are clear, but I get annoyed if they&amp;rsquo;re too strong.</description>
     </item>
     <item>
@@ -159,9 +168,8 @@ Postanowiłem to w końcu spisać. Na razie na jednej stronie i trochę na kola
       <guid>https://gagor.pl/2024/01/maximizing-page-performance-and-security-with-cloudflare-tuning/</guid>
       <description>Info
 I use free tier of Cloudflare and all recommendations assume only those are available.
-Why to cache statically generated blog? My Blog is statically generated website served from Github Pages. As Github don&amp;rsquo;t allow to easily set my own domain (at least in free version), I needed some kind of proxy that:
-can serve page from my domain, will provide valid certificate for HTTPS. Info
-I know HTTPS for static site is a non-sense, but to keep it performant with HTTP/2 and HTTP/3 - you need it.</description>
+Why to cache statically generated blog? My Blog is statically generated website served from Github Pages&amp;thinsp; external link . As Github don&amp;rsquo;t allow to easily set my own domain (at least in free version), I needed some kind of proxy that:
+can serve page from my domain, will provide valid certificate for HTTPS. Info</description>
     </item>
     <item>
       <title>New Year&#39;s reflections and Leadership path</title>
@@ -265,7 +273,7 @@ amazon.pllubimyczytac.plgoodreads.com The Effective Manager by Mark Horstman is 
       <pubDate>Tue, 23 May 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/books/2023/effective-manager/</guid>
       <description>The Effective ManagerAuthor: Mark Horstman
-amazon.pl I&amp;rsquo;ve borrowed this one and I liked it so I bought Second Edition. Look for summary there.</description>
+amazon.pl I&amp;rsquo;ve borrowed this one and I liked it so I bought Second Edition . Look for summary there.</description>
     </item>
     <item>
       <title>The best way to get NVM working in CI/CD systems</title>
@@ -274,7 +282,7 @@ amazon.pl I&amp;rsquo;ve borrowed this one and I liked it so I bought Second Edi
       <guid>https://gagor.pl/2023/04/the-best-way-to-get-nvm-working-in-ci/cd-systems/</guid>
       <description>TL;DR While reasoning is important, readers may not be interested in all the frustrations I experienced while figuring out how to get things done. If you&amp;rsquo;re looking for a quick solution, skip to the &amp;ldquo;What eventually worked?&amp;rdquo; section. However, if you&amp;rsquo;re interested in the thought process behind the solution, keep reading.
 Why? Some might bother why the hell I&amp;rsquo;d like to make my life so hard? &amp;#x1f923;
-We used to use nodeenv for that purpose.</description>
+We used to use nodeenv&amp;thinsp; external link for that purpose.</description>
     </item>
     <item>
       <title>Nowy jednominutowy menedżer</title>
@@ -298,7 +306,7 @@ empik.com </description>
       <link>https://gagor.pl/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</guid>
-      <description>I switched recently from Docker Desktop on my MacBook to Rancher Desktop. The most important reason for me to do it, was possibility to gently switch between docker and containerd runtimes.
+      <description>I switched recently from Docker Desktop&amp;thinsp; external link on my MacBook to Rancher Desktop&amp;thinsp; external link . The most important reason for me to do it, was possibility to gently switch between docker and containerd runtimes.
 There&amp;rsquo;s still one feature that I miss on Rancher Desktop - possibility to change Docker daemon configuration. I used to enable experimental features1 and BuildKit2. Sadly, there&amp;rsquo;s no easy way to do it on Rancher&amp;hellip; But there&amp;rsquo;s a magical way3.</description>
     </item>
     <item>
@@ -431,7 +439,7 @@ Personally, I found this book to be annoying in a few places, especially when it
       <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</guid>
       <description>Auta się zmieniają a problemy z nimi pozostają te same :)
-Kasowanie ostrzeżenia wymiany oleju 1 Przekręcić kluczyk w stacyjce do drugiej pozycji, gdy zapalają się wszystkie kontrolki (nie uruchamiamy silnika). Wciskamy równocześnie pedały hamulca i gazu do oporu, trzymamy do zakończenia procesu. Pojawi komunikat o rozpoczęciu resetowania inspekcji. Możemy zatwierdzić OK. Czekamy aż pojawi się komunikat: Zatwierdzamy OK. Dopiero teraz zwalniamy pedały. https://forum.fordclubpolska.org/showthread.php?t=108532&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+Kasowanie ostrzeżenia wymiany oleju 1 Przekręcić kluczyk w stacyjce do drugiej pozycji, gdy zapalają się wszystkie kontrolki (nie uruchamiamy silnika). Wciskamy równocześnie pedały hamulca i gazu do oporu, trzymamy do zakończenia procesu. Pojawi komunikat o rozpoczęciu resetowania inspekcji. Możemy zatwierdzić OK. Czekamy aż pojawi się komunikat: Zatwierdzamy OK. Dopiero teraz zwalniamy pedały. https://forum.fordclubpolska.org/showthread.php?t=108532&amp;thinsp; external link &amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
       <title>Czy jesteś tym, który puka?</title>
@@ -456,10 +464,9 @@ amazon.plamazon.comhelion.pl </description>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2022/06/back-on-the-big-stage/</guid>
       <description>I&amp;rsquo;m back on the big stage!
-I haven&amp;rsquo;t attend any big conferences as presenter for some time, but this year will change it. I&amp;rsquo;m starting big, with a talk: Docker base images - Ideas how to manage them on scale on Devoxx conference in Kraków, that will take place on 22-24th June 2022.
+I haven&amp;rsquo;t attend any big conferences as presenter for some time, but this year will change it. I&amp;rsquo;m starting big, with a talk: Docker base images - Ideas how to manage them on scale&amp;thinsp; external link on Devoxx&amp;thinsp; external link conference in Kraków, that will take place on 22-24th June 2022.
 Want to meet? Meet there &amp;#x1f604;
-Update I uploaded slides from presentation to my Github account.
-There&amp;rsquo;s also a video available: </description>
+Update I uploaded slides from presentation to my Github account&amp;thinsp; external link .</description>
     </item>
     <item>
       <title>Drive</title>
@@ -494,7 +501,7 @@ helion.pl </description>
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/11/creating-fully-encrypted-zfs-pool/</guid>
       <description>What I want to do? I use my pool to securely store backups, archive my old documents and keep huge family&amp;rsquo;s photo library.
-I have new disks. They were tortured with badblocks, so they&amp;rsquo;re ready to create ZFS pool.
+I have new disks. They were tortured with badblocks , so they&amp;rsquo;re ready to create ZFS pool.
 I&amp;rsquo;ve read few documents about different approaches 1 2 3. I wanted to be sure if anything changed during past years. One of articles recommends mirroring over RAIDZ. Resilvering is faster, at the same time putting IO less stress on whole pool.</description>
     </item>
     <item>
@@ -531,14 +538,14 @@ Beware, without &amp;ndash;out param, it will overwrite images in place!</descri
       <description>I use brew extensively on MacOS. It&amp;rsquo;s just as convenient as many Linux package managers. What I don&amp;rsquo;t like, it leaves dependencies after removal of formula. There&amp;rsquo;s simple way to clean it up by running one command 1.
 Uninstall with dependencies brew uninstall FORMULA brew autoremove Info
 In my case running brew autoremove actually removed few packages I really wanted to have. Check the output carefully!
-https://stackoverflow.com/questions/7323261/uninstall-remove-a-homebrew-package-including-all-its-dependencies&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+https://stackoverflow.com/questions/7323261/uninstall-remove-a-homebrew-package-including-all-its-dependencies&amp;thinsp; external link &amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
       <title>Asus ROG STRIX Z590-E GAMING WIFI - my UEFI BIOS settings</title>
       <link>https://gagor.pl/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</link>
       <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</guid>
-      <description>I&amp;rsquo;ve build new PC - it&amp;rsquo;s based on Asus ROG STRIX Z590-E GAMING WIFI motherboard. Generally, I&amp;rsquo;m quite satisfied, but it have one irritating downside - after each UEFI BIOS upgrade, it&amp;rsquo;s silently resetting some of settings.
+      <description>I&amp;rsquo;ve build new PC - it&amp;rsquo;s based on Asus ROG STRIX Z590-E GAMING WIFI&amp;thinsp; external link motherboard. Generally, I&amp;rsquo;m quite satisfied, but it have one irritating downside - after each UEFI BIOS upgrade, it&amp;rsquo;s silently resetting some of settings.
 Let me note, what I want to have there:
 Ai Tweaker (use my RAM capabilities) AI Overcloack Tuner -&amp;gt; [XMP I] DRAM Frequency -&amp;gt; [DDR4-3600MHz] DRAM CAS# Latency -&amp;gt; [16] DRAM RAS# to CAS# Delay -&amp;gt; [19] DRAM RAS# ACT Time -&amp;gt; [39] DRAM Voltage -&amp;gt; [1.</description>
     </item>
@@ -566,8 +573,8 @@ empik.com </description>
       <link>https://gagor.pl/2021/07/official-centos-8-stream-docker-image-finally-available/</link>
       <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/07/official-centos-8-stream-docker-image-finally-available/</guid>
-      <description>Finally, they&amp;rsquo;re available! Wait a moment.. Actually they&amp;rsquo;re available for few months, just nobody published information about moving them to quay.io and dropped poor guys using hub.docker.com without any updates! Yes, that how they did!
-I found new place accidentally, reading some news about CentOS Stream 9 on their blog. There was reference to CentOS 9 Stream dev builds of Docker images and I found &amp;ldquo;missing&amp;rdquo; stream and stream8 tags too.</description>
+      <description>Finally, they&amp;rsquo;re available! Wait a moment.. Actually they&amp;rsquo;re available for few months, just nobody published information about moving them to quay.io&amp;thinsp; external link and dropped poor guys using hub.docker.com&amp;thinsp; external link without any updates! Yes, that how they did!
+I found new place accidentally, reading some news about CentOS Stream 9 on their blog&amp;thinsp; external link . There was reference to CentOS 9 Stream dev builds of Docker images and I found &amp;ldquo;missing&amp;rdquo; stream and stream8 tags too.</description>
     </item>
     <item>
       <title>Inteligentny inwestor</title>
@@ -594,9 +601,8 @@ empik.com </description>
       <guid>https://gagor.pl/2021/03/how-to-remove-geo-localization/exif-data-from-photos/</guid>
       <description>I wanted to share publicly some photos, but I performed them with navigation enabled so they contained accurate localization of my house. I wanted to remove EXIF data GPS tags, my phone type and other irrelevant stuff.
 Tip
-There&amp;rsquo;s a way that requires less effort. Check how to automate this process with pre-commit hooks.
-TL;DR You will need imagemagick installed (use apt/yum/dnf of whatever you have there):
-Install imagemagick sudo apt install -y imagemagick To remove them just use: Strip EXIF data mogrify -strip image.</description>
+There&amp;rsquo;s a way that requires less effort. Check how to automate this process with pre-commit hooks&amp;thinsp; external link .
+TL;DR You will need imagemagick installed (use apt/yum/dnf of whatever you have there):</description>
     </item>
     <item>
       <title>Książę</title>
@@ -619,7 +625,7 @@ empik.com </description>
       <link>https://gagor.pl/2021/02/centos-8-stream-docker-image/</link>
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/02/centos-8-stream-docker-image/</guid>
-      <description>We&amp;rsquo;re all divided with recent decision to focus on CentOS Stream, which essentially means that stable, professional distro will turn into rolling release now. Also CentOS board members don&amp;rsquo;t gave us more confidence for the future.
+      <description>We&amp;rsquo;re all divided with recent decision to focus on CentOS Stream&amp;thinsp; external link , which essentially means that stable, professional distro will turn into rolling release now. Also CentOS board members don&amp;rsquo;t gave us more confidence for the future&amp;thinsp; external link .
 I don&amp;rsquo;t want to be totally sceptic, I would like to test it on my own and only then, decide if it&amp;rsquo;s stable enough. But I work mostly with Docker containers and there are no official Docker images with Stream variant.</description>
     </item>
     <item>
@@ -1068,8 +1074,7 @@ for dep in $(pip show python-neutronclient | grep Requires | sed &amp;#39;s/Requ
       <link>https://gagor.pl/2016/04/use-bastion-host-with-ansible/</link>
       <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/04/use-bastion-host-with-ansible/</guid>
-      <description>When you deploy your application in cloud you don&amp;rsquo;t need and don&amp;rsquo;t want your hosts exposed via SSH to the world. Malware scans whole network for easy SSH access and when find something will try some brute force attacks, overloading such machines. It&amp;rsquo;s easier to have one exposed, but secured host, that doesn&amp;rsquo;t host anything and is used as proxy/gateway to access our infrastructure- it&amp;rsquo;s called bastion host.
-Ansible is quite easy to integrate with bastion host configuration.</description>
+      <description>When you deploy your application in cloud you don&amp;rsquo;t need and don&amp;rsquo;t want your hosts exposed via SSH to the world. Malware scans whole network for easy SSH access and when find something will try some brute force attacks, overloading such machines. It&amp;rsquo;s easier to have one exposed, but secured host, that doesn&amp;rsquo;t host anything and is used as proxy/gateway to access our infrastructure- it&amp;rsquo;s called bastion host&amp;thinsp; external link .</description>
     </item>
     <item>
       <title>Tweaking ASUS Zenbook UX305CA on Linux</title>
@@ -1102,8 +1107,8 @@ stat -c &amp;#39;%A %a %n&amp;#39; * drwxr-xr-x 755 bin drwxr-xr-x 755 games drw
       <link>https://gagor.pl/2016/02/wordpress-with-hyperdb-on-php-7-0/</link>
       <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/wordpress-with-hyperdb-on-php-7-0/</guid>
-      <description>I was configuring WordPress with HyperDB plugin on PHP 7.0 but the only I get were constant 500 errors. As I found here PHP 7.0 is not supported by HyperDB for now - it&amp;rsquo;s rely on mysql php extension but in PHP 7.0 there is only mysqli extension. But few folks fixed it and it&amp;rsquo;s possible to use it.
-curl -O https://raw.githubusercontent.com/soulseekah/hyperdb-mysqli/master/db.php mv db.php /var/www/wordpress/wp-content/ And configure it ex. like this:</description>
+      <description>I was configuring WordPress with HyperDB&amp;thinsp; external link plugin on PHP 7.0 but the only I get were constant 500 errors. As I found here&amp;thinsp; external link PHP 7.0 is not supported by HyperDB for now - it&amp;rsquo;s rely on mysql php extension but in PHP 7.0 there is only mysqli extension. But few folks fixed it and it&amp;rsquo;s possible to use it.
+curl -O https://raw.githubusercontent.com/soulseekah/hyperdb-mysqli/master/db.php mv db.php /var/www/wordpress/wp-content/ And configure it ex.</description>
     </item>
     <item>
       <title>Automatically build after file change</title>
@@ -1120,7 +1125,7 @@ while inotifywait -e modify -r .; do docker-compose build; done This commands wi
       <link>https://gagor.pl/2016/02/install-wordpress-from-command-line/</link>
       <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/install-wordpress-from-command-line/</guid>
-      <description>I never tried it before but today I needed to install WordPress&amp;hellip; From command line only. And there is a way to do this with wp-cli.
+      <description>I never tried it before but today I needed to install WordPress&amp;hellip; From command line only. And there is a way to do this with wp-cli&amp;thinsp; external link .
 WP-CLI installation First some requirements (as root):
 apt-get install php5-cli php5-mysql mysql-client curl And now installation of wp-cli (as root too):
 curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar chmod +x wp-cli.phar mv wp-cli.phar /usr/local/bin/wp Check if it&amp;rsquo;s working:
@@ -1190,16 +1195,15 @@ helion.pl </description>
       <link>https://gagor.pl/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</link>
       <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</guid>
-      <description>From few days I have access to UPC&amp;rsquo;s www.horizon.tv platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it&amp;rsquo;s working pretty well - you&amp;rsquo;re just few commands away from achieving that:
-# stop browser killall firefox # remove old version if you have it sudo apt-get remove pipelight Now configure repos and install packages:
-sudo apt-add-repository ppa:pipelight/stable sudo apt-get update sudo apt-get install --install-recommends pipelight-multi sudo pipelight-plugin --update Enable plugin (run it with sudo for system wide installation):</description>
+      <description>From few days I have access to UPC&amp;rsquo;s www.horizon.tv&amp;thinsp; external link platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it&amp;rsquo;s working pretty well - you&amp;rsquo;re just few commands away from achieving that:
+# stop browser killall firefox # remove old version if you have it sudo apt-get remove pipelight Now configure repos and install packages:</description>
     </item>
     <item>
       <title>Intel Dual Band Wireless-AC 7260 for Desktop on Linux</title>
       <link>https://gagor.pl/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</link>
       <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</guid>
-      <description>I just bought new wifi card for my desktop computer. Like in topic, it&amp;rsquo;s Intel Dual Band Wireless-AC 7260 for Desktop.
+      <description>I just bought new wifi card for my desktop computer. Like in topic, it&amp;rsquo;s Intel Dual Band Wireless-AC 7260 for Desktop&amp;thinsp; external link .
 I was searching for card that:
 support AC standard have 5GHz network support (2,4GHz channels are cluttered heavily in my neighborhood have PCI/PCIx or USB3 connector is Linux friendly (no modules compilation by hand, support for aircrack-ng, kismet) This one is the only I found that comply my expectations.</description>
     </item>
@@ -1218,9 +1222,9 @@ Howto prepare against ACK/FIN/RST/X-mas flood Use conntrack rule:</description>
       <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/zeitgeist-activity-sqlite-wal-getting-huge/</guid>
       <description>I was looking at backup task running on my desk and saw that it&amp;rsquo;s spending a lot of time on ~/.local/share/zeitgeist directory. I checked and it had 4.6GB:
-du -sh ~/.local/share/zeitgeist/* 118M activity.sqlite 44M activity.sqlite.bck 32K activity.sqlite-shm 4,4G activity.sqlite-wal 311M fts.index WTF? Fortunately I found here that I could easily delete some of this:
+du -sh ~/.local/share/zeitgeist/* 118M activity.sqlite 44M activity.sqlite.bck 32K activity.sqlite-shm 4,4G activity.sqlite-wal 311M fts.index WTF? Fortunately I found here&amp;thinsp; external link that I could easily delete some of this:
 zeitgeist-daemon --quit Now check that it&amp;rsquo;s not running:
-ps axu | grep zeitgeist-daemon timor 9105 0.0 0.</description>
+ps axu | grep zeitgeist-daemon timor 9105 0.</description>
     </item>
     <item>
       <title>Optimize Nginx for performance</title>
@@ -1228,7 +1232,7 @@ ps axu | grep zeitgeist-daemon timor 9105 0.0 0.</description>
       <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/01/optimize-nginx-for-performance/</guid>
       <description>There are many possible real life cases and not all optimization technics will be suitable for you but I hope it will be a good starting place.
-Also you shouldn&amp;rsquo;t copy paste examples with faith that they will make your server fly &amp;#x1f603; You have to support your decisions with excessive tests and help of monitoring system (ex. Grafana).
+Also you shouldn&amp;rsquo;t copy paste examples with faith that they will make your server fly &amp;#x1f603; You have to support your decisions with excessive tests and help of monitoring system (ex. Grafana ).
 Cache static and dynamic content Setting caching static and dynamic content strategy may offload your server from additional load from repetitive downloads of same, rarely updated files.</description>
     </item>
     <item>
@@ -1308,7 +1312,7 @@ Example Ansible playbook - hosts: web gather_facts: True sudo: True ... But test
       <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</guid>
       <description>Normally you want dynamic content to be fresh and not catchable. But sometimes it may be useful to cache it, like when you have website behind reverse proxy. To do this try something like this:
-&amp;lt;filesmatch &amp;#34;\.(php|cgi|pl)$&amp;#34;&amp;gt; Header unset Pragma Header unset Expires Header set Cache-Control &amp;#34;max-age=3600, public&amp;#34; &amp;lt;/filesmatch&amp;gt; Sources http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html</description>
+&amp;lt;filesmatch &amp;#34;\.(php|cgi|pl)$&amp;#34;&amp;gt; Header unset Pragma Header unset Expires Header set Cache-Control &amp;#34;max-age=3600, public&amp;#34; &amp;lt;/filesmatch&amp;gt; Sources http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html&amp;thinsp; external link </description>
     </item>
     <item>
       <title>MySQL - reset root password</title>
@@ -1325,8 +1329,7 @@ shutdown db service mysql stop create text file with command like this (update u
       <guid>https://gagor.pl/2015/12/rotate-movies/</guid>
       <description>I hate movies recorded on phone in vertical position. This just short tip how I dealt with with it last time:
 for m in *.mp4 do avconv -i $m -vf &amp;#34;transpose=1&amp;#34; -codec:a copy -codec:v libx264 -preset slow -crf 23 rotated-$m done Other examples:
-http://stackoverflow.com/questions/3937387/rotating-videos-with-ffmpeg
-http://superuser.com/questions/578321/how-to-flip-a-video-180°-vertical-upside-down-with-ffmpeg</description>
+http://stackoverflow.com/questions/3937387/rotating-videos-with-ffmpeg&amp;thinsp; external link http://superuser.com/questions/578321/how-to-flip-a-video-180&amp;thinsp; external link °-vertical-upside-down-with-ffmpeg</description>
     </item>
     <item>
       <title>Extract password saved in remmina</title>
@@ -1335,7 +1338,7 @@ http://superuser.com/questions/578321/how-to-flip-a-video-180°-vertical-upside-
       <guid>https://gagor.pl/2015/12/extract-password-saved-in-remmina/</guid>
       <description>I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in .remmina directory.
 Then I used this script to the decrypt them 1:
-Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&amp;thinsp; external link &amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
       <title>I’m back</title>
@@ -1351,7 +1354,7 @@ I think I will write shorter, less descriptive articles just to be pointers to u
       <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2015/12/apache-authbasic-but-excluding-ip/</guid>
       <description>Allow from IP without password prompt, and also allow from any address with password prompt
-Order deny,allow Deny from all AuthName &amp;#34;htaccess password prompt&amp;#34; AuthUserFile /web/askapache.com/.htpasswd AuthType Basic Require valid-user Allow from 172.17.10.1 Satisfy Any Sources http://www.askapache.com/htaccess/apache-authentication-in-htaccess.html</description>
+Order deny,allow Deny from all AuthName &amp;#34;htaccess password prompt&amp;#34; AuthUserFile /web/askapache.com/.htpasswd AuthType Basic Require valid-user Allow from 172.17.10.1 Satisfy Any Sources http://www.askapache.com/htaccess/apache-authentication-in-htaccess.html&amp;thinsp; external link </description>
     </item>
     <item>
       <title>Splątana sieć</title>
@@ -1449,7 +1452,7 @@ Then add at the end of file:
       <link>https://gagor.pl/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</link>
       <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</guid>
-      <description>After reading some SEO stuff I wanted to add some meta tags to my WordPress blog. I found this site: codex.wordpress.org/Meta_Tags_in_WordPress.
+      <description>After reading some SEO stuff I wanted to add some meta tags to my WordPress blog. I found this site: codex.wordpress.org/Meta_Tags_in_WordPress&amp;thinsp; external link .
 So WordPress thinks that it&amp;rsquo;s not necessary to have this meta tags any more&amp;hellip; But I want it! &amp;#x1f603; Next funny thing is how they suggest to add meta tags: copy header.php - what about theme updates?
 I prefer to use functions.php file - just create it in your courrent theme directory with such content:</description>
     </item>
@@ -1469,7 +1472,7 @@ UPDATE `user` SET user_password = CONCAT( SUBSTRING(user_password, 1, 3), SUBSTR
       <pubDate>Fri, 21 Mar 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/03/checking-memcached-status/</guid>
       <description>I need to check memory usage of memcached server so I used:
-echo stats | nc 127.0.0.1 11211 STAT pid 2743 STAT uptime 263 STAT time 1395438951 STAT version 1.4.13 STAT pointer_size 64 STAT rusage_user 0.482926 STAT rusage_system 2.675593 STAT curr_items 8667 STAT total_items 10742 STAT bytes 23802513 STAT curr_connections 296 STAT total_connections 399 STAT connection_structures 297 STAT cmd_flush 0 STAT cmd_get 52578 STAT cmd_set 10792 STAT get_hits 28692 STAT get_misses 23886 STAT evictions 0 STAT bytes_read 35984361 STAT bytes_written 192647437 STAT limit_maxbytes 536870912 STAT threads 2 STAT accepting_conns 1 STAT listen_disabled_num 0 STAT replication MASTER STAT repcached_qi_free 8189 STAT repcached_wdata 0 STAT repcached_wsize 1026048 END For me, bytes value was important but you could find more about all statistics here.</description>
+echo stats | nc 127.0.0.1 11211 STAT pid 2743 STAT uptime 263 STAT time 1395438951 STAT version 1.4.13 STAT pointer_size 64 STAT rusage_user 0.482926 STAT rusage_system 2.675593 STAT curr_items 8667 STAT total_items 10742 STAT bytes 23802513 STAT curr_connections 296 STAT total_connections 399 STAT connection_structures 297 STAT cmd_flush 0 STAT cmd_get 52578 STAT cmd_set 10792 STAT get_hits 28692 STAT get_misses 23886 STAT evictions 0 STAT bytes_read 35984361 STAT bytes_written 192647437 STAT limit_maxbytes 536870912 STAT threads 2 STAT accepting_conns 1 STAT listen_disabled_num 0 STAT replication MASTER STAT repcached_qi_free 8189 STAT repcached_wdata 0 STAT repcached_wsize 1026048 END For me, bytes value was important but you could find more about all statistics here&amp;thinsp; external link .</description>
     </item>
     <item>
       <title>Postfix - automatically drop outbound mail</title>
@@ -1492,7 +1495,7 @@ postfix reload Test if it works:</description>
 Just add to you config file (ex. ~/.ansible.cfg):
 [ssh_connection] pipelining=True Now run any playbook - you will see the difference &amp;#x1f604;
 Source (and extended info about):
-http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansible-1-5/</description>
+http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansible-1-5/&amp;thinsp; external link </description>
     </item>
     <item>
       <title>Chrusty, faworki</title>
@@ -1528,9 +1531,9 @@ After googling for some time I found one command that solved my problems by swit
       <guid>https://gagor.pl/2014/01/debian-upgrade-mysql-to-mariadb/</guid>
       <description>After reading some good opinions about MariaDB I wanted to give it a try. Upgrade looks quite straight forward but I found some issues a little tricky.
 Installation Add repo and key:
-cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main deb-src http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main SRC (find more repositories here)
+cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main deb-src http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main SRC (find more repositories here&amp;thinsp; external link )
 Now install MariaDB:
-sudo apt-get update sudo apt-get install mariadb-server It could be better to install mariadb-server-5.5 and mariadb-client-5.5 package instead, because of this error.</description>
+sudo apt-get update sudo apt-get install mariadb-server It could be better to install mariadb-server-5.5 and mariadb-client-5.</description>
     </item>
     <item>
       <title>Nginx - enabling SPDY with freeware certificate</title>
@@ -1544,7 +1547,7 @@ sudo apt-get update sudo apt-get install mariadb-server It could be better to in
       <link>https://gagor.pl/2014/01/searching-for-better-code-editor/</link>
       <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/01/searching-for-better-code-editor/</guid>
-      <description>I&amp;rsquo;ve been using different code editors for different purposes. Gedit was fine for small scripts but not for bigger projects. It lacks intelligent code completion (function/class names, etc.). I was searching for convenient editor for Python, Perl, Ruby with support for frameworks like Django, Rails, etc. I know Sublime Text - but it&amp;rsquo;s paid. There is LimeText - open source clone, but it&amp;rsquo;s not ready to be used on daily basics.</description>
+      <description>I&amp;rsquo;ve been using different code editors for different purposes. Gedit was fine for small scripts but not for bigger projects. It lacks intelligent code completion (function/class names, etc.). I was searching for convenient editor for Python, Perl, Ruby with support for frameworks like Django, Rails, etc. I know Sublime Text - but it&amp;rsquo;s paid&amp;thinsp; external link . There is LimeText&amp;thinsp; external link - open source clone, but it&amp;rsquo;s not ready to be used on daily basics.</description>
     </item>
     <item>
       <title>Manage Windows 8.1 and Windows Server 2012 R2 in WSUS 3.0</title>
@@ -1553,16 +1556,15 @@ sudo apt-get update sudo apt-get install mariadb-server It could be better to in
       <guid>https://gagor.pl/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</guid>
       <description>After connecting few computers with Windows 8.1 to domain we found that these computers are not recognized or recognized as Windows 6.3 (which is true) on WSUS 3.0 running on Windows Server 2008. The bad thing was that they can&amp;rsquo;t properly report to WSUS and get updates from it.
 I found that there are two updates that have to be installed (but they&amp;rsquo;re not working without additional steps):
-http://support.microsoft.com/kb/2720211 http://support.microsoft.com/kb/2734608 After installation of second update there are two additional steps that have to be performed to get WSUS working:</description>
+http://support.microsoft.com/kb/2720211&amp;thinsp; external link http://support.</description>
     </item>
     <item>
       <title>Regenerate thumbnails in Shotwell 0.15 (for last month)</title>
       <link>https://gagor.pl/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</link>
       <pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</guid>
-      <description>I love Shotwell for it&amp;rsquo;s simplicity and easy export to Piwigo. After Christmas I added new photos to my library but after that I made some modifications to them (red eye reduction, etc&amp;hellip;). Because Shotwell generate thumbnails only on import, all my modifications were not visible on preview.
-I&amp;rsquo;ve started searching how to regenerate thumbs and found this info. There were two issues with this method:
-this howto was for old version (with old paths) and only for 128px thumbs I definitely don&amp;rsquo;t want to regenerate thumbnails for 40k photos!</description>
+      <description>I love Shotwell&amp;thinsp; external link for it&amp;rsquo;s simplicity and easy export to Piwigo&amp;thinsp; external link . After Christmas I added new photos to my library but after that I made some modifications to them (red eye reduction, etc&amp;hellip;). Because Shotwell generate thumbnails only on import, all my modifications were not visible on preview.
+I&amp;rsquo;ve started searching how to regenerate thumbs and found this info&amp;thinsp; external link . There were two issues with this method:</description>
     </item>
     <item>
       <title>Loop unlooping in Javascript</title>
@@ -1577,9 +1579,9 @@ First - with switch statement var iterations = Math.ceil(values.length / 8); var
       <link>https://gagor.pl/2014/01/tracking-users-by-nickname-on-wordpress-using-google-analytics/</link>
       <pubDate>Tue, 07 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/01/tracking-users-by-nickname-on-wordpress-using-google-analytics/</guid>
-      <description>Some time ago I write article about tracking nicknames of users (from comments) on a WordPress blog with Piwik. This time I&amp;rsquo;m doing same but for Google Analytics.
-I&amp;rsquo;m using Google Analytics plugin for WordPress so I&amp;rsquo;ve edited googleanalytics.php file to add some additional code for user tracking:
-&amp;lt;script type=&amp;#34;text/javascript&amp;#34;&amp;gt; var i,x,y,ARRcookies=document.cookie.split(&amp;#34;;&amp;#34;); var comment_author = &amp;#34;&amp;#34;; for (i=0;i&amp;lt;ARRcookies.length;i++) { x=ARRcookies[i].substr(0,ARRcookies[i].indexOf(&amp;#34;=&amp;#34;)); y=ARRcookies[i].substr(ARRcookies[i].indexOf(&amp;#34;=&amp;#34;)+1); x=x.replace(/^\s+|\s+$/g,&amp;#34;&amp;#34;); if (x.indexOf(&amp;#34;comment_author&amp;#34;) != -1 &amp;amp;&amp;amp; x.indexOf(&amp;#34;comment_author_email&amp;#34;) == -1 &amp;amp;&amp;amp; x.</description>
+      <description>Some time ago I write article about tracking nicknames of users (from comments) on a WordPress blog with Piwik . This time I&amp;rsquo;m doing same but for Google Analytics.
+I&amp;rsquo;m using Google Analytics&amp;thinsp; external link plugin for WordPress so I&amp;rsquo;ve edited googleanalytics.php file to add some additional code for user tracking:
+&amp;lt;script type=&amp;#34;text/javascript&amp;#34;&amp;gt; var i,x,y,ARRcookies=document.cookie.split(&amp;#34;;&amp;#34;); var comment_author = &amp;#34;&amp;#34;; for (i=0;i&amp;lt;ARRcookies.length;i++) { x=ARRcookies[i].substr(0,ARRcookies[i].indexOf(&amp;#34;=&amp;#34;)); y=ARRcookies[i].substr(ARRcookies[i].indexOf(&amp;#34;=&amp;#34;)+1); x=x.replace(/^\s+|\s+$/g,&amp;#34;&amp;#34;); if (x.indexOf(&amp;#34;comment_author&amp;#34;) != -1 &amp;amp;&amp;amp; x.</description>
     </item>
     <item>
       <title>Apache - precompressing static files with gzip</title>
@@ -1620,17 +1622,16 @@ $ mkvmerge -i input_file.mkv File &amp;#39;test.mkv&amp;#39;: container: Matrosk
       <link>https://gagor.pl/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/</link>
       <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/</guid>
-      <description>Some time ago I prepared a PC that was responsible for batch encoding of movies to formats suitable for web players (such as. Video.js, JW Player, Flowplayer, etc.)
+      <description>Some time ago I prepared a PC that was responsible for batch encoding of movies to formats suitable for web players (such as. Video.js&amp;thinsp; external link , JW Player&amp;thinsp; external link , Flowplayer&amp;thinsp; external link , etc.)
 I used HandBrake for conversion to MP4 format (becase this soft was the fastest one) and ffmpeg (aka avconv in new version) for two pass encoding to WEBM.
-Below are commands used by me for that conversion:
-MP4 HandBrakeCLI -e x264 -q 20.</description>
+Below are commands used by me for that conversion:</description>
     </item>
     <item>
       <title>Running Apache with mod_spdy and PHP-FPM</title>
       <link>https://gagor.pl/2013/12/running-apache-with-mod_spdy-and-php-fpm/</link>
       <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/12/running-apache-with-mod_spdy-and-php-fpm/</guid>
-      <description>SPDY is new protocol proposed by Google as an alternative for HTTP(S). Currently Chrome and Firefox browsers are using it as default if available on server. It is faster in most cases by few to several percent. The side effect of using mod_spdy is that it&amp;rsquo;s working well only with thread safe Apache&amp;rsquo;s modules. PHP module for Apache is not thread safe so we need to use PHP as CGI or FastCGI service.</description>
+      <description>SPDY is new protocol proposed by Google as an alternative for HTTP(S). Currently Chrome and Firefox browsers are using it as default if available on server. It is faster in most cases by few to several percent. The side effect of using mod_spdy&amp;thinsp; external link is that it&amp;rsquo;s working well only with thread safe Apache&amp;rsquo;s modules. PHP module for Apache is not thread safe so we need to use PHP as CGI or FastCGI service.</description>
     </item>
     <item>
       <title>Re-adding failed drive in mdadm</title>
@@ -1646,8 +1647,8 @@ What I do:</description>
       <link>https://gagor.pl/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/</link>
       <pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/</guid>
-      <description>I was configuring GlusterFS on few servers using Ansible and have a need to update /etc/hosts with hostnames for easier configuration. I found this one working:
-- name: Update /etc/hosts lineinfile: dest=/etc/hosts regexp=&amp;#39;.*{{item}}$&amp;#39; line=&amp;#39;{{hostvars.{{item}}.ansible_default_ipv4.address}} {{item}}&amp;#39; state=present with_items: &amp;#39;{{groups.somegroup}}&amp;#39; Source: http://xmeblog.blogspot.com/2013/06/ansible-dynamicaly-update-etchosts.html</description>
+      <description>I was configuring GlusterFS on few servers using Ansible&amp;thinsp; external link and have a need to update /etc/hosts with hostnames for easier configuration. I found this one working:
+- name: Update /etc/hosts lineinfile: dest=/etc/hosts regexp=&amp;#39;.*{{item}}$&amp;#39; line=&amp;#39;{{hostvars.{{item}}.ansible_default_ipv4.address}} {{item}}&amp;#39; state=present with_items: &amp;#39;{{groups.somegroup}}&amp;#39; Source: http://xmeblog.blogspot.com/2013/06/ansible-dynamicaly-update-etchosts.html&amp;thinsp; external link </description>
     </item>
     <item>
       <title>Reset user password in your own Ghost Blog</title>
@@ -1731,7 +1732,7 @@ aktualizacja hudsona kończyła się błędem przy starcie usługi, aktualizacja
       <guid>https://gagor.pl/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/</guid>
       <description>Kolejna zabawna sytuacja - pewna aplikacja dotNET&amp;rsquo;owa działała dziwnie na 64-bitowym systemie, a tymczasem na 32-bitowej maszynie ta sama aplikacja działała bez problemów. Jedyna różnica to inne wersje klientów ODBC na tych systemach, które po kilku testach okazały się być przyczyną całego zła.
 Pojawił się pomysł by odpalić aplikacje na 64 bitowym systemie ale w trybie 32 bit - poniżej krótkie HOWTO jak to osiągnąć:
-potrzebujemy narzędzia corflags.exe które pozwoli oznaczyć nam binarkę jako 32-bitową, do pobrania tutaj a instrukcja jej użycia tutaj.</description>
+potrzebujemy narzędzia corflags.exe które pozwoli oznaczyć nam binarkę jako 32-bitową, do pobrania tutaj&amp;thinsp; external link a instrukcja jej użycia tutaj&amp;thinsp; external link .</description>
     </item>
     <item>
       <title>Certyfikaty nazwaSSL na własnym serwerze</title>
@@ -1779,9 +1780,8 @@ python -c &amp;#39;import django; print &amp;#34;.&amp;#34;.join([str(s) for s i
       <link>https://gagor.pl/2013/09/raspberry-pi-pierwsze-kroki/</link>
       <pubDate>Fri, 13 Sep 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/09/raspberry-pi-pierwsze-kroki/</guid>
-      <description>Wyprzeć się nie mogę że gadżety działające na Linuksie po prostu mnie kręcą, więc tylko kwestią czasu było aż Pi zawita na moim biurku. Zakupiłem więc model B w drugiej wersji, obudowę z możliwością mocowania VESA, kabelek HDMI, ładowarka z mojej myszy pasowała idealnie (5.05V i 1A) i na początek karta SD klasa 10 4GB.
-Szukając różnych systemów (a może ROM&amp;rsquo;ów) natrafiłem na oficjalną stronę: http://www.raspberrypi.org/downloads
-Na początek wystarczy a sprawdzając na stronach projektów okazało się że wersje na tej stronie są całkiem aktualne.</description>
+      <description>Wyprzeć się nie mogę że gadżety działające na Linuksie po prostu mnie kręcą, więc tylko kwestią czasu było aż Pi zawita na moim biurku. Zakupiłem więc model B w drugiej wersji&amp;thinsp; external link , obudowę z możliwością mocowania VESA&amp;thinsp; external link , kabelek HDMI&amp;thinsp; external link , ładowarka z mojej myszy pasowała idealnie (5.05V i 1A) i na początek karta SD klasa 10 4GB.
+Szukając różnych systemów (a może ROM&amp;rsquo;ów) natrafiłem na oficjalną stronę: http://www.</description>
     </item>
     <item>
       <title>Nginx - przydatne rewrite’y i różne sztuczki</title>
@@ -1797,7 +1797,7 @@ Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego ad
       <link>https://gagor.pl/2013/09/tor-generowanie-milszej-nazwy-dla-hidden-service/</link>
       <pubDate>Mon, 09 Sep 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/09/tor-generowanie-milszej-nazwy-dla-hidden-service/</guid>
-      <description>Chcąc pobawić się tor&amp;rsquo;em postanowiłem udostępnić jedna z moich stron z wykorzystaniem mechanizmu hidden service. Nie spodobał mi się jedynie sposób generowania nazw, które były mało opisowe - ale najwidoczniej nie mnie jednemu, bo szybko namierzyłem Shallot, który generuje kolejne nazwy aż trafi na pasującą do zadanego regexp&amp;rsquo;a.</description>
+      <description>Chcąc pobawić się tor&amp;rsquo;em postanowiłem udostępnić jedna z moich stron z wykorzystaniem mechanizmu hidden service. Nie spodobał mi się jedynie sposób generowania nazw, które były mało opisowe - ale najwidoczniej nie mnie jednemu, bo szybko namierzyłem Shallot&amp;thinsp; external link , który generuje kolejne nazwy aż trafi na pasującą do zadanego regexp&amp;rsquo;a.</description>
     </item>
     <item>
       <title>DFS - sprawdzanie statusu replikacji</title>
@@ -1903,7 +1903,7 @@ Pokażę jak skonfigurować swojego Fortigate&amp;rsquo;a by umożliwić połąc
       <link>https://gagor.pl/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</link>
       <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</guid>
-      <description>On Debian you have to install nginx-extras package (because it have built in headers_more module). Then you need two options (best in global configuration /etc/nginx/nginx.conf file, http part):
+      <description>On Debian you have to install nginx-extras package (because it have built in headers_more&amp;thinsp; external link module). Then you need two options (best in global configuration /etc/nginx/nginx.conf file, http part):
 server_tokens off; more_set_headers &amp;#39;Server: BadAss&amp;#39;; And it&amp;rsquo;s good to setup non standard error pages on every site (500 and 404 at minimum):
 error_page 403 404 http://mysite.com/areyoulost; error_page 502 503 504 /500.html; </description>
     </item>
@@ -1953,7 +1953,7 @@ A leci to mniej więcej tak:
       <link>https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</link>
       <pubDate>Mon, 17 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</guid>
-      <description>Ruski serwer WWW ma przydatną funkcję serwowania wersji plików skompresowanych gzip&amp;rsquo;em - przez co możemy plik skompresować raz i będzie on serwowany klientom obsługującym kompresję HTTP ale już bez każdorazowego kompresowania go. Jest to bardzo przydatne na stronach z dużym ruchem gdzie można w ten sposób zaoszczędzić takty CPU na właściwą obsługę połączeń a nie kompresję. Drugie miejsce gdzie może to być przydatne to VPS&amp;rsquo;y i &amp;ldquo;cienkie&amp;rdquo; serwery, które na kompresji przy większym obciążeniu spędzają zbyt dużo czasu i daje się to odczuć w działaniu strony.</description>
+      <description>Ruski serwer WWW&amp;thinsp; external link ma przydatną funkcję serwowania wersji plików skompresowanych gzip&amp;rsquo;em - przez co możemy plik skompresować raz i będzie on serwowany klientom obsługującym kompresję HTTP ale już bez każdorazowego kompresowania go. Jest to bardzo przydatne na stronach z dużym ruchem gdzie można w ten sposób zaoszczędzić takty CPU na właściwą obsługę połączeń a nie kompresję. Drugie miejsce gdzie może to być przydatne to VPS&amp;rsquo;y i &amp;ldquo;cienkie&amp;rdquo; serwery, które na kompresji przy większym obciążeniu spędzają zbyt dużo czasu i daje się to odczuć w działaniu strony.</description>
     </item>
     <item>
       <title>Apache: mod_authnz_ldap z Active Directory</title>
@@ -2002,7 +2002,7 @@ apt-get install ldap-utils Teraz możemy próbować przeszukiwać katalog np.</d
       <pubDate>Thu, 08 Nov 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/11/automatically-compact-couchdb-databases-in-0-11-x/</guid>
       <description>CouchDB databases on version 0.11.x swell very fast. They should be compacted daily for best performance and space usage. Here is my script that could be run in cron and will compact all databases:
-#!/bin/bash IP=&amp;#34;10.0.0.121&amp;#34; DBS=`curl -sS -X GET http://$IP:5984/_all_dbs | sed -r &amp;#34;s/([,\&amp;#34;[])|(\])+/ /g&amp;#34;` for d in $DBS; do curl -H &amp;#34;Content-Type: application/json&amp;#34; -X POST http://$IP:5984/$d/_compact done More informations about compacting could be found here (also for version 1.</description>
+#!/bin/bash IP=&amp;#34;10.0.0.121&amp;#34; DBS=`curl -sS -X GET http://$IP:5984/_all_dbs | sed -r &amp;#34;s/([,\&amp;#34;[])|(\])+/ /g&amp;#34;` for d in $DBS; do curl -H &amp;#34;Content-Type: application/json&amp;#34; -X POST http://$IP:5984/$d/_compact done More informations about compacting could be found here&amp;thinsp; external link (also for version 1.</description>
     </item>
     <item>
       <title>Hybrid Rainbow DB</title>
@@ -2067,7 +2067,7 @@ Jest to system statystyk aspirujący do bycia Open Source&amp;rsquo;ową alterna
       <link>https://gagor.pl/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</link>
       <pubDate>Tue, 25 Sep 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</guid>
-      <description>Co prawda adresy URL pozwalają na stosowanie zarówno dużych jak i małych liter ale różne systemy mogą je różnie obsługiwać i może się trafić sytuacja, w której nie zechcemy by np. duże litery w ogóle pojawiały się w adresach URL. Doskonały przykład to mój niedawny wpis: Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic.
+      <description>Co prawda adresy URL pozwalają na stosowanie zarówno dużych jak i małych liter ale różne systemy mogą je różnie obsługiwać i może się trafić sytuacja, w której nie zechcemy by np. duże litery w ogóle pojawiały się w adresach URL. Doskonały przykład to mój niedawny wpis: Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic .
 Zachodzi tam sytuacja, w której katalog użytkownika jest jego loginem małymi literami (bądź dużymi - jak kto woli), a użytkownik wpisując login może użyć zarówno małych jak i dużych liter i tutaj zaczyna się jazda.</description>
     </item>
     <item>
@@ -2144,8 +2144,8 @@ sudo touch /forcefsck Polecenie shutdown Druga metoda wykorzystuje parametr -F p
       <guid>https://gagor.pl/2012/09/moje-ulubione-aplikacje-na-androida/</guid>
       <description>Znajomi co jakiś czas pytają mnie: jak nazywa się ta aplikacja, którą masz na telefonie do&amp;hellip;? Z jakiego programu do poczty korzystasz na tel&amp;hellip;? itd&amp;hellip;
 Pytacie - więc macie &amp;#x1f603;
-DGT GTD Bardzo przydatna lista TODO. Stworzona z myślą o metodzie Getting Things Done i bardzo ułatwia pamiętanie u różnych zadaniach. Posiada też bardzo wygodny widżet, na którym możemy podglądnąć nasze najbliższe zadania.
-Opera Mini Wbudowana przeglądarka jest niezła, ale Opera Mini kompresuje mocno strony wykorzystując pośredniczące serwery proxy co znacznie obniża koszty transmisji danych.</description>
+DGT GTD&amp;thinsp; external link Bardzo przydatna lista TODO. Stworzona z myślą o metodzie Getting Things Done i bardzo ułatwia pamiętanie u różnych zadaniach. Posiada też bardzo wygodny widżet, na którym możemy podglądnąć nasze najbliższe zadania.
+Opera Mini&amp;thinsp; external link Wbudowana przeglądarka jest niezła, ale Opera Mini kompresuje mocno strony wykorzystując pośredniczące serwery proxy co znacznie obniża koszty transmisji danych.</description>
     </item>
     <item>
       <title>Montowanie partycji z obrazu dysku</title>
@@ -2176,9 +2176,9 @@ Ponieważ serwerek, na którym działa stronka to sprzęcik z Atomem 330 i mocy 
       <link>https://gagor.pl/2012/06/xen-podstawowe-polecenia/</link>
       <pubDate>Tue, 19 Jun 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/06/xen-podstawowe-polecenia/</guid>
-      <description>Pisałem już HOWTO o konfiguracji Xen&amp;rsquo;a ale nie opisałem jak się bawić wirtualkami gdy Xen&amp;rsquo;a już mamy. To nadrabiam.
+      <description>Pisałem już HOWTO o konfiguracji Xen&amp;rsquo;a ale nie opisałem jak się bawić wirtualkami gdy Xen&amp;rsquo;a już mamy. To nadrabiam.
 Tworzenie i usuwanie maszyn wirtualnych Do tworzenia/niszczenia DomU wykorzystuję pakiet xen-tools dostarczający m.in. dwa narzędzia:
-xen-create - dla którego przygotowałem dość skomplikowaną konfigurację przy okazji wcześniejszego posta: Instalacja i konfiguracja DomU. Przykład użycia: xen-create --hostname example-domu --ip 10.0.0.77 \ --gateway 10.0.0.1 --broadcast 10.0.0.255 --netmask 255.255.255.0 \ --bridge br10 --vcpus 2 --memory=2G xen-delete-image - narzędzie do kasowania wirtualnych maszyn.</description>
+xen-create - dla którego przygotowałem dość skomplikowaną konfigurację przy okazji wcześniejszego posta: Instalacja i konfiguracja DomU&amp;thinsp; external link . Przykład użycia: xen-create --hostname example-domu --ip 10.0.0.77 \ --gateway 10.0.0.1 --broadcast 10.0.0.255 --netmask 255.255.255.0 \ --bridge br10 --vcpus 2 --memory=2G xen-delete-image - narzędzie do kasowania wirtualnych maszyn.</description>
     </item>
     <item>
       <title>Nginx - ustawienie domyślnego vhosta</title>
@@ -2193,9 +2193,7 @@ xen-create - dla którego przygotowałem dość skomplikowaną konfigurację 
       <pubDate>Mon, 18 Jun 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/06/xen-konfiguracja-interfejsu-sieciowego-dom0-jako-brdigea-dla-roznych-vlanow/</guid>
       <description>VLAN&amp;rsquo;y są prostą metodą na separację sieci. Gdy mamy wiele sieci może zajść potrzeba by poszczególne DomU miały dostęp do różnych VLAN&amp;rsquo;ów (czasem nawet wielu równocześnie). Jeżeli serwer z Dom0 posiada minimum giga-bitową kartę sieciową (a najlepiej kilka) to powinniśmy być w stanie z godziwą jakością udostępnić systemom DomU różne VLAN&amp;rsquo;y z interfejsów gospodarza.
-Zaprezentowane poniżej skrypty zapożyczyłem z tej strony: http://renial.net/weblog/2007/02/27/xen-vlan
-Na początek musimy zainstalować pakiet vlan:
-apt-get install vlan Później w pliku /etc/xen/xend-config.</description>
+Zaprezentowane poniżej skrypty zapożyczyłem z tej strony: http://renial.net/weblog/2007/02/27/xen-vlan&amp;thinsp; external link Na początek musimy zainstalować pakiet vlan:</description>
     </item>
     <item>
       <title>Apache - reverse proxy z cache’owaniem</title>
@@ -2277,7 +2275,7 @@ mkdir /etc/xen/auto ln -s /etc/xen/example.cfg /etc/xen/auto/example.cfg Od tera
       <link>https://gagor.pl/2012/02/xen-na-squeeze-instalowanie-i-konfiguracja-hostow-gosci-domu/</link>
       <pubDate>Fri, 24 Feb 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/02/xen-na-squeeze-instalowanie-i-konfiguracja-hostow-gosci-domu/</guid>
-      <description>Ostatnio pisałem o konfiguracji Dom0 - dzisiaj napiszę o uruchamianiu DomU.
+      <description>Ostatnio pisałem o konfiguracji Dom0&amp;thinsp; external link - dzisiaj napiszę o uruchamianiu DomU.
 Do instalacji DomU wykorzystuję skrypty z pakietu xen-tools, można go zainstalować poleceniem:
 apt-get install xen-tools Oczywiście aby wszystko działało fajnie musimy ustawić kilka domyślnych opcji, robimy to edytując plik /etc/xen-tools/xen-tools.conf. Lecimy po kolei:
 # Virtual machine disks are created as logical volumes in # volume group &amp;#39;universe&amp;#39; (hint: LVM storage is much faster # than file) lvm = universe Osobiście korzystam z LVM&amp;rsquo;a który zgodnie z hint&amp;rsquo;em jest znacznie szybszy od plików obrazów.</description>
@@ -2302,7 +2300,7 @@ Składniki 1 duża kaczka (2-2,5 kg) 4 ząbki czosnku 1 kg jabłek (w zależnoś
       <link>https://gagor.pl/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</link>
       <pubDate>Tue, 24 Jan 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</guid>
-      <description>Jakiś czas temu korzystałem z preload&amp;rsquo;a który sam uczył się jakie aplikacje odpalam i te programy ładował już podczas startu - przeważnie nieco spowalnia to start systemu ale gdy już się załaduje to programy, które uruchamiam jako pierwsze startują &amp;ldquo;z kopa&amp;rdquo;. Od jakiegoś czasu popularniejszy jest instalowany domyślnie w Ubuntu ureadahead - pełni on podobną funkcję jak preload.
+      <description>Jakiś czas temu korzystałem z preload&amp;rsquo;a&amp;thinsp; external link który sam uczył się jakie aplikacje odpalam i te programy ładował już podczas startu - przeważnie nieco spowalnia to start systemu ale gdy już się załaduje to programy, które uruchamiam jako pierwsze startują &amp;ldquo;z kopa&amp;rdquo;. Od jakiegoś czasu popularniejszy jest instalowany domyślnie w Ubuntu ureadahead - pełni on podobną funkcję jak preload.
 Można zmusić ureadahead do ponownego wygenerowania nowej listy programów wczytywanych przy starcie do cache a oto jak zrobić:</description>
     </item>
     <item>
@@ -2325,8 +2323,8 @@ Taki objaw przeważnie jest skutkiem problemów z działaniem DNS&amp;rsquo;a po
       <link>https://gagor.pl/2012/01/sniffowanie-w-fortios/</link>
       <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/01/sniffowanie-w-fortios/</guid>
-      <description>Zawsze gdy potrzebuję zesniffować coś na żywo na Fortigate&amp;rsquo;ach muszę przeszukać Knowledge Base by przypomnieć sobie wszystkie polecenia do tego potrzebne. Tym razem robię notatki &amp;#x1f603;
-Sniffowanie diagnose debug enable diagnose debug flow filter addr ip address clear clear filter daddr dest ip address dport destination port negate inverse filter port port proto protocol number saddr source ip address sport source port vd index of virtual domain # np. diagnose debug flow filter saddr 10.</description>
+      <description>Zawsze gdy potrzebuję zesniffować coś na żywo na Fortigate&amp;rsquo;ach muszę przeszukać Knowledge Base&amp;thinsp; external link by przypomnieć sobie wszystkie polecenia do tego potrzebne. Tym razem robię notatki &amp;#x1f603;
+Sniffowanie diagnose debug enable diagnose debug flow filter addr ip address clear clear filter daddr dest ip address dport destination port negate inverse filter port port proto protocol number saddr source ip address sport source port vd index of virtual domain # np.</description>
     </item>
     <item>
       <title>Upgrade Debian Lenny do Squeeze</title>
@@ -2415,7 +2413,7 @@ By poradzić sobie z tym problemem trzeba na serwerze reverse proxy ustawić prz
       <guid>https://gagor.pl/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</guid>
       <description>Przez pewien czas korzystałem z eAcceleratora do przyspieszenia działania stron pisanych w PHP&amp;rsquo;ie ale czasem bywał niestabilny. Aktualizacje pojawiały się rzadko a od czasu do czasu miewałem problemy ze stabilnością tej wtyczki na kilku bardziej skomplikowanych aplikacjach. Zdarzało się że pomimo zmiany kodu w skrypcie php, eAccelerator serwował wciąż stary plik - konieczny był restart Apache&amp;rsquo;go by wszystko działało jak trzeba.
 Zacząłem szukać alternatywy i trafiłem na dwa moduły:
-APC (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w PHP od wersji 5.</description>
+APC&amp;thinsp; external link (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w PHP od wersji 5.</description>
     </item>
     <item>
       <title>SLES 11 - instalacja Service Pack’a</title>
@@ -2478,7 +2476,7 @@ Na szczęście można to zrobić w prosty sposób:</description>
       <link>https://gagor.pl/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</link>
       <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</guid>
-      <description>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.</description>
+      <description>Od jakiegoś czasu dostępny jest w sieci skrypt slowloris.pl&amp;thinsp; external link pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.</description>
     </item>
     <item>
       <title>Sprawdzenie który proces obciąża dyski</title>
@@ -2513,8 +2511,7 @@ Rozwiązaniem tego problemu może być instalacja pakietów z testowej gałęzi
       <guid>https://gagor.pl/2011/08/optymalizacja-php-z-eacceleratorem/</guid>
       <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy &amp;#x1f603;
 Niestety nie ma go w repozytoriach Debiana, więc trzeba go sobie skompilować - cały proces jest dość prosty. Zaczynamy od pobrania najświeższej paczki, obecnie jest to wersja 0.9.5.3:
-Pobierz eAccelerator (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)
-Pobieramy i rozpakowujemy pliki:</description>
+Pobierz eAccelerator&amp;thinsp; external link (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)</description>
     </item>
     <item>
       <title>Statystyki odwiedzin dla wielu serwisów z AWStats</title>

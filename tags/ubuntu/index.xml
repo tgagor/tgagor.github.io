@@ -15,7 +15,7 @@
       <link>https://gagor.pl/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</guid>
-      <description>TL;DR If you&amp;rsquo;re not interested in the &amp;ldquo;story of my life&amp;rdquo;, go directly to &amp;ldquo;Tuning PipeWire&amp;rdquo; section.
+      <description>TL;DR If you&amp;rsquo;re not interested in the &amp;ldquo;story of my life&amp;rdquo;, go directly to &amp;ldquo;Tuning PipeWire &amp;rdquo; section.
 I&amp;rsquo;m not an audiophile, but I spent whole days in the headphones and I like when sound sounds good. I like slight bass boost, which adds this kick to the melody, but won&amp;rsquo;t overwhelm me after an hour of listening. I like when high tones are clear, but I get annoyed if they&amp;rsquo;re too strong.</description>
     </item>
     <item>
@@ -32,7 +32,7 @@ W: http://ppa.launchpad.net/yubico/stable/ubuntu/dists/jammy/InRelease: Key is s
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/11/creating-fully-encrypted-zfs-pool/</guid>
       <description>What I want to do? I use my pool to securely store backups, archive my old documents and keep huge family&amp;rsquo;s photo library.
-I have new disks. They were tortured with badblocks, so they&amp;rsquo;re ready to create ZFS pool.
+I have new disks. They were tortured with badblocks , so they&amp;rsquo;re ready to create ZFS pool.
 I&amp;rsquo;ve read few documents about different approaches 1 2 3. I wanted to be sure if anything changed during past years. One of articles recommends mirroring over RAIDZ. Resilvering is faster, at the same time putting IO less stress on whole pool.</description>
     </item>
     <item>
@@ -58,9 +58,8 @@ Install prerequisites:</description>
       <link>https://gagor.pl/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</link>
       <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</guid>
-      <description>From few days I have access to UPC&amp;rsquo;s www.horizon.tv platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it&amp;rsquo;s working pretty well - you&amp;rsquo;re just few commands away from achieving that:
-# stop browser killall firefox # remove old version if you have it sudo apt-get remove pipelight Now configure repos and install packages:
-sudo apt-add-repository ppa:pipelight/stable sudo apt-get update sudo apt-get install --install-recommends pipelight-multi sudo pipelight-plugin --update Enable plugin (run it with sudo for system wide installation):</description>
+      <description>From few days I have access to UPC&amp;rsquo;s www.horizon.tv&amp;thinsp; external link platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it&amp;rsquo;s working pretty well - you&amp;rsquo;re just few commands away from achieving that:
+# stop browser killall firefox # remove old version if you have it sudo apt-get remove pipelight Now configure repos and install packages:</description>
     </item>
     <item>
       <title>Grafana - installation and configuraton with InfluxDB and CollectD on Debian/Ubuntu</title>
@@ -96,7 +95,7 @@ Installation of collectd is easy on Debian because packages are in default repo.
       <guid>https://gagor.pl/2015/12/extract-password-saved-in-remmina/</guid>
       <description>I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in .remmina directory.
 Then I used this script to the decrypt them 1:
-Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&amp;thinsp; external link &amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
       <title>Copy GTP partiotion table between disks</title>
@@ -123,9 +122,8 @@ apt-get install adobe-flashplugin:i386 After Ubuntu upgrade I was unable to run 
       <link>https://gagor.pl/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</link>
       <pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</guid>
-      <description>I love Shotwell for it&amp;rsquo;s simplicity and easy export to Piwigo. After Christmas I added new photos to my library but after that I made some modifications to them (red eye reduction, etc&amp;hellip;). Because Shotwell generate thumbnails only on import, all my modifications were not visible on preview.
-I&amp;rsquo;ve started searching how to regenerate thumbs and found this info. There were two issues with this method:
-this howto was for old version (with old paths) and only for 128px thumbs I definitely don&amp;rsquo;t want to regenerate thumbnails for 40k photos!</description>
+      <description>I love Shotwell&amp;thinsp; external link for it&amp;rsquo;s simplicity and easy export to Piwigo&amp;thinsp; external link . After Christmas I added new photos to my library but after that I made some modifications to them (red eye reduction, etc&amp;hellip;). Because Shotwell generate thumbnails only on import, all my modifications were not visible on preview.
+I&amp;rsquo;ve started searching how to regenerate thumbs and found this info&amp;thinsp; external link . There were two issues with this method:</description>
     </item>
     <item>
       <title>Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04</title>

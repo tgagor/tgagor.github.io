@@ -40,9 +40,9 @@ I wtedy przypomniało mi się narzędzie netcat - zrobiłem snapshoty wolumenów
       <link>https://gagor.pl/2012/06/xen-podstawowe-polecenia/</link>
       <pubDate>Tue, 19 Jun 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/06/xen-podstawowe-polecenia/</guid>
-      <description>Pisałem już HOWTO o konfiguracji Xen&amp;rsquo;a ale nie opisałem jak się bawić wirtualkami gdy Xen&amp;rsquo;a już mamy. To nadrabiam.
+      <description>Pisałem już HOWTO o konfiguracji Xen&amp;rsquo;a ale nie opisałem jak się bawić wirtualkami gdy Xen&amp;rsquo;a już mamy. To nadrabiam.
 Tworzenie i usuwanie maszyn wirtualnych Do tworzenia/niszczenia DomU wykorzystuję pakiet xen-tools dostarczający m.in. dwa narzędzia:
-xen-create - dla którego przygotowałem dość skomplikowaną konfigurację przy okazji wcześniejszego posta: Instalacja i konfiguracja DomU. Przykład użycia: xen-create --hostname example-domu --ip 10.0.0.77 \ --gateway 10.0.0.1 --broadcast 10.0.0.255 --netmask 255.255.255.0 \ --bridge br10 --vcpus 2 --memory=2G xen-delete-image - narzędzie do kasowania wirtualnych maszyn.</description>
+xen-create - dla którego przygotowałem dość skomplikowaną konfigurację przy okazji wcześniejszego posta: Instalacja i konfiguracja DomU&amp;thinsp; external link . Przykład użycia: xen-create --hostname example-domu --ip 10.0.0.77 \ --gateway 10.0.0.1 --broadcast 10.0.0.255 --netmask 255.255.255.0 \ --bridge br10 --vcpus 2 --memory=2G xen-delete-image - narzędzie do kasowania wirtualnych maszyn.</description>
     </item>
     <item>
       <title>Xen - Konfiguracja interfejsu sieciowego Dom0 jako brdige’a dla VLAN’ów</title>
@@ -50,9 +50,7 @@ xen-create - dla którego przygotowałem dość skomplikowaną konfigurację 
       <pubDate>Mon, 18 Jun 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/06/xen-konfiguracja-interfejsu-sieciowego-dom0-jako-brdigea-dla-roznych-vlanow/</guid>
       <description>VLAN&amp;rsquo;y są prostą metodą na separację sieci. Gdy mamy wiele sieci może zajść potrzeba by poszczególne DomU miały dostęp do różnych VLAN&amp;rsquo;ów (czasem nawet wielu równocześnie). Jeżeli serwer z Dom0 posiada minimum giga-bitową kartę sieciową (a najlepiej kilka) to powinniśmy być w stanie z godziwą jakością udostępnić systemom DomU różne VLAN&amp;rsquo;y z interfejsów gospodarza.
-Zaprezentowane poniżej skrypty zapożyczyłem z tej strony: http://renial.net/weblog/2007/02/27/xen-vlan
-Na początek musimy zainstalować pakiet vlan:
-apt-get install vlan Później w pliku /etc/xen/xend-config.</description>
+Zaprezentowane poniżej skrypty zapożyczyłem z tej strony: http://renial.net/weblog/2007/02/27/xen-vlan&amp;thinsp; external link Na początek musimy zainstalować pakiet vlan:</description>
     </item>
     <item>
       <title>Xen - ustawienie autostartu DomU</title>
@@ -75,7 +73,7 @@ mkdir /etc/xen/auto ln -s /etc/xen/example.cfg /etc/xen/auto/example.cfg Od tera
       <link>https://gagor.pl/2012/02/xen-na-squeeze-instalowanie-i-konfiguracja-hostow-gosci-domu/</link>
       <pubDate>Fri, 24 Feb 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/02/xen-na-squeeze-instalowanie-i-konfiguracja-hostow-gosci-domu/</guid>
-      <description>Ostatnio pisałem o konfiguracji Dom0 - dzisiaj napiszę o uruchamianiu DomU.
+      <description>Ostatnio pisałem o konfiguracji Dom0&amp;thinsp; external link - dzisiaj napiszę o uruchamianiu DomU.
 Do instalacji DomU wykorzystuję skrypty z pakietu xen-tools, można go zainstalować poleceniem:
 apt-get install xen-tools Oczywiście aby wszystko działało fajnie musimy ustawić kilka domyślnych opcji, robimy to edytując plik /etc/xen-tools/xen-tools.conf. Lecimy po kolei:
 # Virtual machine disks are created as logical volumes in # volume group &amp;#39;universe&amp;#39; (hint: LVM storage is much faster # than file) lvm = universe Osobiście korzystam z LVM&amp;rsquo;a który zgodnie z hint&amp;rsquo;em jest znacznie szybszy od plików obrazów.</description>

@@ -15,8 +15,8 @@
       <link>https://gagor.pl/2016/02/wordpress-with-hyperdb-on-php-7-0/</link>
       <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/wordpress-with-hyperdb-on-php-7-0/</guid>
-      <description>I was configuring WordPress with HyperDB plugin on PHP 7.0 but the only I get were constant 500 errors. As I found here PHP 7.0 is not supported by HyperDB for now - it&amp;rsquo;s rely on mysql php extension but in PHP 7.0 there is only mysqli extension. But few folks fixed it and it&amp;rsquo;s possible to use it.
-curl -O https://raw.githubusercontent.com/soulseekah/hyperdb-mysqli/master/db.php mv db.php /var/www/wordpress/wp-content/ And configure it ex. like this:</description>
+      <description>I was configuring WordPress with HyperDB&amp;thinsp; external link plugin on PHP 7.0 but the only I get were constant 500 errors. As I found here&amp;thinsp; external link PHP 7.0 is not supported by HyperDB for now - it&amp;rsquo;s rely on mysql php extension but in PHP 7.0 there is only mysqli extension. But few folks fixed it and it&amp;rsquo;s possible to use it.
+curl -O https://raw.githubusercontent.com/soulseekah/hyperdb-mysqli/master/db.php mv db.php /var/www/wordpress/wp-content/ And configure it ex.</description>
     </item>
     <item>
       <title>Apache - Force caching dynamic PHP content with mod_headers</title>
@@ -24,14 +24,14 @@ curl -O https://raw.githubusercontent.com/soulseekah/hyperdb-mysqli/master/db.ph
       <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</guid>
       <description>Normally you want dynamic content to be fresh and not catchable. But sometimes it may be useful to cache it, like when you have website behind reverse proxy. To do this try something like this:
-&amp;lt;filesmatch &amp;#34;\.(php|cgi|pl)$&amp;#34;&amp;gt; Header unset Pragma Header unset Expires Header set Cache-Control &amp;#34;max-age=3600, public&amp;#34; &amp;lt;/filesmatch&amp;gt; Sources http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html</description>
+&amp;lt;filesmatch &amp;#34;\.(php|cgi|pl)$&amp;#34;&amp;gt; Header unset Pragma Header unset Expires Header set Cache-Control &amp;#34;max-age=3600, public&amp;#34; &amp;lt;/filesmatch&amp;gt; Sources http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html&amp;thinsp; external link </description>
     </item>
     <item>
       <title>Running Apache with mod_spdy and PHP-FPM</title>
       <link>https://gagor.pl/2013/12/running-apache-with-mod_spdy-and-php-fpm/</link>
       <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2013/12/running-apache-with-mod_spdy-and-php-fpm/</guid>
-      <description>SPDY is new protocol proposed by Google as an alternative for HTTP(S). Currently Chrome and Firefox browsers are using it as default if available on server. It is faster in most cases by few to several percent. The side effect of using mod_spdy is that it&amp;rsquo;s working well only with thread safe Apache&amp;rsquo;s modules. PHP module for Apache is not thread safe so we need to use PHP as CGI or FastCGI service.</description>
+      <description>SPDY is new protocol proposed by Google as an alternative for HTTP(S). Currently Chrome and Firefox browsers are using it as default if available on server. It is faster in most cases by few to several percent. The side effect of using mod_spdy&amp;thinsp; external link is that it&amp;rsquo;s working well only with thread safe Apache&amp;rsquo;s modules. PHP module for Apache is not thread safe so we need to use PHP as CGI or FastCGI service.</description>
     </item>
     <item>
       <title>GearmanManager: wygodne zarządzanie workerami</title>
@@ -72,7 +72,7 @@ max_input_vars = 3000 suhosin.post.max_vars = 3000 suhosin.request.max_vars = 30
       <guid>https://gagor.pl/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</guid>
       <description>Przez pewien czas korzystałem z eAcceleratora do przyspieszenia działania stron pisanych w PHP&amp;rsquo;ie ale czasem bywał niestabilny. Aktualizacje pojawiały się rzadko a od czasu do czasu miewałem problemy ze stabilnością tej wtyczki na kilku bardziej skomplikowanych aplikacjach. Zdarzało się że pomimo zmiany kodu w skrypcie php, eAccelerator serwował wciąż stary plik - konieczny był restart Apache&amp;rsquo;go by wszystko działało jak trzeba.
 Zacząłem szukać alternatywy i trafiłem na dwa moduły:
-APC (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w PHP od wersji 5.</description>
+APC&amp;thinsp; external link (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w PHP od wersji 5.</description>
     </item>
     <item>
       <title>JPGraph, wykresy z PHP’a</title>
@@ -91,8 +91,7 @@ CREATE TABLE wizyty ( pid serial NOT NULL, &amp;#34;data&amp;#34; date NOT NULL 
       <guid>https://gagor.pl/2011/08/optymalizacja-php-z-eacceleratorem/</guid>
       <description>Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy &amp;#x1f603;
 Niestety nie ma go w repozytoriach Debiana, więc trzeba go sobie skompilować - cały proces jest dość prosty. Zaczynamy od pobrania najświeższej paczki, obecnie jest to wersja 0.9.5.3:
-Pobierz eAccelerator (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)
-Pobieramy i rozpakowujemy pliki:</description>
+Pobierz eAccelerator&amp;thinsp; external link (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)</description>
     </item>
     <item>
       <title>Klastrowanie sesji PHP z memcached</title>

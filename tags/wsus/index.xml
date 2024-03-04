@@ -26,7 +26,7 @@ After googling for some time I found one command that solved my problems by swit
       <guid>https://gagor.pl/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</guid>
       <description>After connecting few computers with Windows 8.1 to domain we found that these computers are not recognized or recognized as Windows 6.3 (which is true) on WSUS 3.0 running on Windows Server 2008. The bad thing was that they can&amp;rsquo;t properly report to WSUS and get updates from it.
 I found that there are two updates that have to be installed (but they&amp;rsquo;re not working without additional steps):
-http://support.microsoft.com/kb/2720211 http://support.microsoft.com/kb/2734608 After installation of second update there are two additional steps that have to be performed to get WSUS working:</description>
+http://support.microsoft.com/kb/2720211&amp;thinsp; external link http://support.</description>
     </item>
   </channel>
 </rss>

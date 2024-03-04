@@ -8,8 +8,17 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Thu, 11 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pl/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimizing Hugo static site redirects with Cloudflare Pages</title>
+      <link>https://gagor.pl/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pl/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</guid>
+      <description>I used to utilize GitHub Pages to serve static content for my blog. I secured it behind Cloudflare to employ a custom domain and automate HTTPS certificate management. Additionally, I utilized a few Page Rules to implement redirects:
+From www.* to non-www, From HTTP to HTTPS, And for some SEO renaming. Unfortunately, in the Free plan from Cloudflare, you are limited to:
+3 Page Rules (with simple glob matching), 10 Transformation Rules (no regex rules), 10 Redirect Rules (no regex).</description>
+    </item>
     <item>
       <title>Maximizing page performance and security with Cloudflare tuning</title>
       <link>https://gagor.pl/2024/01/maximizing-page-performance-and-security-with-cloudflare-tuning/</link>
@@ -17,9 +26,8 @@
       <guid>https://gagor.pl/2024/01/maximizing-page-performance-and-security-with-cloudflare-tuning/</guid>
       <description>Info
 I use free tier of Cloudflare and all recommendations assume only those are available.
-Why to cache statically generated blog? My Blog is statically generated website served from Github Pages. As Github don&amp;rsquo;t allow to easily set my own domain (at least in free version), I needed some kind of proxy that:
-can serve page from my domain, will provide valid certificate for HTTPS. Info
-I know HTTPS for static site is a non-sense, but to keep it performant with HTTP/2 and HTTP/3 - you need it.</description>
+Why to cache statically generated blog? My Blog is statically generated website served from Github Pages&amp;thinsp; external link . As Github don&amp;rsquo;t allow to easily set my own domain (at least in free version), I needed some kind of proxy that:
+can serve page from my domain, will provide valid certificate for HTTPS. Info</description>
     </item>
     <item>
       <title>Prepare for DoS like Cloudflare do</title>

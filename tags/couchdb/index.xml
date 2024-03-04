@@ -16,7 +16,7 @@
       <pubDate>Thu, 08 Nov 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2012/11/automatically-compact-couchdb-databases-in-0-11-x/</guid>
       <description>CouchDB databases on version 0.11.x swell very fast. They should be compacted daily for best performance and space usage. Here is my script that could be run in cron and will compact all databases:
-#!/bin/bash IP=&amp;#34;10.0.0.121&amp;#34; DBS=`curl -sS -X GET http://$IP:5984/_all_dbs | sed -r &amp;#34;s/([,\&amp;#34;[])|(\])+/ /g&amp;#34;` for d in $DBS; do curl -H &amp;#34;Content-Type: application/json&amp;#34; -X POST http://$IP:5984/$d/_compact done More informations about compacting could be found here (also for version 1.</description>
+#!/bin/bash IP=&amp;#34;10.0.0.121&amp;#34; DBS=`curl -sS -X GET http://$IP:5984/_all_dbs | sed -r &amp;#34;s/([,\&amp;#34;[])|(\])+/ /g&amp;#34;` for d in $DBS; do curl -H &amp;#34;Content-Type: application/json&amp;#34; -X POST http://$IP:5984/$d/_compact done More informations about compacting could be found here&amp;thinsp; external link (also for version 1.</description>
     </item>
     <item>
       <title>CouchDB - Instalacja i wstępna konfiguracja</title>

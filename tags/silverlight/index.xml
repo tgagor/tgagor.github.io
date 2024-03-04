@@ -15,9 +15,8 @@
       <link>https://gagor.pl/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</link>
       <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</guid>
-      <description>From few days I have access to UPC&amp;rsquo;s www.horizon.tv platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it&amp;rsquo;s working pretty well - you&amp;rsquo;re just few commands away from achieving that:
-# stop browser killall firefox # remove old version if you have it sudo apt-get remove pipelight Now configure repos and install packages:
-sudo apt-add-repository ppa:pipelight/stable sudo apt-get update sudo apt-get install --install-recommends pipelight-multi sudo pipelight-plugin --update Enable plugin (run it with sudo for system wide installation):</description>
+      <description>From few days I have access to UPC&amp;rsquo;s www.horizon.tv&amp;thinsp; external link platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it&amp;rsquo;s working pretty well - you&amp;rsquo;re just few commands away from achieving that:
+# stop browser killall firefox # remove old version if you have it sudo apt-get remove pipelight Now configure repos and install packages:</description>
     </item>
   </channel>
 </rss>

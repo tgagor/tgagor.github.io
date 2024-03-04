@@ -15,7 +15,7 @@
       <link>https://gagor.pl/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</guid>
-      <description>I&amp;rsquo;ve been writing recently about best practices for patching and deprecating Docker images, but today I want to show how to automate a huge part of this process.
+      <description>I&amp;rsquo;ve been writing recently about best practices for patching and deprecating Docker images , but today I want to show how to automate a huge part of this process.
 You might already hear about Dependabot1, it&amp;rsquo;s a Github&amp;rsquo;s way to notify developers about security vulnerabilities in their projects. Renovate2 is similar tool3, but doesn&amp;rsquo;t require Github. For my professional work I use Bitbucket, so Renovate feels more universal as can be used anywhere.</description>
     </item>
     <item>
@@ -50,14 +50,14 @@ Enforce platform for all commands export DOCKER_DEFAULT_PLATFORM=linux/amd64 Wit
       <guid>https://gagor.pl/2023/04/the-best-way-to-get-nvm-working-in-ci/cd-systems/</guid>
       <description>TL;DR While reasoning is important, readers may not be interested in all the frustrations I experienced while figuring out how to get things done. If you&amp;rsquo;re looking for a quick solution, skip to the &amp;ldquo;What eventually worked?&amp;rdquo; section. However, if you&amp;rsquo;re interested in the thought process behind the solution, keep reading.
 Why? Some might bother why the hell I&amp;rsquo;d like to make my life so hard? &amp;#x1f923;
-We used to use nodeenv for that purpose.</description>
+We used to use nodeenv&amp;thinsp; external link for that purpose.</description>
     </item>
     <item>
       <title>Change configuration of Docker daemon in Rancher Desktop</title>
       <link>https://gagor.pl/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</guid>
-      <description>I switched recently from Docker Desktop on my MacBook to Rancher Desktop. The most important reason for me to do it, was possibility to gently switch between docker and containerd runtimes.
+      <description>I switched recently from Docker Desktop&amp;thinsp; external link on my MacBook to Rancher Desktop&amp;thinsp; external link . The most important reason for me to do it, was possibility to gently switch between docker and containerd runtimes.
 There&amp;rsquo;s still one feature that I miss on Rancher Desktop - possibility to change Docker daemon configuration. I used to enable experimental features1 and BuildKit2. Sadly, there&amp;rsquo;s no easy way to do it on Rancher&amp;hellip; But there&amp;rsquo;s a magical way3.</description>
     </item>
     <item>
@@ -92,18 +92,17 @@ As it&amp;rsquo;s often my daily job to prepare best in class containers, that a
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2022/06/back-on-the-big-stage/</guid>
       <description>I&amp;rsquo;m back on the big stage!
-I haven&amp;rsquo;t attend any big conferences as presenter for some time, but this year will change it. I&amp;rsquo;m starting big, with a talk: Docker base images - Ideas how to manage them on scale on Devoxx conference in Kraków, that will take place on 22-24th June 2022.
+I haven&amp;rsquo;t attend any big conferences as presenter for some time, but this year will change it. I&amp;rsquo;m starting big, with a talk: Docker base images - Ideas how to manage them on scale&amp;thinsp; external link on Devoxx&amp;thinsp; external link conference in Kraków, that will take place on 22-24th June 2022.
 Want to meet? Meet there &amp;#x1f604;
-Update I uploaded slides from presentation to my Github account.
-There&amp;rsquo;s also a video available: </description>
+Update I uploaded slides from presentation to my Github account&amp;thinsp; external link .</description>
     </item>
     <item>
       <title>Official CentOS 8 Stream Docker image finally available!</title>
       <link>https://gagor.pl/2021/07/official-centos-8-stream-docker-image-finally-available/</link>
       <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/07/official-centos-8-stream-docker-image-finally-available/</guid>
-      <description>Finally, they&amp;rsquo;re available! Wait a moment.. Actually they&amp;rsquo;re available for few months, just nobody published information about moving them to quay.io and dropped poor guys using hub.docker.com without any updates! Yes, that how they did!
-I found new place accidentally, reading some news about CentOS Stream 9 on their blog. There was reference to CentOS 9 Stream dev builds of Docker images and I found &amp;ldquo;missing&amp;rdquo; stream and stream8 tags too.</description>
+      <description>Finally, they&amp;rsquo;re available! Wait a moment.. Actually they&amp;rsquo;re available for few months, just nobody published information about moving them to quay.io&amp;thinsp; external link and dropped poor guys using hub.docker.com&amp;thinsp; external link without any updates! Yes, that how they did!
+I found new place accidentally, reading some news about CentOS Stream 9 on their blog&amp;thinsp; external link . There was reference to CentOS 9 Stream dev builds of Docker images and I found &amp;ldquo;missing&amp;rdquo; stream and stream8 tags too.</description>
     </item>
     <item>
       <title>How to run JMX monitoring in Docker image?</title>
@@ -118,7 +117,7 @@ I found new place accidentally, reading some news about CentOS Stream 9 on their
       <link>https://gagor.pl/2021/02/centos-8-stream-docker-image/</link>
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pl/2021/02/centos-8-stream-docker-image/</guid>
-      <description>We&amp;rsquo;re all divided with recent decision to focus on CentOS Stream, which essentially means that stable, professional distro will turn into rolling release now. Also CentOS board members don&amp;rsquo;t gave us more confidence for the future.
+      <description>We&amp;rsquo;re all divided with recent decision to focus on CentOS Stream&amp;thinsp; external link , which essentially means that stable, professional distro will turn into rolling release now. Also CentOS board members don&amp;rsquo;t gave us more confidence for the future&amp;thinsp; external link .
 I don&amp;rsquo;t want to be totally sceptic, I would like to test it on my own and only then, decide if it&amp;rsquo;s stable enough. But I work mostly with Docker containers and there are no official Docker images with Stream variant.</description>
     </item>
     <item>
