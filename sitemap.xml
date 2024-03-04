@@ -3,7 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gagor.pl/authors/</loc>
-    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/categories/</loc>
+    <lastmod>2024-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/categories/off-topic/</loc>
+    <lastmod>2024-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/posts/</loc>
+    <lastmod>2024-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/seo/</loc>
+    <lastmod>2024-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/2024/03/seo-kicks-my-stats/</loc>
+    <lastmod>2024-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/tags/</loc>
+    <lastmod>2024-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/authors/timor/</loc>
+    <lastmod>2024-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pl/</loc>
+    <lastmod>2024-03-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
@@ -20,9 +44,6 @@
     <loc>https://gagor.pl/books/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/categories/</loc>
-    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/tags/devops/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -33,9 +54,6 @@
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/linux/</loc>
-    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/posts/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/renovate/</loc>
@@ -53,16 +71,7 @@
     <loc>https://gagor.pl/books/2024/slepowidzenie/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pl/tags/</loc>
-    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pl/tags/technology/</loc>
-    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/authors/timor/</loc>
-    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/2024/02/adding-mermaid-diagrams-to-hugo/</loc>
@@ -81,9 +90,6 @@
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/tags/macos/</loc>
-    <lastmod>2024-02-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/categories/off-topic/</loc>
     <lastmod>2024-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/2024/02/keeping-docker-afloat-best-practices-for-patching-and-deprecating-images/</loc>
@@ -778,9 +784,6 @@
   </url><url>
     <loc>https://gagor.pl/2014/03/nagios-run-checks-as-root-with-nrpe/</loc>
     <lastmod>2014-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pl/tags/seo/</loc>
-    <lastmod>2014-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pl/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</loc>
     <lastmod>2014-03-27T00:00:00+00:00</lastmod>
