@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MariaDB on Tom&#39;s Blog</title>
-    <link>/tags/mariadb/</link>
+    <link>https://gagor.pro/tags/mariadb/</link>
     <description>Recent content in MariaDB on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Mon, 28 Dec 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/mariadb/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/mariadb/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MySQL - reset root password</title>
-      <link>/2015/12/mysql-reset-root-password/</link>
+      <link>https://gagor.pro/2015/12/mysql-reset-root-password/</link>
       <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>/2015/12/mysql-reset-root-password/</guid>
+      <guid>https://gagor.pro/2015/12/mysql-reset-root-password/</guid>
       <description>It will happen from time to time, that you&amp;rsquo;re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn&amp;rsquo;t be used in app &amp;#x1f603; ) but will work for any user.
 shutdown db service mysql stop create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt SET PASSWORD FOR &amp;#34;root&amp;#34;@&amp;#34;localhost&amp;#34; = PASSWORD(&amp;#34;HereYourNewPassword&amp;#34;); start mysqld with --init-file param mysqld_safe --init-file=/tmp/pwchange.</description>
     </item>
     <item>
       <title>Debian - Upgrade MySQL to MariaDB</title>
-      <link>/2014/01/debian-upgrade-mysql-to-mariadb/</link>
+      <link>https://gagor.pro/2014/01/debian-upgrade-mysql-to-mariadb/</link>
       <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/2014/01/debian-upgrade-mysql-to-mariadb/</guid>
+      <guid>https://gagor.pro/2014/01/debian-upgrade-mysql-to-mariadb/</guid>
       <description>After reading some good opinions about MariaDB I wanted to give it a try. Upgrade looks quite straight forward but I found some issues a little tricky.
 Installation Add repo and key:
 cat &amp;gt; /etc/apt/sources.list &amp;lt;&amp;lt;SRC deb http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main deb-src http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main SRC (find more repositories here&amp;thinsp; external link )
@@ -31,18 +31,18 @@ sudo apt-get update sudo apt-get install mariadb-server It could be better to in
     </item>
     <item>
       <title>MySQL - Proste metody optymalizacji</title>
-      <link>/2011/12/mysql-proste-metody-optymalizacji/</link>
+      <link>https://gagor.pro/2011/12/mysql-proste-metody-optymalizacji/</link>
       <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
-      <guid>/2011/12/mysql-proste-metody-optymalizacji/</guid>
+      <guid>https://gagor.pro/2011/12/mysql-proste-metody-optymalizacji/</guid>
       <description>Wcześniej czy później zawsze pojawia się potrzeba zoptymalizowania naszej bazy MySQL. Przedstawię kilka zmian w konfiguracji, które powinny zwiększyć wydajność w większości przypadków.
 MyISAM - key_buffer_size Najprostszą optymalizacją baz/tabel z mechanizmem MyISAM jest odpowiednie dobranie bufora na cache dla kluczy i indeksów (dane nigdy nie są cachowane). Poniższe zapytanie pozwala oszacować zalecany rozmiar cache&amp;rsquo;u:
 SELECT CONCAT(ROUND(KBS/POWER(1024, IF(PowerOf1024&amp;lt;0,0,IF(PowerOf1024&amp;gt;3,0,PowerOf1024)))+0.4999), SUBSTR(&amp;#39; KMG&amp;#39;,IF(PowerOf1024&amp;lt;0,0, IF(PowerOf1024&amp;gt;3,0,PowerOf1024))+1,1)) recommended_key_buffer_size FROM (SELECT LEAST(POWER(2,32),KBS1) KBS FROM (SELECT SUM(index_length) KBS1 FROM information_schema.</description>
     </item>
     <item>
       <title>MySQL - dostęp zdalny na szybko</title>
-      <link>/2011/08/mysql-na-szybko/</link>
+      <link>https://gagor.pro/2011/08/mysql-na-szybko/</link>
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
-      <guid>/2011/08/mysql-na-szybko/</guid>
+      <guid>https://gagor.pro/2011/08/mysql-na-szybko/</guid>
       <description>Instalacja serwera MySQL na Debianie jest niezwykle prosta i sprowadza się do jednego polecenia:
 sudo apt-get install mysql-server Polecenie to zainstaluje i uruchomi usługę serwerową MySQL. W czasie instalacji będziemy proszeni o podanie hasła dla root&amp;rsquo;a (które oczywiście dobrze jest zapamiętać bądź zapisać).
 Tak zainstalowana baza nasłuchuje na lokalnym porcie (localhost:3306) umożliwiająć dostęp wyłącznie root&amp;rsquo;owi. Jest to bardzo bezpieczna konfiguracja&amp;hellip; Ale jeśli nie mamy zamiaru na tej samej maszynie instalować oprogramowania zarządzającego to nie zawsze jest to wygodne, tym bardziej gdy przykładowo mamy działającego phpmyadmin&amp;rsquo;a na jakimś serwerze www.</description>

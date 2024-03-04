@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Silverlight on Tom&#39;s Blog</title>
-    <link>/tags/silverlight/</link>
+    <link>https://gagor.pro/tags/silverlight/</link>
     <description>Recent content in Silverlight on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Tue, 09 Feb 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/silverlight/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/silverlight/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu</title>
-      <link>/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</link>
+      <link>https://gagor.pro/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</link>
       <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</guid>
+      <guid>https://gagor.pro/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</guid>
       <description>From few days I have access to UPC&amp;rsquo;s www.horizon.tv&amp;thinsp; external link platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it&amp;rsquo;s working pretty well - you&amp;rsquo;re just few commands away from achieving that:
 # stop browser killall firefox # remove old version if you have it sudo apt-get remove pipelight Now configure repos and install packages:</description>
     </item>

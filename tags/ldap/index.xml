@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LDAP on Tom&#39;s Blog</title>
-    <link>/tags/ldap/</link>
+    <link>https://gagor.pro/tags/ldap/</link>
     <description>Recent content in LDAP on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Fri, 14 Dec 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/ldap/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/ldap/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apache: mod_authnz_ldap z Active Directory</title>
-      <link>/2012/12/apache-mod_authnz_ldap-z-active-directory/</link>
+      <link>https://gagor.pro/2012/12/apache-mod_authnz_ldap-z-active-directory/</link>
       <pubDate>Fri, 14 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>/2012/12/apache-mod_authnz_ldap-z-active-directory/</guid>
+      <guid>https://gagor.pro/2012/12/apache-mod_authnz_ldap-z-active-directory/</guid>
       <description>Gdy już się dorobi systemu Active Directory wygodnie jest wykorzystać jego bazę użytkowników do autoryzacji w różnych miejscach, np. do pewnych &amp;ldquo;tajnych i tajniejszych&amp;rdquo; stron w Apache. Najprościej można to zrobić z wykorzystaniem LDAP.
 Warto sprawdzić czy i jak możemy dostać się do kontrolerów. Gdy już mamy wszystkie potrzebne parametry konfigurujemy Apachego - na początek aktywujemy moduły:
 a2enmod ldap a2enmod authnz_ldap Teraz możemy edytujemy globalny plik konfiguracyjny mod_ldap&amp;rsquo;a by ustawić nieco cache&amp;rsquo;y (bardzo przydatne).</description>
     </item>
     <item>
       <title>ldapsearch w Active Directory</title>
-      <link>/2012/12/ldapsearch-w-active-directory/</link>
+      <link>https://gagor.pro/2012/12/ldapsearch-w-active-directory/</link>
       <pubDate>Wed, 05 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>/2012/12/ldapsearch-w-active-directory/</guid>
+      <guid>https://gagor.pro/2012/12/ldapsearch-w-active-directory/</guid>
       <description>Można lubieć AD, można go nie lubieć&amp;hellip; Ale jak już się ma to warto czasem zintegrować go z tym&amp;hellip; i tamtym&amp;hellip; Od strony Linuksa najwygodniej można to osiągnąć przez LDAP. A żeby to dobrze zrobić trzeba najpierw przetestować czy aby wszystko działa jak byśmy sobie tego życzyli. I tutaj bardzo przydatne jest narzędzie ldapsearch.
 Do odpytywania LDAP&amp;rsquo;a potrzebujemy jeden pakiecik, który zawiera kilka narzędzi do jego obsługi:
 apt-get install ldap-utils Teraz możemy próbować przeszukiwać katalog np.</description>

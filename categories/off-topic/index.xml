@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Off-topic on Tom&#39;s Blog</title>
-    <link>/categories/off-topic/</link>
+    <link>https://gagor.pro/categories/off-topic/</link>
     <description>Recent content in Off-topic on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Sun, 03 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/off-topic/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/categories/off-topic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SEO kicks my stats</title>
-      <link>/2024/03/seo-kicks-my-stats/</link>
+      <link>https://gagor.pro/2024/03/seo-kicks-my-stats/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>/2024/03/seo-kicks-my-stats/</guid>
+      <guid>https://gagor.pro/2024/03/seo-kicks-my-stats/</guid>
       <description>Towards the end of the year, I received a notification reminding me to renew the domain for my blog. The domain in question was timor.site. This was the first invoice I had received from GoDaddy since they acquired Uniregistry, and to my dismay, it was significantly more expensive than what I had been accustomed to paying. With the year drawing to a close, I was reluctant to invest too much time or money into the renewal process.</description>
     </item>
     <item>
       <title>How I stopped worrying and loved the GNU Make and Makefiles</title>
-      <link>/2024/02/how-i-stopped-worrying-and-loved-the-gnu-make-and-makefiles/</link>
+      <link>https://gagor.pro/2024/02/how-i-stopped-worrying-and-loved-the-gnu-make-and-makefiles/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>/2024/02/how-i-stopped-worrying-and-loved-the-gnu-make-and-makefiles/</guid>
+      <guid>https://gagor.pro/2024/02/how-i-stopped-worrying-and-loved-the-gnu-make-and-makefiles/</guid>
       <description>First contact with make When I was invited for my first job interview in the IT, I&amp;rsquo;ve been asked such question:
 How would you typically build a program from sources, what commands will you use?
 I answered:
@@ -31,24 +31,24 @@ For many it&amp;rsquo;s the fist contact with make and often the last one, but n
     </item>
     <item>
       <title>Changing comments provider for my blog</title>
-      <link>/2023/12/changing-comments-provider-for-my-blog/</link>
+      <link>https://gagor.pro/2023/12/changing-comments-provider-for-my-blog/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/2023/12/changing-comments-provider-for-my-blog/</guid>
+      <guid>https://gagor.pro/2023/12/changing-comments-provider-for-my-blog/</guid>
       <description>I&amp;rsquo;ve been thinking about switching comments system to something different on my blog. Since I moved to Hugo&amp;thinsp; external link , I used Disqus&amp;thinsp; external link . Integration was easy and it was also easy to move comments from Wordpress. Maybe the move was easy, but people somehow didn&amp;rsquo;t like the interface. I receive 6 comments since I switched from Wordpress 3 years ago &amp;#x1f604; To be honest, I don&amp;rsquo;t like it too.</description>
     </item>
     <item>
       <title>Ford S-MAX - kasowanie ostrzeżenia wymiany oleju</title>
-      <link>/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</link>
+      <link>https://gagor.pro/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</link>
       <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</guid>
+      <guid>https://gagor.pro/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</guid>
       <description>Auta się zmieniają a problemy z nimi pozostają te same :)
 Kasowanie ostrzeżenia wymiany oleju 1 Przekręcić kluczyk w stacyjce do drugiej pozycji, gdy zapalają się wszystkie kontrolki (nie uruchamiamy silnika). Wciskamy równocześnie pedały hamulca i gazu do oporu, trzymamy do zakończenia procesu. Pojawi komunikat o rozpoczęciu resetowania inspekcji. Możemy zatwierdzić OK. Czekamy aż pojawi się komunikat: Zatwierdzamy OK. Dopiero teraz zwalniamy pedały. https://forum.fordclubpolska.org/showthread.php?t=108532&amp;thinsp; external link &amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
       <title>Back on the big stage!</title>
-      <link>/2022/06/back-on-the-big-stage/</link>
+      <link>https://gagor.pro/2022/06/back-on-the-big-stage/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>/2022/06/back-on-the-big-stage/</guid>
+      <guid>https://gagor.pro/2022/06/back-on-the-big-stage/</guid>
       <description>I&amp;rsquo;m back on the big stage!
 I haven&amp;rsquo;t attend any big conferences as presenter for some time, but this year will change it. I&amp;rsquo;m starting big, with a talk: Docker base images - Ideas how to manage them on scale&amp;thinsp; external link on Devoxx&amp;thinsp; external link conference in Kraków, that will take place on 22-24th June 2022.
 Want to meet? Meet there &amp;#x1f604;
@@ -56,51 +56,51 @@ Update I uploaded slides from presentation to my Github account&amp;thinsp; exte
     </item>
     <item>
       <title>Bye Bye Wordpress!</title>
-      <link>/2020/10/bye-bye-wordpress/</link>
+      <link>https://gagor.pro/2020/10/bye-bye-wordpress/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/2020/10/bye-bye-wordpress/</guid>
+      <guid>https://gagor.pro/2020/10/bye-bye-wordpress/</guid>
       <description>I started my blog on custom (written by my) engine, but as I didn&amp;rsquo;t had enough time to enhance it I switched to Wordpress. I&amp;rsquo;ve been using Wordpress as an engine of my blog for past 8~9 years. I have small VPS with PHP + Nginx and you can find a lot of configuration examples from my config on this site &amp;#x1f604;
 There was a time, when I was really satisfied by what it provides.</description>
     </item>
     <item>
       <title>Intel Dual Band Wireless-AC 7260 for Desktop on Linux</title>
-      <link>/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</link>
+      <link>https://gagor.pro/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</link>
       <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</guid>
+      <guid>https://gagor.pro/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</guid>
       <description>I just bought new wifi card for my desktop computer. Like in topic, it&amp;rsquo;s Intel Dual Band Wireless-AC 7260 for Desktop&amp;thinsp; external link .
 I was searching for card that:
 support AC standard have 5GHz network support (2,4GHz channels are cluttered heavily in my neighborhood have PCI/PCIx or USB3 connector is Linux friendly (no modules compilation by hand, support for aircrack-ng, kismet) This one is the only I found that comply my expectations.</description>
     </item>
     <item>
       <title>I’m back</title>
-      <link>/2015/12/im-back/</link>
+      <link>https://gagor.pro/2015/12/im-back/</link>
       <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>/2015/12/im-back/</guid>
+      <guid>https://gagor.pro/2015/12/im-back/</guid>
       <description>After long break I&amp;rsquo;m thinking about writing more on my blog. I was reviewing my favorites/bookmarks and half of them was broken, so I can&amp;rsquo;t rely on them in case of knowledge management.
 I think I will write shorter, less descriptive articles just to be pointers to useful solutions from past.</description>
     </item>
     <item>
       <title>Changing language of articles on my blog to English</title>
-      <link>/2013/11/changing-language-of-articles-on-my-blog-to-english/</link>
+      <link>https://gagor.pro/2013/11/changing-language-of-articles-on-my-blog-to-english/</link>
       <pubDate>Fri, 15 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>/2013/11/changing-language-of-articles-on-my-blog-to-english/</guid>
+      <guid>https://gagor.pro/2013/11/changing-language-of-articles-on-my-blog-to-english/</guid>
       <description>I&amp;rsquo;ve crated this blog to get feedback from other IT guys about what I&amp;rsquo;m doing wrong (or not good enough). But this idea failed&amp;hellip;
 I have only few comments on my blog (and about thousand and a half spams per month) - so, no feedback in my national language at all.
 Switching to English should make my audience bigger and I hope to have more attention thanks to that. This will be also a good practice of my English skill.</description>
     </item>
     <item>
       <title>Spammer screwed up</title>
-      <link>/2013/09/spammer-screwed-up/</link>
+      <link>https://gagor.pro/2013/09/spammer-screwed-up/</link>
       <pubDate>Sun, 15 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>/2013/09/spammer-screwed-up/</guid>
+      <guid>https://gagor.pro/2013/09/spammer-screwed-up/</guid>
       <description>I&amp;rsquo;ve just received a comment on my blog with text attached below. It looks like spam message template. I think it could be easily used for creation of banning rules, etc. Use it in a way that will make this dumbass spammer look even more stupid ;-)
 { {I have|I’ve} been {surfing|browsing} online more than {three|3|2|4} hours today, yet I never found any interesting article like yours. {It’s|It is} pretty worth enough for me.</description>
     </item>
     <item>
       <title>Skoda Fabia - Kasownie ostrzeżeń OIL i service INSP</title>
-      <link>/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/</link>
+      <link>https://gagor.pro/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/</link>
       <pubDate>Thu, 12 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/</guid>
+      <guid>https://gagor.pro/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/</guid>
       <description>Jeżeli jesteś właścicielem Skody Fabii I to wcześniej czy później Twój BAT-Mobil zgłosi któreś z ostrzeżeń serwisowych:
 OIL - pojawia się przeważnie co 10 tys. km i wtedy gdy jeszcze nie trzeba wymieniać oleju w silniku &amp;#x1f604; service INSP - nie wiem jak często się pojawia a oznacza mniej więcej &amp;ldquo;czas wesprzeć finansowo lokalny autoryzowany serwis&amp;rdquo;. Kasowanie ostrzeżenia &amp;ldquo;OIL&amp;rdquo; Przy wyłączonym silniku wciskamy i przytrzymujemy przycisk kasowania przebiegu dziennego/pokrętło ustawiania godziny, od teraz nazywany po prostu &amp;lsquo;przyciskiem&amp;rsquo;.</description>
     </item>

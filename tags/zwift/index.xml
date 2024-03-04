@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zwift on Tom&#39;s Blog</title>
-    <link>/tags/zwift/</link>
+    <link>https://gagor.pro/tags/zwift/</link>
     <description>Recent content in Zwift on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/zwift/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/zwift/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to run Zwift in full screen</title>
-      <link>/2023/12/how-to-run-zwift-in-full-screen/</link>
+      <link>https://gagor.pro/2023/12/how-to-run-zwift-in-full-screen/</link>
       <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/2023/12/how-to-run-zwift-in-full-screen/</guid>
+      <guid>https://gagor.pro/2023/12/how-to-run-zwift-in-full-screen/</guid>
       <description>Zwift runs by default in windowed mode, with ugly start menu at bottom and title bar. It&amp;rsquo;s not a big deal, just something irritating. It might be as silly as funny, but I wasn&amp;rsquo;t able to find a good answer for it. There are instructions but, where the heck is &amp;ldquo;Settings&amp;rdquo; button? &amp;#x1f604;
 Eventually, accidentaly I found it! So let me share, with pictures &amp;#x1f60e;
 Find in top-right corner icon with your points and click it From menu, choose &amp;ldquo;My settings&amp;rdquo; In new window, choose &amp;ldquo;Sound &amp;amp; Display&amp;rdquo; tab There it is!</description>

@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ansible on Tom&#39;s Blog</title>
-    <link>/tags/ansible/</link>
+    <link>https://gagor.pro/tags/ansible/</link>
     <description>Recent content in Ansible on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Tue, 29 Dec 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/ansible/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/ansible/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ansible on Vagrant - skipping: no hosts matched</title>
-      <link>/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</link>
+      <link>https://gagor.pro/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</link>
       <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</guid>
+      <guid>https://gagor.pro/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</guid>
       <description>I have some Ansible roles to configure my vps, Raspberry Pi, etc. I like to test them before I broke something on my real, not clustered machines - I use Vagrant for that.
 But with it I had one problem - in playbooks I define hosts as groups of severs ex. web for my vps:
 Example Ansible playbook - hosts: web gather_facts: True sudo: True ... But testing machine wasn&amp;rsquo;t in this group and when I run vagrant I could only see:</description>
     </item>
     <item>
       <title>Ansible - ssh pipelining</title>
-      <link>/2014/03/ansible-ssh-pipelining/</link>
+      <link>https://gagor.pro/2014/03/ansible-ssh-pipelining/</link>
       <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>/2014/03/ansible-ssh-pipelining/</guid>
+      <guid>https://gagor.pro/2014/03/ansible-ssh-pipelining/</guid>
       <description>In recent Ansible update to 1.5 version there is really nice feature ssh pipelining. This option is serious alternative to accelerated mode.
 Just add to you config file (ex. ~/.ansible.cfg):
 [ssh_connection] pipelining=True Now run any playbook - you will see the difference &amp;#x1f604;
@@ -32,9 +32,9 @@ http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansibl
     </item>
     <item>
       <title>Ansible - Dynamicaly update /etc/hosts files on target servers</title>
-      <link>/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/</link>
+      <link>https://gagor.pro/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/</link>
       <pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate>
-      <guid>/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/</guid>
+      <guid>https://gagor.pro/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/</guid>
       <description>I was configuring GlusterFS on few servers using Ansible&amp;thinsp; external link and have a need to update /etc/hosts with hostnames for easier configuration. I found this one working:
 - name: Update /etc/hosts lineinfile: dest=/etc/hosts regexp=&amp;#39;.*{{item}}$&amp;#39; line=&amp;#39;{{hostvars.{{item}}.ansible_default_ipv4.address}} {{item}}&amp;#39; state=present with_items: &amp;#39;{{groups.somegroup}}&amp;#39; Source: http://xmeblog.blogspot.com/2013/06/ansible-dynamicaly-update-etchosts.html&amp;thinsp; external link </description>
     </item>

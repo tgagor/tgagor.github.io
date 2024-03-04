@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Django on Tom&#39;s Blog</title>
-    <link>/tags/django/</link>
+    <link>https://gagor.pro/tags/django/</link>
     <description>Recent content in Django on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Wed, 28 May 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/django/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quickly setup SQL query logging on console in Django</title>
-      <link>/2014/05/quickly-setup-sql-query-logging-on-console-in-django/</link>
+      <link>https://gagor.pro/2014/05/quickly-setup-sql-query-logging-on-console-in-django/</link>
       <pubDate>Wed, 28 May 2014 00:00:00 +0000</pubDate>
-      <guid>/2014/05/quickly-setup-sql-query-logging-on-console-in-django/</guid>
+      <guid>https://gagor.pro/2014/05/quickly-setup-sql-query-logging-on-console-in-django/</guid>
       <description>There is need plugin for Django, named django-debug-toolbar but it needs some time to configure. So when I need simple way to debug SQL queries I use small hack. Add to your settings.py:
 LOGGING = { &amp;#39;version&amp;#39;: 1, &amp;#39;disable_existing_loggers&amp;#39;: False, &amp;#39;handlers&amp;#39;: { &amp;#39;console&amp;#39;: { &amp;#39;level&amp;#39;: &amp;#39;DEBUG&amp;#39;, &amp;#39;class&amp;#39;: &amp;#39;logging.StreamHandler&amp;#39;, } }, &amp;#39;loggers&amp;#39;: { &amp;#39;django.db.backends&amp;#39;: { &amp;#39;handlers&amp;#39;: [&amp;#39;console&amp;#39;], &amp;#39;level&amp;#39;: &amp;#39;DEBUG&amp;#39;, }, } } To get this working DEBUG option have to be set to True:</description>
     </item>
     <item>
       <title>Sprawdzanie zainstalowanej wersji Django</title>
-      <link>/2013/09/sprawdzanie-zainstalowanej-wersji-django/</link>
+      <link>https://gagor.pro/2013/09/sprawdzanie-zainstalowanej-wersji-django/</link>
       <pubDate>Mon, 16 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>/2013/09/sprawdzanie-zainstalowanej-wersji-django/</guid>
+      <guid>https://gagor.pro/2013/09/sprawdzanie-zainstalowanej-wersji-django/</guid>
       <description>Ten one liner załatwia sprawę:
 python -c &amp;#39;import django; print &amp;#34;.&amp;#34;.join([str(s) for s in django.VERSION]);&amp;#39; </description>
     </item>

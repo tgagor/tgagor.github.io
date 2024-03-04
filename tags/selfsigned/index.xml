@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SelfSigned on Tom&#39;s Blog</title>
-    <link>/tags/selfsigned/</link>
+    <link>https://gagor.pro/tags/selfsigned/</link>
     <description>Recent content in SelfSigned on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Sat, 27 Aug 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/selfsigned/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/selfsigned/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Certyfikaty SelfSigned</title>
-      <link>/2011/08/certyfikaty-selfsigned/</link>
+      <link>https://gagor.pro/2011/08/certyfikaty-selfsigned/</link>
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
-      <guid>/2011/08/certyfikaty-selfsigned/</guid>
+      <guid>https://gagor.pro/2011/08/certyfikaty-selfsigned/</guid>
       <description>Certyfikaty oparte o SSL stanowią obecnie podstawę bezpieczeństwa wielu usług sieciowych zaczynając od HTTP, przez POPS, IMAPS, itd&amp;hellip; Niestety zakupienie certyfikatu w organizacjach jak VeriSgin czy Thawte jest dość kosztowe, a jeżeli potrzebujemy kilka certyfikatów to często na lokalne potrzeby jest to po prostu nie opłacalne.
 Postaram się przedstawić wersję &amp;ldquo;ekonomiczną&amp;rdquo; certyfikacji &amp;#x1f603;
 Generowanie Certificate Signing Request Pierwszym etapem generowania certyfikatu jest przygotowanie Certificate Signing Request, czyli czegoś w rodzaju &amp;ldquo;prośby&amp;rdquo; o certyfikat.</description>

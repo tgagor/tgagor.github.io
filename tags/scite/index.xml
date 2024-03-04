@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SciTE on Tom&#39;s Blog</title>
-    <link>/tags/scite/</link>
+    <link>https://gagor.pro/tags/scite/</link>
     <description>Recent content in SciTE on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Wed, 11 Jan 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/scite/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/scite/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mój domyślny config dla SciTE</title>
-      <link>/2012/01/moj-domyslny-config-dla-scite/</link>
+      <link>https://gagor.pro/2012/01/moj-domyslny-config-dla-scite/</link>
       <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>/2012/01/moj-domyslny-config-dla-scite/</guid>
+      <guid>https://gagor.pro/2012/01/moj-domyslny-config-dla-scite/</guid>
       <description>Uruchamiamy SciTE i klikamy menu Options -&amp;gt; Open User Options File, wpisujemy dane:
 # domyślne korzystanie z fontów o stałej szerokości font.base=$(font.monospace) font.small=$(font.monospace) font.comment=$(font.monospace) font.text=$(font.monospace) font.text.comment=$(font.monospace) font.embedded.base=$(font.monospace) font.embedded.comment=$(font.monospace) font.vbs=$(font.monospace) # numerowanie wierszy line.margin.visible=1 line.margin.width=3+ # ikonki toolbara z tematu systemowego toolbar.usestockicons=1 # zaznaczanie blokowe rectangular.selection.modifier=8 # ustawienia wgłębień kodu indent.size=4 use.tabs=1 indent.automatic=1 Więcej opcji tutaj: http://www.scintilla.org/SciTEDoc.html
 Sam pewnie jeszcze nie raz zaktualizuję ten wpis &amp;#x1f604;</description>

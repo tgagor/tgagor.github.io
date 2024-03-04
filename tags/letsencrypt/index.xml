@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LetsEncrypt on Tom&#39;s Blog</title>
-    <link>/tags/letsencrypt/</link>
+    <link>https://gagor.pro/tags/letsencrypt/</link>
     <description>Recent content in LetsEncrypt on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Mon, 04 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/letsencrypt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/letsencrypt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Let’s Encrypt - without auto configuration</title>
-      <link>/2016/01/lets-encrypt-without-auto-configuration/</link>
+      <link>https://gagor.pro/2016/01/lets-encrypt-without-auto-configuration/</link>
       <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/2016/01/lets-encrypt-without-auto-configuration/</guid>
+      <guid>https://gagor.pro/2016/01/lets-encrypt-without-auto-configuration/</guid>
       <description>From the first moment I heard about Let&amp;rsquo;s Encrypt I liked it and wanted to use it as fast as possible. But the more I read how they want to implement it, the more I dislike it.
 Current project with automatic configuration is not what I want to use at all. I have many very complicated configs and I do not trust such tools enough to use them. I like UNIX&amp;rsquo;s single purpose principle, tools should do one thing and do it well - nothing more.</description>
     </item>

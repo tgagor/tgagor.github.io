@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FortiOS on Tom&#39;s Blog</title>
-    <link>/tags/fortios/</link>
+    <link>https://gagor.pro/tags/fortios/</link>
     <description>Recent content in FortiOS on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Sat, 30 Mar 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/fortios/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/fortios/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fortigate - VPN IPSec PSK XAuth z Android’a 4.x</title>
-      <link>/2013/03/fortigate-vpn-ipsec-psk-xauth-z-androida-4-x/</link>
+      <link>https://gagor.pro/2013/03/fortigate-vpn-ipsec-psk-xauth-z-androida-4-x/</link>
       <pubDate>Sat, 30 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>/2013/03/fortigate-vpn-ipsec-psk-xauth-z-androida-4-x/</guid>
+      <guid>https://gagor.pro/2013/03/fortigate-vpn-ipsec-psk-xauth-z-androida-4-x/</guid>
       <description>Do niedawna na moim telefonie VPN&amp;rsquo;ami były: PPTP lub L2TP - oba niespecjalnie mi się podobały. Ale od wersji 4-tej pojawiły się dwa nowe tryby: IPSec Xauth PSK i IPSec Xauth RSA. W pierwszym autoryzacja wykorzystuje login i hasło, w drugim certyfikaty.
 Tryb IPSec Xauth PSK jest bardzo wygodny bo łatwo można połączyć go z zewnętrznymi mechanizmami uwierzytelniającymi np. LDAP, Active Directory, itp.
 Pokażę jak skonfigurować swojego Fortigate&amp;rsquo;a by umożliwić połączenie z telefonów i tabletów na Androidzie 4.</description>
     </item>
     <item>
       <title>Fortigate: Warning: SQL Logging is not enabled</title>
-      <link>/2012/04/fortigate-warning-sql-logging-is-not-enabled/</link>
+      <link>https://gagor.pro/2012/04/fortigate-warning-sql-logging-is-not-enabled/</link>
       <pubDate>Wed, 11 Apr 2012 00:00:00 +0000</pubDate>
-      <guid>/2012/04/fortigate-warning-sql-logging-is-not-enabled/</guid>
+      <guid>https://gagor.pro/2012/04/fortigate-warning-sql-logging-is-not-enabled/</guid>
       <description>Jeśli po aktualizacji firmware na swoim firewall&amp;rsquo;u do wersji MR3 natrafisz na komunikat Warning: SQL Logging is not enabled przy dostępie do logów to prawdopodobnie musisz zmienić źródło logów dla interfejsu gui. Poniżej polecenie CLI i możliwe opcje:
 config log gui set logdevice {memory | disk | fortianalyzer} end Ja potrzebowałem ustawić tę opcję na fortianalyzer by uzyskać dostęp do moich logów.</description>
     </item>
     <item>
       <title>Sniffowanie w FortiOS</title>
-      <link>/2012/01/sniffowanie-w-fortios/</link>
+      <link>https://gagor.pro/2012/01/sniffowanie-w-fortios/</link>
       <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>/2012/01/sniffowanie-w-fortios/</guid>
+      <guid>https://gagor.pro/2012/01/sniffowanie-w-fortios/</guid>
       <description>Zawsze gdy potrzebuję zesniffować coś na żywo na Fortigate&amp;rsquo;ach muszę przeszukać Knowledge Base&amp;thinsp; external link by przypomnieć sobie wszystkie polecenia do tego potrzebne. Tym razem robię notatki &amp;#x1f603;
 Sniffowanie diagnose debug enable diagnose debug flow filter addr ip address clear clear filter daddr dest ip address dport destination port negate inverse filter port port proto protocol number saddr source ip address sport source port vd index of virtual domain # np.</description>
     </item>
     <item>
       <title>Konfiguracja modemu USB iPlus na urządzeniach FortiGate</title>
-      <link>/2011/12/konfiguracja-modemu-usb-iplus-na-urzadzeniach-fortigate/</link>
+      <link>https://gagor.pro/2011/12/konfiguracja-modemu-usb-iplus-na-urzadzeniach-fortigate/</link>
       <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
-      <guid>/2011/12/konfiguracja-modemu-usb-iplus-na-urzadzeniach-fortigate/</guid>
+      <guid>https://gagor.pro/2011/12/konfiguracja-modemu-usb-iplus-na-urzadzeniach-fortigate/</guid>
       <description>Zdarzyło mi się bawić sprzętowymi Firewallami firmy Fortigate - chcąc sprawdzić działanie pewnych funkcji potrzebowałem uruchomić dwa/trzy pudełka na osobnych łączach. Pomysł polegał na próbie zmuszenia pudełek do współpracy z modemem iPlus na USB.
 Drugim fajnym zastosowaniem tego triku jest możliwość wykorzystania iPlusa jako &amp;ldquo;zapasowego łącza&amp;rdquo; w przypadku awarii głównego.
 Dzięki pomocy inżyniera Fortigate szybko udało mi się zebrać potrzebne do działania parametry, które należy uruchomić poprzez command line (telnet/ssh).</description>

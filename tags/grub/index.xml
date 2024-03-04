@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GRUB on Tom&#39;s Blog</title>
-    <link>/tags/grub/</link>
+    <link>https://gagor.pro/tags/grub/</link>
     <description>Recent content in GRUB on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Sat, 27 Aug 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/grub/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/grub/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Włam na lokalne konto root’a</title>
-      <link>/2011/08/wlam-na-lokalne-konto-roota/</link>
+      <link>https://gagor.pro/2011/08/wlam-na-lokalne-konto-roota/</link>
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
-      <guid>/2011/08/wlam-na-lokalne-konto-roota/</guid>
+      <guid>https://gagor.pro/2011/08/wlam-na-lokalne-konto-roota/</guid>
       <description>Jeżeli tu zaglądasz pewnie zdarzyło Ci się kiedyś, że przykładowo wygrzebujesz jakiś stary serwer i nie masz pojęcia co na nim było, ani do czego służyło, czy jeszcze działa&amp;hellip; Albo jeszcze inaczej - serwer działał tak długo, że wszystkie osoby znające hasło na root&amp;rsquo;a przeszły na emeryturę lub zmarły&amp;hellip; Nieistotne &amp;#x1f603;
 Jest pewna prosta sztuczka, pozwalająca wbić się na konto root&amp;rsquo;a nie znając hasła - dając nam możliwość jego zmiany. Potrzebne dwa restarty ale za to nie trzeba korzystać z żadnychlive cd.</description>
     </item>

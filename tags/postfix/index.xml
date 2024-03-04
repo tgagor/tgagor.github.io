@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>postfix on Tom&#39;s Blog</title>
-    <link>/tags/postfix/</link>
+    <link>https://gagor.pro/tags/postfix/</link>
     <description>Recent content in postfix on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Tue, 18 Mar 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/postfix/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/postfix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Postfix - automatically drop outbound mail</title>
-      <link>/2014/03/postfix-automatically-drop-outbound-mail/</link>
+      <link>https://gagor.pro/2014/03/postfix-automatically-drop-outbound-mail/</link>
       <pubDate>Tue, 18 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>/2014/03/postfix-automatically-drop-outbound-mail/</guid>
+      <guid>https://gagor.pro/2014/03/postfix-automatically-drop-outbound-mail/</guid>
       <description>I have development server with postfix - I wanted to allow outbound traffic to one domain but cut off all the rest. I definitely do not want that test mail or any debug info goes to service users.
 I have to add something like that to /etc/postfix/transport:
 allowed.domain.com : * discard: Then run:
@@ -24,18 +24,18 @@ postfix reload Test if it works:</description>
     </item>
     <item>
       <title>Postfix: ciekawy problem z smtpd_delay_reject i permit_sasl_authenticated</title>
-      <link>/2013/10/postfix-ciekawy-problem-z-smtpd_delay_reject-i-permit_sasl_authenticated/</link>
+      <link>https://gagor.pro/2013/10/postfix-ciekawy-problem-z-smtpd_delay_reject-i-permit_sasl_authenticated/</link>
       <pubDate>Tue, 08 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>/2013/10/postfix-ciekawy-problem-z-smtpd_delay_reject-i-permit_sasl_authenticated/</guid>
+      <guid>https://gagor.pro/2013/10/postfix-ciekawy-problem-z-smtpd_delay_reject-i-permit_sasl_authenticated/</guid>
       <description>Trafił mi się ostatnio ciekawy problem - otóż standardowo przed końcem roku poprawiałem filtry antyspamowe i optymalizowałem konfigurację Postfix&amp;rsquo;a. Chciałem zmienić domyślną wartość smtpd_delay_reject=yes na smtpd_delay_reject=no by odrzucać spamerów najwcześniej jak to możliwe. I ciekawe kuku, które sobie zrobiłem polegało na tym że sam nie mogłem wysyłać poczty po logowaniu SSL&amp;rsquo;em&amp;hellip;
 Dostawałem przy tym bardzo wymowną odpowiedź:
 Oct 8 16:30:39 tyr postfix/smtpd[21039]: NOQUEUE: reject: CONNECT from unknown[67.x.x.x]: 554 5.7.1 &amp;lt;unknown [67.</description>
     </item>
     <item>
       <title>pflogsumm - statystyki poczty dla postfix’a</title>
-      <link>/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</link>
+      <link>https://gagor.pro/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</link>
       <pubDate>Thu, 22 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</guid>
+      <guid>https://gagor.pro/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</guid>
       <description>Jeżeli administrujesz nawet niedużym serwerem pocztowym na pewno masz świadomość, że nie jesteś w stanie monitorować logów na bieżąco. Ciężko jest wyłapać np. problem w komunikacji z pewną domeną. Ciężko też oszacować skalę ruchu na serwerze zarówno pod kątem ilości jak i wolumenu maili. Trudno wybrać domeny, dla których warto by zrezygnować z greylistingu, itd, itp&amp;hellip;
 Na szczęście dostępne jest narzędzie pflogsumm, które wygeneruje nam dość wyczerpujące statystyki z logów postfix&amp;rsquo;a.</description>
     </item>

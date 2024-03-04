@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Piwik on Tom&#39;s Blog</title>
-    <link>/tags/piwik/</link>
+    <link>https://gagor.pro/tags/piwik/</link>
     <description>Recent content in Piwik on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Fri, 21 Dec 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/piwik/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/piwik/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Piwik: śledzenie asynchroniczne &#43; logowanie ksywy komentującego w WordPress’ie</title>
-      <link>/2012/12/piwik-sledzenie-asynchroniczne-logowanie-ksywy-komentujacego-w-wordpressie/</link>
+      <link>https://gagor.pro/2012/12/piwik-sledzenie-asynchroniczne-logowanie-ksywy-komentujacego-w-wordpressie/</link>
       <pubDate>Fri, 21 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>/2012/12/piwik-sledzenie-asynchroniczne-logowanie-ksywy-komentujacego-w-wordpressie/</guid>
+      <guid>https://gagor.pro/2012/12/piwik-sledzenie-asynchroniczne-logowanie-ksywy-komentujacego-w-wordpressie/</guid>
       <description>Korzystam z instancji Piwik&amp;rsquo;a do monitorowania odwiedzin na stronie i postanowiłem pokombinować czy da się w ten sposób monitorować wejścia konkretnych osób na bazie wpisanego w polu komentarza loginu/ksywki. Jak zacząłem grzebać to przy okazji zmieniłem też sposób ładowania skryptów Piwika na asynchroniczny.
 A leci to mniej więcej tak:
 &amp;lt;script type=&amp;#34;text/javascript&amp;#34;&amp;gt; var i,x,y,ARRcookies=document.cookie.split(&amp;#34;;&amp;#34;); var comment_author = &amp;#34;&amp;#34;; for (i=0;i&amp;lt;ARRcookies.length;i++) { x=ARRcookies[i].substr(0,ARRcookies[i].indexOf(&amp;#34;=&amp;#34;)); y=ARRcookies[i].substr(ARRcookies[i].indexOf(&amp;#34;=&amp;#34;)+1); x=x.replace(/^\s+|\s+$/g,&amp;#34;&amp;#34;); if (x.indexOf(&amp;#34;comment_author&amp;#34;) != -1 &amp;amp;&amp;amp; x.indexOf(&amp;#34;comment_author_email&amp;#34;) == -1 &amp;amp;&amp;amp; x.</description>

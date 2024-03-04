@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Red Hat on Tom&#39;s Blog</title>
-    <link>/tags/red-hat/</link>
+    <link>https://gagor.pro/tags/red-hat/</link>
     <description>Recent content in Red Hat on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Fri, 04 Apr 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/red-hat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/red-hat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rebuild yum/rpm database</title>
-      <link>/2014/04/rebuild-yum-rpm-database/</link>
+      <link>https://gagor.pro/2014/04/rebuild-yum-rpm-database/</link>
       <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>/2014/04/rebuild-yum-rpm-database/</guid>
+      <guid>https://gagor.pro/2014/04/rebuild-yum-rpm-database/</guid>
       <description>When I was trying to update packages on one host I&amp;rsquo;ve stuck with yum hung on update. I run strace and see:
 strace -p 43734 Process 43734 attached - interrupt to quit futex(0x807c938, FUTEX_WAIT, 1, NULL &amp;lt;unfinished ...&amp;gt; Process 43734 detached It looks like yum database was corrupted, to repair this run:
 rm -f /var/lib/rpm/__db* rpm --rebuilddb yum clean all yum update Instead rm on db-files you could use gzip to have backup of these files.</description>

@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leadership on Tom&#39;s Blog</title>
-    <link>/categories/leadership/</link>
+    <link>https://gagor.pro/categories/leadership/</link>
     <description>Recent content in Leadership on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/categories/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/categories/leadership/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to interview DevOps candidates?</title>
-      <link>/2024/01/how-to-interview-devops-candidates/</link>
+      <link>https://gagor.pro/2024/01/how-to-interview-devops-candidates/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/2024/01/how-to-interview-devops-candidates/</guid>
+      <guid>https://gagor.pro/2024/01/how-to-interview-devops-candidates/</guid>
       <description>A little bit of sour-sweet memories I&amp;rsquo;ve been in many job interviews. Few as a candidate but many more as a Technical Leader or Hiring Manager. There are many questions I&amp;rsquo;ve been asked and many tests I passed. I remember one test, where I had to install and configure Apache Tomcat on a Virtual Machine, under Windows (which I don&amp;rsquo;t use for years), without access to internet. There were more traps there, like some files in the locations where Tomcat is normally installed were blocked for write with chattr immutable attribute.</description>
     </item>
     <item>
       <title>How to give Probation Period feedback?</title>
-      <link>/2024/01/how-to-give-probation-period-feedback/</link>
+      <link>https://gagor.pro/2024/01/how-to-give-probation-period-feedback/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/2024/01/how-to-give-probation-period-feedback/</guid>
+      <guid>https://gagor.pro/2024/01/how-to-give-probation-period-feedback/</guid>
       <description>Why? Hiring people is a hard, but having a new person in a team is not a work done. It&amp;rsquo;s important to monitor how people perform during probation period and share feedback with them. Personally, I like to ask the whole team, with a bunch of open questions, which allows me to look from higher altitude on the new hire. My point of view might be biased but checking what others think, I can fill blind spots.</description>
     </item>
     <item>
       <title>New Year&#39;s reflections and Leadership path</title>
-      <link>/2024/01/new-years-reflections-and-leadership-path/</link>
+      <link>https://gagor.pro/2024/01/new-years-reflections-and-leadership-path/</link>
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/2024/01/new-years-reflections-and-leadership-path/</guid>
+      <guid>https://gagor.pro/2024/01/new-years-reflections-and-leadership-path/</guid>
       <description>Almost 2 years ago I was promoted to a Team Lead position. Since then at least half of my time is dedidcated to &amp;ldquo;the people&amp;rsquo;s stuff&amp;rdquo; &amp;#x1f604;
 On one side, I have less time to code and write about technical stuff, which sometimes makes me feel guilty (just a little bit). On the other side, I&amp;rsquo;m discovering a whole new world of possibilities to solve technical problems without touching the code (almost).</description>
     </item>

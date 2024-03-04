@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Raspberry Pi on Tom&#39;s Blog</title>
-    <link>/tags/raspberry-pi/</link>
+    <link>https://gagor.pro/tags/raspberry-pi/</link>
     <description>Recent content in Raspberry Pi on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Fri, 13 Sep 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Raspberry Pi: pierwsze kroki</title>
-      <link>/2013/09/raspberry-pi-pierwsze-kroki/</link>
+      <link>https://gagor.pro/2013/09/raspberry-pi-pierwsze-kroki/</link>
       <pubDate>Fri, 13 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>/2013/09/raspberry-pi-pierwsze-kroki/</guid>
+      <guid>https://gagor.pro/2013/09/raspberry-pi-pierwsze-kroki/</guid>
       <description>Wyprzeć się nie mogę że gadżety działające na Linuksie po prostu mnie kręcą, więc tylko kwestią czasu było aż Pi zawita na moim biurku. Zakupiłem więc model B w drugiej wersji&amp;thinsp; external link , obudowę z możliwością mocowania VESA&amp;thinsp; external link , kabelek HDMI&amp;thinsp; external link , ładowarka z mojej myszy pasowała idealnie (5.05V i 1A) i na początek karta SD klasa 10 4GB.
 Szukając różnych systemów (a może ROM&amp;rsquo;ów) natrafiłem na oficjalną stronę: http://www.</description>
     </item>

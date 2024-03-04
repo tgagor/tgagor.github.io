@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SPDY on Tom&#39;s Blog</title>
-    <link>/tags/spdy/</link>
+    <link>https://gagor.pro/tags/spdy/</link>
     <description>Recent content in SPDY on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Fri, 24 Jan 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/spdy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/spdy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nginx - enabling SPDY with freeware certificate</title>
-      <link>/2014/01/nginx-enabling-spdy-with-freeware-certificate/</link>
+      <link>https://gagor.pro/2014/01/nginx-enabling-spdy-with-freeware-certificate/</link>
       <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/2014/01/nginx-enabling-spdy-with-freeware-certificate/</guid>
+      <guid>https://gagor.pro/2014/01/nginx-enabling-spdy-with-freeware-certificate/</guid>
       <description>I was thinking about allowing access to my website using SPDY protocol for better performance and security (and for fun of course &amp;#x1f603; ). But SPDY have one disadvantage - you need SSL certificate signed by known authority that will verfiy in common browsers. So you can&amp;rsquo;t use self signed certificates because everyone will see a warning entering your site. Certs are quite expensive so I started searching for free one and to my surprise I found such!</description>
     </item>
   </channel>

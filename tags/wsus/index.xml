@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WSUS on Tom&#39;s Blog</title>
-    <link>/tags/wsus/</link>
+    <link>https://gagor.pro/tags/wsus/</link>
     <description>Recent content in WSUS on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Fri, 24 Jan 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/wsus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/wsus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Change default WSUS port from 8530 to 80 on Windows Server 2012</title>
-      <link>/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</link>
+      <link>https://gagor.pro/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</link>
       <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</guid>
+      <guid>https://gagor.pro/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</guid>
       <description>After WSUS installing on Windows Server 2012 I discovered that it&amp;rsquo;s running on port 8530, different than on older version of Windows (it was using port 80 from beginning). But what&amp;rsquo;s more interesting it was running ONLY on IPv6 interface! Switching binding configuration in IIS doesn&amp;rsquo;t help.
 I could stand switching port - it&amp;rsquo;s nothing hard with GPO, but IPv6 only configuration was not acceptable.
 After googling for some time I found one command that solved my problems by switching WSUS to older behavior and run it on port 80 (on default website).</description>
     </item>
     <item>
       <title>Manage Windows 8.1 and Windows Server 2012 R2 in WSUS 3.0</title>
-      <link>/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</link>
+      <link>https://gagor.pro/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</link>
       <pubDate>Thu, 16 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</guid>
+      <guid>https://gagor.pro/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</guid>
       <description>After connecting few computers with Windows 8.1 to domain we found that these computers are not recognized or recognized as Windows 6.3 (which is true) on WSUS 3.0 running on Windows Server 2008. The bad thing was that they can&amp;rsquo;t properly report to WSUS and get updates from it.
 I found that there are two updates that have to be installed (but they&amp;rsquo;re not working without additional steps):
 http://support.microsoft.com/kb/2720211&amp;thinsp; external link http://support.</description>

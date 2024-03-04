@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>memcached on Tom&#39;s Blog</title>
-    <link>/tags/memcached/</link>
+    <link>https://gagor.pro/tags/memcached/</link>
     <description>Recent content in memcached on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Fri, 21 Mar 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/memcached/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/memcached/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Checking memcached status</title>
-      <link>/2014/03/checking-memcached-status/</link>
+      <link>https://gagor.pro/2014/03/checking-memcached-status/</link>
       <pubDate>Fri, 21 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>/2014/03/checking-memcached-status/</guid>
+      <guid>https://gagor.pro/2014/03/checking-memcached-status/</guid>
       <description>I need to check memory usage of memcached server so I used:
 echo stats | nc 127.0.0.1 11211 STAT pid 2743 STAT uptime 263 STAT time 1395438951 STAT version 1.4.13 STAT pointer_size 64 STAT rusage_user 0.482926 STAT rusage_system 2.675593 STAT curr_items 8667 STAT total_items 10742 STAT bytes 23802513 STAT curr_connections 296 STAT total_connections 399 STAT connection_structures 297 STAT cmd_flush 0 STAT cmd_get 52578 STAT cmd_set 10792 STAT get_hits 28692 STAT get_misses 23886 STAT evictions 0 STAT bytes_read 35984361 STAT bytes_written 192647437 STAT limit_maxbytes 536870912 STAT threads 2 STAT accepting_conns 1 STAT listen_disabled_num 0 STAT replication MASTER STAT repcached_qi_free 8189 STAT repcached_wdata 0 STAT repcached_wsize 1026048 END For me, bytes value was important but you could find more about all statistics here&amp;thinsp; external link .</description>
     </item>
     <item>
       <title>Klastrowanie sesji PHP z memcached</title>
-      <link>/2011/08/klastrowanie-sesji-php-z-memcached/</link>
+      <link>https://gagor.pro/2011/08/klastrowanie-sesji-php-z-memcached/</link>
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
-      <guid>/2011/08/klastrowanie-sesji-php-z-memcached/</guid>
+      <guid>https://gagor.pro/2011/08/klastrowanie-sesji-php-z-memcached/</guid>
       <description>Klastrowanie to może zbyt dumnie powiedziane. Rozwiązanie to wyszukałem gdy chcąc skonfigurować dwa serwery apache do współpracy na rzecz jednego serwisu okazało się, że sejse trzymane są tylko przez jeden serwer a drugi nic o nich nie wie. To oczywiście nie pozwalało na prawidłowe działanie jakiegokolwiek serwisu korzystającego z sesji.
 Pomysł jest taki, że zastępujemy domyśny mechanizm przechowywania sesji w plikach na dysku mechanizmem memcache. Ponieważ memcached działa jako usługa sieciowa, różne serwery mogą się odwoływać do puli memcached i odczytywać zapisane w niej dane.</description>
     </item>

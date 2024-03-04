@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vmstat on Tom&#39;s Blog</title>
-    <link>/tags/vmstat/</link>
+    <link>https://gagor.pro/tags/vmstat/</link>
     <description>Recent content in vmstat on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Fri, 02 Sep 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/vmstat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/vmstat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sprawdzenie który proces obciąża dyski</title>
-      <link>/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</link>
+      <link>https://gagor.pro/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</link>
       <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid>
+      <guid>https://gagor.pro/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid>
       <description>Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.
 Jest kilka narzędzi (iostat, wmstat), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić &amp;#x1f603;</description>
     </item>

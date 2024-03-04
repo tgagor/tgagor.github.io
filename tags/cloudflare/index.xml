@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cloudflare on Tom&#39;s Blog</title>
-    <link>/tags/cloudflare/</link>
+    <link>https://gagor.pro/tags/cloudflare/</link>
     <description>Recent content in Cloudflare on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimizing Hugo static site redirects with Cloudflare Pages</title>
-      <link>/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</link>
+      <link>https://gagor.pro/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</guid>
+      <guid>https://gagor.pro/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</guid>
       <description>I used to utilize GitHub Pages to serve static content for my blog. I secured it behind Cloudflare to employ a custom domain and automate HTTPS certificate management. Additionally, I utilized a few Page Rules to implement redirects:
 From www.* to non-www, From HTTP to HTTPS, And for some SEO renaming. Unfortunately, in the Free plan from Cloudflare, you are limited to:
 3 Page Rules (with simple glob matching), 10 Transformation Rules (no regex rules), 10 Redirect Rules (no regex).</description>
     </item>
     <item>
       <title>Maximizing page performance and security with Cloudflare tuning</title>
-      <link>/2024/01/maximizing-page-performance-and-security-with-cloudflare-tuning/</link>
+      <link>https://gagor.pro/2024/01/maximizing-page-performance-and-security-with-cloudflare-tuning/</link>
       <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>/2024/01/maximizing-page-performance-and-security-with-cloudflare-tuning/</guid>
+      <guid>https://gagor.pro/2024/01/maximizing-page-performance-and-security-with-cloudflare-tuning/</guid>
       <description>Info
 I use free tier of Cloudflare and all recommendations assume only those are available.
 Why to cache statically generated blog? My Blog is statically generated website served from Github Pages&amp;thinsp; external link . As Github don&amp;rsquo;t allow to easily set my own domain (at least in free version), I needed some kind of proxy that:
@@ -31,9 +31,9 @@ can serve page from my domain, will provide valid certificate for HTTPS. Info</d
     </item>
     <item>
       <title>Prepare for DoS like Cloudflare do</title>
-      <link>/2016/02/prepare-for-dos-like-cloudflare-do/</link>
+      <link>https://gagor.pro/2016/02/prepare-for-dos-like-cloudflare-do/</link>
       <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>/2016/02/prepare-for-dos-like-cloudflare-do/</guid>
+      <guid>https://gagor.pro/2016/02/prepare-for-dos-like-cloudflare-do/</guid>
       <description>I watched nice presentation about how Cloudflare protects itself against DoS. Most of us are not able to do that exactly like them but some of tips were general enough to be used on typical web front server.
 I took notes from this presentation and presented here. Thanks to Marek agreement I also reposted all examples (in easier to copy paste way).
 Howto prepare against ACK/FIN/RST/X-mas flood Use conntrack rule:</description>

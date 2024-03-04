@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zenbook on Tom&#39;s Blog</title>
-    <link>/tags/zenbook/</link>
+    <link>https://gagor.pro/tags/zenbook/</link>
     <description>Recent content in Zenbook on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Thu, 21 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/zenbook/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/zenbook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tweaking ASUS Zenbook UX305CA on Linux</title>
-      <link>/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</link>
+      <link>https://gagor.pro/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</link>
       <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</guid>
+      <guid>https://gagor.pro/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</guid>
       <description>Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &amp;lsquo;mobile&amp;rsquo; word. Then I saw ASUS Zenbook that I didn&amp;rsquo;t take into account before and it was exactly what I was searching for.
 Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed.</description>
     </item>

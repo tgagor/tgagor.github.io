@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on Tom&#39;s Blog</title>
-    <link>/tags/windows/</link>
+    <link>https://gagor.pro/tags/windows/</link>
     <description>Recent content in Windows on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gagor.pro/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to run Zwift in full screen</title>
-      <link>/2023/12/how-to-run-zwift-in-full-screen/</link>
+      <link>https://gagor.pro/2023/12/how-to-run-zwift-in-full-screen/</link>
       <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>/2023/12/how-to-run-zwift-in-full-screen/</guid>
+      <guid>https://gagor.pro/2023/12/how-to-run-zwift-in-full-screen/</guid>
       <description>Zwift runs by default in windowed mode, with ugly start menu at bottom and title bar. It&amp;rsquo;s not a big deal, just something irritating. It might be as silly as funny, but I wasn&amp;rsquo;t able to find a good answer for it. There are instructions but, where the heck is &amp;ldquo;Settings&amp;rdquo; button? &amp;#x1f604;
 Eventually, accidentaly I found it! So let me share, with pictures &amp;#x1f60e;
 Find in top-right corner icon with your points and click it From menu, choose &amp;ldquo;My settings&amp;rdquo; In new window, choose &amp;ldquo;Sound &amp;amp; Display&amp;rdquo; tab There it is!</description>
     </item>
     <item>
       <title>Asus ROG STRIX Z590-E GAMING WIFI - my UEFI BIOS settings</title>
-      <link>/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</link>
+      <link>https://gagor.pro/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</link>
       <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</guid>
+      <guid>https://gagor.pro/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</guid>
       <description>I&amp;rsquo;ve build new PC - it&amp;rsquo;s based on Asus ROG STRIX Z590-E GAMING WIFI&amp;thinsp; external link motherboard. Generally, I&amp;rsquo;m quite satisfied, but it have one irritating downside - after each UEFI BIOS upgrade, it&amp;rsquo;s silently resetting some of settings.
 Let me note, what I want to have there:
 Ai Tweaker (use my RAM capabilities) AI Overcloack Tuner -&amp;gt; [XMP I] DRAM Frequency -&amp;gt; [DDR4-3600MHz] DRAM CAS# Latency -&amp;gt; [16] DRAM RAS# to CAS# Delay -&amp;gt; [19] DRAM RAS# ACT Time -&amp;gt; [39] DRAM Voltage -&amp;gt; [1.</description>
     </item>
     <item>
       <title>Change default WSUS port from 8530 to 80 on Windows Server 2012</title>
-      <link>/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</link>
+      <link>https://gagor.pro/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</link>
       <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</guid>
+      <guid>https://gagor.pro/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</guid>
       <description>After WSUS installing on Windows Server 2012 I discovered that it&amp;rsquo;s running on port 8530, different than on older version of Windows (it was using port 80 from beginning). But what&amp;rsquo;s more interesting it was running ONLY on IPv6 interface! Switching binding configuration in IIS doesn&amp;rsquo;t help.
 I could stand switching port - it&amp;rsquo;s nothing hard with GPO, but IPv6 only configuration was not acceptable.
 After googling for some time I found one command that solved my problems by switching WSUS to older behavior and run it on port 80 (on default website).</description>
     </item>
     <item>
       <title>Manage Windows 8.1 and Windows Server 2012 R2 in WSUS 3.0</title>
-      <link>/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</link>
+      <link>https://gagor.pro/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</link>
       <pubDate>Thu, 16 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</guid>
+      <guid>https://gagor.pro/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</guid>
       <description>After connecting few computers with Windows 8.1 to domain we found that these computers are not recognized or recognized as Windows 6.3 (which is true) on WSUS 3.0 running on Windows Server 2008. The bad thing was that they can&amp;rsquo;t properly report to WSUS and get updates from it.
 I found that there are two updates that have to be installed (but they&amp;rsquo;re not working without additional steps):
 http://support.microsoft.com/kb/2720211&amp;thinsp; external link http://support.</description>
     </item>
     <item>
       <title>Uruchamianie aplikacji .NET jako 32-bitowej w 64-bitowym systemie</title>
-      <link>/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/</link>
+      <link>https://gagor.pro/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/</link>
       <pubDate>Tue, 29 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/</guid>
+      <guid>https://gagor.pro/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/</guid>
       <description>Kolejna zabawna sytuacja - pewna aplikacja dotNET&amp;rsquo;owa działała dziwnie na 64-bitowym systemie, a tymczasem na 32-bitowej maszynie ta sama aplikacja działała bez problemów. Jedyna różnica to inne wersje klientów ODBC na tych systemach, które po kilku testach okazały się być przyczyną całego zła.
 Pojawił się pomysł by odpalić aplikacje na 64 bitowym systemie ale w trybie 32 bit - poniżej krótkie HOWTO jak to osiągnąć:
 potrzebujemy narzędzia corflags.exe które pozwoli oznaczyć nam binarkę jako 32-bitową, do pobrania tutaj&amp;thinsp; external link a instrukcja jej użycia tutaj&amp;thinsp; external link .</description>
     </item>
     <item>
       <title>Instalacja Python’a na Windowsie</title>
-      <link>/2013/09/instalacja-pythona-na-windowsie/</link>
+      <link>https://gagor.pro/2013/09/instalacja-pythona-na-windowsie/</link>
       <pubDate>Wed, 25 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>/2013/09/instalacja-pythona-na-windowsie/</guid>
+      <guid>https://gagor.pro/2013/09/instalacja-pythona-na-windowsie/</guid>
       <description>Pomimo że Python dużo częściej wykorzystywany jest w środowiskach UNIX&amp;rsquo;owcy/Linux&amp;rsquo;owych to znajdzie się kilka fajnych zastosowań dla tego języka na Windowsie. Możliwości na instalację jest kilka, a najprostsza to wykorzystanie instalatora ActiveState. Wersja ta ma w sobie wszystko co potrzebne:
 rozszerzenia dla API Windows menadżera pakietów PyPM dokumentację Niestety jakiś czas temu zmieniły się zasady licencjonowania w ActiveState i aktualne wersje dla zastosowań produkcyjnych wymagają zakupu licencji (1000$/rok - aż chce się zacytować z Dnia Świra: czizys k&amp;hellip;wa&amp;hellip;).</description>
     </item>
     <item>
       <title>DFS - sprawdzanie statusu replikacji</title>
-      <link>/2013/09/dfs-sprawdzanie-statusu-replikacji/</link>
+      <link>https://gagor.pro/2013/09/dfs-sprawdzanie-statusu-replikacji/</link>
       <pubDate>Wed, 04 Sep 2013 00:00:00 +0000</pubDate>
-      <guid>/2013/09/dfs-sprawdzanie-statusu-replikacji/</guid>
+      <guid>https://gagor.pro/2013/09/dfs-sprawdzanie-statusu-replikacji/</guid>
       <description>Ostatnio zbyt dużo grzebię przy &amp;ldquo;windach&amp;rdquo; - ale cóż, czasem trzeba. Ostatnio ustawiałem DFS&amp;rsquo;a z replikacją dla dwóch sporych zasobów i jedna z rzeczy, o którą się rozbiłem to brak jakiegokolwiek podglądu tej synchronizacji z GUI. Ale znalazłem jedno polecenie, które działa w shellu (choć to się chyba batch tutaj nazywa) od Windows Server 2008 R2:
 dfsrdiag ReplicationState /member:nazwaservera Polecenie co prawda nie podaje postępu procentowego ale można zobaczyć &amp;ldquo;czy coś jeszcze się synchronizuje&amp;rdquo; i czy nie ma żadnych błędów.</description>
     </item>
     <item>
       <title>GPO: Instalacja GIMP’a 2.8</title>
-      <link>/2013/08/gpo-instalacja-gimpa-2-8/</link>
+      <link>https://gagor.pro/2013/08/gpo-instalacja-gimpa-2-8/</link>
       <pubDate>Tue, 06 Aug 2013 00:00:00 +0000</pubDate>
-      <guid>/2013/08/gpo-instalacja-gimpa-2-8/</guid>
+      <guid>https://gagor.pro/2013/08/gpo-instalacja-gimpa-2-8/</guid>
       <description>Raz na jakiś czas trzeba coś niestandardowego wrzucić do instalacji w Active Directory a że nie wszystkie aplikacje mają dostępne paczki MSI to trzeba się nieco natrudzić.
 Poniżej wrzucam skrypt, który instaluje GIMP&amp;rsquo;a 2.8 z domyślnego instalatora (wersja InnoSetup) przy okazji odinstalowując wcześniejsze wersje zainstalowane ręcznie.
 Zapisujemy poniższy kod jako np. gimp-install.cmd
@@ -83,9 +83,9 @@ Zapisujemy poniższy kod jako np. gimp-install.cmd
     </item>
     <item>
       <title>Utrzymanie przy życiu sypiących się usług na serwerach Windows</title>
-      <link>/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/</link>
+      <link>https://gagor.pro/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/</link>
       <pubDate>Mon, 22 Oct 2012 00:00:00 +0000</pubDate>
-      <guid>/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/</guid>
+      <guid>https://gagor.pro/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/</guid>
       <description>Zdarzyło mi się kilka usług działających na serwerach Windows, które zwyczajnie sypały się i to tak brzydko że systemowe ustawienia by restartowały się po padzie nie wystarczały. Usługa działała np. 3 godziny by potem się położyć, albo nigdy nie wstawała po starcie systemu - po prostu jakaś masakra. Zgłoszenia do producenta często wyglądały tak że w jego testowym środowisku błędu nie udaje się powtórzyć (i nic dziwnego bo nie sądzę by z ich konfiguracji korzystali rzeczywiści użytkownicy).</description>
     </item>
   </channel>
