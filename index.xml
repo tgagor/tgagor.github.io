@@ -8,8 +8,15 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Mon, 04 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unlocking Efficiency - The power of extensive command history in Bash and Zsh</title>
+      <link>https://gagor.pro/2024/03/unlocking-efficiency-the-power-of-extensive-command-history-in-bash-and-zsh/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/unlocking-efficiency-the-power-of-extensive-command-history-in-bash-and-zsh/</guid>
+      <description>I rely heavily on shell usage. For over 15 years, I was a devoted user of Bash until I discovered Zsh and made the switch. One thing that remained constant throughout my transition was my configuration to maintain an extensive commands history. This setup is replicated across all my systems. When you spend a lot of time coding, you often find yourself repeating commands or running variations of them. Remembering all these commands can be challenging, but with resources like Google and ChatGPT, it&amp;rsquo;s not always necessary.</description>
+    </item>
     <item>
       <title>Optimizing Hugo static site redirects with Cloudflare Pages</title>
       <link>https://gagor.pro/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</link>
