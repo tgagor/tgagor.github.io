@@ -42,3 +42,7 @@
 /category/* /categories/:splat 301
 /main/* / 301
 /author/* /authors/:splat 301
+/favicon-16x16.ico /favicon-16x16.png 301
+/favicon-32x32.ico /favicon-32x32.png 301
+/favicon-72x72.ico /favicon-72x72.png 301
+/apple-touch-icon.ico /apple-touch-icon.png 301
