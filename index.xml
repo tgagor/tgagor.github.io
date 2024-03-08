@@ -11,6 +11,14 @@
     <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Integrating Ko-fi with my shortcode for Hugo</title>
+      <link>https://gagor.pro/2024/03/integrating-ko-fi-with-my-shortcode-for-hugo/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/integrating-ko-fi-with-my-shortcode-for-hugo/</guid>
+      <description>Introduction Being the owner of this blog, I often find joy in revisiting past endeavors that may no longer be part of my daily work. From fine-tuning website performance to delving into the intricacies of SEO, I relish the opportunity to explore various aspects of digital craftsmanship.
+One aspect that particularly piques my interest is finding creative ways to monetize my blog without resorting to intrusive advertisements. As a steadfast supporter of Open Source principles, I value the ability for people to express their appreciation through voluntary contributions or tips, on their own terms.</description>
+    </item>
+    <item>
       <title>Unlocking Efficiency - The power of extensive command history in Bash and Zsh</title>
       <link>https://gagor.pro/2024/03/unlocking-efficiency-the-power-of-extensive-command-history-in-bash-and-zsh/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
