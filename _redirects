@@ -22,9 +22,6 @@
 /images/cover.webp / 301
 /root/.rsync-passwd / 301
 /srv/backup/server / 301
-/tags/hash/ / 301
-/tags/iotop/ / 301
-/tags/pc/ / 301
 /tmp / 301
 /tmp/eaccelerator / 301
 /tmp/server_sync / 301
