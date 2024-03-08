@@ -1543,7 +1543,7 @@ grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n This will search for all l
       <guid>https://gagor.pro/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</guid>
       <description>After WSUS installing on Windows Server 2012 I discovered that it&amp;rsquo;s running on port 8530, different than on older version of Windows (it was using port 80 from beginning). But what&amp;rsquo;s more interesting it was running ONLY on IPv6 interface! Switching binding configuration in IIS doesn&amp;rsquo;t help.
 I could stand switching port - it&amp;rsquo;s nothing hard with GPO, but IPv6 only configuration was not acceptable.
-After googling for some time I found one command that solved my problems by switching WSUS to older behavior and run it on port 80 (on default website).</description>
+After googling for some time 12 I found one command that solved my problems by switching WSUS to older behavior and run it on port 80 (on default website).</description>
     </item>
     <item>
       <title>Debian - Upgrade MySQL to MariaDB</title>
