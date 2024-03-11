@@ -3,10 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gagor.pro/authors/</loc>
-    <lastmod>2024-03-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/2024/03/best-practices-for-writing-dockerfiles-follow-filesystem-hierarchy-standard/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/categories/</loc>
-    <lastmod>2024-03-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/docker/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/categories/howto/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/linux/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/posts/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/authors/timor/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/hugo/</loc>
     <lastmod>2024-03-08T00:00:00+00:00</lastmod>
@@ -17,25 +41,10 @@
     <loc>https://gagor.pro/2024/03/monetize-your-blog-with-ko-fi-shortcodes-for-hugo-sites/</loc>
     <lastmod>2024-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pro/posts/</loc>
-    <lastmod>2024-03-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pro/categories/projects/</loc>
     <lastmod>2024-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gagor.pro/tags/</loc>
-    <lastmod>2024-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/authors/timor/</loc>
-    <lastmod>2024-03-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/</loc>
-    <lastmod>2024-03-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://gagor.pro/tags/bash/</loc>
-    <lastmod>2024-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/tags/linux/</loc>
     <lastmod>2024-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/macos/</loc>
@@ -51,9 +60,6 @@
     <lastmod>2024-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/cloudflare/</loc>
-    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/categories/howto/</loc>
     <lastmod>2024-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</loc>
@@ -81,9 +87,6 @@
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/devops/</loc>
-    <lastmod>2024-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/tags/docker/</loc>
     <lastmod>2024-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/renovate/</loc>
