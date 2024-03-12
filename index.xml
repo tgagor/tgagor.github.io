@@ -2638,8 +2638,8 @@ for i in `seq 1 100`; do (cat tekst.txt; uuencode test.zip test.zip) \ | mail -s
       <pubDate>Fri, 26 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/about/</guid>
       <description>My name is Tomasz Gągor.
-I&amp;rsquo;m passionate day to day DevOps practitioner. I enjoy anything Linux driven, especially containerised web services. Security freak who loves to work with, managing, scaling Cloud systems.
-I&amp;rsquo;m generalist, touched many, strange topic across my career. I used to speak with DBAs about advantages of one DB engine over the another and how to tune them for better performance. With Network guys, it happen to me to debug IKE proto by raw packets.</description>
+I&amp;rsquo;m a passionate day-to-day DevOps practitioner. I enjoy working with anything Linux-driven, especially containerized web services. I&amp;rsquo;m a security enthusiast who loves managing and scaling cloud systems.
+I&amp;rsquo;m a generalist who has delved into many diverse topics throughout my career. I&amp;rsquo;ve discussed the advantages of one DB engine over another and how to tune them for better performance with DBAs. With network specialists, I&amp;rsquo;ve even debugged IKE protocol using raw packets.</description>
     </item>
     <item>
       <title>Rzecz o istocie informatyki</title>
