@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gagor.pro/authors/</loc>
-    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2024/03/best-practices-for-writing-dockerfiles-follow-filesystem-hierarchy-standard/</loc>
     <lastmod>2024-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/categories/</loc>
-    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/docker/</loc>
     <lastmod>2024-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/categories/howto/</loc>
-    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/linux/</loc>
-    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/posts/</loc>
-    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/</loc>
-    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/authors/timor/</loc>
-    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/</loc>
-    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/hugo/</loc>
     <lastmod>2024-03-08T00:00:00+00:00</lastmod>
@@ -366,16 +366,16 @@
     <lastmod>2021-12-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/backup/</loc>
-    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2021/11/creating-fully-encrypted-zfs-pool/</loc>
     <lastmod>2021-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/zfs/</loc>
-    <lastmod>2021-11-22T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2021/11/shucking-wd-elements-14tb/</loc>
-    <lastmod>2021-11-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</loc>
     <lastmod>2021-11-09T00:00:00+00:00</lastmod>
