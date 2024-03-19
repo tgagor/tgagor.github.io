@@ -8,8 +8,16 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zed Code Editor as an Atom reincarnation</title>
+      <link>https://gagor.pro/2024/03/zed-code-editor-as-an-atom-reincarnation/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/zed-code-editor-as-an-atom-reincarnation/</guid>
+      <description>I was a big fan of the Atom1 code editor, so when it was discontinued and replaced by M$&amp;rsquo;s VS Code2, I was both sad and dissapointed. While I can admit that VS Code is a solid editor, my personal preference always leaned towards Atom.
+However, over time, Atom started to feel sluggish. I collected numerous plugins over the years and it began to weigh heavily on performance, not just during startup but also during regular usage.</description>
+    </item>
     <item>
       <title>Best practices for writing Dockerfiles - Follow &#34;Filesystem Hierarchy Standard&#34;</title>
       <link>https://gagor.pro/2024/03/best-practices-for-writing-dockerfiles-follow-filesystem-hierarchy-standard/</link>
