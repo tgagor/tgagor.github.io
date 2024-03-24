@@ -18,6 +18,15 @@
       <description>Following my recent SEO issues , I&amp;rsquo;m actively exploring ways to bolster my website&amp;rsquo;s ranking. One aspect I&amp;rsquo;m keen to address is expediting Search Engine indexing for pages that have been altered or updated. This is precisely the purpose of Sitemaps, a feature fully supported by Hugo1. However, there&amp;rsquo;s a limitation in how Hugo handles this by default. It sets the lastmod parameter to either the page&amp;rsquo;s creation time or the last build time.</description>
     </item>
     <item>
+      <title>How old are Official Docker images in 2024?</title>
+      <link>https://gagor.pro/2024/03/how-old-are-official-docker-images-in-2024/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/how-old-are-official-docker-images-in-2024/</guid>
+      <description>Around 3 years ago I&amp;rsquo;ve checked the age of various base images available on Docker Hub. Curiosity recently got the better of me, prompting another investigation into the current state of affairs.
+Since then, there have been significant changes:
+CentOS 8 has reached its end of life&amp;thinsp; external link , prompting a shift to CentOS 8 Stream&amp;thinsp; external link , which is also nearing its demise &amp;#x1f923; OpenJDK images have been deprecated&amp;thinsp; external link and no longer receiving updates.</description>
+    </item>
+    <item>
       <title>Zed Code Editor as an Atom reincarnation</title>
       <link>https://gagor.pro/2024/03/zed-code-editor-as-an-atom-reincarnation/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
@@ -692,7 +701,9 @@ I don&amp;rsquo;t want to be totally sceptic, I would like to test it on my own 
       <link>https://gagor.pro/2021/01/how-old-are-official-docker-images/</link>
       <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2021/01/how-old-are-official-docker-images/</guid>
-      <description>TL;DR
+      <description>Info
+I published recently more up to date article. Check here&amp;thinsp; external link .
+TL;DR
 CentOS base images sucks! They&amp;rsquo;re old, not updated for months!
 As a professional DevOps I concern about a lot of things&amp;hellip; but security is always close to the top of the list. With Docker build environments and deployments became much more stable, which often is a result of just being stale ;/
 I&amp;rsquo;ve been talking about this for long time but it&amp;rsquo;s still hard for people to believe it.</description>

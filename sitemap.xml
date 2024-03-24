@@ -6,31 +6,46 @@
     <lastmod>2024-03-24T14:59:33+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/categories/</loc>
-    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+    <lastmod>2024-03-24T21:58:22+01:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/centos/</loc>
+    <lastmod>2024-03-24T21:58:22+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/cloudflare/</loc>
     <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/debian/</loc>
+    <lastmod>2024-03-24T21:58:22+01:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/docker/</loc>
+    <lastmod>2024-03-24T21:58:22+01:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/2024/03/how-old-are-official-docker-images-in-2024/</loc>
+    <lastmod>2024-03-24T21:58:22+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/hugo/</loc>
     <lastmod>2024-03-24T14:59:33+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/posts/</loc>
-    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+    <lastmod>2024-03-24T21:58:22+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/seo/</loc>
     <lastmod>2024-03-24T14:59:33+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/</loc>
-    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+    <lastmod>2024-03-24T21:58:22+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/authors/timor/</loc>
-    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+    <lastmod>2024-03-24T21:58:22+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/categories/tip/</loc>
-    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+    <lastmod>2024-03-24T21:58:22+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/</loc>
-    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+    <lastmod>2024-03-24T21:58:22+01:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/ubuntu/</loc>
+    <lastmod>2024-03-24T21:58:22+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/macos/</loc>
     <lastmod>2024-03-24T11:34:19+01:00</lastmod>
@@ -43,9 +58,6 @@
   </url><url>
     <loc>https://gagor.pro/2024/03/best-practices-for-writing-dockerfiles-follow-filesystem-hierarchy-standard/</loc>
     <lastmod>2024-03-12T09:27:28+01:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/tags/docker/</loc>
-    <lastmod>2024-03-24T11:34:19+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/categories/howto/</loc>
     <lastmod>2024-03-24T11:48:58+01:00</lastmod>
@@ -154,9 +166,6 @@
   </url><url>
     <loc>https://gagor.pro/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</loc>
     <lastmod>2024-02-16T17:01:40+01:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/tags/ubuntu/</loc>
-    <lastmod>2024-03-24T11:34:19+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2024/01/git-hacks-a-set-of-my-favorite-git-aliases/</loc>
     <lastmod>2024-02-02T21:24:15+01:00</lastmod>
@@ -308,9 +317,6 @@
     <loc>https://gagor.pro/books/2022/bladza-wszyscy-ale-nie-ja/</loc>
     <lastmod>2023-02-09T23:08:52+01:00</lastmod>
   </url><url>
-    <loc>https://gagor.pro/tags/debian/</loc>
-    <lastmod>2024-03-24T11:34:19+01:00</lastmod>
-  </url><url>
     <loc>https://gagor.pro/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</loc>
     <lastmod>2024-03-13T11:01:40+01:00</lastmod>
   </url><url>
@@ -438,7 +444,7 @@
     <lastmod>2021-11-08T08:41:21+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2021/01/how-old-are-official-docker-images/</loc>
-    <lastmod>2021-11-09T20:43:23+01:00</lastmod>
+    <lastmod>2024-03-24T21:58:22+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/books/2021/pratchett-eryk/</loc>
     <lastmod>2023-02-16T11:59:54+01:00</lastmod>
@@ -795,9 +801,6 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2014/05/quickly-setup-sql-query-logging-on-console-in-django/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/tags/centos/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/</loc>
