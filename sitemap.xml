@@ -2,26 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</loc>
+    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+  </url><url>
     <loc>https://gagor.pro/categories/</loc>
-    <lastmod>2024-03-24T11:48:58+01:00</lastmod>
+    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/cloudflare/</loc>
+    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/hugo/</loc>
+    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/posts/</loc>
+    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/seo/</loc>
+    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/</loc>
+    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/authors/timor/</loc>
+    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/categories/tip/</loc>
+    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/</loc>
+    <lastmod>2024-03-24T14:59:33+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/macos/</loc>
     <lastmod>2024-03-24T11:34:19+01:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/posts/</loc>
-    <lastmod>2024-03-24T11:48:58+01:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/tags/</loc>
-    <lastmod>2024-03-24T11:48:58+01:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/authors/timor/</loc>
-    <lastmod>2024-03-24T11:48:58+01:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/categories/tip/</loc>
-    <lastmod>2024-03-24T11:34:19+01:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/</loc>
-    <lastmod>2024-03-24T11:48:58+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/zed/</loc>
     <lastmod>2024-03-19T22:26:34+01:00</lastmod>
@@ -41,9 +53,6 @@
     <loc>https://gagor.pro/tags/linux/</loc>
     <lastmod>2024-03-24T11:48:58+01:00</lastmod>
   </url><url>
-    <loc>https://gagor.pro/tags/hugo/</loc>
-    <lastmod>2024-03-24T11:34:19+01:00</lastmod>
-  </url><url>
     <loc>https://gagor.pro/tags/ko-fi/</loc>
     <lastmod>2024-03-08T20:56:46+01:00</lastmod>
   </url><url>
@@ -62,17 +71,11 @@
     <loc>https://gagor.pro/tags/zsh/</loc>
     <lastmod>2024-03-05T17:51:49+01:00</lastmod>
   </url><url>
-    <loc>https://gagor.pro/tags/cloudflare/</loc>
-    <lastmod>2024-03-24T11:34:19+01:00</lastmod>
-  </url><url>
     <loc>https://gagor.pro/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</loc>
     <lastmod>2024-03-24T11:34:19+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/categories/off-topic/</loc>
     <lastmod>2024-03-24T11:34:19+01:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/tags/seo/</loc>
-    <lastmod>2024-03-04T16:51:02+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2024/03/seo-kicks-my-stats/</loc>
     <lastmod>2024-03-04T16:51:02+01:00</lastmod>
