@@ -11,7 +11,7 @@
     <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Automatically setting `lastmod` in Hugo pages with Git modification date</title>
+      <title>Automatically setting &#39;lastmod&#39; in Hugo pages with Git modification date</title>
       <link>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</guid>
