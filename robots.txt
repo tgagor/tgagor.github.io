@@ -1,3 +1,4 @@
 User-agent: *
+Crawl-delay: 0
 Disallow:
 Sitemap: https://gagor.pro/sitemap.xml
