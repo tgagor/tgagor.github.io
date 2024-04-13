@@ -18,7 +18,7 @@
       <description>Following my recent SEO issues , I&amp;rsquo;m actively exploring ways to bolster my website&amp;rsquo;s ranking. One aspect I&amp;rsquo;m keen to address is expediting Search Engine indexing for pages that have been altered or updated. This is precisely the purpose of Sitemaps, a feature fully supported by Hugo1. However, there&amp;rsquo;s a limitation in how Hugo handles this by default. It sets the lastmod parameter to either the page&amp;rsquo;s creation time or the last build time.</description>
     </item>
     <item>
-      <title>How old are Official Docker images - 2024 edition?</title>
+      <title>How old are Official Docker images? 2024 Edition</title>
       <link>https://gagor.pro/2024/03/how-old-are-official-docker-images-2024-edition/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/03/how-old-are-official-docker-images-2024-edition/</guid>
