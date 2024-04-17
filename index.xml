@@ -8,8 +8,17 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Oracle Instant Client on Ubuntu 24.04</title>
+      <link>https://gagor.pro/2024/04/installing-oracle-instant-client-on-ubuntu-24.04/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/04/installing-oracle-instant-client-on-ubuntu-24.04/</guid>
+      <description>New system, old problems. Getting Oracle Instant Client to work was a trouble 10 years ago and it&amp;rsquo;s not different today &amp;#x1f923;
+There are two ways to install it on Ubuntu/Debian. First is &amp;ldquo;recommended&amp;rdquo;, but boring. Second is &amp;ldquo;crazy&amp;rdquo;, but have some benefits. As I&amp;rsquo;m doing it mostly in Docker images, that&amp;rsquo;s how I will present it.
+First, check for up to date versions&amp;thinsp; external link and links on Oracle&amp;rsquo;s official site.</description>
+    </item>
     <item>
       <title>Automatically setting &#39;lastmod&#39; in Hugo pages with Git modification date</title>
       <link>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</link>
