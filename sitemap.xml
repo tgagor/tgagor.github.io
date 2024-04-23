@@ -2,8 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gagor.pro/categories/book/</loc>
+    <lastmod>2024-04-23T19:39:06+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/books/</loc>
+    <lastmod>2024-04-23T19:39:06+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/business/</loc>
+    <lastmod>2024-04-23T19:39:06+02:00</lastmod>
+  </url><url>
     <loc>https://gagor.pro/categories/</loc>
-    <lastmod>2024-04-17T23:45:53+02:00</lastmod>
+    <lastmod>2024-04-23T19:39:06+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/finance/</loc>
+    <lastmod>2024-04-23T19:39:06+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/leadership/</loc>
+    <lastmod>2024-04-23T19:39:06+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/management/</loc>
+    <lastmod>2024-04-23T19:39:06+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/books/2024/rewired/</loc>
+    <lastmod>2024-04-23T19:39:06+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/</loc>
+    <lastmod>2024-04-23T19:39:06+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/authors/timor/</loc>
+    <lastmod>2024-04-23T19:39:06+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/</loc>
+    <lastmod>2024-04-23T19:39:06+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/debian/</loc>
     <lastmod>2024-04-17T20:57:15+02:00</lastmod>
@@ -19,15 +49,6 @@
   </url><url>
     <loc>https://gagor.pro/posts/</loc>
     <lastmod>2024-04-17T20:57:15+02:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/tags/</loc>
-    <lastmod>2024-04-17T23:45:53+02:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/authors/timor/</loc>
-    <lastmod>2024-04-17T23:45:53+02:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/</loc>
-    <lastmod>2024-04-17T23:45:53+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/ubuntu/</loc>
     <lastmod>2024-04-17T20:57:15+02:00</lastmod>
@@ -101,12 +122,6 @@
     <loc>https://gagor.pro/books/2024/blekina-kropka/</loc>
     <lastmod>2024-03-01T22:16:21+01:00</lastmod>
   </url><url>
-    <loc>https://gagor.pro/categories/book/</loc>
-    <lastmod>2024-04-17T23:45:53+02:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/books/</loc>
-    <lastmod>2024-04-17T23:45:53+02:00</lastmod>
-  </url><url>
     <loc>https://gagor.pro/tags/devops/</loc>
     <lastmod>2024-03-24T11:34:19+01:00</lastmod>
   </url><url>
@@ -146,14 +161,8 @@
     <loc>https://gagor.pro/tags/rancher/</loc>
     <lastmod>2024-02-06T20:40:01+01:00</lastmod>
   </url><url>
-    <loc>https://gagor.pro/tags/business/</loc>
-    <lastmod>2024-03-08T22:25:40+01:00</lastmod>
-  </url><url>
     <loc>https://gagor.pro/books/2024/extreme-ownership/</loc>
     <lastmod>2024-02-05T20:37:45+01:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/tags/leadership/</loc>
-    <lastmod>2024-04-17T23:45:53+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/git/</loc>
     <lastmod>2024-02-02T21:24:15+01:00</lastmod>
@@ -187,9 +196,6 @@
   </url><url>
     <loc>https://gagor.pro/categories/leadership/</loc>
     <lastmod>2024-03-25T12:27:08+01:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/tags/management/</loc>
-    <lastmod>2024-04-17T23:45:53+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/books/2024/working-backwards/</loc>
     <lastmod>2024-03-08T22:25:40+01:00</lastmod>
@@ -283,9 +289,6 @@
   </url><url>
     <loc>https://gagor.pro/books/2023/nowy-jednominutowy-menedzer/</loc>
     <lastmod>2023-04-13T19:31:21+02:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/tags/finance/</loc>
-    <lastmod>2023-04-13T19:48:55+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/books/2023/psychologia-pieniedzy/</loc>
     <lastmod>2023-04-02T20:39:49+02:00</lastmod>

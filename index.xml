@@ -8,8 +8,20 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rewired</title>
+      <link>https://gagor.pro/books/2024/rewired/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/books/2024/rewired/</guid>
+      <description>RewiredThe McKinsey Guide to Outcompeting in the Age of Digital and AI
+Authors: Eric Lamarre, Kate Smaje, Rodney Zemmel
+amazon.plamazon.de I&amp;rsquo;ve heard a lot of strange things about McKinsey, starting with this parody commercial:
+Then few more facts, but still provided in an amusing way by the John Oliver:
+It&amp;rsquo;s not just jokes than worry me, but also some news I&amp;rsquo;ve read:
+they had no issues to consult both companies and their regulators at the same time1, they work with tobbaco companies and health industry suggesting ways to profit companies, that might be bad for their clients2, having relationships with authoritarian regimes and more.</description>
+    </item>
     <item>
       <title>Installing Oracle Instant Client on Ubuntu 24.04</title>
       <link>https://gagor.pro/2024/04/installing-oracle-instant-client-on-ubuntu-24.04/</link>
