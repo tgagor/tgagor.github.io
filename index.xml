@@ -1424,12 +1424,12 @@ for m in *.mp4 do avconv -i $m -vf &amp;#34;transpose=1&amp;#34; -codec:a copy -
 http://stackoverflow.com/questions/3937387/rotating-videos-with-ffmpeg&amp;thinsp; external link http://superuser.com/questions/578321/how-to-flip-a-video-180&amp;thinsp; external link °-vertical-upside-down-with-ffmpeg</description>
     </item>
     <item>
-      <title>Extract password saved in remmina</title>
+      <title>Extract password saved in Remmina</title>
       <link>https://gagor.pro/2015/12/extract-password-saved-in-remmina/</link>
       <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2015/12/extract-password-saved-in-remmina/</guid>
       <description>I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in .remmina directory.
-Then I used this script to the decrypt them 1:
+Then I used this script to decrypt them 1:
 Extract script import base64 from Crypto.Cipher import DES3 secret = base64.decodestring(&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;) password = base64.decodestring(&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;) print DES3.new(secret[:24], DES3.MODE_CBC, secret[24:]).decrypt(password) http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&amp;thinsp; external link &amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
     </item>
     <item>
