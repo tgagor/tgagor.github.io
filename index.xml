@@ -8,8 +8,17 @@
     <language>en</language>
     <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
-    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create a Virtual Bookshelf with Hugo and PaperMod</title>
+      <link>https://gagor.pro/2024/04/create-a-virtual-bookshelf-with-hugo-and-papermod/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/04/create-a-virtual-bookshelf-with-hugo-and-papermod/</guid>
+      <description>TL;DR If you don&amp;rsquo;t care about my reasoning, just jump to the description of installation and usage . Click here for demo .
+I try to read at least one book each month. It&amp;rsquo;s not much, but that&amp;rsquo;s what I can afford. I read a lot of technical books, building my technical skill set, but a lot of random topics from business, psychology or fantasy.
+It happen to me many times that when I&amp;rsquo;ve been asked about specific book, I couldn&amp;rsquo;t remember &amp;ldquo;Where did I read it?</description>
+    </item>
     <item>
       <title>The Culture Map</title>
       <link>https://gagor.pro/books/2024/culture-map/</link>
