@@ -29,7 +29,7 @@ Authors: Eric Lamarre, Kate Smaje, Rodney Zemmel
 amazon.plamazon.de I&amp;rsquo;ve heard a lot of strange things about McKinsey, starting with this parody commercial:
 Then few more facts, but still provided in an amusing way by the John Oliver:
 It&amp;rsquo;s not just jokes than worry me, but also some news I&amp;rsquo;ve read:
-they had no issues to consult both companies and their regulators at the same time1, they work with tobbaco companies and health industry suggesting ways to profit companies, that might be bad for their clients2, having relationships with authoritarian regimes and more.</description>
+they had no issues to consult both companies and their regulators at the same time1, they work with tobbaco companies and health industry suggesting ways to profit companies, that might be bad for their clients2, they&amp;rsquo;re behind OxyContin (opioid) sales turbocharge, which resulted in hundreds of people dead of overdose3, having relationships with authoritarian regimes and more.</description>
     </item>
     <item>
       <title>Installing Oracle Instant Client on Ubuntu 24.04</title>
@@ -692,7 +692,7 @@ empik.com </description>
       <link>https://gagor.pro/projects/</link>
       <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/projects/</guid>
-      <description>Github repositories tgagor/ansible-role-docker - Installs Docker service on Ubuntu/Debian/RHEL tgagor/ansible-role-docker-compose - Simple Ansible role that will install Docker Compose tgagor/ansible-role-rpi-unifi - Installs Ubiquiti&amp;#39;s Unifi software on Raspberry Pi tgagor/ansible-role-spotify tgagor/ansible-role-template-with-molecule-tests - Template for Ansible role with Molecule and Testinfra for testing tgagor/conferences - Presentations and materials from conferences where I attended as a speaker tgagor/docker-centos - CentOS docker images, build weekly with latest security updates tgagor/docker-nvm-example - Repo with example NVM in Docker image implementation for use in easy CI/CD tgagor/docker-unifi-controller - UniFi Controllver v7 tgagor/docker-wp-cli - Docker image with WP-CLI command line interface for Wordpress tgagor/fslint-snap - Snapcraft package of FSlint Janitor tgagor/hugo-PaperMod-bookshelf - This is an extension, a set of shortcodes and templates to the original PaperMod theme, with a page dedicated to listing the books with responsive UI.</description>
+      <description>Github repositories tgagor/ansible-role-docker - Installs Docker service on Ubuntu/Debian/RHEL tgagor/ansible-role-docker-compose - Simple Ansible role that will install Docker Compose tgagor/ansible-role-rpi-unifi - Installs Ubiquiti&amp;#39;s Unifi software on Raspberry Pi tgagor/ansible-role-spotify tgagor/ansible-role-template-with-molecule-tests - Template for Ansible role with Molecule and Testinfra for testing tgagor/conferences - Presentations and materials from conferences where I attended as a speaker tgagor/docker-centos - CentOS docker images, build weekly with latest security updates tgagor/docker-nvm-example - Repo with example NVM in Docker image implementation for use in easy CI/CD tgagor/docker-unifi-controller - UniFi Controllver v7 tgagor/docker-wp-cli - Docker image with WP-CLI command line interface for Wordpress tgagor/fslint-snap - Snapcraft package of FSlint Janitor Ghists How old official Docker images are?</description>
     </item>
     <item>
       <title>How to remove geo-localization/EXIF data from photos</title>
