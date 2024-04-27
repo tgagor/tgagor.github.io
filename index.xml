@@ -147,10 +147,10 @@ amazon.plempik.com Still reading&amp;hellip;</description>
 I tried to follow up the instruction1 but failed. After few minutes I found slightly simpler solution.</description>
     </item>
     <item>
-      <title>How I stopped worrying and loved the GNU Make and Makefiles</title>
-      <link>https://gagor.pro/2024/02/how-i-stopped-worrying-and-loved-the-gnu-make-and-makefiles/</link>
+      <title>How I stopped worrying and loved Makefiles</title>
+      <link>https://gagor.pro/2024/02/how-i-stopped-worrying-and-loved-makefiles/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/2024/02/how-i-stopped-worrying-and-loved-the-gnu-make-and-makefiles/</guid>
+      <guid>https://gagor.pro/2024/02/how-i-stopped-worrying-and-loved-makefiles/</guid>
       <description>First contact with make When I was invited for my first job interview in the IT, I&amp;rsquo;ve been asked such question:
 How would you typically build a program from sources, what commands will you use?
 I answered:
