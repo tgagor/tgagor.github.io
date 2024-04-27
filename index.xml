@@ -155,7 +155,7 @@ I tried to follow up the instruction1 but failed. After few minutes I found slig
 How would you typically build a program from sources, what commands will you use?
 I answered:
 It&amp;rsquo;s obvious:
-./configure make make install Those times belong to the past now and not many programmers use GNU Make1 nowadays. Try asking this question and you will see disgust at best.
+./configure make make install Those times belong to the past now and nowadays not many programmers use GNU Make1. Try asking this question and you will see disgust at best.
 For many it&amp;rsquo;s the fist contact with make and often the last one, but not for me &amp;#x1f609;</description>
     </item>
     <item>
