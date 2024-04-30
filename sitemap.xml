@@ -3,7 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gagor.pro/categories/</loc>
-    <lastmod>2024-04-27T21:34:09+02:00</lastmod>
+    <lastmod>2024-04-30T06:53:53+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/gaming/</loc>
+    <lastmod>2024-04-30T06:53:53+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/2024/04/nostalgy-for-old-rpg-games/</loc>
+    <lastmod>2024-04-30T06:53:53+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/categories/off-topic/</loc>
+    <lastmod>2024-04-30T06:53:53+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/posts/</loc>
+    <lastmod>2024-04-30T06:53:53+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/</loc>
+    <lastmod>2024-04-30T06:53:53+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/authors/timor/</loc>
+    <lastmod>2024-04-30T06:53:53+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/</loc>
+    <lastmod>2024-04-30T06:53:53+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2024/04/create-a-virtual-bookshelf-with-hugo-and-papermod/</loc>
     <lastmod>2024-04-27T21:34:09+02:00</lastmod>
@@ -11,19 +32,7 @@
     <loc>https://gagor.pro/tags/hugo/</loc>
     <lastmod>2024-04-27T21:34:09+02:00</lastmod>
   </url><url>
-    <loc>https://gagor.pro/posts/</loc>
-    <lastmod>2024-04-27T21:34:09+02:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/tags/</loc>
-    <lastmod>2024-04-27T21:34:09+02:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/authors/timor/</loc>
-    <lastmod>2024-04-27T21:34:09+02:00</lastmod>
-  </url><url>
     <loc>https://gagor.pro/categories/tip/</loc>
-    <lastmod>2024-04-27T21:34:09+02:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/</loc>
     <lastmod>2024-04-27T21:34:09+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/categories/book/</loc>
@@ -121,9 +130,6 @@
   </url><url>
     <loc>https://gagor.pro/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</loc>
     <lastmod>2024-04-12T14:40:47+02:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/categories/off-topic/</loc>
-    <lastmod>2024-04-27T21:10:13+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2024/03/seo-kicks-my-stats/</loc>
     <lastmod>2024-03-04T16:51:02+01:00</lastmod>
