@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tom&#39;s Blog</title>
     <link>https://gagor.pro/</link>
     <description>Recent content on Tom&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.124.1</generator>
     <language>en</language>
-    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
-</copyright>
-    <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Wed, 01 May 2024 00:10:20 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nostalgy for old RPG games</title>
