@@ -6,7 +6,7 @@
     <description>Recent content on Tom&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
+    <copyright>Content licensed under &lt;a rel=&#34;license noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://creativecommons.org/licenses/by-sa/4.0/&#34;&gt;(CC BY-SA 4.0)&lt;/a&gt;
 </copyright>
     <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
@@ -98,10 +98,10 @@ Below you can find the most important directories, from the perspective of Docke
 One aspect that particularly piques my interest is finding creative ways to monetize my blog without resorting to intrusive advertisements. As a steadfast supporter of Open Source principles, I value the ability for people to express their appreciation through voluntary contributions or tips, on their own terms.</description>
     </item>
     <item>
-      <title>Unlocking Efficiency - The power of extensive command history in Bash and Zsh</title>
-      <link>https://gagor.pro/2024/03/unlocking-efficiency-the-power-of-extensive-command-history-in-bash-and-zsh/</link>
+      <title>The power of extensive command history in Bash and Zsh</title>
+      <link>https://gagor.pro/2024/03/the-power-of-extensive-command-history-in-bash-and-zsh/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/2024/03/unlocking-efficiency-the-power-of-extensive-command-history-in-bash-and-zsh/</guid>
+      <guid>https://gagor.pro/2024/03/the-power-of-extensive-command-history-in-bash-and-zsh/</guid>
       <description>I rely heavily on shell usage. For over 15 years, I was a devoted user of Bash until I discovered Zsh and made the switch. One thing that remained constant throughout my transition was my configuration to maintain an extensive commands history. This setup is replicated across all my systems. When you spend a lot of time coding, you often find yourself repeating commands or running variations of them. Remembering all these commands can be challenging, but with resources like Google and ChatGPT, it&amp;rsquo;s not always necessary.</description>
     </item>
     <item>
@@ -167,10 +167,10 @@ It&amp;rsquo;s obvious:
 For many it&amp;rsquo;s the fist contact with make and often the last one, but not for me &amp;#x1f609;</description>
     </item>
     <item>
-      <title>Keeping Docker afloat - Best practices for patching and deprecating images</title>
-      <link>https://gagor.pro/2024/02/keeping-docker-afloat-best-practices-for-patching-and-deprecating-images/</link>
+      <title>Best practices for patching and deprecating images</title>
+      <link>https://gagor.pro/2024/02/best-practices-for-patching-and-deprecating-images/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/2024/02/keeping-docker-afloat-best-practices-for-patching-and-deprecating-images/</guid>
+      <guid>https://gagor.pro/2024/02/best-practices-for-patching-and-deprecating-images/</guid>
       <description>Intro One of the biggest benefits of Docker images is their immutability. Once they&amp;rsquo;re built, they don&amp;rsquo;t change. Built once, would work forever&amp;hellip; That&amp;rsquo;s how nightmares of security guys starts &amp;#x1f923;
 We have then two contradictory concepts:
 flowchart LR id1(Keep it stable) &lt;---&gt; id2(Keep is up to date and secure) For day to day work, usually first concept wins. You want your builds stable and try to avoid tempting distractions of upgrading log4j to latest version&amp;hellip; Who knows what might break.</description>
