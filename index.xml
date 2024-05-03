@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.125.4</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Wed, 01 May 2024 00:10:20 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 03 May 2024 10:15:24 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nostalgy for old RPG games</title>
@@ -238,7 +238,7 @@ Simple status/log checks git s s = status --short --branch --untracked-files Sho
       <guid>https://gagor.pro/books/2024/working-backwards/</guid>
       <description>Working BackwardsInsights, Stories, and Secrets from Inside Amazon
 Author: Bryar Colin
-empik.com Still reading&amp;hellip;</description>
+amazon.plempik.com Still reading&amp;hellip;</description>
     </item>
     <item>
       <title>How to give Probation Period feedback?</title>
@@ -348,7 +348,7 @@ Książka nie była dla mnie wielkim odkryciem, ale przjemnie było sobie przypo
       <guid>https://gagor.pro/books/2023/collaborating-with-the-enemy/</guid>
       <description>Collaborating with the EnemyHow to Work with People You Don&amp;rsquo;t Agree with or Like or Trust
 Author: Adam Kahane
-amazon.com In this book the author, Adam Kahane, presents several key concepts to help individuals navigate collaboration with people they may not agree with, like, or trust. Here are some of the main concepts from the book:
+amazon.plamazon.com In this book the author, Adam Kahane, presents several key concepts to help individuals navigate collaboration with people they may not agree with, like, or trust. Here are some of the main concepts from the book:
 Embracing Discomfort: Kahane emphasizes the importance of stepping outside one&amp;rsquo;s comfort zone when working with people with differing perspectives.</description>
     </item>
     <item>
@@ -358,7 +358,7 @@ Embracing Discomfort: Kahane emphasizes the importance of stepping outside one&a
       <guid>https://gagor.pro/books/2023/legendarna-obsluga-klienta/</guid>
       <description> Legendarna obsługa klientaTroska jest najważniejsza
 Authors: Blanchard Ken, Halsey Vicki, Cuff Kathy
-empik.com </description>
+amazon.plempik.com </description>
     </item>
     <item>
       <title>The Effective Manager: Second Edition</title>
@@ -392,7 +392,7 @@ We used to use nodeenv&amp;thinsp; external link for that purpose.</description>
       <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/books/2023/nowy-jednominutowy-menedzer/</guid>
       <description> Nowy jednominutowy menedżerAuthors: Blanchard Ken, Spencer Johnson
-empik.com </description>
+amazon.plempik.com </description>
     </item>
     <item>
       <title>Psychologia pieniędzy</title>
@@ -401,7 +401,7 @@ empik.com </description>
       <guid>https://gagor.pro/books/2023/psychologia-pieniedzy/</guid>
       <description> Psychologia pieniędzyPonadczasowe lekcje o bogactwie, chciwości i szczęściu
 Author: Morgan Housel
-empik.com </description>
+amazon.plempik.com </description>
     </item>
     <item>
       <title>Change configuration of Docker daemon in Rancher Desktop</title>
@@ -426,7 +426,7 @@ amazon.pl </description>
       <pubDate>Thu, 02 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/books/2023/rycerz-nieistniejacy/</guid>
       <description> Rycerz nieistniejącyAuthor: Calvino Italo
-empik.com </description>
+amazon.plempik.com </description>
     </item>
     <item>
       <title>Przywództwo i oszukiwanie samego siebie</title>
@@ -435,7 +435,7 @@ empik.com </description>
       <guid>https://gagor.pro/books/2023/przywodztwo-i-oszukiwanie-samego-siebie/</guid>
       <description> Przywództwo i oszukiwanie samego siebieJak uwolnić się z pułapki uprzedzeń
 Author: Praca zbiorowa
-empik.com </description>
+amazon.plempik.com </description>
     </item>
     <item>
       <title>Praca głęboka</title>
@@ -480,7 +480,7 @@ amazon.plamazon.comempik.com Starość Aksolotla is a book written by Polish aut
       <guid>https://gagor.pro/books/2022/bladza-wszyscy-ale-nie-ja/</guid>
       <description> Błądzą wszyscy (ale nie ja)Dlaczego usprawiedliwiamy głupie poglądy, złe decyzje i szkodliwe działania?
 Authors: Elliot Aronson, Carol Tavris
-amazon.comempik.com </description>
+amazon.plamazon.comempik.com </description>
     </item>
     <item>
       <title>Ubuntu - Key is stored in legacy trusted.gpg keyring...</title>
@@ -549,7 +549,7 @@ Kasowanie ostrzeżenia wymiany oleju 1 Przekręcić kluczyk w stacyjce do drugie
       <pubDate>Sat, 13 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/books/2022/czy-jestes-tym-ktory-puka/</guid>
       <description> Czy jesteś tym, który puka?Author: Dariusz Użycki
-empik.com </description>
+empik.comdariuszuzycki.com </description>
     </item>
     <item>
       <title>Kubernetes Operators</title>
@@ -586,7 +586,7 @@ amazon.plamazon.comempik.com Drive: The Surprising Truth About What Motivates Us
       <guid>https://gagor.pro/books/2022/wewnetrzna-gra/</guid>
       <description> Wewnętrzna graKształtowanie psychiki gracza giełdowego
 Authors: Robert Koppel, Howard Abell
-maklerska.pl </description>
+amazon.plmaklerska.pl </description>
     </item>
     <item>
       <title>On slow decline of streaming services</title>
@@ -602,7 +602,7 @@ maklerska.pl </description>
       <guid>https://gagor.pro/books/2021/projekt-jednorozec/</guid>
       <description> Projekt JednorożecPowieść o szansie w epoce przewrotów cyfrowych
 Author: Gene Kim
-helion.pl </description>
+amazon.plhelion.pl </description>
     </item>
     <item>
       <title>Creating fully encrypted ZFS pool</title>
@@ -675,7 +675,7 @@ The book is well-written and provides a wealth of practical insights and advice 
       <guid>https://gagor.pro/books/2021/milosc-i-matematyka/</guid>
       <description> Miłość i matematykaIstota ukrytej rzeczywistości
 Author: Edward Frenkel
-empik.com </description>
+amazon.plempik.com </description>
     </item>
     <item>
       <title>Official CentOS 8 Stream Docker image finally available!</title>
@@ -692,7 +692,7 @@ I found new place accidentally, reading some news about CentOS Stream 9 on their
       <guid>https://gagor.pro/books/2021/inteligentny-inwestor/</guid>
       <description> Inteligentny inwestorNajlepsza książka o inwestowaniu wartościowym
 Author: Benjamin Graham
-empik.com </description>
+amazon.plempik.com </description>
     </item>
     <item>
       <title>Bogaty albo biedny</title>
@@ -701,7 +701,7 @@ empik.com </description>
       <guid>https://gagor.pro/books/2021/bogaty-albo-biedny/</guid>
       <description> Bogaty albo biednyPo prostu różni mentalnie
 Author: T. Harv Eker
-empik.com </description>
+amazon.plempik.com </description>
     </item>
     <item>
       <title>My projects</title>
@@ -726,7 +726,7 @@ TL;DR You will need imagemagick installed (use apt/yum/dnf of whatever you have 
       <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/books/2021/ksiaze/</guid>
       <description> KsiążęAuthor: Nicolo Machiavelli
-empik.com </description>
+amazon.plempik.com </description>
     </item>
     <item>
       <title>How to run JMX monitoring in Docker image?</title>
@@ -762,7 +762,7 @@ I&amp;rsquo;ve been talking about this for long time but it&amp;rsquo;s still ha
       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/books/2021/pratchett-eryk/</guid>
       <description> ErykAuthor: Terry Pratchett
-empik.com </description>
+amazon.plempik.com </description>
     </item>
     <item>
       <title>Czarodzicielstwo</title>
