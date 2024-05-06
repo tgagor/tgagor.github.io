@@ -18,10 +18,10 @@
     <priority>0.2</priority>
   </url><url>
     <loc>https://gagor.pro/authors/timor/</loc>
-    <lastmod>2024-05-06T22:45:00+02:00</lastmod>
+    <lastmod>2024-05-06T23:00:54+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/</loc>
-    <lastmod>2024-05-06T22:45:00+02:00</lastmod>
+    <lastmod>2024-05-06T23:00:54+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2024/04/create-a-virtual-bookshelf-with-hugo-and-papermod/</loc>
     <lastmod>2024-04-30T21:37:15+02:00</lastmod>
@@ -39,7 +39,7 @@
     <priority>0.2</priority>
   </url><url>
     <loc>https://gagor.pro/categories/book/</loc>
-    <lastmod>2024-05-06T22:45:00+02:00</lastmod>
+    <lastmod>2024-05-06T23:00:54+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url><url>
@@ -2366,14 +2366,16 @@
     <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/archives/</loc>
-    <lastmod>2021-11-06T16:55:18+01:00</lastmod>
+    <lastmod>2024-05-06T23:00:54+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
   </url><url>
     <loc>https://gagor.pro/authors/</loc>
     <lastmod>2020-10-22T23:32:04+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/bookshelf/</loc>
-    <lastmod>2024-02-26T00:33:41+01:00</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2024-05-06T23:00:54+02:00</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url><url>
     <loc>https://gagor.pro/search/</loc>
