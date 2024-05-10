@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gagor.pro/</loc>
-    <lastmod>2024-05-07T10:19:47+02:00</lastmod>
+    <lastmod>2024-05-10T09:08:11+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/gaming/</loc>
     <lastmod>2024-04-30T21:37:18+02:00</lastmod>
@@ -21,7 +21,7 @@
     <priority>0.2</priority>
   </url><url>
     <loc>https://gagor.pro/authors/timor/</loc>
-    <lastmod>2024-05-07T00:03:43+02:00</lastmod>
+    <lastmod>2024-05-10T09:08:11+02:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url><url>
@@ -41,7 +41,7 @@
     <priority>0.2</priority>
   </url><url>
     <loc>https://gagor.pro/categories/book/</loc>
-    <lastmod>2024-05-06T23:00:54+02:00</lastmod>
+    <lastmod>2024-05-10T09:08:11+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url><url>
@@ -2343,29 +2343,20 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/</loc>
-    <lastmod>2024-05-06T22:45:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url><url>
     <loc>https://gagor.pro/categories/</loc>
     <lastmod>2024-05-06T22:45:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url><url>
-    <loc>https://gagor.pro/posts/2024/</loc>
-    <lastmod>2024-05-07T00:03:43+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1</priority>
-  </url><url>
-    <loc>https://gagor.pro/posts/</loc>
-    <lastmod>2024-05-06T22:45:00+02:00</lastmod>
-    <priority>0.9</priority>
-  </url><url>
     <loc>https://gagor.pro/tags/</loc>
     <lastmod>2024-05-06T22:45:00+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
+  </url><url>
+    <loc>https://gagor.pro/posts/2024/</loc>
+    <lastmod>2024-05-10T09:08:11+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
   </url><url>
     <loc>https://gagor.pro/archives/</loc>
     <lastmod>2024-05-06T23:00:54+02:00</lastmod>
@@ -2377,10 +2368,19 @@
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url><url>
+    <loc>https://gagor.pro/books/</loc>
+    <lastmod>2024-05-10T09:08:11+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url><url>
     <loc>https://gagor.pro/bookshelf/</loc>
     <lastmod>2024-05-06T23:00:54+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url><url>
+    <loc>https://gagor.pro/posts/</loc>
+    <lastmod>2024-05-10T09:08:11+02:00</lastmod>
+    <priority>0.9</priority>
   </url><url>
     <loc>https://gagor.pro/search/</loc>
     <lastmod>2021-11-06T16:55:18+01:00</lastmod>
