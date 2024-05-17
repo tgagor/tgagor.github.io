@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.125.4</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Fri, 17 May 2024 21:07:02 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 18 May 2024 00:47:20 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimizing Hugo Sitemaps to prioritize posts crawling over taxonomies</title>
@@ -51,7 +51,7 @@ Let me explain first high and low context communication, as it&amp;rsquo;s requi
       <guid>https://gagor.pro/books/2024/rewired/</guid>
       <description>RewiredThe McKinsey Guide to Outcompeting in the Age of Digital and AI
 Authors: Eric Lamarre, Kate Smaje, Rodney Zemmel
-amazon.plamazon.de I&amp;rsquo;ve heard a lot of strange things about McKinsey, starting with this parody commercial:
+amazon.comamazon.deamazon.pl I&amp;rsquo;ve heard a lot of strange things about McKinsey, starting with this parody commercial:
 Then few more facts, but still provided in an amusing way by the John Oliver:
 It&amp;rsquo;s not just jokes than worry me, but also some news I&amp;rsquo;ve read:
 they had no issues to consult both companies and their regulators at the same time1, they work with tobbaco companies and health industry suggesting ways to profit companies, that might be bad for their clients2, they&amp;rsquo;re behind OxyContin (opioid) sales turbocharge, which resulted in hundreds of people dead of overdose3, having relationships with authoritarian regimes and more.</description>
@@ -143,7 +143,7 @@ You might already hear about Dependabot1, it&amp;rsquo;s a Github&amp;rsquo;s wa
       <guid>https://gagor.pro/books/2024/blekina-kropka/</guid>
       <description>Błękitna kropkaCzłowiek i jego przyszłość w kosmosie
 Author: Carl Sagan
-empik.comamazon.de I love science and I&amp;rsquo;m passionate about cosmos since I was 5. One of my favourite books from the childhood was the one about Universe - with color pictures. This one is a sweet reminder of those ancient times and have even better pictures!
+amazon.comempik.comamazon.de I love science and I&amp;rsquo;m passionate about cosmos since I was 5. One of my favourite books from the childhood was the one about Universe - with color pictures. This one is a sweet reminder of those ancient times and have even better pictures!
 There is an interesting reference to the deities and their relation to the planets. Their impact on humanities history, then a swift dive into the place of the God in &amp;ldquo;our&amp;rdquo; universe.</description>
     </item>
     <item>
@@ -199,7 +199,7 @@ Enforce platform for all commands export DOCKER_DEFAULT_PLATFORM=linux/amd64 Wit
       <guid>https://gagor.pro/books/2024/extreme-ownership/</guid>
       <description>Extreme OwnershipHow U.S. Navy SEALs Lead and Win
 Authors: Jocko Willink, Leif Babin
-amazon.pl The book is a compelling and practical leadership guide co-authored by Jocko Willink and Leif Babin, both former Navy SEAL officers. The book revolves around the central theme of taking absolute responsibility for every aspect of one&amp;rsquo;s life and leadership role. Through gripping combat stories from their SEAL experiences, the authors illustrate key principles such as accountability, decisiveness, and humility.</description>
+amazon.comamazon.pl The book is a compelling and practical leadership guide co-authored by Jocko Willink and Leif Babin, both former Navy SEAL officers. The book revolves around the central theme of taking absolute responsibility for every aspect of one&amp;rsquo;s life and leadership role. Through gripping combat stories from their SEAL experiences, the authors illustrate key principles such as accountability, decisiveness, and humility.</description>
     </item>
     <item>
       <title>My pre-commit config for Hugo blog</title>
@@ -247,7 +247,7 @@ Simple status/log checks git s s = status --short --branch --untracked-files Sho
       <guid>https://gagor.pro/books/2024/working-backwards/</guid>
       <description>Working BackwardsInsights, Stories, and Secrets from Inside Amazon
 Author: Bryar Colin
-amazon.plempik.com Still reading&amp;hellip;</description>
+amazon.comamazon.plempik.com Still reading&amp;hellip;</description>
     </item>
     <item>
       <title>How to give Probation Period feedback?</title>
@@ -300,19 +300,20 @@ Eventually, accidentaly I found it! So let me share, with pictures &amp;#x1f60e;
 Find in top-right corner icon with your points and click it From menu, choose &amp;ldquo;My settings&amp;rdquo; In new window, choose &amp;ldquo;Sound &amp;amp; Display&amp;rdquo; tab There it is!</description>
     </item>
     <item>
-      <title>48 praw władzy</title>
-      <link>https://gagor.pro/books/2023/48-praw-wladzy/</link>
-      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/books/2023/48-praw-wladzy/</guid>
-      <description>48 praw władzyAuthor: Robert Greene
-empik.com Still reading&amp;hellip;</description>
-    </item>
-    <item>
       <title>Changing comments provider for my blog</title>
       <link>https://gagor.pro/2023/12/changing-comments-provider-for-my-blog/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2023/12/changing-comments-provider-for-my-blog/</guid>
       <description>I&amp;rsquo;ve been thinking about switching comments system to something different on my blog. Since I moved to Hugo&amp;thinsp; external link , I used Disqus&amp;thinsp; external link . Integration was easy and it was also easy to move comments from Wordpress. Maybe the move was easy, but people somehow didn&amp;rsquo;t like the interface. I receive 6 comments since I switched from Wordpress 3 years ago &amp;#x1f604; To be honest, I don&amp;rsquo;t like it too.</description>
+    </item>
+    <item>
+      <title>The 48 Laws of Power</title>
+      <link>https://gagor.pro/books/2023/the-48-laws-of-power/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/books/2023/the-48-laws-of-power/</guid>
+      <description>The 48 Laws of PowerAuthor: Robert Greene
+amazon.comamazon.plempik.com The 48 Laws of PowerAuthor: Robert Greene
+amazon.comamazon.plempik.com Still reading&amp;hellip;</description>
     </item>
     <item>
       <title>Use Github with SSH on port 443</title>
