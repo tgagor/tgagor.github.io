@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.125.4</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Fri, 17 May 2024 08:35:12 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2024 17:12:58 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimizing Hugo Sitemaps to prioritize posts crawling over taxonomies</title>
+      <link>https://gagor.pro/2024/05/optimizing-hugo-sitemaps-to-prioritize-posts-crawling-over-taxonomies/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/05/optimizing-hugo-sitemaps-to-prioritize-posts-crawling-over-taxonomies/</guid>
+      <description>You might notice that I&amp;rsquo;ve been struggling recently with SEO and that I&amp;rsquo;ve been trying some tricks to improve it, but it feels not enough.
+I&amp;rsquo;ve been thinking about Google&amp;rsquo;s Crawl Budget1 and the way I could influence it to focus more on new and important content. Adding lastmod should help, but together with each new post added, Hugo generates a ton of taxonomy pages (tags, categories, etc) which also would have lastmod updated.</description>
+    </item>
     <item>
       <title>Nostalgy for old RPG games</title>
       <link>https://gagor.pro/2024/04/nostalgy-for-old-rpg-games/</link>
