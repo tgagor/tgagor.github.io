@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gagor.pro/</loc>
-    <lastmod>2024-05-10T09:12:58+02:00</lastmod>
+    <lastmod>2024-05-17T08:35:12+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/gaming/</loc>
     <lastmod>2024-04-30T21:37:18+02:00</lastmod>
@@ -21,7 +21,7 @@
     <priority>0.2</priority>
   </url><url>
     <loc>https://gagor.pro/authors/timor/</loc>
-    <lastmod>2024-05-10T09:08:11+02:00</lastmod>
+    <lastmod>2024-05-17T08:35:12+02:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url><url>
@@ -36,7 +36,7 @@
     <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/categories/tip/</loc>
-    <lastmod>2024-05-07T00:03:43+02:00</lastmod>
+    <lastmod>2024-05-17T08:35:12+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url><url>
@@ -91,7 +91,7 @@
     <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/categories/howto/</loc>
-    <lastmod>2024-05-05T17:27:46+02:00</lastmod>
+    <lastmod>2024-05-17T08:35:12+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url><url>
@@ -101,7 +101,7 @@
     <priority>1</priority>
   </url><url>
     <loc>https://gagor.pro/tags/linux/</loc>
-    <lastmod>2024-05-07T00:03:43+02:00</lastmod>
+    <lastmod>2024-05-17T08:35:12+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url><url>
@@ -1469,11 +1469,11 @@
     <priority>0.9</priority>
   </url><url>
     <loc>https://gagor.pro/2013/11/inodes-on-xfs/</loc>
-    <lastmod>2024-03-24T11:34:19+01:00</lastmod>
+    <lastmod>2024-05-17T08:35:12+02:00</lastmod>
     <priority>0.9</priority>
   </url><url>
     <loc>https://gagor.pro/tags/xfs/</loc>
-    <lastmod>2024-03-24T11:34:19+01:00</lastmod>
+    <lastmod>2024-05-17T08:35:12+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url><url>
