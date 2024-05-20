@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.125.4</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sat, 18 May 2024 00:47:57 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2024 09:05:07 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimizing Hugo Sitemaps to prioritize posts crawling over taxonomies</title>
@@ -1203,8 +1203,8 @@ su developer - Easy one but that&amp;rsquo;s not enough for all cases.</descript
       <link>https://gagor.pro/2016/04/pip-uninstall-package-with-dependencies/</link>
       <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2016/04/pip-uninstall-package-with-dependencies/</guid>
-      <description>Virtualenvs in python are cheap but from time to time you will install something with pip on your system and when time comes removing all this crap could be difficult. I found this bash snippet that will uninstall package with all dependencies:
-for dep in $(pip show python-neutronclient | grep Requires | sed &amp;#39;s/Requires: //g; s/,//g&amp;#39;) ; do sudo pip uninstall -y $dep ; done pip uninstall -y python-neutronclient Source: http://stackoverflow.</description>
+      <description>Virtualenvs in python are cheap but from time to time you will install something with pip on your system and when time comes removing all this crap could be difficult. I found this bash snippet1 that will uninstall package with all dependencies:
+Recursive pip uninstall for dep in $(pip show python-neutronclient | grep Requires | sed &amp;#39;s/Requires: //g; s/,//g&amp;#39;) ; do pip uninstall -y $dep ; done pip uninstall -y python-neutronclient Depending how you installed it, you might need to use sudo.</description>
     </item>
     <item>
       <title>Daily MySQL backups with xtrabackup</title>
