@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.125.4</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 20 May 2024 09:05:07 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 20 May 2024 10:23:49 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimizing Hugo Sitemaps to prioritize posts crawling over taxonomies</title>
@@ -1394,7 +1394,7 @@ xe vm-export vm=webfront1.example.com filename=/srv/backup/webfront.xva Export s
       <link>https://gagor.pro/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</link>
       <pubDate>Mon, 11 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</guid>
-      <description>Sometimes deployment process or other havy task may cause some Nagios checks to rise below normal levels and bother admin. If this is expected and you want to add downtime on host/service during this task you may use this script:
+      <description>Sometimes deployment process or other heavy task may cause some Nagios checks to rise below normal levels and bother admin1. If this is expected and you want to add downtime on host/service during this task you may use this script:
 #!/bin/bash function die { echo $1; exit 1; } if [[ $# -eq 0 ]] ; then die &amp;#34;Give hostname and time in minutes as parameter!&amp;#34; fi if [[ $# -eq 1 ]] ; then MINUTES=15 else MINUTES=$2 fi HOST=$1 NAGURL=http://nagios.</description>
     </item>
     <item>
