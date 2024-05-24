@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.125.4</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Wed, 22 May 2024 19:38:25 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 24 May 2024 08:58:22 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimizing Hugo Sitemaps to prioritize posts crawling over taxonomies</title>
@@ -2575,12 +2575,11 @@ Przywykłem w darmowych dystrybucjach że gdy pojawiała się nowszą &amp;ldquo
       <description>Bardzo często konfigurując usługi dostępne publicznie poświęca się sporo czasu na maksymalne zwiększenie bezpieczeństwa przez &amp;ldquo;dopieszczanie&amp;rdquo; konfiguracji (certyfikaty z mocnym szyfrowaniem, ochronę pewnych stron hasłem, dostęp do SSH tylko kluczami, itd.) ale całkowicie pomija się przygotowanie systemu aktywnie monitorującego błędne próby autoryzacji. Oczywiście nie można umniejszać wagi pierwszego z wymienionych etapów ale zdecydowanie nie powinno pomijać się też tego drugiego. Przecież każdy admin chciałby wiedzieć gdy ktoś próbuje włamać się na jego serwer (FTP, HTTP, SSH, itp.</description>
     </item>
     <item>
-      <title>pflogsumm - statystyki poczty dla postfix’a</title>
-      <link>https://gagor.pro/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</link>
+      <title>pflogsumm - Mail Statistics for Postfix</title>
+      <link>https://gagor.pro/2011/09/pflogsumm-mail-statistics-for-postfix/</link>
       <pubDate>Thu, 22 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/2011/09/pflogsum-statystyki-poczty-dla-postfixa/</guid>
-      <description>Jeżeli administrujesz nawet niedużym serwerem pocztowym na pewno masz świadomość, że nie jesteś w stanie monitorować logów na bieżąco. Ciężko jest wyłapać np. problem w komunikacji z pewną domeną. Ciężko też oszacować skalę ruchu na serwerze zarówno pod kątem ilości jak i wolumenu maili. Trudno wybrać domeny, dla których warto by zrezygnować z greylistingu, itd, itp&amp;hellip;
-Na szczęście dostępne jest narzędzie pflogsumm, które wygeneruje nam dość wyczerpujące statystyki z logów postfix&amp;rsquo;a.</description>
+      <guid>https://gagor.pro/2011/09/pflogsumm-mail-statistics-for-postfix/</guid>
+      <description>If you administer even a small mail server, you are surely aware that you cannot monitor logs in real-time. It is difficult to catch, for instance, a problem in communication with a certain domain. It is also hard to estimate the scale of traffic on the server in terms of both the number and volume of emails. It&amp;rsquo;s challenging to choose the domains for which it would be worthwhile to disable greylisting, etc&amp;hellip;</description>
     </item>
     <item>
       <title>fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed</title>
