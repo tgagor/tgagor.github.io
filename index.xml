@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.125.4</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 27 May 2024 16:39:07 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2024 20:06:19 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fix &#39;Cannot Rebase Onto Multiple Branches&#39; error once and for all</title>
@@ -48,6 +48,14 @@ I&amp;rsquo;ve been thinking about Google&amp;rsquo;s Crawl Budget1 and the way 
       <guid>https://gagor.pro/2024/04/nostalgy-for-old-rpg-games/</guid>
       <description>I&amp;rsquo;ve been cleaning up old backups and found few screenshots from Ice Wind Dale, Baldur&amp;rsquo;s Gate 2 and Throne of Bhaal expansion.
 I&amp;rsquo;ve spend many good hours playing those games. I&amp;rsquo;ve read a dozen books from the Forgotten Realms realm . I remember being in a library (in the game) and spending there quite a lot of time, just to read few books. Playing those games was like a deep dive into the fantasy world, side by side to the characters from the books, or sometime against them.</description>
+    </item>
+    <item>
+      <title>Rising costs of running legacy Amazon RDS systems</title>
+      <link>https://gagor.pro/2024/04/rising-costs-of-running-legacy-amazon-rds-systems/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/04/rising-costs-of-running-legacy-amazon-rds-systems/</guid>
+      <description>Amazon recently faced challenges in maintaining support for legacy Relational Database Service (RDS) systems and even considered upgrading instances forcefully1. This situation is not unique to Amazon; many companies struggle with the costs of maintaining legacy systems. However, as a service provider, Amazon must support older systems as long as there are customers willing to pay for them.
+In December 2023, Amazon announced1 plans to upgrade legacy RDS instances to versions still under active development, citing the rising costs of maintaining outdated systems.</description>
     </item>
     <item>
       <title>Create a Virtual Bookshelf with Hugo and PaperMod</title>
