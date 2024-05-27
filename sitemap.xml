@@ -2,6 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gagor.pro/tags/bash/</loc>
+    <lastmod>2024-05-27T08:37:12+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>https://gagor.pro/tags/debian/</loc>
+    <lastmod>2024-05-27T08:37:12+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>https://gagor.pro/tags/linux/</loc>
+    <lastmod>2024-05-27T08:37:12+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>https://gagor.pro/2024/05/remove-password-from-pdf-documents/</loc>
+    <lastmod>2024-05-27T08:37:12+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://gagor.pro/authors/timor/</loc>
+    <lastmod>2024-05-27T08:37:12+02:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>https://gagor.pro/categories/tip/</loc>
+    <lastmod>2024-05-27T08:37:12+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url><url>
+    <loc>https://gagor.pro/</loc>
+    <lastmod>2024-05-27T08:37:12+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/tags/ubuntu/</loc>
+    <lastmod>2024-05-27T08:37:12+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.1</priority>
+  </url><url>
     <loc>https://gagor.pro/categories/book/</loc>
     <lastmod>2024-05-27T07:07:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -31,14 +69,6 @@
     <lastmod>2024-05-27T06:45:53+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url><url>
-    <loc>https://gagor.pro/authors/timor/</loc>
-    <lastmod>2024-05-27T07:07:41+02:00</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/</loc>
-    <lastmod>2024-05-27T07:07:41+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/categories/howto/</loc>
     <lastmod>2024-05-24T08:58:22+02:00</lastmod>
@@ -80,11 +110,6 @@
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://gagor.pro/categories/tip/</loc>
-    <lastmod>2024-05-26T10:44:15+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url><url>
     <loc>https://gagor.pro/tags/business/</loc>
     <lastmod>2024-05-27T07:07:41+02:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -110,25 +135,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/debian/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2024/04/installing-oracle-instant-client-on-ubuntu-24.04/</loc>
     <lastmod>2024-04-30T21:37:15+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/linux/</loc>
-    <lastmod>2024-05-26T10:44:15+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/ubuntu/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</loc>
     <lastmod>2024-04-30T21:37:15+02:00</lastmod>
@@ -194,11 +204,6 @@
     <lastmod>2024-04-30T21:37:15+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/bash/</loc>
-    <lastmod>2024-05-26T10:44:15+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2024/03/the-power-of-extensive-command-history-in-bash-and-zsh/</loc>
     <lastmod>2024-04-30T21:37:15+02:00</lastmod>
