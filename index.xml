@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.125.4</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 27 May 2024 08:37:12 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2024 16:39:07 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fix &#39;Cannot Rebase Onto Multiple Branches&#39; error once and for all</title>
+      <link>https://gagor.pro/2024/05/fix-cannot-rebase-onto-multiple-branches-error-once-and-for-all/</link>
+      <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/05/fix-cannot-rebase-onto-multiple-branches-error-once-and-for-all/</guid>
+      <description>A Guide to using git pull --rebase effectively Using git pull --rebase as your default merge strategy offers several benefits, particularly in maintaining a clean and linear commit history, which can simplify collaboration and code review. However, users may occasionally encounter the error &amp;ldquo;Cannot rebase onto multiple branches&amp;rdquo;. This article explains why this happens and provides a solution to make git pull --rebase work seamlessly.
+Benefits of git pull --rebase Linear History: Rebasing applies your local commits on top of the upstream changes, creating a straight line of commits without unnecessary merge commits.</description>
+    </item>
     <item>
       <title>Remove Password From PDF documents</title>
       <link>https://gagor.pro/2024/05/remove-password-from-pdf-documents/</link>
