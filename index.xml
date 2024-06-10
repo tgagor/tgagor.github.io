@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.125.4</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 10 Jun 2024 21:50:03 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2024 00:11:57 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fix &#39;Cannot Rebase Onto Multiple Branches&#39; error once and for all</title>
