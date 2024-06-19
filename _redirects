@@ -24,6 +24,7 @@
 /2014/06/rhel-7-rc-minimal-installation-from-ftp / 301
 /2016/09/near-conferences/ / 301
 /404.html /404/ 301
+/author /authors/ 301
 /apple-touch-icon.ico /apple-touch-icon.png 301
 /categories/leadership/ /tags/leadership/ 301
 /category/howto/tip/ / 301
@@ -70,4 +71,3 @@
 /tag/* /tags/:splat 301
 /category/* /categories/:splat 301
 /main/* / 301
-/author/* /authors/:splat 301
