@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.139.3</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Fri, 20 Dec 2024 23:55:21 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2024 11:20:25 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Turn the Ship Around!</title>
@@ -50,7 +50,7 @@
       <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/05/fix-cannot-rebase-onto-multiple-branches-error-once-and-for-all/</guid>
       <description>&lt;h2 id=&#34;a-guide-to-using-git-pull---rebase-effectively&#34;&gt;A Guide to using &lt;code&gt;git pull --rebase&lt;/code&gt; effectively&lt;/h2&gt;
-&lt;p&gt;Using &lt;code&gt;git pull --rebase&lt;/code&gt; as your default merge strategy offers several benefits, particularly in maintaining a clean and linear commit history, which can simplify collaboration and code review. However, users may occasionally encounter the error &lt;em&gt;&amp;ldquo;Cannot rebase onto multiple branches&amp;rdquo;&lt;/em&gt;. This article explains why this happens and provides a solution to make &lt;code&gt;git pull --rebase&lt;/code&gt; work seamlessly.&lt;/p&gt;
+&lt;p&gt;Using &lt;code&gt;git pull --rebase&lt;/code&gt; as your default merge strategy offers several benefits, particularly in maintaining a clean and linear commit history, which can simplify collaboration and code review. However, you may occasionally encounter the error &lt;em&gt;&amp;ldquo;Cannot rebase onto multiple branches&amp;rdquo;&lt;/em&gt;. This article explains why this happens and provides a solution to make &lt;code&gt;git pull --rebase&lt;/code&gt; work seamlessly.&lt;/p&gt;
 &lt;h3 id=&#34;benefits-of-git-pull---rebase&#34;&gt;Benefits of &lt;code&gt;git pull --rebase&lt;/code&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -1366,6 +1366,10 @@ Zatwierdzamy OK.&lt;/li&gt;
         
       
         
+          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/docker-chisel&#34; target=&#34;_blank&#34;&gt;tgagor/docker-chisel&lt;/a&gt; - Let play with Ubuntu&amp;#39;s Chisel tool for minimal Docker images&lt;/li&gt;
+        
+      
+        
       
         
       
@@ -1402,7 +1406,7 @@ Zatwierdzamy OK.&lt;/li&gt;
         
       
         
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/hugo-PaperMod-bookshelf&#34; target=&#34;_blank&#34;&gt;tgagor/hugo-PaperMod-bookshelf&lt;/a&gt; - This is an extension, a set of shortcodes and templates to the original PaperMod theme, with a page dedicated to listing the books with responsive UI.&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/hugo-PaperMod-bookshelf&#34; target=&#34;_blank&#34;&gt;tgagor/hugo-PaperMod-bookshelf&lt;/a&gt; - This is an extension, a set of shortcodes and templates to the original PaperMod theme, with a page dedicated to listing the books with responsive UI&lt;/li&gt;
         
       
         
@@ -1480,6 +1484,8 @@ Zatwierdzamy OK.&lt;/li&gt;
       &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/centos&#34; target=&#34;_blank&#34;&gt;tgagor/centos&lt;/a&gt; - Pure, based on official CentOS images, upgraded every Monday&lt;/li&gt;
       
       &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/unifi-controller&#34; target=&#34;_blank&#34;&gt;tgagor/unifi-controller&lt;/a&gt;&lt;/li&gt;
+      
+      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/chisel&#34; target=&#34;_blank&#34;&gt;tgagor/chisel&lt;/a&gt; - Cannonical&amp;#39;s Chisel tool &amp;#43; Releases&lt;/li&gt;
       
     
   
