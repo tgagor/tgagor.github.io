@@ -7,13 +7,13 @@
     <generator>Hugo -- 0.139.4</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Fri, 03 Jan 2025 18:47:28 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2025 23:04:58 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Templating Dockerfiles</title>
-      <link>https://gagor.pro/2025/01/templating-dockerfiles/</link>
+      <title>Efficient Dockerfile templating for complex build scenarios</title>
+      <link>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/2025/01/templating-dockerfiles/</guid>
+      <guid>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</guid>
       <description>&lt;h2 id=&#34;why-even-consider-templating-dockerfiles&#34;&gt;Why even consider templating Dockerfiles?&lt;/h2&gt;
 &lt;p&gt;Dockerfiles revolutionized the industry with their simplicity. Each instruction creates a new layer in the image, which is automatically cached. This process integrates well with SCM, where you &amp;ldquo;commit&amp;rdquo; the results of one stage and move forward with other changes. The process can be easily parameterized with &lt;code&gt;ARG&lt;/code&gt; instructions, similar to &lt;code&gt;ENV&lt;/code&gt; but provided during the build. This allows for creating highly flexible builds. For most users, this is more than sufficient. However, there&amp;rsquo;s a notable exception: Docker base images.&lt;/p&gt;</description>
     </item>
@@ -1372,6 +1372,10 @@ Zatwierdzamy OK.&lt;/li&gt;
         
       
         
+          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/docker-chiseled-corretto&#34; target=&#34;_blank&#34;&gt;tgagor/docker-chiseled-corretto&lt;/a&gt; - Playing with Cannonicals Chisel tool, I was curious what benefits it could provide with Corretto&lt;/li&gt;
+        
+      
+        
       
         
       
@@ -1488,6 +1492,8 @@ Zatwierdzamy OK.&lt;/li&gt;
       &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/unifi-controller&#34; target=&#34;_blank&#34;&gt;tgagor/unifi-controller&lt;/a&gt;&lt;/li&gt;
       
       &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/chisel&#34; target=&#34;_blank&#34;&gt;tgagor/chisel&lt;/a&gt; - Cannonical&amp;#39;s Chisel tool &amp;#43; Releases&lt;/li&gt;
+      
+      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/corretto&#34; target=&#34;_blank&#34;&gt;tgagor/corretto&lt;/a&gt;&lt;/li&gt;
       
     
   
