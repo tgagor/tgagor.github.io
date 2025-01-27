@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.139.4</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 27 Jan 2025 12:50:06 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2025 13:07:45 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Best Loser Wins</title>
@@ -29,6 +29,19 @@
       <guid>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</guid>
       <description>&lt;h2 id=&#34;why-even-consider-templating-dockerfiles&#34;&gt;Why even consider templating Dockerfiles?&lt;/h2&gt;
 &lt;p&gt;Dockerfiles revolutionized the industry with their simplicity. Each instruction creates a new layer in the image, which is automatically cached. This process integrates well with SCM, where you &amp;ldquo;commit&amp;rdquo; the results of one stage and move forward with other changes. The process can be easily parameterized with &lt;code&gt;ARG&lt;/code&gt; instructions, similar to &lt;code&gt;ENV&lt;/code&gt; but provided during the build. This allows for creating highly flexible builds. For most users, this is more than sufficient. However, there&amp;rsquo;s a notable exception: Docker base images.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Crowd</title>
+      <link>https://gagor.pro/books/2024/the-crowd/</link>
+      <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/books/2024/the-crowd/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book The Crowd by Gustave Le Bon&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;The Crowd&lt;/q&gt;&lt;p&gt;A Study of the Popular Mind&lt;/p&gt;&lt;p&gt;Author: Gustave Le Bon&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Crowd-Study-Popular-Mind/dp/0486419568/?tag=gagor-21&amp;amp;utm_campaign=affiliate_sale&amp;amp;utm_id=affiliate_sale&amp;amp;utm_medium=blog&amp;amp;utm_source=www.amazon.com&#34; target=&#34;_blank&#34;&gt;amazon.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.empik.com/psychologia-tlumu-le-bon-gustave,p1216543642,ksiazka-p&#34; target=&#34;_blank&#34;&gt;empik.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Gustave Le Bon’s &amp;ldquo;The Crowd - A Study of the Popular Mind&amp;rdquo; is often hailed as a classic exploration of crowd psychology, but for me, it fell short of expectations. While it does delve into the dynamics of how crowds think and act, it focuses more on describing their irrationality and susceptibility to influence rather than offering practical insights on managing or guiding them.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Turn the Ship Around!</title>
