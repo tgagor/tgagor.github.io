@@ -7,8 +7,21 @@
     <generator>Hugo -- 0.139.4</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Wed, 15 Jan 2025 23:54:07 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2025 12:50:06 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best Loser Wins</title>
+      <link>https://gagor.pro/books/2025/best-loser-wins/</link>
+      <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/books/2025/best-loser-wins/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Best Loser Wins by Tom Hougaard&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Best Loser Wins&lt;/q&gt;&lt;p&gt;Why Normal Thinking Never Wins the Trading Game - Written by a High-Stake Day Trader&lt;/p&gt;&lt;p&gt;Author: Tom Hougaard&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Best-Loser-Wins-Thinking-high-stake/dp/085719822X?tag=gagor-21&amp;amp;utm_campaign=affiliate_sale&amp;amp;utm_id=affiliate_sale&amp;amp;utm_medium=blog&amp;amp;utm_source=www.amazon.com&#34; target=&#34;_blank&#34;&gt;amazon.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.amazon.pl/Best-Loser-Wins-Thinking-High-Stake/dp/085719822X?tag=gagor-21&amp;amp;utm_campaign=affiliate_sale&amp;amp;utm_id=affiliate_sale&amp;amp;utm_medium=blog&amp;amp;utm_source=www.amazon.pl&#34; target=&#34;_blank&#34;&gt;amazon.pl&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.empik.com/wygrywaja-ci-ktorzy-potrafia-przegrywac-tom-hougaard,p1460264618,ksiazka-p&#34; target=&#34;_blank&#34;&gt;empik.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Tom Hougaard’s &amp;ldquo;Best Loser Wins&amp;rdquo; offers a refreshingly honest look at the realities of trading. It’s not a traditional &amp;ldquo;how-to&amp;rdquo; guide packed with technical analysis or a magic formula for success. Instead, it’s an introspective journey of a trader, highlighting the mindset and discipline required to navigate the often unforgiving world of financial markets.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Efficient Dockerfile templating for complex build scenarios</title>
       <link>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</link>
