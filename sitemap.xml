@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gagor.pro/</loc>
+    <lastmod>2025-01-27T19:58:39+01:00</lastmod>
+  </url><url>
     <loc>https://gagor.pro/books/2025/best-loser-wins/</loc>
     <lastmod>2025-01-27T12:50:06+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -26,9 +29,6 @@
     <lastmod>2025-01-27T13:07:45+01:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/</loc>
-    <lastmod>2025-01-27T13:07:45+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/tags/trading/</loc>
     <lastmod>2025-01-27T12:50:06+01:00</lastmod>
