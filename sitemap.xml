@@ -3,101 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gagor.pro/</loc>
-    <lastmod>2025-01-27T19:58:39+01:00</lastmod>
+    <lastmod>2025-02-01T18:01:45+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/books/2025/best-loser-wins/</loc>
     <lastmod>2025-01-27T12:50:06+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/categories/book/</loc>
-    <lastmod>2025-01-27T13:07:45+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/finance/</loc>
-    <lastmod>2025-01-27T12:50:06+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/psychology/</loc>
-    <lastmod>2025-01-27T13:07:45+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/authors/timor/</loc>
-    <lastmod>2025-01-27T13:07:45+01:00</lastmod>
+    <lastmod>2025-02-01T18:01:45+01:00</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/trading/</loc>
-    <lastmod>2025-01-27T12:50:06+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/best-practices/</loc>
-    <lastmod>2025-01-15T23:54:07+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/devops/</loc>
-    <lastmod>2025-01-15T23:54:07+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/docker/</loc>
-    <lastmod>2025-01-15T23:54:07+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</loc>
     <lastmod>2025-01-15T23:54:07+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/go/</loc>
-    <lastmod>2025-01-15T23:54:07+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/categories/howto/</loc>
-    <lastmod>2025-01-15T23:54:07+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/linux/</loc>
-    <lastmod>2025-01-15T23:54:07+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/politics/</loc>
-    <lastmod>2025-01-27T13:07:45+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/sociology/</loc>
-    <lastmod>2025-01-27T13:07:45+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/books/2024/the-crowd/</loc>
     <lastmod>2025-01-27T13:07:45+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/business/</loc>
-    <lastmod>2024-12-20T23:55:21+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/leadership/</loc>
-    <lastmod>2024-12-20T23:55:21+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/management/</loc>
-    <lastmod>2024-12-20T23:55:21+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/books/2024/turn-the-ship-around/</loc>
     <lastmod>2024-12-20T23:55:21+01:00</lastmod>
@@ -109,110 +34,30 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/bash/</loc>
-    <lastmod>2024-12-26T11:20:25+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/debian/</loc>
-    <lastmod>2024-05-27T08:37:12+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2024/05/fix-cannot-rebase-onto-multiple-branches-error-once-and-for-all/</loc>
     <lastmod>2024-12-26T11:20:25+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/git/</loc>
-    <lastmod>2024-12-26T11:20:25+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/macos/</loc>
-    <lastmod>2025-01-15T23:39:52+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2024/05/remove-password-from-pdf-documents/</loc>
     <lastmod>2024-05-27T08:37:12+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://gagor.pro/categories/tip/</loc>
-    <lastmod>2024-06-11T20:46:48+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/ubuntu/</loc>
-    <lastmod>2024-06-11T20:46:48+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/books/2024/the-art-of-being-right/</loc>
     <lastmod>2024-06-11T00:11:57+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/hugo/</loc>
-    <lastmod>2024-06-11T20:46:48+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2024/05/optimizing-hugo-sitemaps-to-prioritize-posts-crawling-over-taxonomies/</loc>
     <lastmod>2024-05-22T19:38:25+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/seo/</loc>
-    <lastmod>2024-05-22T19:38:25+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/gaming/</loc>
-    <lastmod>2024-04-30T21:37:18+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2024/04/nostalgy-for-old-rpg-games/</loc>
     <lastmod>2024-04-30T21:37:18+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
-  </url><url>
-    <loc>https://gagor.pro/categories/off-topic/</loc>
-    <lastmod>2024-06-06T19:47:48+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/amazon/</loc>
-    <lastmod>2024-05-27T20:06:19+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/aws/</loc>
-    <lastmod>2024-05-27T20:06:19+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/cloud/</loc>
-    <lastmod>2024-05-27T20:06:19+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/mysql/</loc>
-    <lastmod>2024-05-27T20:06:19+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/postgresql/</loc>
-    <lastmod>2024-05-27T20:06:19+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/rds/</loc>
-    <lastmod>2024-05-27T20:06:19+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2024/04/rising-costs-of-running-legacy-amazon-rds-systems/</loc>
     <lastmod>2024-05-27T20:06:19+02:00</lastmod>
@@ -244,25 +89,10 @@
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/centos/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/cloudflare/</loc>
-    <lastmod>2024-06-10T21:50:03+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2024/03/how-old-are-official-docker-images-2024-edition/</loc>
     <lastmod>2024-04-30T21:37:15+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/zed/</loc>
-    <lastmod>2024-04-30T21:37:15+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2024/03/zed-code-editor-as-an-atom-reincarnation/</loc>
     <lastmod>2024-04-30T21:37:15+02:00</lastmod>
@@ -274,30 +104,15 @@
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/ko-fi/</loc>
-    <lastmod>2024-04-30T21:37:15+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2024/03/monetize-your-blog-with-ko-fi-shortcodes-for-hugo-sites/</loc>
     <lastmod>2024-04-30T21:37:15+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://gagor.pro/categories/projects/</loc>
-    <lastmod>2024-04-30T21:37:15+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url><url>
     <loc>https://gagor.pro/2024/03/the-power-of-extensive-command-history-in-bash-and-zsh/</loc>
     <lastmod>2024-04-30T21:37:15+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/zsh/</loc>
-    <lastmod>2024-04-30T21:37:15+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</loc>
     <lastmod>2024-06-10T21:50:03+02:00</lastmod>
@@ -324,40 +139,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/renovate/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/sci-fi/</loc>
-    <lastmod>2024-05-18T00:47:20+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/science/</loc>
-    <lastmod>2024-05-18T00:47:20+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/security/</loc>
-    <lastmod>2025-01-01T19:33:40+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/technology/</loc>
-    <lastmod>2024-05-18T00:47:20+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2024/02/adding-mermaid-diagrams-to-hugo/</loc>
     <lastmod>2024-02-26T09:47:56+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/mermaid/</loc>
-    <lastmod>2024-02-26T09:47:56+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2024/02/how-i-stopped-worrying-and-loved-makefiles/</loc>
     <lastmod>2024-06-06T19:47:48+02:00</lastmod>
@@ -374,11 +159,6 @@
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/rancher/</loc>
-    <lastmod>2024-02-06T20:40:01+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/books/2024/extreme-ownership/</loc>
     <lastmod>2024-05-18T00:47:20+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -388,16 +168,6 @@
     <lastmod>2024-05-07T00:03:43+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/audio/</loc>
-    <lastmod>2024-06-11T20:46:48+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/pipewire/</loc>
-    <lastmod>2024-06-11T20:46:48+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</loc>
     <lastmod>2024-06-11T20:46:48+02:00</lastmod>
@@ -414,20 +184,10 @@
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/hiring/</loc>
-    <lastmod>2024-05-05T17:27:46+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2024/01/how-to-interview-devops-candidates/</loc>
     <lastmod>2024-04-30T19:44:37+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/interview/</loc>
-    <lastmod>2024-04-30T19:44:37+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/books/2024/working-backwards/</loc>
     <lastmod>2024-05-18T00:47:20+02:00</lastmod>
@@ -439,25 +199,10 @@
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://gagor.pro/categories/gardening/</loc>
-    <lastmod>2024-02-25T12:53:46+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/kwiaty/</loc>
-    <lastmod>2024-02-25T12:53:46+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2024/01/ladne-kwiatki-czyli-wywod-o-pielegnacji-roslin-doniczkowych/</loc>
     <lastmod>2024-02-25T12:53:46+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/ogrodnictwo/</loc>
-    <lastmod>2024-02-25T12:53:46+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2024/01/maximizing-page-performance-and-security-with-cloudflare-tuning/</loc>
     <lastmod>2024-04-30T22:03:40+02:00</lastmod>
@@ -469,16 +214,6 @@
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/google/</loc>
-    <lastmod>2024-02-16T17:49:33+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/gtd/</loc>
-    <lastmod>2024-05-06T19:59:47+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2024/01/how-to-run-google-tasks-in-separate-browser-tab/</loc>
     <lastmod>2024-02-16T17:49:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -487,16 +222,6 @@
     <loc>https://gagor.pro/2023/12/how-to-run-zwift-in-full-screen/</loc>
     <lastmod>2024-04-30T20:19:02+02:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/windows/</loc>
-    <lastmod>2024-04-30T20:19:02+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/zwift/</loc>
-    <lastmod>2024-04-30T20:19:02+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2023/12/changing-comments-provider-for-my-blog/</loc>
     <lastmod>2024-03-04T17:21:31+01:00</lastmod>
@@ -569,11 +294,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/belles-lettres/</loc>
-    <lastmod>2024-05-06T19:59:47+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/books/2023/rycerz-nieistniejacy/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -644,11 +364,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/kubernetes/</loc>
-    <lastmod>2024-05-06T19:59:47+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/books/2022/kubernetes-operators/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -657,11 +372,6 @@
     <loc>https://gagor.pro/2022/06/back-on-the-big-stage/</loc>
     <lastmod>2024-01-12T14:25:04+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/conference/</loc>
-    <lastmod>2024-01-12T14:25:04+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/books/2022/drive/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
@@ -673,43 +383,18 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/hbo/</loc>
-    <lastmod>2024-05-06T23:06:21+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/netflix/</loc>
-    <lastmod>2024-05-06T23:06:21+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2022/01/on-slow-decline-of-streaming-services/</loc>
     <lastmod>2024-05-06T23:06:21+02:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/novel/</loc>
-    <lastmod>2024-05-17T18:37:58+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/books/2021/projekt-jednorozec/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/backup/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2021/11/creating-fully-encrypted-zfs-pool/</loc>
     <lastmod>2024-03-24T11:34:19+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/zfs/</loc>
-    <lastmod>2024-03-24T11:48:58+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2021/11/shucking-wd-elements-14tb/</loc>
     <lastmod>2024-03-24T11:48:58+01:00</lastmod>
@@ -719,24 +404,9 @@
     <lastmod>2021-11-10T09:13:56+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/jira/</loc>
-    <lastmod>2021-11-10T09:13:56+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/cli/</loc>
-    <lastmod>2021-11-09T17:52:16+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2021/11/resize-images-from-command-line-on-macos/</loc>
     <lastmod>2021-11-09T17:52:16+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/brew/</loc>
-    <lastmod>2021-11-08T08:41:21+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2021/11/homebrew-uninstall-formula-with-dependencies/</loc>
     <lastmod>2021-11-08T08:41:21+01:00</lastmod>
@@ -745,11 +415,6 @@
     <loc>https://gagor.pro/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</loc>
     <lastmod>2021-11-08T08:41:21+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/pc/</loc>
-    <lastmod>2021-11-08T08:41:21+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/books/2021/od-dobrego-do-wielkiego/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
@@ -803,11 +468,6 @@
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/fantasy/</loc>
-    <lastmod>2024-05-17T18:37:58+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/books/2021/pratchett-czarodzicielstwo/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
@@ -947,11 +607,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/thriller/</loc>
-    <lastmod>2024-05-06T19:59:47+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/books/2018/cisza-w-sieci/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1027,11 +682,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/python/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/books/2017/szpieg/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1073,16 +723,6 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/percona/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/ssh/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2016/04/use-bastion-host-with-ansible/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
@@ -1091,16 +731,6 @@
     <lastmod>2021-11-08T23:18:21+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/zenbook/</loc>
-    <lastmod>2021-11-08T23:18:21+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/ipv6/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2016/03/prefer-ipv4-over-ipv6/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
@@ -1108,16 +738,6 @@
     <loc>https://gagor.pro/2016/02/list-octal-file-permissions-in-bash/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/php/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/wordpress/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2016/02/wordpress-with-hyperdb-on-php-7-0/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1143,11 +763,6 @@
     <lastmod>2021-11-08T22:40:06+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/biography/</loc>
-    <lastmod>2024-05-06T19:59:47+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/books/2016/ruby-wzorce-projektowe/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1162,11 +777,6 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/silverlight/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
@@ -1175,79 +785,29 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/ddos/</loc>
-    <lastmod>2024-01-11T22:12:31+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/dos/</loc>
-    <lastmod>2024-01-11T22:12:31+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/iptables/</loc>
-    <lastmod>2024-01-11T22:12:31+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2016/02/prepare-for-dos-like-cloudflare-do/</loc>
     <lastmod>2024-01-11T22:12:31+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/gnome/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2016/02/zeitgeist-activity-sqlite-wal-getting-huge/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/nginx/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2016/01/optimize-nginx-for-performance/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/xen/</loc>
-    <lastmod>2024-04-27T20:56:55+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2016/01/xenserver-export-vm-to-file/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/nagios/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</loc>
     <lastmod>2024-05-20T10:23:49+02:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/collectd/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/grafana/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/influxdb/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1261,52 +821,17 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/letsencrypt/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/openssl/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/fail2ban/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/ansible/</loc>
-    <lastmod>2022-09-12T09:43:57+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</loc>
     <lastmod>2022-09-12T09:43:57+02:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/apache/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/vagrant/</loc>
-    <lastmod>2022-09-12T09:43:57+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/mariadb/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2015/12/mysql-reset-root-password/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1347,11 +872,6 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/django/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2014/05/quickly-setup-sql-query-logging-on-console-in-django/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
@@ -1368,19 +888,9 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/fedora/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2014/04/rebuild-yum-rpm-database/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/red-hat/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2014/03/nagios-run-checks-as-root-with-nrpe/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1390,11 +900,6 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/mediawiki/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2014/03/mediawiki-recover-admin-rights/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
@@ -1402,16 +907,6 @@
     <loc>https://gagor.pro/2014/03/checking-memcached-status/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/memcached/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/postfix/</loc>
-    <lastmod>2024-05-24T08:58:22+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2014/03/postfix-automatically-drop-outbound-mail/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1425,19 +920,9 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/categories/gotowanie/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url><url>
     <loc>https://gagor.pro/2014/02/comparing-two-lists-in-bash/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/active-directory/</loc>
-    <lastmod>2024-03-08T22:28:49+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</loc>
     <lastmod>2024-03-08T22:28:49+01:00</lastmod>
@@ -1455,16 +940,6 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/spdy/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/wsus/</loc>
-    <lastmod>2024-03-08T22:28:49+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
@@ -1472,11 +947,6 @@
     <loc>https://gagor.pro/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/javascript/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2014/01/loop-unlooping-in-javascript/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1489,16 +959,6 @@
     <loc>https://gagor.pro/2013/12/apache-precompressing-static-files-with-gzip/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/mod_rewrite/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/android/</loc>
-    <lastmod>2024-04-27T20:58:33+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2013/12/android-xposed-appops-reclaim-control-over-installed-applications-permissions/</loc>
     <lastmod>2024-04-27T20:58:33+02:00</lastmod>
@@ -1520,16 +980,6 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/mdadm/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/raid/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2013/12/re-adding-failed-drive-in-mdadm/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
@@ -1538,11 +988,6 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/ghost/</loc>
-    <lastmod>2024-04-25T19:28:40+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2013/11/reset-user-password-in-your-own-ghost-blog/</loc>
     <lastmod>2024-04-25T19:28:40+02:00</lastmod>
     <priority>0.9</priority>
@@ -1550,11 +995,6 @@
     <loc>https://gagor.pro/2013/11/inodes-on-xfs/</loc>
     <lastmod>2024-05-17T08:35:12+02:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/xfs/</loc>
-    <lastmod>2024-05-17T08:35:12+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2013/11/kill-with-sigstop-and-sigcont/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1571,11 +1011,6 @@
     <loc>https://gagor.pro/2013/11/changing-language-of-articles-on-my-blog-to-english/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/gearman/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1609,19 +1044,9 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/spam/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2013/09/spammer-screwed-up/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/raspberry-pi/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2013/09/raspberry-pi-pierwsze-kroki/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1647,11 +1072,6 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/gpo/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2013/08/gpo-instalacja-gimpa-2-8/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
@@ -1668,11 +1088,6 @@
     <lastmod>2024-05-20T10:23:49+02:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/bittorrent/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2013/07/debian-instalacja-bittorrent-sync-btsync/</loc>
     <lastmod>2024-05-20T10:23:49+02:00</lastmod>
     <priority>0.9</priority>
@@ -1685,24 +1100,9 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/fortigate/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2013/03/fortigate-vpn-ipsec-psk-xauth-z-androida-4-x/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/fortios/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/vpn/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1712,29 +1112,14 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/badblocks/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2012/12/linux-naprawianie-bad-sectorow/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/smartctl/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/books/2012/getting-things-done/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/piwik/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2012/12/piwik-sledzenie-asynchroniczne-logowanie-ksywy-komentujacego-w-wordpressie/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1754,11 +1139,6 @@
     <loc>https://gagor.pro/2012/12/apache-mod_authnz_ldap-z-active-directory/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/ldap/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2012/12/python-wysylanie-maili-w-unicode/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1780,65 +1160,25 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/couchdb/</loc>
-    <lastmod>2024-04-27T20:58:33+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/ext4/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2012/11/hybrid-rainbow-db/</loc>
     <lastmod>2023-12-27T00:26:36+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/lvm/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/rainbowdb/</loc>
-    <lastmod>2023-12-27T00:26:36+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2012/11/instalacja-drukarki-i-skanera-brother-dcp-130c-na-ubuntu-12-04/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/mail/</loc>
-    <lastmod>2024-05-24T08:58:22+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/poczta/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2012/11/prosty-mta-z-heirloom-mailx-i-ssmtp/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/nautilus/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2012/10/nautilus-ukrywanie-lostfound/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/autoit/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2012/10/rolada-kokosowo-czekoladowa-na-zimno/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1847,11 +1187,6 @@
     <loc>https://gagor.pro/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/open-source/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2012/09/piwik-alternatywa-dla-google-analytics/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1865,16 +1200,6 @@
     <lastmod>2024-05-20T10:23:49+02:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/squeeze/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/wheezy/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2012/09/gpo-windows-7-postep-przetwarzania-polityk-przy-starcie-systemu/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
@@ -1887,42 +1212,17 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/lto/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2012/09/listowanie-zasobow-nfs/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/nfs/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/mod_auth_basic/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2012/09/unicode-rxvt-moje-ustawienia/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/urxvt/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/fsck/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2012/09/wymuszenie-fsck-po-restarcie/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -1943,11 +1243,6 @@
     <loc>https://gagor.pro/2012/06/nginx-konfiguracja-pod-wordpressa/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/reverse-proxy/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2012/06/xen-podstawowe-polecenia/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -2037,16 +1332,6 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/scite/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/empathy/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
@@ -2063,21 +1348,6 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/rsync/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/snapshot/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/dovecot/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2011/11/fail2ban-regulki-dla-dovecota/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
@@ -2090,11 +1360,6 @@
     <lastmod>2024-05-20T10:23:49+02:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/sles/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2011/10/sles-11-instalacja-service-packa/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
@@ -2103,11 +1368,6 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/pflogsumm/</loc>
-    <lastmod>2024-05-24T08:58:22+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2011/09/pflogsumm-mail-statistics-for-postfix/</loc>
     <lastmod>2024-05-24T08:58:22+02:00</lastmod>
     <priority>0.9</priority>
@@ -2115,11 +1375,6 @@
     <loc>https://gagor.pro/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/magic-sysrq/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -2133,43 +1388,13 @@
     <lastmod>2024-05-20T10:23:49+02:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/mod_antiloris/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/mod_reqtimeout/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/slowloris/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/redhat/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</loc>
     <lastmod>2024-05-20T10:23:49+02:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/awstats/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/jpgraph/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2011/08/jpgraph-wykresy-z-phpa/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -2179,11 +1404,6 @@
     <lastmod>2024-05-20T10:23:49+02:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/lenny/</loc>
-    <lastmod>2024-05-20T10:23:49+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2011/08/optymalizacja-php-z-eacceleratorem/</loc>
     <lastmod>2024-05-20T10:23:49+02:00</lastmod>
     <priority>0.9</priority>
@@ -2191,11 +1411,6 @@
     <loc>https://gagor.pro/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</loc>
     <lastmod>2024-05-20T10:23:49+02:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/ca/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2011/08/certyfikaty-selfsigned/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -2205,38 +1420,13 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/ftp/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/grub/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/hash/</loc>
-    <lastmod>2023-12-27T00:26:36+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2011/08/klastrowanie-sesji-php-z-memcached/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/tags/md5/</loc>
-    <lastmod>2023-12-27T00:26:36+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
     <loc>https://gagor.pro/2011/08/mysql-na-szybko/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/quota/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2011/08/quota-na-katalog-w-xfsie/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -2245,21 +1435,6 @@
     <loc>https://gagor.pro/2011/08/rainbowdb/</loc>
     <lastmod>2023-12-27T00:26:36+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/rbl/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/rblcheck/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/tags/selfsigned/</loc>
-    <lastmod>2021-01-09T19:46:18+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2011/08/wlam-na-lokalne-konto-roota/</loc>
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
@@ -2357,26 +1532,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/categories/</loc>
-    <lastmod>2024-05-10T09:12:58+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url><url>
     <loc>https://gagor.pro/bookshelf/</loc>
-    <lastmod>2024-05-06T23:00:54+02:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2025-02-01T18:01:45+01:00</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
     <loc>https://gagor.pro/posts/</loc>
     <lastmod>2024-05-10T09:08:11+02:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/search/</loc>
-    <lastmod>2021-11-06T16:55:18+01:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/tags/</loc>
-    <lastmod>2024-05-10T09:12:58+02:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.1</priority>
   </url>
 </urlset>
