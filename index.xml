@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sat, 01 Feb 2025 22:21:47 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 22:40:20 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Best Loser Wins</title>
@@ -23,11 +23,12 @@
 &lt;p&gt;Tom Hougaard’s &amp;ldquo;Best Loser Wins&amp;rdquo; offers a refreshingly honest look at the realities of trading. It’s not a traditional &amp;ldquo;how-to&amp;rdquo; guide packed with technical analysis or a magic formula for success. Instead, it’s an introspective journey of a trader, highlighting the mindset and discipline required to navigate the often unforgiving world of financial markets.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Dockerfile templating for complex build scenarios</title>
-      <link>https://gagor.pro/2025/01/dockerfile-templating-for-complex-build-scenarios/</link>
+      <title>Efficient Dockerfile templating for complex build scenarios</title>
+      <link>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/2025/01/dockerfile-templating-for-complex-build-scenarios/</guid>
-      <description>Learn how to efficiently template Dockerfiles for complex build scenarios, ensuring stable and secure base images across multiple configurations.</description>
+      <guid>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</guid>
+      <description>&lt;h2 id=&#34;why-even-consider-templating-dockerfiles&#34;&gt;Why even consider templating Dockerfiles?&lt;/h2&gt;
+&lt;p&gt;Dockerfiles revolutionized the industry with their simplicity. Each instruction creates a new layer in the image, which is automatically cached. This process integrates well with SCM, where you &amp;ldquo;commit&amp;rdquo; the results of one stage and move forward with other changes. The process can be easily parameterized with &lt;code&gt;ARG&lt;/code&gt; instructions, similar to &lt;code&gt;ENV&lt;/code&gt; but provided during the build. This allows for creating highly flexible builds. For most users, this is more than sufficient. However, there&amp;rsquo;s a notable exception: Docker base images.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Crowd</title>
@@ -111,14 +112,14 @@
       <link>https://gagor.pro/2024/05/optimizing-hugo-sitemaps-to-prioritize-posts-crawling-over-taxonomies/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/05/optimizing-hugo-sitemaps-to-prioritize-posts-crawling-over-taxonomies/</guid>
-      <description>Learn how to optimize your Hugo site&amp;#39;s sitemap by adjusting priority and change frequency settings to improve SEO and guide search engine crawlers effectively.</description>
+      <description>Learn how to optimize your Hugo site&amp;rsquo;s sitemap by adjusting priority and change frequency settings to improve SEO and guide search engine crawlers effectively.</description>
     </item>
     <item>
       <title>Nostalgy for old RPG games</title>
       <link>https://gagor.pro/2024/04/nostalgy-for-old-rpg-games/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/04/nostalgy-for-old-rpg-games/</guid>
-      <description>Reflect on the nostalgia of playing classic RPG games like Ice Wind Dale and Baldur&amp;#39;s Gate, and the immersive experiences they provided.</description>
+      <description>Reflect on the nostalgia of playing classic RPG games like Ice Wind Dale and Baldur&amp;rsquo;s Gate, and the immersive experiences they provided.</description>
     </item>
     <item>
       <title>Rising costs of running legacy Amazon RDS systems</title>
@@ -178,7 +179,7 @@
       <link>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</guid>
-      <description>Learn how to automatically set the &amp;#39;lastmod&amp;#39; parameter in Hugo pages using Git modification dates to improve SEO and expedite search engine indexing.</description>
+      <description>Learn how to automatically set the &amp;rsquo;lastmod&amp;rsquo; parameter in Hugo pages using Git modification dates to improve SEO and expedite search engine indexing.</description>
     </item>
     <item>
       <title>How old are Official Docker images? 2024 Edition</title>
@@ -298,7 +299,7 @@
       <link>https://gagor.pro/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</link>
       <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</guid>
-      <description>Learn how to run x86-64 Docker images on Apple&amp;#39;s MacBook with M1/M2/M3 CPUs by setting the DOCKER_DEFAULT_PLATFORM environment variable.</description>
+      <description>Learn how to run x86-64 Docker images on Apple&amp;rsquo;s MacBook with M1/M2/M3 CPUs by setting the DOCKER_DEFAULT_PLATFORM environment variable.</description>
     </item>
     <item>
       <title>Extreme Ownership</title>
@@ -406,7 +407,7 @@
       <link>https://gagor.pro/2023/12/how-to-run-zwift-in-full-screen/</link>
       <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2023/12/how-to-run-zwift-in-full-screen/</guid>
-      <description>Learn how to run Zwift in full screen mode on Windows, eliminating the windowed mode&amp;#39;s start menu and title bar for a more immersive experience.</description>
+      <description>Learn how to run Zwift in full screen mode on Windows, eliminating the windowed mode&amp;rsquo;s start menu and title bar for a more immersive experience.</description>
     </item>
     <item>
       <title>Changing comments provider for my blog</title>
@@ -668,7 +669,7 @@
       <link>https://gagor.pro/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</link>
       <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</guid>
-      <description>Learn how to resolve the &amp;#34;Key is stored in legacy trusted.gpg keyring&amp;#34; warning on Ubuntu 22.04 by properly managing GPG keys for repositories.</description>
+      <description>Learn how to resolve the &amp;ldquo;Key is stored in legacy trusted.gpg keyring&amp;rdquo; warning on Ubuntu 22.04 by properly managing GPG keys for repositories.</description>
     </item>
     <item>
       <title>Best practices for writing Dockerfiles - Use VOLUME for all mutable, temporary file locations</title>
@@ -1121,7 +1122,7 @@
       <link>https://gagor.pro/2021/01/how-old-are-official-docker-images/</link>
       <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2021/01/how-old-are-official-docker-images/</guid>
-      <description>Discover the age and update frequency of various official Docker images, and learn why it&amp;#39;s important to keep your base images up to date for security and performance.</description>
+      <description>Discover the age and update frequency of various official Docker images, and learn why it&amp;rsquo;s important to keep your base images up to date for security and performance.</description>
     </item>
     <item>
       <title>Eryk</title>
