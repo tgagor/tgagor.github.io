@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gagor.pro/</loc>
-    <lastmod>2025-02-01T19:40:16+01:00</lastmod>
+    <lastmod>2025-02-01T19:38:41+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/books/2025/best-loser-wins/</loc>
     <lastmod>2025-01-27T12:50:06+01:00</lastmod>
@@ -11,18 +11,13 @@
     <priority>0.6</priority>
   </url><url>
     <loc>https://gagor.pro/authors/timor/</loc>
-    <lastmod>2025-02-01T19:40:16+01:00</lastmod>
+    <lastmod>2025-02-01T19:38:41+01:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</loc>
     <lastmod>2025-02-01T19:38:41+01:00</lastmod>
     <priority>0.9</priority>
-  </url><url>
-    <loc>https://gagor.pro/2025/01/templating-dockerfiles/</loc>
-    <lastmod>2025-02-01T19:40:16+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1</priority>
   </url><url>
     <loc>https://gagor.pro/books/2024/the-crowd/</loc>
     <lastmod>2025-01-27T13:07:45+01:00</lastmod>

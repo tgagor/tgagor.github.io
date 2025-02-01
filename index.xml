@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sat, 01 Feb 2025 19:40:16 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 19:38:41 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Best Loser Wins</title>
@@ -28,14 +28,6 @@
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</guid>
       <description>Learn how to efficiently template Dockerfiles for complex build scenarios, ensuring stable and secure base images across multiple configurations.</description>
-    </item>
-    <item>
-      <title>Templating Dockerfiles</title>
-      <link>https://gagor.pro/2025/01/templating-dockerfiles/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/2025/01/templating-dockerfiles/</guid>
-      <description>&lt;h2 id=&#34;why-even-consider-templating-dockerfiles&#34;&gt;Why even consider templating Dockerfiles?&lt;/h2&gt;
-&lt;p&gt;Dockerfiles revolutionized the industry with their simplicity. Each instruction creates a new layer in the image, which is automatically cached. This process integrates well with SCM, where you &amp;ldquo;commit&amp;rdquo; the results of one stage and move forward with other changes. The process can be easily parameterized with &lt;code&gt;ARG&lt;/code&gt; instructions, similar to &lt;code&gt;ENV&lt;/code&gt; but provided during the build. This allows for creating highly flexible builds. For most users, this is more than sufficient. However, there&amp;rsquo;s a notable exception: Docker base images.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Crowd</title>
