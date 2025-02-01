@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sat, 01 Feb 2025 19:38:41 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 22:21:47 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Best Loser Wins</title>
@@ -23,10 +23,10 @@
 &lt;p&gt;Tom Hougaard’s &amp;ldquo;Best Loser Wins&amp;rdquo; offers a refreshingly honest look at the realities of trading. It’s not a traditional &amp;ldquo;how-to&amp;rdquo; guide packed with technical analysis or a magic formula for success. Instead, it’s an introspective journey of a trader, highlighting the mindset and discipline required to navigate the often unforgiving world of financial markets.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Efficient Dockerfile templating for complex build scenarios</title>
-      <link>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</link>
+      <title>Dockerfile templating for complex build scenarios</title>
+      <link>https://gagor.pro/2025/01/dockerfile-templating-for-complex-build-scenarios/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</guid>
+      <guid>https://gagor.pro/2025/01/dockerfile-templating-for-complex-build-scenarios/</guid>
       <description>Learn how to efficiently template Dockerfiles for complex build scenarios, ensuring stable and secure base images across multiple configurations.</description>
     </item>
     <item>
