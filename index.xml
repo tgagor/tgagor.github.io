@@ -4,7 +4,7 @@
     <title>Tom&#39;s Blog</title>
     <link>https://gagor.pro/</link>
     <description>Recent content on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.139.4</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
     <lastBuildDate>Mon, 27 Jan 2025 13:07:45 +0100</lastBuildDate>
@@ -1495,6 +1495,7 @@ Zatwierdzamy OK.&lt;/li&gt;
       
     
   
+
 &lt;/ul&gt;
 
 
@@ -1523,8 +1524,6 @@ Zatwierdzamy OK.&lt;/li&gt;
       
     
   
-
-
 &lt;/ul&gt;
 &lt;/p&gt;</description>
     </item>
