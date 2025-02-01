@@ -1520,7 +1520,7 @@ Zatwierdzamy OK.&lt;/li&gt;
       
       &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/chisel&#34; target=&#34;_blank&#34;&gt;tgagor/chisel&lt;/a&gt; - Cannonical&amp;#39;s Chisel tool &amp;#43; Releases&lt;/li&gt;
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/corretto&#34; target=&#34;_blank&#34;&gt;tgagor/corretto&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/corretto&#34; target=&#34;_blank&#34;&gt;tgagor/corretto&lt;/a&gt; - It&amp;#39;s a Proof of Concept of benefits of using &amp;#34;chisel&amp;#34; tool on Ubuntu in comparison to Alpine images.&lt;/li&gt;
       
     
   
