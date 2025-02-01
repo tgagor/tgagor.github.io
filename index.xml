@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sat, 01 Feb 2025 18:42:15 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 19:38:41 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Best Loser Wins</title>
@@ -27,8 +27,7 @@
       <link>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</guid>
-      <description>&lt;h2 id=&#34;why-even-consider-templating-dockerfiles&#34;&gt;Why even consider templating Dockerfiles?&lt;/h2&gt;
-&lt;p&gt;Dockerfiles revolutionized the industry with their simplicity. Each instruction creates a new layer in the image, which is automatically cached. This process integrates well with SCM, where you &amp;ldquo;commit&amp;rdquo; the results of one stage and move forward with other changes. The process can be easily parameterized with &lt;code&gt;ARG&lt;/code&gt; instructions, similar to &lt;code&gt;ENV&lt;/code&gt; but provided during the build. This allows for creating highly flexible builds. For most users, this is more than sufficient. However, there&amp;rsquo;s a notable exception: Docker base images.&lt;/p&gt;</description>
+      <description>Learn how to efficiently template Dockerfiles for complex build scenarios, ensuring stable and secure base images across multiple configurations.</description>
     </item>
     <item>
       <title>The Crowd</title>
@@ -92,7 +91,7 @@
       <link>https://gagor.pro/2024/05/remove-password-from-pdf-documents/</link>
       <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/05/remove-password-from-pdf-documents/</guid>
-      <description>&lt;p&gt;I use a Pocketbook Touch HD first gen. to read ebooks and I bought it in 2017 (oh dear!). It&amp;rsquo;s a really good device, despite being terribly slow according to current standards and battery have probably only 20% capacity comparing to the day I bought it. Anyway, it outperformed any of my smartphones on it&amp;rsquo;s longevity. I don&amp;rsquo;t use it that often anymore but it happen to me to read some stuff that I find on the Internet.&lt;/p&gt;</description>
+      <description>Learn how to remove passwords from PDF documents using the qpdf tool on Linux, making it easier to read protected files on devices like the Pocketbook Touch HD.</description>
     </item>
     <item>
       <title>The Art of Being Right</title>
@@ -112,50 +111,28 @@
       <link>https://gagor.pro/2024/05/optimizing-hugo-sitemaps-to-prioritize-posts-crawling-over-taxonomies/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/05/optimizing-hugo-sitemaps-to-prioritize-posts-crawling-over-taxonomies/</guid>
-      <description>&lt;p&gt;You might notice that I&amp;rsquo;ve been struggling recently with &lt;a href=&#34;https://gagor.pro/2024/03/seo-kicks-my-stats/&#34; &gt;SEO&lt;/a&gt;
- and that I&amp;rsquo;ve been &lt;a href=&#34;https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/&#34; &gt;trying some tricks&lt;/a&gt;
- to improve it, but it feels not enough.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve been thinking about Google&amp;rsquo;s Crawl Budget&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; and the way I could influence it to focus more on new and important content. Adding &lt;code&gt;lastmod&lt;/code&gt; should help, but together with each new post added, Hugo generates a ton of taxonomy pages (tags, categories, etc) which also would have &lt;code&gt;lastmod&lt;/code&gt; updated. Taxonomy pages might catch some traffic eventually, but nowadays they&amp;rsquo;re mostly useful for humans, when they&amp;rsquo;re looking for similar content. Search engines rather forward people directly to the content.&lt;/p&gt;</description>
+      <description>Learn how to optimize your Hugo site&amp;#39;s sitemap by adjusting priority and change frequency settings to improve SEO and guide search engine crawlers effectively.</description>
     </item>
     <item>
       <title>Nostalgy for old RPG games</title>
       <link>https://gagor.pro/2024/04/nostalgy-for-old-rpg-games/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/04/nostalgy-for-old-rpg-games/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been cleaning up old backups and found few screenshots from Ice Wind Dale, Baldur&amp;rsquo;s Gate 2 and Throne of Bhaal expansion.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve spend many good hours playing those games. I&amp;rsquo;ve read &lt;a href=&#34;https://gagor.pro/bookshelf/&#34; &gt;a dozen books from the Forgotten Realms realm&lt;/a&gt;
-. I remember being in a library (in the game) and spending there quite a lot of time, just to read few books. Playing those games was like a deep dive into the fantasy world, side by side to the characters from the books, or sometime against them. I even took a screenshot of the map, where I&amp;rsquo;ve met Breunor&amp;rsquo;s Battle Hammer team and I remember it to this day! I played it around 20 years ago.&lt;/p&gt;</description>
+      <description>Reflect on the nostalgia of playing classic RPG games like Ice Wind Dale and Baldur&amp;#39;s Gate, and the immersive experiences they provided.</description>
     </item>
     <item>
       <title>Rising costs of running legacy Amazon RDS systems</title>
       <link>https://gagor.pro/2024/04/rising-costs-of-running-legacy-amazon-rds-systems/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/04/rising-costs-of-running-legacy-amazon-rds-systems/</guid>
-      <description>&lt;p&gt;Amazon recently faced challenges in maintaining support for legacy Relational Database Service (RDS) systems and even considered upgrading instances forcefully&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. This situation is not unique to Amazon; many companies struggle with the costs of maintaining legacy systems. However, as a service provider, Amazon must support older systems as long as there are customers willing to pay for them.&lt;/p&gt;
-&lt;p&gt;In December 2023, Amazon announced&lt;sup id=&#34;fnref1:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; plans to upgrade legacy RDS instances to versions still under active development, citing the rising costs of maintaining outdated systems. This included versions like MySQL 5.7 and PostgreSQL 10 (or earlier)&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. However, instead of enforcing upgrades, Amazon introduced a new support approach: RDS Extended Support. This allows customers to continue using older versions, but with additional costs.&lt;/p&gt;</description>
+      <description>Understand the rising costs of maintaining legacy Amazon RDS systems and explore the new RDS Extended Support option for MySQL and PostgreSQL.</description>
     </item>
     <item>
       <title>Create a Virtual Bookshelf with Hugo and PaperMod</title>
       <link>https://gagor.pro/2024/04/create-a-virtual-bookshelf-with-hugo-and-papermod/</link>
       <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/04/create-a-virtual-bookshelf-with-hugo-and-papermod/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;TL;DR&lt;br/&gt;
-If you don&amp;rsquo;t care about my reasoning, just jump to the description of &lt;a href=&#34;#bookshelf-theme-installation-and-usage&#34; &gt;installation and usage&lt;/a&gt;
-. Click here for a &lt;a href=&#34;https://gagor.pro/bookshelf/&#34; &gt;demo&lt;/a&gt;
-.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I try to read at least one book each month. It&amp;rsquo;s not much, but that&amp;rsquo;s what I can afford. I read a lot of technical books, building my technical skill set, but a lot of random topics from business, psychology or fantasy.&lt;/p&gt;
-&lt;p&gt;It happen to me many times that when I&amp;rsquo;ve been asked about specific book, I couldn&amp;rsquo;t remember &lt;em&gt;&amp;ldquo;Where did I read it?&amp;rdquo;&lt;/em&gt; or &lt;em&gt;&amp;ldquo;What was the book title?&amp;rdquo;&lt;/em&gt;. Some day I accidentally passed through &lt;a href=&#34;https://daverupert.com/bookshelf/&#34;  target=&#34;_blank&#34;&gt;Dave&amp;rsquo;s Rupert blog and his Bookshelf&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
- and I loved it! I have a blog, so great place to collect and share, with easy access from anywhere - why not to use it?&lt;/p&gt;</description>
+      <description>Learn how to create a virtual bookshelf on your Hugo site using the PaperMod theme, allowing you to organize and share your reading list with ease.</description>
     </item>
     <item>
       <title>The Culture Map</title>
@@ -194,135 +171,70 @@ If you don&amp;rsquo;t care about my reasoning, just jump to the description of 
       <link>https://gagor.pro/2024/04/installing-oracle-instant-client-on-ubuntu-24.04/</link>
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/04/installing-oracle-instant-client-on-ubuntu-24.04/</guid>
-      <description>&lt;p&gt;New system, old problems. Getting Oracle Instant Client to work was a trouble 10 years ago and it&amp;rsquo;s not different today &amp;#x1f923;&lt;/p&gt;
-&lt;p&gt;There are two ways to install it on Ubuntu/Debian. First is &amp;ldquo;recommended&amp;rdquo;, but boring. Second is &amp;ldquo;crazy&amp;rdquo;, but have some benefits. As I&amp;rsquo;m doing it mostly in Docker images, that&amp;rsquo;s how I will present it.&lt;/p&gt;
-&lt;p&gt;First, &lt;a href=&#34;https://www.oracle.com/database/technologies/instant-client/downloads.html&#34;  target=&#34;_blank&#34;&gt;check for up to date versions&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
- and links on Oracle&amp;rsquo;s official site.&lt;/p&gt;</description>
+      <description>Learn how to install Oracle Instant Client on Ubuntu 24.04 using both recommended and alternative methods, with a focus on Docker images.</description>
     </item>
     <item>
       <title>Automatically setting &#39;lastmod&#39; in Hugo pages with Git modification date</title>
       <link>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</guid>
-      <description>&lt;p&gt;Following my &lt;a href=&#34;https://gagor.pro/2024/03/seo-kicks-my-stats/&#34; &gt;recent SEO issues&lt;/a&gt;
-, I&amp;rsquo;m actively exploring ways to bolster my website&amp;rsquo;s ranking. One aspect I&amp;rsquo;m keen to address is expediting Search Engine indexing for pages that have been altered or updated. This is precisely the purpose of Sitemaps, a feature fully supported by Hugo&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. However, there&amp;rsquo;s a limitation in how Hugo handles this by default. It sets the &lt;code&gt;lastmod&lt;/code&gt; parameter to either the page&amp;rsquo;s creation time or the last build time. What I aim to achieve is a clear separation between creation and modification dates. This would signal to Search Engines to focus on scrutinizing only the &amp;ldquo;changed&amp;rdquo; posts, expediting their reevaluation—an approach commonplace in the Wordpress realm but more intricate with Hugo.&lt;/p&gt;</description>
+      <description>Learn how to automatically set the &amp;#39;lastmod&amp;#39; parameter in Hugo pages using Git modification dates to improve SEO and expedite search engine indexing.</description>
     </item>
     <item>
       <title>How old are Official Docker images? 2024 Edition</title>
       <link>https://gagor.pro/2024/03/how-old-are-official-docker-images-2024-edition/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/03/how-old-are-official-docker-images-2024-edition/</guid>
-      <description>&lt;p&gt;Around 3 years ago &lt;a href=&#34;https://gagor.pro/2021/01/how-old-are-official-docker-images/&#34; &gt;I&amp;rsquo;ve checked the age of various base images&lt;/a&gt;
- available on Docker Hub. Curiosity recently got the better of me, prompting another investigation into the current state of affairs.&lt;/p&gt;
-&lt;p&gt;Since then, there have been significant changes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://endoflife.date/centos&#34;  target=&#34;_blank&#34;&gt;CentOS 8 has reached its end of life&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
-, prompting a shift to &lt;a href=&#34;https://endoflife.date/centos-stream&#34;  target=&#34;_blank&#34;&gt;CentOS 8 Stream&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
-, which is also nearing its demise &amp;#x1f923;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://hub.docker.com/_/openjdk&#34;  target=&#34;_blank&#34;&gt;OpenJDK images have been deprecated&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
- and no longer receiving updates. They recommend to switch to alternatives such as: Amazon&amp;rsquo;s Corretto or Eclipse Temurin (formely AdoptOpenJDK).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Let&amp;rsquo;s delve into the findings:&lt;/p&gt;</description>
+      <description>Discover the current age and update status of various official Docker images, including CentOS, Ubuntu, and Debian, in the 2024 edition of this analysis.</description>
     </item>
     <item>
       <title>Zed Code Editor as an Atom reincarnation</title>
       <link>https://gagor.pro/2024/03/zed-code-editor-as-an-atom-reincarnation/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/03/zed-code-editor-as-an-atom-reincarnation/</guid>
-      <description>&lt;p&gt;I was a big fan of the Atom&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; code editor, so when it was discontinued and replaced by M$&amp;rsquo;s VS Code&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;, I was both sad and dissapointed. While I can admit that VS Code is a solid editor, my personal preference always leaned towards Atom.&lt;/p&gt;
-&lt;p&gt;However, over time, Atom started to feel sluggish. I collected numerous plugins over the years and it began to weigh heavily on performance, not just during startup but also during regular usage. Typing slow response was especially quite irritating.&lt;/p&gt;</description>
+      <description>Discover how Zed, a fast and efficient code editor built in Rust, aims to recapture the essence of Atom, with a focus on speed and customization.</description>
     </item>
     <item>
       <title>Best practices for writing Dockerfiles - Follow &#34;Filesystem Hierarchy Standard&#34;</title>
       <link>https://gagor.pro/2024/03/best-practices-for-writing-dockerfiles-follow-filesystem-hierarchy-standard/</link>
       <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/03/best-practices-for-writing-dockerfiles-follow-filesystem-hierarchy-standard/</guid>
-      <description>&lt;p&gt;When it comes to building Docker images, adhering to the &amp;ldquo;Filesystem Hierarchy Standard&amp;rdquo;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; can greatly enhance the organization and maintainability of your containers. Unfortunately, it&amp;rsquo;s not uncommon to encounter Docker images where files are haphazardly scattered across directories, leading to confusion and unnecessary complications. Let&amp;rsquo;s delve into some best practices to ensure your Dockerfiles follow the FHS guidelines, thus avoiding common pitfalls and streamlining your container development process.&lt;/p&gt;
-&lt;p&gt;Below you can find the most important directories, from the perspective of Docker images. &lt;code&gt;/dev&lt;/code&gt; or &lt;code&gt;/root&lt;/code&gt; rarely are useful here.&lt;/p&gt;</description>
+      <description>Learn best practices for writing Dockerfiles by following the Filesystem Hierarchy Standard (FHS) to enhance organization and maintainability of your Docker images.</description>
     </item>
     <item>
       <title>Monetize your blog with Ko-fi shortcodes for Hugo sites</title>
       <link>https://gagor.pro/2024/03/monetize-your-blog-with-ko-fi-shortcodes-for-hugo-sites/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/03/monetize-your-blog-with-ko-fi-shortcodes-for-hugo-sites/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;Being the owner of this blog, I often find joy in revisiting past endeavors that may no longer be part of my daily work. From fine-tuning website performance to delving into the intricacies of SEO, I relish the opportunity to explore various aspects of digital craftsmanship.&lt;/p&gt;
-&lt;p&gt;One aspect that particularly piques my interest is finding creative ways to monetize my blog without resorting to intrusive advertisements. As a steadfast supporter of Open Source principles, I value the ability for people to express their appreciation through voluntary contributions or tips, on their own terms. This is where platforms like Ko-fi come into play.&lt;/p&gt;</description>
+      <description>Learn how to monetize your Hugo blog with custom Ko-fi shortcodes, allowing readers to support your work through voluntary contributions.</description>
     </item>
     <item>
       <title>The power of extensive command history in Bash and Zsh</title>
       <link>https://gagor.pro/2024/03/the-power-of-extensive-command-history-in-bash-and-zsh/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/03/the-power-of-extensive-command-history-in-bash-and-zsh/</guid>
-      <description>&lt;p&gt;I rely heavily on shell usage. For over 15 years, I was a devoted user of Bash until I discovered Zsh and made the switch. One thing that remained constant throughout my transition was my configuration to maintain an extensive commands history. This setup is replicated across all my systems. When you spend a lot of time coding, you often find yourself repeating commands or running variations of them. Remembering all these commands can be challenging, but with resources like Google and ChatGPT, it&amp;rsquo;s not always necessary. However, if you find yourself frequently searching for specific commands, it can be time-consuming and distracting. That&amp;rsquo;s where having parts of the command at your fingertips becomes invaluable. With a quick press of &lt;code&gt;Ctrl&lt;/code&gt;+&lt;code&gt;r&lt;/code&gt; and a little scanning, you can find what you need.&lt;/p&gt;</description>
+      <description>Learn how to leverage extensive command history in Bash and Zsh to improve your efficiency and productivity in the terminal.</description>
     </item>
     <item>
       <title>Optimizing Hugo static site redirects with Cloudflare Pages</title>
       <link>https://gagor.pro/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</guid>
-      <description>&lt;p&gt;I used to utilize GitHub Pages to serve static content for my blog. I secured it behind Cloudflare to employ a custom domain and automate HTTPS certificate management. Additionally, I utilized a few Page Rules to implement redirects:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;From www.* to non-www,&lt;/li&gt;
-&lt;li&gt;From HTTP to HTTPS,&lt;/li&gt;
-&lt;li&gt;And for some SEO renaming.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Unfortunately, in the Free plan from Cloudflare, you are limited to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;3 Page Rules (with simple glob matching),&lt;/li&gt;
-&lt;li&gt;10 Transformation Rules (no regex rules),&lt;/li&gt;
-&lt;li&gt;10 Redirect Rules (no regex).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I made use of a combination of these rules, but due to these limitations, I couldn&amp;rsquo;t meet all of my requirements. I have few hundreds of broken URLs reported by Google Web Console. Google still remembers that &lt;a href=&#34;https://gagor.pro/2020/10/bye-bye-wordpress/&#34; &gt;I migrated from Wordpress&lt;/a&gt;
- and attempts to index some paths I no longer host. Although I attempted to utilize Hugo&amp;rsquo;s aliases &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, it only facilitates 1-to-1 matching. I&amp;rsquo;m unable to address this issue within these constraints.&lt;/p&gt;</description>
+      <description>Learn how to optimize Hugo static site redirects using Cloudflare Pages, overcoming limitations of GitHub Pages and Cloudflare Free plan.</description>
     </item>
     <item>
       <title>SEO kicks my stats</title>
       <link>https://gagor.pro/2024/03/seo-kicks-my-stats/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/03/seo-kicks-my-stats/</guid>
-      <description>&lt;p&gt;Towards the end of the year, I received a notification reminding me to renew the domain for my blog. The domain in question was timor.site. This was the first invoice I had received from GoDaddy since they acquired Uniregistry, and to my dismay, it was significantly more expensive than what I had been accustomed to paying. With the year drawing to a close, I was reluctant to invest too much time or money into the renewal process. Frustrated by the cost, I decided to redirect my blog to another domain I owned: gagor.pl (where this blog was actually running in the past).&lt;/p&gt;</description>
+      <description>Explore the impact of domain changes on SEO performance and traffic, and learn strategies to improve international visibility with multilingual content.</description>
     </item>
     <item>
       <title>Automatic updates of Docker images with Renovate Bot</title>
       <link>https://gagor.pro/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been writing recently about &lt;a href=&#34;https://gagor.pro/2024/02/best-practices-for-patching-and-deprecating-docker-images/&#34; &gt;best practices for patching and deprecating Docker images&lt;/a&gt;
-, but today I want to show how to automate a huge part of this process.&lt;/p&gt;
-&lt;p&gt;You might already hear about Dependabot&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, it&amp;rsquo;s a Github&amp;rsquo;s way to notify developers about security vulnerabilities in their projects. Renovate&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; is similar tool&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;, but doesn&amp;rsquo;t require Github. For my professional work I use Bitbucket, so Renovate feels more universal as can be used anywhere.&lt;/p&gt;</description>
+      <description>Learn how to automate Docker image updates using Renovate Bot, a versatile tool that supports various package managers and custom dependency links.</description>
     </item>
     <item>
       <title>Błękitna kropka</title>
@@ -365,79 +277,28 @@ If you don&amp;rsquo;t care about my reasoning, just jump to the description of 
       <link>https://gagor.pro/2024/02/adding-mermaid-diagrams-to-hugo/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/02/adding-mermaid-diagrams-to-hugo/</guid>
-      <description>&lt;p&gt;I used Chart.js charts on one of my Hugo blogs for few years already. Recently I needed to add few diagrams and I started glueing them in Chart.js but then I found that Hugo supports &lt;a href=&#34;https://gohugo.io/content-management/diagrams/&#34;  target=&#34;_blank&#34;&gt;GoAT and Mermaid diagrams&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
-. They&amp;rsquo;re not working out of the box, but it&amp;rsquo;s easy to extend. Much easier than my custom shortcodes.&lt;/p&gt;</description>
+      <description>Learn how to add and optimize Mermaid diagrams in Hugo, enhancing your static site with dynamic and interactive diagrams.</description>
     </item>
     <item>
       <title>How I stopped worrying and loved Makefiles</title>
       <link>https://gagor.pro/2024/02/how-i-stopped-worrying-and-loved-makefiles/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/02/how-i-stopped-worrying-and-loved-makefiles/</guid>
-      <description>&lt;h2 id=&#34;first-contact-with-make&#34;&gt;First contact with make&lt;/h2&gt;
-&lt;p&gt;When I was invited for my first job interview in the IT, I&amp;rsquo;ve been asked such question:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;How would you typically build a program from sources, what commands will you use?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I answered:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;It&amp;rsquo;s obvious:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;./configure
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;make
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;make install
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/blockquote&gt;
-&lt;p&gt;Those times belong to the past now and nowadays not many programmers use GNU Make&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Try asking this question and you will see disgust at best.&lt;/p&gt;</description>
+      <description>Learn how to use Makefiles to streamline your Terraform and Hugo projects, making environment management and static site generation more efficient.</description>
     </item>
     <item>
       <title>Best practices for patching and deprecating Docker images</title>
       <link>https://gagor.pro/2024/02/best-practices-for-patching-and-deprecating-docker-images/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/02/best-practices-for-patching-and-deprecating-docker-images/</guid>
-      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;
-&lt;p&gt;One of the biggest benefits of Docker images is their immutability. Once they&amp;rsquo;re built, they don&amp;rsquo;t change. Built once, would work forever&amp;hellip; That&amp;rsquo;s how nightmares of security guys starts &amp;#x1f923;&lt;/p&gt;
-&lt;p&gt;We have then two contradictory concepts:&lt;/p&gt;
-&lt;pre class=&#34;mermaid&#34;&gt;flowchart LR
-    id1(Keep it stable) &lt;---&gt; id2(Keep it up to date and secure)
-&lt;/pre&gt;&lt;script type=&#34;module&#34;&gt;
-    import mermaid from &#39;https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs&#39;;
-    mermaid.initialize({
-      startOnLoad: true,
-      theme: &#39;dark&#39;
-    });
-  &lt;/script&gt;&lt;p&gt;For day to day work, usually first concept wins. You want your builds stable and try to avoid tempting distractions of upgrading log4j to latest version&amp;hellip; Who knows what might break. That&amp;rsquo;s fine, makes sense.&lt;/p&gt;</description>
+      <description>Learn the best practices for patching and deprecating Docker images to maintain security and stability in your DevOps workflows.</description>
     </item>
     <item>
       <title>How to run x86-64 Docker images on Apple&#39;s MacBook with M1/M2/M3 CPU</title>
       <link>https://gagor.pro/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</link>
       <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</guid>
-      <description>&lt;p&gt;Working with Docker environments amid diverse architectures, like Apple&amp;rsquo;s &lt;code&gt;arm64&lt;/code&gt; and &lt;code&gt;x86-64&lt;/code&gt;/&lt;code&gt;AMD64&lt;/code&gt;, presents challenges. I&amp;rsquo;ve encountered the clash between my Mac&amp;rsquo;s M1 &lt;code&gt;arm64&lt;/code&gt; architecture and my x86-centric server workloads. The solution? Just use &lt;code&gt;DOCKER_DEFAULT_PLATFORM&lt;/code&gt; &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;Just run in the terminal:&lt;/p&gt;
-
-
-&lt;div class=&#34;terminal space shadow&#34;&gt;
-    &lt;div class=&#34;top&#34;&gt;
-        &lt;div class=&#34;btns&#34;&gt;
-            &lt;span class=&#34;circle red&#34;&gt;&lt;/span&gt;
-            &lt;span class=&#34;circle yellow&#34;&gt;&lt;/span&gt;
-            &lt;span class=&#34;circle green&#34;&gt;&lt;/span&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;title&#34;&gt;Enforce platform for all commands&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;terminalbody&#34;&gt;
-        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export DOCKER_DEFAULT_PLATFORM&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;linux/amd64
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;br&gt;
-
-&lt;p&gt;With this command, Docker enforces x86 architecture by default on commands supporting &lt;code&gt;--platform&lt;/code&gt; parameter, streamlining workflows and sparing the need for repetitive &lt;code&gt;--platform&lt;/code&gt; specifications.&lt;/p&gt;</description>
+      <description>Learn how to run x86-64 Docker images on Apple&amp;#39;s MacBook with M1/M2/M3 CPUs by setting the DOCKER_DEFAULT_PLATFORM environment variable.</description>
     </item>
     <item>
       <title>Extreme Ownership</title>
@@ -457,29 +318,14 @@ If you don&amp;rsquo;t care about my reasoning, just jump to the description of 
       <link>https://gagor.pro/2024/01/my-pre-commit-config-for-hugo-blog/</link>
       <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/01/my-pre-commit-config-for-hugo-blog/</guid>
-      <description>&lt;p&gt;I love blogging with &lt;a href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34;&gt;Hugo&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
- and I have two blogs already that use it. The good thing about static sites is that you have all the data in the files. You can optimize them locally, batch process, amend, etc. Powerful templating engine allows to quickly pre fill documents in the format I like.&lt;/p&gt;
-&lt;p&gt;I have some steps in the Makefile for things like image optimization, but I often don&amp;rsquo;t remember to run them &amp;#x1f603;&lt;/p&gt;</description>
+      <description>Learn how to set up and use pre-commit hooks to automate tasks like linting, syntax checks, and optimizations for your Hugo blog.</description>
     </item>
     <item>
       <title>Tuning PipeWire for best audio quality on Ubuntu</title>
       <link>https://gagor.pro/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;TL;DR&lt;br/&gt;
-If you&amp;rsquo;re not interested in the &amp;ldquo;story of my life&amp;rdquo;, go directly to &amp;ldquo;&lt;a href=&#34;#tuning-pipewire&#34; &gt;Tuning PipeWire&lt;/a&gt;
-&amp;rdquo; section.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I&amp;rsquo;m not an audiophile, but I spent whole days in the headphones and I like when sound sounds good. I like slight bass boost, which adds this kick to the melody, but won&amp;rsquo;t overwhelm me after an hour of listening. I like when high tones are clear, but I get annoyed if they&amp;rsquo;re too strong. And finally, I hate all cracks, hisses or electric circuit noises.&lt;/p&gt;</description>
+      <description>Learn how to tune PipeWire for the best audio quality on Ubuntu, ensuring optimal sound performance for your Linux system.</description>
     </item>
     <item>
       <title>Git hacks - a set of my favorite git aliases</title>
@@ -498,15 +344,14 @@ If you&amp;rsquo;re not interested in the &amp;ldquo;story of my life&amp;rdquo;
       <link>https://gagor.pro/2024/01/checking-compressed-size-of-docker-image/</link>
       <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/01/checking-compressed-size-of-docker-image/</guid>
-      <description>&lt;p&gt;One day, I was looking for some gains to improve the startup time for Jenkins agents. We run them as containers and because images are quite big, I was thinking about cutting the size, by cutting less frequently used features. I was looking for the metrics I could use to decide which changes are most valuable. I could think about two: download time and startup time. Together they combine to the gap between the request to start agent and the moment you can start to use it. Sadly it wasn&amp;rsquo;t that easy to measure that and collect statistics. It&amp;rsquo;s also not that practical, when you&amp;rsquo;re developing improvement as you can&amp;rsquo;t see the difference.&lt;/p&gt;</description>
+      <description>Learn how to check the compressed size of Docker images to optimize download and startup times, using a simple bash function for accurate measurements.</description>
     </item>
     <item>
       <title>How to interview DevOps candidates?</title>
       <link>https://gagor.pro/2024/01/how-to-interview-devops-candidates/</link>
       <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/01/how-to-interview-devops-candidates/</guid>
-      <description>&lt;h2 id=&#34;a-little-bit-of-sour-sweet-memories&#34;&gt;A little bit of sour-sweet memories&lt;/h2&gt;
-&lt;p&gt;I&amp;rsquo;ve been in many job interviews. Few as a candidate but many more as a Technical Leader or Hiring Manager. There are many questions I&amp;rsquo;ve been asked and many tests I passed. I remember one test, where I had to install and configure Apache Tomcat on a Virtual Machine, under Windows (which I don&amp;rsquo;t use for years), without access to internet. There were more traps there, like some files in the locations where Tomcat is normally installed were blocked for write with &lt;code&gt;chattr&lt;/code&gt; immutable attribute. I was able to configure the application to run, but then I asked what&amp;rsquo;s the point of this exercise? Main explanation was to &amp;ldquo;understand my knowledge&amp;rdquo;. I asked more questions:&lt;/p&gt;</description>
+      <description>Learn effective strategies for interviewing DevOps candidates, including practical exercises and review-based assessments to evaluate their skills and fit.</description>
     </item>
     <item>
       <title>Working Backwards</title>
@@ -526,96 +371,49 @@ If you&amp;rsquo;re not interested in the &amp;ldquo;story of my life&amp;rdquo;
       <link>https://gagor.pro/2024/01/how-to-give-probation-period-feedback/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/01/how-to-give-probation-period-feedback/</guid>
-      <description>&lt;h2 id=&#34;why&#34;&gt;Why?&lt;/h2&gt;
-&lt;p&gt;Hiring people is hard, but having a new person in a team is not a work done. It&amp;rsquo;s important to monitor how people perform during probation period and share feedback with them. Personally, I like to ask the whole team, with a bunch of open questions, which allows me to look from higher altitude on the new hire. My point of view might be biased but by checking what others think, I can fill blind spots.&lt;/p&gt;</description>
+      <description>Learn effective strategies for giving probation period feedback to new hires, ensuring clear communication and alignment within the team.</description>
     </item>
     <item>
       <title>Ładne kwiatki - czyli wywód o pielęgnacji roślin doniczkowych</title>
       <link>https://gagor.pro/2024/01/ladne-kwiatki-czyli-wywod-o-pielegnacji-roslin-doniczkowych/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/01/ladne-kwiatki-czyli-wywod-o-pielegnacji-roslin-doniczkowych/</guid>
-      <description>&lt;p&gt;Nazbierało mi się w domu całkiem sporo różnych roślin. Problem w tym, że nie zawsze pamiętam jak należy je pielęgnować. Rzeczy typu częstotliwość podlewania, wymagane nasłonecznienie, rodzaj nawozu, częstotliwość używania nawozu, itd., itp.&lt;/p&gt;
-&lt;p&gt;Postanowiłem to w końcu spisać. Na razie na jednej stronie i trochę na kolanie, by pokonać opór. Zamierzam to nieco uszczegółowić i wypracować jakiś schemat podlewania/nawożenia. Myślałem też o jakiś zabawkach do mierzenia poziomu wilgotności/PH - zobaczymy.&lt;/p&gt;</description>
+      <description>Dowiedz się, jak pielęgnować rośliny doniczkowe, takie jak storczyki, skrzydłokwiaty i fikusy, aby zapewnić im zdrowy wzrost i piękny wygląd.</description>
     </item>
     <item>
       <title>Maximizing page performance and security with Cloudflare tuning</title>
       <link>https://gagor.pro/2024/01/maximizing-page-performance-and-security-with-cloudflare-tuning/</link>
       <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/01/maximizing-page-performance-and-security-with-cloudflare-tuning/</guid>
-      <description>&lt;style type=&#34;text/css&#34;&gt;.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}&lt;/style&gt;
-&lt;div&gt;&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;symbol id=&#34;tip-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;note-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;warning-notice&#34; viewBox=&#34;0 0 576 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;info-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z&#34;/&gt;&lt;/symbol&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div class=&#34;notice info&#34; &gt;
-&lt;p class=&#34;first notice-title&#34;&gt;&lt;span class=&#34;icon-notice baseline&#34;&gt;&lt;svg&gt;&lt;use href=&#34;#info-notice&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;Info&lt;/p&gt;</description>
+      <description>Learn how to maximize page performance and security by tuning Cloudflare settings, specifically for a statically generated blog hosted on GitHub Pages.</description>
     </item>
     <item>
       <title>New Year&#39;s reflections and Leadership path</title>
       <link>https://gagor.pro/2024/01/new-years-reflections-and-leadership-path/</link>
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/01/new-years-reflections-and-leadership-path/</guid>
-      <description>&lt;p&gt;Almost 2 years ago I was promoted to a Team Lead position. Since then at least half of my time is dedidcated to &amp;ldquo;the people&amp;rsquo;s stuff&amp;rdquo; &amp;#x1f604;&lt;/p&gt;
-&lt;p&gt;On one side, I have less time to code and write about technical stuff, which sometimes makes me feel guilty (just a little bit). On the other side, I&amp;rsquo;m discovering a whole new world of possibilities to solve technical problems without touching the code (almost).&lt;/p&gt;</description>
+      <description>Reflect on the journey of becoming a Team Lead, balancing technical work with leadership responsibilities, and exploring new ways to solve problems.</description>
     </item>
     <item>
       <title>How to run Google Tasks in separate browser tab?</title>
       <link>https://gagor.pro/2024/01/how-to-run-google-tasks-in-separate-browser-tab/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2024/01/how-to-run-google-tasks-in-separate-browser-tab/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Update: 01.02.2025&lt;/br&gt;
-Although link provided in this article still works, they figured out that people want this feature and added a button directly from calendar.&lt;/br&gt;
-&lt;a href=&#34;https://calendar.google.com/calendar/u/0/r/tasks&#34;  target=&#34;_blank&#34;&gt;https://calendar.google.com/calendar/u/0/r/tasks&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
-&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I&amp;rsquo;m a fan of &lt;em&gt;Getting Things Done&lt;/em&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; methodology and I recommend to read the &lt;a href=&#34;https://gagor.pro/books/2012/getting-things-done/&#34; &gt;book of the same title&lt;/a&gt;
- to anyone. I know, it looks like a typical, american corpo bull****, but it&amp;rsquo;s not! Wheter you&amp;rsquo;re a busy manager or a father of three - it might help you to manage things you have to do, on time and with less stress.&lt;/p&gt;</description>
+      <description>Learn how to run Google Tasks in a separate browser tab for better task management and integration with Gmail and Calendar.</description>
     </item>
     <item>
       <title>How to run Zwift in full screen</title>
       <link>https://gagor.pro/2023/12/how-to-run-zwift-in-full-screen/</link>
       <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2023/12/how-to-run-zwift-in-full-screen/</guid>
-      <description>&lt;p&gt;Zwift runs by default in &lt;em&gt;windowed&lt;/em&gt; mode, with ugly start menu at bottom and title bar. It&amp;rsquo;s not a big deal, just something irritating. It might be as silly as funny, but I wasn&amp;rsquo;t able to find a good answer for it. There are instructions but, where the heck is &amp;ldquo;Settings&amp;rdquo; button? &amp;#x1f604;&lt;/p&gt;
-&lt;p&gt;Eventually, accidentaly I found it! So let me share, with pictures &amp;#x1f60e;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Find in top-right corner icon with your points and click it
-&lt;figure&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;images/zwift-1.webp&#34;
-         alt=&#34;Go to the top right corner&#34;/&gt; 
-&lt;/figure&gt;
-&lt;/p&gt;</description>
+      <description>Learn how to run Zwift in full screen mode on Windows, eliminating the windowed mode&amp;#39;s start menu and title bar for a more immersive experience.</description>
     </item>
     <item>
       <title>Changing comments provider for my blog</title>
       <link>https://gagor.pro/2023/12/changing-comments-provider-for-my-blog/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2023/12/changing-comments-provider-for-my-blog/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been thinking about switching comments system to something different on my blog. Since I moved to &lt;a href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34;&gt;Hugo&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
-, I used &lt;a href=&#34;https://disqus.com&#34;  target=&#34;_blank&#34;&gt;Disqus&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
-. Integration was easy and it was also easy to move comments from Wordpress. Maybe the move was easy, but people somehow didn&amp;rsquo;t like the interface. I receive 6 comments since I switched from Wordpress 3 years ago &amp;#x1f604; To be honest, I don&amp;rsquo;t like it too.&lt;/p&gt;</description>
+      <description>Explore the process of switching comments provider for a Hugo blog, comparing Disqus, Utterances, and Giscus for better user engagement and ad-free experience.</description>
     </item>
     <item>
       <title>The 48 Laws of Power</title>
@@ -635,8 +433,7 @@ Although link provided in this article still works, they figured out that people
       <link>https://gagor.pro/2023/12/use-github-with-ssh-on-port-443/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2023/12/use-github-with-ssh-on-port-443/</guid>
-      <description>&lt;p&gt;Today, I was trying to pull/push repos from Github and I was getting timeout errors. I use SSH for clonning and I prefer it this way over HTTPS.&lt;/p&gt;
-&lt;p&gt;I was looking for the reason but it felt like a temporary glitch, either on Github&amp;rsquo;s or my provider&amp;rsquo;s side. I was googling for anything, that could help me and I found&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; the way to use Github ssh clone/push/pull via SSH (as I want), but via port 443&amp;hellip; Simulating HTTPS traffic&amp;hellip; OK&amp;hellip;&lt;/p&gt;</description>
+      <description>Learn how to use GitHub with SSH on port 443 to bypass firewall restrictions and ensure seamless repository access.</description>
     </item>
     <item>
       <title>How to Win Friends &amp; Influence People</title>
@@ -743,21 +540,7 @@ Although link provided in this article still works, they figured out that people
       <link>https://gagor.pro/2023/04/the-best-way-to-get-nvm-working-in-ci-cd-systems/</link>
       <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2023/04/the-best-way-to-get-nvm-working-in-ci-cd-systems/</guid>
-      <description>&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
-&lt;p&gt;While reasoning is important, readers may not be interested in all the frustrations I experienced while figuring out how to get things done. If you&amp;rsquo;re looking for a quick solution, skip to the &lt;a href=&#34;#what-eventually-worked&#34; &gt;&amp;ldquo;What eventually worked?&amp;rdquo;&lt;/a&gt;
-  section. However, if you&amp;rsquo;re interested in the thought process behind the solution, keep reading.&lt;/p&gt;
-&lt;h2 id=&#34;why&#34;&gt;Why?&lt;/h2&gt;
-&lt;p&gt;Some might bother why the hell I&amp;rsquo;d like to make my life so hard? &amp;#x1f923;&lt;/p&gt;
-&lt;p&gt;We used to use &lt;a href=&#34;https://github.com/ekalinin/nodeenv&#34;  target=&#34;_blank&#34;&gt;&lt;code&gt;nodeenv&lt;/code&gt;&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
- for that purpose. It provides a simple script that allows to fetch any version of Node. You have to configure &lt;code&gt;PATH&lt;/code&gt; variable and you&amp;rsquo;re done. It&amp;rsquo;s very simple from the perspective of Docker images operator. There&amp;rsquo;s one problem with &lt;code&gt;nodeenv&lt;/code&gt; comparing it to the &lt;code&gt;nvm&lt;/code&gt; - popularity.&lt;/p&gt;</description>
+      <description>Learn the best way to get NVM (Node Version Manager) working in CI/CD systems, ensuring seamless Node.js version management in your DevOps workflows.</description>
     </item>
     <item>
       <title>Nowy jednominutowy menedżer</title>
@@ -786,26 +569,7 @@ Although link provided in this article still works, they figured out that people
       <link>https://gagor.pro/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</guid>
-      <description>&lt;p&gt;I switched recently from &lt;a href=&#34;https://www.docker.com/products/docker-desktop/&#34;  target=&#34;_blank&#34;&gt;Docker Desktop&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
- on my MacBook to &lt;a href=&#34;https://rancherdesktop.io/&#34;  target=&#34;_blank&#34;&gt;Rancher Desktop&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
-. The most important reason for me to do it, was possibility to gently switch between &lt;code&gt;docker&lt;/code&gt; and &lt;code&gt;containerd&lt;/code&gt; runtimes.&lt;/p&gt;
-&lt;p&gt;There&amp;rsquo;s still one feature that I miss on Rancher Desktop - possibility to change Docker daemon configuration. I used to enable experimental features&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; and BuildKit&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. Sadly, there&amp;rsquo;s no easy way to do it on Rancher&amp;hellip; But there&amp;rsquo;s a magical way&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;</description>
+      <description>Learn how to change the configuration of the Docker daemon in Rancher Desktop on MacOS, enabling experimental features and BuildKit for enhanced functionality.</description>
     </item>
     <item>
       <title>Who Moved My Cheese?</title>
@@ -904,44 +668,28 @@ Although link provided in this article still works, they figured out that people
       <link>https://gagor.pro/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</link>
       <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</guid>
-      <description>&lt;p&gt;Since upgrade to Ubuntu 22.04 keep seeing those warnings:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;W: http://ppa.launchpad.net/yubico/stable/ubuntu/dists/jammy/InRelease: Key is stored in legacy trusted.gpg keyring &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;/etc/apt/trusted.gpg&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;, see the DEPRECATION section in apt-key&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;8&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; details.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;W: https://updates.signal.org/desktop/apt/dists/xenial/InRelease: Key is stored in legacy trusted.gpg keyring &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;/etc/apt/trusted.gpg&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;, see the DEPRECATION section in apt-key&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;8&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; details.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;W: https://repo.skype.com/deb/dists/stable/InRelease: Key is stored in legacy trusted.gpg keyring &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;/etc/apt/trusted.gpg&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;, see the DEPRECATION section in apt-key&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;8&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; details.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;W: https://packagecloud.io/AtomEditor/atom/any/dists/any/InRelease: Key is stored in legacy trusted.gpg keyring &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;/etc/apt/trusted.gpg&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;, see the DEPRECATION section in apt-key&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;8&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; details.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;W: https://packagecloud.io/slacktechnologies/slack/debian/dists/jessie/InRelease: Key is stored in legacy trusted.gpg keyring &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;/etc/apt/trusted.gpg&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;, see the DEPRECATION section in apt-key&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;8&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; details.
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;W: https://apt.syncthing.net/dists/syncthing/InRelease: Key is stored in legacy trusted.gpg keyring &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;/etc/apt/trusted.gpg&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;, see the DEPRECATION section in apt-key&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;8&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; details.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I already cleared all of them in my Docker images, but somehow I didn&amp;rsquo;t fix my station.&lt;/p&gt;</description>
+      <description>Learn how to resolve the &amp;#34;Key is stored in legacy trusted.gpg keyring&amp;#34; warning on Ubuntu 22.04 by properly managing GPG keys for repositories.</description>
     </item>
     <item>
       <title>Best practices for writing Dockerfiles - Use VOLUME for all mutable, temporary file locations</title>
       <link>https://gagor.pro/2022/09/best-practices-for-writing-dockerfiles-use-volume-for-all-mutable-temporary-file-locations/</link>
       <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2022/09/best-practices-for-writing-dockerfiles-use-volume-for-all-mutable-temporary-file-locations/</guid>
-      <description>&lt;p&gt;IMO people don&amp;rsquo;t understand how &lt;code&gt;VOLUME&lt;/code&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; works so they don&amp;rsquo;t use it. It&amp;rsquo;s generally used far too rarely!&lt;/p&gt;
-&lt;p&gt;In short &lt;code&gt;VOLUME&lt;/code&gt; means two things:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Whatever is left in directory marked as &lt;code&gt;VOLUME&lt;/code&gt;, stays there and can&amp;rsquo;t be changed in later layers (actually it can be changed but changes won&amp;rsquo;t be persistent).&lt;/li&gt;
-&lt;li&gt;Volumes are not part of layered image FS. They&amp;rsquo;re mounted as anonymous volumes located on standard file system. This means they&amp;rsquo;re working much faster.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Let me explain it a bit.&lt;/p&gt;</description>
+      <description>Learn best practices for writing Dockerfiles by using VOLUME for all mutable, temporary file locations to enhance performance and maintain cleaner images.</description>
     </item>
     <item>
       <title>Best practices for writing Dockerfiles - Use .dockerignore</title>
       <link>https://gagor.pro/2022/09/best-practices-for-writing-dockerfiles-use-dockerignore/</link>
       <pubDate>Sun, 11 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2022/09/best-practices-for-writing-dockerfiles-use-dockerignore/</guid>
-      <description>&lt;p&gt;People often complain, that building Docker image takes a long time. &amp;ldquo;I just added a single &lt;code&gt;jar&lt;/code&gt; package&amp;rdquo; they say&amp;hellip; Really?&lt;/p&gt;
-&lt;p&gt;They often don&amp;rsquo;t remember that whole &amp;ldquo;build context&amp;rdquo;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; is uploaded to Docker daemon during build, which often means they&amp;rsquo;re not only adding &amp;ldquo;single jar&amp;rdquo;, but also all sources, test results and whatever they have in working directory.&lt;/p&gt;
-&lt;p&gt;Solution is simple - to use &lt;code&gt;.dockerignore&lt;/code&gt; file&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;. Syntax is similar to &lt;code&gt;.gitignore&lt;/code&gt;. It excludes what shouldn&amp;rsquo;t be uploaded to Docker daemon.&lt;/p&gt;</description>
+      <description>Learn best practices for writing Dockerfiles by using .dockerignore to optimize build times and exclude unnecessary files from the build context.</description>
     </item>
     <item>
       <title>Dockerfile writing best practices</title>
       <link>https://gagor.pro/2022/09/dockerfile-writing-best-practices/</link>
       <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2022/09/dockerfile-writing-best-practices/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been thinking for a long time about writing set of articles on the topic of: &amp;ldquo;Dockerfile writing best practices&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;As it&amp;rsquo;s often my daily job to prepare best in class containers, that are later used by thousands of company&amp;rsquo;s applications, I have quite good insights on the topic. Some experience and knowledge gathered is often against intuition and building it took me a while. I want to share it, with a hope that feedback I get will allow me to excel on the topic even further.&lt;/p&gt;</description>
+      <description>Learn best practices for writing Dockerfiles to create efficient, secure, and maintainable Docker images, based on real-world experience and insights.</description>
     </item>
     <item>
       <title>Pułapki myślenia</title>
@@ -973,34 +721,7 @@ Although link provided in this article still works, they figured out that people
       <link>https://gagor.pro/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</link>
       <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</guid>
-      <description>&lt;p&gt;Auta się zmieniają a problemy z nimi pozostają te same :)&lt;/p&gt;
-&lt;h2 id=&#34;kasowanie-ostrzeżenia-wymiany-oleju-1&#34;&gt;Kasowanie ostrzeżenia wymiany oleju &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Przekręcić kluczyk w stacyjce do drugiej pozycji, gdy zapalają się wszystkie kontrolki (nie uruchamiamy silnika).&lt;/li&gt;
-&lt;li&gt;Wciskamy równocześnie pedały hamulca i gazu do oporu, trzymamy do zakończenia procesu.&lt;/li&gt;
-&lt;li&gt;Pojawi komunikat o rozpoczęciu resetowania inspekcji. Możemy zatwierdzić OK.&lt;/li&gt;
-&lt;li&gt;Czekamy aż pojawi się komunikat:
-&lt;figure class=&#34;align-center &#34;&gt;
-       &lt;img loading=&#34;lazy&#34; src=&#34;images/service-oil-small.png#center&#34;/&gt; 
-   &lt;/figure&gt;
-
-Zatwierdzamy OK.&lt;/li&gt;
-&lt;li&gt;Dopiero teraz zwalniamy pedały.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://forum.fordclubpolska.org/showthread.php?t=108532&#34;  target=&#34;_blank&#34;&gt;https://forum.fordclubpolska.org/showthread.php?t=108532&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
-&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Dowiedz się, jak skasować ostrzeżenie wymiany oleju w samochodzie Ford S-MAX, wykonując kilka prostych kroków.</description>
     </item>
     <item>
       <title>Czy jesteś tym, który puka?</title>
@@ -1029,26 +750,7 @@ Zatwierdzamy OK.&lt;/li&gt;
       <link>https://gagor.pro/2022/06/back-on-the-big-stage/</link>
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2022/06/back-on-the-big-stage/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m back on the big stage!&lt;/p&gt;
-&lt;p&gt;I haven&amp;rsquo;t attend any big conferences as presenter for some time, but this year will change it. I&amp;rsquo;m starting big, with a talk: &lt;a href=&#34;https://devoxx.pl/talk-details/?id=8805&#34;  target=&#34;_blank&#34;&gt;Docker base images - Ideas how to manage them on scale&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
- on &lt;a href=&#34;https://devoxx.pl&#34;  target=&#34;_blank&#34;&gt;Devoxx&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
- conference in Kraków, that will take place on 22-24th June 2022.&lt;/p&gt;</description>
+      <description>Announcing my return to the big stage with a talk on managing Docker base images at scale, presented at the Devoxx 2022 conference in Kraków.</description>
     </item>
     <item>
       <title>Drive</title>
@@ -1079,7 +781,7 @@ Zatwierdzamy OK.&lt;/li&gt;
       <link>https://gagor.pro/2022/01/on-slow-decline-of-streaming-services/</link>
       <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2022/01/on-slow-decline-of-streaming-services/</guid>
-      <description>&lt;p&gt;I was so happy when Netflix became available in my country. I was waiting for any serious streaming provider, that will give me easy and legal access to the movies I love. Ok, looks like not to all of them were there, but future was looking bright. As time was passing, offer was extending. They eventually added even some Polish movies, which my wife appreciated. Seems like my country is not in the same league like USA, Germany or UK. Screw it! It&amp;rsquo;s still better than nothing, right?&lt;/p&gt;</description>
+      <description>Explore the slow decline of streaming services like Netflix and HBO, and how the fragmentation of content across multiple platforms affects user experience.</description>
     </item>
     <item>
       <title>Projekt Jednorożec</title>
@@ -1097,172 +799,42 @@ Zatwierdzamy OK.&lt;/li&gt;
       <link>https://gagor.pro/2021/11/creating-fully-encrypted-zfs-pool/</link>
       <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2021/11/creating-fully-encrypted-zfs-pool/</guid>
-      <description>&lt;h2 id=&#34;what-i-want-to-do&#34;&gt;What I want to do?&lt;/h2&gt;
-&lt;p&gt;I use my pool to securely store backups, archive my old documents and keep huge family&amp;rsquo;s photo library.&lt;/p&gt;
-&lt;p&gt;I have new disks. They were tortured with &lt;a href=&#34;https://gagor.pro/2021/11/shucking-wd-elements-14tb/&#34; &gt;&lt;code&gt;badblocks&lt;/code&gt;&lt;/a&gt;
-, so they&amp;rsquo;re ready to create ZFS pool.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve read few documents about different approaches &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; &lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;. I wanted to be sure if anything changed during past years. One of articles recommends mirroring over RAIDZ. Resilvering is faster, at the same time putting IO less stress on whole pool. But pool as small as mine, relies on single drive which might die in between and data won&amp;rsquo;t be recoverable. Eventually, I decided to go for RAIDZ1 for now and in the future I rather move to RAIDZ2. For that, I have to buy one more disk - Black Friday is close, we will see.&lt;/p&gt;</description>
+      <description>Learn how to create a fully encrypted ZFS pool on Linux, including steps for generating encryption keys and configuring ZFS for secure data storage.</description>
     </item>
     <item>
       <title>Shucking WD Elements 14TB</title>
       <link>https://gagor.pro/2021/11/shucking-wd-elements-14tb/</link>
       <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2021/11/shucking-wd-elements-14tb/</guid>
-      <description>&lt;p&gt;I used to have RAID (or at least some variation of it) for my main storage. For redundancy, in case of disk failure. I started with some crazy LVM mirrors done on two disks of different size. Sync job was starting on every boot &amp;#x1f604;&lt;/p&gt;
-&lt;p&gt;Then came time for RAID5 on &lt;code&gt;mdadm&lt;/code&gt; + LVM for volume management. It was working nice until the moment when disks became bigger. Long array rebuilds or checks, required my PC to stay turned on overnight just to validate if stuff works still.&lt;/p&gt;</description>
+      <description>Learn how to shuck WD Elements 14TB drives for use in a RAID setup, including stress testing and performance considerations for ZFS.</description>
     </item>
     <item>
       <title>Automatically add ticket ID to every commit message in Git</title>
       <link>https://gagor.pro/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</link>
       <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t know how it is in your company, but in mine it&amp;rsquo;s considered a good practice to add ticket numbers to commit messages. It allows to easily determine why something was changed, etc. Makes sense, but this also means, that I should be adding this ticket to every message&amp;hellip; And this doesn&amp;rsquo;t make sense for me. I will accidentally avoid it from time to time or make a lot of typos.&lt;/p&gt;</description>
+      <description>Learn how to automatically add ticket IDs to every commit message in Git, ensuring consistent and informative commit history by using custom Git aliases.</description>
     </item>
     <item>
       <title>Resize images from command line on MacOS</title>
       <link>https://gagor.pro/2021/11/resize-images-from-command-line-on-macos/</link>
       <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2021/11/resize-images-from-command-line-on-macos/</guid>
-      <description>&lt;p&gt;I was updating my blog and needed to generate few variants of images, in different resolution.&lt;/p&gt;
-&lt;h2 id=&#34;option-1---sips&#34;&gt;Option 1 - &lt;code&gt;sips&lt;/code&gt;&lt;/h2&gt;
-&lt;p&gt;There&amp;rsquo;s simple, builtin tool &lt;code&gt;sips&lt;/code&gt;, that can be used for simple resizing &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
-
-
-&lt;div class=&#34;terminal space shadow&#34;&gt;
-    &lt;div class=&#34;top&#34;&gt;
-        &lt;div class=&#34;btns&#34;&gt;
-            &lt;span class=&#34;circle red&#34;&gt;&lt;/span&gt;
-            &lt;span class=&#34;circle yellow&#34;&gt;&lt;/span&gt;
-            &lt;span class=&#34;circle green&#34;&gt;&lt;/span&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;title&#34;&gt;Resize single image&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;terminalbody&#34;&gt;
-        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sips -Z &lt;span style=&#34;color:#ae81ff&#34;&gt;36&lt;/span&gt; orig.png --out static/favicon36x36.png
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;br&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;-Z&lt;/code&gt; - maintain image aspect ratio&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;36&lt;/code&gt; - maximum height and width&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It can be also used for batch image processing:&lt;/p&gt;
-&lt;style type=&#34;text/css&#34;&gt;.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}&lt;/style&gt;
-&lt;div&gt;&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;symbol id=&#34;tip-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;note-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;warning-notice&#34; viewBox=&#34;0 0 576 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;info-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z&#34;/&gt;&lt;/symbol&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div class=&#34;notice warning&#34; &gt;
-&lt;p class=&#34;first notice-title&#34;&gt;&lt;span class=&#34;icon-notice baseline&#34;&gt;&lt;svg&gt;&lt;use href=&#34;#warning-notice&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;Warning&lt;/p&gt;</description>
+      <description>Learn how to resize images from the command line on MacOS using built-in tools like sips and third-party tools like ImageMagick for various use cases.</description>
     </item>
     <item>
       <title>Homebrew - uninstall formula with dependencies</title>
       <link>https://gagor.pro/2021/11/homebrew-uninstall-formula-with-dependencies/</link>
       <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2021/11/homebrew-uninstall-formula-with-dependencies/</guid>
-      <description>&lt;p&gt;I use &lt;code&gt;brew&lt;/code&gt; extensively on MacOS. It&amp;rsquo;s just as convenient as many Linux package managers. What I don&amp;rsquo;t like, it leaves dependencies after removal of formula. There&amp;rsquo;s simple way to clean it up by running one command &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-
-
-&lt;div class=&#34;terminal space shadow&#34;&gt;
-    &lt;div class=&#34;top&#34;&gt;
-        &lt;div class=&#34;btns&#34;&gt;
-            &lt;span class=&#34;circle red&#34;&gt;&lt;/span&gt;
-            &lt;span class=&#34;circle yellow&#34;&gt;&lt;/span&gt;
-            &lt;span class=&#34;circle green&#34;&gt;&lt;/span&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;title&#34;&gt;Uninstall with dependencies&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;terminalbody&#34;&gt;
-        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew uninstall FORMULA
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew autoremove
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;br&gt;
-
-&lt;style type=&#34;text/css&#34;&gt;.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}&lt;/style&gt;
-&lt;div&gt;&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;symbol id=&#34;tip-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;note-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;warning-notice&#34; viewBox=&#34;0 0 576 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;info-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z&#34;/&gt;&lt;/symbol&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div class=&#34;notice info&#34; &gt;
-&lt;p class=&#34;first notice-title&#34;&gt;&lt;span class=&#34;icon-notice baseline&#34;&gt;&lt;svg&gt;&lt;use href=&#34;#info-notice&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;Info&lt;/p&gt;</description>
+      <description>Learn how to uninstall a Homebrew formula along with its dependencies on MacOS, ensuring a clean removal and freeing up disk space.</description>
     </item>
     <item>
       <title>Asus ROG STRIX Z590-E GAMING WIFI - my UEFI BIOS settings</title>
       <link>https://gagor.pro/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</link>
       <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve build new PC - it&amp;rsquo;s based on &lt;a href=&#34;https://rog.asus.com/pl/motherboards/rog-strix/rog-strix-z590-e-gaming-wifi-model/&#34;  target=&#34;_blank&#34;&gt;Asus ROG STRIX Z590-E GAMING WIFI&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
- motherboard. Generally, I&amp;rsquo;m quite satisfied, but it have one irritating downside - after each UEFI BIOS upgrade, it&amp;rsquo;s silently resetting some of settings.&lt;/p&gt;
-&lt;p&gt;Let me note, what I want to have there:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ai Tweaker &lt;em&gt;(use my RAM capabilities)&lt;/em&gt;
-&lt;ul&gt;
-&lt;li&gt;AI Overcloack Tuner -&amp;gt; [&lt;strong&gt;XMP I&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;DRAM Frequency -&amp;gt; [&lt;strong&gt;DDR4-3600MHz&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;DRAM CAS# Latency -&amp;gt; [&lt;strong&gt;16&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;DRAM RAS# to CAS# Delay -&amp;gt; [&lt;strong&gt;19&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;DRAM RAS# ACT Time -&amp;gt; [&lt;strong&gt;39&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;DRAM Voltage -&amp;gt; [&lt;strong&gt;1.35000&lt;/strong&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Advanced
-&lt;ul&gt;
-&lt;li&gt;Platform Misc Configuration &lt;em&gt;(enable some power management)&lt;/em&gt;
-&lt;ul&gt;
-&lt;li&gt;PCI Express Native Power Management -&amp;gt; [&lt;strong&gt;Enabled&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;Native ASPM -&amp;gt; [&lt;strong&gt;Auto&lt;/strong&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;APM Configuration
-&lt;ul&gt;
-&lt;li&gt;ErP Ready -&amp;gt; [&lt;strong&gt;Enable(S4+S5)&lt;/strong&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;CPU Configuration &lt;em&gt;(virtualization optimisations)&lt;/em&gt;
-&lt;ul&gt;
-&lt;li&gt;Intel (VMX) Virtualization Technology -&amp;gt; [&lt;strong&gt;Enabled&lt;/strong&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;System Agent (SA) Configuration
-&lt;ul&gt;
-&lt;li&gt;VT-d -&amp;gt; [&lt;strong&gt;Enabled&lt;/strong&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Trusted Computing &lt;em&gt;(TPM v2 for Windows 11)&lt;/em&gt;
-&lt;ul&gt;
-&lt;li&gt;Security Device Support -&amp;gt; [&lt;strong&gt;Enabled&lt;/strong&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Onboard Devices Configuration
-&lt;ul&gt;
-&lt;li&gt;USB Audio -&amp;gt; [&lt;strong&gt;Disabled&lt;/strong&gt;] &lt;em&gt;(don&amp;rsquo;t work well on Linux)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;INTEL 2.5G LAN1 -&amp;gt; [&lt;strong&gt;Disabled&lt;/strong&gt;] &lt;em&gt;(I don&amp;rsquo;t use them)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;INTEL 2.5G LAN2 -&amp;gt; [&lt;strong&gt;Disabled&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;USB power delivery in Soft Off state (S5) -&amp;gt; [&lt;strong&gt;Disabled&lt;/strong&gt;] &lt;em&gt;(disable mouse lightning when shut down)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;LED lightning &lt;em&gt;(disable MB lightning when shut down)&lt;/em&gt;
-&lt;ul&gt;
-&lt;li&gt;When system is in sleep, hibernate or soft off states -&amp;gt; [&lt;strong&gt;Stealth Mode&lt;/strong&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;M.2_4 Configuration -&amp;gt; [&lt;strong&gt;PCIE&lt;/strong&gt;]&lt;/li&gt;
-&lt;li&gt;PRIEX16_3 Bandwidth -&amp;gt; [&lt;strong&gt;X2 Mode&lt;/strong&gt;] &lt;em&gt;(Xonar is only x2)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;CPU PCIE Configuration Mode -&amp;gt; [&lt;strong&gt;PCIEX16_1 + PCIEX16_2 + M.2_2&lt;/strong&gt;] &lt;em&gt;(I need that for 1st NVMe to work)&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Boot
-&lt;ul&gt;
-&lt;li&gt;Boot Configuration
-&lt;ul&gt;
-&lt;li&gt;POST Delay Time -&amp;gt; [&lt;strong&gt;1 sec&lt;/strong&gt;]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>Learn about the optimal UEFI BIOS settings for the Asus ROG STRIX Z590-E GAMING WIFI motherboard, including configurations for RAM, power management, virtualization, and more.</description>
     </item>
     <item>
       <title>Od dobrego do wielkiego</title>
@@ -1293,35 +865,7 @@ Zatwierdzamy OK.&lt;/li&gt;
       <link>https://gagor.pro/2021/07/official-centos-8-stream-docker-image-finally-available/</link>
       <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2021/07/official-centos-8-stream-docker-image-finally-available/</guid>
-      <description>&lt;p&gt;Finally, they&amp;rsquo;re available! Wait a moment.. Actually they&amp;rsquo;re available for few months, just nobody published information about moving them to &lt;a href=&#34;https://quay.io&#34;  target=&#34;_blank&#34;&gt;quay.io&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
- and dropped poor guys using &lt;a href=&#34;https://hub.docker.com&#34;  target=&#34;_blank&#34;&gt;hub.docker.com&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
- without any updates! Yes, that how they did!&lt;/p&gt;
-&lt;p&gt;I found new place accidentally, reading some news about CentOS Stream 9 on &lt;a href=&#34;https://blog.centos.org/2021/07/centos-community-newsletter-july-2021/&#34;  target=&#34;_blank&#34;&gt;their blog&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
-. There was reference to CentOS 9 Stream dev builds of Docker images and I found &amp;ldquo;missing&amp;rdquo; &lt;code&gt;stream&lt;/code&gt; and &lt;code&gt;stream8&lt;/code&gt; tags too. It&amp;rsquo;s not adding more confidence on my side to the CentOS project, when they&amp;rsquo;re not even communicating such changes publicly, sick!&lt;/p&gt;</description>
+      <description>Discover the availability of the official CentOS 8 Stream Docker image on quay.io, and learn about the transition from Docker Hub and its implications.</description>
     </item>
     <item>
       <title>Inteligentny inwestor</title>
@@ -1545,10 +1089,7 @@ Zatwierdzamy OK.&lt;/li&gt;
       <link>https://gagor.pro/2021/03/how-to-remove-geo-localization/exif-data-from-photos/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2021/03/how-to-remove-geo-localization/exif-data-from-photos/</guid>
-      <description>&lt;p&gt;I wanted to share publicly some photos, but I performed them with navigation enabled so they contained accurate localization of my house. I wanted to remove EXIF data GPS tags, my phone type and other irrelevant stuff.&lt;/p&gt;
-&lt;style type=&#34;text/css&#34;&gt;.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}&lt;/style&gt;
-&lt;div&gt;&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;symbol id=&#34;tip-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;note-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;warning-notice&#34; viewBox=&#34;0 0 576 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;info-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z&#34;/&gt;&lt;/symbol&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div class=&#34;notice tip&#34; &gt;
-&lt;p class=&#34;first notice-title&#34;&gt;&lt;span class=&#34;icon-notice baseline&#34;&gt;&lt;svg&gt;&lt;use href=&#34;#tip-notice&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;Tip&lt;/p&gt;</description>
+      <description>Learn how to remove geo-localization and EXIF data from photos using ImageMagick on Linux, ensuring privacy before sharing images publicly.</description>
     </item>
     <item>
       <title>Książę</title>
@@ -1566,77 +1107,21 @@ Zatwierdzamy OK.&lt;/li&gt;
       <link>https://gagor.pro/2021/02/how-to-run-jmx-monitoring-in-docker-image/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2021/02/how-to-run-jmx-monitoring-in-docker-image/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s sometimes useful to quickly connect to JMX console, to checkout what&amp;rsquo;s going on in your application, but the whole thing get&amp;rsquo;s tricky if you&amp;rsquo;re running your app in a container. I need it from time to time and I keep myself few times searching for set of params below:&lt;/p&gt;
-
-
-&lt;div class=&#34;terminal space shadow&#34;&gt;
-    &lt;div class=&#34;top&#34;&gt;
-        &lt;div class=&#34;btns&#34;&gt;
-            &lt;span class=&#34;circle red&#34;&gt;&lt;/span&gt;
-            &lt;span class=&#34;circle yellow&#34;&gt;&lt;/span&gt;
-            &lt;span class=&#34;circle green&#34;&gt;&lt;/span&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;title&#34;&gt;~/2021/02/how-to-run-jmx-monitoring-in-docker-image/&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;terminalbody&#34;&gt;
-        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;java \
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-Dcom.sun.management.jmxremote \
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-Dcom.sun.management.jmxremote.rmi.port=${PORT1} \
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-Dcom.sun.management.jmxremote.port=${PORT1} \
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-Dcom.sun.management.jmxremote.local.only=false \
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-Dcom.sun.management.jmxremote.authenticate=false \
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-Dcom.sun.management.jmxremote.ssl=false \
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-Djava.rmi.server.hostname=${HOST}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;br&gt;
-
-&lt;p&gt;The whole magic here is that &lt;code&gt;PORT1&lt;/code&gt; in container is app&amp;rsquo;s second port. So if you expose both HTTP and HTTPS on two separate ports, you will need here &lt;code&gt;PORT2&lt;/code&gt;. I setup both RMI and JMX ports to same value. Second thing here is a &lt;code&gt;hostname&lt;/code&gt;, it have to be hostname which you will use to connect to the container. If you use domain name, it have to be this domain name. If you want to use IP, set it to IP. It&amp;rsquo;s because it&amp;rsquo;s actually a virtual hostname for JMX HTTP server - if you mix them, you won&amp;rsquo;t get results. Container orchestrators often automatically export variable like &lt;code&gt;HOST&lt;/code&gt; or &lt;code&gt;HOSTNAME&lt;/code&gt; which you can use too hook.&lt;/p&gt;</description>
+      <description>Learn how to run JMX monitoring in a Docker image, including the necessary Java parameters and configuration for connecting to JMX consoles like VisualVM or Jconsole.</description>
     </item>
     <item>
       <title>CentOS 8 Stream Docker image</title>
       <link>https://gagor.pro/2021/02/centos-8-stream-docker-image/</link>
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2021/02/centos-8-stream-docker-image/</guid>
-      <description>&lt;p&gt;We&amp;rsquo;re all divided with &lt;a href=&#34;https://blog.centos.org/2020/12/future-is-centos-stream/&#34;  target=&#34;_blank&#34;&gt;recent decision to focus on CentOS Stream&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
-, which essentially means that stable, professional distro will turn into rolling release now. &lt;a href=&#34;https://www.theregister.com/2021/02/08/centos_board_qa/&#34;  target=&#34;_blank&#34;&gt;Also CentOS board members don&amp;rsquo;t gave us more confidence for the future&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
-.&lt;/p&gt;
-&lt;p&gt;I don&amp;rsquo;t want to be totally sceptic, I would like to test it on my own and only then, decide if it&amp;rsquo;s stable enough. But I work mostly with Docker containers and there are no official Docker images with Stream variant. I decided to create it on my own, based on &lt;a href=&#34;https://www.centos.org/centos-stream/&#34;  target=&#34;_blank&#34;&gt;official instruction&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
-            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
-            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
-            viewBox=&#34;0 0 512 512&#34;&gt;
-            &lt;title&gt;external link&lt;/title&gt;
-            &lt;path fill=&#34;currentColor&#34;
-                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
-            &lt;/path&gt;
-        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
-.&lt;/p&gt;</description>
+      <description>Learn about the creation and optimization of a CentOS 8 Stream Docker image, including steps to squash the image and ensure it is suitable for production workloads.</description>
     </item>
     <item>
       <title>How old are Official Docker images?</title>
       <link>https://gagor.pro/2021/01/how-old-are-official-docker-images/</link>
       <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2021/01/how-old-are-official-docker-images/</guid>
-      <description>&lt;style type=&#34;text/css&#34;&gt;.notice{--root-color:#444;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#c33;--warning-content:#fee;--info-title:#fb7;--info-content:#fec;--note-title:#6be;--note-content:#e7f2fa;--tip-title:#5a5;--tip-content:#efe}@media (prefers-color-scheme:dark){.notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}}body.dark .notice{--root-color:#ddd;--root-background:#eff;--title-color:#fff;--title-background:#7bd;--warning-title:#800;--warning-content:#400;--info-title:#a50;--info-content:#420;--note-title:#069;--note-content:#023;--tip-title:#363;--tip-content:#121}.notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:var(--root-color);background:var(--root-background)}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:var(--title-color);background:var(--title-background)}.notice.warning .notice-title{background:var(--warning-title)}.notice.warning{background:var(--warning-content)}.notice.info .notice-title{background:var(--info-title)}.notice.info{background:var(--info-content)}.notice.note .notice-title{background:var(--note-title)}.notice.note{background:var(--note-content)}.notice.tip .notice-title{background:var(--tip-title)}.notice.tip{background:var(--tip-content)}.icon-notice{display:inline-flex;align-self:center;margin-right:8px}.icon-notice img,.icon-notice svg{height:1em;width:1em;fill:currentColor}.icon-notice img,.icon-notice.baseline svg{top:.125em;position:relative}&lt;/style&gt;
-&lt;div&gt;&lt;svg width=&#34;0&#34; height=&#34;0&#34; display=&#34;none&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;symbol id=&#34;tip-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;note-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zm-248 50c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;warning-notice&#34; viewBox=&#34;0 0 576 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z&#34;/&gt;&lt;/symbol&gt;&lt;symbol id=&#34;info-notice&#34; viewBox=&#34;0 0 512 512&#34; preserveAspectRatio=&#34;xMidYMid meet&#34;&gt;&lt;path d=&#34;M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z&#34;/&gt;&lt;/symbol&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div class=&#34;notice info&#34; &gt;
-&lt;p class=&#34;first notice-title&#34;&gt;&lt;span class=&#34;icon-notice baseline&#34;&gt;&lt;svg&gt;&lt;use href=&#34;#info-notice&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&lt;/span&gt;Info&lt;/p&gt;</description>
+      <description>Discover the age and update frequency of various official Docker images, and learn why it&amp;#39;s important to keep your base images up to date for security and performance.</description>
     </item>
     <item>
       <title>Eryk</title>
@@ -1709,9 +1194,7 @@ Zatwierdzamy OK.&lt;/li&gt;
       <link>https://gagor.pro/2020/10/bye-bye-wordpress/</link>
       <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2020/10/bye-bye-wordpress/</guid>
-      <description>&lt;p&gt;I started my blog on custom (written by my) engine, but as I didn&amp;rsquo;t had enough time to enhance it I switched to Wordpress. I&amp;rsquo;ve been using Wordpress as an engine of my blog for past 8~9 years. I have small VPS with PHP + Nginx and you can find a lot of configuration examples from my config on this site &amp;#x1f604;&lt;/p&gt;
-&lt;p&gt;There was a time, when I was really satisfied by what it provides. Not only because of features, but also beacause I was able to play with insane configuration options (&lt;a href=&#34;https://gagor.pro/2012/06/nginx-konfiguracja-pod-wordpressa/&#34; &gt;check out my caching reverse proxy config&lt;/a&gt;
-). For me it was opportuninty to excel with my skills.&lt;/p&gt;</description>
+      <description>Learn about the transition from Wordpress to Hugo for managing a personal blog, including reasons for the switch and benefits of using a static site generator.</description>
     </item>
     <item>
       <title>W transie inwestowania</title>
@@ -1784,18 +1267,7 @@ Zatwierdzamy OK.&lt;/li&gt;
       <link>https://gagor.pro/2020/01/moving-from-linux-to-macos-first-steps/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2020/01/moving-from-linux-to-macos-first-steps/</guid>
-      <description>&lt;p&gt;Few years ago I moved from Linux desktop to MacOS for my business, day to day work. There were 2 main reasons for that:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Corporations don&amp;rsquo;t like Linux - they can&amp;rsquo;t manage it, they can&amp;rsquo;t support it, so they blocked it with &amp;ldquo;Security policy&amp;rdquo;, ISO20001, or other nonsense.&lt;/li&gt;
-&lt;li&gt;Actually they&amp;rsquo;re partially right but in different place - many business collaboration applications don&amp;rsquo;t work well on LInux (or they don&amp;rsquo;t work at all)
-&lt;ul&gt;
-&lt;li&gt;Skype for Business - there&amp;rsquo;s open source alternative but to get full support you have to pay for additional codecs (as far as I remember) - it&amp;rsquo;s not working stable even in paid version&lt;/li&gt;
-&lt;li&gt;Outlook and calendar support - I love Thunderbird and I use it for years, but calendar invitations didn&amp;rsquo;t work nice (honestly, they didn&amp;rsquo;t work nice even between different Outlook versions&amp;hellip;)&lt;/li&gt;
-&lt;li&gt;Corporate VPN apps - Christ, I always was able to get it working eventually, but&amp;hellip; why bother&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;I&amp;rsquo;m older, maybe lazier, maybe smarter - I don&amp;rsquo;t like to spend my time resolving problems that don&amp;rsquo;t give me any value. That&amp;rsquo;s how I switched to MacOS - for business purposes only. Privately I still prefer Linux.&lt;/p&gt;</description>
+      <description>Learn about the initial steps and adjustments needed when transitioning from a Linux desktop to MacOS for business purposes, including tips on keyboard shortcuts, application compatibility, and system settings.</description>
     </item>
     <item>
       <title>Teoria kwantowa nie gryzie</title>
@@ -3132,9 +2604,7 @@ olej/smalec.&lt;/p&gt;</description>
       <link>https://gagor.pro/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</link>
       <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</guid>
-      <description>&lt;p&gt;After WSUS installing on Windows Server 2012 I discovered that it&amp;rsquo;s running on port 8530, different than on older version of Windows (it was using port 80 from beginning). But what&amp;rsquo;s more interesting it was running ONLY on IPv6 interface! Switching binding configuration in IIS doesn&amp;rsquo;t help.&lt;/p&gt;
-&lt;p&gt;I could stand switching port - it&amp;rsquo;s nothing hard with GPO, but IPv6 only configuration was not acceptable.&lt;/p&gt;
-&lt;p&gt;After googling for some time &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; I found one command that solved my problems by switching WSUS to older behavior and run it on port 80 (on default website).&lt;/p&gt;</description>
+      <description>Learn how to change the default WSUS port from 8530 to 80 on Windows Server 2012, ensuring compatibility with older configurations and resolving IPv6-only issues.</description>
     </item>
     <item>
       <title>Debian - Upgrade MySQL to MariaDB</title>
@@ -3526,18 +2996,14 @@ it.&lt;/p&gt;</description>
       <link>https://gagor.pro/2013/11/reset-user-password-in-your-own-ghost-blog/</link>
       <pubDate>Thu, 28 Nov 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2013/11/reset-user-password-in-your-own-ghost-blog/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve started testing new Ghost blogging platform for a while on a virtual machine before I take decision about switching to it (or maybe won&amp;rsquo;t)&amp;hellip; After few days, I wanted to go forward with more testing and stuck on &amp;ldquo;e-mail and password&amp;rdquo; login prompt &amp;#x1f603;&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve started looking into files and found &lt;code&gt;ghost_dir/content/data/ghost-dev.db&lt;/code&gt; SQLite database. It can be opened like that:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sqlite3 content/data/ghost-dev.db
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then you could see whats your mail (and other info):&lt;/p&gt;</description>
+      <description>Learn how to reset a user password in your own Ghost Blog by accessing the SQLite database and updating the password hash.</description>
     </item>
     <item>
       <title>Inodes exhaustion on XFS</title>
       <link>https://gagor.pro/2013/11/inodes-on-xfs/</link>
       <pubDate>Wed, 27 Nov 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2013/11/inodes-on-xfs/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s quite rare to have problems with XFS and inodes exhaustion. Mostly because XFS doesn&amp;rsquo;t have inode limit in a manner known from other filesystems - it&amp;rsquo;s using some percentage of whole filesystem as a limit and in most distributions it&amp;rsquo;s 25%. So it&amp;rsquo;s really huge amount of inodes. But some tools and distributions lowered limit ex. 5% or 10% and there you could have problems more often.&lt;/p&gt;
-&lt;p&gt;You could check what is you limit by issuing &lt;code&gt;xfs_info&lt;/code&gt; with drive and searching for &lt;code&gt;imaxpct&lt;/code&gt; value:&lt;/p&gt;</description>
+      <description>Learn about inodes exhaustion on XFS, how to check inode limits, and how to adjust the inode percentage to prevent issues on your Linux filesystem.</description>
     </item>
     <item>
       <title>Kill with SIGSTOP and SIGCONT</title>
@@ -5195,29 +4661,7 @@ wieczorem by była gotowa na następny dzień).&lt;/p&gt;</description>
       <link>https://gagor.pro/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/</link>
       <pubDate>Thu, 12 Jan 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/</guid>
-      <description>&lt;p&gt;Jeżeli jesteś
-właścicielem Skody Fabii I to wcześniej czy później Twój BAT-Mobil
-zgłosi któreś z ostrzeżeń serwisowych:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;OIL&lt;/strong&gt; - pojawia się przeważnie co 10 tys. km i wtedy gdy jeszcze nie trzeba wymieniać oleju w silniku &amp;#x1f604;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;service INSP&lt;/strong&gt; - nie wiem jak często się pojawia a oznacza mniej więcej &amp;ldquo;czas wesprzeć finansowo lokalny autoryzowany serwis&amp;rdquo;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;kasowanie-ostrzeżenia-oil&#34;&gt;Kasowanie ostrzeżenia &amp;ldquo;OIL&amp;rdquo;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Przy wyłączonym silniku wciskamy i przytrzymujemy przycisk kasowania przebiegu dziennego/pokrętło ustawiania godziny, od teraz nazywany po prostu &amp;lsquo;przyciskiem&amp;rsquo;.&lt;/li&gt;
-&lt;li&gt;Cały czas przytrzymując &amp;lsquo;przycisk&amp;rsquo;, włączamy zapłon.&lt;/li&gt;
-&lt;li&gt;Powinniśmy zobaczyć napis OIL, puszczamy &amp;lsquo;przycisk&amp;rsquo;.&lt;/li&gt;
-&lt;li&gt;Przekręcamy &amp;lsquo;przycisk&amp;rsquo; w prawo, aż zobaczymy &amp;lsquo;- - - -&amp;rsquo;.&lt;/li&gt;
-&lt;li&gt;Możemy wyłączyć zapłon.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;kasowanie-ostrzeżenia-service-insp&#34;&gt;Kasowanie ostrzeżenia &amp;ldquo;service INSP&amp;rdquo;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Wykonujemy czynności z punktów 1-3 podanych powyżej.&lt;/li&gt;
-&lt;li&gt;Wciskamy &amp;lsquo;przycisk&amp;rsquo;, powinniśmy zobaczyć napis INSP, puszczamy przycisk.&lt;/li&gt;
-&lt;li&gt;Przekręcamy &amp;lsquo;przycisk&amp;rsquo; w prawo, aż zobaczymy &amp;lsquo;- - - -&amp;rsquo;.&lt;/li&gt;
-&lt;li&gt;Możemy wyłączyć zapłon.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;U mnie zadziałało, mam nadzieję, że się komuś przyda.&lt;/p&gt;</description>
+      <description>Dowiedz się, jak skasować ostrzeżenia OIL i service INSP w samochodzie Skoda Fabia, wykonując kilka prostych kroków.</description>
     </item>
     <item>
       <title>Mój domyślny config dla SciTE</title>
@@ -5379,7 +4823,7 @@ zgłosi któreś z ostrzeżeń serwisowych:&lt;/p&gt;
       <link>https://gagor.pro/2011/09/pflogsumm-mail-statistics-for-postfix/</link>
       <pubDate>Thu, 22 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2011/09/pflogsumm-mail-statistics-for-postfix/</guid>
-      <description>&lt;p&gt;If you administer even a small mail server, you are surely aware that you cannot monitor logs in real-time. It is difficult to catch, for instance, a problem in communication with a certain domain. It is also hard to estimate the scale of traffic on the server in terms of both the number and volume of emails. It&amp;rsquo;s challenging to choose the domains for which it would be worthwhile to disable greylisting, etc&amp;hellip;&lt;/p&gt;</description>
+      <description>Learn how to use pflogsumm to generate comprehensive mail statistics for Postfix, helping you monitor and manage your mail server effectively.</description>
     </item>
     <item>
       <title>fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed</title>
