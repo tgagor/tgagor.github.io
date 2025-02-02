@@ -5,12 +5,12 @@
     <loc>https://gagor.pro/</loc>
     <lastmod>2025-02-02T10:02:04+01:00</lastmod>
   </url><url>
-    <loc>https://gagor.pro/books/2025/best-loser-wins/</loc>
+    <loc>https://gagor.pro/book/2025/best-loser-wins/</loc>
     <lastmod>2025-01-27T12:50:06+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/authors/timor/</loc>
+    <loc>https://gagor.pro/author/timor/</loc>
     <lastmod>2025-02-02T10:02:04+01:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
@@ -20,17 +20,17 @@
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2024/the-crowd/</loc>
+    <loc>https://gagor.pro/book/2024/the-crowd/</loc>
     <lastmod>2025-01-27T13:07:45+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2024/turn-the-ship-around/</loc>
+    <loc>https://gagor.pro/book/2024/turn-the-ship-around/</loc>
     <lastmod>2024-12-20T23:55:21+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2024/why-should-anyone-be-lead-by-you/</loc>
+    <loc>https://gagor.pro/book/2024/why-should-anyone-be-led-by-you/</loc>
     <lastmod>2024-09-17T11:41:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -45,7 +45,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2024/the-art-of-being-right/</loc>
+    <loc>https://gagor.pro/book/2024/the-art-of-being-right/</loc>
     <lastmod>2024-06-11T00:11:57+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -70,12 +70,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2024/culture-map/</loc>
+    <loc>https://gagor.pro/book/2024/the-culture-map/</loc>
     <lastmod>2024-05-17T21:07:02+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2024/rewired/</loc>
+    <loc>https://gagor.pro/book/2024/rewired/</loc>
     <lastmod>2024-05-18T00:47:20+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -130,12 +130,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2024/blekina-kropka/</loc>
+    <loc>https://gagor.pro/book/2024/b%C5%82ekitna-kropka/</loc>
     <lastmod>2024-05-18T00:47:20+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2024/blindsight/</loc>
+    <loc>https://gagor.pro/book/2024/blindsight/</loc>
     <lastmod>2024-05-06T22:23:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -160,7 +160,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2024/extreme-ownership/</loc>
+    <loc>https://gagor.pro/book/2024/extreme-ownership/</loc>
     <lastmod>2024-05-18T00:47:20+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -190,7 +190,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2024/working-backwards/</loc>
+    <loc>https://gagor.pro/book/2024/working-backwards/</loc>
     <lastmod>2024-05-18T00:47:20+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -228,7 +228,7 @@
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2023/the-48-laws-of-power/</loc>
+    <loc>https://gagor.pro/book/2023/the-48-laws-of-power/</loc>
     <lastmod>2024-05-18T00:47:57+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -237,37 +237,37 @@
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2023/how-to-win-friends-and-influence-people/</loc>
+    <loc>https://gagor.pro/book/2023/how-to-win-friends-influence-people/</loc>
     <lastmod>2024-05-27T07:07:41+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2023/lider-w-trampkach/</loc>
+    <loc>https://gagor.pro/book/2023/lider-w-trampkach/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2023/taka-praca-nie-ma-sensu/</loc>
+    <loc>https://gagor.pro/book/2023/taka-praca-nie-ma-sensu/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2023/collaborating-with-the-enemy/</loc>
+    <loc>https://gagor.pro/book/2023/collaborating-with-the-enemy/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2023/legendarna-obsluga-klienta/</loc>
+    <loc>https://gagor.pro/book/2023/legendarna-obs%C5%82uga-klienta/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2023/the-effective-manager-second-edition/</loc>
+    <loc>https://gagor.pro/book/2023/the-effective-manager-second-edition/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2023/effective-manager/</loc>
+    <loc>https://gagor.pro/book/2023/the-effective-manager/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -276,12 +276,12 @@
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2023/nowy-jednominutowy-menedzer/</loc>
+    <loc>https://gagor.pro/book/2023/nowy-jednominutowy-menedzer/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2023/psychologia-pieniedzy/</loc>
+    <loc>https://gagor.pro/book/2023/psychologia-pieniedzy/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -290,42 +290,42 @@
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2023/who-moved-my-cheese/</loc>
+    <loc>https://gagor.pro/book/2023/who-moved-my-cheese/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2023/rycerz-nieistniejacy/</loc>
+    <loc>https://gagor.pro/book/2023/rycerz-nieistniejacy/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2023/przywodztwo-i-oszukiwanie-samego-siebie/</loc>
+    <loc>https://gagor.pro/book/2023/przywodztwo-i-oszukiwanie-samego-siebie/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2023/praca-gleboka/</loc>
+    <loc>https://gagor.pro/book/2023/praca-g%C5%82eboka/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2020/zaczynaj-od-dlaczego/</loc>
+    <loc>https://gagor.pro/book/2022/zaczynaj-od-dlaczego/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2022/5-disfunctions-of-a-team/</loc>
+    <loc>https://gagor.pro/book/2022/piec-dysfunkcji-pracy-zespo%C5%82owej/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2022/starosc-aksolotla/</loc>
+    <loc>https://gagor.pro/book/2022/starosc-aksolotla/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2022/bladza-wszyscy-ale-nie-ja/</loc>
+    <loc>https://gagor.pro/book/2022/b%C5%82adza-wszyscy-ale-nie-ja/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -346,12 +346,12 @@
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2022/thinking-fast-and-slow/</loc>
+    <loc>https://gagor.pro/book/2022/pu%C5%82apki-myslenia/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2022/three-body-problem/</loc>
+    <loc>https://gagor.pro/book/2022/the-three-body-problem/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -360,12 +360,12 @@
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2022/czy-jestes-tym-ktory-puka/</loc>
+    <loc>https://gagor.pro/book/2022/czy-jestes-tym-ktory-puka/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2022/kubernetes-operators/</loc>
+    <loc>https://gagor.pro/book/2022/kubernetes-operators/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -374,12 +374,12 @@
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2022/drive/</loc>
+    <loc>https://gagor.pro/book/2022/drive/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2022/wewnetrzna-gra/</loc>
+    <loc>https://gagor.pro/book/2022/wewnetrzna-gra/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -388,7 +388,7 @@
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2021/projekt-jednorozec/</loc>
+    <loc>https://gagor.pro/book/2021/projekt-jednorozec/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -417,12 +417,12 @@
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2021/od-dobrego-do-wielkiego/</loc>
+    <loc>https://gagor.pro/book/2021/od-dobrego-do-wielkiego/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2021/milosc-i-matematyka/</loc>
+    <loc>https://gagor.pro/book/2021/mi%C5%82osc-i-matematyka/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -431,12 +431,12 @@
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2021/inteligentny-inwestor/</loc>
+    <loc>https://gagor.pro/book/2021/inteligentny-inwestor/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2021/bogaty-albo-biedny/</loc>
+    <loc>https://gagor.pro/book/2021/bogaty-albo-biedny/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -448,7 +448,7 @@
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2021/ksiaze/</loc>
+    <loc>https://gagor.pro/book/2021/ksiaze/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -465,32 +465,32 @@
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2021/pratchett-eryk/</loc>
+    <loc>https://gagor.pro/book/2021/eryk/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2021/pratchett-czarodzicielstwo/</loc>
+    <loc>https://gagor.pro/book/2021/czarodzicielstwo/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2021/pratchett-mort/</loc>
+    <loc>https://gagor.pro/book/2021/mort/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2021/pratchett-rownoumagicznienie/</loc>
+    <loc>https://gagor.pro/book/2021/rownoumagicznienie/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2021/pratchett-blask-fantastyczny/</loc>
+    <loc>https://gagor.pro/book/2021/blask-fantastyczny/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2021/pratchett-kolor-magii/</loc>
+    <loc>https://gagor.pro/book/2021/kolor-magii/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -499,32 +499,32 @@
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2020/w-transie-investowania/</loc>
+    <loc>https://gagor.pro/book/2020/w-transie-inwestowania/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2020/teoretyczne-minimum/</loc>
+    <loc>https://gagor.pro/book/2020/teoretyczne-minimum/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2020/przeciw-bogom/</loc>
+    <loc>https://gagor.pro/book/2020/przeciw-bogom/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2020/tokarczuk/</loc>
+    <loc>https://gagor.pro/book/2020/podroz-ludzi-ksiegi/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2020/java-performance-companion/</loc>
+    <loc>https://gagor.pro/book/2020/java-performance-companion/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2020/trubleshooting-java-performance/</loc>
+    <loc>https://gagor.pro/book/2020/troubleshooting-java-performance/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -533,177 +533,177 @@
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2019/teoria-kwanotowa-nie-gryzie/</loc>
+    <loc>https://gagor.pro/book/2019/teoria-kwantowa-nie-gryzie/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2019/czas-spekulacji/</loc>
+    <loc>https://gagor.pro/book/2019/czas-spekulacji/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2019/jeszcze-krotsza-historia-czasu/</loc>
+    <loc>https://gagor.pro/book/2019/krotka-historia-czasu/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2019/teoria-wszystkiego/</loc>
+    <loc>https://gagor.pro/book/2019/teoria-wszystkiego-czyli-krotka-historia-wszechswiata/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2019/bezpieczenstwo-aplikacji-webowych/</loc>
+    <loc>https://gagor.pro/book/2019/bezpieczenstwo-aplikacji-webowych/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2019/devops-gene-kim/</loc>
+    <loc>https://gagor.pro/book/2019/devops/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2019/devops-hiring/</loc>
+    <loc>https://gagor.pro/book/2019/devops-hiring/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2018/book-of-life/</loc>
+    <loc>https://gagor.pro/book/2018/book-of-life/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2018/shadow-of-night/</loc>
+    <loc>https://gagor.pro/book/2018/shadow-of-night/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2018/a-discovery-of-witches/</loc>
+    <loc>https://gagor.pro/book/2018/a-discovery-of-witches/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2018/projekt-feniks/</loc>
+    <loc>https://gagor.pro/book/2018/projekt-feniks/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2018/animal-farm/</loc>
+    <loc>https://gagor.pro/book/2018/animal-farm/</loc>
     <lastmod>2024-05-17T18:37:58+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2018/1984/</loc>
+    <loc>https://gagor.pro/book/2018/1984/</loc>
     <lastmod>2024-05-17T18:37:58+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2018/bron-matematycznej-zaglady/</loc>
+    <loc>https://gagor.pro/book/2018/bron-matematycznej-zag%C5%82ady/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2018/paragraf-22/</loc>
+    <loc>https://gagor.pro/book/2018/paragraf-22/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2018/cisza-w-sieci/</loc>
+    <loc>https://gagor.pro/book/2018/cisza-w-sieci/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2018/drizzt-nowy-dom/</loc>
+    <loc>https://gagor.pro/book/2018/nowy-dom/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2018/drizzt-wygnanie/</loc>
+    <loc>https://gagor.pro/book/2018/wygnanie/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2018/odliczajac-do-dnia-zero/</loc>
+    <loc>https://gagor.pro/book/2018/odliczajac-do-dnia-zero/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2018/drizzt-ojczyzna/</loc>
+    <loc>https://gagor.pro/book/2018/ojczyzna/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2017/tdlw-klejnot-halflinga/</loc>
+    <loc>https://gagor.pro/book/2017/klejnot-halflinga/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2017/tdlw-strumienie-srebra/</loc>
+    <loc>https://gagor.pro/book/2017/strumienie-srebra/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2017/tdlw-krysztalowy-relikt/</loc>
+    <loc>https://gagor.pro/book/2017/kryszta%C5%82owy-relikt/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2017/czysty-kod/</loc>
+    <loc>https://gagor.pro/book/2017/czysty-kod/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2017/java-efektywne-programowanie/</loc>
+    <loc>https://gagor.pro/book/2017/java.-efektywne-programowanie/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2017/pragmatyczny-programista/</loc>
+    <loc>https://gagor.pro/book/2017/pragmatyczny-programista/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2017/perfekcyjna-niedoskonalosc/</loc>
+    <loc>https://gagor.pro/book/2017/perfekcyjna-niedoskona%C5%82osc/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2017/trylogia-ciagu/</loc>
+    <loc>https://gagor.pro/book/2017/trylogia-ciagu/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2017/inne-piesni/</loc>
+    <loc>https://gagor.pro/book/2017/inne-piesni/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2017/black-hack-python/</loc>
+    <loc>https://gagor.pro/book/2017/black-hat-python/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2017/szpieg/</loc>
+    <loc>https://gagor.pro/book/2017/szpieg/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2017/sztuka-wojny/</loc>
+    <loc>https://gagor.pro/book/2017/sztuka-wojny/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2017/extensa/</loc>
+    <loc>https://gagor.pro/book/2017/extensa/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2017/wydajnosc-javy/</loc>
+    <loc>https://gagor.pro/book/2017/wydajnosc-javy/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2016/gra-endera/</loc>
+    <loc>https://gagor.pro/book/2016/gra-endera/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -764,12 +764,12 @@
     <lastmod>2021-11-08T22:40:06+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2016/ruby-wzorce-projektowe/</loc>
+    <loc>https://gagor.pro/book/2016/ruby/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2016/sztuka-podstepu/</loc>
+    <loc>https://gagor.pro/book/2016/sztuka-podstepu/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -854,17 +854,17 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2015/splatana-siec/</loc>
+    <loc>https://gagor.pro/book/2015/splatana-siec/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2015/ruby-programowanie/</loc>
+    <loc>https://gagor.pro/book/2015/ruby/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2015/git/</loc>
+    <loc>https://gagor.pro/book/2015/git/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1117,7 +1117,7 @@
     <lastmod>2021-01-09T19:46:18+01:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2012/getting-things-done/</loc>
+    <loc>https://gagor.pro/book/2012/getting-things-done/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1448,77 +1448,77 @@
     <loc>https://gagor.pro/about/</loc>
     <lastmod>2025-02-02T10:02:04+01:00</lastmod>
   </url><url>
-    <loc>https://gagor.pro/books/2010/algorytmika/</loc>
+    <loc>https://gagor.pro/book/2010/rzecz-o-istocie-informatyki/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2010/wiecej-perelek-oprogramowania/</loc>
+    <loc>https://gagor.pro/book/2010/wiecej-pere%C5%82ek-oprogramowania/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2009/krotka-historia-czasu/</loc>
+    <loc>https://gagor.pro/book/2009/jeszcze-krotsza-historia-czasu/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2009/perelki-oprogramowania/</loc>
+    <loc>https://gagor.pro/book/2009/pere%C5%82ki-oprogramowania/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2008/zarzadzanie-czasem/</loc>
+    <loc>https://gagor.pro/book/2008/zarzadzanie-czasem/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2008/glebia/</loc>
+    <loc>https://gagor.pro/book/2008/g%C5%82ebia/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2007/bezpieczenstwo-sieci/</loc>
+    <loc>https://gagor.pro/book/2007/bezpieczenstwo-sieci/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2006/kurs-szybkiego-czytania/</loc>
+    <loc>https://gagor.pro/book/2006/kurs-szybkiego-czytania/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2005/lotr1/</loc>
+    <loc>https://gagor.pro/book/2005/w%C5%82adca-pierscieni/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2005/lotr2/</loc>
+    <loc>https://gagor.pro/book/2005/w%C5%82adca-pierscieni/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2005/lotr3/</loc>
+    <loc>https://gagor.pro/book/2005/w%C5%82adca-pierscieni/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2005/hobbit/</loc>
+    <loc>https://gagor.pro/book/2005/hobbit/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/books/2000/kukulcze-jajo/</loc>
+    <loc>https://gagor.pro/book/2000/kuku%C5%82cze-jajo/</loc>
     <lastmod>2024-05-06T19:59:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/posts/2024/</loc>
+    <loc>https://gagor.pro/posts/</loc>
     <lastmod>2025-02-01T22:13:52+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://gagor.pro/posts/2025/</loc>
+    <loc>https://gagor.pro/posts/</loc>
     <lastmod>2025-02-01T22:13:52+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
