@@ -1064,19 +1064,19 @@
     
       
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/wp-cli&#34; target=&#34;_blank&#34;&gt;tgagor/wp-cli&lt;/a&gt; - Image providing wp-cli tool.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/tgagor/wp-cli&#34; target=&#34;_blank&#34;&gt;tgagor/wp-cli&lt;/a&gt; - Image providing wp-cli tool.&lt;/li&gt;
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/packtpublishingfreelearning&#34; target=&#34;_blank&#34;&gt;tgagor/packtpublishingfreelearning&lt;/a&gt; - Ready to run container with code from: https://github.com/igbt6/Packt-Publishing-Free-Learning&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/tgagor/packtpublishingfreelearning&#34; target=&#34;_blank&#34;&gt;tgagor/packtpublishingfreelearning&lt;/a&gt; - Ready to run container with code from: https://github.com/igbt6/Packt-Publishing-Free-Learning&lt;/li&gt;
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/centos-stream&#34; target=&#34;_blank&#34;&gt;tgagor/centos-stream&lt;/a&gt; - There&amp;#39;s no official image for CentOS 8 Stream - so I prepared it, something for early adopters&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/tgagor/centos-stream&#34; target=&#34;_blank&#34;&gt;tgagor/centos-stream&lt;/a&gt; - There&amp;#39;s no official image for CentOS 8 Stream - so I prepared it, something for early adopters&lt;/li&gt;
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/centos&#34; target=&#34;_blank&#34;&gt;tgagor/centos&lt;/a&gt; - Pure, based on official CentOS images, upgraded every Monday&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/tgagor/centos&#34; target=&#34;_blank&#34;&gt;tgagor/centos&lt;/a&gt; - Pure, based on official CentOS images, upgraded every Monday&lt;/li&gt;
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/unifi-controller&#34; target=&#34;_blank&#34;&gt;tgagor/unifi-controller&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/tgagor/unifi-controller&#34; target=&#34;_blank&#34;&gt;tgagor/unifi-controller&lt;/a&gt;&lt;/li&gt;
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/chisel&#34; target=&#34;_blank&#34;&gt;tgagor/chisel&lt;/a&gt; - Cannonical&amp;#39;s Chisel tool &amp;#43; Releases&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/tgagor/chisel&#34; target=&#34;_blank&#34;&gt;tgagor/chisel&lt;/a&gt; - Cannonical&amp;#39;s Chisel tool &amp;#43; Releases&lt;/li&gt;
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/repository/docker/tgagor/corretto&#34; target=&#34;_blank&#34;&gt;tgagor/corretto&lt;/a&gt; - It&amp;#39;s a Proof of Concept of benefits of using &amp;#34;chisel&amp;#34; tool on Ubuntu in comparison to Alpine images.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/tgagor/corretto&#34; target=&#34;_blank&#34;&gt;tgagor/corretto&lt;/a&gt; - It&amp;#39;s a Proof of Concept of benefits of using &amp;#34;chisel&amp;#34; tool on Ubuntu in comparison to Alpine images.&lt;/li&gt;
       
     
   
