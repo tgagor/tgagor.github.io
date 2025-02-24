@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 24 Feb 2025 17:55:38 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2025 17:56:22 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ata1.00: failed command: READ FPDMA QUEUED</title>
+      <link>https://gagor.pro/2025/02/ata1.00-failed-command-read-fpdma-queued/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/02/ata1.00-failed-command-read-fpdma-queued/</guid>
+      <description>Learn how to resolve the &amp;ldquo;ata1.00: failed command: READ FPDMA QUEUED&amp;rdquo; error on Ubuntu by adjusting SATA power management settings.</description>
+    </item>
     <item>
       <title>Best Loser Wins</title>
       <link>https://gagor.pro/book/2025/best-loser-wins/</link>

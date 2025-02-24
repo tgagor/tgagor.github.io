@@ -2,18 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gagor.pro/2025/02/ata1.00-failed-command-read-fpdma-queued/</loc>
+    <lastmod>2025-02-24T17:56:22+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
+  </url><url>
+    <loc>https://gagor.pro/author/timor/</loc>
+    <lastmod>2025-02-24T17:56:22+01:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
+  </url><url>
     <loc>https://gagor.pro/</loc>
-    <lastmod>2025-02-24T17:55:38+01:00</lastmod>
+    <lastmod>2025-02-24T17:56:22+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/book/2025/best-loser-wins/</loc>
     <lastmod>2025-01-27T12:50:06+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url><url>
-    <loc>https://gagor.pro/author/timor/</loc>
-    <lastmod>2025-02-24T17:55:38+01:00</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</loc>
     <lastmod>2025-02-01T22:40:20+01:00</lastmod>
