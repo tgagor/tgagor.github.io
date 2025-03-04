@@ -7,8 +7,30 @@
     <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 24 Feb 2025 17:56:22 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 04 Mar 2025 20:16:32 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Man Who Broke Capitalism</title>
+      <link>https://gagor.pro/book/2025/the-man-who-broke-capitalism/</link>
+      <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2025/the-man-who-broke-capitalism/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book The Man Who Broke Capitalism by David Gelles&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;The Man Who Broke Capitalism&lt;/q&gt;&lt;p&gt;How Jack Welch Gutted the Heartland and Crushed the Soul of Corporate America and How to Undo His Legacy&lt;/p&gt;&lt;p&gt;Author: David Gelles&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Man-Who-Broke-Capitalism-America_and/dp/198217644X?tag=gagor-21&amp;amp;utm_campaign=affiliate_sale&amp;amp;utm_id=affiliate_sale&amp;amp;utm_medium=blog&amp;amp;utm_source=www.amazon.com&#34; target=&#34;_blank&#34;&gt;amazon.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.empik.com/czlowiek-ktory-zniszczyl-kapitalizm-jak-jack-welch-wmowil-calemu-pokoleniu-liderow-biznesu-ze-fuz-gelles-david,p1408579433,ksiazka-p&#34; target=&#34;_blank&#34;&gt;empik.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;David Gelles’ &lt;em&gt;The Man Who Broke Capitalism&lt;/em&gt; resonated with me on multiple levels, as both an employee and an investor. Working in a company recently acquired by private equity funds, I see firsthand the same profit-maximizing tactics Jack Welch pioneered at General Electric. The relentless drive to squeeze margins, cut costs, and justify layoffs under the guise of efficiency feels eerily familiar. Having just survived my company’s first round of layoffs—an unprecedented event in our history—I can’t help but notice how our use of the &lt;strong&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Vitality_curve&#34;  target=&#34;_blank&#34;&gt;vitality curve&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+&lt;/strong&gt; mirrors the logic Welch popularized. What once seemed like a system for rewarding performance now feels like a mechanism priming us for workforce reductions.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>ata1.00: failed command: READ FPDMA QUEUED</title>
       <link>https://gagor.pro/2025/02/ata1.00-failed-command-read-fpdma-queued/</link>
