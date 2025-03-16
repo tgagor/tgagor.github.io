@@ -2,23 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gagor.pro/book/2025/the-first-trading-manual/</loc>
+    <lastmod>2025-03-16T21:11:42+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url><url>
+    <loc>https://gagor.pro/author/timor/</loc>
+    <lastmod>2025-03-16T21:25:18+01:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>https://gagor.pro/</loc>
+    <lastmod>2025-03-16T21:25:18+01:00</lastmod>
+  </url><url>
     <loc>https://gagor.pro/book/2025/the-man-who-broke-capitalism/</loc>
     <lastmod>2025-03-04T20:17:57+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://gagor.pro/author/timor/</loc>
-    <lastmod>2025-03-04T20:17:57+01:00</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.1</priority>
-  </url><url>
-    <loc>https://gagor.pro/</loc>
-    <lastmod>2025-03-04T20:17:57+01:00</lastmod>
-  </url><url>
     <loc>https://gagor.pro/2025/02/ata1.00-failed-command-read-fpdma-queued/</loc>
     <lastmod>2025-02-24T17:56:22+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
+  </url><url>
+    <loc>https://gagor.pro/book/2025/getting-started-in-chart-patterns/</loc>
+    <lastmod>2025-03-16T21:25:18+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url><url>
     <loc>https://gagor.pro/book/2025/best-loser-wins/</loc>
     <lastmod>2025-01-27T12:50:06+01:00</lastmod>
