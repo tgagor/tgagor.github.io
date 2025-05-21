@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Wed, 30 Apr 2025 11:30:19 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 10:25:03 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iTerm2 - Hotkeys unavailable - Another app has enabled secure keyboard input</title>
+      <link>https://gagor.pro/2025/05/iterm2-hotkeys-unavailable-another-app-has-enabled-secure-keyboard-input/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/05/iterm2-hotkeys-unavailable-another-app-has-enabled-secure-keyboard-input/</guid>
+      <description>Learn how to resolve the &amp;ldquo;Hotkeys unavailable - Another app has enabled secure keyboard input&amp;rdquo; issue in iTerm2 on macOS Sequoia 15.5 by adjusting Input Monitoring settings.</description>
+    </item>
     <item>
       <title>Asus TUF Gaming Z790-Plus WIFI - My UEFI/BIOS Settings</title>
       <link>https://gagor.pro/2025/04/asus-tuf-gaming-z790-plus-wifi-my-uefi-bios-settings/</link>
