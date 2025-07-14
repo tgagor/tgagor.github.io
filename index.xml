@@ -7,8 +7,21 @@
     <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Wed, 21 May 2025 19:40:33 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jul 2025 19:18:38 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting to Yes</title>
+      <link>https://gagor.pro/book/2025/getting-to-yes/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2025/getting-to-yes/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Getting to Yes by Roger Fisher, William Ury, Bruce Patton&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Getting to Yes&lt;/q&gt;&lt;p&gt;Negotiating an agreement without giving in&lt;/p&gt;&lt;p&gt;Authors: Roger Fisher,  William Ury,  Bruce Patton&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://www.amazon.pl/Getting-Yes-Negotiating-Agreement-Without/dp/1847940935?tag=gagor-21&amp;amp;utm_campaign=affiliate_sale&amp;amp;utm_id=affiliate_sale&amp;amp;utm_medium=blog&amp;amp;utm_source=www.amazon.pl&#34; target=&#34;_blank&#34;&gt;amazon.pl&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.empik.com/getting-to-yes-ury-william-fisher-roger-fisher-ury-roger-william,p1047725671,ksiazka-p&#34; target=&#34;_blank&#34;&gt;empik.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I’ve often heard about the &amp;ldquo;Harvard Negotiation&amp;rdquo; method, but I hadn’t read Getting to Yes until recently. To my surprise, much of the content felt familiar - not because I had read it before, but because I had already been using many of its principles, unknowingly picked up from other sources.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>iTerm2 - Hotkeys unavailable - Another app has enabled secure keyboard input</title>
       <link>https://gagor.pro/2025/05/iterm2-hotkeys-unavailable-another-app-has-enabled-secure-keyboard-input/</link>
@@ -1067,6 +1080,8 @@
       
         
           &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/docker-wp-cli&#34; target=&#34;_blank&#34;&gt;tgagor/docker-wp-cli&lt;/a&gt; - Docker image with WP-CLI command line interface for Wordpress&lt;/li&gt;
+        
+      
         
       
         
