@@ -41,6 +41,7 @@
 /404.html /404 301
 /author /authors/ 301
 /apple-touch-icon.ico /apple-touch-icon.png 301
+/book/2000/kukułcze-jajo/ /book/2000/the-cuckoos-egg/ 301
 /category/leadership/ /tags/leadership/ 301
 /category/howto/tip/ / 301
 /favicon-16x16.ico /favicon-16x16.png 301

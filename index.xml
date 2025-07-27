@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sun, 27 Jul 2025 11:10:29 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jul 2025 11:23:57 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting to Yes</title>
@@ -5298,15 +5298,19 @@ wieczorem by była gotowa na następny dzień).&lt;/p&gt;</description>
 &lt;p&gt;It&amp;rsquo;s one of the first books I remember. First of this kind and was probably the first that I&amp;rsquo;ve read just for the fun of reading. I remember reading few more books about spies, but it&amp;rsquo;s this one that started it.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Kukułcze jajo</title>
-      <link>https://gagor.pro/book/2000/kuku%C5%82cze-jajo/</link>
+      <title>The Cuckoo&#39;s Egg</title>
+      <link>https://gagor.pro/book/2000/the-cuckoos-egg/</link>
       <pubDate>Wed, 09 Feb 2000 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/book/2000/kuku%C5%82cze-jajo/</guid>
+      <guid>https://gagor.pro/book/2000/the-cuckoos-egg/</guid>
       <description>&lt;figure style=&#34;display:flex;&#34;&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Kukułcze jajo by Clifford Stoll&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Kukułcze jajo&lt;/q&gt;&lt;p&gt;Ekscytujące łowy na nieuchwytnego hackera&lt;/p&gt;&lt;p&gt;Author: Clifford Stoll&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://lubimyczytac.pl/ksiazka/73967/kukulcze-jajo&#34; target=&#34;_blank&#34;&gt;lubimyczytac.pl&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.amazon.pl/dp/0671726889?tag=gagor-21&amp;amp;utm_campaign=affiliate_sale&amp;amp;utm_id=affiliate_sale&amp;amp;utm_medium=blog&amp;amp;utm_source=www.amazon.pl&#34; target=&#34;_blank&#34;&gt;amazon.pl&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;I&amp;rsquo;ve read it in Polish, so I kept polish picture.&lt;/p&gt;
+&lt;p&gt;This book had a huge impact on how I perceive IT security. It was the way that shaped my fascination by Unix systems and probably impacted some of my decisions about my future &amp;#x1f609;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a fascinating lecture on the battle between &amp;ldquo;sys admin&amp;rdquo; (actually an astronomer and a random guy, but with a skill) and a hacker. Cold war times. Quite &amp;ldquo;analog&amp;rdquo; IT systems, printers as terminals, etc. A time machine to the beginnings of networks and Internet.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My bookshelf</title>
