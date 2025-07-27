@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 14 Jul 2025 19:18:38 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jul 2025 11:10:29 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting to Yes</title>
@@ -1096,6 +1096,10 @@
       
         
           &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/hugo-shortcode-kofi&#34; target=&#34;_blank&#34;&gt;tgagor/hugo-shortcode-kofi&lt;/a&gt; - A collection of custom shortcodes tailored for Hugo static site generator, designed to seamlessly integrate Ko-fi buttons and widgets into any blog post&lt;/li&gt;
+        
+      
+        
+          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/java-tuner&#34; target=&#34;_blank&#34;&gt;tgagor/java-tuner&lt;/a&gt; - A small, statically linked CLI tool that simplifies tuning of Java applications for containerized environments. It automatically detects available CPU and memory resources, then generates optimal JVM options to improve performance and reliability.&lt;/li&gt;
         
       
         
@@ -5279,6 +5283,19 @@ wieczorem by była gotowa na następny dzień).&lt;/p&gt;</description>
          alt=&#34;Cover of book Hobbit by J.R.R. Tolkien&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Hobbit&lt;/q&gt;&lt;p&gt;Czyli tam i z powrotem&lt;/p&gt;&lt;p&gt;Author: J.R.R. Tolkien&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://www.empik.com/hobbit-tolkien-j-r-r,p1316777121,ksiazka-p&#34; target=&#34;_blank&#34;&gt;empik.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Reporter</title>
+      <link>https://gagor.pro/book/2002/reporter/</link>
+      <pubDate>Sat, 27 Jul 2002 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2002/reporter/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Reporter by A. J. Quinnell&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Reporter&lt;/q&gt;&lt;p&gt;Author: A. J. Quinnell&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://www.empik.com/najemnik-quinnell-a-j,p1261099521,ebooki-i-mp3-p&#34; target=&#34;_blank&#34;&gt;empik.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It&amp;rsquo;s one of the first books I remember. First of this kind and was probably the first that I&amp;rsquo;ve read just for the fun of reading. I remember reading few more books about spies, but it&amp;rsquo;s this one that started it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kukułcze jajo</title>
