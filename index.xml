@@ -7,8 +7,21 @@
     <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sun, 27 Jul 2025 12:04:46 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 15 Aug 2025 22:26:09 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Antifragile Systems and Teams</title>
+      <link>https://gagor.pro/book/2025/antifragile-systems-and-teams/</link>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2025/antifragile-systems-and-teams/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Antifragile Systems and Teams by Dave Zwieback&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Antifragile Systems and Teams&lt;/q&gt;&lt;p&gt;Author: Dave Zwieback&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://helion.pl/ksiazki/antifragile-systems-and-teams-dave-zwieback,e_2g1z.htm&#34; target=&#34;_blank&#34;&gt;helion.pl&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This is a short read, but it does a solid job of capturing an important idea: that the healthiest systems and teams aren’t just resistant to change, they actually get stronger through it. Zwieback contrasts fragile organizations - those that try to lock things down and prevent every possible failure - with antifragile ones, which use volatility, mistakes, and small shocks as opportunities to learn and improve.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Getting to Yes</title>
       <link>https://gagor.pro/book/2025/getting-to-yes/</link>
