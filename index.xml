@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.143.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Fri, 15 Aug 2025 22:26:09 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 17 Aug 2025 19:23:17 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Antifragile Systems and Teams</title>
@@ -48,6 +48,13 @@
       <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2025/04/asus-tuf-gaming-z790-plus-wifi-my-uefi-bios-settings/</guid>
       <description>Learn about the optimal UEFI BIOS settings for the Asus TUF Gaming Z790-Plus WIFI motherboard, including configurations for RAM, power management, virtualization, and more.</description>
+    </item>
+    <item>
+      <title>Backup from broken NVMe drive with ddrescue</title>
+      <link>https://gagor.pro/2025/04/backup-from-broken-nvme-drive-with-ddrescue/</link>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/04/backup-from-broken-nvme-drive-with-ddrescue/</guid>
+      <description>Learn how to recover data from a failing NVMe drive using ddrescue on Linux. This guide covers step-by-step backup instructions, handling read errors, and restoring your files safely.</description>
     </item>
     <item>
       <title>Psychologia szefa</title>
@@ -369,14 +376,6 @@
             &lt;q&gt;Blindsight&lt;/q&gt;&lt;p&gt;Author: Peter Watts&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Blindsight-Firefall-Book-Peter-Watts-ebook/dp/B003K15EKM/?tag=gagor-21&amp;amp;utm_campaign=affiliate_sale&amp;amp;utm_id=affiliate_sale&amp;amp;utm_medium=blog&amp;amp;utm_source=www.amazon.com&#34; target=&#34;_blank&#34;&gt;amazon.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.amazon.pl/%c5%9alepowidzenie-Peter-Watts/dp/836779334X/?tag=gagor-21&amp;amp;utm_campaign=affiliate_sale&amp;amp;utm_id=affiliate_sale&amp;amp;utm_medium=blog&amp;amp;utm_source=www.amazon.pl&#34; target=&#34;_blank&#34;&gt;amazon.pl&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.empik.com/slepowidzenie-watts-peter,p1397145844,ksiazka-p&#34; target=&#34;_blank&#34;&gt;empik.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;!-- 
-
-&lt;figure style=&#34;display:flex;&#34;&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover-pl.webp&#34;
-         alt=&#34;Cover of book Ślepowidzenie by Peter Watts&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
-            &lt;q&gt;Ślepowidzenie&lt;/q&gt;&lt;p&gt;Author: Peter Watts&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&#34;https://www.amazon.pl/%c5%9alepowidzenie-Peter-Watts/dp/836779334X/?tag=gagor-21&amp;amp;utm_campaign=affiliate_sale&amp;amp;utm_id=affiliate_sale&amp;amp;utm_medium=blog&amp;amp;utm_source=www.amazon.pl&#34; target=&#34;_blank&#34;&gt;amazon.pl&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://www.empik.com/slepowidzenie-watts-peter,p1397145844,ksiazka-p&#34; target=&#34;_blank&#34;&gt;empik.com&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;
- --&gt;
 &lt;p&gt;Still reading&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
