@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 26 Aug 2025 23:06:17 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 26 Aug 2025 23:31:32 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Laws for Every Occasion</title>
@@ -2859,7 +2859,7 @@ olej/smalec.&lt;/p&gt;</description>
       <link>https://gagor.pro/2014/01/searching-for-better-code-editor/</link>
       <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2014/01/searching-for-better-code-editor/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been using different code editors for different purposes. Gedit was fine for small scripts but not for bigger projects. It lacks intelligent code completion (function/class names, etc.). I was searching for convenient editor for Python, Perl, Ruby with support for frameworks like Django, Rails, etc. I know &lt;a href=&#34;http://www.sublimetext.com/3&#34;  target=&#34;_blank&#34;&gt;Sublime Text - but it&amp;rsquo;s paid&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+      <description>&lt;p&gt;I&amp;rsquo;ve been using different code editors for different purposes. Gedit was fine for small scripts but not for bigger projects. It lacks intelligent code completion (function/class names, etc.). I was searching for convenient editor for Python, Perl, Ruby with support for frameworks like Django, Rails, etc. I know &lt;a href=&#34;https://www.sublimetext.com/3&#34;  target=&#34;_blank&#34;&gt;Sublime Text - but it&amp;rsquo;s paid&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
             style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
             class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
             viewBox=&#34;0 0 512 512&#34;&gt;
@@ -2868,7 +2868,7 @@ olej/smalec.&lt;/p&gt;</description>
                 d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
             &lt;/path&gt;
         &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
-. There is &lt;a href=&#34;http://limetext.org/&#34;  target=&#34;_blank&#34;&gt;LimeText&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+. &lt;del&gt;There is &lt;a href=&#34;https://limetext.org/&#34;  target=&#34;_blank&#34;&gt;LimeText&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
             style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
             class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
             viewBox=&#34;0 0 512 512&#34;&gt;
@@ -2877,7 +2877,7 @@ olej/smalec.&lt;/p&gt;</description>
                 d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
             &lt;/path&gt;
         &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
- - open source clone, but it&amp;rsquo;s not ready to be used on daily basics.&lt;/p&gt;</description>
+ - open source clone, but it&amp;rsquo;s not ready to be used on daily basics.&lt;/del&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Manage Windows 8.1 and Windows Server 2012 R2 in WSUS 3.0</title>
