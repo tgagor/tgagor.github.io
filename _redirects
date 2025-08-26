@@ -98,14 +98,9 @@
 /var/lib/memcache / 301
 /var/tmp / 301
 /var/www/site1 / 301
-/wp-content/uploads/2012/06/network-bridge-vlan.gz / 301
-/wp-json/ / 301
 # keep the listing pages
-/books/ /books/ 200
 /tags/ /tags/ 200
 /categories/ /categories/ 200
 # redirect only sub-pages
-/books/* /book/:splat 301
 /tags/* /tag/:splat 301
 /categories/* /category/:splat 301
-/main/* / 301
