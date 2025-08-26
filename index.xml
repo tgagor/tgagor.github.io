@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 26 Aug 2025 21:17:51 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 26 Aug 2025 23:06:17 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Laws for Every Occasion</title>
@@ -15,6 +15,13 @@
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2025/08/laws-for-every-occasion/</guid>
       <description>Discover the most influential management and productivity &amp;ldquo;laws&amp;rdquo;—from Murphy&amp;rsquo;s Law to Conway&amp;rsquo;s Law—that shape decision-making, leadership, and organizational behavior. Learn practical applications and scientific backgrounds to boost your effectiveness at work.</description>
+    </item>
+    <item>
+      <title>Purge old Cloudflare Pages deployments</title>
+      <link>https://gagor.pro/2025/08/purge-old-cloudflare-pages-deployments/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/08/purge-old-cloudflare-pages-deployments/</guid>
+      <description>Learn how to automatically delete old Cloudflare Pages deployments using a Bash script and the Cloudflare API. Keep your account clean and reduce clutter by removing outdated deployments.</description>
     </item>
     <item>
       <title>The 4-hour work week</title>
