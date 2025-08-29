@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Wed, 27 Aug 2025 21:44:11 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 29 Aug 2025 19:46:48 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to run a Personal User Manual exercise for Team Building</title>
@@ -1988,11 +1988,13 @@
       <pubDate>Tue, 23 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2016/02/automatically-build-after-file-change/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m playing a lot with Docker lately. Building images, and then rebuilding, and then building again&amp;hellip; It&amp;rsquo;s pretty boring. To automate this task a little I used inotify to build automatically after I changed any file. This trick could be used in many different situations.&lt;/p&gt;
+&lt;h3 id=&#34;on-linux&#34;&gt;On Linux&lt;/h3&gt;
 &lt;p&gt;You will need &lt;code&gt;inotify-tools&lt;/code&gt; package:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install -y inotify-tools
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then run something like this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; inotifywait -e modify -r .; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt; docker-compose build; &lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This commands will rebuild my Docker images after any file change in current directory. Use &lt;code&gt;Ctrl+c&lt;/code&gt; to exit from loop.&lt;/p&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;on-macos&#34;&gt;On MacOS&lt;/h3&gt;
+&lt;p&gt;You will need &lt;code&gt;fswatch&lt;/code&gt; tool:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Install WordPress from command-line</title>
