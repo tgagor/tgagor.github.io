@@ -8,12 +8,12 @@
     <priority>1</priority>
   </url><url>
     <loc>https://gagor.pro/author/timor/</loc>
-    <lastmod>2025-08-29T23:31:32+02:00</lastmod>
+    <lastmod>2025-08-29T23:50:31+02:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/</loc>
-    <lastmod>2025-08-29T23:31:32+02:00</lastmod>
+    <lastmod>2025-08-29T23:50:31+02:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2025/08/laws-for-every-occasion/</loc>
     <lastmod>2025-08-26T21:17:51+02:00</lastmod>
@@ -81,7 +81,7 @@
     <priority>0.9</priority>
   </url><url>
     <loc>https://gagor.pro/2024/04/installing-oracle-instant-client-on-ubuntu-24.04/</loc>
-    <lastmod>2025-02-01T22:40:20+01:00</lastmod>
+    <lastmod>2025-08-29T23:50:31+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url><url>
@@ -156,7 +156,7 @@
     <priority>0.9</priority>
   </url><url>
     <loc>https://gagor.pro/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</loc>
-    <lastmod>2025-02-01T22:40:20+01:00</lastmod>
+    <lastmod>2025-08-29T23:49:33+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url><url>
@@ -273,7 +273,7 @@
     <priority>0.9</priority>
   </url><url>
     <loc>https://gagor.pro/2021/07/official-centos-8-stream-docker-image-finally-available/</loc>
-    <lastmod>2025-02-07T17:29:33+01:00</lastmod>
+    <lastmod>2025-08-29T23:48:43+02:00</lastmod>
     <priority>0.9</priority>
   </url><url>
     <loc>https://gagor.pro/projects/</loc>
