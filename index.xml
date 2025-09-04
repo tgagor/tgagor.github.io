@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 02 Sep 2025 17:26:34 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 04 Sep 2025 19:24:18 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Splitting Git Repo</title>
@@ -106,6 +106,19 @@
       <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2025/04/asus-tuf-gaming-z790-plus-wifi-my-uefi-bios-settings/</guid>
       <description>Learn about the optimal UEFI BIOS settings for the Asus TUF Gaming Z790-Plus WIFI motherboard, including configurations for RAM, power management, virtualization, and more.</description>
+    </item>
+    <item>
+      <title>Jak w kilku krokach Odnaleźć Zespół</title>
+      <link>https://gagor.pro/book/2025/odnalezc-zespol/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2025/odnalezc-zespol/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Jak w kilku krokach Odnaleźć Zespół by Piotr Jankowski&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Jak w kilku krokach Odnaleźć Zespół&lt;/q&gt;&lt;p&gt;Trochę inna opowieść o przywództwie zespołowym&lt;/p&gt;&lt;p&gt;Author: Piotr Jankowski&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I really enjoyed this book, despite it&amp;rsquo;s not widely known or even available to buy, but I&amp;rsquo;ve been working with it&amp;rsquo;s author, Piotr. I was participating few sessions/trainings with Piotr and reading this book was for me like I&amp;rsquo;ve heard him again next to me.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Backup from broken NVMe drive with ddrescue</title>
