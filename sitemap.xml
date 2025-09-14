@@ -2,18 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gagor.pro/2025/09/how-to-split-git-repository/</loc>
-    <lastmod>2025-09-05T19:03:24+02:00</lastmod>
+    <loc>https://gagor.pro/2025/09/crosspost-your-blog-articles-to-social-media/</loc>
+    <lastmod>2025-09-14T18:05:16+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
     <loc>https://gagor.pro/author/timor/</loc>
-    <lastmod>2025-09-13T10:31:51+02:00</lastmod>
+    <lastmod>2025-09-14T18:05:16+02:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/</loc>
-    <lastmod>2025-09-13T10:31:51+02:00</lastmod>
+    <lastmod>2025-09-14T18:05:16+02:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/2025/09/how-to-split-git-repository/</loc>
+    <lastmod>2025-09-05T19:03:24+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1</priority>
   </url><url>
     <loc>https://gagor.pro/2025/08/benchmarking-docker-image-registries/</loc>
     <lastmod>2025-08-31T11:06:25+02:00</lastmod>
