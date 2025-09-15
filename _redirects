@@ -97,7 +97,7 @@
 /Tom / 301
 /var/cache/dnf / 301
 /var/lib/apt/lists / 301
-/var/lib/memcache / 301
+/var/lib/memcache /tag/memcached/ 301
 /var/tmp / 301
 /var/www/site1 / 301
 # keep the listing pages

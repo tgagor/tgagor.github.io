@@ -4,10 +4,10 @@
     <title>Tom&#39;s Blog</title>
     <link>https://gagor.pro/</link>
     <description>Recent content on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.148.2</generator>
+    <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sun, 14 Sep 2025 18:05:16 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 14 Sep 2025 21:44:25 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crosspost Your Blog articles to Social Media</title>
@@ -1085,6 +1085,7 @@
 &lt;ul&gt;
   
   
+  
     
       
       
@@ -1093,7 +1094,7 @@
         
       
         
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/action-crosspost&#34; target=&#34;_blank&#34;&gt;tgagor/action-crosspost&lt;/a&gt; - Automatically submits URLs to variety of social networks like: Bluesky,  Mastodon, Twitter, LinedIn, Discord, Telgram, Dev.to.&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/action-crosspost&#34; target=&#34;_blank&#34;&gt;tgagor/action-crosspost&lt;/a&gt; - Automatically submits recent posts from your Blog to variety of social networks like: Bluesky,  Mastodon, Twitter, LinedIn, Discord, Telgram, Dev.to.&lt;/li&gt;
         
       
         
@@ -1227,6 +1228,7 @@
 &lt;h2&gt;Ghists&lt;/h2&gt;
 
 &lt;ul&gt;
+  
   
   
     
@@ -5321,7 +5323,10 @@ wieczorem by była gotowa na następny dzień).&lt;/p&gt;</description>
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Perełki oprogramowania by Jon Bentley&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Perełki oprogramowania&lt;/q&gt;&lt;p&gt;Seria Klasyka informatyki&lt;/p&gt;&lt;p&gt;Author: Jon Bentley&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;I&amp;rsquo;ve read few books about algorithms, but this one was my favorite. It&amp;rsquo;s not a handbook/manual style, where you have all algorithms explained - it&amp;rsquo;s rather a feast for though.&lt;/p&gt;
+&lt;p&gt;From this book I learned principles like: &amp;ldquo;divide and conquer&amp;rdquo; (or how I prefer it: whatever you can, divide by two &amp;#x1f604;). It might not be that obvious at first, but practical use cases are unlimited. My personal favorite is hanging the curtains: you start at edges, then in the middle, then you divide again and again until you have them perfectly symmetric. Of course, the most common use case are sorting algorithms, but even with those understanding why Quick Sort is not the best one, and Heap Sort wins competition allowed me to surprise many people from DBAs to Senior Software Engineers - they didn&amp;rsquo;t know!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zarządzanie czasem</title>
