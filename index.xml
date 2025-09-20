@@ -7,8 +7,22 @@
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 15 Sep 2025 22:53:14 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 20 Sep 2025 17:39:38 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Escaping the Build Trap</title>
+      <link>https://gagor.pro/book/2025/escaping-the-build-trap/</link>
+      <pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2025/escaping-the-build-trap/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Escaping the Build Trap by Melissa Perri&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Escaping the Build Trap&lt;/q&gt;&lt;p&gt;How Effective Product Management Creates Real Value&lt;/p&gt;&lt;p&gt;Author: Melissa Perri&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This was the first book on Product Management I’ve ever read, and I’m glad I started with such a solid one.&lt;/p&gt;
+&lt;p&gt;In my daily work, I collaborate closely with product owners, and I wanted to better understand their role: How do they work? What are their priorities? And how can our collaboration be more effective? What I appreciated most about this book is how clearly it structures the profession of Product Management and breaks down its many facets.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Crosspost Your Blog articles to Social Media</title>
       <link>https://gagor.pro/2025/09/crosspost-your-blog-articles-to-social-media/</link>
