@@ -1096,134 +1096,363 @@
 
 &lt;h2&gt;Github repositories&lt;/h2&gt;
 
-&lt;ul&gt;
+&lt;ul class=&#34;shortcode-icons&#34; style=&#34;padding-left: 0; margin-left: 0;&#34;&gt;
     
       
       
+      
+        
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/docker-centos&#34; target=&#34;_blank&#34;&gt;tgagor/docker-centos&lt;/a&gt;
+             - CentOS docker images, build weekly with latest security updates
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/docker-centos?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/docker-centos?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/docker-centos?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/docker-centos?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/docker-centos?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        
+      
+        
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/hugo-PaperMod-bookshelf&#34; target=&#34;_blank&#34;&gt;tgagor/hugo-PaperMod-bookshelf&lt;/a&gt;
+             - This is an extension, a set of shortcodes and templates to the original PaperMod theme, with a page dedicated to listing the books with responsive UI
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/hugo-PaperMod-bookshelf?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/hugo-PaperMod-bookshelf?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/hugo-PaperMod-bookshelf?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/hugo-PaperMod-bookshelf?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/hugo-PaperMod-bookshelf?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        
+      
+        
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/template-dockerfiles&#34; target=&#34;_blank&#34;&gt;tgagor/template-dockerfiles&lt;/a&gt;
+             - Dockerfile Templater, allowing to simplify building of Docker images at mass
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/template-dockerfiles?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/template-dockerfiles?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/template-dockerfiles?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/template-dockerfiles?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/template-dockerfiles?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        
+      
+        
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/hugo-shortcode-kofi&#34; target=&#34;_blank&#34;&gt;tgagor/hugo-shortcode-kofi&lt;/a&gt;
+             - A collection of custom shortcodes tailored for Hugo static site generator, designed to seamlessly integrate Ko-fi buttons and widgets into any blog post
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/hugo-shortcode-kofi?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/hugo-shortcode-kofi?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/hugo-shortcode-kofi?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/hugo-shortcode-kofi?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/hugo-shortcode-kofi?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        
+      
+        
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/action-crosspost&#34; target=&#34;_blank&#34;&gt;tgagor/action-crosspost&lt;/a&gt;
+             - Automatically submits recent posts from your Blog to variety of social networks like: Bluesky,  Mastodon, Twitter, LinedIn, Discord, Telgram, Dev.to.
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/action-crosspost?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/action-crosspost?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/action-crosspost?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/action-crosspost?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/action-crosspost?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        
+      
+        
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/ansible-role-rpi-unifi&#34; target=&#34;_blank&#34;&gt;tgagor/ansible-role-rpi-unifi&lt;/a&gt;
+             - Installs Ubiquiti&amp;#39;s Unifi software on Raspberry Pi
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/ansible-role-rpi-unifi?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/ansible-role-rpi-unifi?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/ansible-role-rpi-unifi?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/ansible-role-rpi-unifi?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/ansible-role-rpi-unifi?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        
+      
+        
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/docker-chisel&#34; target=&#34;_blank&#34;&gt;tgagor/docker-chisel&lt;/a&gt;
+             - Let play with Ubuntu&amp;#39;s Chisel tool for minimal Docker images
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/docker-chisel?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/docker-chisel?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/docker-chisel?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/docker-chisel?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/docker-chisel?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
         
       
         
       
         
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/action-crosspost&#34; target=&#34;_blank&#34;&gt;tgagor/action-crosspost&lt;/a&gt; - Automatically submits recent posts from your Blog to variety of social networks like: Bluesky,  Mastodon, Twitter, LinedIn, Discord, Telgram, Dev.to.&lt;/li&gt;
-        
-      
-        
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/ansible-role-docker&#34; target=&#34;_blank&#34;&gt;tgagor/ansible-role-docker&lt;/a&gt; - Installs Docker service on Ubuntu/Debian/RHEL&lt;/li&gt;
-        
-      
-        
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/ansible-role-docker-compose&#34; target=&#34;_blank&#34;&gt;tgagor/ansible-role-docker-compose&lt;/a&gt; - Simple Ansible role that will install Docker Compose&lt;/li&gt;
-        
       
         
       
         
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/ansible-role-rpi-unifi&#34; target=&#34;_blank&#34;&gt;tgagor/ansible-role-rpi-unifi&lt;/a&gt; - Installs Ubiquiti&amp;#39;s Unifi software on Raspberry Pi&lt;/li&gt;
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/ansible-role-docker&#34; target=&#34;_blank&#34;&gt;tgagor/ansible-role-docker&lt;/a&gt;
+             - Installs Docker service on Ubuntu/Debian/RHEL
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/ansible-role-docker?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/ansible-role-docker?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/ansible-role-docker?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/ansible-role-docker?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/ansible-role-docker?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
         
       
         
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/ansible-role-spotify&#34; target=&#34;_blank&#34;&gt;tgagor/ansible-role-spotify&lt;/a&gt;&lt;/li&gt;
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/ansible-role-docker-compose&#34; target=&#34;_blank&#34;&gt;tgagor/ansible-role-docker-compose&lt;/a&gt;
+             - Simple Ansible role that will install Docker Compose
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/ansible-role-docker-compose?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/ansible-role-docker-compose?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/ansible-role-docker-compose?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/ansible-role-docker-compose?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/ansible-role-docker-compose?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
         
       
         
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/ansible-role-template-with-molecule-tests&#34; target=&#34;_blank&#34;&gt;tgagor/ansible-role-template-with-molecule-tests&lt;/a&gt; - Template for Ansible role with Molecule and Testinfra for testing&lt;/li&gt;
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/ansible-role-spotify&#34; target=&#34;_blank&#34;&gt;tgagor/ansible-role-spotify&lt;/a&gt;
+            
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/ansible-role-spotify?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/ansible-role-spotify?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/ansible-role-spotify?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/ansible-role-spotify?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/ansible-role-spotify?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
         
       
         
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/conferences&#34; target=&#34;_blank&#34;&gt;tgagor/conferences&lt;/a&gt; - Presentations and materials from conferences where I attended as a speaker&lt;/li&gt;
-        
-      
-        
-      
-        
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/docker-centos&#34; target=&#34;_blank&#34;&gt;tgagor/docker-centos&lt;/a&gt; - CentOS docker images, build weekly with latest security updates&lt;/li&gt;
-        
-      
-        
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/docker-chisel&#34; target=&#34;_blank&#34;&gt;tgagor/docker-chisel&lt;/a&gt; - Let play with Ubuntu&amp;#39;s Chisel tool for minimal Docker images&lt;/li&gt;
-        
-      
-        
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/docker-chiseled-corretto&#34; target=&#34;_blank&#34;&gt;tgagor/docker-chiseled-corretto&lt;/a&gt; - Playing with Cannonicals Chisel tool, I was curious what benefits it could provide with Corretto&lt;/li&gt;
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/docker-nvm-example&#34; target=&#34;_blank&#34;&gt;tgagor/docker-nvm-example&lt;/a&gt; - Repo with example NVM in Docker image implementation for use in easy CI/CD&lt;/li&gt;
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/docker-wp-cli&#34; target=&#34;_blank&#34;&gt;tgagor/docker-wp-cli&lt;/a&gt; - Docker image with WP-CLI command line interface for Wordpress&lt;/li&gt;
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/hugo-PaperMod-bookshelf&#34; target=&#34;_blank&#34;&gt;tgagor/hugo-PaperMod-bookshelf&lt;/a&gt; - This is an extension, a set of shortcodes and templates to the original PaperMod theme, with a page dedicated to listing the books with responsive UI&lt;/li&gt;
-        
-      
-        
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/hugo-shortcode-kofi&#34; target=&#34;_blank&#34;&gt;tgagor/hugo-shortcode-kofi&lt;/a&gt; - A collection of custom shortcodes tailored for Hugo static site generator, designed to seamlessly integrate Ko-fi buttons and widgets into any blog post&lt;/li&gt;
-        
-      
-        
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/java-tuner&#34; target=&#34;_blank&#34;&gt;tgagor/java-tuner&lt;/a&gt; - A small, statically linked CLI tool that simplifies tuning of Java applications for containerized environments. It automatically detects available CPU and memory resources, then generates optimal JVM options to improve performance and reliability.&lt;/li&gt;
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/ansible-role-template-with-molecule-tests&#34; target=&#34;_blank&#34;&gt;tgagor/ansible-role-template-with-molecule-tests&lt;/a&gt;
+             - Template for Ansible role with Molecule and Testinfra for testing
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/ansible-role-template-with-molecule-tests?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/ansible-role-template-with-molecule-tests?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/ansible-role-template-with-molecule-tests?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/ansible-role-template-with-molecule-tests?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/ansible-role-template-with-molecule-tests?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
         
       
         
       
         
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/marsennea-primes&#34; target=&#34;_blank&#34;&gt;tgagor/marsennea-primes&lt;/a&gt; - Playing with Marsennea primes&lt;/li&gt;
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/conferences&#34; target=&#34;_blank&#34;&gt;tgagor/conferences&lt;/a&gt;
+             - Presentations and materials from conferences where I attended as a speaker
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/conferences?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/conferences?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/conferences?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/conferences?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/conferences?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
         
       
         
       
         
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/docker-chiseled-corretto&#34; target=&#34;_blank&#34;&gt;tgagor/docker-chiseled-corretto&lt;/a&gt;
+             - Playing with Cannonicals Chisel tool, I was curious what benefits it could provide with Corretto
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/docker-chiseled-corretto?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/docker-chiseled-corretto?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/docker-chiseled-corretto?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/docker-chiseled-corretto?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/docker-chiseled-corretto?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        
       
         
-          &lt;li&gt;&lt;a href=&#34;https://github.com/tgagor/template-dockerfiles&#34; target=&#34;_blank&#34;&gt;tgagor/template-dockerfiles&lt;/a&gt; - Dockerfile Templater, allowing to simplify building of Docker images at mass&lt;/li&gt;
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/docker-nvm-example&#34; target=&#34;_blank&#34;&gt;tgagor/docker-nvm-example&lt;/a&gt;
+             - Repo with example NVM in Docker image implementation for use in easy CI/CD
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/docker-nvm-example?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/docker-nvm-example?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/docker-nvm-example?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/docker-nvm-example?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/docker-nvm-example?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        
+      
+        
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/docker-wp-cli&#34; target=&#34;_blank&#34;&gt;tgagor/docker-wp-cli&lt;/a&gt;
+             - Docker image with WP-CLI command line interface for Wordpress
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/docker-wp-cli?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/docker-wp-cli?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/docker-wp-cli?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/docker-wp-cli?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/docker-wp-cli?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
         
       
         
       
         
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/java-tuner&#34; target=&#34;_blank&#34;&gt;tgagor/java-tuner&lt;/a&gt;
+             - A small, statically linked CLI tool that simplifies tuning of Java applications for containerized environments. It automatically detects available CPU and memory resources, then generates optimal JVM options to improve performance and reliability.
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/java-tuner?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/java-tuner?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/java-tuner?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/java-tuner?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/java-tuner?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        
       
         
       
+        
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/marsennea-primes&#34; target=&#34;_blank&#34;&gt;tgagor/marsennea-primes&lt;/a&gt;
+             - Playing with Marsennea primes
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/marsennea-primes?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/marsennea-primes?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo issues&#34; src=&#34;https://img.shields.io/github/issues/tgagor/marsennea-primes?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo PRs&#34; src=&#34;https://img.shields.io/github/issues-pr/tgagor/marsennea-primes?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo last update&#34; src=&#34;https://img.shields.io/github/last-commit/tgagor/marsennea-primes?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
         
       
         
@@ -1238,16 +1467,32 @@
 
 &lt;h2&gt;Ghists&lt;/h2&gt;
 
-&lt;ul&gt;
+&lt;ul class=&#34;shortcode-icons&#34;  style=&#34;padding-left: 0; margin-left: 0;&#34;&gt;
     
       
       
         
-          &lt;li&gt;&lt;a href=&#34;https://gist.github.com/tgagor/fdd09a6938ceb3eefc56eeeaea30351f&#34; target=&#34;_blank&#34;&gt;How old official Docker images are?&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://gist.github.com/tgagor/fdd09a6938ceb3eefc56eeeaea30351f&#34; target=&#34;_blank&#34;&gt;How old official Docker images are?&lt;/a&gt;
+          &lt;/li&gt;
         
       
         
-          &lt;li&gt;&lt;a href=&#34;https://gist.github.com/tgagor/f904221d888c8daaad679cf99c407aef&#34; target=&#34;_blank&#34;&gt;Script that can be used to purge nexus v3 releases&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://gist.github.com/tgagor/f904221d888c8daaad679cf99c407aef&#34; target=&#34;_blank&#34;&gt;Script that can be used to purge nexus v3 releases&lt;/a&gt;
+          &lt;/li&gt;
         
       
     
@@ -1259,25 +1504,96 @@
 
 &lt;h2&gt;Docker images&lt;/h2&gt;
 
-&lt;ul&gt;
+&lt;ul class=&#34;shortcode-icons&#34; style=&#34;padding-left: 0; margin-left: 0;&#34;&gt;
   
   
     
       
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/tgagor/wp-cli&#34; target=&#34;_blank&#34;&gt;tgagor/wp-cli&lt;/a&gt; - Image providing wp-cli tool.&lt;/li&gt;
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/tgagor/packtpublishingfreelearning&#34; target=&#34;_blank&#34;&gt;tgagor/packtpublishingfreelearning&lt;/a&gt; - Ready to run container with code from: https://github.com/igbt6/Packt-Publishing-Free-Learning&lt;/li&gt;
+      &lt;li&gt;
+        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 40 30&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+          &lt;path d=&#34;M37.413,12.315c-0.933,-0.627 -3.382,-0.896 -5.163,-0.415c-0.097,-1.774 -1.012,-3.27 -2.685,-4.573l-0.619,-0.416l-0.414,0.624c-0.811,1.232 -1.153,2.873 -1.032,4.366c0.095,0.92 0.415,1.953 1.032,2.703c-2.318,1.345 -4.455,1.039 -13.919,1.039l-14.61,0c-0.042,2.137 0.302,6.248 2.915,9.593c0.289,0.37 0.604,0.727 0.948,1.072c2.126,2.128 5.336,3.689 10.138,3.693c7.325,0.007 13.601,-3.953 17.419,-13.527c1.257,0.02 4.572,0.225 6.195,-2.911c0.039,-0.052 0.413,-0.831 0.413,-0.831l-0.618,-0.415l0,-0.002Zm-27.875,-1.953l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm-21.232,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,-5.19l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm0,-5.19l-4.108,0l-0,4.109l4.108,-0l0,-4.109Z&#34;/&gt;
+        &lt;/svg&gt;
+        &lt;a href=&#34;https://hub.docker.com/r/tgagor/centos&#34; target=&#34;_blank&#34;&gt;tgagor/centos&lt;/a&gt;
+         - Pure, based on official CentOS images, upgraded every Monday
+        &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/stars/tgagor/centos?style=flat-square&#34; alt=&#34;Docker Stars&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/pulls/tgagor/centos?style=flat-square&#34; alt=&#34;Docker Pulls&#34;&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/tgagor/centos-stream&#34; target=&#34;_blank&#34;&gt;tgagor/centos-stream&lt;/a&gt; - There&amp;#39;s no official image for CentOS 8 Stream - so I prepared it, something for early adopters&lt;/li&gt;
+      &lt;li&gt;
+        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 40 30&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+          &lt;path d=&#34;M37.413,12.315c-0.933,-0.627 -3.382,-0.896 -5.163,-0.415c-0.097,-1.774 -1.012,-3.27 -2.685,-4.573l-0.619,-0.416l-0.414,0.624c-0.811,1.232 -1.153,2.873 -1.032,4.366c0.095,0.92 0.415,1.953 1.032,2.703c-2.318,1.345 -4.455,1.039 -13.919,1.039l-14.61,0c-0.042,2.137 0.302,6.248 2.915,9.593c0.289,0.37 0.604,0.727 0.948,1.072c2.126,2.128 5.336,3.689 10.138,3.693c7.325,0.007 13.601,-3.953 17.419,-13.527c1.257,0.02 4.572,0.225 6.195,-2.911c0.039,-0.052 0.413,-0.831 0.413,-0.831l-0.618,-0.415l0,-0.002Zm-27.875,-1.953l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm-21.232,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,-5.19l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm0,-5.19l-4.108,0l-0,4.109l4.108,-0l0,-4.109Z&#34;/&gt;
+        &lt;/svg&gt;
+        &lt;a href=&#34;https://hub.docker.com/r/tgagor/packtpublishingfreelearning&#34; target=&#34;_blank&#34;&gt;tgagor/packtpublishingfreelearning&lt;/a&gt;
+         - Ready to run container with code from: https://github.com/igbt6/Packt-Publishing-Free-Learning
+        &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/stars/tgagor/packtpublishingfreelearning?style=flat-square&#34; alt=&#34;Docker Stars&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/pulls/tgagor/packtpublishingfreelearning?style=flat-square&#34; alt=&#34;Docker Pulls&#34;&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/tgagor/centos&#34; target=&#34;_blank&#34;&gt;tgagor/centos&lt;/a&gt; - Pure, based on official CentOS images, upgraded every Monday&lt;/li&gt;
+      &lt;li&gt;
+        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 40 30&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+          &lt;path d=&#34;M37.413,12.315c-0.933,-0.627 -3.382,-0.896 -5.163,-0.415c-0.097,-1.774 -1.012,-3.27 -2.685,-4.573l-0.619,-0.416l-0.414,0.624c-0.811,1.232 -1.153,2.873 -1.032,4.366c0.095,0.92 0.415,1.953 1.032,2.703c-2.318,1.345 -4.455,1.039 -13.919,1.039l-14.61,0c-0.042,2.137 0.302,6.248 2.915,9.593c0.289,0.37 0.604,0.727 0.948,1.072c2.126,2.128 5.336,3.689 10.138,3.693c7.325,0.007 13.601,-3.953 17.419,-13.527c1.257,0.02 4.572,0.225 6.195,-2.911c0.039,-0.052 0.413,-0.831 0.413,-0.831l-0.618,-0.415l0,-0.002Zm-27.875,-1.953l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm-21.232,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,-5.19l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm0,-5.19l-4.108,0l-0,4.109l4.108,-0l0,-4.109Z&#34;/&gt;
+        &lt;/svg&gt;
+        &lt;a href=&#34;https://hub.docker.com/r/tgagor/centos-stream&#34; target=&#34;_blank&#34;&gt;tgagor/centos-stream&lt;/a&gt;
+         - There&amp;#39;s no official image for CentOS 8 Stream - so I prepared it, something for early adopters
+        &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/stars/tgagor/centos-stream?style=flat-square&#34; alt=&#34;Docker Stars&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/pulls/tgagor/centos-stream?style=flat-square&#34; alt=&#34;Docker Pulls&#34;&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/tgagor/unifi-controller&#34; target=&#34;_blank&#34;&gt;tgagor/unifi-controller&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 40 30&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+          &lt;path d=&#34;M37.413,12.315c-0.933,-0.627 -3.382,-0.896 -5.163,-0.415c-0.097,-1.774 -1.012,-3.27 -2.685,-4.573l-0.619,-0.416l-0.414,0.624c-0.811,1.232 -1.153,2.873 -1.032,4.366c0.095,0.92 0.415,1.953 1.032,2.703c-2.318,1.345 -4.455,1.039 -13.919,1.039l-14.61,0c-0.042,2.137 0.302,6.248 2.915,9.593c0.289,0.37 0.604,0.727 0.948,1.072c2.126,2.128 5.336,3.689 10.138,3.693c7.325,0.007 13.601,-3.953 17.419,-13.527c1.257,0.02 4.572,0.225 6.195,-2.911c0.039,-0.052 0.413,-0.831 0.413,-0.831l-0.618,-0.415l0,-0.002Zm-27.875,-1.953l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm-21.232,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,-5.19l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm0,-5.19l-4.108,0l-0,4.109l4.108,-0l0,-4.109Z&#34;/&gt;
+        &lt;/svg&gt;
+        &lt;a href=&#34;https://hub.docker.com/r/tgagor/wp-cli&#34; target=&#34;_blank&#34;&gt;tgagor/wp-cli&lt;/a&gt;
+         - Image providing wp-cli tool.
+        &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/stars/tgagor/wp-cli?style=flat-square&#34; alt=&#34;Docker Stars&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/pulls/tgagor/wp-cli?style=flat-square&#34; alt=&#34;Docker Pulls&#34;&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/tgagor/chisel&#34; target=&#34;_blank&#34;&gt;tgagor/chisel&lt;/a&gt; - Cannonical&amp;#39;s Chisel tool &amp;#43; Releases&lt;/li&gt;
+      &lt;li&gt;
+        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 40 30&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+          &lt;path d=&#34;M37.413,12.315c-0.933,-0.627 -3.382,-0.896 -5.163,-0.415c-0.097,-1.774 -1.012,-3.27 -2.685,-4.573l-0.619,-0.416l-0.414,0.624c-0.811,1.232 -1.153,2.873 -1.032,4.366c0.095,0.92 0.415,1.953 1.032,2.703c-2.318,1.345 -4.455,1.039 -13.919,1.039l-14.61,0c-0.042,2.137 0.302,6.248 2.915,9.593c0.289,0.37 0.604,0.727 0.948,1.072c2.126,2.128 5.336,3.689 10.138,3.693c7.325,0.007 13.601,-3.953 17.419,-13.527c1.257,0.02 4.572,0.225 6.195,-2.911c0.039,-0.052 0.413,-0.831 0.413,-0.831l-0.618,-0.415l0,-0.002Zm-27.875,-1.953l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm-21.232,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,-5.19l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm0,-5.19l-4.108,0l-0,4.109l4.108,-0l0,-4.109Z&#34;/&gt;
+        &lt;/svg&gt;
+        &lt;a href=&#34;https://hub.docker.com/r/tgagor/unifi-controller&#34; target=&#34;_blank&#34;&gt;tgagor/unifi-controller&lt;/a&gt;
+        
+        &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/stars/tgagor/unifi-controller?style=flat-square&#34; alt=&#34;Docker Stars&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/pulls/tgagor/unifi-controller?style=flat-square&#34; alt=&#34;Docker Pulls&#34;&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
       
-      &lt;li&gt;&lt;a href=&#34;https://hub.docker.com/r/tgagor/corretto&#34; target=&#34;_blank&#34;&gt;tgagor/corretto&lt;/a&gt; - It&amp;#39;s a Proof of Concept of benefits of using &amp;#34;chisel&amp;#34; tool on Ubuntu in comparison to Alpine images.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 40 30&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+          &lt;path d=&#34;M37.413,12.315c-0.933,-0.627 -3.382,-0.896 -5.163,-0.415c-0.097,-1.774 -1.012,-3.27 -2.685,-4.573l-0.619,-0.416l-0.414,0.624c-0.811,1.232 -1.153,2.873 -1.032,4.366c0.095,0.92 0.415,1.953 1.032,2.703c-2.318,1.345 -4.455,1.039 -13.919,1.039l-14.61,0c-0.042,2.137 0.302,6.248 2.915,9.593c0.289,0.37 0.604,0.727 0.948,1.072c2.126,2.128 5.336,3.689 10.138,3.693c7.325,0.007 13.601,-3.953 17.419,-13.527c1.257,0.02 4.572,0.225 6.195,-2.911c0.039,-0.052 0.413,-0.831 0.413,-0.831l-0.618,-0.415l0,-0.002Zm-27.875,-1.953l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm-21.232,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,-5.19l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm0,-5.19l-4.108,0l-0,4.109l4.108,-0l0,-4.109Z&#34;/&gt;
+        &lt;/svg&gt;
+        &lt;a href=&#34;https://hub.docker.com/r/tgagor/chisel&#34; target=&#34;_blank&#34;&gt;tgagor/chisel&lt;/a&gt;
+         - Cannonical&amp;#39;s Chisel tool &amp;#43; Releases
+        &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/stars/tgagor/chisel?style=flat-square&#34; alt=&#34;Docker Stars&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/pulls/tgagor/chisel?style=flat-square&#34; alt=&#34;Docker Pulls&#34;&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      
+      &lt;li&gt;
+        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 40 30&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+          &lt;path d=&#34;M37.413,12.315c-0.933,-0.627 -3.382,-0.896 -5.163,-0.415c-0.097,-1.774 -1.012,-3.27 -2.685,-4.573l-0.619,-0.416l-0.414,0.624c-0.811,1.232 -1.153,2.873 -1.032,4.366c0.095,0.92 0.415,1.953 1.032,2.703c-2.318,1.345 -4.455,1.039 -13.919,1.039l-14.61,0c-0.042,2.137 0.302,6.248 2.915,9.593c0.289,0.37 0.604,0.727 0.948,1.072c2.126,2.128 5.336,3.689 10.138,3.693c7.325,0.007 13.601,-3.953 17.419,-13.527c1.257,0.02 4.572,0.225 6.195,-2.911c0.039,-0.052 0.413,-0.831 0.413,-0.831l-0.618,-0.415l0,-0.002Zm-27.875,-1.953l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm-21.232,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,-5.19l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm0,-5.19l-4.108,0l-0,4.109l4.108,-0l0,-4.109Z&#34;/&gt;
+        &lt;/svg&gt;
+        &lt;a href=&#34;https://hub.docker.com/r/tgagor/corretto&#34; target=&#34;_blank&#34;&gt;tgagor/corretto&lt;/a&gt;
+         - It&amp;#39;s a Proof of Concept of benefits of using &amp;#34;chisel&amp;#34; tool on Ubuntu in comparison to Alpine images.
+        &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/stars/tgagor/corretto?style=flat-square&#34; alt=&#34;Docker Stars&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/pulls/tgagor/corretto?style=flat-square&#34; alt=&#34;Docker Pulls&#34;&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
       
     
   
