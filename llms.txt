@@ -30,11 +30,10 @@ English, Polish
 ## Main Navigation Links
 
 - [Home](https://gagor.pro/): Main page, listing latest articles
-- [About](https://gagor.pro/about/): Notes about the author and who am I
 - [Projects](https://gagor.pro/projects/): Github and Docker Hub projects where I'm active
 - [Bookshelf](https://gagor.pro/bookshelf/): All the books I've read recently with their reviews
 - [Archive](https://gagor.pro/archives/): List of all the articles on my blog, with links to them
-- [About](https://gagor.pro/about/): Page about Author
+- [About](https://gagor.pro/about/): Notes about the author
 - [Authors](https://gagor.pro/authors): Taxonomy page with all Authors
 - [Categories](https://gagor.pro/categories): Taxonomy page with all Categories
 - [Tags](https://gagor.pro/tags): Taxonomy page with all Tags
