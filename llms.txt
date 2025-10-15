@@ -35,9 +35,9 @@ English, Polish
 - [Bookshelf](https://gagor.pro/bookshelf/): All the books I've read recently with their reviews
 - [Archive](https://gagor.pro/archives/): List of all the articles on my blog, with links to them
 - [About](https://gagor.pro/about/): Page about Author
-- [Authors](https://gagor.pro/authors): Taxonomy page with Authors
-- [Categories](https://gagor.pro/categories): Taxonomy page with Categories
-- [Tags](https://gagor.pro/tags): Taxonomy page with Tags
+- [Authors](https://gagor.pro/authors): Taxonomy page with all Authors
+- [Categories](https://gagor.pro/categories): Taxonomy page with all Categories
+- [Tags](https://gagor.pro/tags): Taxonomy page with all Tags
 
 ## Sitemap
 
@@ -51,43 +51,3 @@ https://gagor.pro/index.xml
 - [Linkedin](https://www.linkedin.com/in/tgagor)
 - [Mastodon](https://mastodon.social/@tgagor)
 - [Bluesky](https://bsky.app/profile/tgagor.bsky.social)
-
-## Bot Access Policy
-
-Tom's Blog (gagor.pro)’s preferences for AI/LLM access, training, and content usage:
-- **User-agent: gptbot**
-  Allow‑Training: yes
-  Allow‑Retrieval: yes
-- **User-agent: claudebot**
-  Allow‑Training: yes
-  Allow‑Retrieval: yes
-- **User-agent: google-extended**
-  Allow‑Training: yes
-  Allow‑Retrieval: yes
-- **User-agent: perplexitybot**
-  Allow‑Training: yes
-  Allow‑Retrieval: yes
-- **User-agent: neevabot**
-  Allow‑Training: yes
-  Allow‑Retrieval: yes
-- **User-agent: youbot**
-  Allow‑Training: yes
-  Allow‑Retrieval: yes
-- **User-agent: ccbot (Common Crawl)**
-  Allow‑Training: yes
-  Allow‑Retrieval: yes
-- **User-agent: duckduckbot (DuckDuckGo AI)**
-  Allow‑Training: yes
-  Allow‑Retrieval: yes
-- **User-agent: yandexbot**
-  Allow‑Training: yes
-  Allow‑Retrieval: yes
-- **User-agent: archive.org_bot**
-  Allow‑Training: yes
-  Allow‑Retrieval: yes
-
-### Default Rule for Unspecified or Future Bots
-
-- **User‑agent: \***
-  Allow‑Training: yes
-  Allow‑Retrieval: yes
