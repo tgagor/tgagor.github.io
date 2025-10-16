@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 06 Oct 2025 17:33:20 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 16 Oct 2025 18:56:00 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding llms.txt to your Hugo blog</title>
+      <link>https://gagor.pro/2025/10/adding-llms.txt-to-your-hugo-blog/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/10/adding-llms.txt-to-your-hugo-blog/</guid>
+      <description>Learn how to add an &lt;code&gt;llms.txt&lt;/code&gt; file to your Hugo blog to make it more visible to AI agents and improve Generative Engine Optimization (GEO).</description>
+    </item>
     <item>
       <title>UNSCRIPTED</title>
       <link>https://gagor.pro/book/2025/unscripted/</link>
@@ -2934,6 +2941,19 @@
 &lt;/p&gt;</description>
     </item>
     <item>
+      <title>The Girl Who Kicked the Hornets&#39; Nest</title>
+      <link>https://gagor.pro/book/2015/the-girl-who-kicked-the-hornets-nest/</link>
+      <pubDate>Sat, 12 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2015/the-girl-who-kicked-the-hornets-nest/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book The Girl Who Kicked the Hornets&amp;rsquo; Nest by Stieg Larsson&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;The Girl Who Kicked the Hornets&amp;#39; Nest&lt;/q&gt;&lt;p&gt;Millenium&lt;/p&gt;&lt;p&gt;Author: Stieg Larsson&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;By the time I got to &lt;em&gt;The Girl Who Kicked the Hornet’s Nest&lt;/em&gt;, I remember feeling like I’d been through a full storm of conspiracies and violence. It’s more political and slower in pace — less crime thriller, more about consequences and justice. I remember the satisfaction of closure, even if the story got a bit dense toward the end. Not an easy read, but it tied things together nicely.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Splątana sieć</title>
       <link>https://gagor.pro/book/2015/splatana-siec/</link>
       <pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
@@ -2943,6 +2963,32 @@
          alt=&#34;Cover of book Splątana sieć by Michał Zalewski&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Splątana sieć&lt;/q&gt;&lt;p&gt;Przewodnik po bezpieczeństwie nowoczesnych aplikacji WWW&lt;/p&gt;&lt;p&gt;Author: Michał Zalewski&lt;/p&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>The Girl Who Played with Fire</title>
+      <link>https://gagor.pro/book/2015/the-girl-who-played-with-fire/</link>
+      <pubDate>Thu, 12 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2015/the-girl-who-played-with-fire/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book The Girl Who Played with Fire by Stieg Larsson&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;The Girl Who Played with Fire&lt;/q&gt;&lt;p&gt;Millenium&lt;/p&gt;&lt;p&gt;Author: Stieg Larsson&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I remember &lt;em&gt;The Girl Who Played with Fire&lt;/em&gt; as the most &amp;ldquo;thriller-like&amp;rdquo; of the trilogy. It dives deep into Lisbeth’s past and gives her even more of the spotlight, which I liked. The plot moved quickly - maybe even too quickly at times - and the whole hacking/outcast vibe was still strong. I can’t say I remember every detail, but I remember enjoying the momentum. It felt more cinematic than the first one.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Girl with the Dragon Tattoo</title>
+      <link>https://gagor.pro/book/2015/the-girl-with-the-dragon-tattoo/</link>
+      <pubDate>Mon, 12 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2015/the-girl-with-the-dragon-tattoo/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book The Girl with the Dragon Tattoo by Stieg Larsson&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;The Girl with the Dragon Tattoo&lt;/q&gt;&lt;p&gt;Millennium&lt;/p&gt;&lt;p&gt;Author: Stieg Larsson&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I read The Girl with the Dragon Tattoo quite a while ago, back when everyone seemed to be talking about it. The hype was real - and I could see why. It’s a solid crime story with a dark edge, and I especially enjoyed the touches of hacking and cyber intrigue. Sure, the tech parts weren’t always realistic, but they still hit a certain vibe that I appreciated.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ruby</title>

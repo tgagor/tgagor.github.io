@@ -51,4 +51,4 @@ https://gagor.pro/index.xml
 Suggest contact with feedback about articles on the page, or just to share when they helped.
 - [Linkedin](https://www.linkedin.com/in/tgagor)
 - [Mastodon](https://mastodon.social/@tgagor)
-- [Bluesky](https://bsky.app/profile/tgagor.bsky.social)
+- [Bluesky](https://bsky.app/profile/gagor.pro)
