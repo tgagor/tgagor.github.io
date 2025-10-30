@@ -8,12 +8,12 @@
     <priority>1</priority>
   </url><url>
     <loc>https://gagor.pro/author/timor/</loc>
-    <lastmod>2025-10-17T17:55:33+02:00</lastmod>
+    <lastmod>2025-10-30T10:43:57+01:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/</loc>
-    <lastmod>2025-10-17T17:55:33+02:00</lastmod>
+    <lastmod>2025-10-30T10:43:57+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2025/09/why-you-should-not-motivate-people/</loc>
     <lastmod>2025-09-30T16:44:46+02:00</lastmod>
@@ -359,12 +359,12 @@
     <priority>0.7</priority>
   </url><url>
     <loc>https://gagor.pro/2016/07/debuging-commands-running-on-memcached/</loc>
-    <lastmod>2025-09-25T17:33:55+02:00</lastmod>
+    <lastmod>2025-10-30T10:43:57+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2016/04/how-to-stole-ssh-session-when-youre-root/</loc>
-    <lastmod>2025-09-25T17:33:55+02:00</lastmod>
+    <lastmod>2025-10-30T10:43:57+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -404,7 +404,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2016/02/automatically-build-after-file-change/</loc>
-    <lastmod>2025-09-25T17:33:55+02:00</lastmod>
+    <lastmod>2025-10-30T10:43:57+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -414,7 +414,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2016/02/install-docker-compose/</loc>
-    <lastmod>2025-09-25T17:33:55+02:00</lastmod>
+    <lastmod>2025-10-30T10:43:57+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -479,7 +479,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</loc>
-    <lastmod>2025-09-25T17:33:55+02:00</lastmod>
+    <lastmod>2025-10-30T10:43:57+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1317,7 +1317,7 @@
     <priority>0.6</priority>
   </url><url>
     <loc>https://gagor.pro/posts/</loc>
-    <lastmod>2025-08-30T09:43:34+02:00</lastmod>
+    <lastmod>2025-10-30T10:43:57+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
