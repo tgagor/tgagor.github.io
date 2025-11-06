@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 04 Nov 2025 19:03:11 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 06 Nov 2025 18:29:52 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Markdown Presentations with Marp</title>
+      <link>https://gagor.pro/2025/11/create-markdown-presentations-with-marp/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/11/create-markdown-presentations-with-marp/</guid>
+      <description>Learn how to create beautiful slide decks with Markdown and Marp, a simple and powerful tool for presentations.</description>
+    </item>
     <item>
       <title>Running Gemini CLI in a Docker container</title>
       <link>https://gagor.pro/2025/10/running-gemini-cli-in-a-docker-container/</link>
