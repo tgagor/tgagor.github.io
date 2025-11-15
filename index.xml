@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 11 Nov 2025 18:08:18 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 11:37:46 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create Markdown presentations with Marp</title>
@@ -4916,7 +4916,7 @@ herbatniki.&lt;/p&gt;</description>
       <link>https://gagor.pro/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</link>
       <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</guid>
-      <description>&lt;p&gt;Niedawno trafiłem na ciekawy problem w &lt;em&gt;mod_rewrite&lt;/em&gt; - by przekierowywać użytkowników logujących się jednym z modułów &lt;em&gt;mod_auth_basic&lt;/em&gt; do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej &lt;em&gt;%{REMOTE_USER}&lt;/em&gt; - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w &lt;em&gt;RewriteCond&lt;/em&gt; zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można &lt;em&gt;RewriteCond&amp;rsquo;y&lt;/em&gt; połączyć wyrażeniami logicznymi typu &lt;em&gt;AND&lt;/em&gt;/&lt;em&gt;OR&lt;/em&gt; to nie ma możliwości porównania czy dopasowania z kolejnych &lt;em&gt;RewriteCond&amp;rsquo;ów&lt;/em&gt; są identyczne. Po kilku dniach szperania w dokumentacji i różnych tutorialach udało mi się trafić na jedną wartościową wskazówkę ale tej stronki już nie ma, więc opiszę problem dla potomnych.&lt;br /&gt; &lt;img title=&#34;Więcej...&#34; src=&#34;https://gagor.pl/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Niedawno trafiłem na ciekawy problem w &lt;em&gt;mod_rewrite&lt;/em&gt; - by przekierowywać użytkowników logujących się jednym z modułów &lt;em&gt;mod_auth_basic&lt;/em&gt; do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej &lt;em&gt;%{REMOTE_USER}&lt;/em&gt; - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w &lt;em&gt;RewriteCond&lt;/em&gt; zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można &lt;em&gt;RewriteCond&amp;rsquo;y&lt;/em&gt; połączyć wyrażeniami logicznymi typu &lt;em&gt;AND&lt;/em&gt;/&lt;em&gt;OR&lt;/em&gt; to nie ma możliwości porównania czy dopasowania z kolejnych &lt;em&gt;RewriteCond&amp;rsquo;ów&lt;/em&gt; są identyczne. Po kilku dniach szperania w dokumentacji i różnych tutorialach udało mi się trafić na jedną wartościową wskazówkę ale tej stronki już nie ma, więc opiszę problem dla potomnych.&lt;/p&gt;</description>
     </item>
     <item>
       <title>unicode-rxvt - moje ustawienia</title>
