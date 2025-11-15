@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sat, 15 Nov 2025 12:05:35 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 15 Nov 2025 12:42:59 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create Markdown presentations with Marp</title>
@@ -792,15 +792,17 @@
 &lt;/figure&gt;</description>
     </item>
     <item>
-      <title>Psychologia pieniędzy</title>
-      <link>https://gagor.pro/book/2023/psychologia-pieniedzy/</link>
+      <title>The Psychology of Money</title>
+      <link>https://gagor.pro/book/2023/the-psychology-of-money/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/book/2023/psychologia-pieniedzy/</guid>
+      <guid>https://gagor.pro/book/2023/the-psychology-of-money/</guid>
       <description>&lt;figure style=&#34;display:flex;&#34;&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
-         alt=&#34;Cover of book Psychologia pieniędzy by Morgan Housel&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
-            &lt;q&gt;Psychologia pieniędzy&lt;/q&gt;&lt;p&gt;Ponadczasowe lekcje o bogactwie, chciwości i szczęściu&lt;/p&gt;&lt;p&gt;Author: Morgan Housel&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+         alt=&#34;Cover of book The Psychology of Money by Morgan Housel&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;The Psychology of Money&lt;/q&gt;&lt;p&gt;Timeless lessons on wealth, greed, and happiness&lt;/p&gt;&lt;p&gt;Author: Morgan Housel&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;As an amateur investor for a few years now, I&amp;rsquo;ve had my share of ups and downs. It&amp;rsquo;s a journey of constant learning, and Morgan Housel&amp;rsquo;s &amp;ldquo;The Psychology of Money&amp;rdquo; is one of those books I wish I had read right at the start. It’s a fantastic guide for anyone beginning their investment journey because it sets realistic expectations and helps you understand that your mindset is just as important as your strategy.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Change configuration of Docker daemon in Rancher Desktop</title>
@@ -1785,7 +1787,10 @@
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Podróż ludzi Księgi by Olga Tokarczuk&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Podróż ludzi Księgi&lt;/q&gt;&lt;p&gt;Author: Olga Tokarczuk&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;I was really curious about this book. Olga Tokarczuk, a Polish writer, won the 2018 Nobel Prize in Literature, so I thought I should check out her work. &amp;ldquo;The Journey of the Book-People&amp;rdquo; is her debut novel, a historical fantasy set in 17th-century France.&lt;/p&gt;
+&lt;p&gt;The story follows a motley crew - a mute boy, an abandoned courtesan, and a mysterious marquis - on a quest to find a legendary, all-powerful Book. Their journey through the Pyrenees mountains is filled with adventure and philosophical questions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java Performance Companion</title>
