@@ -60,8 +60,8 @@
 /apple-touch-icon.ico /apple-touch-icon.png 301
 /author/timor /author/tom/ 301
 /book/2000/kukułcze-jajo/ /book/2000/the-cuckoos-egg/ 301
-/category/leadership/ /tags/leadership/ 301
 /category/howto/tip/ / 301
+/category/leadership/ /tags/leadership/ 301
 /favicon-16x16.ico /favicon-16x16.png 301
 /favicon-32x32.ico /favicon-32x32.png 301
 /favicon-72x72.ico /favicon-72x72.png 301
@@ -71,8 +71,12 @@
 /home/timor/.config/pipewire/pipewire.conf.d/dsp-defaults.conf / 301
 /images/book-cover.webp / 301
 /images/cover.webp / 301
+/java / 301
 /lib / 301
+/log / 301
 /root/.rsync-passwd / 301
+/sbin / 301
+/share / 301
 /srv / 301
 /srv/backup/server / 301
 /tag/apc/ /tag/php/ 301
@@ -99,11 +103,14 @@
 /tmp/eaccelerator / 301
 /tmp/server_sync / 301
 /tmp/server_sync_block / 301
+/usr / 301
 /var/cache/dnf / 301
+/var/cache/nginx / 301
 /var/lib/apt/lists / 301
 /var/lib/memcache /tag/memcached/ 301
 /var/tmp / 301
 /var/www/site1 / 301
+/your-app-name / 301
 # keep the listing pages
 /books/ /books/ 200
 /tags/ /tags/ 200
