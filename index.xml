@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sat, 15 Nov 2025 12:50:57 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 16 Nov 2025 11:12:25 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create Markdown presentations with Marp</title>
@@ -3800,9 +3800,9 @@ it.&lt;/p&gt;</description>
       <pubDate>Fri, 15 Nov 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2013/11/changing-language-of-articles-on-my-blog-to-english/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve crated this blog to get feedback from other IT guys about what I&amp;rsquo;m
-doing wrong (or not good enough). But this idea failed&amp;hellip;&lt;br&gt;
+doing wrong (or not good enough). But this idea failed&amp;hellip;
 I have only few comments on my blog (and about thousand and a half
-spams per month) - so, no feedback in my national language at all.&lt;br&gt;
+spams per month) - so, no feedback in my national language at all.
 Switching to English should make my audience bigger and I hope to have
 more attention thanks to that. This will be also a good practice of my
 English skill. I hope to find enough free time to translate some of
@@ -3849,7 +3849,7 @@ blog - to something more convenient. Maybe
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Which PHP library to use, pecl/gearman or PEAR::Net_Gearman?
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; pecl
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;2&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; pear
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#? 1   &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#? 1&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Installing to /usr/local/share/gearman-manager
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Installing executable to /usr/local/bin/gearman-manager
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Installing configs to /etc/gearman-manager
@@ -4278,7 +4278,7 @@ dumbass spammer look even more stupid ;-)&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    my {blog&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;weblog&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;website&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;web site&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;site} {so&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;thus} i
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    came to &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;“&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; the favor&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;”&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;{I am&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;I&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;’&lt;/span&gt;m} {trying
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    to&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;attempting to} find things to {improve&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;enhance} my {website&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;site&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;web
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    site}&lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;I suppose its ok to use {some of&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;a few of} your ideas  
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    site}&lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;I suppose its ok to use {some of&lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt;a few of} your ideas
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
@@ -4723,7 +4723,7 @@ dumbass spammer look even more stupid ;-)&lt;/p&gt;
 ręką). Formować kulki wielkości małego orzecha włoskiego, układać na
 blaszce wyłożonej papierem do pieczenia w niewielkich odległościach
 (trochę urosną). Jeżeli planujemy opcję z dżemem to w każdej kulce
-należy zrobić wgłębienie - ja lekko przyciskałem palcem.&lt;br&gt;
+należy zrobić wgłębienie - ja lekko przyciskałem palcem.
 Piec w temperaturze 180ºC przez 15~20 minut, aż zrobią się złociste.
 Po ostudzeniu wgłębienia napełnić dżemem.&lt;/p&gt;</description>
     </item>
