@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 25 Nov 2025 18:35:46 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 27 Nov 2025 18:39:00 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20 years of Getting Things Done</title>
+      <link>https://gagor.pro/2025/11/20-years-of-getting-things-done/</link>
+      <pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/11/20-years-of-getting-things-done/</guid>
+      <description>Reflections and practical tips from 20 years using Getting Things Done, plus a short workshop plan for leaders who want actionable routines.</description>
+    </item>
     <item>
       <title>Create Markdown presentations with Marp</title>
       <link>https://gagor.pro/2025/11/create-markdown-presentations-with-marp/</link>
