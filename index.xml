@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Thu, 27 Nov 2025 18:39:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 28 Nov 2025 17:03:52 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>20 years of Getting Things Done</title>
@@ -15,6 +15,13 @@
       <pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2025/11/20-years-of-getting-things-done/</guid>
       <description>Reflections and practical tips from 20 years using Getting Things Done, plus a short workshop plan for leaders who want actionable routines.</description>
+    </item>
+    <item>
+      <title>Generating Miniatures for my Frameo Digital Photo Frame</title>
+      <link>https://gagor.pro/2025/11/generating-miniatures-for-my-frameo-digital-photo-frame/</link>
+      <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/11/generating-miniatures-for-my-frameo-digital-photo-frame/</guid>
+      <description>A story of how I bought a digital photo frame, and how I created a tool to generate miniatures of my photo collection to fit them all on the device.</description>
     </item>
     <item>
       <title>Create Markdown presentations with Marp</title>
