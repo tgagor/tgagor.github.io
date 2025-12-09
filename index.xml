@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 09 Dec 2025 19:56:02 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 09 Dec 2025 21:09:54 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shucking WD Elements 20TB</title>
@@ -2231,14 +2231,14 @@
 &lt;/figure&gt;</description>
     </item>
     <item>
-      <title>Perfect Imperfection</title>
+      <title>Perfekcyjna niedoskonałość</title>
       <link>https://gagor.pro/book/2017/perfekcyjna-niedoskonalosc/</link>
       <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/book/2017/perfekcyjna-niedoskonalosc/</guid>
       <description>&lt;figure style=&#34;display:flex;&#34;&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
-         alt=&#34;Cover of book Perfekcyjna niedoskonałość (Perfect Imperfection) by Jacek Dukaj&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
-            &lt;q&gt;Perfekcyjna niedoskonałość (Perfect Imperfection)&lt;/q&gt;&lt;p&gt;Author: Jacek Dukaj&lt;/p&gt;&lt;/figcaption&gt;
+         alt=&#34;Cover of book Perfekcyjna niedoskonałość by Jacek Dukaj&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Perfekcyjna niedoskonałość&lt;/q&gt;&lt;p&gt;Perfect Imperfection&lt;/p&gt;&lt;p&gt;Author: Jacek Dukaj&lt;/p&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;A friend who knows my love for Sci-Fi recommended Jacek Dukaj to me, starting with &lt;a href=&#34;https://gagor.pro/book/2017/extensa/&#34; &gt;&amp;ldquo;Extensa&amp;rdquo;&lt;/a&gt;
@@ -2273,8 +2273,12 @@
       <description>&lt;figure style=&#34;display:flex;&#34;&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Inne pieśni by Jacek Dukaj&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
-            &lt;q&gt;Inne pieśni&lt;/q&gt;&lt;p&gt;Author: Jacek Dukaj&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+            &lt;q&gt;Inne pieśni&lt;/q&gt;&lt;p&gt;Other songs&lt;/p&gt;&lt;p&gt;Author: Jacek Dukaj&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This was the second book by Dukaj I&amp;rsquo;ve read, and in my opinion, it soared past his other work, &lt;a href=&#34;https://gagor.pro/book/2017/extensa/&#34; &gt;&amp;ldquo;Extensa&amp;rdquo;&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;Dukaj has a talent for building entirely new universes from the ground up. This one isn&amp;rsquo;t our familiar, atom-based reality, but a world governed by the metaphysics of Aristotle. Here, everything is composed of five elements, and their unique blend-their &amp;ldquo;Form&amp;rdquo;-defines what they are. It&amp;rsquo;s a fascinating, mind-bending concept to grasp, offering a glimpse into how philosophers perceived the world centuries ago.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Black Hat Python</title>
@@ -2318,7 +2322,9 @@
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Extensa by Jacek Dukaj&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Extensa&lt;/q&gt;&lt;p&gt;Author: Jacek Dukaj&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;This was my first book by Jacek Dukaj. I was talking about sci-fi with a friend, and he recommended I check Dukaj out. He owned a few of his books but handed me this one, being the thinnest, with the words: &amp;ldquo;This one is short, read it completely to understand. You will either love or hate the style, just don&amp;rsquo;t drop it in the middle, or you won&amp;rsquo;t get it.&amp;rdquo; That&amp;rsquo;s how it all started.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wydajność Javy</title>
