@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gagor.pro/</loc>
-    <lastmod>2025-12-12T20:10:03+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2025/11/shucking-wd-elements-20tb/</loc>
     <lastmod>2025-12-02T21:20:55+01:00</lastmod>
@@ -11,7 +11,7 @@
     <priority>1</priority>
   </url><url>
     <loc>https://gagor.pro/2025/11/generating-miniatures-for-my-frameo-digital-photo-frame/</loc>
-    <lastmod>2025-11-28T20:00:00+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
@@ -41,7 +41,7 @@
     <priority>1</priority>
   </url><url>
     <loc>https://gagor.pro/2025/09/crosspost-your-blog-articles-to-social-media/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
@@ -71,7 +71,7 @@
     <priority>1</priority>
   </url><url>
     <loc>https://gagor.pro/2025/08/purge-old-cloudflare-pages-deployments/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
   </url><url>
@@ -121,7 +121,7 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://gagor.pro/2024/04/rising-costs-of-running-legacy-amazon-rds-systems/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -136,7 +136,7 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -146,7 +146,7 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://gagor.pro/2024/03/zed-code-editor-as-an-atom-reincarnation/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -176,17 +176,17 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://gagor.pro/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://gagor.pro/2024/02/adding-mermaid-diagrams-to-hugo/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://gagor.pro/2024/02/how-i-stopped-worrying-and-loved-makefiles/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -196,17 +196,17 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://gagor.pro/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://gagor.pro/2024/01/my-pre-commit-config-for-hugo-blog/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://gagor.pro/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -231,7 +231,7 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://gagor.pro/2024/01/ladne-kwiatki-czyli-wywod-o-pielegnacji-roslin-doniczkowych/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -251,7 +251,7 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://gagor.pro/2023/12/how-to-run-zwift-in-full-screen/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -301,12 +301,12 @@
     <priority>0.8</priority>
   </url><url>
     <loc>https://gagor.pro/2022/06/back-on-the-big-stage/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
     <loc>https://gagor.pro/2022/01/on-slow-decline-of-streaming-services/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url><url>
@@ -321,17 +321,17 @@
     <priority>0.7</priority>
   </url><url>
     <loc>https://gagor.pro/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url><url>
     <loc>https://gagor.pro/2021/11/resize-images-from-command-line-on-macos/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url><url>
     <loc>https://gagor.pro/2021/11/homebrew-uninstall-formula-with-dependencies/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url><url>
@@ -354,7 +354,7 @@
     <priority>0.7</priority>
   </url><url>
     <loc>https://gagor.pro/2021/02/how-to-run-jmx-monitoring-in-docker-image/</loc>
-    <lastmod>2025-11-17T11:49:42+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url><url>
@@ -379,12 +379,12 @@
     <priority>0.7</priority>
   </url><url>
     <loc>https://gagor.pro/author/tom/</loc>
-    <lastmod>2025-12-12T20:10:03+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.1</priority>
   </url><url>
     <loc>https://gagor.pro/2016/07/debuging-commands-running-on-memcached/</loc>
-    <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -404,12 +404,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2016/04/use-bastion-host-with-ansible/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -459,7 +459,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -469,7 +469,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2016/02/prepare-for-dos-like-cloudflare-do/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -484,12 +484,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2016/01/xenserver-export-vm-to-file/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -509,7 +509,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2016/01/lets-encrypt-without-auto-configuration/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -519,7 +519,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -579,12 +579,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2014/04/rebuild-yum-rpm-database/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2014/03/nagios-run-checks-as-root-with-nrpe/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -634,7 +634,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2014/01/nginx-enabling-spdy-with-freeware-certificate/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -659,7 +659,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2014/01/tracking-users-by-nickname-on-wordpress-using-google-analytics/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -779,7 +779,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2013/09/raspberry-pi-pierwsze-kroki/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -829,7 +829,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2013/07/debian-instalacja-bittorrent-sync-btsync/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -844,7 +844,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2013/03/fortigate-vpn-ipsec-psk-xauth-z-androida-4-x/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -859,12 +859,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/12/linux-naprawianie-bad-sectorow/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/12/piwik-sledzenie-asynchroniczne-logowanie-ksywy-komentujacego-w-wordpressie/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -924,12 +924,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/11/prosty-mta-z-heirloom-mailx-i-ssmtp/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/10/nautilus-ukrywanie-lostfound/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -939,12 +939,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/09/piwik-alternatywa-dla-google-analytics/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -954,7 +954,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/09/aktualizacja-debian-squeeze-do-wheezy/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -974,17 +974,17 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/09/listowanie-zasobow-nfs/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</loc>
-    <lastmod>2025-11-15T11:37:46+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/09/unicode-rxvt-moje-ustawienia/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1009,12 +1009,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/06/nginx-konfiguracja-pod-wordpressa/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/06/xen-podstawowe-polecenia/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1024,12 +1024,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/06/xen-konfiguracja-interfejsu-sieciowego-dom0-jako-brdigea-dla-roznych-vlanow/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/06/apache-reverse-proxy-z-cacheowaniem/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1064,12 +1064,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/02/xen-ustawienie-autostartu-domu/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/02/xen-wlaczenie-live-migration/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1084,7 +1084,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/02/xen-na-squeeze-instalacja-i-konfiguracja-hypervisora/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1119,12 +1119,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2012/01/moj-domyslny-config-dla-scite/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1144,12 +1144,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/11/fail2ban-regulki-dla-dovecota/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1159,7 +1159,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/10/sles-11-instalacja-service-packa/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1169,7 +1169,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/09/pflogsumm-mail-statistics-for-postfix/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1179,7 +1179,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/09/magic-sysrq-bezpieczny-reset-linuxa/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1194,22 +1194,22 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/08/jpgraph-wykresy-z-phpa/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/08/konfiguracja-backportow-na-debianie/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1219,17 +1219,17 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/08/certyfikaty-selfsigned/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/08/dynamiczne-ip-i-rble/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1244,7 +1244,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/08/quota-na-katalog-w-xfsie/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1254,7 +1254,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://gagor.pro/2011/08/wlam-na-lokalne-konto-roota/</loc>
-    <lastmod>2025-11-12T20:12:40+01:00</lastmod>
+    <lastmod>2025-12-13T00:06:33+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>

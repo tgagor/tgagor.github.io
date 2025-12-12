@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Fri, 12 Dec 2025 20:10:03 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2025 00:06:33 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Snakes in Suits</title>
@@ -4626,7 +4626,7 @@ dumbass spammer look even more stupid ;-)&lt;/p&gt;
  - when I was still a student. The idea of creating paper lists with tasks seemed a bit crazy to me at the time, but as a geek, I was always on the lookout for apps, and tools that could help.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Piwik: śledzenie asynchroniczne &#43; logowanie ksywy komentującego w WordPress’ie</title>
+      <title>Piwik: śledzenie asynchroniczne &#43; logowanie ksywy komentującego w WordPress&#39;ie</title>
       <link>https://gagor.pro/2012/12/piwik-sledzenie-asynchroniczne-logowanie-ksywy-komentujacego-w-wordpressie/</link>
       <pubDate>Fri, 21 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2012/12/piwik-sledzenie-asynchroniczne-logowanie-ksywy-komentujacego-w-wordpressie/</guid>
@@ -4937,7 +4937,7 @@ herbatniki.&lt;/p&gt;</description>
       <pubDate>Wed, 26 Sep 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2012/09/piwik-alternatywa-dla-google-analytics/</guid>
       <description>&lt;p&gt;Jeśli szukamy statystyk dla strony internetowej i ze względu na jej zawartość (np. sklep, coś ze zwiększonym naciskiem na poufność etc..) nie potrafimy zaufaj wujkowi Googlowi to warto przyglądnąć się Piwikowi.&lt;/p&gt;
-&lt;p&gt;Jest to system statystyk aspirujący do bycia Open Source&amp;rsquo;ową alternatywą dla Google Analytics. Aspirujący (a nie będący) z tego względu że Google przechodząc na domyślny HTTPS (SPDY) dla zalogowanych użytkowników uniemożliwił śledzenie stron z których pochodzą odwiedziny (tzw. refferals) - tym prostym sposobem tylko GA jest w stanie dostarczyć pełnych informacji o wszystkich użytkownikach.&lt;/p&gt;</description>
+&lt;p&gt;Jest to system statystyk aspirujący do bycia Open Source&amp;rsquo;ową alternatywą dla Google Analytics. Aspirujący (a nie będący) z tego względu że Google przechodząc na domyślny HTTPS (SPDY) dla zalogowanych użytkowników uniemożliwił śledzenie stron z których pochodzą odwiedziny (tzw. referrals) - tym prostym sposobem tylko GA jest w stanie dostarczyć pełnych informacji o wszystkich użytkownikach.&lt;/p&gt;</description>
     </item>
     <item>
       <title>mod_rewrite - wymuszenie małych liter w adresie URL</title>
@@ -5089,7 +5089,7 @@ herbatniki.&lt;/p&gt;</description>
       <pubDate>Tue, 19 Jun 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2012/06/xen-podstawowe-polecenia/</guid>
       <description>&lt;p&gt;Pisałem już &lt;a href=&#34;https://gagor.pro/2012/02/xen-na-squeeze-instalacja-i-konfiguracja-hypervisora/&#34; &gt;HOWTO o konfiguracji Xen&amp;rsquo;a&lt;/a&gt;
- ale nie opisałem jak się bawić wirtualkami gdy Xen&amp;rsquo;a już mamy. To nadrabiam.&lt;/p&gt;
+ ale nie opisałem jak się bawić wirtualkami gdy Xen&amp;rsquo;a już mamy. To nadrabiam.&lt;/p&gt;
 &lt;h2 id=&#34;tworzenie-i-usuwanie-maszyn-wirtualnych&#34;&gt;Tworzenie i usuwanie maszyn wirtualnych&lt;/h2&gt;
 &lt;p&gt;Do tworzenia/niszczenia DomU wykorzystuję pakiet xen-tools dostarczający m.in. dwa narzędzia:&lt;/p&gt;
 &lt;ul&gt;
@@ -5780,7 +5780,7 @@ wieczorem by była gotowa na następny dzień).&lt;/p&gt;</description>
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2011/08/dynamiczne-ip-i-rble/</guid>
       <description>&lt;p&gt;Mój serwer pocztowy działa od jakiegoś czasu na dynamicznym IP (dobre bo tanie&amp;hellip;) i przeważnie nie ma z tym problemów. Postarałem się jak mogłem ustawiając SPF&amp;rsquo;a i DomainKeys aby uwiarygodnić go u większych dostawców poczty.&lt;/p&gt;
-&lt;p&gt;Niestety wszystko to diabli biorą w momencie gdy wygasa mi leasse DHCP i dostaję nowe IP po jakimś spamerze/zombiaku. Wisi takie w 2-3 większych RBL&amp;rsquo;ach i o dostarczaniu poczty można zapomnieć. Miło gdy jeszcze zdalny MTA zechce odesłać zwrotkę &amp;ldquo;zróbta coś bo wisisz w RBL&amp;rsquo;u takim a takim&amp;hellip;&amp;rdquo;, ale zdecydowania niefajnie gdy wysyłasz pocztę a ona od razu leci do /dev/null &lt;img src=&#34;https://gagor.pl/wp-includes/images/smilies/frownie.png&#34; alt=&#34;:(&#34; class=&#34;wp-smiley&#34; style=&#34;height: 1em; max-height: 1em;&#34; /&gt;&lt;/p&gt;</description>
+&lt;p&gt;Niestety wszystko to diabli biorą w momencie gdy wygasa mi leasse DHCP i dostaję nowe IP po jakimś spamerze/zombiaku. Wisi takie w 2-3 większych RBL&amp;rsquo;ach i o dostarczaniu poczty można zapomnieć. Miło gdy jeszcze zdalny MTA zechce odesłać zwrotkę &amp;ldquo;zróbta coś bo wisisz w RBL&amp;rsquo;u takim a takim&amp;hellip;&amp;rdquo;, ale zdecydowania niefajnie gdy wysyłasz pocztę a ona od razu leci do &lt;code&gt;/dev/null&lt;/code&gt; &amp;#x1f626;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Klastrowanie sesji PHP z memcached</title>
