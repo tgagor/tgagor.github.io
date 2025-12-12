@@ -97,6 +97,8 @@
 /tag/off-topic/ /categories/off-topic/ 301
 /tag/proc/ /tag/linux/ 301
 /tag/proxy/ /tag/reverse-proxy/ 301
+/tag/rsync/ /tag/backup/
+/tag/snapshot/ /tag/backup/
 /tag/scsi/ /tag/linux/ 301
 /tag/vmstat/ /tag/linux/ 301
 /tag/xcache/ /tag/php/ 301
