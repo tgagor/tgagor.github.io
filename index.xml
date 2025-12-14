@@ -7,13 +7,13 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sun, 14 Dec 2025 16:48:06 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 17:07:03 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>UTC by default on dual-boot PC with Linux and Windows</title>
-      <link>https://gagor.pro/2025/12/utc-by-default-on-dual-boot-pc-with-linux-and-windows/</link>
+      <title>I made Windows use UTC with Linux dual boot (and why You should to)</title>
+      <link>https://gagor.pro/2025/12/i-made-windows-use-utc-with-linux-dual-boot-and-why-you-should-to/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/2025/12/utc-by-default-on-dual-boot-pc-with-linux-and-windows/</guid>
+      <guid>https://gagor.pro/2025/12/i-made-windows-use-utc-with-linux-dual-boot-and-why-you-should-to/</guid>
       <description>&lt;p&gt;I have used Linux for more than 20 years now, and as long as I can remember, dual-booting with Windows has caused troubles with the clock. Windows prefers to set the hardware clock to local time, whereas Linux uses UTC by default. I&amp;rsquo;m 99.9% on Linux now, so it always felt wrong to change Linux defaults to accommodate Windows when I need it maybe a few times per year.&lt;/p&gt;
 &lt;p&gt;Just recently, when I was trying to &lt;a href=&#34;https://serverfault.com/questions/948974/force-systemd-timesyncd-to-sync-time-with-ntp-server-immediately&#34;  target=&#34;_blank&#34;&gt;enforce immediate time synchronization&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
             style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;

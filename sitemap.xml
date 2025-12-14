@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gagor.pro/</loc>
-    <lastmod>2025-12-14T16:48:06+01:00</lastmod>
-  </url><url>
-    <loc>https://gagor.pro/2025/12/utc-by-default-on-dual-boot-pc-with-linux-and-windows/</loc>
-    <lastmod>2025-12-14T16:48:06+01:00</lastmod>
+    <loc>https://gagor.pro/2025/12/i-made-windows-use-utc-with-linux-dual-boot-and-why-you-should-to/</loc>
+    <lastmod>2025-12-14T17:07:03+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
+  </url><url>
+    <loc>https://gagor.pro/</loc>
+    <lastmod>2025-12-14T17:07:03+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2025/11/shucking-wd-elements-20tb/</loc>
     <lastmod>2025-12-02T21:20:55+01:00</lastmod>
