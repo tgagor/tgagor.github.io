@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sat, 13 Dec 2025 01:05:44 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 15:42:35 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Snakes in Suits</title>
@@ -1245,11 +1245,11 @@
         d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
     &lt;/path&gt;
 &lt;/svg&gt;
-            &lt;a href=&#34;https://github.com/tgagor/template-dockerfiles&#34; target=&#34;_blank&#34;&gt;tgagor/template-dockerfiles&lt;/a&gt;
-             - Dockerfile Templater, allowing to simplify building of Docker images at mass
+            &lt;a href=&#34;https://github.com/tgagor/docker-gemini-cli&#34; target=&#34;_blank&#34;&gt;tgagor/docker-gemini-cli&lt;/a&gt;
+             - Gemini CLI wrapped as a Docker image, so you don&amp;#39;t need to trash your OS with Node and it&amp;#39;s dependencies.
             &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/template-dockerfiles?style=flat-square&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/template-dockerfiles?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/docker-gemini-cli?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/docker-gemini-cli?style=flat-square&#34;&gt;
             &lt;/div&gt;
           &lt;/li&gt;
         
@@ -1262,11 +1262,11 @@
         d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
     &lt;/path&gt;
 &lt;/svg&gt;
-            &lt;a href=&#34;https://github.com/tgagor/docker-gemini-cli&#34; target=&#34;_blank&#34;&gt;tgagor/docker-gemini-cli&lt;/a&gt;
-             - Gemini CLI wrapped as a Docker image, so you don&amp;#39;t need to trash your OS with Node and it&amp;#39;s dependencies.
+            &lt;a href=&#34;https://github.com/tgagor/template-dockerfiles&#34; target=&#34;_blank&#34;&gt;tgagor/template-dockerfiles&lt;/a&gt;
+             - Dockerfile Templater, allowing to simplify building of Docker images at mass
             &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/docker-gemini-cli?style=flat-square&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/docker-gemini-cli?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/template-dockerfiles?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/template-dockerfiles?style=flat-square&#34;&gt;
             &lt;/div&gt;
           &lt;/li&gt;
         
@@ -1739,26 +1739,30 @@
       <description>Discover the age and update frequency of various official Docker images, and learn why it&amp;rsquo;s important to keep your base images up to date for security and performance.</description>
     </item>
     <item>
-      <title>Eryk</title>
-      <link>https://gagor.pro/book/2021/eryk/</link>
+      <title>Eric</title>
+      <link>https://gagor.pro/book/2021/eric/</link>
       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/book/2021/eryk/</guid>
+      <guid>https://gagor.pro/book/2021/eric/</guid>
       <description>&lt;figure style=&#34;display:flex;&#34;&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Eryk by Terry Pratchett&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Eryk&lt;/q&gt;&lt;p&gt;Author: Terry Pratchett&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;This felt shorter, almost like a fast-paced novella. It serves as a direct parody of the Faust legend. Eric, a young aspiring demonologist, tries to summon a demon to grant his wishes but ends up summoning the incompetent Rincewind instead. They are then dragged on a journey through time and space to fulfill Eric&amp;rsquo;s wishes: to be ruler of the world, to meet the most beautiful woman who ever lived, and to live forever.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Czarodzicielstwo</title>
-      <link>https://gagor.pro/book/2021/czarodzicielstwo/</link>
+      <title>Sourcery</title>
+      <link>https://gagor.pro/book/2021/sourcery/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/book/2021/czarodzicielstwo/</guid>
+      <guid>https://gagor.pro/book/2021/sourcery/</guid>
       <description>&lt;figure style=&#34;display:flex;&#34;&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Czarodzicielstwo by Terry Pratchett&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Czarodzicielstwo&lt;/q&gt;&lt;p&gt;Author: Terry Pratchett&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;We return to Rincewind, but the tone is slightly darker and more apocalyptic. A &amp;ldquo;Sourcerer&amp;rdquo; is born - a wizard who generates magic rather than just borrowing it from the background field. The book feels like a commentary on power and possibly weapons of mass destruction. Coin, the boy sourcerer, is terrifying not because he is evil, but because he has absolute power with the emotional maturity of a child (and is being manipulated by his dead father). Rincewind is again the reluctant hero, forced to save a world he doesn&amp;rsquo;t particularly like, armed only with a half-brick in a sock.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mort</title>
@@ -1769,7 +1773,9 @@
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Mort by Terry Pratchett&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Mort&lt;/q&gt;&lt;p&gt;Author: Terry Pratchett&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;This is a favorite. Death gets a protagonist role and a personality. He decides he needs an apprentice, Mort, partly to share the workload, but mostly to understand humans better. It&amp;rsquo;s hilarious watching reading about the anthropomorphic personification of Death trying to fry bacon, get drunk, or go fishing to feel &amp;ldquo;alive.&amp;rdquo; But the core story is about Mort messing up the timeline because he felt pity for a princess he was supposed to collect. It&amp;rsquo;s a brilliant balance of humor and very serious stakes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Równoumagicznienie</title>
@@ -1780,29 +1786,38 @@
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Równoumagicznienie by Terry Pratchett&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Równoumagicznienie&lt;/q&gt;&lt;p&gt;Author: Terry Pratchett&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;This felt different from the &lt;a href=&#34;https://gagor.pro/book/2021/the-colour-of-magic/&#34; &gt;first&lt;/a&gt;
+ &lt;a href=&#34;https://gagor.pro/book/2021/the-light-fantastic/&#34; &gt;two&lt;/a&gt;
+. Pratchett shifts focus from the chaos of Rincewind to a more grounded story about gender roles. Eskarina Smith is born a wizard (the eighth child of an eighth son, but&amp;hellip; a girl), which seemingly breaks the universe&amp;rsquo;s rules, as women are supposed to be witches, not wizards. I liked Granny Weatherwax immediately. She&amp;rsquo;s the grounded, &amp;ldquo;headology&amp;rdquo; counterpart to the stuffy, ritualistic wizards of Unseen University. It is less slapstick and more of a satirical social commentary.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Blask fantastyczny</title>
-      <link>https://gagor.pro/book/2021/blask-fantastyczny/</link>
+      <title>The Light Fantastic</title>
+      <link>https://gagor.pro/book/2021/the-light-fantastic/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/book/2021/blask-fantastyczny/</guid>
+      <guid>https://gagor.pro/book/2021/the-light-fantastic/</guid>
       <description>&lt;figure style=&#34;display:flex;&#34;&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Blask fantastyczny by Terry Pratchett&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Blask fantastyczny&lt;/q&gt;&lt;p&gt;Author: Terry Pratchett&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;This direct sequel to &lt;a href=&#34;https://gagor.pro/book/2021/the-colour-of-magic/&#34; &gt;&amp;ldquo;The Colour of Magic&amp;rdquo;&lt;/a&gt;
+ continues the chaotic journey of Rincewind and Twoflower. It felt more cohesive than the first one, driving towards a specific climax involving the ominous Red Star. The humor remains sharp, continually poking fun at the &amp;ldquo;chosen one&amp;rdquo; tropes that dominate the genre. Cohen the Barbarian was a standout for me - an eighty-something hero who still pillages and kills, but complains about his back and the temperature of his soup. It&amp;rsquo;s funny watching a legend age, but guys lives his best life.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Kolor magii</title>
-      <link>https://gagor.pro/book/2021/kolor-magii/</link>
+      <title>The Colour of Magic</title>
+      <link>https://gagor.pro/book/2021/the-colour-of-magic/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/book/2021/kolor-magii/</guid>
+      <guid>https://gagor.pro/book/2021/the-colour-of-magic/</guid>
       <description>&lt;figure style=&#34;display:flex;&#34;&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Kolor magii by Terry Pratchett&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Kolor magii&lt;/q&gt;&lt;p&gt;Author: Terry Pratchett&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;I read this as my first book by Terry Pratchett. A colleague recommended it to me, adding a precaution that if I were &amp;ldquo;a hardcore fantasy reader&amp;rdquo; - I would have to relax a bit, as this takes the whole fantasy genre to a new level. I quickly understood when I started reading - it felt like a joke! It was a satire of the entire fantasy genre, devoid of the usual heroism or pathos. The main character was a &amp;ldquo;lame duck&amp;rdquo;, pathetic at everything he touched. He didn&amp;rsquo;t even need to touch anything - his mere presence was enough to cause the world to collapse around him. It was hilarious, but a lot of fun to read &amp;#x1f604;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bye Bye Wordpress!</title>
