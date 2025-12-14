@@ -7,14 +7,14 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sun, 14 Dec 2025 17:12:11 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 17:17:55 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>I made Windows use UTC with Linux dual boot (and why You should to)</title>
-      <link>https://gagor.pro/2025/12/i-made-windows-use-utc-with-linux-dual-boot-and-why-you-should-to/</link>
+      <title>I made Windows use UTC with Linux dual boot</title>
+      <link>https://gagor.pro/2025/12/i-made-windows-use-utc-with-linux-dual-boot/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/2025/12/i-made-windows-use-utc-with-linux-dual-boot-and-why-you-should-to/</guid>
-      <description>Learn how to configure Windows to use UTC for the hardware clock when dual-booting with Linux, avoiding time synchronization issues and maintaining Linux defaults.</description>
+      <guid>https://gagor.pro/2025/12/i-made-windows-use-utc-with-linux-dual-boot/</guid>
+      <description>Configure Windows to use UTC for the hardware clock when dual-booting with Linux, avoiding time synchronization issues and maintaining Linux defaults.</description>
     </item>
     <item>
       <title>Snakes in Suits</title>
