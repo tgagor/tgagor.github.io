@@ -7,8 +7,34 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sun, 14 Dec 2025 15:59:41 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 16:48:06 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UTC by default on dual-boot PC with Linux and Windows</title>
+      <link>https://gagor.pro/2025/12/utc-by-default-on-dual-boot-pc-with-linux-and-windows/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/12/utc-by-default-on-dual-boot-pc-with-linux-and-windows/</guid>
+      <description>&lt;p&gt;I have used Linux for more than 20 years now, and as long as I can remember, dual-booting with Windows has caused troubles with the clock. Windows prefers to set the hardware clock to local time, whereas Linux uses UTC by default. I&amp;rsquo;m 99.9% on Linux now, so it always felt wrong to change Linux defaults to accommodate Windows when I need it maybe a few times per year.&lt;/p&gt;
+&lt;p&gt;Just recently, when I was trying to &lt;a href=&#34;https://serverfault.com/questions/948974/force-systemd-timesyncd-to-sync-time-with-ntp-server-immediately&#34;  target=&#34;_blank&#34;&gt;enforce immediate time synchronization&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+, I saw that &lt;code&gt;timedatectl&lt;/code&gt; complains about my non-UTC configuration, and I googled it and accidentally spotted a &lt;a href=&#34;https://www.reddit.com/r/linuxquestions/comments/13qwk8r/dual_booting_windows_11_and_linux_every_time_i/&#34;  target=&#34;_blank&#34;&gt;Reddit post&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ about changing Windows behavior and enforcing it to use UTC for the hardware clock.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Snakes in Suits</title>
       <link>https://gagor.pro/book/2025/snakes-in-suits/</link>
