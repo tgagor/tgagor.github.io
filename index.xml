@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 16 Dec 2025 18:47:22 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 19:51:35 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I made Windows use UTC with Linux dual boot</title>
@@ -4600,7 +4600,7 @@ dumbass spammer look even more stupid ;-)&lt;/p&gt;
       <guid>https://gagor.pro/2013/03/fortigate-vpn-ipsec-psk-xauth-z-androida-4-x/</guid>
       <description>&lt;p&gt;Do niedawna na moim telefonie VPN&amp;rsquo;ami były: PPTP lub L2TP - oba niespecjalnie mi się podobały. Ale od wersji 4-tej pojawiły się dwa nowe tryby: IPSec Xauth PSK i IPSec Xauth RSA. W pierwszym autoryzacja wykorzystuje login i hasło, w drugim certyfikaty.&lt;/p&gt;
 &lt;p&gt;Tryb IPSec Xauth PSK jest bardzo wygodny bo łatwo można połączyć go z zewnętrznymi mechanizmami uwierzytelniającymi np. LDAP, Active Directory, itp.&lt;/p&gt;
-&lt;p&gt;Pokażę jak skonfigurować swojego Fortigate&amp;rsquo;a by umożliwić połączenie z telefonów i tabletów na Androidzie 4.x do &amp;ldquo;Intranetu&amp;rdquo;. Większość konfiguracji można przeprowadzić tylko w trybie &lt;strong&gt;CLI&lt;/strong&gt; - zakładam że wiesz jak to zrobić. To co wygodniej można zrobić w trybie WWW to głównie tworzenie reguł dostępu na zaporze.&lt;/p&gt;</description>
+&lt;p&gt;Pokażę jak skonfigurować swojego Fortigate&amp;rsquo;a by umożliwić połączenie z telefonów i tabletów na Androidzie 4.x do &amp;ldquo;Intranetu&amp;rdquo;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Większość konfiguracji można przeprowadzić tylko w trybie &lt;strong&gt;CLI&lt;/strong&gt; - zakładam że wiesz jak to zrobić. To co wygodniej można zrobić w trybie WWW to głównie tworzenie reguł dostępu na zaporze.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nginx - hide server version and name in Server header and error pages</title>
