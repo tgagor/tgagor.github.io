@@ -122,8 +122,8 @@
 /var/www/site1 / 301
 /your-app-name / 301
 # Tag consolidation redirects (auto-generated 2025-12-12)
-/tag/awstats/ /tag/analytics/ 301
 /tag/autoit/ /tag/tools/ 301
+/tag/awstats/ /tag/analytics/ 301
 /tag/badblocks/ /tag/linux/ 301
 /tag/bittorrent/ / 301
 /tag/ca/ /tag/openssl/ 301
@@ -136,19 +136,21 @@
 /tag/fedora/ /tag/linux/ 301
 /tag/ftp/ / 301
 /tag/grub/ /tag/linux/ 301
+/tag/hash/ /tag/rainbow-tables/ 301
 /tag/hbo/ / 301
 /tag/jira/ / 301
 /tag/jpgraph/ / 301
 /tag/lenny/ /tag/debian/ 301
 /tag/letsencrypt/ /tag/openssl/ 301
 /tag/magic-sysrq/ /tag/linux/ 301
+/tag/md5/ /tag/rainbow-tables/ 301
 /tag/mermaid/ /tag/hugo/ 301
 /tag/mod_antiloris/ /tag/apache/ 301
 /tag/mod_auth_basic/ /tag/apache/ 301
 /tag/mod_reqtimeout/ /tag/apache/ 301
-/tag/nfs/ /tag/linux/ 301
 /tag/nautilus/ /tag/linux/ 301
 /tag/netflix/ /tag/off-topic/ 301
+/tag/nfs/ /tag/linux/ 301
 /tag/ogrodnictwo/ /tag/off-topic/ 301
 /tag/open-source/ /tag/off-topic/ 301
 /tag/pflogsumm/ /tag/postfix/ 301
@@ -157,6 +159,7 @@
 /tag/piwik/ /tag/analytics/ 301
 /tag/poczta/ /tag/mail/ 301
 /tag/quota/ /tag/linux/ 301
+/tag/rainbowdb/ /tag/rainbow-tables/ 301
 /tag/raspberry-pi/ /tag/hardware/ 301
 /tag/rblcheck/ /tag/mail/ 301
 /tag/redhat/ /tag/linux/ 301
