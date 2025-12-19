@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Wed, 17 Dec 2025 23:51:21 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 19 Dec 2025 21:12:46 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conventional Commits: Escaping the ZSH &#39;bang&#39; for Git</title>
+      <link>https://gagor.pro/2025/12/conventional-commits-escaping-the-zsh-bang-for-git/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/12/conventional-commits-escaping-the-zsh-bang-for-git/</guid>
+      <description>Fix ZSH &amp;lsquo;illegal modifier&amp;rsquo; errors with Git Conventional Commits by disabling the &lt;code&gt;NO_BANG_HIST&lt;/code&gt; option.</description>
+    </item>
     <item>
       <title>I made Windows use UTC with Linux dual boot</title>
       <link>https://gagor.pro/2025/12/i-made-windows-use-utc-with-linux-dual-boot/</link>
