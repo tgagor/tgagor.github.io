@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gagor.pro/2025/12/conventional-commits-escaping-the-zsh-bang-for-git/</loc>
-    <lastmod>2025-12-19T21:12:46+01:00</lastmod>
+    <loc>https://gagor.pro/</loc>
+    <lastmod>2025-12-19T21:39:18+01:00</lastmod>
+  </url><url>
+    <loc>https://gagor.pro/2025/12/zsh-illegal-modifier-with-git-conventional-commits/</loc>
+    <lastmod>2025-12-19T21:39:18+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1</priority>
-  </url><url>
-    <loc>https://gagor.pro/</loc>
-    <lastmod>2025-12-19T21:12:46+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2025/12/i-made-windows-use-utc-with-linux-dual-boot/</loc>
     <lastmod>2025-12-19T21:12:46+01:00</lastmod>
