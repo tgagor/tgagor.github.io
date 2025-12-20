@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://gagor.pro/</loc>
-    <lastmod>2025-12-20T15:56:21+01:00</lastmod>
+    <lastmod>2025-12-20T16:02:58+01:00</lastmod>
   </url><url>
     <loc>https://gagor.pro/2025/12/zsh-illegal-modifier-with-git-conventional-commits/</loc>
     <lastmod>2025-12-20T12:00:56+01:00</lastmod>
@@ -357,6 +357,11 @@
   </url><url>
     <loc>https://gagor.pro/2021/07/official-centos-8-stream-docker-image-finally-available/</loc>
     <lastmod>2025-11-16T11:12:25+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url><url>
+    <loc>https://gagor.pro/2021/04/building-new-linux-desktop/</loc>
+    <lastmod>2025-12-20T16:02:58+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url><url>
