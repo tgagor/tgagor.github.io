@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sat, 20 Dec 2025 12:00:56 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 15:56:21 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zsh &#39;illegal modifier&#39; with Git Conventional Commits</title>
@@ -1106,6 +1106,13 @@
       <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2022/01/on-slow-decline-of-streaming-services/</guid>
       <description>Explore the slow decline of streaming services like Netflix and HBO, and how the fragmentation of content across multiple platforms affects user experience.</description>
+    </item>
+    <item>
+      <title>I switched to Zsh</title>
+      <link>https://gagor.pro/2021/12/i-switched-to-zsh/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/12/i-switched-to-zsh/</guid>
+      <description>A guide to switching from bash to Zsh, with Oh My Zsh, Powerlevel10k, and useful plugins for a better terminal experience.</description>
     </item>
     <item>
       <title>Projekt Jednorożec</title>
