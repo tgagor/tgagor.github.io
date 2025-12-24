@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 23 Dec 2025 22:06:35 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 10:15:54 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Squashing Docker images with Buildx</title>
+      <link>https://gagor.pro/2025/12/squashing-docker-images-with-buildx/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/12/squashing-docker-images-with-buildx/</guid>
+      <description>Learn how to squash Docker images using Buildx to create smaller, more efficient images by consolidating layers.</description>
+    </item>
     <item>
       <title>Zsh &#39;illegal modifier&#39; with Git Conventional Commits</title>
       <link>https://gagor.pro/2025/12/zsh-illegal-modifier-with-git-conventional-commits/</link>
