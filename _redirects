@@ -12,7 +12,8 @@
 /2024/02/keeping-docker-afloat-best-practices-for-patching-and-deprecating-images/ /2024/02/best-practices-for-patching-and-deprecating-docker-images/ 301
 /2024/02/best-practices-for-patching-and-deprecating-images/ /2024/02/best-practices-for-patching-and-deprecating-docker-images/ 301
 /2024/01/devops-interview-questions/ /2024/01/how-to-interview-devops-candidates/ 301
-/2024/01/ładne-kwiatki-czyli-wywod-o-pielegnacji-roslin-doniczkowych/ /2024/01/ladne-kwiatki-czyli-wywod-o-pielegnacji-roslin-doniczkowych/ 301
+/2024/01/ładne-kwiatki-czyli-wywod-o-pielegnacji-roslin-doniczkowych/ /2024/01/%C5%82adne-kwiatki/ 301
+/2024/01/ladne-kwiatki-czyli-wywod-o-pielegnacji-roslin-doniczkowych/ /2024/01/%C5%82adne-kwiatki/ 301
 /book/2023/48-praw-wladzy/ /book/2023/the-48-laws-of-power/ 301
 /book/2023/how-to-win-friends-influence-people/ /book/2023/how-to-win-friends-and-influence-people/ 301
 /book/2023/jak-zjednac-sobie-ludzi/ /book/2023/how-to-win-friends-and-influence-people/ 301
@@ -24,8 +25,10 @@
 /book/2020/zaczynaj-od-dlaczego/ /book/2022/zaczynaj-od-dlaczego/ 301
 /book/2022/piec-dysfunkcji-pracy-zespołowej/ /book/2022/piec-dysfunkcji-pracy-zespolowej/ 301
 /book/2022/bładza-wszyscy-ale-nie-ja/ /book/2022/bladza-wszyscy-ale-nie-ja/ 301
-/2022/09/use-volume-for-all-mutable-temporary-file-locations /2022/09/best-practices-for-writing-dockerfiles-use-volume-for-all-mutable-temporary-file-locations/ 301
-/2022/09/use-dockerignore /2022/09/best-practices-for-writing-dockerfiles-use-dockerignore/ 301
+/2022/09/use-volume-for-all-mutable-temporary-file-locations /2022/09/docker-best-practices-use-volume-for-temporary-and-mutable-files/ 301
+/2022/09/best-practices-for-writing-dockerfiles-use-volume-for-all-mutable-temporary-file-locations/ /2022/09/docker-best-practices-use-volume-for-temporary-and-mutable-files/ 301
+/2022/09/use-dockerignore /2022/09/docker-best-practices-use-.dockerignore/ 301
+/2022/09/best-practices-for-writing-dockerfiles-use-dockerignore/ /2022/09/docker-best-practices-use-.dockerignore/ 301
 /book/2022/pułapki-myslenia/ /book/2022/pulapki-myslenia/ 301
 /book/2022/are-you-the-one-who-knocks/ /book/2022/czy-jestes-tym-ktory-puka/ 301
 /2022/01/the-slow-decline-of-streaming-services /2022/01/on-slow-decline-of-streaming-services/ 301
@@ -49,6 +52,7 @@
 /2016/07/debuging-commands-running-on-memcached/ /2016/07/debugging-commands-running-on-memcached/ 301
 /2016/02/install-docker-compose/ /2016/02/how-to-install-and-use-docker-compose/ 301
 /2016/02/some-usefull-commands-in-docker/ /2016/02/some-useful-commands-in-docker/ 301
+/2013/12/ansible-dynamicaly-update-etc-hosts-files-on-target-servers/ /2013/12/ansible-dynamicaly-update-/etc/hosts/ 301
 /2013/11/reset-user-password-of-in-your-own-ghost-blog/ /2013/11/reset-user-password-in-your-own-ghost-blog/ 301
 /2012/11/couchdb-automatyczne-kompaktowanie-baz-w-wersji-0-11-x/ /2012/11/automatically-compact-couchdb-databases-in-0-11-x/ 301
 /2011/09/pflogsum-statystyki-poczty-dla-postfixa/ /2011/09/pflogsumm-mail-statistics-for-postfix/ 301
