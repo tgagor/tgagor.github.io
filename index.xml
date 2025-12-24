@@ -1365,23 +1365,6 @@
         d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
     &lt;/path&gt;
 &lt;/svg&gt;
-            &lt;a href=&#34;https://github.com/tgagor/ansible-role-rpi-unifi&#34; target=&#34;_blank&#34;&gt;tgagor/ansible-role-rpi-unifi&lt;/a&gt;
-             - Installs Ubiquiti&amp;#39;s Unifi software on Raspberry Pi
-            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/ansible-role-rpi-unifi?style=flat-square&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/ansible-role-rpi-unifi?style=flat-square&#34;&gt;
-            &lt;/div&gt;
-          &lt;/li&gt;
-        
-      
-        
-          &lt;li &gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
-    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
-    &lt;path
-        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
-    &lt;/path&gt;
-&lt;/svg&gt;
             &lt;a href=&#34;https://github.com/tgagor/docker-chisel&#34; target=&#34;_blank&#34;&gt;tgagor/docker-chisel&lt;/a&gt;
              - Let play with Ubuntu&amp;#39;s Chisel tool for minimal Docker images
             &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
@@ -1666,30 +1649,6 @@
         &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 40 30&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
           &lt;path d=&#34;M37.413,12.315c-0.933,-0.627 -3.382,-0.896 -5.163,-0.415c-0.097,-1.774 -1.012,-3.27 -2.685,-4.573l-0.619,-0.416l-0.414,0.624c-0.811,1.232 -1.153,2.873 -1.032,4.366c0.095,0.92 0.415,1.953 1.032,2.703c-2.318,1.345 -4.455,1.039 -13.919,1.039l-14.61,0c-0.042,2.137 0.302,6.248 2.915,9.593c0.289,0.37 0.604,0.727 0.948,1.072c2.126,2.128 5.336,3.689 10.138,3.693c7.325,0.007 13.601,-3.953 17.419,-13.527c1.257,0.02 4.572,0.225 6.195,-2.911c0.039,-0.052 0.413,-0.831 0.413,-0.831l-0.618,-0.415l0,-0.002Zm-27.875,-1.953l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm-21.232,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,-5.19l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm0,-5.19l-4.108,0l-0,4.109l4.108,-0l0,-4.109Z&#34;/&gt;
         &lt;/svg&gt;
-        &lt;a href=&#34;https://hub.docker.com/r/tgagor/packtpublishingfreelearning&#34; target=&#34;_blank&#34;&gt;tgagor/packtpublishingfreelearning&lt;/a&gt;
-         - Ready to run container with code from: https://github.com/igbt6/Packt-Publishing-Free-Learning
-        &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
-          &lt;img src=&#34;https://img.shields.io/docker/stars/tgagor/packtpublishingfreelearning?style=flat-square&#34; alt=&#34;Docker Stars&#34;&gt;
-          &lt;img src=&#34;https://img.shields.io/docker/pulls/tgagor/packtpublishingfreelearning?style=flat-square&#34; alt=&#34;Docker Pulls&#34;&gt;
-        &lt;/div&gt;
-      &lt;/li&gt;
-      
-      &lt;li&gt;
-        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 40 30&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
-          &lt;path d=&#34;M37.413,12.315c-0.933,-0.627 -3.382,-0.896 -5.163,-0.415c-0.097,-1.774 -1.012,-3.27 -2.685,-4.573l-0.619,-0.416l-0.414,0.624c-0.811,1.232 -1.153,2.873 -1.032,4.366c0.095,0.92 0.415,1.953 1.032,2.703c-2.318,1.345 -4.455,1.039 -13.919,1.039l-14.61,0c-0.042,2.137 0.302,6.248 2.915,9.593c0.289,0.37 0.604,0.727 0.948,1.072c2.126,2.128 5.336,3.689 10.138,3.693c7.325,0.007 13.601,-3.953 17.419,-13.527c1.257,0.02 4.572,0.225 6.195,-2.911c0.039,-0.052 0.413,-0.831 0.413,-0.831l-0.618,-0.415l0,-0.002Zm-27.875,-1.953l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm-21.232,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,-5.19l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm0,-5.19l-4.108,0l-0,4.109l4.108,-0l0,-4.109Z&#34;/&gt;
-        &lt;/svg&gt;
-        &lt;a href=&#34;https://hub.docker.com/r/tgagor/centos-stream&#34; target=&#34;_blank&#34;&gt;tgagor/centos-stream&lt;/a&gt;
-         - There&amp;#39;s no official image for CentOS 8 Stream - so I prepared it, something for early adopters
-        &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
-          &lt;img src=&#34;https://img.shields.io/docker/stars/tgagor/centos-stream?style=flat-square&#34; alt=&#34;Docker Stars&#34;&gt;
-          &lt;img src=&#34;https://img.shields.io/docker/pulls/tgagor/centos-stream?style=flat-square&#34; alt=&#34;Docker Pulls&#34;&gt;
-        &lt;/div&gt;
-      &lt;/li&gt;
-      
-      &lt;li&gt;
-        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 40 30&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
-          &lt;path d=&#34;M37.413,12.315c-0.933,-0.627 -3.382,-0.896 -5.163,-0.415c-0.097,-1.774 -1.012,-3.27 -2.685,-4.573l-0.619,-0.416l-0.414,0.624c-0.811,1.232 -1.153,2.873 -1.032,4.366c0.095,0.92 0.415,1.953 1.032,2.703c-2.318,1.345 -4.455,1.039 -13.919,1.039l-14.61,0c-0.042,2.137 0.302,6.248 2.915,9.593c0.289,0.37 0.604,0.727 0.948,1.072c2.126,2.128 5.336,3.689 10.138,3.693c7.325,0.007 13.601,-3.953 17.419,-13.527c1.257,0.02 4.572,0.225 6.195,-2.911c0.039,-0.052 0.413,-0.831 0.413,-0.831l-0.618,-0.415l0,-0.002Zm-27.875,-1.953l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm-21.232,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,-5.19l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm0,-5.19l-4.108,0l-0,4.109l4.108,-0l0,-4.109Z&#34;/&gt;
-        &lt;/svg&gt;
         &lt;a href=&#34;https://hub.docker.com/r/tgagor/chisel&#34; target=&#34;_blank&#34;&gt;tgagor/chisel&lt;/a&gt;
          - Cannonical&amp;#39;s Chisel tool &amp;#43; Releases
         &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
@@ -1719,30 +1678,6 @@
         &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
           &lt;img src=&#34;https://img.shields.io/docker/stars/tgagor/gemini-cli?style=flat-square&#34; alt=&#34;Docker Stars&#34;&gt;
           &lt;img src=&#34;https://img.shields.io/docker/pulls/tgagor/gemini-cli?style=flat-square&#34; alt=&#34;Docker Pulls&#34;&gt;
-        &lt;/div&gt;
-      &lt;/li&gt;
-      
-      &lt;li&gt;
-        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 40 30&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
-          &lt;path d=&#34;M37.413,12.315c-0.933,-0.627 -3.382,-0.896 -5.163,-0.415c-0.097,-1.774 -1.012,-3.27 -2.685,-4.573l-0.619,-0.416l-0.414,0.624c-0.811,1.232 -1.153,2.873 -1.032,4.366c0.095,0.92 0.415,1.953 1.032,2.703c-2.318,1.345 -4.455,1.039 -13.919,1.039l-14.61,0c-0.042,2.137 0.302,6.248 2.915,9.593c0.289,0.37 0.604,0.727 0.948,1.072c2.126,2.128 5.336,3.689 10.138,3.693c7.325,0.007 13.601,-3.953 17.419,-13.527c1.257,0.02 4.572,0.225 6.195,-2.911c0.039,-0.052 0.413,-0.831 0.413,-0.831l-0.618,-0.415l0,-0.002Zm-27.875,-1.953l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm-21.232,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,-5.19l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm0,-5.19l-4.108,0l-0,4.109l4.108,-0l0,-4.109Z&#34;/&gt;
-        &lt;/svg&gt;
-        &lt;a href=&#34;https://hub.docker.com/r/tgagor/wp-cli&#34; target=&#34;_blank&#34;&gt;tgagor/wp-cli&lt;/a&gt;
-         - Image providing wp-cli tool.
-        &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
-          &lt;img src=&#34;https://img.shields.io/docker/stars/tgagor/wp-cli?style=flat-square&#34; alt=&#34;Docker Stars&#34;&gt;
-          &lt;img src=&#34;https://img.shields.io/docker/pulls/tgagor/wp-cli?style=flat-square&#34; alt=&#34;Docker Pulls&#34;&gt;
-        &lt;/div&gt;
-      &lt;/li&gt;
-      
-      &lt;li&gt;
-        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 40 30&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
-          &lt;path d=&#34;M37.413,12.315c-0.933,-0.627 -3.382,-0.896 -5.163,-0.415c-0.097,-1.774 -1.012,-3.27 -2.685,-4.573l-0.619,-0.416l-0.414,0.624c-0.811,1.232 -1.153,2.873 -1.032,4.366c0.095,0.92 0.415,1.953 1.032,2.703c-2.318,1.345 -4.455,1.039 -13.919,1.039l-14.61,0c-0.042,2.137 0.302,6.248 2.915,9.593c0.289,0.37 0.604,0.727 0.948,1.072c2.126,2.128 5.336,3.689 10.138,3.693c7.325,0.007 13.601,-3.953 17.419,-13.527c1.257,0.02 4.572,0.225 6.195,-2.911c0.039,-0.052 0.413,-0.831 0.413,-0.831l-0.618,-0.415l0,-0.002Zm-27.875,-1.953l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm-21.232,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,-5.19l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm0,-5.19l-4.108,0l-0,4.109l4.108,-0l0,-4.109Z&#34;/&gt;
-        &lt;/svg&gt;
-        &lt;a href=&#34;https://hub.docker.com/r/tgagor/unifi-controller&#34; target=&#34;_blank&#34;&gt;tgagor/unifi-controller&lt;/a&gt;
-        
-        &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
-          &lt;img src=&#34;https://img.shields.io/docker/stars/tgagor/unifi-controller?style=flat-square&#34; alt=&#34;Docker Stars&#34;&gt;
-          &lt;img src=&#34;https://img.shields.io/docker/pulls/tgagor/unifi-controller?style=flat-square&#34; alt=&#34;Docker Pulls&#34;&gt;
         &lt;/div&gt;
       &lt;/li&gt;
       
