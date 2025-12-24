@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Wed, 24 Dec 2025 10:19:31 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 11:25:47 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do not respond in anger</title>
+      <link>https://gagor.pro/2025/12/do-not-respond-in-anger/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/12/do-not-respond-in-anger/</guid>
+      <description>Responding in anger undermines leadership. Learn how managing emotions leads to better decisions and healthier team dynamics.</description>
+    </item>
     <item>
       <title>Squashing Docker images with Buildx</title>
       <link>https://gagor.pro/2025/12/squashing-docker-images-with-buildx/</link>
