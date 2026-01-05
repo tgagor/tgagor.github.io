@@ -52,7 +52,7 @@ Osobiście korzystam z LVM&rsquo;a który zgodnie z hint&rsquo;em jest znacznie 
 </span></span><span style=display:flex><span>pygrub=1
 </span></span><span style=display:flex><span>role = pygrub, myconfig
 </span></span></code></pre></div><p>Ta opcja powoduje że DomU będzie posiadać własny kernel, który może być aktualizowany niezależnie od kernela hypervisora. Włączenie tej opcji wymaga dodatkowej roli (pygrub) która zainstaluje wymagane pakiety, etc. Niestety roli tej nie ma w standardowej instalacji więc zamieszczam poniżej plik znaleziony w sieci. Edytujemy plik <code>/etc/xen-tools/role.d/pygrub</code>:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#!/bin/sh
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#75715e>#</span>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>#</span>
 </span></span><span style=display:flex><span><span style=color:#75715e>#  Configure the new image to be suitable for booting via pygrub</span>
 </span></span><span style=display:flex><span><span style=color:#75715e>#</span>
 </span></span><span style=display:flex><span><span style=color:#75715e># Wejn</span>
@@ -112,7 +112,7 @@ Osobiście korzystam z LVM&rsquo;a który zgodnie z hint&rsquo;em jest znacznie 
 </span></span><span style=display:flex><span>initrd          /boot/$RD
 </span></span><span style=display:flex><span>EOF
 </span></span></code></pre></div><p>Jeżeli na DomU mamy zamiar główny system plików sformatować jako XFS to pygrub nie będzie potrafił się z niego zbootować - dobrze za to działa z ext3 i ext4.</p><h2 id=rola-myconfig-do-wstępnej-konfiguracji-systemu-domu>Rola myconfig do wstępnej konfiguracji systemu DomU<a hidden class=anchor aria-hidden=true href=#rola-myconfig-do-wstępnej-konfiguracji-systemu-domu>#</a></h2><p>Rola myconfig to mój własny zestaw skryptów, który konfiguruje DomU w taki sposób jak lubię - bym nie musiał każdorazowo tracić czasu na ustawienie nowego systemu pod siebie. Zawartość poniżej:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e>#!/bin/sh
-</span></span></span><span style=display:flex><span><span style=color:#75715e></span><span style=color:#75715e>#</span>
+</span></span></span><span style=display:flex><span><span style=color:#75715e>#</span>
 </span></span><span style=display:flex><span><span style=color:#75715e>#  Configure DomU to my needs</span>
 </span></span><span style=display:flex><span><span style=color:#75715e>#</span>
 </span></span><span style=display:flex><span><span style=color:#75715e># Tomasz Gagor</span>
