@@ -185,6 +185,11 @@
 /tag/zenbook/ /tag/hardware/ 301
 /tag/zwift/ /tag/off-topic/ 301
 
+# keep the listing pages
+/books/ /books/ 200
+/tags/ /tags/ 200
+/categories/ /categories/ 200
+
 # Category migration redirects (2026-01-05)
 /category/howto/* /category/engineering/:splat 301
 /category/tip/* /category/engineering/:splat 301
@@ -194,10 +199,6 @@
 /category/gotowanie/* /tag/cooking/:splat 301
 /category/gardening/* /category/beyond-engineering/:splat 301
 
-# keep the listing pages
-/books/ /books/ 200
-/tags/ /tags/ 200
-/categories/ /categories/ 200
 # redirect only sub-pages
 /books/* /book/:splat 301
 /tags/* /tag/:splat 301
