@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sun, 04 Jan 2026 17:37:15 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Practical guide to building a parser in Go</title>
@@ -1389,6 +1389,23 @@
         
       
         
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/frameo-miniatures&#34; target=&#34;_blank&#34;&gt;tgagor/frameo-miniatures&lt;/a&gt;
+             - A fast, efficient CLI tool to prepare and optimize photo collections for Frameo digital photo frames.
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/frameo-miniatures?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/frameo-miniatures?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        
+      
+        
       
         
       
@@ -1534,23 +1551,6 @@
           &lt;/li&gt;
         
       
-        
-      
-        
-          &lt;li &gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
-    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
-    &lt;path
-        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
-    &lt;/path&gt;
-&lt;/svg&gt;
-            &lt;a href=&#34;https://github.com/tgagor/frameo-miniatures&#34; target=&#34;_blank&#34;&gt;tgagor/frameo-miniatures&lt;/a&gt;
-             - A fast, efficient CLI tool to prepare and optimize photo collections for Frameo digital photo frames.
-            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/frameo-miniatures?style=flat-square&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/frameo-miniatures?style=flat-square&#34;&gt;
-            &lt;/div&gt;
-          &lt;/li&gt;
         
       
         

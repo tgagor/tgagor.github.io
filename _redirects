@@ -184,6 +184,16 @@
 /tag/zed/ /tag/tools/ 301
 /tag/zenbook/ /tag/hardware/ 301
 /tag/zwift/ /tag/off-topic/ 301
+
+# Category migration redirects (2026-01-05)
+/category/howto/* /category/engineering/:splat 301
+/category/tip/* /category/engineering/:splat 301
+/category/projects/* /category/engineering/:splat 301
+/category/workshop/* /category/human-factors/:splat 301
+/category/off-topic/* /category/beyond-engineering/:splat 301
+/category/gotowanie/* /tag/cooking/:splat 301
+/category/gardening/* /category/beyond-engineering/:splat 301
+
 # keep the listing pages
 /books/ /books/ 200
 /tags/ /tags/ 200
