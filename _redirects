@@ -187,8 +187,9 @@
 
 # keep the listing pages
 /books/ /books/ 200
-/tags/ /tags/ 200
-/categories/ /categories/ 200
+
+# redirect only sub-pages
+/books/* /bookshelf/ 301
 
 # Category migration redirects (2026-01-05)
 /category/howto/* /category/engineering/:splat 301
@@ -198,8 +199,3 @@
 /category/off-topic/* /category/beyond-engineering/:splat 301
 /category/gotowanie/* /tag/cooking/:splat 301
 /category/gardening/* /category/beyond-engineering/:splat 301
-
-# redirect only sub-pages
-/books/* /book/:splat 301
-/tags/* /tag/:splat 301
-/categories/* /category/:splat 301
