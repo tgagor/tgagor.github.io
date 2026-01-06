@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.154.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 06 Jan 2026 13:52:16 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 15:00:02 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Practical guide to building a parser in Go</title>
@@ -2255,15 +2255,19 @@
 &lt;/figure&gt;</description>
     </item>
     <item>
-      <title>Pragmatyczny programista</title>
-      <link>https://gagor.pro/book/2017/pragmatyczny-programista/</link>
+      <title>The Pragmatic Programmer</title>
+      <link>https://gagor.pro/book/2017/the-pragmatic-programmer/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/book/2017/pragmatyczny-programista/</guid>
+      <guid>https://gagor.pro/book/2017/the-pragmatic-programmer/</guid>
       <description>&lt;figure style=&#34;display:flex;&#34;&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Pragmatyczny programista by Andrew Hunt, David Thomas&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Pragmatyczny programista&lt;/q&gt;&lt;p&gt;Od czeladnika do mistrza&lt;/p&gt;&lt;p&gt;Authors: Andrew Hunt,  David Thomas&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;I first read this book almost 10 years ago, but didn&amp;rsquo;t write a proper review at the time. Over the recent Christmas break, I revisited it and &lt;a href=&#34;https://gagor.pro/2026/01/a-practical-guide-to-building-a-parser-in-go/&#34; &gt;gave it a second read which resulted in bit of Go programming&lt;/a&gt;
+ &amp;#x1f601;.&lt;/p&gt;
+&lt;p&gt;Reading it in 2025, you can feel the book is dated. The authors are enthusiastic about Java and CORBA&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, and use Perl for daily tasks. Even though I did similar things around 2015, my workflow has changed since then. Newer tools and architectures have made things even simpler.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Perfekcyjna niedoskonałość</title>
