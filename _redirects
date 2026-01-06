@@ -110,7 +110,7 @@
 /tag/io-wait/ /tag/linux/ 301
 /tag/iostat/ /tag/linux/ 301
 /tag/iotop/ /tag/linux/ 301
-/tag/off-topic/ /categories/off-topic/ 301
+/tag/off-topic/ /category/beyond-engineering/ 301
 /tag/proc/ /tag/linux/ 301
 /tag/proxy/ /tag/reverse-proxy/ 301
 /tag/rsync/ /tag/backup/
@@ -158,10 +158,10 @@
 /tag/mod_auth_basic/ /tag/apache/ 301
 /tag/mod_reqtimeout/ /tag/apache/ 301
 /tag/nautilus/ /tag/linux/ 301
-/tag/netflix/ /tag/off-topic/ 301
+/tag/netflix/ /category/beyond-engineering/ 301
 /tag/nfs/ /tag/linux/ 301
-/tag/ogrodnictwo/ /tag/off-topic/ 301
-/tag/open-source/ /tag/off-topic/ 301
+/tag/ogrodnictwo/ /category/beyond-engineering/ 301
+/tag/open-source/ /category/engineering/ 301
 /tag/pflogsumm/ /tag/postfix/ 301
 /tag/photos/ /tag/hardware/ 301
 /tag/pipewire/ /tag/linux/ 301
@@ -184,7 +184,7 @@
 /tag/vagrant/ /tag/tools/ 301
 /tag/zed/ /tag/tools/ 301
 /tag/zenbook/ /tag/hardware/ 301
-/tag/zwift/ /tag/off-topic/ 301
+/tag/zwift/ /tag/gaming/ 301
 
 # redirect only sub-pages
 /books/* /bookshelf/ 301
