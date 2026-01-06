@@ -185,9 +185,6 @@
 /tag/zenbook/ /tag/hardware/ 301
 /tag/zwift/ /tag/off-topic/ 301
 
-# keep the listing pages
-/books/ /books/ 200
-
 # redirect only sub-pages
 /books/* /bookshelf/ 301
 
