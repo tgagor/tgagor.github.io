@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.154.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 06 Jan 2026 17:39:07 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 19:39:44 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Practical guide to building a parser in Go</title>
@@ -2598,15 +2598,19 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Docker won&amp;rsquo;t remove any old volumes used by containers, so after some time you may be interested in deleting them all:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Ruby</title>
-      <link>https://gagor.pro/book/2016/ruby/</link>
+      <title>Design Patterns in Ruby</title>
+      <link>https://gagor.pro/book/2016/design-patterns-in-ruby/</link>
       <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/book/2016/ruby/</guid>
+      <guid>https://gagor.pro/book/2016/design-patterns-in-ruby/</guid>
       <description>&lt;figure style=&#34;display:flex;&#34;&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Ruby by Russ Olsen&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Ruby&lt;/q&gt;&lt;p&gt;Wzorce projektowe&lt;/p&gt;&lt;p&gt;Author: Russ Olsen&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;My adventure with Ruby books started with &lt;a href=&#34;https://gagor.pro/book/2015/the-ruby-programming-language/&#34; &gt;&amp;ldquo;The Ruby Programming Language&amp;rdquo;&lt;/a&gt;
+. To be honest, it wasn&amp;rsquo;t quite what I was looking for at the time. But &amp;ldquo;Design Patterns in Ruby&amp;rdquo; filled that gap perfectly.&lt;/p&gt;
+&lt;p&gt;It provides a quick and effective introduction to the language, which is perfect if you&amp;rsquo;re already familiar with another programming language and don&amp;rsquo;t need a primer on the basics. The book then iteratively explores various programming problems and presents idiomatic Ruby solutions. I particularly enjoyed the section on composition versus inheritance, which clarified why building deep object hierarchies isn&amp;rsquo;t always the best approach. That was a lightbulb moment for me; I finally grasped the benefits of interfaces and felt like I&amp;rsquo;d become a more capable developer after reading it. The examples were clear and the exercises were engaging.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sztuka podstępu</title>
@@ -3115,15 +3119,17 @@
 &lt;p&gt;I read The Girl with the Dragon Tattoo quite a while ago, back when everyone seemed to be talking about it. The hype was real - and I could see why. It’s a solid crime story with a dark edge, and I especially enjoyed the touches of hacking and cyber intrigue. Sure, the tech parts weren’t always realistic, but they still hit a certain vibe that I appreciated.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Ruby</title>
-      <link>https://gagor.pro/book/2015/ruby/</link>
+      <title>The Ruby Programming Language</title>
+      <link>https://gagor.pro/book/2015/the-ruby-programming-language/</link>
       <pubDate>Thu, 13 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/book/2015/ruby/</guid>
+      <guid>https://gagor.pro/book/2015/the-ruby-programming-language/</guid>
       <description>&lt;figure style=&#34;display:flex;&#34;&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Ruby by &#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Ruby&lt;/q&gt;&lt;p&gt;Programowanie&lt;/p&gt;&lt;p&gt;Authors: David Flanagan,  Yukihiro Matsumoto&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;I picked up this book, co-authored by Ruby creator Yukihiro &amp;ldquo;Matz&amp;rdquo; Matsumoto, to learn Ruby for my work with Chef. As a deep dive into the language&amp;rsquo;s internals, it brilliantly explains why Ruby is a top choice for creating Domain-Specific Languages (DSLs) like those used in Vagrant and Chef. The book meticulously covers the language&amp;rsquo;s core, which gave me a solid understanding of its architecture.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GIT</title>
