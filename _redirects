@@ -191,9 +191,16 @@
 
 # Category migration redirects (2026-01-05)
 /category/howto/* /category/engineering/:splat 301
+/categories/howto/* /category/engineering/:splat 301
 /category/tip/* /category/engineering/:splat 301
+/categories/tip/* /category/engineering/:splat 301
 /category/projects/* /category/engineering/:splat 301
+/categories/projects/* /category/engineering/:splat 301
 /category/workshop/* /category/human-factors/:splat 301
+/categories/workshop/* /category/human-factors/:splat 301
 /category/off-topic/* /category/beyond-engineering/:splat 301
+/categories/off-topic/* /category/beyond-engineering/:splat 301
 /category/gotowanie/* /tag/cooking/:splat 301
+/categories/gotowanie/* /tag/cooking/:splat 301
 /category/gardening/* /category/beyond-engineering/:splat 301
+/categories/gardening/* /category/beyond-engineering/:splat 301
