@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.154.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 06 Jan 2026 17:17:09 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 17:38:20 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Practical guide to building a parser in Go</title>
@@ -1033,15 +1033,18 @@
       <description>Learn best practices for writing Dockerfiles to create efficient, secure, and maintainable Docker images, based on real-world experience and insights.</description>
     </item>
     <item>
-      <title>Pułapki myślenia</title>
-      <link>https://gagor.pro/book/2022/pulapki-myslenia/</link>
+      <title>Thinking, Fast and Slow</title>
+      <link>https://gagor.pro/book/2022/thinking-fast-and-slow/</link>
       <pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/book/2022/pulapki-myslenia/</guid>
+      <guid>https://gagor.pro/book/2022/thinking-fast-and-slow/</guid>
       <description>&lt;figure style=&#34;display:flex;&#34;&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Pułapki myślenia by Daniel Kahneman&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Pułapki myślenia&lt;/q&gt;&lt;p&gt;O myśleniu szybkim i wolnym&lt;/p&gt;&lt;p&gt;Author: Daniel Kahneman&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;I read the Polish translation of this book. It&amp;rsquo;s considered a classic in its field and might be an interesting read if you&amp;rsquo;re a psychology student or enthusiast. However, if you&amp;rsquo;re looking for a practical guide to improving your thinking skills, there are more concise books available.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is the book about?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The three-body problem</title>
