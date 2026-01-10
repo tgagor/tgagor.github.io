@@ -207,3 +207,7 @@
 /categories/gotowanie/* /tag/cooking/:splat 301
 /category/gardening/* /category/beyond-engineering/:splat 301
 /categories/gardening/* /category/beyond-engineering/:splat 301
+
+# Fediverse handle
+/.well-known/host-meta* https://fed.brid.gy/.well-known/host-meta:splat 302
+/.well-known/webfinger* https://fed.brid.gy/.well-known/webfinger:splat 302
