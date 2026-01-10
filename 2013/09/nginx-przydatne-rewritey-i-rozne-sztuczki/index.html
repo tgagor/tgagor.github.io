@@ -13,47 +13,47 @@ Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego ad
 </span></span><span style=display:flex><span>    <span style=color:#f92672>server_name</span> <span style=color:#e6db74>old-domain.com</span> <span style=color:#e6db74>www.old-domain.com</span>;
 </span></span><span style=display:flex><span>    <span style=color:#f92672>return</span> <span style=color:#ae81ff>301</span> $scheme://www.new-domain.com$request_uri;
 </span></span><span style=display:flex><span>    <span style=color:#75715e># rewrite ^ $scheme://www.new-domain.com$request_uri? permanent;
-</span></span></span><span style=display:flex><span>    <span style=color:#75715e># or
-</span></span></span><span style=display:flex><span>    <span style=color:#75715e># rewrite ^ $scheme://www.new-domain.com? permanent;
-</span></span></span><span style=display:flex><span>}
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#75715e># or
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#75715e># rewrite ^ $scheme://www.new-domain.com? permanent;
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>}
 </span></span></code></pre></div><p>Wykorzystanie return w tej sytuacji jest nieco bardziej optymalne gdyż nie angażuje w ogóle silnika REGEXP a w tej sytuacji jest wystarczające.<br>Pierwsza linia z rewrite i $request_uri spowoduje przepisywanie też parametrów wywołań do nowej lokalizacji co jest jak najbardziej sensowne gdy pomimo domeny nie zmieniła się zbytnio struktura strony.</p><p>Jeśli strona jednak się zmieniła to możemy zdecydować o przekierowaniu bez parametrów - po prostu na główną stronę - i to robi druga linia.</p><p>W obu przypadkach parametr <code>permanent</code> nakazuje użycie kodu przekierowania HTTP 301 (Moved Permanently), co ułatwi zorientowanie się crawlerom że ta zmiana jest już na stałe.</p><h2 id=dodanie-www-na-początku-domeny>Dodanie WWW na początku domeny<a hidden class=anchor aria-hidden=true href=#dodanie-www-na-początku-domeny>#</a></h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=display:flex><span><span style=color:#66d9ef>server</span> {
 </span></span><span style=display:flex><span>    <span style=color:#f92672>listen</span> <span style=color:#ae81ff>80</span>;
 </span></span><span style=display:flex><span>    <span style=color:#f92672>server_name</span> <span style=color:#e6db74>domaim.com</span>;
 </span></span><span style=display:flex><span>    <span style=color:#f92672>return</span> <span style=color:#ae81ff>301</span> $scheme://www.domain.com$request_uri;
 </span></span><span style=display:flex><span>    <span style=color:#75715e>#rewrite ^ $scheme://www.domain.com$request_uri? permanent;
-</span></span></span><span style=display:flex><span>    <span style=color:#75715e># or
-</span></span></span><span style=display:flex><span>    <span style=color:#75715e>#rewrite ^(.*)$ $scheme://www.domain.com$1 permanent;
-</span></span></span><span style=display:flex><span>}
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#75715e># or
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#75715e>#rewrite ^(.*)$ $scheme://www.domain.com$1 permanent;
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>}
 </span></span></code></pre></div><p>Przykład zakomentowany jest według dokumentacji mniej optymalny ale również zadziała. Reszta jest prosta i samoopisująca się &#x1f603;</p><p>A to jeszcze bardziej ogólna wersja dla wielu domen:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=display:flex><span><span style=color:#66d9ef>server</span> {
 </span></span><span style=display:flex><span>    <span style=color:#f92672>listen</span> 195.117.254.80:<span style=color:#ae81ff>80</span>;
 </span></span><span style=display:flex><span>    <span style=color:#f92672>server_name</span> <span style=color:#e6db74>domain.pl</span> <span style=color:#e6db74>domain.eu</span> <span style=color:#e6db74>domain.com</span>;
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>return</span> <span style=color:#ae81ff>301</span> $scheme://www.$http_host$request_uri;
 </span></span><span style=display:flex><span>    <span style=color:#75715e>#rewrite ^ $scheme://www.$http_host$request_uri? permanent;
-</span></span></span><span style=display:flex><span>}
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>}
 </span></span></code></pre></div><p>Ta wersja wykorzystuje zmienną <code>$http_host</code> do przekierowania na domenę z zapytania (zmienna ta zawiera też numer portu jeśli jest niestandardowy np. 8080, w przeciwieństwie do zmiennej <code>$host</code>, która zawiera tylko domenę).</p><h2 id=usunięcie-www-z-początku-domeny>Usunięcie WWW z początku domeny<a hidden class=anchor aria-hidden=true href=#usunięcie-www-z-początku-domeny>#</a></h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=display:flex><span><span style=color:#66d9ef>server</span> {
 </span></span><span style=display:flex><span>    <span style=color:#f92672>listen</span> <span style=color:#ae81ff>80</span>;
 </span></span><span style=display:flex><span>    <span style=color:#f92672>server_name</span> <span style=color:#e6db74>www.domain.com</span>;
 </span></span><span style=display:flex><span>    <span style=color:#f92672>return</span> <span style=color:#ae81ff>301</span> $scheme://domain.com$request_uri;
 </span></span><span style=display:flex><span>    <span style=color:#75715e>#rewrite ^ $scheme://domain.com$request_uri? permanent;
-</span></span></span><span style=display:flex><span>}
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>}
 </span></span></code></pre></div><p>Czasami może się przydać jeszcze inny kawałek, gdy strona działa na wielu domenach i chcemy przekierować wszystkie:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=display:flex><span><span style=color:#66d9ef>server</span> {
 </span></span><span style=display:flex><span>    <span style=color:#f92672>server_name</span> <span style=color:#e6db74>www.domain.com</span> <span style=color:#e6db74>_</span> ;
 </span></span><span style=display:flex><span>    <span style=color:#75715e># server_name www.domain1.com www.domain2.com www.domain3.eu www.domain.etc.com;
-</span></span></span><span style=display:flex><span>
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
 </span></span><span style=display:flex><span>    <span style=color:#f92672>if</span> <span style=color:#e6db74>(</span>$host ~<span style=color:#e6db74>*</span> <span style=color:#e6db74>www\.(.*))</span> {
 </span></span><span style=display:flex><span>        <span style=color:#f92672>set</span> $pure_host $1;
 </span></span><span style=display:flex><span>        <span style=color:#f92672>return</span> <span style=color:#ae81ff>301</span> $scheme://$pure_host$request_uri;
 </span></span><span style=display:flex><span>        <span style=color:#75715e>#rewrite ^ $scheme://$pure_host$request_uri? permanent;
-</span></span></span><span style=display:flex><span>        <span style=color:#75715e>#rewrite ^(.*)$ $scheme://$pure_host$1 permanent;
-</span></span></span><span style=display:flex><span>    }
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>        <span style=color:#75715e>#rewrite ^(.*)$ $scheme://$pure_host$1 permanent;
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    }
 </span></span><span style=display:flex><span>}
 </span></span></code></pre></div><p>Choć to podejście nie jest zalecane (pomimo zwięzłości). Lepiej zdefiniować dwa bloki server z domenami www.* i domenami bez www na początku. Ale z drugiej strony to cholernie wygodne&mldr; &#x1f603;</p><h2 id=przekierowanie-pozostałych-zapytań-na-domyślną-domenę>Przekierowanie &ldquo;pozostałych&rdquo; zapytań na domyślną domenę<a hidden class=anchor aria-hidden=true href=#przekierowanie-pozostałych-zapytań-na-domyślną-domenę>#</a></h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=display:flex><span><span style=color:#66d9ef>server</span> {
 </span></span><span style=display:flex><span>    <span style=color:#f92672>listen</span> <span style=color:#ae81ff>80</span> <span style=color:#e6db74>default</span>;
 </span></span><span style=display:flex><span>    <span style=color:#f92672>server_name</span> <span style=color:#e6db74>_</span>;
 </span></span><span style=display:flex><span>    <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>^</span> $scheme://www.domena.com;
 </span></span><span style=display:flex><span>    <span style=color:#75715e>#rewrite ^ $scheme://www.domena.com/search/$host;
-</span></span></span><span style=display:flex><span>}
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>}
 </span></span></code></pre></div><p>To bardzo przydatny przykład - czyli domyślny vhost, który &ldquo;przyjmie&rdquo; wszystkie zapytania do domen nie zdefiniowanych w konfiguracji i przekieruje na naszą &ldquo;główną stronę&rdquo;.</p><p>Zakomentowany przykład jest nieco bardziej przekombinowany bo próbuje wykorzystać wyszukiwarkę na naszej stronie do wyszukania &ldquo;czegoś&rdquo; pomocnego - z tym przykładem należy uważać bo jeśli do serwera trafi dużo błędnych zapytań to może zostać przeciążony &ldquo;bzdetnymi&rdquo; wyszukiwaniami.</p><h2 id=przekierowanie-pewnych-podstron-po-zmianie-struktury-strony>Przekierowanie pewnych podstron po zmianie struktury strony<a hidden class=anchor aria-hidden=true href=#przekierowanie-pewnych-podstron-po-zmianie-struktury-strony>#</a></h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=display:flex><span><span style=color:#66d9ef>server</span> {
 </span></span><span style=display:flex><span>    <span style=color:#f92672>listen</span> <span style=color:#ae81ff>80</span>;
 </span></span><span style=display:flex><span>    <span style=color:#f92672>server_name</span> <span style=color:#e6db74>www.domain.com</span>;
@@ -66,7 +66,7 @@ Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego ad
 </span></span><span style=display:flex><span>        <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>/tag/something</span>  $scheme://new.domain.com <span style=color:#e6db74>permanent</span>;
 </span></span><span style=display:flex><span>        <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>/category/hobby</span> <span style=color:#e6db74>/category/painting</span> <span style=color:#e6db74>permanent</span>;
 </span></span><span style=display:flex><span>        <span style=color:#75715e># etc ...
-</span></span></span><span style=display:flex><span>
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>
 </span></span><span style=display:flex><span>        <span style=color:#f92672>rewrite</span> <span style=color:#e6db74>^</span> <span style=color:#e6db74>/index.php</span> <span style=color:#e6db74>last</span>;
 </span></span><span style=display:flex><span>    }
 </span></span><span style=display:flex><span>}
@@ -78,7 +78,7 @@ Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego ad
 </span></span><span style=display:flex><span><span style=color:#66d9ef>location</span> = <span style=color:#e6db74>/robots.txt</span>  { <span style=color:#f92672>try_files</span> <span style=color:#e6db74>/robots.txt</span> =<span style=color:#ae81ff>204</span>; <span style=color:#f92672>access_log</span> <span style=color:#66d9ef>off</span>; <span style=color:#f92672>log_not_found</span> <span style=color:#66d9ef>off</span>; }
 </span></span></code></pre></div><p>To też nie rewrite - ale bardzo fajnie obsługuje sytuację gdy mamy i gdy nie mamy powyższych dwóch pliczków. Po pierwsze wyłącza logowanie i serwuje je gdy są dostępne. Gdy nie istnieją to serwuje puste pliki (kod 204) dzięki czemu nie przeszkadzają nam 404-ki &#x1f603;</p><h2 id=blokowanie-dostępu-do-obrazków-dla-nieznanych-referererów>Blokowanie dostępu do obrazków dla nieznanych referererów<a hidden class=anchor aria-hidden=true href=#blokowanie-dostępu-do-obrazków-dla-nieznanych-referererów>#</a></h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-nginx data-lang=nginx><span style=display:flex><span><span style=color:#66d9ef>location</span> ~<span style=color:#e6db74>*</span> <span style=color:#e6db74>^.+\.(?:jpg|png|css|gif|jpeg|js|swf)</span>$ {
 </span></span><span style=display:flex><span>    <span style=color:#75715e># definiujemy poprawnych refererow
-</span></span></span><span style=display:flex><span>    <span style=color:#f92672>valid_referers</span> <span style=color:#e6db74>none</span> <span style=color:#e6db74>blocked</span> <span style=color:#e6db74>*.domain.com</span> <span style=color:#e6db74>domain.com</span>;
+</span></span></span><span style=display:flex><span><span style=color:#75715e></span>    <span style=color:#f92672>valid_referers</span> <span style=color:#e6db74>none</span> <span style=color:#e6db74>blocked</span> <span style=color:#e6db74>*.domain.com</span> <span style=color:#e6db74>domain.com</span>;
 </span></span><span style=display:flex><span>    <span style=color:#f92672>if</span> <span style=color:#e6db74>(</span>$invalid_referer<span style=color:#e6db74>)</span>  {
 </span></span><span style=display:flex><span>        <span style=color:#f92672>return</span> <span style=color:#ae81ff>444</span>;
 </span></span><span style=display:flex><span>    }
