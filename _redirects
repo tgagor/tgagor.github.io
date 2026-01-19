@@ -82,7 +82,7 @@
 /author/timor/ /author/tom/ 301
 /book/2000/kukułcze-jajo/ /book/2000/the-cuckoos-egg/ 301
 /category/howto/tip/ / 301
-/category/leadership/ /tags/leadership/ 301
+/category/leadership/ /tag/leadership/ 301
 /favicon-16x16.ico /favicon-16x16.png 301
 /favicon-32x32.ico /favicon-32x32.png 301
 /favicon-72x72.ico /favicon-72x72.png 301
@@ -100,28 +100,6 @@
 /share / 301
 /srv / 301
 /srv/backup/server / 301
-/tag/apc/ /tag/php/ 301
-/tag/approx/ /tag/ubuntu/ 301
-/tag/apt/ /tag/ubuntu/ 301
-/tag/backports/ /tag/debian/ 301
-/tag/btsync/ /tag/bittorrent/ 301
-/tag/cache/ /tag/linux/ 301
-/tag/cgi/ /tag/awstats/ 301
-/tag/ci/cd/ /tag/devops/ 301
-/tag/curl/ /tag/bash/ 301
-/tag/eaccelerator/ /tag/php/ 301
-/tag/fc/ /tag/linux/ 301
-/tag/io-wait/ /tag/linux/ 301
-/tag/iostat/ /tag/linux/ 301
-/tag/iotop/ /tag/linux/ 301
-/tag/off-topic/ /category/beyond-engineering/ 301
-/tag/proc/ /tag/linux/ 301
-/tag/proxy/ /tag/reverse-proxy/ 301
-/tag/rsync/ /tag/backup/
-/tag/snapshot/ /tag/backup/
-/tag/scsi/ /tag/linux/ 301
-/tag/vmstat/ /tag/linux/ 301
-/tag/xcache/ /tag/php/ 301
 /tmp / 301
 /tmp/eaccelerator / 301
 /tmp/server_sync / 301
@@ -134,23 +112,37 @@
 /var/tmp / 301
 /var/www/site1 / 301
 /your-app-name / 301
-# Tag consolidation redirects (auto-generated 2025-12-12)
+
+/tag/apc/ /tag/php/ 301
+/tag/approx/ /tag/ubuntu/ 301
+/tag/apt/ /tag/ubuntu/ 301
 /tag/autoit/ /tag/tools/ 301
 /tag/awstats/ /tag/analytics/ 301
+/tag/backports/ /tag/debian/ 301
 /tag/badblocks/ /tag/linux/ 301
 /tag/bittorrent/ / 301
+/tag/btsync/ /tag/bittorrent/ 301
 /tag/ca/ /tag/openssl/ 301
+/tag/cache/ /tag/linux/ 301
+/tag/cgi/ /tag/awstats/ 301
+/tag/ci/cd/ /tag/devops/ 301
 /tag/cli/ /tag/bash/ 301
 /tag/conference/ / 301
+/tag/curl/ /tag/bash/ 301
 /tag/ddos/ /tag/security/ 301
 /tag/dos/ /tag/security/ 301
 /tag/dovecot/ /tag/mail/ 301
+/tag/eaccelerator/ /tag/php/ 301
 /tag/empathy/ / 301
+/tag/fc/ /tag/linux/ 301
 /tag/fedora/ /tag/linux/ 301
 /tag/ftp/ / 301
 /tag/grub/ /tag/linux/ 301
 /tag/hash/ /tag/rainbow-tables/ 301
 /tag/hbo/ / 301
+/tag/io-wait/ /tag/linux/ 301
+/tag/iostat/ /tag/linux/ 301
+/tag/iotop/ /tag/linux/ 301
 /tag/jira/ / 301
 /tag/jpgraph/ / 301
 /tag/lenny/ /tag/debian/ 301
@@ -164,6 +156,7 @@
 /tag/nautilus/ /tag/linux/ 301
 /tag/netflix/ /category/beyond-engineering/ 301
 /tag/nfs/ /tag/linux/ 301
+/tag/off-topic/ /category/beyond-engineering/ 301
 /tag/ogrodnictwo/ /category/beyond-engineering/ 301
 /tag/open-source/ /category/engineering/ 301
 /tag/pflogsumm/ /tag/postfix/ 301
@@ -171,27 +164,37 @@
 /tag/pipewire/ /tag/linux/ 301
 /tag/piwik/ /tag/analytics/ 301
 /tag/poczta/ /tag/mail/ 301
+/tag/proc/ /tag/linux/ 301
+/tag/proxy/ /tag/reverse-proxy/ 301
 /tag/quota/ /tag/linux/ 301
 /tag/rainbowdb/ /tag/rainbow-tables/ 301
 /tag/raspberry-pi/ /tag/hardware/ 301
 /tag/rblcheck/ /tag/mail/ 301
 /tag/redhat/ /tag/linux/ 301
 /tag/renovate/ /tag/devops/ 301
+/tag/rsync/ /tag/backup/
 /tag/scite/ /tag/tools/ 301
+/tag/scsi/ /tag/linux/ 301
 /tag/selfsigned/ /tag/openssl/ 301
 /tag/silverlight/ /tag/linux/ 301
 /tag/sles/ /tag/linux/ 301
 /tag/slowloris/ /tag/security/ 301
 /tag/smartctl/ /tag/linux/ 301
+/tag/snapshot/ /tag/backup/
 /tag/spdy/ /tag/nginx/ 301
 /tag/urxvt/ /tag/tools/ 301
 /tag/vagrant/ /tag/tools/ 301
+/tag/vmstat/ /tag/linux/ 301
+/tag/xcache/ /tag/php/ 301
 /tag/zed/ /tag/tools/ 301
 /tag/zenbook/ /tag/hardware/ 301
 /tag/zwift/ /tag/gaming/ 301
 
 # redirect only sub-pages
 /books/* /bookshelf/ 301
+
+# redirect tags
+/tags/* /tag/:splat 301
 
 # Category migration redirects (2026-01-05)
 /category/howto/* /category/engineering/:splat 301
