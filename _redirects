@@ -184,6 +184,7 @@
 /tag/spdy/ /tag/nginx/ 301
 /tag/urxvt/ /tag/tools/ 301
 /tag/vagrant/ /tag/tools/ 301
+/tag/vpn/ /tag/tools/ 301
 /tag/vmstat/ /tag/linux/ 301
 /tag/xcache/ /tag/php/ 301
 /tag/zed/ /tag/tools/ 301
