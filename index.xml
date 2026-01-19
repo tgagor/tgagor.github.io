@@ -7,14 +7,14 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 19 Jan 2026 17:09:06 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 17:38:21 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Disable the pager for apt search</title>
       <link>https://gagor.pro/2026/01/disable-the-pager-for-apt-search/</link>
       <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2026/01/disable-the-pager-for-apt-search/</guid>
-      <description>Learn how to disable the pager for apt search results on Debian-based systems, and find the best permanent solution.</description>
+      <description>Learn how to disable the annoying pager for apt search results on Debian-based systems, and find the best permanent solution.</description>
     </item>
     <item>
       <title>A Practical guide to building a parser in Go</title>
