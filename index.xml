@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Thu, 15 Jan 2026 20:29:38 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 17:09:06 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disable the pager for apt search</title>
+      <link>https://gagor.pro/2026/01/disable-the-pager-for-apt-search/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/01/disable-the-pager-for-apt-search/</guid>
+      <description>Learn how to disable the pager for apt search results on Debian-based systems, and find the best permanent solution.</description>
+    </item>
     <item>
       <title>A Practical guide to building a parser in Go</title>
       <link>https://gagor.pro/2026/01/a-practical-guide-to-building-a-parser-in-go/</link>
@@ -1297,11 +1304,11 @@
         d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
     &lt;/path&gt;
 &lt;/svg&gt;
-            &lt;a href=&#34;https://github.com/tgagor/hugo-PaperMod-bookshelf&#34; target=&#34;_blank&#34;&gt;tgagor/hugo-PaperMod-bookshelf&lt;/a&gt;
-             - This is an extension, a set of shortcodes and templates to the original PaperMod theme, with a page dedicated to listing the books with responsive UI
+            &lt;a href=&#34;https://github.com/tgagor/docker-gemini-cli&#34; target=&#34;_blank&#34;&gt;tgagor/docker-gemini-cli&lt;/a&gt;
+             - Gemini CLI wrapped as a Docker image, so you don&amp;#39;t need to trash your OS with Node and it&amp;#39;s dependencies.
             &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/hugo-PaperMod-bookshelf?style=flat-square&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/hugo-PaperMod-bookshelf?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/docker-gemini-cli?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/docker-gemini-cli?style=flat-square&#34;&gt;
             &lt;/div&gt;
           &lt;/li&gt;
         
@@ -1314,11 +1321,11 @@
         d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
     &lt;/path&gt;
 &lt;/svg&gt;
-            &lt;a href=&#34;https://github.com/tgagor/docker-gemini-cli&#34; target=&#34;_blank&#34;&gt;tgagor/docker-gemini-cli&lt;/a&gt;
-             - Gemini CLI wrapped as a Docker image, so you don&amp;#39;t need to trash your OS with Node and it&amp;#39;s dependencies.
+            &lt;a href=&#34;https://github.com/tgagor/hugo-PaperMod-bookshelf&#34; target=&#34;_blank&#34;&gt;tgagor/hugo-PaperMod-bookshelf&lt;/a&gt;
+             - This is an extension, a set of shortcodes and templates to the original PaperMod theme, with a page dedicated to listing the books with responsive UI
             &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/docker-gemini-cli?style=flat-square&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/docker-gemini-cli?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/hugo-PaperMod-bookshelf?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/hugo-PaperMod-bookshelf?style=flat-square&#34;&gt;
             &lt;/div&gt;
           &lt;/li&gt;
         
