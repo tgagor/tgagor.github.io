@@ -194,6 +194,7 @@
 /books/* /bookshelf/ 301
 
 # redirect tags
+/tags/ /tags/ 200
 /tags/* /tag/:splat 301
 
 # Category migration redirects (2026-01-05)
