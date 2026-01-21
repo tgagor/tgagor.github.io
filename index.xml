@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 19 Jan 2026 17:38:21 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 21:21:50 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital Gardening</title>
+      <link>https://gagor.pro/2026/01/digital-gardening/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/01/digital-gardening/</guid>
+      <description>Treating your personal website like a garden you tend continuously, not as a finished construction, but rather cultivated, authentic fragmented of web.</description>
+    </item>
     <item>
       <title>Disable the pager for apt search</title>
       <link>https://gagor.pro/2026/01/disable-the-pager-for-apt-search/</link>
