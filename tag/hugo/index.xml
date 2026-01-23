@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hugo on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/hugo/</link>
+    <description>Recent content in Hugo on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Thu, 22 Jan 2026 13:44:54 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital Gardening</title>
+      <link>https://gagor.pro/2026/01/digital-gardening/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/01/digital-gardening/</guid>
+      <description>Treating your personal website like a garden you tend continuously, not as a finished construction, but rather cultivated, authentic fragmented of web.</description>
+    </item>
+    <item>
+      <title>How to add llms.txt to a Hugo Blog</title>
+      <link>https://gagor.pro/2025/10/how-to-add-llms.txt-to-a-hugo-blog/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/10/how-to-add-llms.txt-to-a-hugo-blog/</guid>
+      <description>Learn how to add an &lt;code&gt;llms.txt&lt;/code&gt; file to your Hugo blog to make it more visible to AI agents and improve Generative Engine Optimization (GEO).</description>
+    </item>
+    <item>
+      <title>Crosspost Your Blog articles to Social Media</title>
+      <link>https://gagor.pro/2025/09/crosspost-your-blog-articles-to-social-media/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/09/crosspost-your-blog-articles-to-social-media/</guid>
+      <description>Learn how to automatically share your latest blog posts to Mastodon, Twitter/X, and other social networks using GitHub Actions and the crosspost tool. A simple way to regain traffic lost to search engines and AI.</description>
+    </item>
+    <item>
+      <title>Purge old Cloudflare Pages deployments</title>
+      <link>https://gagor.pro/2025/08/purge-old-cloudflare-pages-deployments/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/08/purge-old-cloudflare-pages-deployments/</guid>
+      <description>Learn how to automatically delete old Cloudflare Pages deployments using a Bash script and the Cloudflare API. Keep your account clean and reduce clutter by removing outdated deployments.</description>
+    </item>
+    <item>
+      <title>Optimizing Hugo Sitemaps to prioritize posts crawling over taxonomies</title>
+      <link>https://gagor.pro/2024/05/optimizing-hugo-sitemaps-to-prioritize-posts-crawling-over-taxonomies/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/05/optimizing-hugo-sitemaps-to-prioritize-posts-crawling-over-taxonomies/</guid>
+      <description>Learn how to optimize your Hugo site&amp;rsquo;s sitemap by adjusting priority and change frequency settings to improve SEO and guide search engine crawlers effectively.</description>
+    </item>
+    <item>
+      <title>Create a Virtual Bookshelf with Hugo and PaperMod</title>
+      <link>https://gagor.pro/2024/04/create-a-virtual-bookshelf-with-hugo-and-papermod/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/04/create-a-virtual-bookshelf-with-hugo-and-papermod/</guid>
+      <description>Learn how to create a virtual bookshelf on your Hugo site using the PaperMod theme, allowing you to organize and share your reading list with ease.</description>
+    </item>
+    <item>
+      <title>Automatically setting &#39;lastmod&#39; in Hugo pages with Git modification date</title>
+      <link>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</guid>
+      <description>Learn how to automatically set the &amp;rsquo;lastmod&amp;rsquo; parameter in Hugo pages using Git modification dates to improve SEO and expedite search engine indexing.</description>
+    </item>
+    <item>
+      <title>Monetize your blog with Ko-fi shortcodes for Hugo sites</title>
+      <link>https://gagor.pro/2024/03/monetize-your-blog-with-ko-fi-shortcodes-for-hugo-sites/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/monetize-your-blog-with-ko-fi-shortcodes-for-hugo-sites/</guid>
+      <description>Learn how to monetize your Hugo blog with custom Ko-fi shortcodes, allowing readers to support your work through voluntary contributions.</description>
+    </item>
+    <item>
+      <title>Optimizing Hugo static site redirects with Cloudflare Pages</title>
+      <link>https://gagor.pro/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</guid>
+      <description>Learn how to optimize Hugo static site redirects using Cloudflare Pages, overcoming limitations of GitHub Pages and Cloudflare Free plan.</description>
+    </item>
+    <item>
+      <title>Adding Mermaid diagrams to Hugo</title>
+      <link>https://gagor.pro/2024/02/adding-mermaid-diagrams-to-hugo/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/02/adding-mermaid-diagrams-to-hugo/</guid>
+      <description>Learn how to add and optimize Mermaid diagrams in Hugo, enhancing your static site with dynamic and interactive diagrams.</description>
+    </item>
+    <item>
+      <title>My pre-commit config for Hugo blog</title>
+      <link>https://gagor.pro/2024/01/my-pre-commit-config-for-hugo-blog/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/01/my-pre-commit-config-for-hugo-blog/</guid>
+      <description>Learn how to set up and use pre-commit hooks to automate tasks like linting, syntax checks, and optimizations for your Hugo blog.</description>
+    </item>
+    <item>
+      <title>Changing comments provider for my blog</title>
+      <link>https://gagor.pro/2023/12/changing-comments-provider-for-my-blog/</link>
+      <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2023/12/changing-comments-provider-for-my-blog/</guid>
+      <description>Explore the process of switching comments provider for a Hugo blog, comparing Disqus, Utterances, and Giscus for better user engagement and ad-free experience.</description>
+    </item>
+    <item>
+      <title>Bye Bye Wordpress!</title>
+      <link>https://gagor.pro/2020/10/bye-bye-wordpress/</link>
+      <pubDate>Sat, 24 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2020/10/bye-bye-wordpress/</guid>
+      <description>Learn about the transition from Wordpress to Hugo for managing a personal blog, including reasons for the switch and benefits of using a static site generator.</description>
+    </item>
+    <item>
+      <title>Checking for broken links on Your Website</title>
+      <link>https://gagor.pro/2012/09/checking-for-broken-links-on-your-website/</link>
+      <pubDate>Tue, 18 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/09/checking-for-broken-links-on-your-website/</guid>
+      <description>Explore tools like wget, linkchecker, and linklint to efficiently find and fix broken links on your website, from small personal pages to large legacy platforms.</description>
+    </item>
+  </channel>
+</rss>

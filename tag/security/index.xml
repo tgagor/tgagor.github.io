@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Security on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/security/</link>
+    <description>Recent content in Security on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transmission: Permission Denied to Downloads directory</title>
+      <link>https://gagor.pro/2025/12/transmission-permission-denied-to-downloads-directory/</link>
+      <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/12/transmission-permission-denied-to-downloads-directory/</guid>
+      <description>Transmission on Ubuntu may be denied access to localized Downloads directories due to AppArmor profiles expecting English folder names. Here’s how to fix it.</description>
+    </item>
+    <item>
+      <title>Automatic updates of Docker images with Renovate Bot</title>
+      <link>https://gagor.pro/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/automatic-updates-of-docker-images-with-renovate-bot/</guid>
+      <description>Learn how to automate Docker image updates using Renovate Bot, a versatile tool that supports various package managers and custom dependency links.</description>
+    </item>
+    <item>
+      <title>Best practices for patching and deprecating Docker images</title>
+      <link>https://gagor.pro/2024/02/best-practices-for-patching-and-deprecating-docker-images/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/02/best-practices-for-patching-and-deprecating-docker-images/</guid>
+      <description>Learn the best practices for patching and deprecating Docker images to maintain security and stability in your DevOps workflows.</description>
+    </item>
+    <item>
+      <title>Creating fully encrypted ZFS pool</title>
+      <link>https://gagor.pro/2021/11/creating-fully-encrypted-zfs-pool/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/11/creating-fully-encrypted-zfs-pool/</guid>
+      <description>Learn how to create a fully encrypted ZFS pool on Linux, including steps for generating encryption keys and configuring ZFS for secure data storage.</description>
+    </item>
+    <item>
+      <title>Bezpieczeństwo aplikacji webowych</title>
+      <link>https://gagor.pro/book/2019/bezpieczenstwo-aplikacji-webowych/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2019/bezpieczenstwo-aplikacji-webowych/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Bezpieczeństwo aplikacji webowych by &#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Bezpieczeństwo aplikacji webowych&lt;/q&gt;&lt;p&gt;Authors: Michał Bentkowski,  Gynvael Coldwind,  Artur Czyż,  Rafał Janicki,  Jarosław Kamiński,  Adrian Michalczyk,  Mateusz Niezabitowski,  Marcin Piosek,  Michał Sajdak,  Grzegorz Trawiński,  Bohdan Widła&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>https://gagor.pro/book/2019/devops/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2019/devops/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book DevOps by Gene Kim, Patrick Debois, John Willis, Jez Humble, John Allspaw&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;DevOps&lt;/q&gt;&lt;p&gt;Światowej klasy zwinność, niezawodność i bezpieczeństwo w Twojej organizacji&lt;/p&gt;&lt;p&gt;Authors: Gene Kim,  Patrick Debois,  John Willis,  Jez Humble,  John Allspaw&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Broń matematycznej zagłady</title>
+      <link>https://gagor.pro/book/2018/bron-matematycznej-zaglady/</link>
+      <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2018/bron-matematycznej-zaglady/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Broń matematycznej zagłady by Cathy O&amp;rsquo;Neil&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Broń matematycznej zagłady&lt;/q&gt;&lt;p&gt;Jak algorytmy zwiększają nierówności i zagrażają demokracji&lt;/p&gt;&lt;p&gt;Author: Cathy O&amp;#39;Neil&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Cisza w sieci</title>
+      <link>https://gagor.pro/book/2018/cisza-w-sieci/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2018/cisza-w-sieci/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Cisza w sieci by Michał Zalewski&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Cisza w sieci&lt;/q&gt;&lt;p&gt;Author: Michał Zalewski&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Black Hat Python</title>
+      <link>https://gagor.pro/book/2017/black-hat-python/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2017/black-hat-python/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Black Hat Python by Justin Seitz&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Black Hat Python&lt;/q&gt;&lt;p&gt;Język Python dla hakerów i pentesterów&lt;/p&gt;&lt;p&gt;Author: Justin Seitz&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Use bastion host with Ansible</title>
+      <link>https://gagor.pro/2016/04/use-bastion-host-with-ansible/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/04/use-bastion-host-with-ansible/</guid>
+      <description>Learn how to configure Ansible to connect to hosts behind a bastion or jump host by customizing your &lt;code&gt;ssh_config&lt;/code&gt; and &lt;code&gt;ansible.cfg&lt;/code&gt; files.</description>
+    </item>
+    <item>
+      <title>Sztuka podstępu</title>
+      <link>https://gagor.pro/book/2016/sztuka-podstepu/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2016/sztuka-podstepu/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Sztuka podstępu by &#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Sztuka podstępu&lt;/q&gt;&lt;p&gt;Łamałem ludzi, nie hasła&lt;/p&gt;&lt;p&gt;Authors: Kevin Mitnick,  William L. Simon&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Prepare for DoS like Cloudflare do</title>
+      <link>https://gagor.pro/2016/02/prepare-for-dos-like-cloudflare-do/</link>
+      <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/02/prepare-for-dos-like-cloudflare-do/</guid>
+      <description>&lt;p&gt;I watched nice presentation about how Cloudflare protects itself against DoS. Most of us are not able to do that exactly like them but some of tips were general enough to be used on typical web front server.&lt;/p&gt;
+&lt;p&gt;I took notes from this presentation and presented here. Thanks to Marek agreement I also reposted all examples (in easier to copy paste way).&lt;/p&gt;
+&lt;h2 id=&#34;howto-prepare-against-ackfinrstx-mas-flood&#34;&gt;Howto prepare against ACK/FIN/RST/X-mas flood&lt;/h2&gt;
+&lt;p&gt;Use &lt;code&gt;conntrack&lt;/code&gt; rule:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Let’s Encrypt - without auto configuration</title>
+      <link>https://gagor.pro/2016/01/lets-encrypt-without-auto-configuration/</link>
+      <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/01/lets-encrypt-without-auto-configuration/</guid>
+      <description>&lt;p&gt;From the first moment I heard about &lt;strong&gt;Let&amp;rsquo;s Encrypt&lt;/strong&gt; I liked it and wanted to use it as fast as possible. But the more I read how they want to implement it, the more I dislike it.&lt;br /&gt; Current project with automatic configuration is not what I want to use at all. I have many very complicated configs and I do not trust such tools enough to use them. I like UNIX&amp;rsquo;s single purpose principle, tools should do one thing and do it well - nothing more.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Splątana sieć</title>
+      <link>https://gagor.pro/book/2015/splatana-siec/</link>
+      <pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2015/splatana-siec/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Splątana sieć by Michał Zalewski&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Splątana sieć&lt;/q&gt;&lt;p&gt;Przewodnik po bezpieczeństwie nowoczesnych aplikacji WWW&lt;/p&gt;&lt;p&gt;Author: Michał Zalewski&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Generate ECDSA key with OpenSSL</title>
+      <link>https://gagor.pro/2013/12/generate-ecdsa-key-with-openssl/</link>
+      <pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/12/generate-ecdsa-key-with-openssl/</guid>
+      <description>&lt;p&gt;After the last NSA scandal I&amp;rsquo;ve found some time to read some texts about PFS and &lt;a href=&#34;http://en.wikipedia.org/wiki/Elliptic_Curve_DSA&#34; title=&#34;Elliptic Curve DSA on Wikipedia&#34; target=&#34;_blank&#34;&gt;ECDSA&lt;/a&gt; keys lately. I always used RSA keys but wanted to give a try to &lt;a href=&#34;http://en.wikipedia.org/wiki/Elliptic_Curve_DSA&#34; title=&#34;Elliptic Curve DSA on Wikipedia&#34; target=&#34;_blank&#34;&gt;ECDSA&lt;/a&gt; so I wanted to give it a try (test performance, etc). Here is how I&amp;rsquo;ve done it.&lt;/p&gt;
+&lt;p&gt;Firstly find your favorite curve. A short tip about bit length and complexity could be found &lt;a href=&#34;http://www.keylength.com/en/3/&#34; title=&#34;ECRYPT II Recommendations&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. From it you will now that using 256 bit ECDSA key should be enough for next 10-20 years.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Running Apache with mod_spdy and PHP-FPM</title>
+      <link>https://gagor.pro/2013/12/running-apache-with-mod_spdy-and-php-fpm/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/12/running-apache-with-mod_spdy-and-php-fpm/</guid>
+      <description>&lt;p&gt;SPDY is new protocol proposed by Google as an alternative for HTTP(S). Currently Chrome and Firefox browsers are using it as default if available on server. It is faster in most cases by few to several percent. The side effect of using &lt;a href=&#34;http://code.google.com/p/mod-spdy/&#34;  target=&#34;_blank&#34;&gt;mod_spdy&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ is that it&amp;rsquo;s working well only with thread safe Apache&amp;rsquo;s modules. PHP module for Apache is not thread safe so we need to use PHP as CGI or FastCGI service. CGI is slow - so running mod_spdy for performance gain with CGI is simply pointless. FastCGI is better but it&amp;rsquo;s not possible to share &lt;a href=&#34;http://pecl.php.net/package/APC&#34;  target=&#34;_blank&#34;&gt;APC&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ cache in FastCGI mode (ex. using spawn-fcgi), so it&amp;rsquo;s poor too. Best for PHP is &lt;a href=&#34;http://php-fpm.org/&#34;  target=&#34;_blank&#34;&gt;PHP-FPM&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ which is FastCGI service with dynamic process manager and could use full advantages of APC. In such configuration I could switch from apache prefork to worker which should use less resources and be more predictable.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fortigate - VPN IPSec PSK XAuth z Android’a 4.x</title>
+      <link>https://gagor.pro/2013/03/fortigate-vpn-ipsec-psk-xauth-z-androida-4-x/</link>
+      <pubDate>Sat, 30 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/03/fortigate-vpn-ipsec-psk-xauth-z-androida-4-x/</guid>
+      <description>&lt;p&gt;Do niedawna na moim telefonie VPN&amp;rsquo;ami były: PPTP lub L2TP - oba niespecjalnie mi się podobały. Ale od wersji 4-tej pojawiły się dwa nowe tryby: IPSec Xauth PSK i IPSec Xauth RSA. W pierwszym autoryzacja wykorzystuje login i hasło, w drugim certyfikaty.&lt;/p&gt;
+&lt;p&gt;Tryb IPSec Xauth PSK jest bardzo wygodny bo łatwo można połączyć go z zewnętrznymi mechanizmami uwierzytelniającymi np. LDAP, Active Directory, itp.&lt;/p&gt;
+&lt;p&gt;Pokażę jak skonfigurować swojego Fortigate&amp;rsquo;a by umożliwić połączenie z telefonów i tabletów na Androidzie 4.x do &amp;ldquo;Intranetu&amp;rdquo;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Większość konfiguracji można przeprowadzić tylko w trybie &lt;strong&gt;CLI&lt;/strong&gt; - zakładam że wiesz jak to zrobić. To co wygodniej można zrobić w trybie WWW to głównie tworzenie reguł dostępu na zaporze.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nginx - hide server version and name in Server header and error pages</title>
+      <link>https://gagor.pro/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</link>
+      <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</guid>
+      <description>&lt;p&gt;On Debian you have to install &lt;code&gt;nginx-extras&lt;/code&gt; package (because it have built in &lt;a href=&#34;http://wiki.nginx.org/HttpHeadersMoreModule&#34;  target=&#34;_blank&#34;&gt;headers_more&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ module). Then you need two options (best in global configuration &lt;code&gt;/etc/nginx/nginx.conf&lt;/code&gt; file, &lt;code&gt;http&lt;/code&gt; part):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;server_tokens&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;off&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;more_set_headers&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Server:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;BadAss&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And it&amp;rsquo;s good to setup non standard error pages on every site (500 and 404 at minimum):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;error_page&lt;/span&gt;   &lt;span style=&#34;color:#ae81ff&#34;&gt;403&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;404&lt;/span&gt;       &lt;span style=&#34;color:#e6db74&#34;&gt;http://mysite.com/areyoulost&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;error_page&lt;/span&gt;   &lt;span style=&#34;color:#ae81ff&#34;&gt;502&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;503&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;504&lt;/span&gt;   &lt;span style=&#34;color:#e6db74&#34;&gt;/500.html&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Hybrid Rainbow DB</title>
+      <link>https://gagor.pro/2012/11/hybrid-rainbow-db/</link>
+      <pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/11/hybrid-rainbow-db/</guid>
+      <description>&lt;p&gt;Jakiś czas temu napisałem swoją własną tęczową tablicę i odkąd zainteresowałem się tym tematem zastanawiałem się jak jeszcze bardziej usprawnić tę aplikację. Testowałem różne długości łańcuchów i zauważyłem że zwiększanie długości łańcucha bardzo szybko powoduje znaczne zwiększenie ilości kolizji, co drastycznie obniżało wydajność (nie wspominając o czasie potrzebnym na wygenerowanie całej tablicy). Z tego powodu ostateczna implementacja choć była rzeczywiście tęczową tablicą działała bardziej jak tablica hashy - bo łańcuchy były bardzo krótkie. Ponadto ze statystyk wynikało że bardzo rzadko hasła były odzyskiwane ze środka łańcucha - zdecydowana większość trafień pochodziła z pierwszego hasła w łańcuchu. Pierwsze hasło było przeważnie słownikowe, plus czasem jakiś dodatek w postaci cyfry/zmienionej wielkości liter, itp. Pozostałe hasła w łańcuchu były praktycznie losowe.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic</title>
+      <link>https://gagor.pro/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</guid>
+      <description>&lt;p&gt;Niedawno trafiłem na ciekawy problem w &lt;em&gt;mod_rewrite&lt;/em&gt; - by przekierowywać użytkowników logujących się jednym z modułów &lt;em&gt;mod_auth_basic&lt;/em&gt; do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej &lt;em&gt;%{REMOTE_USER}&lt;/em&gt; - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w &lt;em&gt;RewriteCond&lt;/em&gt; zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można &lt;em&gt;RewriteCond&amp;rsquo;y&lt;/em&gt; połączyć wyrażeniami logicznymi typu &lt;em&gt;AND&lt;/em&gt;/&lt;em&gt;OR&lt;/em&gt; to nie ma możliwości porównania czy dopasowania z kolejnych &lt;em&gt;RewriteCond&amp;rsquo;ów&lt;/em&gt; są identyczne. Po kilku dniach szperania w dokumentacji i różnych tutorialach udało mi się trafić na jedną wartościową wskazówkę ale tej stronki już nie ma, więc opiszę problem dla potomnych.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>fail2ban - regułki dla dovecot’a</title>
+      <link>https://gagor.pro/2011/11/fail2ban-regulki-dla-dovecota/</link>
+      <pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/11/fail2ban-regulki-dla-dovecota/</guid>
+      <description>&lt;p&gt;Domyślna konfiguracja fail2ban&amp;rsquo;a (na Debianie) nie zawiera reguł pozwalających na blokowanie prób włamań na skrzynki POP/IMAP dla dovecota (no chyba że korzystamy z saslauthd). Można szybko utworzyć własny zestaw filtrów co przedstawię poniżej.&lt;/p&gt;
+&lt;p&gt;Tworzymy plik: &lt;em&gt;/etc/fail2ban/filter.d/dovecot.conf&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Definition]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;failregex = (?: pop3-login|imap-login): .*(?:Authentication failure|Aborted login \(auth failed|Aborted login \(tried to use disabled|Disconnected \(auth failed|Aborted login \(\d+ authentication attempts).*rip=(?P&amp;lt;host&amp;gt;\S*),.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ignoreregex =
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Później dopisujemy na końcu pliku: &lt;em&gt;/etc/fail2ban/jail.conf&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[dovecot]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;enabled  &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;filter   &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; dovecot
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;port     &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pop3,pop3s,imap,imaps
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;logpath  &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;log&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;mail&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;log
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxretry &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# te dwa poniżej wedle uznania - ja mam dobrze ustawione default&amp;#39;y&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#findtime = 1200&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#bantime  = 1200&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Zostało zrestartować fail2ban&amp;rsquo;a:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ochrona usług przed atakami brute force z fail2ban’em</title>
+      <link>https://gagor.pro/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</link>
+      <pubDate>Mon, 03 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</guid>
+      <description>&lt;p&gt;Bardzo często konfigurując usługi dostępne publicznie poświęca się sporo czasu na maksymalne zwiększenie bezpieczeństwa przez &amp;ldquo;dopieszczanie&amp;rdquo; konfiguracji (certyfikaty z mocnym szyfrowaniem, ochronę pewnych stron hasłem, dostęp do SSH tylko kluczami, itd.) ale całkowicie pomija się przygotowanie systemu aktywnie monitorującego błędne próby autoryzacji. Oczywiście nie można umniejszać wagi pierwszego z wymienionych etapów ale zdecydowanie nie powinno pomijać się też tego drugiego. Przecież każdy admin chciałby wiedzieć gdy ktoś próbuje włamać się na jego serwer (FTP, HTTP, SSH, itp.) - tylko ilu z Nas zadaje sobie trud by uruchomić taki system?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zabezpieczenie Apachego na Debianie przed slowloris’em</title>
+      <link>https://gagor.pro/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</link>
+      <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu dostępny jest w sieci skrypt &lt;a href=&#34;http://ha.ckers.org/slowloris/&#34;  target=&#34;_blank&#34;&gt;slowloris.pl&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RainbowDB</title>
+      <link>https://gagor.pro/2011/08/rainbowdb/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/rainbowdb/</guid>
+      <description>&lt;p&gt;Pewnego popołudnia przeczytałem artykuł o tęczowych tabelach i pod jego wpływem zacząłem kombinować jak zrobić coś takiego ale swojego.&lt;/p&gt;
+&lt;p&gt;Do bazy wrzuciłem cały słownik z aspell&amp;rsquo;a dla języka polskiego (słowa z ogonkami i bez), angielskiego, kilka słowników z popularnymi hasłami, długą listę haseł z yourock i kilka innych. Sporo się nakombinowałem aby wygenerować dużo kombinacji szczególnie pod kątem polskich haseł (wszystkie: misiaczki, dupeczki, itp&amp;hellip;) razem z różnymi popularnymi modyfikacjami (typu: misiaczki1, DUPECZKI, etc&amp;hellip;). Na tym etapie miałem już wystarczająco dużo haseł aby bawić się dalej.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bezpieczeństwo sieci</title>
+      <link>https://gagor.pro/book/2007/bezpieczenstwo-sieci/</link>
+      <pubDate>Sat, 10 Feb 2007 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2007/bezpieczenstwo-sieci/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Bezpieczeństwo sieci by &#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Bezpieczeństwo sieci&lt;/q&gt;&lt;p&gt;Narzędzia&lt;/p&gt;&lt;p&gt;Authors: Nitesh Dhanjani,  Justin Clarke&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+  </channel>
+</rss>

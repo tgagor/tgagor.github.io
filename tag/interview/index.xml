@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Interview on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/interview/</link>
+    <description>Recent content in Interview on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/interview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to interview DevOps candidates?</title>
+      <link>https://gagor.pro/2024/01/how-to-interview-devops-candidates/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/01/how-to-interview-devops-candidates/</guid>
+      <description>Learn effective strategies for interviewing DevOps candidates, including practical exercises and review-based assessments to evaluate their skills and fit.</description>
+    </item>
+  </channel>
+</rss>

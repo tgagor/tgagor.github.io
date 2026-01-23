@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MariaDB on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/mariadb/</link>
+    <description>Recent content in MariaDB on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/mariadb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySQL - reset root password</title>
+      <link>https://gagor.pro/2015/12/mysql-reset-root-password/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2015/12/mysql-reset-root-password/</guid>
+      <description>&lt;p&gt;It will happen from time to time, that you&amp;rsquo;re on alien machine and have to brutally update things in db without knowing credentials. Example is for root (quite secure candidate to change because it shouldn&amp;rsquo;t be used in app &amp;#x1f603; ) but will work for any user.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;shutdown db&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;service mysql stop
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SET&lt;/span&gt; PASSWORD &lt;span style=&#34;color:#66d9ef&#34;&gt;FOR&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;localhost&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; PASSWORD(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HereYourNewPassword&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;start &lt;code&gt;mysqld&lt;/code&gt; with &lt;code&gt;--init-file&lt;/code&gt; param&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mysqld_safe --init-file&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/tmp/pwchange.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;sometimes you may require to point configuration file ex. &lt;code&gt;--defaults-file=/etc/mysql/my.cnf&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Debian - Upgrade MySQL to MariaDB</title>
+      <link>https://gagor.pro/2014/01/debian-upgrade-mysql-to-mariadb/</link>
+      <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/01/debian-upgrade-mysql-to-mariadb/</guid>
+      <description>&lt;p&gt;After reading some good opinions about MariaDB I wanted to give it a try. Upgrade looks quite straight forward but I found some issues a little tricky.&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Add repo and key:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat &amp;gt; /etc/apt/sources.list &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;&amp;lt;SRC
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb-src http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;SRC&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;(&lt;a href=&#34;https://downloads.mariadb.org/mariadb/repositories/#mirror=tweedo&amp;amp;#038;distro=Debian&amp;amp;#038;distro_release=wheezy&amp;amp;#038;version=5.5&#34;  target=&#34;_blank&#34;&gt;find more repositories here&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+)&lt;/p&gt;
+&lt;p&gt;Now install MariaDB:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install mariadb-server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It could be better to install &lt;code&gt;mariadb-server-5.5&lt;/code&gt; and &lt;code&gt;mariadb-client-5.5&lt;/code&gt; package instead, because of &lt;a href=&#34;https://mariadb.com/kb/en/installing-mariadb-deb-files/#upgrading-mariadb-server-and-mariadb-client-packages&#34;  target=&#34;_blank&#34;&gt;this error&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MySQL - Proste metody optymalizacji</title>
+      <link>https://gagor.pro/2011/12/mysql-proste-metody-optymalizacji/</link>
+      <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/12/mysql-proste-metody-optymalizacji/</guid>
+      <description>&lt;p&gt;Wcześniej czy później zawsze pojawia się potrzeba zoptymalizowania naszej bazy MySQL. Przedstawię kilka zmian w konfiguracji, które powinny zwiększyć wydajność w większości przypadków.&lt;/p&gt;
+&lt;h2 id=&#34;myisam--key_buffer_size&#34;&gt;MyISAM - key_buffer_size&lt;/h2&gt;
+&lt;p&gt;Najprostszą optymalizacją baz/tabel z mechanizmem MyISAM jest odpowiednie dobranie bufora na cache dla kluczy i indeksów (dane nigdy nie są cachowane). Poniższe zapytanie pozwala oszacować zalecany rozmiar cache&amp;rsquo;u:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; CONCAT(ROUND(KBS&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;POWER(&lt;span style=&#34;color:#ae81ff&#34;&gt;1024&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;IF&lt;/span&gt;(PowerOf1024&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#66d9ef&#34;&gt;IF&lt;/span&gt;(PowerOf1024&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,PowerOf1024)))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;.&lt;span style=&#34;color:#ae81ff&#34;&gt;4999&lt;/span&gt;),
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SUBSTR(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39; KMG&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#66d9ef&#34;&gt;IF&lt;/span&gt;(PowerOf1024&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;IF&lt;/span&gt;(PowerOf1024&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,PowerOf1024))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;))
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;recommended_key_buffer_size &lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; LEAST(POWER(&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;32&lt;/span&gt;),KBS1) KBS
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;SUM&lt;/span&gt;(index_length) KBS1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt; information_schema.tables
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;WHERE&lt;/span&gt; engine&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;MyISAM&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;AND&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;table_schema &lt;span style=&#34;color:#66d9ef&#34;&gt;NOT&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;IN&lt;/span&gt; (&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;information_schema&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mysql&amp;#39;&lt;/span&gt;)) AA ) A,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; PowerOf1024) B;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Wynik określa zalecany rozmiar bufora (parametr &lt;em&gt;&lt;strong&gt;key_buffer_size&lt;/strong&gt;&lt;/em&gt; w pliku &lt;em&gt;/etc/mysql/my.cnf&lt;/em&gt;) dla bieżącego stanu bazy - warto ciut dodać na zapas. Na systemach 32 bitowych parametr &lt;em&gt;&lt;strong&gt;key_buffer_size&lt;/strong&gt;&lt;/em&gt; może przyjmować maksymalnie 4GB, na 64 bitowych maksymalnie 8GB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MySQL - dostęp zdalny na szybko</title>
+      <link>https://gagor.pro/2011/08/mysql-na-szybko/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/mysql-na-szybko/</guid>
+      <description>&lt;p&gt;Instalacja serwera MySQL na Debianie jest niezwykle prosta i sprowadza się do jednego polecenia:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install mysql-server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Polecenie to zainstaluje i uruchomi usługę serwerową MySQL. W czasie instalacji będziemy proszeni o podanie hasła dla root&amp;rsquo;a (które oczywiście dobrze jest zapamiętać bądź zapisać).&lt;/p&gt;
+&lt;p&gt;Tak zainstalowana baza nasłuchuje na lokalnym porcie (localhost:3306) umożliwiająć dostęp wyłącznie root&amp;rsquo;owi. Jest to bardzo bezpieczna konfiguracja&amp;hellip; Ale jeśli nie mamy zamiaru na tej samej maszynie instalować oprogramowania zarządzającego to nie zawsze jest to wygodne, tym bardziej gdy przykładowo mamy działającego phpmyadmin&amp;rsquo;a na jakimś serwerze www. W takim przypadku pierwszą rzeczą, którą robię jest udostępnienie dostępu zdalnego dla root&amp;rsquo;a. Warto zaznaczyć że uprawnienia root&amp;rsquo;a można nadać dowolnemu użytkownikowi (np. romanowi) co jest dużo bezpieczniejszą konfiguracją niż działanie bezpośrednio na koncie root&amp;rsquo;a (którego nazwa jest powszechnie znana).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

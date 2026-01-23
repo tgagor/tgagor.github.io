@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Car on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/car/</link>
+    <description>Recent content in Car on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/car/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ford S-MAX - kasowanie ostrzeżenia wymiany oleju</title>
+      <link>https://gagor.pro/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</link>
+      <pubDate>Sat, 03 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2022/09/ford-s-max-kasowanie-ostrzezenia-wymiany-oleju/</guid>
+      <description>Dowiedz się, jak skasować ostrzeżenie wymiany oleju w samochodzie Ford S-MAX, wykonując kilka prostych kroków.</description>
+    </item>
+    <item>
+      <title>Skoda Fabia - Kasownie ostrzeżeń OIL i service INSP</title>
+      <link>https://gagor.pro/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/</link>
+      <pubDate>Thu, 12 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/01/skoda-fabia-kasownie-ostrzezen-oil-i-service-insp/</guid>
+      <description>Dowiedz się, jak skasować ostrzeżenia OIL i service INSP w samochodzie Skoda Fabia, wykonując kilka prostych kroków.</description>
+    </item>
+  </channel>
+</rss>

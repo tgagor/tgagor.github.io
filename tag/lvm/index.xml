@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LVM on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/lvm/</link>
+    <description>Recent content in LVM on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/lvm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LVM na RAID5 i dysku z sektorami 4KB</title>
+      <link>https://gagor.pro/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/</link>
+      <pubDate>Wed, 07 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/11/lvm-na-raid5-i-dysku-z-sektorami-4kb/</guid>
+      <description>&lt;p&gt;Po zakupie nowych dysków zamierzam utworzyć zdegradowaną macierz RAID5 z dwóch dysków (na trzecim na razie znajdują się dane), potem utworzyć wolumen LVM, sformatować go, przekopiować dane z pojedynczego dysku na macierz i dołączyć  trzeci dysk do macierzy odbudowując parzystość. Zadanie będzie o tyle ciekawe że dysk ma 4KB sektory i trzeb będzie dbać o wyrównanie zasobu do rozmiaru sektora, a w przypadku LVM&amp;rsquo;a wyrównanie do chunk&amp;rsquo;a z macierzy.&lt;/p&gt;
+&lt;h2 id=&#34;prawidłowe-wyrównanie-partycji&#34;&gt;Prawidłowe wyrównanie partycji&lt;/h2&gt;
+&lt;p&gt;Kupując nowy dysk (o pojemności od 500GB w górę),  mamy spore szanse że trafimy na sztukę, która wykorzystuje 4KB sektory do alokacji danych. Ponieważ statystyczny rozmiar przechowywanych plików rośnie i nawet proste zdjęcie ma powyżej 1MB to wykorzystanie bloków o tym rozmiarze większym niż 512 bajtów jest jak najbardziej uzasadnione - zresztą większość systemów plików i tak wykorzystuje bloki 4&lt;del&gt;8KB. Jest tylko jedno ALE: jeżeli nie uwzględnimy tego podczas partycjonowania dysku to sektory 4KB systemu plików zamiast znajdować się w równo w odpowiadających im fizycznych 4KB sektorach dysku - mogą zachodzić na 2 sektory fizyczne - w takiej sytuacji każde odwołanie to takiego sektora w systemie plików wymaga odczytania/zapisanie dwóch sektorów fizycznych. Co prawda w dyskach stosuje się mechanizmy, które powinny zoptymalizować takie sytuacje ale jak potwierdzają benchmarki źle wyrównane partycja mogą znacznie obniżyć wydajność dysku. A jeszcze zabawniej jest jeśli kupimy dysk SSD bo w nich bardzo często fizyczne bloki są 128&lt;/del&gt;512KB i żeby było zabawniej to bardzo często dyski SSD deklarują (choćby przez SMART&amp;rsquo;a) że mają bloki 512B - SIC!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Montowanie partycji z obrazu dysku</title>
+      <link>https://gagor.pro/2012/09/montowanie-partycji-z-obrazu-dysku/</link>
+      <pubDate>Thu, 06 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/09/montowanie-partycji-z-obrazu-dysku/</guid>
+      <description>&lt;p&gt;Jedną z rzeczy, które podobają mi się w maszynach wirtualnych Xen jest możliwość zrobienia backupu całego obrazu i szybkie odzyskanie już w trakcie ciężkiej awarii. Gdy dodatkowo korzysta się z LVM&amp;rsquo;a to można na chwilę wyłączyć DomU, utworzyć snapshot jego dysków, uruchomić DomU i w trakcie działania robić spójny backup ze snapshot&amp;rsquo;a. Dzięki takiemu mechanizmowi serwer jest niedostępny przez kilkanaście sekund, a backup spójny jakby został wykonany przy całkowicie wyłączonej maszynie. Taki backup sprowadza się do kilku poleceń które można oskryptować np.:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dynamiczna zmiana rozmiaru partycji EXT4 na LVM’ie</title>
+      <link>https://gagor.pro/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/</link>
+      <pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/</guid>
+      <description>&lt;p&gt;Używam LVM&amp;rsquo;a zarówno na desktopie jak i wielu serwerach bo bardzo podoba mi się możliwość powiększenia akurat tej partycji, na której brakuje miejsca. O ile pamiętam jak powiększyć partycję XFS (xfs_growfs /punkt/montowania) to zawsze mam problem jak to zrobić na EXT3/4, więc notuję.&lt;/p&gt;
+&lt;p&gt;Powiększenie wolumenu LVM (np. o 10 gigabajtów):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lvextend -L+10G /dev/vggroup/vol
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Zwiększenie rozmiaru systemu plików do nowego rozmiaru wolumenu:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;resize2fs /dev/vggroup/vol
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Powyższe polecenie można wykonać na zamontowanym zasobie - online.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

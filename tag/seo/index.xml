@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SEO on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/seo/</link>
+    <description>Recent content in SEO on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/seo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to add llms.txt to a Hugo Blog</title>
+      <link>https://gagor.pro/2025/10/how-to-add-llms.txt-to-a-hugo-blog/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/10/how-to-add-llms.txt-to-a-hugo-blog/</guid>
+      <description>Learn how to add an &lt;code&gt;llms.txt&lt;/code&gt; file to your Hugo blog to make it more visible to AI agents and improve Generative Engine Optimization (GEO).</description>
+    </item>
+    <item>
+      <title>Crosspost Your Blog articles to Social Media</title>
+      <link>https://gagor.pro/2025/09/crosspost-your-blog-articles-to-social-media/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/09/crosspost-your-blog-articles-to-social-media/</guid>
+      <description>Learn how to automatically share your latest blog posts to Mastodon, Twitter/X, and other social networks using GitHub Actions and the crosspost tool. A simple way to regain traffic lost to search engines and AI.</description>
+    </item>
+    <item>
+      <title>Optimizing Hugo Sitemaps to prioritize posts crawling over taxonomies</title>
+      <link>https://gagor.pro/2024/05/optimizing-hugo-sitemaps-to-prioritize-posts-crawling-over-taxonomies/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/05/optimizing-hugo-sitemaps-to-prioritize-posts-crawling-over-taxonomies/</guid>
+      <description>Learn how to optimize your Hugo site&amp;rsquo;s sitemap by adjusting priority and change frequency settings to improve SEO and guide search engine crawlers effectively.</description>
+    </item>
+    <item>
+      <title>Automatically setting &#39;lastmod&#39; in Hugo pages with Git modification date</title>
+      <link>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</guid>
+      <description>Learn how to automatically set the &amp;rsquo;lastmod&amp;rsquo; parameter in Hugo pages using Git modification dates to improve SEO and expedite search engine indexing.</description>
+    </item>
+    <item>
+      <title>SEO kicks my stats</title>
+      <link>https://gagor.pro/2024/03/seo-kicks-my-stats/</link>
+      <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/seo-kicks-my-stats/</guid>
+      <description>Explore the impact of domain changes on SEO performance and traffic, and learn strategies to improve international visibility with multilingual content.</description>
+    </item>
+    <item>
+      <title>WordPress - add meta tags: author, description, keywords, etc</title>
+      <link>https://gagor.pro/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</link>
+      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/03/wordpress-add-meta-tags-author-description-keywords-etc/</guid>
+      <description>&lt;p&gt;After reading some SEO stuff I wanted to add some meta tags to my WordPress blog. I found this site: &lt;a href=&#34;https://codex.wordpress.org/Meta_Tags_in_WordPress&#34;  target=&#34;_blank&#34;&gt;codex.wordpress.org/Meta_Tags_in_WordPress&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;So WordPress thinks that it&amp;rsquo;s not necessary to have this meta tags any more&amp;hellip; But I want it! &amp;#x1f603; Next funny thing is how they suggest to add meta tags: copy &lt;code&gt;header.php&lt;/code&gt; - what about theme updates?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

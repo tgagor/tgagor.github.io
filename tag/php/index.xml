@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PHP on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/php/</link>
+    <description>Recent content in PHP on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Tue, 06 Jan 2026 16:53:57 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordPress with HyperDB on PHP 7.0</title>
+      <link>https://gagor.pro/2016/02/wordpress-with-hyperdb-on-php-7-0/</link>
+      <pubDate>Wed, 24 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/02/wordpress-with-hyperdb-on-php-7-0/</guid>
+      <description>&lt;p&gt;I was configuring WordPress with &lt;a href=&#34;https://pl.wordpress.org/plugins/hyperdb/&#34;  target=&#34;_blank&#34;&gt;HyperDB&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ plugin on PHP 7.0 but the only I get were constant 500 errors. As I found &lt;a href=&#34;https://wordpress.org/support/topic/constant-500-server-errors&#34;  target=&#34;_blank&#34;&gt;here&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ PHP 7.0 is not supported by HyperDB for now - it&amp;rsquo;s rely on &lt;code&gt;mysql&lt;/code&gt; php extension but in PHP 7.0 there is only &lt;code&gt;mysqli&lt;/code&gt; extension. But few folks fixed it and it&amp;rsquo;s possible to use it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache - Force caching dynamic PHP content with mod_headers</title>
+      <link>https://gagor.pro/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</guid>
+      <description>&lt;p&gt;Normally you want dynamic content to be fresh and not cacheable. But sometimes it may be useful to cache it, like when you have website behind reverse proxy&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. To do this try something like this:&lt;/p&gt;
+
+
+&lt;div class=&#34;terminal space shadow&#34;&gt;
+    &lt;div class=&#34;top&#34;&gt;
+        &lt;div class=&#34;btns&#34;&gt;
+            &lt;span class=&#34;circle red&#34;&gt;&lt;/span&gt;
+            &lt;span class=&#34;circle yellow&#34;&gt;&lt;/span&gt;
+            &lt;span class=&#34;circle green&#34;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;title&#34;&gt;Add new Apache conf file&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;terminalbody&#34;&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;filesmatch &amp;#34;\.(php|cgi|pl)$&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Header unset Pragma
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Header unset Expires
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Header set Cache-Control &amp;#34;max-age=3600, public&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/filesmatch&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html&#34;  target=&#34;_blank&#34;&gt;http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Running Apache with mod_spdy and PHP-FPM</title>
+      <link>https://gagor.pro/2013/12/running-apache-with-mod_spdy-and-php-fpm/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/12/running-apache-with-mod_spdy-and-php-fpm/</guid>
+      <description>&lt;p&gt;SPDY is new protocol proposed by Google as an alternative for HTTP(S). Currently Chrome and Firefox browsers are using it as default if available on server. It is faster in most cases by few to several percent. The side effect of using &lt;a href=&#34;http://code.google.com/p/mod-spdy/&#34;  target=&#34;_blank&#34;&gt;mod_spdy&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ is that it&amp;rsquo;s working well only with thread safe Apache&amp;rsquo;s modules. PHP module for Apache is not thread safe so we need to use PHP as CGI or FastCGI service. CGI is slow - so running mod_spdy for performance gain with CGI is simply pointless. FastCGI is better but it&amp;rsquo;s not possible to share &lt;a href=&#34;http://pecl.php.net/package/APC&#34;  target=&#34;_blank&#34;&gt;APC&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ cache in FastCGI mode (ex. using spawn-fcgi), so it&amp;rsquo;s poor too. Best for PHP is &lt;a href=&#34;http://php-fpm.org/&#34;  target=&#34;_blank&#34;&gt;PHP-FPM&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ which is FastCGI service with dynamic process manager and could use full advantages of APC. In such configuration I could switch from apache prefork to worker which should use less resources and be more predictable.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GearmanManager: wygodne zarządzanie workerami</title>
+      <link>https://gagor.pro/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</guid>
+      <description>&lt;p&gt;Niedawno &lt;a href=&#34;https://gagor.pl/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/&#34; title=&#34;Instalacja gearman-job-server 1.0.6 na Debianie Wheezy&#34;&gt;zainteresowałem się usługą Gearman&lt;/a&gt; i jedynej rzeczy której mi brakowało to jakiegoś łatwego mechanizmu zarządzającego workerami. Ale jak zwykle okazało się że inni mieli już ten problem i odpowiednie narzędzie istnieje - mowa o &lt;a href=&#34;https://github.com/brianlmoon/GearmanManager&#34; title=&#34;GearmanManager&#34; target=&#34;_blank&#34;&gt;GearmanManagerze&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;instalacja-gearmanmanagera&#34;&gt;Instalacja GearmanManagera&lt;/h2&gt;
+&lt;p&gt;Aby zainstalować GeramanManagera na serwerze gdzie już mamy Gearmana trzeba wykonać kilka kroków (&lt;a href=&#34;https://gagor.pl/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/#php-gearman-install&#34; title=&#34;Instalacja gearman-job-server 1.0.6 na Debianie Wheezy&#34;&gt;wcześniej powinniśmy też zainstalować moduł gearmana do php&amp;rsquo;a&lt;/a&gt;):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install git -y
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/brianlmoon/GearmanManager.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd GearmanManager/install
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;chmod +x install.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;./install.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Detecting linux distro as redhat- or debian-compatible
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Where is your php executable? &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;usually /usr/bin&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/usr/bin
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Which PHP library to use, pecl/gearman or PEAR::Net_Gearman?
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; pecl
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;2&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; pear
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#? 1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Installing to /usr/local/share/gearman-manager
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Installing executable to /usr/local/bin/gearman-manager
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Installing configs to /etc/gearman-manager
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Installing init script to /etc/init.d/gearman-manager
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Install ok!  Run /etc/init.d/gearman-manager to start and stop
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Worker scripts can be installed in /etc/gearman-manager/workers, configuration can be edited in /etc/gearman-manager/config.ini
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Mamy działającego GearmanManagera. Zalecam przyglądnięcie się plikowi &lt;em&gt;config-advanced.ini&lt;/em&gt; bo jest tam kilka opcji, które warto dodatkowo ustawić.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Instalacja gearman-job-server 1.0.6 na Debianie Wheezy</title>
+      <link>https://gagor.pro/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/</link>
+      <pubDate>Tue, 29 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/</guid>
+      <description>&lt;p&gt;Ostatnio trafiłem na ciekawą usługę, która pozwala oddelegować długo trwające zadania z usługi webowej. Mowa o &lt;a href=&#34;http://gearman.org/&#34; title=&#34;Gearman&#34; target=&#34;_blank&#34;&gt;Gearman&amp;rsquo;ie&lt;/a&gt;. Usługa jest o tyle ciekawa że nie narzuca ani języka dla klienta (większość popularnych ma gotowe biblioteki), ani język dla skryptów w tej usłudze nie jest narzucany. Można tę usługę wykorzystać jako most pomiędzy PHP a np. Javą/Pythonem lub do zlecenia zadań z serwera na Linux&amp;rsquo;ie do wykonania na serwerze Windowsowym (bo np. narzędzia dostępne są tylko dla Windowsa). O innych zaletach można poczytać na stronce więc nie będę przynudzać.&lt;br /&gt; Standardowo zainstalowałem paczkę z repo Debiania i rozbiłem się przy kompilacji modułu z PECL&amp;rsquo;a - w repo była jakaś prehistoryczna wersja. Postanowiłem uruchomić aktualną wersje 1.0.6 z gałęzi testowej przekompilowując ją na Wheezym (by uniknąć zależności z wersji testowej).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PHP - max_input_vars</title>
+      <link>https://gagor.pro/2013/01/php-max_input_vars/</link>
+      <pubDate>Tue, 22 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/01/php-max_input_vars/</guid>
+      <description>&lt;p&gt;W PHP 5.3 pojawiła się nowa zmienna: &lt;code&gt;max_input_vars&lt;/code&gt;, która limituje ilość pól możliwych do przesłania przez formularz, obcinając nadmiarowe. Pozwala to zapobiec atakom DoS na tablice hashujące (przynajmniej w tym jednym miejscu). Domyślna wartość tej zmiennej to 1000 i kreatywnym programistom udaje się tą wartość bez problemu osiągnąć &amp;#x1f603;&lt;/p&gt;
+&lt;p&gt;Warte odnotowania jest to że mając suhosin&amp;rsquo;a trzeba pamiętać o jeszcze dwóch innych zmiennych:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;max_input_vars &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;suhosin&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;max_vars &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;suhosin&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;request&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;max_vars &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Zmienne można zmienić od razu w &lt;code&gt;/etc/php5/apache2/php.ini&lt;/code&gt; (choć te dla suhosin&amp;rsquo;a lepiej wrzucić do &lt;code&gt;/etc/php5/conf.d/suhosin.ini&lt;/code&gt;). A jeszcze lepszym pomysłem jest ustawienie tych zmiennych bezpośrednio dla danego vhost&amp;rsquo;a, w Apache&amp;rsquo;m np. tak:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jak dokuczać spamerom</title>
+      <link>https://gagor.pro/2012/12/jak-dokuczac-spamerom/</link>
+      <pubDate>Tue, 18 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/12/jak-dokuczac-spamerom/</guid>
+      <description>&lt;p&gt;Dawno, dawno temu&amp;hellip; Za górami, za lasami&amp;hellip; czytałem sobie &lt;a title=&#34;Jak zapchać bazę spamerom&#34; href=&#34;http://www.lemat.priv.pl/index.php?m=page&amp;pg_id=12&#34; target=&#34;_blank&#34;&gt;tekst Lemat&amp;rsquo;a&lt;/a&gt; o dokuczaniu spamerom i pomyślałem że sam też tak mogę i nawet chcę więc popełniłem skrypcik, który dla losowych słów generował maile. Skrypcik działał z dwa lata na mojej poprzedniej stronie i nie raz zdarzyło się tam jakiejś mendzie zapętlić. Jakoś nie miałem czasu od razu, a później zapomniałem wrzucić go na nową stronie i tak zostało - na pewien czas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Porównanie optymalizatorów PHP - eAccelerator, PHP APC, XCache</title>
+      <link>https://gagor.pro/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</guid>
+      <description>&lt;p&gt;Przez pewien czas korzystałem z eAcceleratora do przyspieszenia działania stron pisanych w PHP&amp;rsquo;ie ale czasem bywał niestabilny. Aktualizacje pojawiały się rzadko a od czasu do czasu miewałem problemy ze stabilnością tej wtyczki na kilku bardziej skomplikowanych aplikacjach. Zdarzało się że pomimo zmiany kodu w skrypcie php, eAccelerator serwował wciąż stary plik - konieczny był restart Apache&amp;rsquo;go by wszystko działało jak trzeba.&lt;/p&gt;
+&lt;p&gt;Zacząłem szukać alternatywy i trafiłem na dwa moduły:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://php.net/manual/en/book.apc.php&#34;  target=&#34;_blank&#34;&gt;APC&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w PHP od wersji 5.4,&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://xcache.lighttpd.net/&#34;  target=&#34;_blank&#34;&gt;XCache&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ - projekt rozwijany przez jednego z programistów lighttpd.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Byłem ciekaw wydajności poszczególnych rozwiązań względem siebie, więc przygotowałem małe środowisko testowe składające się z 4 maszyn wirtualnych (działających pod kontrolą VirtualBox&amp;rsquo;a):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JPGraph, wykresy z PHP’a</title>
+      <link>https://gagor.pro/2011/08/jpgraph-wykresy-z-phpa/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/jpgraph-wykresy-z-phpa/</guid>
+      <description>&lt;p&gt;Onego czasu próbowałem znaleźć coś co ułatwiłoby mi rysowanie prostych wykresów w PHP&amp;rsquo;ie inaczej niż z palca w GD. Kumpel polecił mi &lt;a href=&#34;http://www.aditus.nu/jpgraph&#34;  target=&#34;_blank&#34;&gt;JPGraph&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;JPGraph to świetna sprawa, do generowania statystyk jak chociażby na mojej stronie, ale biblioteka potrafi dużo więcej&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Załóżmy, że ze stronki zbieramy do bazy takie rzeczy jak: datę, adres IP, ilość połączeń z tego adresu. Prosta tabela (przykład w Postgre SQL&amp;rsquo;u):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Optymalizacja PHP z eAccelerator’em</title>
+      <link>https://gagor.pro/2011/08/optymalizacja-php-z-eacceleratorem/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/optymalizacja-php-z-eacceleratorem/</guid>
+      <description>&lt;p&gt;Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy &amp;#x1f603;&lt;/p&gt;
+&lt;p&gt;Niestety nie ma go w repozytoriach Debiana, więc trzeba go sobie skompilować - cały proces jest dość prosty. Zaczynamy od pobrania najświeższej paczki, obecnie jest to wersja 0.9.5.3:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://bart.eaccelerator.net/source/0.9.5.3/eaccelerator-0.9.5.3.tar.bz2&#34;  target=&#34;_blank&#34;&gt;Pobierz eAccelerator&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Klastrowanie sesji PHP z memcached</title>
+      <link>https://gagor.pro/2011/08/klastrowanie-sesji-php-z-memcached/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/klastrowanie-sesji-php-z-memcached/</guid>
+      <description>&lt;p&gt;Klastrowanie to może zbyt dumnie powiedziane. Rozwiązanie to wyszukałem gdy chcąc skonfigurować dwa serwery apache do współpracy na rzecz jednego serwisu okazało się, że sejse trzymane są tylko przez jeden serwer a drugi nic o nich nie wie. To oczywiście nie pozwalało na prawidłowe działanie jakiegokolwiek serwisu korzystającego z sesji.&lt;/p&gt;
+&lt;p&gt;Pomysł jest taki, że zastępujemy domyśny mechanizm przechowywania sesji w plikach na dysku mechanizmem memcache. Ponieważ memcached działa jako usługa sieciowa, różne serwery mogą się odwoływać do puli memcached i odczytywać zapisane w niej dane. W przypadku sesji - nie jest ważne, kto ją utworzył - bo po jej wysłaniu do puli memcached staje się dostępna dla wszystkich klientów php z niej korzystających.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Apache on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/apache/</link>
+    <description>Recent content in Apache on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/apache/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache - Force caching dynamic PHP content with mod_headers</title>
+      <link>https://gagor.pro/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2015/12/apache-force-caching-dynamic-php-content-with-mod_headers/</guid>
+      <description>&lt;p&gt;Normally you want dynamic content to be fresh and not cacheable. But sometimes it may be useful to cache it, like when you have website behind reverse proxy&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. To do this try something like this:&lt;/p&gt;
+
+
+&lt;div class=&#34;terminal space shadow&#34;&gt;
+    &lt;div class=&#34;top&#34;&gt;
+        &lt;div class=&#34;btns&#34;&gt;
+            &lt;span class=&#34;circle red&#34;&gt;&lt;/span&gt;
+            &lt;span class=&#34;circle yellow&#34;&gt;&lt;/span&gt;
+            &lt;span class=&#34;circle green&#34;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;title&#34;&gt;Add new Apache conf file&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;terminalbody&#34;&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;filesmatch &amp;#34;\.(php|cgi|pl)$&amp;#34;&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Header unset Pragma
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Header unset Expires
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Header set Cache-Control &amp;#34;max-age=3600, public&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/filesmatch&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html&#34;  target=&#34;_blank&#34;&gt;http://www.askapache.com/htaccess/speed-up-your-site-with-caching-and-cache-control.html&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache AuthBasic but excluding IP</title>
+      <link>https://gagor.pro/2015/12/apache-authbasic-but-excluding-ip/</link>
+      <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2015/12/apache-authbasic-but-excluding-ip/</guid>
+      <description>&lt;p&gt;Allow from IP without password prompt, and also allow from any address with password prompt&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Order deny,allow
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Deny from all
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;AuthName &amp;#34;htaccess password prompt&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;AuthUserFile /web/askapache.com/.htpasswd
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;AuthType Basic
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Require valid-user
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Allow from 172.17.10.1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Satisfy Any
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;sources&#34;&gt;Sources&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.askapache.com/htaccess/apache-authentication-in-htaccess.html&#34;  target=&#34;_blank&#34;&gt;http://www.askapache.com/htaccess/apache-authentication-in-htaccess.html&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache - precompressing static files with gzip</title>
+      <link>https://gagor.pro/2013/12/apache-precompressing-static-files-with-gzip/</link>
+      <pubDate>Fri, 27 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/12/apache-precompressing-static-files-with-gzip/</guid>
+      <description>&lt;p&gt;Some time ago I&amp;rsquo;ve show &lt;a href=&#34;https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/&#34; title=&#34;Nginx - kompresowanie plików dla gzip_static&#34;&gt;how to precompress &lt;em&gt;js&lt;/em&gt; and &lt;em&gt;css&lt;/em&gt; file with gzip to be available for Nginx&amp;rsquo;s mod_gzip&lt;/a&gt;. In default configuration Apache don&amp;rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.&lt;/p&gt;
+&lt;p&gt;Basically we will start with these rewrites to serve gzipped CSS/JS files if they exist and the client accepts gzip compression:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RewriteEngine on
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RewriteCond %{HTTP:Accept-encoding} gzip
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RewriteCond %{REQUEST_FILENAME}\.gz -s
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RewriteRule ^(.*)\.(js|css)$ $1\.$2\.gz [QSA]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then we need to setup proper content types for such compressed files - I know how to do this in two ways:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Running Apache with mod_spdy and PHP-FPM</title>
+      <link>https://gagor.pro/2013/12/running-apache-with-mod_spdy-and-php-fpm/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/12/running-apache-with-mod_spdy-and-php-fpm/</guid>
+      <description>&lt;p&gt;SPDY is new protocol proposed by Google as an alternative for HTTP(S). Currently Chrome and Firefox browsers are using it as default if available on server. It is faster in most cases by few to several percent. The side effect of using &lt;a href=&#34;http://code.google.com/p/mod-spdy/&#34;  target=&#34;_blank&#34;&gt;mod_spdy&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ is that it&amp;rsquo;s working well only with thread safe Apache&amp;rsquo;s modules. PHP module for Apache is not thread safe so we need to use PHP as CGI or FastCGI service. CGI is slow - so running mod_spdy for performance gain with CGI is simply pointless. FastCGI is better but it&amp;rsquo;s not possible to share &lt;a href=&#34;http://pecl.php.net/package/APC&#34;  target=&#34;_blank&#34;&gt;APC&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ cache in FastCGI mode (ex. using spawn-fcgi), so it&amp;rsquo;s poor too. Best for PHP is &lt;a href=&#34;http://php-fpm.org/&#34;  target=&#34;_blank&#34;&gt;PHP-FPM&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ which is FastCGI service with dynamic process manager and could use full advantages of APC. In such configuration I could switch from apache prefork to worker which should use less resources and be more predictable.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Certyfikaty nazwaSSL na własnym serwerze</title>
+      <link>https://gagor.pro/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</link>
+      <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu można kupić w &lt;a href=&#34;https://www.nazwa.pl/cennik/cennik-certyfikatow-ssl/&#34; title=&#34;Cennik&#34; target=&#34;_blank&#34;&gt;NetArcie certyfikaty SSL, a niedawno zrobili na nie promocję - 15zł za pierwszy rok&lt;/a&gt; (za certyfikat na jedną stronkę). Tzw. tanie i dobre. Po wyrobieniu certyfikatu i zapisaniu z panelu klienta mam pliczki: stonka.crt i netart_rootca.crt, które wrzucamy do Apachego, powiedzmy tak:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SSLCertificateFile /etc/ssl/certs/stonka.crt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SSLCertificateKeyFile /etc/ssl/private/priv.key
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SSLCACertificateFile /etc/ssl/certs/netart_rootca.crt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Certyfikat działa w Chromie ale nie weryfikuje się w Firefoxie i Internet Explorerze. FF wyświetla błąd: &lt;strong&gt;sec_error_unknown_issuer&lt;/strong&gt; - co oznacza brak certyfikatu wystawcy gdzieś w łańcuchu certyfikatów. W FAQ zero jak chodzi o konfigurację certyfikatów na serwerze poza NetArt&amp;rsquo;em&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PHP - max_input_vars</title>
+      <link>https://gagor.pro/2013/01/php-max_input_vars/</link>
+      <pubDate>Tue, 22 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/01/php-max_input_vars/</guid>
+      <description>&lt;p&gt;W PHP 5.3 pojawiła się nowa zmienna: &lt;code&gt;max_input_vars&lt;/code&gt;, która limituje ilość pól możliwych do przesłania przez formularz, obcinając nadmiarowe. Pozwala to zapobiec atakom DoS na tablice hashujące (przynajmniej w tym jednym miejscu). Domyślna wartość tej zmiennej to 1000 i kreatywnym programistom udaje się tą wartość bez problemu osiągnąć &amp;#x1f603;&lt;/p&gt;
+&lt;p&gt;Warte odnotowania jest to że mając suhosin&amp;rsquo;a trzeba pamiętać o jeszcze dwóch innych zmiennych:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;max_input_vars &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;suhosin&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;max_vars &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;suhosin&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;request&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;max_vars &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Zmienne można zmienić od razu w &lt;code&gt;/etc/php5/apache2/php.ini&lt;/code&gt; (choć te dla suhosin&amp;rsquo;a lepiej wrzucić do &lt;code&gt;/etc/php5/conf.d/suhosin.ini&lt;/code&gt;). A jeszcze lepszym pomysłem jest ustawienie tych zmiennych bezpośrednio dla danego vhost&amp;rsquo;a, w Apache&amp;rsquo;m np. tak:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache: mod_authnz_ldap z Active Directory</title>
+      <link>https://gagor.pro/2012/12/apache-mod_authnz_ldap-z-active-directory/</link>
+      <pubDate>Fri, 14 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/12/apache-mod_authnz_ldap-z-active-directory/</guid>
+      <description>&lt;p&gt;Gdy już się dorobi systemu Active Directory wygodnie jest wykorzystać jego bazę użytkowników do autoryzacji w różnych miejscach, np. do pewnych &amp;ldquo;tajnych i tajniejszych&amp;rdquo; stron w Apache. Najprościej można to zrobić z wykorzystaniem LDAP.&lt;/p&gt;
+&lt;p&gt;Warto &lt;a title=&#34;ldapsearch w Active Directory&#34; href=&#34;https://gagor.pl/2012/12/ldapsearch-w-active-directory/&#34;&gt;sprawdzić czy i jak możemy dostać się do kontrolerów&lt;/a&gt;. Gdy już mamy wszystkie potrzebne parametry konfigurujemy Apachego - na początek aktywujemy moduły:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a2enmod ldap
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a2enmod authnz_ldap
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Teraz możemy edytujemy globalny plik konfiguracyjny mod_ldap&amp;rsquo;a by ustawić nieco cache&amp;rsquo;y (bardzo przydatne). Wartości można dostosować do potrzeb ale przykładowe powinny wystarczyć na początku:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mod_rewrite - wymuszenie małych liter w adresie URL</title>
+      <link>https://gagor.pro/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</link>
+      <pubDate>Tue, 25 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</guid>
+      <description>&lt;p&gt;Co prawda adresy URL pozwalają na stosowanie zarówno dużych jak i małych liter ale różne systemy mogą je różnie obsługiwać i może się trafić sytuacja, w której nie zechcemy by np. duże litery w ogóle pojawiały się w adresach URL. Doskonały przykład to mój niedawny wpis: &lt;a href=&#34;https://gagor.pro/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/&#34; &gt;Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;Zachodzi tam sytuacja, w której katalog użytkownika jest jego loginem małymi literami (bądź dużymi - jak kto woli), a użytkownik wpisując login może użyć zarówno małych jak i dużych liter i tutaj zaczyna się jazda. Można użyć modyfikatora NC (no case), ale to wpłynie tylko na porównania - przepisanie ścieżki na nazwę podaną przez usera (z dużymi i małymi literami) przekieruje do katalogu, którego nie ma (bo jest katalog tylko małymi/dużymi).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic</title>
+      <link>https://gagor.pro/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</guid>
+      <description>&lt;p&gt;Niedawno trafiłem na ciekawy problem w &lt;em&gt;mod_rewrite&lt;/em&gt; - by przekierowywać użytkowników logujących się jednym z modułów &lt;em&gt;mod_auth_basic&lt;/em&gt; do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej &lt;em&gt;%{REMOTE_USER}&lt;/em&gt; - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w &lt;em&gt;RewriteCond&lt;/em&gt; zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można &lt;em&gt;RewriteCond&amp;rsquo;y&lt;/em&gt; połączyć wyrażeniami logicznymi typu &lt;em&gt;AND&lt;/em&gt;/&lt;em&gt;OR&lt;/em&gt; to nie ma możliwości porównania czy dopasowania z kolejnych &lt;em&gt;RewriteCond&amp;rsquo;ów&lt;/em&gt; są identyczne. Po kilku dniach szperania w dokumentacji i różnych tutorialach udało mi się trafić na jedną wartościową wskazówkę ale tej stronki już nie ma, więc opiszę problem dla potomnych.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache - reverse proxy z cache’owaniem</title>
+      <link>https://gagor.pro/2012/06/apache-reverse-proxy-z-cacheowaniem/</link>
+      <pubDate>Sun, 17 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/06/apache-reverse-proxy-z-cacheowaniem/</guid>
+      <description>&lt;p&gt;Ostatnio trafiłem na ciekawy problem, który wielokrotnie rozwiązywałem w nginx&amp;rsquo;ie ale tym razem musiałem zrobić to w Apache. Pewna stronka działa sobie na HTTPS&amp;rsquo;ie i chciałem by wszystkie powiązane z nią pliki były serwowane z jej adresu szyfrowanym połączeniem by nie pojawiały się w przeglądarce monity że &amp;ldquo;część ruchu nie jest szyfrowana&amp;rdquo;. Tyle że część potrzebnych plików była już obecnie serwowana na innym serwerze (w innej domenie) poprzez HTTP.&lt;/p&gt;
+&lt;p&gt;Mogłem albo skopiować te pliki i wykombinować jakiś mechanizm synchronizujący albo wykorzystać proxy + cache. Drugie rozwiązanie wydało mi się prostsze i ładniejsze &amp;#x1f603;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache mod_expires konfiguracja</title>
+      <link>https://gagor.pro/2012/01/apache-mod_expires-konfiguracja/</link>
+      <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/01/apache-mod_expires-konfiguracja/</guid>
+      <description>&lt;p&gt;Aby umożliwić odwiedzającym nasze strony cachowanie obrazków (tak by nie musieli pobierać ich każdorazowo bo przecież nie zmieniają się aż tak często) konieczne jest ustawienie nagłówków: Cache-Control, Expires dla odpowiednich typów plików. W Apachem jest do tego dedykowany moduł - mod_expires. W Debianie dostarczany jest on bez domyślnej &lt;strong&gt;globalnej&lt;/strong&gt; konfiguracji - a ja lubię gdy cacheuje mi się większość statyki. Zawsze można dostosować czas cachowania pod siebie względem określonego typu pliku, np. dla Java Scriptów ustawić na 1 dzień gdy często się zmieniają. Można też w samej aplikacji zmieniać ścieżkę do pliku by wymusić odświeżenie (lub podawać ścieżkę z jakimś losowym identyfikatorem wycinanym przez mod_rewrite).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>X-Forwarded-For &#43; mod_rpaf - logowanie rzeczywistych adresów IP na Apache za reverse proxy</title>
+      <link>https://gagor.pro/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</link>
+      <pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</guid>
+      <description>&lt;p&gt;Gdy już ustawimy reverse proxy przed Apache szybko można zauważyć że w logach zamiast adresów IP zdalnych użytkowników pojawia się tylko jeden adres: adres naszego proxy. Również z poziomu php&amp;rsquo;a jako adres klienta widać IP naszego proxy.&lt;/p&gt;
+&lt;p&gt;By poradzić sobie z tym problemem trzeba na serwerze reverse proxy ustawić przekazywanie informacji o oryginalnym adresie IP klienta w nagłówku X-Forwarded-For. W przypadku gdy reverse proxy działa na nginx&amp;rsquo;e wystarczy dodać taki wpis:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Porównanie optymalizatorów PHP - eAccelerator, PHP APC, XCache</title>
+      <link>https://gagor.pro/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</link>
+      <pubDate>Wed, 02 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/11/porownanie-optymalizatorow-php-eaccelerator-php-apc-xcache/</guid>
+      <description>&lt;p&gt;Przez pewien czas korzystałem z eAcceleratora do przyspieszenia działania stron pisanych w PHP&amp;rsquo;ie ale czasem bywał niestabilny. Aktualizacje pojawiały się rzadko a od czasu do czasu miewałem problemy ze stabilnością tej wtyczki na kilku bardziej skomplikowanych aplikacjach. Zdarzało się że pomimo zmiany kodu w skrypcie php, eAccelerator serwował wciąż stary plik - konieczny był restart Apache&amp;rsquo;go by wszystko działało jak trzeba.&lt;/p&gt;
+&lt;p&gt;Zacząłem szukać alternatywy i trafiłem na dwa moduły:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://php.net/manual/en/book.apc.php&#34;  target=&#34;_blank&#34;&gt;APC&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ (czyli Alternative PHP Cache), który ma być nawet domyślnie wbudowany w PHP od wersji 5.4,&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://xcache.lighttpd.net/&#34;  target=&#34;_blank&#34;&gt;XCache&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ - projekt rozwijany przez jednego z programistów lighttpd.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Byłem ciekaw wydajności poszczególnych rozwiązań względem siebie, więc przygotowałem małe środowisko testowe składające się z 4 maszyn wirtualnych (działających pod kontrolą VirtualBox&amp;rsquo;a):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zabezpieczenie Apachego na Debianie przed slowloris’em</title>
+      <link>https://gagor.pro/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</link>
+      <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu dostępny jest w sieci skrypt &lt;a href=&#34;http://ha.ckers.org/slowloris/&#34;  target=&#34;_blank&#34;&gt;slowloris.pl&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Optymalizacja PHP z eAccelerator’em</title>
+      <link>https://gagor.pro/2011/08/optymalizacja-php-z-eacceleratorem/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/optymalizacja-php-z-eacceleratorem/</guid>
+      <description>&lt;p&gt;Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy &amp;#x1f603;&lt;/p&gt;
+&lt;p&gt;Niestety nie ma go w repozytoriach Debiana, więc trzeba go sobie skompilować - cały proces jest dość prosty. Zaczynamy od pobrania najświeższej paczki, obecnie jest to wersja 0.9.5.3:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://bart.eaccelerator.net/source/0.9.5.3/eaccelerator-0.9.5.3.tar.bz2&#34;  target=&#34;_blank&#34;&gt;Pobierz eAccelerator&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Statystyki odwiedzin dla wielu serwisów z AWStats</title>
+      <link>https://gagor.pro/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</guid>
+      <description>&lt;p&gt;Co prawda na swojej stronie zrobiłem kilka podstawowych statystyk i coś tam sobie loguję do bazy danych, ale gdyby się chwilę zastanowić to przecież to samo robi serwer www - wrzuca do logów każde zapytanie HTTP, kod błędu, nazwę agenta, itd. Dublowanie tych danych nie jest najbardziej optymalne.&lt;br /&gt; Stąd też chwilę pogooglałem i znalazłem świetny Open Source&amp;rsquo;owy projekt: &lt;strong&gt;AWStats&lt;/strong&gt;, który jest webowym analizatorem logów dla serwerów HTTP, FTP i SMTP.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Klastrowanie sesji PHP z memcached</title>
+      <link>https://gagor.pro/2011/08/klastrowanie-sesji-php-z-memcached/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/klastrowanie-sesji-php-z-memcached/</guid>
+      <description>&lt;p&gt;Klastrowanie to może zbyt dumnie powiedziane. Rozwiązanie to wyszukałem gdy chcąc skonfigurować dwa serwery apache do współpracy na rzecz jednego serwisu okazało się, że sejse trzymane są tylko przez jeden serwer a drugi nic o nich nie wie. To oczywiście nie pozwalało na prawidłowe działanie jakiegokolwiek serwisu korzystającego z sesji.&lt;/p&gt;
+&lt;p&gt;Pomysł jest taki, że zastępujemy domyśny mechanizm przechowywania sesji w plikach na dysku mechanizmem memcache. Ponieważ memcached działa jako usługa sieciowa, różne serwery mogą się odwoływać do puli memcached i odczytywać zapisane w niej dane. W przypadku sesji - nie jest ważne, kto ją utworzył - bo po jej wysłaniu do puli memcached staje się dostępna dla wszystkich klientów php z niej korzystających.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

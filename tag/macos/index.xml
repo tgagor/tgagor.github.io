@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MacOS on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/macos/</link>
+    <description>Recent content in MacOS on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Thu, 15 Jan 2026 20:29:38 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zsh &#39;illegal modifier&#39; with Git Conventional Commits</title>
+      <link>https://gagor.pro/2025/12/zsh-illegal-modifier-with-git-conventional-commits/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/12/zsh-illegal-modifier-with-git-conventional-commits/</guid>
+      <description>Fix ZSH &amp;lsquo;illegal modifier&amp;rsquo; errors with Git Conventional Commits by disabling the &lt;code&gt;NO_BANG_HIST&lt;/code&gt; option.</description>
+    </item>
+    <item>
+      <title>Generating Miniatures for my Frameo Digital Photo Frame</title>
+      <link>https://gagor.pro/2025/11/generating-miniatures-for-my-frameo-digital-photo-frame/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/11/generating-miniatures-for-my-frameo-digital-photo-frame/</guid>
+      <description>A story of how I bought a digital photo frame, and how I created a tool to generate miniatures of my photo collection to fit them all on the device.</description>
+    </item>
+    <item>
+      <title>Running Gemini CLI in a Docker container</title>
+      <link>https://gagor.pro/2025/10/running-gemini-cli-in-a-docker-container/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/10/running-gemini-cli-in-a-docker-container/</guid>
+      <description>Learn how to run Google&amp;rsquo;s Gemini CLI in a Docker container to avoid installing Node.js and its dependencies directly on your system. This guide provides a simple setup, a recommended shell function for seamless integration, and usage examples.</description>
+    </item>
+    <item>
+      <title>iTerm2 - Hotkeys unavailable - Another app has enabled secure keyboard input</title>
+      <link>https://gagor.pro/2025/05/iterm2-hotkeys-unavailable-another-app-has-enabled-secure-keyboard-input/</link>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/05/iterm2-hotkeys-unavailable-another-app-has-enabled-secure-keyboard-input/</guid>
+      <description>Learn how to resolve the &amp;ldquo;Hotkeys unavailable - Another app has enabled secure keyboard input&amp;rdquo; issue in iTerm2 on macOS Sequoia 15.5 by adjusting Input Monitoring settings.</description>
+    </item>
+    <item>
+      <title>Fix &#39;Cannot Rebase Onto Multiple Branches&#39; error once and for all</title>
+      <link>https://gagor.pro/2024/05/fix-cannot-rebase-onto-multiple-branches-error-once-and-for-all/</link>
+      <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/05/fix-cannot-rebase-onto-multiple-branches-error-once-and-for-all/</guid>
+      <description>&lt;h2 id=&#34;a-guide-to-using-git-pull---rebase-effectively&#34;&gt;A Guide to using &lt;code&gt;git pull --rebase&lt;/code&gt; effectively&lt;/h2&gt;
+&lt;p&gt;Using &lt;code&gt;git pull --rebase&lt;/code&gt; as your default merge strategy offers several benefits, particularly in maintaining a clean and linear commit history, which can simplify collaboration and code review. However, you may occasionally encounter the error &lt;em&gt;&amp;ldquo;Cannot rebase onto multiple branches&amp;rdquo;&lt;/em&gt;. This article explains why this happens and provides a solution to make &lt;code&gt;git pull --rebase&lt;/code&gt; work seamlessly.&lt;/p&gt;
+&lt;h3 id=&#34;benefits-of-git-pull---rebase&#34;&gt;Benefits of &lt;code&gt;git pull --rebase&lt;/code&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Linear History&lt;/strong&gt;: Rebasing applies your local commits on top of the upstream changes, creating a straight line of commits without unnecessary merge commits. This makes the project history easier to read and understand.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zed Code Editor as an Atom reincarnation</title>
+      <link>https://gagor.pro/2024/03/zed-code-editor-as-an-atom-reincarnation/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/zed-code-editor-as-an-atom-reincarnation/</guid>
+      <description>Discover how Zed, a fast and efficient code editor built in Rust, aims to recapture the essence of Atom, with a focus on speed and customization.</description>
+    </item>
+    <item>
+      <title>The power of extensive command history in Bash and Zsh</title>
+      <link>https://gagor.pro/2024/03/the-power-of-extensive-command-history-in-bash-and-zsh/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/the-power-of-extensive-command-history-in-bash-and-zsh/</guid>
+      <description>Learn how to leverage extensive command history in Bash and Zsh to improve your efficiency and productivity in the terminal.</description>
+    </item>
+    <item>
+      <title>How I stopped worrying and loved Makefiles</title>
+      <link>https://gagor.pro/2024/02/how-i-stopped-worrying-and-loved-makefiles/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/02/how-i-stopped-worrying-and-loved-makefiles/</guid>
+      <description>Learn how to use Makefiles to streamline your Terraform and Hugo projects, making environment management and static site generation more efficient.</description>
+    </item>
+    <item>
+      <title>How to run x86-64 Docker images on Apple&#39;s MacBook with M1/M2/M3 CPU</title>
+      <link>https://gagor.pro/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</link>
+      <pubDate>Tue, 06 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/02/how-to-run-x86-64-docker-images-on-apples-macbook-with-m1/m2/m3-cpu/</guid>
+      <description>Learn how to run x86-64 Docker images on Apple&amp;rsquo;s MacBook with M1/M2/M3 CPUs by setting the DOCKER_DEFAULT_PLATFORM environment variable.</description>
+    </item>
+    <item>
+      <title>My pre-commit config for Hugo blog</title>
+      <link>https://gagor.pro/2024/01/my-pre-commit-config-for-hugo-blog/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/01/my-pre-commit-config-for-hugo-blog/</guid>
+      <description>Learn how to set up and use pre-commit hooks to automate tasks like linting, syntax checks, and optimizations for your Hugo blog.</description>
+    </item>
+    <item>
+      <title>Git hacks - a set of my favorite git aliases</title>
+      <link>https://gagor.pro/2024/01/git-hacks-a-set-of-my-favorite-git-aliases/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/01/git-hacks-a-set-of-my-favorite-git-aliases/</guid>
+      <description>&lt;p&gt;I use Git a lot, even writing this article i will commit text few times. There&amp;rsquo;s a set of aliases I rely on daily and they&amp;rsquo;re first I add in new place.&lt;/p&gt;
+&lt;p&gt;Some Git commands are unnecessarily verbose. You can make your life much easier with &lt;code&gt;bash-completions&lt;/code&gt;, but if you write it tens of times per day, it&amp;rsquo;s anyway a lot of typing&amp;hellip; and I&amp;rsquo;m a lazy man &amp;#x1f604;&lt;/p&gt;
+&lt;h2 id=&#34;simple-statuslog-checks&#34;&gt;Simple status/log checks&lt;/h2&gt;
+&lt;h3 id=&#34;git-s&#34;&gt;&lt;strong&gt;git s&lt;/strong&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  s &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; status --short --branch --untracked-files
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Shows a short, branch-focused status with untracked files.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Change configuration of Docker daemon in Rancher Desktop</title>
+      <link>https://gagor.pro/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2023/03/change-configuration-of-docker-daemon-in-rancher-desktop/</guid>
+      <description>Learn how to change the configuration of the Docker daemon in Rancher Desktop on MacOS, enabling experimental features and BuildKit for enhanced functionality.</description>
+    </item>
+    <item>
+      <title>I switched to Zsh</title>
+      <link>https://gagor.pro/2021/12/i-switched-to-zsh/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/12/i-switched-to-zsh/</guid>
+      <description>A guide to switching from bash to Zsh, with Oh My Zsh, Powerlevel10k, and useful plugins for a better terminal experience.</description>
+    </item>
+    <item>
+      <title>Automatically add ticket ID to every commit message in Git</title>
+      <link>https://gagor.pro/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</guid>
+      <description>Learn how to automatically add ticket IDs to every commit message in Git, ensuring consistent and informative commit history by using custom Git aliases.</description>
+    </item>
+    <item>
+      <title>Resize images from command line on MacOS</title>
+      <link>https://gagor.pro/2021/11/resize-images-from-command-line-on-macos/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/11/resize-images-from-command-line-on-macos/</guid>
+      <description>Learn how to resize images from the command line on MacOS using built-in tools like sips and third-party tools like ImageMagick for various use cases.</description>
+    </item>
+    <item>
+      <title>Homebrew - uninstall formula with dependencies</title>
+      <link>https://gagor.pro/2021/11/homebrew-uninstall-formula-with-dependencies/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/11/homebrew-uninstall-formula-with-dependencies/</guid>
+      <description>Learn how to uninstall a Homebrew formula along with its dependencies on MacOS, ensuring a clean removal and freeing up disk space.</description>
+    </item>
+    <item>
+      <title>Moving from Linux to MacOS – first steps</title>
+      <link>https://gagor.pro/2020/01/moving-from-linux-to-macos-first-steps/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2020/01/moving-from-linux-to-macos-first-steps/</guid>
+      <description>Learn about the initial steps and adjustments needed when transitioning from a Linux desktop to MacOS for business purposes, including tips on keyboard shortcuts, application compatibility, and system settings.</description>
+    </item>
+    <item>
+      <title>Automatically build after file change</title>
+      <link>https://gagor.pro/2016/02/automatically-build-after-file-change/</link>
+      <pubDate>Tue, 23 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/02/automatically-build-after-file-change/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m playing a lot with Docker lately. Building images, and then rebuilding, and then building again&amp;hellip; It&amp;rsquo;s pretty boring. To automate this task a little I used &lt;code&gt;inotify&lt;/code&gt; to build automatically after I changed any file. This trick could be used in many different situations.&lt;/p&gt;
+&lt;h2 id=&#34;on-linux&#34;&gt;On Linux&lt;/h2&gt;
+&lt;p&gt;You will need &lt;code&gt;inotify-tools&lt;/code&gt; package:&lt;/p&gt;
+
+
+&lt;div class=&#34;terminal space shadow&#34;&gt;
+    &lt;div class=&#34;top&#34;&gt;
+        &lt;div class=&#34;btns&#34;&gt;
+            &lt;span class=&#34;circle red&#34;&gt;&lt;/span&gt;
+            &lt;span class=&#34;circle yellow&#34;&gt;&lt;/span&gt;
+            &lt;span class=&#34;circle green&#34;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;title&#34;&gt;Install inotify-tools on Linux&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;terminalbody&#34;&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install -y inotify-tools
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
+
+&lt;p&gt;Then run something like this:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

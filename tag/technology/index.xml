@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Technology on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/technology/</link>
+    <description>Recent content in Technology on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Tue, 06 Jan 2026 19:39:44 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Antifragile Systems and Teams</title>
+      <link>https://gagor.pro/book/2025/antifragile-systems-and-teams/</link>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2025/antifragile-systems-and-teams/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Antifragile Systems and Teams by Dave Zwieback&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Antifragile Systems and Teams&lt;/q&gt;&lt;p&gt;Author: Dave Zwieback&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This is a short read, but it does a solid job of capturing an important idea: that the healthiest systems and teams aren’t just resistant to change, they actually get stronger through it. Zwieback contrasts fragile organizations - those that try to lock things down and prevent every possible failure - with antifragile ones, which use volatility, mistakes, and small shocks as opportunities to learn and improve.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Błękitna kropka</title>
+      <link>https://gagor.pro/book/2024/blekitna-kropka/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2024/blekitna-kropka/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Błękitna kropka by Carl Sagan&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Błękitna kropka&lt;/q&gt;&lt;p&gt;Człowiek i jego przyszłość w kosmosie&lt;/p&gt;&lt;p&gt;Author: Carl Sagan&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I love science and I&amp;rsquo;m passionate about cosmos since I was 5. One of my favourite books from the childhood was the one about Universe - with color pictures. This one is a sweet reminder of those ancient times and have even better pictures!&lt;/p&gt;
+&lt;!-- Drop a picture here --&gt;
+&lt;p&gt;There is an interesting reference to the deities and their relation to the planets. Their impact on humanities history, then a swift dive into the place of the God in &amp;ldquo;our&amp;rdquo; universe. Statistical considerations of human being &amp;ldquo;the choosen one&amp;rdquo; by God. I didn&amp;rsquo;t expect it in a book like that, but it resonated the strings inside me. I really enjoyed this part.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Working Backwards</title>
+      <link>https://gagor.pro/book/2024/working-backwards/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2024/working-backwards/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Working Backwards by Colin Bryar&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Working Backwards&lt;/q&gt;&lt;p&gt;Insights, Stories, and Secrets from Inside Amazon&lt;/p&gt;&lt;p&gt;Author: Colin Bryar&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This book is all about the &lt;a href=&#34;https://www.amazon.jobs/content/en/our-workplace/leadership-principles&#34;  target=&#34;_blank&#34;&gt;&amp;ldquo;Amazon Leadership Principles&amp;rdquo;&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+. They are the core values that drive the behavior of leaders and, consequently, all employees in the organization.&lt;/p&gt;
+&lt;p&gt;They were built when the company was scaling rapidly and it was no longer possible to rely on the CEO as the sole source of values and direction. Other leaders had to adopt the same behaviors and set the same expectations to keep the company cohesive.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Starość aksolotla</title>
+      <link>https://gagor.pro/book/2022/starosc-aksolotla/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2022/starosc-aksolotla/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Starość aksolotla by Jacek Dukaj&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Starość aksolotla&lt;/q&gt;&lt;p&gt;Hardware dreams&lt;/p&gt;&lt;p&gt;Author: Jacek Dukaj&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Starość Aksolotla is a book written by Polish author Jacek Dukaj that I recently had the pleasure of reading. The book is a science fiction novel that explores themes of longevity, immortality, and the meaning of life. The protagonist of the story is a centuries-old axolotl, a species of salamander that is capable of regenerating its limbs and organs, who embarks on a journey of self-discovery as he grapples with the consequences of his own immortality.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The three-body problem</title>
+      <link>https://gagor.pro/book/2022/the-three-body-problem/</link>
+      <pubDate>Tue, 06 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2022/the-three-body-problem/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book The three-body problem by Cixin Liu&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;The three-body problem&lt;/q&gt;&lt;p&gt;Author: Cixin Liu&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The novel is set in the future and follows the discovery of an alien civilization, the Trisolarans, and humanity&amp;rsquo;s attempts to make contact and defend against them. The book is known for its complex scientific concepts, philosophical ideas, and intricate storyline.&lt;/p&gt;
+&lt;p&gt;Overall, &amp;ldquo;The Three-Body Problem&amp;rdquo; has been highly praised by readers and critics for its unique and thought-provoking approach to science fiction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kubernetes Operators</title>
+      <link>https://gagor.pro/book/2022/kubernetes-operators/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2022/kubernetes-operators/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Kubernetes Operators by &#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Kubernetes Operators&lt;/q&gt;&lt;p&gt;Automating the Container Orchestration Platform&lt;/p&gt;&lt;p&gt;Authors: Jason Dobies,  Joshua Wood&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Projekt Jednorożec</title>
+      <link>https://gagor.pro/book/2021/projekt-jednorozec/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2021/projekt-jednorozec/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Projekt Jednorożec by Gene Kim&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Projekt Jednorożec&lt;/q&gt;&lt;p&gt;Powieść o szansie w epoce przewrotów cyfrowych&lt;/p&gt;&lt;p&gt;Author: Gene Kim&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Java Performance Companion</title>
+      <link>https://gagor.pro/book/2020/java-performance-companion/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2020/java-performance-companion/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Java Performance Companion by &#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Java Performance Companion&lt;/q&gt;&lt;p&gt;Authors: Charlie Hunt,  Monica Beckwith,  Poonam Parhar,  Bengt Rutisson&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Troubleshooting Java Performance</title>
+      <link>https://gagor.pro/book/2020/troubleshooting-java-performance/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2020/troubleshooting-java-performance/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Troubleshooting Java Performance by Erik Ostermueller&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Troubleshooting Java Performance&lt;/q&gt;&lt;p&gt;Detecting Anti-Patterns with Open Source Tools 1st ed. Edition&lt;/p&gt;&lt;p&gt;Author: Erik Ostermueller&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Bezpieczeństwo aplikacji webowych</title>
+      <link>https://gagor.pro/book/2019/bezpieczenstwo-aplikacji-webowych/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2019/bezpieczenstwo-aplikacji-webowych/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Bezpieczeństwo aplikacji webowych by &#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Bezpieczeństwo aplikacji webowych&lt;/q&gt;&lt;p&gt;Authors: Michał Bentkowski,  Gynvael Coldwind,  Artur Czyż,  Rafał Janicki,  Jarosław Kamiński,  Adrian Michalczyk,  Mateusz Niezabitowski,  Marcin Piosek,  Michał Sajdak,  Grzegorz Trawiński,  Bohdan Widła&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>DevOps</title>
+      <link>https://gagor.pro/book/2019/devops/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2019/devops/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book DevOps by Gene Kim, Patrick Debois, John Willis, Jez Humble, John Allspaw&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;DevOps&lt;/q&gt;&lt;p&gt;Światowej klasy zwinność, niezawodność i bezpieczeństwo w Twojej organizacji&lt;/p&gt;&lt;p&gt;Authors: Gene Kim,  Patrick Debois,  John Willis,  Jez Humble,  John Allspaw&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Projekt Feniks</title>
+      <link>https://gagor.pro/book/2018/projekt-feniks/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2018/projekt-feniks/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Projekt Feniks by &#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Projekt Feniks&lt;/q&gt;&lt;p&gt;Powieść o IT, modelu DevOps i o tym, jak pomóc firmie w odniesieniu sukcesu&lt;/p&gt;&lt;p&gt;Authors: Gene Kim,  Kevin Behr,  George Spafford&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Broń matematycznej zagłady</title>
+      <link>https://gagor.pro/book/2018/bron-matematycznej-zaglady/</link>
+      <pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2018/bron-matematycznej-zaglady/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Broń matematycznej zagłady by Cathy O&amp;rsquo;Neil&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Broń matematycznej zagłady&lt;/q&gt;&lt;p&gt;Jak algorytmy zwiększają nierówności i zagrażają demokracji&lt;/p&gt;&lt;p&gt;Author: Cathy O&amp;#39;Neil&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Cisza w sieci</title>
+      <link>https://gagor.pro/book/2018/cisza-w-sieci/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2018/cisza-w-sieci/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Cisza w sieci by Michał Zalewski&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Cisza w sieci&lt;/q&gt;&lt;p&gt;Author: Michał Zalewski&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Odliczając do dnia zero</title>
+      <link>https://gagor.pro/book/2018/odliczajac-do-dnia-zero/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2018/odliczajac-do-dnia-zero/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Odliczając do dnia zero by Kim Zetter&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Odliczając do dnia zero&lt;/q&gt;&lt;p&gt;Stuxnet, czyli prawdziwa historia cyfrowej broni&lt;/p&gt;&lt;p&gt;Author: Kim Zetter&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Czysty kod</title>
+      <link>https://gagor.pro/book/2017/czysty-kod/</link>
+      <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2017/czysty-kod/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Czysty kod by Robert C. Martin&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Czysty kod&lt;/q&gt;&lt;p&gt;Podręcznik dobrego programisty&lt;/p&gt;&lt;p&gt;Author: Robert C. Martin&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Java. Efektywne programowanie</title>
+      <link>https://gagor.pro/book/2017/java.-efektywne-programowanie/</link>
+      <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2017/java.-efektywne-programowanie/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Java. Efektywne programowanie by &#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Java. Efektywne programowanie&lt;/q&gt;&lt;p&gt;Wydanie II&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>The Pragmatic Programmer</title>
+      <link>https://gagor.pro/book/2017/the-pragmatic-programmer/</link>
+      <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2017/the-pragmatic-programmer/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Pragmatyczny programista by Andrew Hunt, David Thomas&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Pragmatyczny programista&lt;/q&gt;&lt;p&gt;Od czeladnika do mistrza&lt;/p&gt;&lt;p&gt;Authors: Andrew Hunt,  David Thomas&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I first read this book almost 10 years ago, but didn&amp;rsquo;t write a proper review at the time. Over the recent Christmas break, I revisited it and &lt;a href=&#34;https://gagor.pro/2026/01/a-practical-guide-to-building-a-parser-in-go/&#34; &gt;gave it a second read which resulted in bit of Go programming&lt;/a&gt;
+ &amp;#x1f601;.&lt;/p&gt;
+&lt;p&gt;Reading it in 2025, you can feel the book is dated. The authors are enthusiastic about Java and CORBA&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, and use Perl for daily tasks. Even though I did similar things around 2015, my workflow has changed since then. Newer tools and architectures have made things even simpler.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Black Hat Python</title>
+      <link>https://gagor.pro/book/2017/black-hat-python/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2017/black-hat-python/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Black Hat Python by Justin Seitz&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Black Hat Python&lt;/q&gt;&lt;p&gt;Język Python dla hakerów i pentesterów&lt;/p&gt;&lt;p&gt;Author: Justin Seitz&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Wydajność Javy</title>
+      <link>https://gagor.pro/book/2017/wydajnosc-javy/</link>
+      <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2017/wydajnosc-javy/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Wydajność Javy by &#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Wydajność Javy&lt;/q&gt;&lt;p&gt;Poznaj i wykorzystaj optymalne sposoby na regulowanie wydajności oprogramowania Java!&lt;/p&gt;&lt;p&gt;Authors: Charlie Hunt,  Binu John&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Design Patterns in Ruby</title>
+      <link>https://gagor.pro/book/2016/design-patterns-in-ruby/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2016/design-patterns-in-ruby/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Ruby by Russ Olsen&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Ruby&lt;/q&gt;&lt;p&gt;Wzorce projektowe&lt;/p&gt;&lt;p&gt;Author: Russ Olsen&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;My adventure with Ruby books started with &lt;a href=&#34;https://gagor.pro/book/2015/the-ruby-programming-language/&#34; &gt;&amp;ldquo;The Ruby Programming Language&amp;rdquo;&lt;/a&gt;
+. To be honest, it wasn&amp;rsquo;t quite what I was looking for at the time. But &amp;ldquo;Design Patterns in Ruby&amp;rdquo; filled that gap perfectly.&lt;/p&gt;
+&lt;p&gt;It provides a quick and effective introduction to the language, which is perfect if you&amp;rsquo;re already familiar with another programming language and don&amp;rsquo;t need a primer on the basics. The book then iteratively explores various programming problems and presents idiomatic Ruby solutions. I particularly enjoyed the section on composition versus inheritance, which clarified why building deep object hierarchies isn&amp;rsquo;t always the best approach. That was a lightbulb moment for me; I finally grasped the benefits of interfaces and felt like I&amp;rsquo;d become a more capable developer after reading it. The examples were clear and the exercises were engaging.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sztuka podstępu</title>
+      <link>https://gagor.pro/book/2016/sztuka-podstepu/</link>
+      <pubDate>Wed, 10 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2016/sztuka-podstepu/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Sztuka podstępu by &#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Sztuka podstępu&lt;/q&gt;&lt;p&gt;Łamałem ludzi, nie hasła&lt;/p&gt;&lt;p&gt;Authors: Kevin Mitnick,  William L. Simon&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Splątana sieć</title>
+      <link>https://gagor.pro/book/2015/splatana-siec/</link>
+      <pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2015/splatana-siec/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Splątana sieć by Michał Zalewski&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Splątana sieć&lt;/q&gt;&lt;p&gt;Przewodnik po bezpieczeństwie nowoczesnych aplikacji WWW&lt;/p&gt;&lt;p&gt;Author: Michał Zalewski&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>The Ruby Programming Language</title>
+      <link>https://gagor.pro/book/2015/the-ruby-programming-language/</link>
+      <pubDate>Thu, 13 Aug 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2015/the-ruby-programming-language/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Ruby by &#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Ruby&lt;/q&gt;&lt;p&gt;Programowanie&lt;/p&gt;&lt;p&gt;Authors: David Flanagan,  Yukihiro Matsumoto&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I picked up this book, co-authored by Ruby creator Yukihiro &amp;ldquo;Matz&amp;rdquo; Matsumoto, to learn Ruby for my work with Chef. As a deep dive into the language&amp;rsquo;s internals, it brilliantly explains why Ruby is a top choice for creating Domain-Specific Languages (DSLs) like those used in Vagrant and Chef. The book meticulously covers the language&amp;rsquo;s core, which gave me a solid understanding of its architecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GIT</title>
+      <link>https://gagor.pro/book/2015/git/</link>
+      <pubDate>Tue, 10 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2015/git/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book GIT by Włodzimierz Gajda&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;GIT&lt;/q&gt;&lt;p&gt;Rozproszony system kontroli wersji&lt;/p&gt;&lt;p&gt;Author: Włodzimierz Gajda&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Rzecz o istocie informatyki</title>
+      <link>https://gagor.pro/book/2010/rzecz-o-istocie-informatyki/</link>
+      <pubDate>Fri, 10 Dec 2010 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2010/rzecz-o-istocie-informatyki/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Rzecz o istocie informatyki by &#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Rzecz o istocie informatyki&lt;/q&gt;&lt;p&gt;Algorytmika&lt;/p&gt;&lt;p&gt;Authors: David Harel,  Yishai Feldman&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Więcej perełek oprogramowania</title>
+      <link>https://gagor.pro/book/2010/wiecej-perelek-oprogramowania/</link>
+      <pubDate>Wed, 10 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2010/wiecej-perelek-oprogramowania/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Więcej perełek oprogramowania by Jon Bentley&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Więcej perełek oprogramowania&lt;/q&gt;&lt;p&gt;Wyznania programisty&lt;/p&gt;&lt;p&gt;Author: Jon Bentley&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>Perełki oprogramowania</title>
+      <link>https://gagor.pro/book/2009/perelki-oprogramowania/</link>
+      <pubDate>Thu, 10 Sep 2009 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2009/perelki-oprogramowania/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Perełki oprogramowania by Jon Bentley&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Perełki oprogramowania&lt;/q&gt;&lt;p&gt;Seria Klasyka informatyki&lt;/p&gt;&lt;p&gt;Author: Jon Bentley&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I&amp;rsquo;ve read few books about algorithms, but this one was my favorite. It&amp;rsquo;s not a handbook/manual style, where you have all algorithms explained - it&amp;rsquo;s rather a feast for though.&lt;/p&gt;
+&lt;p&gt;From this book I learned principles like: &amp;ldquo;divide and conquer&amp;rdquo; (or how I prefer it: whatever you can, divide by two &amp;#x1f604;). It might not be that obvious at first, but practical use cases are unlimited. My personal favorite is hanging the curtains: you start at edges, then in the middle, then you divide again and again until you have them perfectly symmetric. Of course, the most common use case are sorting algorithms, but even with those understanding why Quick Sort is not the best one, and Heap Sort wins competition allowed me to surprise many people from DBAs to Senior Software Engineers - they didn&amp;rsquo;t know!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zarządzanie czasem</title>
+      <link>https://gagor.pro/book/2008/zarzadzanie-czasem/</link>
+      <pubDate>Mon, 10 Mar 2008 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2008/zarzadzanie-czasem/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Zarządzanie czasem by Thomas Limoncelli&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Zarządzanie czasem&lt;/q&gt;&lt;p&gt;Strategie dla administratorów systemów&lt;/p&gt;&lt;p&gt;Author: Thomas Limoncelli&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This book was my first introduction to task management and &amp;ldquo;&lt;a href=&#34;https://gagor.pro/book/2012/getting-things-done/&#34; &gt;Getting Things Done&amp;rdquo;&lt;/a&gt;
+ methodology.&lt;/p&gt;
+&lt;p&gt;At this time I was still a student, and as it was referenced in this book I was performing backups of servers on the tapes (HP LTO). So this small tip on how often to change tapes, made my life easier.
+I also implemented Nagios in the company where I was working to improve monitoring. I also&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bezpieczeństwo sieci</title>
+      <link>https://gagor.pro/book/2007/bezpieczenstwo-sieci/</link>
+      <pubDate>Sat, 10 Feb 2007 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2007/bezpieczenstwo-sieci/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Bezpieczeństwo sieci by &#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Bezpieczeństwo sieci&lt;/q&gt;&lt;p&gt;Narzędzia&lt;/p&gt;&lt;p&gt;Authors: Nitesh Dhanjani,  Justin Clarke&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</description>
+    </item>
+    <item>
+      <title>The Cuckoo&#39;s Egg</title>
+      <link>https://gagor.pro/book/2000/the-cuckoos-egg/</link>
+      <pubDate>Wed, 09 Feb 2000 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2000/the-cuckoos-egg/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Kukułcze jajo by Clifford Stoll&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Kukułcze jajo&lt;/q&gt;&lt;p&gt;Ekscytujące łowy na nieuchwytnego hackera&lt;/p&gt;&lt;p&gt;Author: Clifford Stoll&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I&amp;rsquo;ve read it in Polish, so I kept polish picture.&lt;/p&gt;
+&lt;p&gt;This book had a huge impact on how I perceive IT security. It was the way that shaped my fascination by Unix systems and probably impacted some of my decisions about my future &amp;#x1f609;&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a fascinating lecture on the battle between &amp;ldquo;sys admin&amp;rdquo; (&lt;a href=&#34;https://en.wikipedia.org/wiki/Clifford_Stoll&#34;  target=&#34;_blank&#34;&gt;actually an astronomer&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ and kinda random guy, but with a skill) and a hacker. Cold war times. Quite &amp;ldquo;analog&amp;rdquo; IT systems, printers as terminals, etc. A time machine to the beginnings of networks and Internet. It was at a time when there was no encryption on services. Computers were powerful machines taking whole rooms and you could work with them only via terminal. A different world, but that&amp;rsquo;s how it all started.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

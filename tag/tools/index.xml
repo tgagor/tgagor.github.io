@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tools on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/tools/</link>
+    <description>Recent content in Tools on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zed Code Editor as an Atom reincarnation</title>
+      <link>https://gagor.pro/2024/03/zed-code-editor-as-an-atom-reincarnation/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/zed-code-editor-as-an-atom-reincarnation/</guid>
+      <description>Discover how Zed, a fast and efficient code editor built in Rust, aims to recapture the essence of Atom, with a focus on speed and customization.</description>
+    </item>
+    <item>
+      <title>Ansible on Vagrant - skipping: no hosts matched</title>
+      <link>https://gagor.pro/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</guid>
+      <description>&lt;p&gt;I have some Ansible roles to configure my vps, Raspberry Pi, etc. I like to test them before I broke something on my real, not clustered machines - I use Vagrant for that.&lt;br /&gt; But with it I had one problem - in playbooks I define &lt;code&gt;hosts&lt;/code&gt; as groups of severs ex. &lt;code&gt;web&lt;/code&gt; for my vps:&lt;/p&gt;
+
+
+&lt;div class=&#34;terminal space shadow&#34;&gt;
+    &lt;div class=&#34;top&#34;&gt;
+        &lt;div class=&#34;btns&#34;&gt;
+            &lt;span class=&#34;circle red&#34;&gt;&lt;/span&gt;
+            &lt;span class=&#34;circle yellow&#34;&gt;&lt;/span&gt;
+            &lt;span class=&#34;circle green&#34;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;title&#34;&gt;Example Ansible playbook&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;terminalbody&#34;&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- &lt;span style=&#34;color:#f92672&#34;&gt;hosts&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;web&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;gather_facts&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;sudo&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
+
+&lt;p&gt;But testing machine wasn&amp;rsquo;t in this group and when I run vagrant I could only see:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Utrzymanie przy życiu sypiących się usług na serwerach Windows</title>
+      <link>https://gagor.pro/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/</link>
+      <pubDate>Mon, 22 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/</guid>
+      <description>&lt;p&gt;Zdarzyło mi się kilka usług działających na serwerach Windows, które zwyczajnie sypały się i to tak brzydko że systemowe ustawienia by restartowały się po padzie nie wystarczały. Usługa działała np. 3 godziny by potem się położyć, albo nigdy nie wstawała po starcie systemu - po prostu jakaś masakra. Zgłoszenia do producenta często wyglądały tak że w jego testowym środowisku błędu nie udaje się powtórzyć (i nic dziwnego bo nie sądzę by z ich konfiguracji korzystali rzeczywiści użytkownicy). Oczywiście można zaczekać aż ukaże się magiczna łata usuwająca błąd ale do tego czasu to na nas wszyscy będą &amp;ldquo;wieszać psy&amp;rdquo; za niedostępność usługi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>unicode-rxvt - moje ustawienia</title>
+      <link>https://gagor.pro/2012/09/unicode-rxvt-moje-ustawienia/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/09/unicode-rxvt-moje-ustawienia/</guid>
+      <description>&lt;p&gt;Wybór dobrego X-terminala to w życiu admina prawie jak wybór żony&amp;hellip; spędza się wspólnie dużo czasu i miło gdy estetycznie wygląda, robi to co chcemy, itd&amp;hellip; 😉&lt;/p&gt;
+&lt;p&gt;Nie lubię &lt;code&gt;gnome-terminal&#39;a&lt;/code&gt; bo domyślnie binduje F10 co wnerwia mnie w midnight commanderze, stąd szukałem i szukałem i jak dotychczas najbardziej podpasował mi &lt;code&gt;unicode-rxvt&lt;/code&gt;. Można uruchamiać go po prostu jako &lt;code&gt;urxvt&lt;/code&gt; lub uruchomić demona &lt;code&gt;urxvtd&lt;/code&gt; po zalogowaniu i potem odpalać tylko klienta &lt;code&gt;urxvtc&lt;/code&gt;. Druga metoda skutkuje natychmiastowym startem terminala, wiec gdy podbinduję go sobie pod F12 mam terminal zawsze pod ręką w mniej niż sekundę. Dodatkowo fajnie wygląda z półprzezroczystością i nie ma żadnych dodatkowych menu/gadżetów.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mój domyślny config dla SciTE</title>
+      <link>https://gagor.pro/2012/01/moj-domyslny-config-dla-scite/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/01/moj-domyslny-config-dla-scite/</guid>
+      <description>&lt;p&gt;Uruchamiamy SciTE i klikamy menu Options -&amp;gt; Open User Options File, wpisujemy dane:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# domyślne korzystanie z fontów o stałej szerokości&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;base&lt;span style=&#34;color:#f92672&#34;&gt;=$&lt;/span&gt;(font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;monospace)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;small&lt;span style=&#34;color:#f92672&#34;&gt;=$&lt;/span&gt;(font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;monospace)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;comment&lt;span style=&#34;color:#f92672&#34;&gt;=$&lt;/span&gt;(font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;monospace)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;text&lt;span style=&#34;color:#f92672&#34;&gt;=$&lt;/span&gt;(font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;monospace)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;text&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;comment&lt;span style=&#34;color:#f92672&#34;&gt;=$&lt;/span&gt;(font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;monospace)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;embedded&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;base&lt;span style=&#34;color:#f92672&#34;&gt;=$&lt;/span&gt;(font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;monospace)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;embedded&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;comment&lt;span style=&#34;color:#f92672&#34;&gt;=$&lt;/span&gt;(font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;monospace)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;vbs&lt;span style=&#34;color:#f92672&#34;&gt;=$&lt;/span&gt;(font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;monospace)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# numerowanie wierszy&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;margin&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;visible&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;line&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;margin&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;width&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# ikonki toolbara z tematu systemowego&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;toolbar&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;usestockicons&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# zaznaczanie blokowe&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rectangular&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;selection&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;modifier&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# ustawienia wgłębień kodu&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;indent&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;size&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;use&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;tabs&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;indent&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;automatic&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Więcej opcji tutaj: http://www.scintilla.org/SciTEDoc.html&lt;/p&gt;
+&lt;p&gt;Sam pewnie jeszcze nie raz zaktualizuję ten wpis &amp;#x1f604;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

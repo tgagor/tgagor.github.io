@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ansible on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/ansible/</link>
+    <description>Recent content in Ansible on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/ansible/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use bastion host with Ansible</title>
+      <link>https://gagor.pro/2016/04/use-bastion-host-with-ansible/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/04/use-bastion-host-with-ansible/</guid>
+      <description>Learn how to configure Ansible to connect to hosts behind a bastion or jump host by customizing your &lt;code&gt;ssh_config&lt;/code&gt; and &lt;code&gt;ansible.cfg&lt;/code&gt; files.</description>
+    </item>
+    <item>
+      <title>Ansible on Vagrant - skipping: no hosts matched</title>
+      <link>https://gagor.pro/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2015/12/ansible-on-vagrant-skipping-no-hosts-matched/</guid>
+      <description>&lt;p&gt;I have some Ansible roles to configure my vps, Raspberry Pi, etc. I like to test them before I broke something on my real, not clustered machines - I use Vagrant for that.&lt;br /&gt; But with it I had one problem - in playbooks I define &lt;code&gt;hosts&lt;/code&gt; as groups of severs ex. &lt;code&gt;web&lt;/code&gt; for my vps:&lt;/p&gt;
+
+
+&lt;div class=&#34;terminal space shadow&#34;&gt;
+    &lt;div class=&#34;top&#34;&gt;
+        &lt;div class=&#34;btns&#34;&gt;
+            &lt;span class=&#34;circle red&#34;&gt;&lt;/span&gt;
+            &lt;span class=&#34;circle yellow&#34;&gt;&lt;/span&gt;
+            &lt;span class=&#34;circle green&#34;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;title&#34;&gt;Example Ansible playbook&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;terminalbody&#34;&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- &lt;span style=&#34;color:#f92672&#34;&gt;hosts&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;web&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;gather_facts&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;sudo&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
+
+&lt;p&gt;But testing machine wasn&amp;rsquo;t in this group and when I run vagrant I could only see:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ansible - ssh pipelining</title>
+      <link>https://gagor.pro/2014/03/ansible-ssh-pipelining/</link>
+      <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/03/ansible-ssh-pipelining/</guid>
+      <description>&lt;p&gt;In recent Ansible update to 1.5 version there is really nice feature &lt;em&gt;ssh pipelining&lt;/em&gt;. This option is serious alternative to &lt;em&gt;accelerated mode&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Just add to you config file (ex. &lt;code&gt;~/.ansible.cfg&lt;/code&gt;):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[ssh_connection]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pipelining=True
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now run any playbook - you will see the difference &amp;#x1f604;&lt;/p&gt;
+&lt;p&gt;Source (and extended info about):&lt;br /&gt;
+&lt;a href=&#34;http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansible-1-5/&#34;  target=&#34;_blank&#34;&gt;http://blog.ansibleworks.com/2014/01/15/ssh-connection-upgrades-coming-in-ansible-1-5/&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ansible - Dynamicaly update /etc/hosts</title>
+      <link>https://gagor.pro/2013/12/ansible-dynamicaly-update-/etc/hosts/</link>
+      <pubDate>Wed, 11 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/12/ansible-dynamicaly-update-/etc/hosts/</guid>
+      <description>&lt;p&gt;I was configuring GlusterFS on few servers using &lt;a href=&#34;http://www.ansible.com/&#34;  target=&#34;_blank&#34;&gt;Ansible&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ and have a need to update &lt;code&gt;/etc/hosts&lt;/code&gt; with hostnames for easier configuration. I found this&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; one working:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; name: Update &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;etc&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;hosts
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  lineinfile: dest&lt;span style=&#34;color:#f92672&#34;&gt;=/&lt;/span&gt;etc&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;hosts regexp&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.*{{item}}$&amp;#39;&lt;/span&gt; line&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;{{hostvars.{{item}}.ansible_default_ipv4.address}} {{item}}&amp;#39;&lt;/span&gt; state&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;present
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  with_items: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;{{groups.somegroup}}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://xmeblog.blogspot.com/2013/06/ansible-dynamicaly-update-etchosts.html&#34;  target=&#34;_blank&#34;&gt;http://xmeblog.blogspot.com/2013/06/ansible-dynamicaly-update-etchosts.html&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

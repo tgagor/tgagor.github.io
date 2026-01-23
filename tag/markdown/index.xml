@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Markdown on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/markdown/</link>
+    <description>Recent content in Markdown on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Markdown presentations with Marp</title>
+      <link>https://gagor.pro/2025/11/create-markdown-presentations-with-marp/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/11/create-markdown-presentations-with-marp/</guid>
+      <description>Learn how to create beautiful slide decks with Markdown and Marp, a simple and powerful tool for presentations.</description>
+    </item>
+  </channel>
+</rss>

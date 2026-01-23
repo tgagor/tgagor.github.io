@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Windows on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/windows/</link>
+    <description>Recent content in Windows on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I made Windows use UTC with Linux dual boot</title>
+      <link>https://gagor.pro/2025/12/i-made-windows-use-utc-with-linux-dual-boot/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/12/i-made-windows-use-utc-with-linux-dual-boot/</guid>
+      <description>Configure Windows to use UTC for the hardware clock when dual-booting with Linux, avoiding time synchronization issues and maintaining Linux defaults.</description>
+    </item>
+    <item>
+      <title>Asus TUF Gaming Z790-Plus WIFI - My UEFI/BIOS Settings</title>
+      <link>https://gagor.pro/2025/04/asus-tuf-gaming-z790-plus-wifi-my-uefi-bios-settings/</link>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/04/asus-tuf-gaming-z790-plus-wifi-my-uefi-bios-settings/</guid>
+      <description>Learn about the optimal UEFI BIOS settings for the Asus TUF Gaming Z790-Plus WIFI motherboard, including configurations for RAM, power management, virtualization, and more.</description>
+    </item>
+    <item>
+      <title>How to run Zwift in full screen</title>
+      <link>https://gagor.pro/2023/12/how-to-run-zwift-in-full-screen/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2023/12/how-to-run-zwift-in-full-screen/</guid>
+      <description>Learn how to run Zwift in full screen mode on Windows, eliminating the windowed mode&amp;rsquo;s start menu and title bar for a more immersive experience.</description>
+    </item>
+    <item>
+      <title>Asus ROG STRIX Z590-E GAMING WIFI - my UEFI BIOS settings</title>
+      <link>https://gagor.pro/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</link>
+      <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</guid>
+      <description>Learn about the optimal UEFI BIOS settings for the Asus ROG STRIX Z590-E GAMING WIFI motherboard, including configurations for RAM, power management, virtualization, and more.</description>
+    </item>
+    <item>
+      <title>Change default WSUS port from 8530 to 80 on Windows Server 2012</title>
+      <link>https://gagor.pro/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</link>
+      <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</guid>
+      <description>Learn how to change the default WSUS port from 8530 to 80 on Windows Server 2012, ensuring compatibility with older configurations and resolving IPv6-only issues.</description>
+    </item>
+    <item>
+      <title>Manage Windows 8.1 and Windows Server 2012 R2 in WSUS 3.0</title>
+      <link>https://gagor.pro/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</link>
+      <pubDate>Thu, 16 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</guid>
+      <description>&lt;p&gt;After connecting few computers with Windows 8.1 to domain we found that these computers are not recognized or recognized as Windows 6.3 (which is true) on WSUS 3.0 running on Windows Server 2008. The bad thing was that they can&amp;rsquo;t properly report to WSUS and get updates from it.&lt;/p&gt;
+&lt;p&gt;I found that there are two updates that have to be installed (but they&amp;rsquo;re not working without additional steps):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://support.microsoft.com/kb/2720211&#34;  target=&#34;_blank&#34;&gt;http://support.microsoft.com/kb/2720211&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://support.microsoft.com/kb/2734608&#34;  target=&#34;_blank&#34;&gt;http://support.microsoft.com/kb/2734608&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After installation of second update there are two additional steps that have to be performed to get WSUS working:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Uruchamianie aplikacji .NET jako 32-bitowej w 64-bitowym systemie</title>
+      <link>https://gagor.pro/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/</link>
+      <pubDate>Tue, 29 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/10/uruchamiania-aplikacji-net-jako-32-bitowej-w-64-bitowym-systemie/</guid>
+      <description>&lt;p&gt;Kolejna zabawna sytuacja - pewna aplikacja dotNET&amp;rsquo;owa działała dziwnie na 64-bitowym systemie, a tymczasem na 32-bitowej maszynie ta sama aplikacja działała bez problemów. Jedyna różnica to inne wersje klientów ODBC na tych systemach, które po kilku testach okazały się być przyczyną całego zła.&lt;br /&gt; Pojawił się pomysł by odpalić aplikacje na 64 bitowym systemie ale w trybie 32 bit - poniżej krótkie HOWTO jak to osiągnąć:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;potrzebujemy narzędzia corflags.exe które pozwoli oznaczyć nam binarkę jako 32-bitową, do pobrania &lt;a href=&#34;http://www.microsoft.com/en-us/download/details.aspx?id=8279&#34;  target=&#34;_blank&#34;&gt;tutaj&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ a instrukcja jej użycia &lt;a href=&#34;http://msdn.microsoft.com/en-us/library/ms164699%28v=vs.100%29.aspx&#34;  target=&#34;_blank&#34;&gt;tutaj&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+.&lt;/li&gt;
+&lt;li&gt;Instalujemy Windows SDK i zaznaczamy wyłącznie &lt;code&gt;.NET Development Tools&lt;/code&gt; w kategorii &lt;code&gt;Developer Tools / Windows Development Tools&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Odpalamy CMD i w nim CorFlags z lokalizacji: &lt;code&gt;C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin&lt;/code&gt; (przynajmniej u mnie):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CorFlags.exe c:\sciezka\do\pliku.exe /32BIT+
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Tyle - aplikacja uruchomiła się bez problemu jako 32 bitowa i korzystała z 32 bitowego ODBC.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Instalacja Python’a na Windowsie</title>
+      <link>https://gagor.pro/2013/09/instalacja-pythona-na-windowsie/</link>
+      <pubDate>Wed, 25 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/09/instalacja-pythona-na-windowsie/</guid>
+      <description>&lt;p&gt;Pomimo że Python dużo częściej wykorzystywany jest w środowiskach UNIX&amp;rsquo;owcy/Linux&amp;rsquo;owych to znajdzie się kilka fajnych zastosowań dla tego języka na Windowsie. Możliwości na instalację jest kilka, a najprostsza to wykorzystanie instalatora &lt;a href=&#34;http://www.activestate.com/activepython/downloads&#34; title=&#34;ActivePython&#34; target=&#34;_blank&#34;&gt;ActiveState&lt;/a&gt;. Wersja ta ma w sobie wszystko co potrzebne:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;rozszerzenia dla API Windows&lt;/li&gt;
+&lt;li&gt;menadżera pakietów PyPM&lt;/li&gt;
+&lt;li&gt;dokumentację&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Niestety jakiś czas temu zmieniły się zasady licencjonowania w ActiveState i aktualne wersje dla zastosowań produkcyjnych wymagają zakupu licencji (1000$/rok - aż chce się zacytować z Dnia Świra: czizys k&amp;hellip;wa&amp;hellip;). Wiem jak lepiej wydać taką kasę więc spróbuję uzyskać podobną funkcjonalność na tym co można pobrać za darmo z sieci.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DFS - sprawdzanie statusu replikacji</title>
+      <link>https://gagor.pro/2013/09/dfs-sprawdzanie-statusu-replikacji/</link>
+      <pubDate>Wed, 04 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/09/dfs-sprawdzanie-statusu-replikacji/</guid>
+      <description>&lt;p&gt;Ostatnio zbyt dużo grzebię przy &amp;ldquo;windach&amp;rdquo; - ale cóż, czasem trzeba. Ostatnio ustawiałem DFS&amp;rsquo;a z replikacją dla dwóch sporych zasobów i jedna z rzeczy, o którą się rozbiłem to brak jakiegokolwiek podglądu tej synchronizacji z GUI. Ale znalazłem jedno polecenie, które działa w shellu (choć to się chyba &lt;em&gt;batch&lt;/em&gt; tutaj nazywa) od Windows Server 2008 R2:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;dfsrdiag ReplicationState /member:nazwaservera
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Polecenie co prawda nie podaje postępu procentowego ale można zobaczyć &amp;ldquo;czy coś jeszcze się synchronizuje&amp;rdquo; i czy nie ma żadnych błędów. Jeżeli to polecenie to za mało to można spróbować bardziej gadatliwej wersji:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GPO: Instalacja GIMP’a 2.8</title>
+      <link>https://gagor.pro/2013/08/gpo-instalacja-gimpa-2-8/</link>
+      <pubDate>Tue, 06 Aug 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/08/gpo-instalacja-gimpa-2-8/</guid>
+      <description>&lt;p&gt;Raz na jakiś czas trzeba coś niestandardowego wrzucić do instalacji w Active Directory a że nie wszystkie aplikacje mają dostępne paczki MSI to trzeba się nieco natrudzić.&lt;/p&gt;
+&lt;p&gt;Poniżej wrzucam skrypt, który instaluje GIMP&amp;rsquo;a 2.8 z domyślnego instalatora (wersja InnoSetup) przy okazji odinstalowując wcześniejsze wersje zainstalowane ręcznie.&lt;/p&gt;
+&lt;p&gt;Zapisujemy poniższy kod jako np. gimp-install.cmd&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@echo off
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM  Installs GIMP
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cls
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo ----------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .      Installing/Updating GIMP - Please Wait
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo ----------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Test &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; actual
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;IF exist &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%ProgramFiles%\GIMP\bin\gimp-2.8.exe&amp;#34;&lt;/span&gt; GOTO SkipInstall
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Exit the application
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;taskkill.exe /F /FI &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;IMAGENAME eq gimp-2.8.exe&amp;#34;&lt;/span&gt; &amp;gt;nul
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Uninstall existing GIMP version, delete folder
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; exist &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%ProgramFiles%\GIMP 2\uninst\unins000.exe&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%ProgramFiles%\GIMP 2\uninst\unins000.exe&amp;#34;&lt;/span&gt; /VERYSILENT
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:: Wait &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt; seconds
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ping -n &lt;span style=&#34;color:#ae81ff&#34;&gt;40&lt;/span&gt; 127.0.0.1 &amp;gt; NUL
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; exist &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%ProgramFiles%\GIMP 2\&amp;#34; rd &amp;#34;&lt;/span&gt;%ProgramFiles%&lt;span style=&#34;color:#ae81ff&#34;&gt;\G&lt;/span&gt;IMP 2&lt;span style=&#34;color:#ae81ff&#34;&gt;\&amp;#34;&lt;/span&gt; /Q /S
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Install new version
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\\serwerplikow.local\Instalki\GIMP\gimp-2.8.4-setup.exe&amp;#34;&lt;/span&gt; /VERYSILENT /NORESTART /DIR&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%PROGRAMFILES%\GIMP 2.8&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Skip installation &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; acctuall
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:SkipInstall
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Return exit code to SCCM
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;exit /B %EXIT_CODE%
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Tworzymy nową regułkę GPO i zmierzamy do: Computer Configuration\Policies\Windows Settings\Scripts\Startup&lt;br /&gt; W nowym okienku wybieramy Show Files&amp;hellip;&lt;br /&gt; Wklejamy plik skryptu do tego folderu i teraz możemy dodać go w tym samym oknie (Add&amp;hellip;) - dzięki wrzuceniu skryptu w tym miejscu będzie się on automatycznie replikować na inne kontrolery. Skrypt będzie co prawda uruchamiany przy każdym starcie komputera ale pierwszy warunek będzie sprawdzać czy aplikacja jest zainstalowana więc nie spowolni to znacznie startu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Utrzymanie przy życiu sypiących się usług na serwerach Windows</title>
+      <link>https://gagor.pro/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/</link>
+      <pubDate>Mon, 22 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/10/utrzymanie-przy-zyciu-sypiacych-sie-uslug-na-serwerach-windows/</guid>
+      <description>&lt;p&gt;Zdarzyło mi się kilka usług działających na serwerach Windows, które zwyczajnie sypały się i to tak brzydko że systemowe ustawienia by restartowały się po padzie nie wystarczały. Usługa działała np. 3 godziny by potem się położyć, albo nigdy nie wstawała po starcie systemu - po prostu jakaś masakra. Zgłoszenia do producenta często wyglądały tak że w jego testowym środowisku błędu nie udaje się powtórzyć (i nic dziwnego bo nie sądzę by z ich konfiguracji korzystali rzeczywiści użytkownicy). Oczywiście można zaczekać aż ukaże się magiczna łata usuwająca błąd ale do tego czasu to na nas wszyscy będą &amp;ldquo;wieszać psy&amp;rdquo; za niedostępność usługi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

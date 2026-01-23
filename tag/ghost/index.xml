@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ghost on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/ghost/</link>
+    <description>Recent content in Ghost on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/ghost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reset user password in your own Ghost Blog</title>
+      <link>https://gagor.pro/2013/11/reset-user-password-in-your-own-ghost-blog/</link>
+      <pubDate>Thu, 28 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/11/reset-user-password-in-your-own-ghost-blog/</guid>
+      <description>Learn how to reset a user password in your own Ghost Blog by accessing the SQLite database and updating the password hash.</description>
+    </item>
+  </channel>
+</rss>

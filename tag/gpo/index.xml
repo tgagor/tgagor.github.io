@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GPO on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/gpo/</link>
+    <description>Recent content in GPO on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/gpo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPO: Instalacja GIMP’a 2.8</title>
+      <link>https://gagor.pro/2013/08/gpo-instalacja-gimpa-2-8/</link>
+      <pubDate>Tue, 06 Aug 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/08/gpo-instalacja-gimpa-2-8/</guid>
+      <description>&lt;p&gt;Raz na jakiś czas trzeba coś niestandardowego wrzucić do instalacji w Active Directory a że nie wszystkie aplikacje mają dostępne paczki MSI to trzeba się nieco natrudzić.&lt;/p&gt;
+&lt;p&gt;Poniżej wrzucam skrypt, który instaluje GIMP&amp;rsquo;a 2.8 z domyślnego instalatora (wersja InnoSetup) przy okazji odinstalowując wcześniejsze wersje zainstalowane ręcznie.&lt;/p&gt;
+&lt;p&gt;Zapisujemy poniższy kod jako np. gimp-install.cmd&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@echo off
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM  Installs GIMP
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cls
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo ----------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .      Installing/Updating GIMP - Please Wait
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo ----------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Test &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; actual
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;IF exist &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%ProgramFiles%\GIMP\bin\gimp-2.8.exe&amp;#34;&lt;/span&gt; GOTO SkipInstall
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Exit the application
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;taskkill.exe /F /FI &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;IMAGENAME eq gimp-2.8.exe&amp;#34;&lt;/span&gt; &amp;gt;nul
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Uninstall existing GIMP version, delete folder
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; exist &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%ProgramFiles%\GIMP 2\uninst\unins000.exe&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%ProgramFiles%\GIMP 2\uninst\unins000.exe&amp;#34;&lt;/span&gt; /VERYSILENT
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:: Wait &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt; seconds
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ping -n &lt;span style=&#34;color:#ae81ff&#34;&gt;40&lt;/span&gt; 127.0.0.1 &amp;gt; NUL
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; exist &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%ProgramFiles%\GIMP 2\&amp;#34; rd &amp;#34;&lt;/span&gt;%ProgramFiles%&lt;span style=&#34;color:#ae81ff&#34;&gt;\G&lt;/span&gt;IMP 2&lt;span style=&#34;color:#ae81ff&#34;&gt;\&amp;#34;&lt;/span&gt; /Q /S
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Install new version
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\\serwerplikow.local\Instalki\GIMP\gimp-2.8.4-setup.exe&amp;#34;&lt;/span&gt; /VERYSILENT /NORESTART /DIR&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%PROGRAMFILES%\GIMP 2.8&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Skip installation &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; acctuall
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:SkipInstall
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Return exit code to SCCM
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;exit /B %EXIT_CODE%
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Tworzymy nową regułkę GPO i zmierzamy do: Computer Configuration\Policies\Windows Settings\Scripts\Startup&lt;br /&gt; W nowym okienku wybieramy Show Files&amp;hellip;&lt;br /&gt; Wklejamy plik skryptu do tego folderu i teraz możemy dodać go w tym samym oknie (Add&amp;hellip;) - dzięki wrzuceniu skryptu w tym miejscu będzie się on automatycznie replikować na inne kontrolery. Skrypt będzie co prawda uruchamiany przy każdym starcie komputera ale pierwszy warunek będzie sprawdzać czy aplikacja jest zainstalowana więc nie spowolni to znacznie startu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GPO: Windows 7 - postęp przetwarzania polityk przy starcie systemu</title>
+      <link>https://gagor.pro/2012/09/gpo-windows-7-postep-przetwarzania-polityk-przy-starcie-systemu/</link>
+      <pubDate>Thu, 20 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/09/gpo-windows-7-postep-przetwarzania-polityk-przy-starcie-systemu/</guid>
+      <description>&lt;p&gt;Dziś TIP z przeciwnego obozu - oprócz linuksowych systemów administruję również paroma serwerami windowsowymi i tutaj również (a czasem nawet bardziej) uda mi się znaleźć coś wartego zapamiętania.&lt;/p&gt;
+&lt;p&gt;Jedna z najbardziej charakterystycznych rzeczy na komputerach przyłączonych do domeny Windows to wyświetlanie &amp;ldquo;różnych dziwnych rzeczy&amp;rdquo; przy starcie systemu. Zarówno na Windowsie 2000 jak i na XP&amp;rsquo;ku na małym okienku przewijają informacje o aktualizacji polityk, instalacji oprogramowania itp&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Zachowanie to zmieniło się na Vistach i 7-kach, które są nieco mniej rozmowne i wyświetlają jedynie komunikat typu &amp;ldquo;Trwa uruchamianie systemu&amp;hellip;&amp;rdquo; i tyla&amp;hellip; Załóżmy że wrzucimy do instalacji kilka paczek i jeszcze zmienimy kilka polityk i przez to komputer na tym napisie zatrzyma się na 5~10 minut - co zrobi użyszkodnik po 3 minutach? Dojdzie do wniosku że &amp;ldquo;coś się zwiesiło&amp;rdquo; i zresetuje komputer, a że akurat było nieco operacji dyskowych to mamy praktycznie pewną rozwałkę tego systemu.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

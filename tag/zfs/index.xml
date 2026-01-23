@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ZFS on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/zfs/</link>
+    <description>Recent content in ZFS on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/zfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shucking WD Elements 20TB</title>
+      <link>https://gagor.pro/2025/11/shucking-wd-elements-20tb/</link>
+      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/11/shucking-wd-elements-20tb/</guid>
+      <description>A detailed guide on shucking WD Elements 20TB drives, including testing, performance benchmarks, and stress testing.</description>
+    </item>
+    <item>
+      <title>Creating fully encrypted ZFS pool</title>
+      <link>https://gagor.pro/2021/11/creating-fully-encrypted-zfs-pool/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/11/creating-fully-encrypted-zfs-pool/</guid>
+      <description>Learn how to create a fully encrypted ZFS pool on Linux, including steps for generating encryption keys and configuring ZFS for secure data storage.</description>
+    </item>
+    <item>
+      <title>Shucking WD Elements 14TB</title>
+      <link>https://gagor.pro/2021/11/shucking-wd-elements-14tb/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/11/shucking-wd-elements-14tb/</guid>
+      <description>Learn how to shuck WD Elements 14TB drives for use in a RAID setup, including stress testing and performance considerations for ZFS.</description>
+    </item>
+  </channel>
+</rss>

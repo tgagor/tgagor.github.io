@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Active Directory on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/active-directory/</link>
+    <description>Recent content in Active Directory on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/active-directory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Change default WSUS port from 8530 to 80 on Windows Server 2012</title>
+      <link>https://gagor.pro/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</link>
+      <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/01/change-default-wsus-port-from-8530-to-80-on-windows-server-2012/</guid>
+      <description>Learn how to change the default WSUS port from 8530 to 80 on Windows Server 2012, ensuring compatibility with older configurations and resolving IPv6-only issues.</description>
+    </item>
+    <item>
+      <title>Manage Windows 8.1 and Windows Server 2012 R2 in WSUS 3.0</title>
+      <link>https://gagor.pro/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</link>
+      <pubDate>Thu, 16 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/01/manage-windows-8-1-and-windows-server-2012-r2-in-wsus-3-0/</guid>
+      <description>&lt;p&gt;After connecting few computers with Windows 8.1 to domain we found that these computers are not recognized or recognized as Windows 6.3 (which is true) on WSUS 3.0 running on Windows Server 2008. The bad thing was that they can&amp;rsquo;t properly report to WSUS and get updates from it.&lt;/p&gt;
+&lt;p&gt;I found that there are two updates that have to be installed (but they&amp;rsquo;re not working without additional steps):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://support.microsoft.com/kb/2720211&#34;  target=&#34;_blank&#34;&gt;http://support.microsoft.com/kb/2720211&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://support.microsoft.com/kb/2734608&#34;  target=&#34;_blank&#34;&gt;http://support.microsoft.com/kb/2734608&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After installation of second update there are two additional steps that have to be performed to get WSUS working:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DFS - sprawdzanie statusu replikacji</title>
+      <link>https://gagor.pro/2013/09/dfs-sprawdzanie-statusu-replikacji/</link>
+      <pubDate>Wed, 04 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/09/dfs-sprawdzanie-statusu-replikacji/</guid>
+      <description>&lt;p&gt;Ostatnio zbyt dużo grzebię przy &amp;ldquo;windach&amp;rdquo; - ale cóż, czasem trzeba. Ostatnio ustawiałem DFS&amp;rsquo;a z replikacją dla dwóch sporych zasobów i jedna z rzeczy, o którą się rozbiłem to brak jakiegokolwiek podglądu tej synchronizacji z GUI. Ale znalazłem jedno polecenie, które działa w shellu (choć to się chyba &lt;em&gt;batch&lt;/em&gt; tutaj nazywa) od Windows Server 2008 R2:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;dfsrdiag ReplicationState /member:nazwaservera
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Polecenie co prawda nie podaje postępu procentowego ale można zobaczyć &amp;ldquo;czy coś jeszcze się synchronizuje&amp;rdquo; i czy nie ma żadnych błędów. Jeżeli to polecenie to za mało to można spróbować bardziej gadatliwej wersji:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GPO: Instalacja GIMP’a 2.8</title>
+      <link>https://gagor.pro/2013/08/gpo-instalacja-gimpa-2-8/</link>
+      <pubDate>Tue, 06 Aug 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/08/gpo-instalacja-gimpa-2-8/</guid>
+      <description>&lt;p&gt;Raz na jakiś czas trzeba coś niestandardowego wrzucić do instalacji w Active Directory a że nie wszystkie aplikacje mają dostępne paczki MSI to trzeba się nieco natrudzić.&lt;/p&gt;
+&lt;p&gt;Poniżej wrzucam skrypt, który instaluje GIMP&amp;rsquo;a 2.8 z domyślnego instalatora (wersja InnoSetup) przy okazji odinstalowując wcześniejsze wersje zainstalowane ręcznie.&lt;/p&gt;
+&lt;p&gt;Zapisujemy poniższy kod jako np. gimp-install.cmd&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@echo off
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM  Installs GIMP
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cls
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo ----------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .      Installing/Updating GIMP - Please Wait
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo ----------------------------------------------------
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Test &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; actual
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;IF exist &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%ProgramFiles%\GIMP\bin\gimp-2.8.exe&amp;#34;&lt;/span&gt; GOTO SkipInstall
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Exit the application
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;taskkill.exe /F /FI &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;IMAGENAME eq gimp-2.8.exe&amp;#34;&lt;/span&gt; &amp;gt;nul
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Uninstall existing GIMP version, delete folder
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; exist &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%ProgramFiles%\GIMP 2\uninst\unins000.exe&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%ProgramFiles%\GIMP 2\uninst\unins000.exe&amp;#34;&lt;/span&gt; /VERYSILENT
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:: Wait &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt; seconds
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ping -n &lt;span style=&#34;color:#ae81ff&#34;&gt;40&lt;/span&gt; 127.0.0.1 &amp;gt; NUL
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; exist &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%ProgramFiles%\GIMP 2\&amp;#34; rd &amp;#34;&lt;/span&gt;%ProgramFiles%&lt;span style=&#34;color:#ae81ff&#34;&gt;\G&lt;/span&gt;IMP 2&lt;span style=&#34;color:#ae81ff&#34;&gt;\&amp;#34;&lt;/span&gt; /Q /S
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Install new version
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\\serwerplikow.local\Instalki\GIMP\gimp-2.8.4-setup.exe&amp;#34;&lt;/span&gt; /VERYSILENT /NORESTART /DIR&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%PROGRAMFILES%\GIMP 2.8&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Skip installation &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; acctuall
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;:SkipInstall
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM Return exit code to SCCM
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;exit /B %EXIT_CODE%
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Tworzymy nową regułkę GPO i zmierzamy do: Computer Configuration\Policies\Windows Settings\Scripts\Startup&lt;br /&gt; W nowym okienku wybieramy Show Files&amp;hellip;&lt;br /&gt; Wklejamy plik skryptu do tego folderu i teraz możemy dodać go w tym samym oknie (Add&amp;hellip;) - dzięki wrzuceniu skryptu w tym miejscu będzie się on automatycznie replikować na inne kontrolery. Skrypt będzie co prawda uruchamiany przy każdym starcie komputera ale pierwszy warunek będzie sprawdzać czy aplikacja jest zainstalowana więc nie spowolni to znacznie startu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache: mod_authnz_ldap z Active Directory</title>
+      <link>https://gagor.pro/2012/12/apache-mod_authnz_ldap-z-active-directory/</link>
+      <pubDate>Fri, 14 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/12/apache-mod_authnz_ldap-z-active-directory/</guid>
+      <description>&lt;p&gt;Gdy już się dorobi systemu Active Directory wygodnie jest wykorzystać jego bazę użytkowników do autoryzacji w różnych miejscach, np. do pewnych &amp;ldquo;tajnych i tajniejszych&amp;rdquo; stron w Apache. Najprościej można to zrobić z wykorzystaniem LDAP.&lt;/p&gt;
+&lt;p&gt;Warto &lt;a title=&#34;ldapsearch w Active Directory&#34; href=&#34;https://gagor.pl/2012/12/ldapsearch-w-active-directory/&#34;&gt;sprawdzić czy i jak możemy dostać się do kontrolerów&lt;/a&gt;. Gdy już mamy wszystkie potrzebne parametry konfigurujemy Apachego - na początek aktywujemy moduły:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a2enmod ldap
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a2enmod authnz_ldap
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Teraz możemy edytujemy globalny plik konfiguracyjny mod_ldap&amp;rsquo;a by ustawić nieco cache&amp;rsquo;y (bardzo przydatne). Wartości można dostosować do potrzeb ale przykładowe powinny wystarczyć na początku:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ldapsearch w Active Directory</title>
+      <link>https://gagor.pro/2012/12/ldapsearch-w-active-directory/</link>
+      <pubDate>Wed, 05 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/12/ldapsearch-w-active-directory/</guid>
+      <description>&lt;p&gt;Można lubieć AD, można go nie lubieć&amp;hellip; Ale jak już się ma to warto czasem zintegrować go z tym&amp;hellip; i tamtym&amp;hellip; Od strony Linuksa najwygodniej można to osiągnąć przez LDAP. A żeby to dobrze zrobić trzeba najpierw przetestować czy aby wszystko działa jak byśmy sobie tego życzyli. I tutaj bardzo przydatne jest narzędzie &lt;code&gt;ldapsearch&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Do odpytywania LDAP&amp;rsquo;a potrzebujemy jeden pakiecik, który zawiera kilka narzędzi do jego obsługi:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install ldap-utils
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Teraz możemy próbować przeszukiwać katalog np. tak:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GPO: Windows 7 - postęp przetwarzania polityk przy starcie systemu</title>
+      <link>https://gagor.pro/2012/09/gpo-windows-7-postep-przetwarzania-polityk-przy-starcie-systemu/</link>
+      <pubDate>Thu, 20 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/09/gpo-windows-7-postep-przetwarzania-polityk-przy-starcie-systemu/</guid>
+      <description>&lt;p&gt;Dziś TIP z przeciwnego obozu - oprócz linuksowych systemów administruję również paroma serwerami windowsowymi i tutaj również (a czasem nawet bardziej) uda mi się znaleźć coś wartego zapamiętania.&lt;/p&gt;
+&lt;p&gt;Jedna z najbardziej charakterystycznych rzeczy na komputerach przyłączonych do domeny Windows to wyświetlanie &amp;ldquo;różnych dziwnych rzeczy&amp;rdquo; przy starcie systemu. Zarówno na Windowsie 2000 jak i na XP&amp;rsquo;ku na małym okienku przewijają informacje o aktualizacji polityk, instalacji oprogramowania itp&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Zachowanie to zmieniło się na Vistach i 7-kach, które są nieco mniej rozmowne i wyświetlają jedynie komunikat typu &amp;ldquo;Trwa uruchamianie systemu&amp;hellip;&amp;rdquo; i tyla&amp;hellip; Załóżmy że wrzucimy do instalacji kilka paczek i jeszcze zmienimy kilka polityk i przez to komputer na tym napisie zatrzyma się na 5~10 minut - co zrobi użyszkodnik po 3 minutach? Dojdzie do wniosku że &amp;ldquo;coś się zwiesiło&amp;rdquo; i zresetuje komputer, a że akurat było nieco operacji dyskowych to mamy praktycznie pewną rozwałkę tego systemu.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

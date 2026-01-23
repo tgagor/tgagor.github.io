@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/ai/</link>
+    <description>Recent content in AI on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create Markdown presentations with Marp</title>
+      <link>https://gagor.pro/2025/11/create-markdown-presentations-with-marp/</link>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/11/create-markdown-presentations-with-marp/</guid>
+      <description>Learn how to create beautiful slide decks with Markdown and Marp, a simple and powerful tool for presentations.</description>
+    </item>
+    <item>
+      <title>How to add llms.txt to a Hugo Blog</title>
+      <link>https://gagor.pro/2025/10/how-to-add-llms.txt-to-a-hugo-blog/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/10/how-to-add-llms.txt-to-a-hugo-blog/</guid>
+      <description>Learn how to add an &lt;code&gt;llms.txt&lt;/code&gt; file to your Hugo blog to make it more visible to AI agents and improve Generative Engine Optimization (GEO).</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Zsh on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/zsh/</link>
+    <description>Recent content in Zsh on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Thu, 15 Jan 2026 20:29:38 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/zsh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zsh &#39;illegal modifier&#39; with Git Conventional Commits</title>
+      <link>https://gagor.pro/2025/12/zsh-illegal-modifier-with-git-conventional-commits/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/12/zsh-illegal-modifier-with-git-conventional-commits/</guid>
+      <description>Fix ZSH &amp;lsquo;illegal modifier&amp;rsquo; errors with Git Conventional Commits by disabling the &lt;code&gt;NO_BANG_HIST&lt;/code&gt; option.</description>
+    </item>
+    <item>
+      <title>The power of extensive command history in Bash and Zsh</title>
+      <link>https://gagor.pro/2024/03/the-power-of-extensive-command-history-in-bash-and-zsh/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/the-power-of-extensive-command-history-in-bash-and-zsh/</guid>
+      <description>Learn how to leverage extensive command history in Bash and Zsh to improve your efficiency and productivity in the terminal.</description>
+    </item>
+    <item>
+      <title>I switched to Zsh</title>
+      <link>https://gagor.pro/2021/12/i-switched-to-zsh/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/12/i-switched-to-zsh/</guid>
+      <description>A guide to switching from bash to Zsh, with Oh My Zsh, Powerlevel10k, and useful plugins for a better terminal experience.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OpenSSL on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/openssl/</link>
+    <description>Recent content in OpenSSL on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/openssl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Let’s Encrypt - without auto configuration</title>
+      <link>https://gagor.pro/2016/01/lets-encrypt-without-auto-configuration/</link>
+      <pubDate>Mon, 04 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/01/lets-encrypt-without-auto-configuration/</guid>
+      <description>&lt;p&gt;From the first moment I heard about &lt;strong&gt;Let&amp;rsquo;s Encrypt&lt;/strong&gt; I liked it and wanted to use it as fast as possible. But the more I read how they want to implement it, the more I dislike it.&lt;br /&gt; Current project with automatic configuration is not what I want to use at all. I have many very complicated configs and I do not trust such tools enough to use them. I like UNIX&amp;rsquo;s single purpose principle, tools should do one thing and do it well - nothing more.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Generate ECDSA key with OpenSSL</title>
+      <link>https://gagor.pro/2013/12/generate-ecdsa-key-with-openssl/</link>
+      <pubDate>Tue, 17 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/12/generate-ecdsa-key-with-openssl/</guid>
+      <description>&lt;p&gt;After the last NSA scandal I&amp;rsquo;ve found some time to read some texts about PFS and &lt;a href=&#34;http://en.wikipedia.org/wiki/Elliptic_Curve_DSA&#34; title=&#34;Elliptic Curve DSA on Wikipedia&#34; target=&#34;_blank&#34;&gt;ECDSA&lt;/a&gt; keys lately. I always used RSA keys but wanted to give a try to &lt;a href=&#34;http://en.wikipedia.org/wiki/Elliptic_Curve_DSA&#34; title=&#34;Elliptic Curve DSA on Wikipedia&#34; target=&#34;_blank&#34;&gt;ECDSA&lt;/a&gt; so I wanted to give it a try (test performance, etc). Here is how I&amp;rsquo;ve done it.&lt;/p&gt;
+&lt;p&gt;Firstly find your favorite curve. A short tip about bit length and complexity could be found &lt;a href=&#34;http://www.keylength.com/en/3/&#34; title=&#34;ECRYPT II Recommendations&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. From it you will now that using 256 bit ECDSA key should be enough for next 10-20 years.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Certyfikaty nazwaSSL na własnym serwerze</title>
+      <link>https://gagor.pro/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</link>
+      <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu można kupić w &lt;a href=&#34;https://www.nazwa.pl/cennik/cennik-certyfikatow-ssl/&#34; title=&#34;Cennik&#34; target=&#34;_blank&#34;&gt;NetArcie certyfikaty SSL, a niedawno zrobili na nie promocję - 15zł za pierwszy rok&lt;/a&gt; (za certyfikat na jedną stronkę). Tzw. tanie i dobre. Po wyrobieniu certyfikatu i zapisaniu z panelu klienta mam pliczki: stonka.crt i netart_rootca.crt, które wrzucamy do Apachego, powiedzmy tak:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SSLCertificateFile /etc/ssl/certs/stonka.crt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SSLCertificateKeyFile /etc/ssl/private/priv.key
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SSLCACertificateFile /etc/ssl/certs/netart_rootca.crt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Certyfikat działa w Chromie ale nie weryfikuje się w Firefoxie i Internet Explorerze. FF wyświetla błąd: &lt;strong&gt;sec_error_unknown_issuer&lt;/strong&gt; - co oznacza brak certyfikatu wystawcy gdzieś w łańcuchu certyfikatów. W FAQ zero jak chodzi o konfigurację certyfikatów na serwerze poza NetArt&amp;rsquo;em&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Konwersja formatu certyfikatu dla telefonów Nokia</title>
+      <link>https://gagor.pro/2012/04/konwersja-formatu-certyfikatu-dla-telefonow-nokia/</link>
+      <pubDate>Wed, 11 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/04/konwersja-formatu-certyfikatu-dla-telefonow-nokia/</guid>
+      <description>&lt;p&gt;Chciałem zaimportować mój certyfikat &lt;a href=&#34;https://gagor.pro/2011/08/certyfikaty-selfsigned/&#34; &gt;self-signed&lt;/a&gt;
+ do Nokii E72 by nie krzyczała przy sprawdzaniu poczty. Potrzebowałem certyfikatu w formacie DER, a miałem w PEM - chwilę szukałem jak dokonać konwersji, więc ku pamięci zapisuję kilka gotowych poleceń:&lt;/p&gt;
+&lt;h3 id=&#34;konwersja-certyfikatu-z-pem-na-der&#34;&gt;Konwersja certyfikatu z PEM na DER&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;openssl x509 -in in.crt -inform PEM -out out.crt -outform DER
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;konwersja-certyfikatu-z-der-na-pem&#34;&gt;Konwersja certyfikatu z DER na PEM&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;openssl x509 -in in.crt -inform DER -out out.crt -outform DER
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;konwersja-klucza-z-formatu-pem-na-der&#34;&gt;Konwersja klucza z formatu PEM na DER&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;openssl rsa -in in.crt -inform PEM -out out.crt -outform DER
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;konwersja-klucza-z-formatu-der-na-pem&#34;&gt;Konwersja klucza z formatu DER na PEM&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;openssl rsa -in in.crt -inform DER -out out.crt -outform PEM
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Po konwersji certyfikat w formacie DER wystarczy wrzucić na kartę i otworzyć z menadżera plików, zainstalować.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Certyfikaty SelfSigned</title>
+      <link>https://gagor.pro/2011/08/certyfikaty-selfsigned/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/certyfikaty-selfsigned/</guid>
+      <description>&lt;p&gt;Certyfikaty oparte o SSL stanowią obecnie podstawę bezpieczeństwa wielu usług sieciowych zaczynając od HTTP, przez POPS, IMAPS, itd&amp;hellip; Niestety zakupienie certyfikatu w organizacjach jak VeriSgin czy Thawte jest dość kosztowe, a jeżeli potrzebujemy kilka certyfikatów to często na lokalne potrzeby jest to po prostu nie opłacalne.&lt;/p&gt;
+&lt;p&gt;Postaram się przedstawić wersję &amp;ldquo;ekonomiczną&amp;rdquo; certyfikacji &amp;#x1f603;&lt;/p&gt;
+&lt;h2 id=&#34;generowanie-certificate-signing-request&#34;&gt;Generowanie Certificate Signing Request&lt;/h2&gt;
+&lt;p&gt;Pierwszym etapem generowania certyfikatu jest przygotowanie &lt;em&gt;Certificate Signing Request&lt;/em&gt;, czyli czegoś w rodzaju &amp;ldquo;prośby&amp;rdquo; o certyfikat. Nasza &amp;ldquo;prośba&amp;rdquo; po podpisaniu przez centrum autoryzacyjne stanie się certyfikatem.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

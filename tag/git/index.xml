@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Git on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/git/</link>
+    <description>Recent content in Git on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zsh &#39;illegal modifier&#39; with Git Conventional Commits</title>
+      <link>https://gagor.pro/2025/12/zsh-illegal-modifier-with-git-conventional-commits/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/12/zsh-illegal-modifier-with-git-conventional-commits/</guid>
+      <description>Fix ZSH &amp;lsquo;illegal modifier&amp;rsquo; errors with Git Conventional Commits by disabling the &lt;code&gt;NO_BANG_HIST&lt;/code&gt; option.</description>
+    </item>
+    <item>
+      <title>How to split Git repository</title>
+      <link>https://gagor.pro/2025/09/how-to-split-git-repository/</link>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/09/how-to-split-git-repository/</guid>
+      <description>This guide explains how to split a mono-repo into smaller repositories, keeping the git history for selected files.</description>
+    </item>
+    <item>
+      <title>Fix &#39;Cannot Rebase Onto Multiple Branches&#39; error once and for all</title>
+      <link>https://gagor.pro/2024/05/fix-cannot-rebase-onto-multiple-branches-error-once-and-for-all/</link>
+      <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/05/fix-cannot-rebase-onto-multiple-branches-error-once-and-for-all/</guid>
+      <description>&lt;h2 id=&#34;a-guide-to-using-git-pull---rebase-effectively&#34;&gt;A Guide to using &lt;code&gt;git pull --rebase&lt;/code&gt; effectively&lt;/h2&gt;
+&lt;p&gt;Using &lt;code&gt;git pull --rebase&lt;/code&gt; as your default merge strategy offers several benefits, particularly in maintaining a clean and linear commit history, which can simplify collaboration and code review. However, you may occasionally encounter the error &lt;em&gt;&amp;ldquo;Cannot rebase onto multiple branches&amp;rdquo;&lt;/em&gt;. This article explains why this happens and provides a solution to make &lt;code&gt;git pull --rebase&lt;/code&gt; work seamlessly.&lt;/p&gt;
+&lt;h3 id=&#34;benefits-of-git-pull---rebase&#34;&gt;Benefits of &lt;code&gt;git pull --rebase&lt;/code&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Linear History&lt;/strong&gt;: Rebasing applies your local commits on top of the upstream changes, creating a straight line of commits without unnecessary merge commits. This makes the project history easier to read and understand.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My pre-commit config for Hugo blog</title>
+      <link>https://gagor.pro/2024/01/my-pre-commit-config-for-hugo-blog/</link>
+      <pubDate>Mon, 29 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/01/my-pre-commit-config-for-hugo-blog/</guid>
+      <description>Learn how to set up and use pre-commit hooks to automate tasks like linting, syntax checks, and optimizations for your Hugo blog.</description>
+    </item>
+    <item>
+      <title>Git hacks - a set of my favorite git aliases</title>
+      <link>https://gagor.pro/2024/01/git-hacks-a-set-of-my-favorite-git-aliases/</link>
+      <pubDate>Sat, 27 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/01/git-hacks-a-set-of-my-favorite-git-aliases/</guid>
+      <description>&lt;p&gt;I use Git a lot, even writing this article i will commit text few times. There&amp;rsquo;s a set of aliases I rely on daily and they&amp;rsquo;re first I add in new place.&lt;/p&gt;
+&lt;p&gt;Some Git commands are unnecessarily verbose. You can make your life much easier with &lt;code&gt;bash-completions&lt;/code&gt;, but if you write it tens of times per day, it&amp;rsquo;s anyway a lot of typing&amp;hellip; and I&amp;rsquo;m a lazy man &amp;#x1f604;&lt;/p&gt;
+&lt;h2 id=&#34;simple-statuslog-checks&#34;&gt;Simple status/log checks&lt;/h2&gt;
+&lt;h3 id=&#34;git-s&#34;&gt;&lt;strong&gt;git s&lt;/strong&gt;&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  s &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; status --short --branch --untracked-files
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Shows a short, branch-focused status with untracked files.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Automatically add ticket ID to every commit message in Git</title>
+      <link>https://gagor.pro/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/11/automatically-add-ticket-id-to-every-commit-message-in-git/</guid>
+      <description>Learn how to automatically add ticket IDs to every commit message in Git, ensuring consistent and informative commit history by using custom Git aliases.</description>
+    </item>
+  </channel>
+</rss>

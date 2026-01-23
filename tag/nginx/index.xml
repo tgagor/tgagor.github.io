@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nginx on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/nginx/</link>
+    <description>Recent content in Nginx on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimize Nginx for performance</title>
+      <link>https://gagor.pro/2016/01/optimize-nginx-for-performance/</link>
+      <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/01/optimize-nginx-for-performance/</guid>
+      <description>&lt;p&gt;There are many possible real life cases and not all optimization technics will be suitable for you but I hope it will be a good starting place.&lt;/p&gt;
+&lt;p&gt;Also you shouldn&amp;rsquo;t copy paste examples with faith that they will make your server fly &amp;#x1f603; You have to support your decisions with excessive tests and help of monitoring system (ex. &lt;a href=&#34;https://gagor.pro/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/&#34; &gt;Grafana&lt;/a&gt;
+).&lt;/p&gt;
+&lt;h2 id=&#34;cache-static-and-dynamic-content&#34;&gt;Cache static and dynamic content&lt;/h2&gt;
+&lt;p&gt;Setting caching static and dynamic content strategy may offload your server from additional load from repetitive downloads of same, rarely updated files. This will make your site to load faster for frequent visitors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>fail2ban - block wp-login.php brute force attacks</title>
+      <link>https://gagor.pro/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</link>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2015/12/fail2ban-block-wp-login-php-brute-force-attacks/</guid>
+      <description>&lt;p&gt;Lately I had a lot of brute force attacks on my WordPress blog. I used basic auth to &lt;code&gt;/wp-admin&lt;/code&gt; part in nginx configuration to block this and as a better solution I wan&amp;rsquo;t to block source IPs at all on firewall.&lt;/p&gt;
+&lt;p&gt;To do this, place this filter code in &lt;code&gt;/etc/fail2ban/filter.d/wp-login.conf&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# WordPress brute force wp-login.php filter:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# Block IPs trying to authenticate in WordPress blog
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# Matches e.g.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# 178.218.54.109 - - [31/Dec/2015:10:39:34 +0100] &amp;#34;POST /wp-login.php HTTP/1.1&amp;#34; 401 188 &amp;#34;-&amp;#34; &amp;#34;Mozilla/5.0 (Windows NT 6.0; rv:34.0) Gecko/20100101 Firefox/34.0&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;#
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Definition]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;failregex = ^&amp;lt;HOST&amp;gt; .* &amp;#34;POST /wp-login.php
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ignoreregex =
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then edit your &lt;code&gt;/etc/fail2ban/jail.local&lt;/code&gt; and add:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nginx - enabling SPDY with freeware certificate</title>
+      <link>https://gagor.pro/2014/01/nginx-enabling-spdy-with-freeware-certificate/</link>
+      <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/01/nginx-enabling-spdy-with-freeware-certificate/</guid>
+      <description>&lt;p&gt;I was thinking about allowing access to my website using SPDY protocol for better performance and security (and for fun of course &amp;#x1f603; ). But SPDY have one disadvantage - you need SSL certificate signed by known authority that will verfiy in common browsers. So you can&amp;rsquo;t use self signed certificates because everyone will see a warning entering your site. Certs are quite expensive so I started searching for free one and to my surprise I found such!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Preparing video files for streaming on website in MP4 and WEBM format</title>
+      <link>https://gagor.pro/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/</link>
+      <pubDate>Mon, 16 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/12/preparing-video-files-for-streaming-on-website-in-mp4-and-webm-format/</guid>
+      <description>&lt;p&gt;Some time ago I prepared a PC that was responsible for batch encoding of movies to formats suitable for web players (such as. &lt;a href=&#34;http://www.videojs.com/&#34;  target=&#34;_blank&#34;&gt;Video.js&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+, &lt;a href=&#34;http://www.jwplayer.com/&#34;  target=&#34;_blank&#34;&gt;JW Player&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+, &lt;a href=&#34;http://flowplayer.org/&#34;  target=&#34;_blank&#34;&gt;Flowplayer&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+, etc.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nginx - przydatne rewrite’y i różne sztuczki</title>
+      <link>https://gagor.pro/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/</link>
+      <pubDate>Mon, 09 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/09/nginx-przydatne-rewritey-i-rozne-sztuczki/</guid>
+      <description>&lt;p&gt;Polubiłem Nginx&amp;rsquo;a i wykorzystuję go na coraz więcej sposobów. Kilka rzeczy udało mi się całkiem fajnie w nim skonfigurować i postanowiłem zebrać te przykłady by następnym razem gdy postanowię do nich sięgnąć nie musieć wertować konfigów po serwerach &amp;#x1f603;&lt;/p&gt;
+&lt;h2 id=&#34;słowo-wstępu&#34;&gt;Słowo wstępu&lt;/h2&gt;
+&lt;p&gt;Niektóre rewrite&amp;rsquo;y kończą się znakiem &lt;code&gt;?&lt;/code&gt; - czemu?&lt;/p&gt;
+&lt;p&gt;Otóż Nginx próbuje automatycznie dodawać parametry na końcu przepisanego adresu. Jeśli jednak wykorzystamy zmienną &lt;code&gt;$request_uri&lt;/code&gt; to ona sama w sobie zawiera już parametry zapytania (czyli to co w URI znajduje się po znaku &lt;code&gt;?&lt;/code&gt;) i właśnie dodanie pytajnika tuż za tą zmienną powoduje że argumenty nie są dublowane.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nginx - hide server version and name in Server header and error pages</title>
+      <link>https://gagor.pro/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</link>
+      <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/01/nginx-hide-server-version-and-name-in-server-header-and-error-pages/</guid>
+      <description>&lt;p&gt;On Debian you have to install &lt;code&gt;nginx-extras&lt;/code&gt; package (because it have built in &lt;a href=&#34;http://wiki.nginx.org/HttpHeadersMoreModule&#34;  target=&#34;_blank&#34;&gt;headers_more&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ module). Then you need two options (best in global configuration &lt;code&gt;/etc/nginx/nginx.conf&lt;/code&gt; file, &lt;code&gt;http&lt;/code&gt; part):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;server_tokens&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;off&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;more_set_headers&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Server:&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;BadAss&amp;#39;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And it&amp;rsquo;s good to setup non standard error pages on every site (500 and 404 at minimum):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;error_page&lt;/span&gt;   &lt;span style=&#34;color:#ae81ff&#34;&gt;403&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;404&lt;/span&gt;       &lt;span style=&#34;color:#e6db74&#34;&gt;http://mysite.com/areyoulost&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;error_page&lt;/span&gt;   &lt;span style=&#34;color:#ae81ff&#34;&gt;502&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;503&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;504&lt;/span&gt;   &lt;span style=&#34;color:#e6db74&#34;&gt;/500.html&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Nginx - kompresowanie plików dla gzip_static</title>
+      <link>https://gagor.pro/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</link>
+      <pubDate>Mon, 17 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://wiki.nginx.org/HttpGzipStaticModule&#34;  target=&#34;_blank&#34;&gt;Ruski serwer WWW&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ ma przydatną funkcję serwowania wersji plików skompresowanych gzip&amp;rsquo;em - przez co możemy plik skompresować raz i będzie on serwowany klientom obsługującym kompresję HTTP ale już bez każdorazowego kompresowania go. Jest to bardzo przydatne na stronach z dużym ruchem gdzie można w ten sposób zaoszczędzić takty CPU na właściwą obsługę połączeń a nie kompresję. Drugie miejsce gdzie może to być przydatne to VPS&amp;rsquo;y i &amp;ldquo;cienkie&amp;rdquo; serwery, które na kompresji przy większym obciążeniu spędzają zbyt dużo czasu i daje się to odczuć w działaniu strony. A że obecnie standardem jest ładowanie przez stronki np. jQuery, paru pluginów do niego, jQueryUI, masy CSS&amp;rsquo;ów, itd - to na prawdę jest co kompresować &amp;#x1f603;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nginx - konfiguracja pod WordPress’a</title>
+      <link>https://gagor.pro/2012/06/nginx-konfiguracja-pod-wordpressa/</link>
+      <pubDate>Fri, 29 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/06/nginx-konfiguracja-pod-wordpressa/</guid>
+      <description>&lt;p&gt;To raczej nie jest podstawowy konfig i próżno szukać go na stronie WordPress&amp;rsquo;a, więc odradzam tę zabawę jeśli nie zna się zbyt dobrze nginx&amp;rsquo;a.&lt;/p&gt;
+&lt;p&gt;Ponieważ serwerek, na którym działa stronka to sprzęcik z Atomem 330 i mocy na CPU zbyt wiele nie ma to popularne pluginy (np. W3 Total Cache) potencjalnie zwiększające wydajność tak na prawdę zmulały stronkę jeszcze bardziej. Pluginów sprawdziłem kilka i każdorazowo efekt był podobny - stronka działała wolniej niż bez ich pomocy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nginx - ustawienie domyślnego vhosta</title>
+      <link>https://gagor.pro/2012/06/nginx-ustawienie-domyslnego-vhosta/</link>
+      <pubDate>Mon, 18 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/06/nginx-ustawienie-domyslnego-vhosta/</guid>
+      <description>&lt;p&gt;Ustawienie domyślnego vhosta w nginx&amp;rsquo;ie jest ładnie opisane w dokumentacji i początkowo wydawało się dobrze działać ale gdy wykorzystałem tą konfigurację na serwerze z wieloma adresami IP i nasłuchiwaniem na porcie 80 (bez podania IP) to zachowywało się to dość dziwnie (przeważnie nie ładowało tej strony którą chciałem). Od teraz tworzę konfigurację domyślnego vhosta dla każdego z dostępnych adresów IP. Powiem szczerze że nie miałem czasu na głębsze zbadanie tego zachowania i wykorzystałem rozwiązanie, które działało w każdym przypadku czyli po jednym konfigu na IP + przekierowanie na ogólną stronę.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nginx - mój domyślny config</title>
+      <link>https://gagor.pro/2012/06/nginx-moj-domyslny-config/</link>
+      <pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/06/nginx-moj-domyslny-config/</guid>
+      <description>&lt;p&gt;W tym poście nie rozpiszę się zbytnio - wrzucam tylko config od którego zaczynam konfigurację nginx&amp;rsquo;a.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-nginx&#34; data-lang=&#34;nginx&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;user&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;www-data&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;worker_processes&lt;/span&gt;  &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;pid&lt;/span&gt;        &lt;span style=&#34;color:#e6db74&#34;&gt;/var/run/nginx.pid&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;events&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;worker_connections&lt;/span&gt;  &lt;span style=&#34;color:#ae81ff&#34;&gt;1024&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;## zaakceptuj tak dużo połączeń jak to możliwe
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;multi_accept&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;on&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;## epoll jest preferowany na jajkach od 2.6
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;## http://www.kegel.com/c10k.html#nb.epoll
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;use&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;epoll&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;http&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;include&lt;/span&gt;     &lt;span style=&#34;color:#e6db74&#34;&gt;/etc/nginx/mime.types&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;default_type&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;application/octet-stream&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;access_log&lt;/span&gt;  &lt;span style=&#34;color:#e6db74&#34;&gt;/var/log/nginx/access.log&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;error_log&lt;/span&gt;   &lt;span style=&#34;color:#e6db74&#34;&gt;/var/log/nginx/error.log&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;## opcje TCP
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;sendfile&lt;/span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;on&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;tcp_nopush&lt;/span&gt;      &lt;span style=&#34;color:#66d9ef&#34;&gt;on&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;tcp_nodelay&lt;/span&gt;     &lt;span style=&#34;color:#66d9ef&#34;&gt;on&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;## maksymalny rozmiar zapytnia
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;client_max_body_size&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;10m&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;## timeout&amp;#39;y
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;client_body_timeout&lt;/span&gt;     &lt;span style=&#34;color:#ae81ff&#34;&gt;60&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;client_header_timeout&lt;/span&gt;   &lt;span style=&#34;color:#ae81ff&#34;&gt;60&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;keepalive_timeout&lt;/span&gt;       &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;send_timeout&lt;/span&gt;            &lt;span style=&#34;color:#ae81ff&#34;&gt;60&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;## kompresja
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;gzip&lt;/span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;on&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;gzip_static&lt;/span&gt;     &lt;span style=&#34;color:#66d9ef&#34;&gt;on&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;gzip_vary&lt;/span&gt;       &lt;span style=&#34;color:#66d9ef&#34;&gt;on&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;gzip_disable&lt;/span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;msie6&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;gzip_comp_level&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;gzip_proxied&lt;/span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;any&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;gzip_buffers&lt;/span&gt;    &lt;span style=&#34;color:#ae81ff&#34;&gt;16&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;8k&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;gzip_min_length&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;50&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;gzip_types&lt;/span&gt;      &lt;span style=&#34;color:#e6db74&#34;&gt;text/plain&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;text/css&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;application/json&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;application/x-javascript&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;application/javascript&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;text/javascript&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;application/atom+xml&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;application/xml&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;application/xml+rss&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;text/xml&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;image/x-icon&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;text/x-js&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;application/xhtml+xml&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;## bezpieczeństwo
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;## security by obscurity - ukrywamy wersję nginx&amp;#39;a
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;server_tokens&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;off&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;ignore_invalid_headers&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;on&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;## resetuj zbyt długie połączenia - powinno pomóc na slowlorisa
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;reset_timedout_connection&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;on&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;## włączenie ochrony przed clickjackingiem - uruchamiam to per vhost
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;## https://developer.mozilla.org/en/The_X-FRAME-OPTIONS_response_header
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;#add_header X-Frame-Options SAMEORIGIN;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;## potrzebne zeby zbudowac mape ponizej
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;map_hash_bucket_size&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;256&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;## blacklist&amp;#39;a botów i referer&amp;#39;ów
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;include&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;blacklist.conf&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;##
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# jeśli połączenie na HTTPS&amp;#39;a to ustawiamy zmienną by mogło być obsłużone
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;##
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;map&lt;/span&gt; $scheme $server_https {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;default&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;off&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;https&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;on&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;include&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;/etc/nginx/conf.d/*.conf&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;include&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;/etc/nginx/sites-enabled/*&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;No i jeszcze zawartość blacklist.conf - na początek wystarczy a można rozszerzyć pod siebie:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>X-Forwarded-For &#43; mod_rpaf - logowanie rzeczywistych adresów IP na Apache za reverse proxy</title>
+      <link>https://gagor.pro/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</link>
+      <pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</guid>
+      <description>&lt;p&gt;Gdy już ustawimy reverse proxy przed Apache szybko można zauważyć że w logach zamiast adresów IP zdalnych użytkowników pojawia się tylko jeden adres: adres naszego proxy. Również z poziomu php&amp;rsquo;a jako adres klienta widać IP naszego proxy.&lt;/p&gt;
+&lt;p&gt;By poradzić sobie z tym problemem trzeba na serwerze reverse proxy ustawić przekazywanie informacji o oryginalnym adresie IP klienta w nagłówku X-Forwarded-For. W przypadku gdy reverse proxy działa na nginx&amp;rsquo;e wystarczy dodać taki wpis:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Go on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/go/</link>
+    <description>Recent content in Go on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Sun, 11 Jan 2026 13:56:28 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Practical guide to building a parser in Go</title>
+      <link>https://gagor.pro/2026/01/a-practical-guide-to-building-a-parser-in-go/</link>
+      <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/01/a-practical-guide-to-building-a-parser-in-go/</guid>
+      <description>A developer&amp;rsquo;s journey of building a recursive descent parser in Go, from basic concepts to tackling left recursion with Packrat memoization.</description>
+    </item>
+    <item>
+      <title>Generating Miniatures for my Frameo Digital Photo Frame</title>
+      <link>https://gagor.pro/2025/11/generating-miniatures-for-my-frameo-digital-photo-frame/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/11/generating-miniatures-for-my-frameo-digital-photo-frame/</guid>
+      <description>A story of how I bought a digital photo frame, and how I created a tool to generate miniatures of my photo collection to fit them all on the device.</description>
+    </item>
+    <item>
+      <title>Efficient Dockerfile templating for complex build scenarios</title>
+      <link>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/01/efficient-dockerfile-templating-for-complex-build-scenarios/</guid>
+      <description>&lt;h2 id=&#34;why-even-consider-templating-dockerfiles&#34;&gt;Why even consider templating Dockerfiles?&lt;/h2&gt;
+&lt;p&gt;Dockerfiles revolutionized the industry with their simplicity. Each instruction creates a new layer in the image, which is automatically cached. This process integrates well with SCM, where you &amp;ldquo;commit&amp;rdquo; the results of one stage and move forward with other changes. The process can be easily parameterized with &lt;code&gt;ARG&lt;/code&gt; instructions, similar to &lt;code&gt;ENV&lt;/code&gt; but provided during the build. This allows for creating highly flexible builds. For most users, this is more than sufficient. However, there&amp;rsquo;s a notable exception: Docker base images.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

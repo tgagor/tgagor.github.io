@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PC on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/pc/</link>
+    <description>Recent content in PC on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/pc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Asus TUF Gaming Z790-Plus WIFI - My UEFI/BIOS Settings</title>
+      <link>https://gagor.pro/2025/04/asus-tuf-gaming-z790-plus-wifi-my-uefi-bios-settings/</link>
+      <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/04/asus-tuf-gaming-z790-plus-wifi-my-uefi-bios-settings/</guid>
+      <description>Learn about the optimal UEFI BIOS settings for the Asus TUF Gaming Z790-Plus WIFI motherboard, including configurations for RAM, power management, virtualization, and more.</description>
+    </item>
+    <item>
+      <title>Asus ROG STRIX Z590-E GAMING WIFI - my UEFI BIOS settings</title>
+      <link>https://gagor.pro/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</link>
+      <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/10/asus-rog-strix-z590-e-gaming-wifi-my-uefi-bios-settings/</guid>
+      <description>Learn about the optimal UEFI BIOS settings for the Asus ROG STRIX Z590-E GAMING WIFI motherboard, including configurations for RAM, power management, virtualization, and more.</description>
+    </item>
+    <item>
+      <title>Building new Linux desktop</title>
+      <link>https://gagor.pro/2021/04/building-new-linux-desktop/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/04/building-new-linux-desktop/</guid>
+      <description>Learn about building a new Linux desktop with a focus on performance and stability, including hardware selection and considerations for Ubuntu.</description>
+    </item>
+  </channel>
+</rss>

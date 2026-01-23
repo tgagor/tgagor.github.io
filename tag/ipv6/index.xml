@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>IPv6 on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/ipv6/</link>
+    <description>Recent content in IPv6 on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/ipv6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prefer IPv4 over IPv6</title>
+      <link>https://gagor.pro/2016/03/prefer-ipv4-over-ipv6/</link>
+      <pubDate>Tue, 29 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/03/prefer-ipv4-over-ipv6/</guid>
+      <description>A quick tip for forcing IPv4 connections in Linux when IPv6 causes issues with package managers or other services.</description>
+    </item>
+  </channel>
+</rss>

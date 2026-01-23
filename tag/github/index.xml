@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GitHub on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/github/</link>
+    <description>Recent content in GitHub on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crosspost Your Blog articles to Social Media</title>
+      <link>https://gagor.pro/2025/09/crosspost-your-blog-articles-to-social-media/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/09/crosspost-your-blog-articles-to-social-media/</guid>
+      <description>Learn how to automatically share your latest blog posts to Mastodon, Twitter/X, and other social networks using GitHub Actions and the crosspost tool. A simple way to regain traffic lost to search engines and AI.</description>
+    </item>
+  </channel>
+</rss>

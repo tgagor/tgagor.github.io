@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>XFS on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/xfs/</link>
+    <description>Recent content in XFS on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/xfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inodes exhaustion on XFS</title>
+      <link>https://gagor.pro/2013/11/inodes-on-xfs/</link>
+      <pubDate>Wed, 27 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/11/inodes-on-xfs/</guid>
+      <description>Learn about inodes exhaustion on XFS, how to check inode limits, and how to adjust the inode percentage to prevent issues on your Linux filesystem.</description>
+    </item>
+    <item>
+      <title>Quota na katalog w XFS’ie</title>
+      <link>https://gagor.pro/2011/08/quota-na-katalog-w-xfsie/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/quota-na-katalog-w-xfsie/</guid>
+      <description>&lt;p&gt;Większość systemów plików w linuksie pozwala na ustawienie quoty na dwóch poziomach: na użytkownika lub na grupę użytkowników. W wielu przypadkach taki podział jest sensowny i wystarczający. Ale zdarzają się scenariusze, w których to za mało.&lt;/p&gt;
+&lt;p&gt;Dobrym przykładem jest serwer FTP z wirtualnymi kontami użytkowników. Czyli usługa serwera działa jako pewien nieuprzywilejowany użytkownik systemowy (przeważnie ftp) przypisany do nieuprzywilejowanej grupy (np. nogroup). Konta użytkowników serwera FTP są zdefiniowane w bazie danych lub serwerze LDAP. Takie konta nazywa się wirtualnymi ponieważ po autoryzacji w pewnym systemie (bazie danych, LDAP&amp;rsquo;ie) działają z uprawnieniami pewnego systemowego konta (w tym przypadku ftp) - nie ma więc odzwierciedlenia pomiędzy użytkownikami korzystającymi z ftp a kontami systemowymi.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

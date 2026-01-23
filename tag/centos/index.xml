@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CentOS on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/centos/</link>
+    <description>Recent content in CentOS on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/centos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How old are Official Docker images? 2024 Edition</title>
+      <link>https://gagor.pro/2024/03/how-old-are-official-docker-images-2024-edition/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/how-old-are-official-docker-images-2024-edition/</guid>
+      <description>Discover the current age and update status of various official Docker images, including CentOS, Ubuntu, and Debian, in the 2024 edition of this analysis.</description>
+    </item>
+    <item>
+      <title>Changing default php.ini file for PHP-CLI on CentOS</title>
+      <link>https://gagor.pro/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/</link>
+      <pubDate>Thu, 08 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/</guid>
+      <description>&lt;p&gt;On Debian in default installation you have different configuration files for PHP in Apache, FPM, CLI, etc. But on CentOS you have only one php.ini for all of them. In case I have, I need to have different configuration file for scripts running in CLI mode (more memory, etc). I could run it like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;php -c /etc/php-cli.ini script.php
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;But this a little burdensome. So I do it like this:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rebuild yum/rpm database</title>
+      <link>https://gagor.pro/2014/04/rebuild-yum-rpm-database/</link>
+      <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/04/rebuild-yum-rpm-database/</guid>
+      <description>&lt;p&gt;When I was trying to update packages on one host I&amp;rsquo;ve stuck with yum hung on update. I run strace and see:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;strace -p &lt;span style=&#34;color:#ae81ff&#34;&gt;43734&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Process &lt;span style=&#34;color:#ae81ff&#34;&gt;43734&lt;/span&gt; attached - interrupt to quit
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;futex&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;0x807c938, FUTEX_WAIT, 1, NULL &amp;lt;unfinished ...&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Process &lt;span style=&#34;color:#ae81ff&#34;&gt;43734&lt;/span&gt; detached
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It looks like yum database was corrupted, to repair this run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rm -f /var/lib/rpm/__db*
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rpm --rebuilddb
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;yum clean all
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;yum update
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Instead &lt;code&gt;rm&lt;/code&gt; on db-files you could use &lt;code&gt;gzip&lt;/code&gt; to have backup of these files.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sprawdzenie który proces obciąża dyski</title>
+      <link>https://gagor.pro/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</link>
+      <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid>
+      <description>&lt;p&gt;Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.&lt;/p&gt;
+&lt;p&gt;Jest kilka narzędzi (&lt;em&gt;&lt;strong&gt;iostat&lt;/strong&gt;&lt;/em&gt;, &lt;em&gt;&lt;strong&gt;wmstat&lt;/strong&gt;&lt;/em&gt;), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić &amp;#x1f603;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

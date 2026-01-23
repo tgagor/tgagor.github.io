@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Fsck on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/fsck/</link>
+    <description>Recent content in Fsck on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/fsck/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wymuszenie fsck po restarcie</title>
+      <link>https://gagor.pro/2012/09/wymuszenie-fsck-po-restarcie/</link>
+      <pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/09/wymuszenie-fsck-po-restarcie/</guid>
+      <description>&lt;p&gt;Jeżeli chcemy by po ponownym uruchomieniu w czasie startu zostały sprawdzone wszystkie dyski narzędziem to można to osiągnąć na dwa sposoby. Zawsze gdy tego potrzebuję zastanawiam się tylko jaki plik trzeba było utworzyć&amp;hellip; forcefsck, fsck, fsckforce&amp;hellip; więc notuję 😉&lt;/p&gt;
+&lt;h2 id=&#34;utworzenie-pliku-forcefsck&#34;&gt;Utworzenie pliku /forcefsck&lt;/h2&gt;
+&lt;p&gt;Pierwsza metoda polega na utworzeniu pliku forcefsck w głównym katalog, robimy to poniższym poleceniem:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo touch /forcefsck
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;polecenie-shutdown&#34;&gt;Polecenie shutdown&lt;/h2&gt;
+&lt;p&gt;Druga metoda wykorzystuje parametr -F polecenia shutdown ale nie działa na wszystkich dystrybucjach (w takiej sytuacji patrz pierwsza metoda):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>fsck.ext4 - Błąd podczas przydzielania struktury icount: Memory allocation failed</title>
+      <link>https://gagor.pro/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</link>
+      <pubDate>Wed, 21 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/09/fsck-ext4-blad-podczas-przydzielania-struktury-icount-memory-allocation-failed/</guid>
+      <description>&lt;p&gt;Miałem ostatnio dziwną przygodę: pewien serwer do backupu gdzie ląduje dużo małych plików i dodatkowo tworzonych jest sporo hardlinków zaliczył pada. Co prawda starałem się go grzecznie położyć z pomocą &lt;a title=&#34;Magic SysRq - bezpieczny reset Linux’a&#34; href=&#34;https://gagor.pl/2011/09/magic-sysrq-bezpieczny-reset-linuxa/&#34;&gt;Magic SysRq&lt;/a&gt; ale ponieważ nie wiedziałem co było przyczyną awarii fsck wydawał się wskazany.&lt;/p&gt;
+&lt;p&gt;Podczas próby uruchomienia fsck.ext4 na systemie plików o rozmiarze ok 14TB z kilkuset milionami plików po kilkudziesięciu sekundach otrzymywałem komunikat:&lt;br /&gt; &lt;strong&gt;Błąd podczas przydzielania struktury icount: Memory allocation failed&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

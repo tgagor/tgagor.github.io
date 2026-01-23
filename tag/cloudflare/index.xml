@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cloudflare on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/cloudflare/</link>
+    <description>Recent content in Cloudflare on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Tue, 06 Jan 2026 16:30:42 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Purge old Cloudflare Pages deployments</title>
+      <link>https://gagor.pro/2025/08/purge-old-cloudflare-pages-deployments/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/08/purge-old-cloudflare-pages-deployments/</guid>
+      <description>Learn how to automatically delete old Cloudflare Pages deployments using a Bash script and the Cloudflare API. Keep your account clean and reduce clutter by removing outdated deployments.</description>
+    </item>
+    <item>
+      <title>Automatically setting &#39;lastmod&#39; in Hugo pages with Git modification date</title>
+      <link>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/automatically-setting-lastmod-in-hugo-pages-with-git-modification-date/</guid>
+      <description>Learn how to automatically set the &amp;rsquo;lastmod&amp;rsquo; parameter in Hugo pages using Git modification dates to improve SEO and expedite search engine indexing.</description>
+    </item>
+    <item>
+      <title>Optimizing Hugo static site redirects with Cloudflare Pages</title>
+      <link>https://gagor.pro/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/optimizing-hugo-static-site-redirects-with-cloudflare-pages/</guid>
+      <description>Learn how to optimize Hugo static site redirects using Cloudflare Pages, overcoming limitations of GitHub Pages and Cloudflare Free plan.</description>
+    </item>
+    <item>
+      <title>Maximizing page performance and security with Cloudflare tuning</title>
+      <link>https://gagor.pro/2024/01/maximizing-page-performance-and-security-with-cloudflare-tuning/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/01/maximizing-page-performance-and-security-with-cloudflare-tuning/</guid>
+      <description>Learn how to maximize page performance and security by tuning Cloudflare settings, specifically for a statically generated blog hosted on GitHub Pages.</description>
+    </item>
+    <item>
+      <title>Prepare for DoS like Cloudflare do</title>
+      <link>https://gagor.pro/2016/02/prepare-for-dos-like-cloudflare-do/</link>
+      <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/02/prepare-for-dos-like-cloudflare-do/</guid>
+      <description>&lt;p&gt;I watched nice presentation about how Cloudflare protects itself against DoS. Most of us are not able to do that exactly like them but some of tips were general enough to be used on typical web front server.&lt;/p&gt;
+&lt;p&gt;I took notes from this presentation and presented here. Thanks to Marek agreement I also reposted all examples (in easier to copy paste way).&lt;/p&gt;
+&lt;h2 id=&#34;howto-prepare-against-ackfinrstx-mas-flood&#34;&gt;Howto prepare against ACK/FIN/RST/X-mas flood&lt;/h2&gt;
+&lt;p&gt;Use &lt;code&gt;conntrack&lt;/code&gt; rule:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

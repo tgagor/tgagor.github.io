@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mod_rewrite on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/mod_rewrite/</link>
+    <description>Recent content in Mod_rewrite on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/mod_rewrite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache - precompressing static files with gzip</title>
+      <link>https://gagor.pro/2013/12/apache-precompressing-static-files-with-gzip/</link>
+      <pubDate>Fri, 27 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/12/apache-precompressing-static-files-with-gzip/</guid>
+      <description>&lt;p&gt;Some time ago I&amp;rsquo;ve show &lt;a href=&#34;https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/&#34; title=&#34;Nginx - kompresowanie plików dla gzip_static&#34;&gt;how to precompress &lt;em&gt;js&lt;/em&gt; and &lt;em&gt;css&lt;/em&gt; file with gzip to be available for Nginx&amp;rsquo;s mod_gzip&lt;/a&gt;. In default configuration Apache don&amp;rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.&lt;/p&gt;
+&lt;p&gt;Basically we will start with these rewrites to serve gzipped CSS/JS files if they exist and the client accepts gzip compression:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RewriteEngine on
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RewriteCond %{HTTP:Accept-encoding} gzip
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RewriteCond %{REQUEST_FILENAME}\.gz -s
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RewriteRule ^(.*)\.(js|css)$ $1\.$2\.gz [QSA]
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then we need to setup proper content types for such compressed files - I know how to do this in two ways:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mod_rewrite - wymuszenie małych liter w adresie URL</title>
+      <link>https://gagor.pro/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</link>
+      <pubDate>Tue, 25 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/09/mod_rewrite-wymuszenie-malych-liter-w-adresie-url/</guid>
+      <description>&lt;p&gt;Co prawda adresy URL pozwalają na stosowanie zarówno dużych jak i małych liter ale różne systemy mogą je różnie obsługiwać i może się trafić sytuacja, w której nie zechcemy by np. duże litery w ogóle pojawiały się w adresach URL. Doskonały przykład to mój niedawny wpis: &lt;a href=&#34;https://gagor.pro/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/&#34; &gt;Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;Zachodzi tam sytuacja, w której katalog użytkownika jest jego loginem małymi literami (bądź dużymi - jak kto woli), a użytkownik wpisując login może użyć zarówno małych jak i dużych liter i tutaj zaczyna się jazda. Można użyć modyfikatora NC (no case), ale to wpłynie tylko na porównania - przepisanie ścieżki na nazwę podaną przez usera (z dużymi i małymi literami) przekieruje do katalogu, którego nie ma (bo jest katalog tylko małymi/dużymi).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic</title>
+      <link>https://gagor.pro/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</guid>
+      <description>&lt;p&gt;Niedawno trafiłem na ciekawy problem w &lt;em&gt;mod_rewrite&lt;/em&gt; - by przekierowywać użytkowników logujących się jednym z modułów &lt;em&gt;mod_auth_basic&lt;/em&gt; do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej &lt;em&gt;%{REMOTE_USER}&lt;/em&gt; - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w &lt;em&gt;RewriteCond&lt;/em&gt; zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można &lt;em&gt;RewriteCond&amp;rsquo;y&lt;/em&gt; połączyć wyrażeniami logicznymi typu &lt;em&gt;AND&lt;/em&gt;/&lt;em&gt;OR&lt;/em&gt; to nie ma możliwości porównania czy dopasowania z kolejnych &lt;em&gt;RewriteCond&amp;rsquo;ów&lt;/em&gt; są identyczne. Po kilku dniach szperania w dokumentacji i różnych tutorialach udało mi się trafić na jedną wartościową wskazówkę ale tej stronki już nie ma, więc opiszę problem dla potomnych.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

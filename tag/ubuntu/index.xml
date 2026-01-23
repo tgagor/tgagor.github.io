@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ubuntu on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/ubuntu/</link>
+    <description>Recent content in Ubuntu on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 19 Jan 2026 17:38:21 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disable the pager for apt search</title>
+      <link>https://gagor.pro/2026/01/disable-the-pager-for-apt-search/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/01/disable-the-pager-for-apt-search/</guid>
+      <description>Learn how to disable the annoying pager for apt search results on Debian-based systems, and find the best permanent solution.</description>
+    </item>
+    <item>
+      <title>Transmission: Permission Denied to Downloads directory</title>
+      <link>https://gagor.pro/2025/12/transmission-permission-denied-to-downloads-directory/</link>
+      <pubDate>Fri, 26 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/12/transmission-permission-denied-to-downloads-directory/</guid>
+      <description>Transmission on Ubuntu may be denied access to localized Downloads directories due to AppArmor profiles expecting English folder names. Here’s how to fix it.</description>
+    </item>
+    <item>
+      <title>Backup from broken NVMe drive with ddrescue</title>
+      <link>https://gagor.pro/2025/04/backup-from-broken-nvme-drive-with-ddrescue/</link>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/04/backup-from-broken-nvme-drive-with-ddrescue/</guid>
+      <description>Learn how to recover data from a failing NVMe drive using ddrescue on Linux. This guide covers step-by-step backup instructions, handling read errors, and restoring your files safely.</description>
+    </item>
+    <item>
+      <title>ata1.00: failed command: READ FPDMA QUEUED</title>
+      <link>https://gagor.pro/2025/02/ata1.00-failed-command-read-fpdma-queued/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/02/ata1.00-failed-command-read-fpdma-queued/</guid>
+      <description>Learn how to resolve the &amp;ldquo;ata1.00: failed command: READ FPDMA QUEUED&amp;rdquo; error on Ubuntu by adjusting SATA power management settings.</description>
+    </item>
+    <item>
+      <title>Remove password from PDF documents</title>
+      <link>https://gagor.pro/2024/05/remove-password-from-pdf-documents/</link>
+      <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/05/remove-password-from-pdf-documents/</guid>
+      <description>Learn how to remove passwords from PDF documents using the qpdf tool on Linux, making it easier to read protected files on devices like the Pocketbook Touch HD.</description>
+    </item>
+    <item>
+      <title>Installing Oracle Instant Client on Ubuntu 24.04</title>
+      <link>https://gagor.pro/2024/04/installing-oracle-instant-client-on-ubuntu-24.04/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/04/installing-oracle-instant-client-on-ubuntu-24.04/</guid>
+      <description>Learn how to install Oracle Instant Client on Ubuntu 24.04 using both recommended and alternative methods, with a focus on Docker images.</description>
+    </item>
+    <item>
+      <title>How old are Official Docker images? 2024 Edition</title>
+      <link>https://gagor.pro/2024/03/how-old-are-official-docker-images-2024-edition/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/how-old-are-official-docker-images-2024-edition/</guid>
+      <description>Discover the current age and update status of various official Docker images, including CentOS, Ubuntu, and Debian, in the 2024 edition of this analysis.</description>
+    </item>
+    <item>
+      <title>Tuning PipeWire for best audio quality on Ubuntu</title>
+      <link>https://gagor.pro/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/01/tuning-pipewire-for-best-audio-quality-on-ubuntu/</guid>
+      <description>Learn how to tune PipeWire for the best audio quality on Ubuntu, ensuring optimal sound performance for your Linux system.</description>
+    </item>
+    <item>
+      <title>Ubuntu - Key is stored in legacy trusted.gpg keyring...</title>
+      <link>https://gagor.pro/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</link>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</guid>
+      <description>Learn how to resolve the &amp;ldquo;Key is stored in legacy trusted.gpg keyring&amp;rdquo; warning on Ubuntu 22.04 by properly managing GPG keys for repositories.</description>
+    </item>
+    <item>
+      <title>I switched to Zsh</title>
+      <link>https://gagor.pro/2021/12/i-switched-to-zsh/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/12/i-switched-to-zsh/</guid>
+      <description>A guide to switching from bash to Zsh, with Oh My Zsh, Powerlevel10k, and useful plugins for a better terminal experience.</description>
+    </item>
+    <item>
+      <title>Creating fully encrypted ZFS pool</title>
+      <link>https://gagor.pro/2021/11/creating-fully-encrypted-zfs-pool/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/11/creating-fully-encrypted-zfs-pool/</guid>
+      <description>Learn how to create a fully encrypted ZFS pool on Linux, including steps for generating encryption keys and configuring ZFS for secure data storage.</description>
+    </item>
+    <item>
+      <title>Building new Linux desktop</title>
+      <link>https://gagor.pro/2021/04/building-new-linux-desktop/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/04/building-new-linux-desktop/</guid>
+      <description>Learn about building a new Linux desktop with a focus on performance and stability, including hardware selection and considerations for Ubuntu.</description>
+    </item>
+    <item>
+      <title>Tweaking ASUS Zenbook UX305CA on Linux</title>
+      <link>https://gagor.pro/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</link>
+      <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</guid>
+      <description>&lt;p&gt;Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &amp;lsquo;mobile&amp;rsquo; word. Then I saw ASUS Zenbook that I didn&amp;rsquo;t take into account before and it was exactly what I was searching for.&lt;/p&gt;
+&lt;p&gt;Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed. I want to sum up what I&amp;rsquo;ve done after installation. I started with fresh Ubuntu 16.04 to get Debian based distro with possibly latest kernel and patches.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Manual installation of Docker on Debian/Ubuntu</title>
+      <link>https://gagor.pro/2016/02/manual-installation-of-docker-on-debian-ubuntu/</link>
+      <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/02/manual-installation-of-docker-on-debian-ubuntu/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve played with Docker a little in it early days but didn&amp;rsquo;t stick for longer with it. It&amp;rsquo;s stable now so I wanted to check how it&amp;rsquo;s running now.&lt;/p&gt;
+&lt;p&gt;I really can&amp;rsquo;t accept this method of installation:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -fsSL https://get.docker.com/ | sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I think that world is going to it&amp;rsquo;s end when I see such scritps&amp;hellip; I prefer to do this manually, knowing exactly what I have to do.&lt;/p&gt;
+&lt;p&gt;Install prerequisites:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Use www.horizon.tv with Pipelight/Silverlight on Linux/Ubuntu</title>
+      <link>https://gagor.pro/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</link>
+      <pubDate>Tue, 09 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/02/use-www-horizon-tv-with-pipelight-silverlight-on-linux-ubuntu/</guid>
+      <description>&lt;p&gt;From few days I have access to UPC&amp;rsquo;s &lt;a href=&#34;http://www.horizon.tv&#34;  target=&#34;_blank&#34;&gt;www.horizon.tv&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ platform - until now it was useless on Linux. But there is Pipelight that will use Wine to emulate Silverlight on Linux and it&amp;rsquo;s working pretty well - you&amp;rsquo;re just few commands away from achieving that:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# stop browser&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;killall firefox
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# remove old version if you have it&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get remove pipelight
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now configure repos and install packages:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grafana - installation and configuraton with InfluxDB and CollectD on Debian/Ubuntu</title>
+      <link>https://gagor.pro/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</guid>
+      <description>&lt;p&gt;Now when you have &lt;a href=&#34;https://gagor.pro/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/&#34; &gt;CollectD&lt;/a&gt;
+ and &lt;a href=&#34;https://gagor.pro/2016/01/influxdb-installation-and-configuration-on-debianubuntu/&#34; &gt;InfluxDB&lt;/a&gt;
+ installed you may configure Grafana &amp;#x1f603;&lt;/p&gt;
+&lt;p&gt;First configure repo with current Grafana version (select your distro):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl https://packagecloud.io/gpg.key | sudo apt-key add -
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;deb https://packagecloud.io/grafana/testing/debian/ wheezy main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now install package (on wheezy I needed to install &lt;code&gt;apt-transport-https&lt;/code&gt; to allow installation of packages from repo via HTTPS):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install -y apt-transport-https
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install -y grafana
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;By default Grafana will use &lt;code&gt;sqlite&lt;/code&gt; database to keep information about users, etc:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>InfluxDB - installation and configuration on Debian/Ubuntu</title>
+      <link>https://gagor.pro/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</link>
+      <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</guid>
+      <description>&lt;p&gt;I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s start! On project page there is no info about repo but it&amp;rsquo;s available, configure it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -sL https://repos.influxdata.com/influxdb.key | apt-key add -
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;deb https://repos.influxdata.com/debian wheezy stable&amp;#34;&lt;/span&gt; &amp;gt; /etc/apt.sources.list.d/influxdb.conf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;for Ubuntu use url like (of course selecting your version):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CollectD - installation and configuration with InfluxDB on Debian/Ubuntu</title>
+      <link>https://gagor.pro/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</link>
+      <pubDate>Fri, 08 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</guid>
+      <description>&lt;p&gt;I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then&amp;hellip; I found InfluxDB. Project is young but looks promising&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Installation of &lt;code&gt;collectd&lt;/code&gt; is easy on Debian because packages are in default repo. One problem is that packages may be old, ex. on &lt;code&gt;wheezy&lt;/code&gt; it version 5.1. But in backports/backports-sloppy&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; you may find current 5.5, so enable backports first:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Extract password saved in Remmina</title>
+      <link>https://gagor.pro/2015/12/extract-password-saved-in-remmina/</link>
+      <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2015/12/extract-password-saved-in-remmina/</guid>
+      <description>&lt;p&gt;I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in &lt;em&gt;.remmina&lt;/em&gt; directory.&lt;/p&gt;
+&lt;p&gt;Then I used this script to decrypt them &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+
+&lt;div class=&#34;terminal space shadow&#34;&gt;
+    &lt;div class=&#34;top&#34;&gt;
+        &lt;div class=&#34;btns&#34;&gt;
+            &lt;span class=&#34;circle red&#34;&gt;&lt;/span&gt;
+            &lt;span class=&#34;circle yellow&#34;&gt;&lt;/span&gt;
+            &lt;span class=&#34;circle green&#34;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;title&#34;&gt;Extract script&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;terminalbody&#34;&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; base64
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; Crypto.Cipher &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; DES3
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;secret &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; base64&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;decodestring(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;password &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; base64&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;decodestring(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print DES3&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;new(secret[:&lt;span style=&#34;color:#ae81ff&#34;&gt;24&lt;/span&gt;], DES3&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;MODE_CBC, secret[&lt;span style=&#34;color:#ae81ff&#34;&gt;24&lt;/span&gt;:])&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;decrypt(password)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&#34;  target=&#34;_blank&#34;&gt;http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Copy GTP partiotion table between disks</title>
+      <link>https://gagor.pro/2014/07/copy-gtp-partiotion-table-between-disks/</link>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/07/copy-gtp-partiotion-table-between-disks/</guid>
+      <description>&lt;p&gt;When configuring RAID it&amp;rsquo;s quite important to have the same partition tables on every disk. I&amp;rsquo;v done this many times on msdos partition tables like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sfdisk -d /dev/sda | sfdisk /dev/sdb
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;but it&amp;rsquo;s not working any more on GPT partition tables. Hopefully it still can be done but with different toolstack &amp;#x1f604;&lt;/p&gt;
+&lt;p&gt;Install &lt;code&gt;gdisk&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install -y gdisk
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then use sgdisk like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sgdisk -R /dev/sd_dest /dev/sd_src
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sgdisk -G /dev/sd_dest
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;First command will copy partition from &lt;code&gt;/dev/sd_src&lt;/code&gt; to &lt;code&gt;/dev/sd_dest&lt;/code&gt;. Second will randomize partition UUID&amp;rsquo;s - needed only if you want to use disks in same machine (this is my case).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Install Steam on Debian/Ubuntu</title>
+      <link>https://gagor.pro/2014/04/install-steam-on-debian-ubuntu/</link>
+      <pubDate>Tue, 22 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/04/install-steam-on-debian-ubuntu/</guid>
+      <description>&lt;p&gt;These are few steps to get Steam running on Ubuntu:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget -c media.steampowered.com/client/installer/steam.deb
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;dpkg -i steam.deb
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install -f
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;solutions-for-some-issues&#34;&gt;Solutions for some issues&lt;/h2&gt;
+&lt;p&gt;Some time ago I needed 32 bit flash even on 64 bit system - I don&amp;rsquo;t need it currently but I&amp;rsquo;m living this as a tip.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install adobe-flashplugin:i386
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After Ubuntu upgrade I was unable to run Steam anymore - It shouted on me with strange &amp;ldquo;networking problem&amp;rdquo;. I have to clean Steam configuration with:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Regenerate thumbnails in Shotwell 0.15 (for last month)</title>
+      <link>https://gagor.pro/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</link>
+      <pubDate>Wed, 08 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/01/regenerate-thumbnails-in-shotwell-for-last-month/</guid>
+      <description>&lt;p&gt;I love &lt;a href=&#34;http://www.yorba.org/projects/shotwell/&#34;  target=&#34;_blank&#34;&gt;Shotwell&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ for it&amp;rsquo;s simplicity and easy export to &lt;a href=&#34;http://piwigo.org/&#34;  target=&#34;_blank&#34;&gt;Piwigo&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+. After Christmas I added new photos to my library but after that I made some modifications to them (red eye reduction, etc&amp;hellip;). Because Shotwell generate thumbnails only on import, all my modifications were not visible on preview.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Instalacja drukarki i skanera Brother DCP-130C na Ubuntu 12.04</title>
+      <link>https://gagor.pro/2012/11/instalacja-drukarki-i-skanera-brother-dcp-130c-na-ubuntu-12-04/</link>
+      <pubDate>Sun, 04 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/11/instalacja-drukarki-i-skanera-brother-dcp-130c-na-ubuntu-12-04/</guid>
+      <description>&lt;p&gt;Po każdej aktualizacji Ubuntu mam trochę zabawy by pozbierać do kupy skaner i drukarkę z mojego urządzenia wielofunkcyjnego Brother DCP-130C. Wybrałem je bo był to jedyny producent, który deklarował wsparcie dla Linux&amp;rsquo;a&amp;hellip; choć z perspektywy czasu nie jestem pewien czy otrzymałem to czego się spodziewałem&amp;hellip; Co prawda zamieszczają instrukcje i aktualizują drivery ale jeszcze ani raz nie zdarzyło mi się by po aktualizacji systemu postępowanie według tych instrukcji zadziałało bez dodatkowej pomocy.. Olać!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Empathy - zamykanie okienka chatu przyciskiem Escape</title>
+      <link>https://gagor.pro/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/</link>
+      <pubDate>Fri, 30 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/12/empathy-zamykanie-okienka-chatu-przyciskiem-escape/</guid>
+      <description>&lt;p&gt;W Gajim&amp;rsquo;ie od dawna brakowało mi wygodnego przeszukiwania po liście kontaktów (takiego jakie ma się pojawić już niebawem w wersji 0.15 - z półtora roku już na to czekam&amp;hellip;). W między czasie znalazłem chwilę by pobawić się Empathy - brzydki, nie ma przeglądarki usług XMPP, ale wyszukiwanie na rosterze jest dokładnie takie jakiego szukałem (w miarę wpisywania znaków zawęża listę kontaktów by pasowały do wpisywanego wzorca).&lt;/p&gt;
+&lt;p&gt;Tyle że skróty klawiaturowe w tym programie zwyczajnie mnie rozwalają - przez lata przyzwyczaiłem się że okienka czatu można zamknąć Escape&amp;rsquo;m - a tutaj nawet nie ma opcji, która pozwalała by na taką zmianę zachowania.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>approx - cachujące proxy dla repozytoriów Debiana</title>
+      <link>https://gagor.pro/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</link>
+      <pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</guid>
+      <description>&lt;p&gt;Wielu administratorów gdy zaczyna swoją przygodę zarządza jedną/dwoma maszynami&amp;hellip; Po pewnym czasie jest ich już kilka&amp;hellip; W którymś momencie dostrzega się zalety wirtualizacji i na kilku maszynach fizycznych działa kilkanaście czy kilkadziesiąt maszyn wirtualnych. W takiej sytuacji pobieranie aktualizacji dla wszystkich maszyn potrafi mocno zabić łącze.&lt;/p&gt;
+&lt;p&gt;I w tym momencie zaczynamy się zastanawiać czy może nie warto byłoby zrobić własnego mirror&amp;rsquo;a paczek dla naszego ulubionego distro&amp;hellip; do prywatnego użytku&amp;hellip; synchronizowanego w nocy by nikomu nie przeszkadzać&amp;hellip; i dostępnego nawet gdy będziemy offline&amp;hellip; Zaczynamy liczyć miejsce i okazuje się że repozytorium Debiana dla architektury i386 to prawie 60GB (sic!), no ale mamy kilka maszynek z arch amd64 i tutaj też prawie 60GB - auć. W tym miejscu wielu dochodzi do wniosku że to jeszcze nie pora na własnego mirror&amp;rsquo;a &amp;#x1f603;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sprawdzenie który proces obciąża dyski</title>
+      <link>https://gagor.pro/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</link>
+      <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid>
+      <description>&lt;p&gt;Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.&lt;/p&gt;
+&lt;p&gt;Jest kilka narzędzi (&lt;em&gt;&lt;strong&gt;iostat&lt;/strong&gt;&lt;/em&gt;, &lt;em&gt;&lt;strong&gt;wmstat&lt;/strong&gt;&lt;/em&gt;), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić &amp;#x1f603;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

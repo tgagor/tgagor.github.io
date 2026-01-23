@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Debian on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/debian/</link>
+    <description>Recent content in Debian on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 19 Jan 2026 17:38:21 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/debian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disable the pager for apt search</title>
+      <link>https://gagor.pro/2026/01/disable-the-pager-for-apt-search/</link>
+      <pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/01/disable-the-pager-for-apt-search/</guid>
+      <description>Learn how to disable the annoying pager for apt search results on Debian-based systems, and find the best permanent solution.</description>
+    </item>
+    <item>
+      <title>I made Windows use UTC with Linux dual boot</title>
+      <link>https://gagor.pro/2025/12/i-made-windows-use-utc-with-linux-dual-boot/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/12/i-made-windows-use-utc-with-linux-dual-boot/</guid>
+      <description>Configure Windows to use UTC for the hardware clock when dual-booting with Linux, avoiding time synchronization issues and maintaining Linux defaults.</description>
+    </item>
+    <item>
+      <title>Backup from broken NVMe drive with ddrescue</title>
+      <link>https://gagor.pro/2025/04/backup-from-broken-nvme-drive-with-ddrescue/</link>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/04/backup-from-broken-nvme-drive-with-ddrescue/</guid>
+      <description>Learn how to recover data from a failing NVMe drive using ddrescue on Linux. This guide covers step-by-step backup instructions, handling read errors, and restoring your files safely.</description>
+    </item>
+    <item>
+      <title>ata1.00: failed command: READ FPDMA QUEUED</title>
+      <link>https://gagor.pro/2025/02/ata1.00-failed-command-read-fpdma-queued/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2025/02/ata1.00-failed-command-read-fpdma-queued/</guid>
+      <description>Learn how to resolve the &amp;ldquo;ata1.00: failed command: READ FPDMA QUEUED&amp;rdquo; error on Ubuntu by adjusting SATA power management settings.</description>
+    </item>
+    <item>
+      <title>Remove password from PDF documents</title>
+      <link>https://gagor.pro/2024/05/remove-password-from-pdf-documents/</link>
+      <pubDate>Mon, 27 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/05/remove-password-from-pdf-documents/</guid>
+      <description>Learn how to remove passwords from PDF documents using the qpdf tool on Linux, making it easier to read protected files on devices like the Pocketbook Touch HD.</description>
+    </item>
+    <item>
+      <title>Installing Oracle Instant Client on Ubuntu 24.04</title>
+      <link>https://gagor.pro/2024/04/installing-oracle-instant-client-on-ubuntu-24.04/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/04/installing-oracle-instant-client-on-ubuntu-24.04/</guid>
+      <description>Learn how to install Oracle Instant Client on Ubuntu 24.04 using both recommended and alternative methods, with a focus on Docker images.</description>
+    </item>
+    <item>
+      <title>How old are Official Docker images? 2024 Edition</title>
+      <link>https://gagor.pro/2024/03/how-old-are-official-docker-images-2024-edition/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2024/03/how-old-are-official-docker-images-2024-edition/</guid>
+      <description>Discover the current age and update status of various official Docker images, including CentOS, Ubuntu, and Debian, in the 2024 edition of this analysis.</description>
+    </item>
+    <item>
+      <title>Ubuntu - Key is stored in legacy trusted.gpg keyring...</title>
+      <link>https://gagor.pro/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</link>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2022/10/ubuntu-key-is-stored-in-legacy-trusted.gpg-keyring.../</guid>
+      <description>Learn how to resolve the &amp;ldquo;Key is stored in legacy trusted.gpg keyring&amp;rdquo; warning on Ubuntu 22.04 by properly managing GPG keys for repositories.</description>
+    </item>
+    <item>
+      <title>I switched to Zsh</title>
+      <link>https://gagor.pro/2021/12/i-switched-to-zsh/</link>
+      <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/12/i-switched-to-zsh/</guid>
+      <description>A guide to switching from bash to Zsh, with Oh My Zsh, Powerlevel10k, and useful plugins for a better terminal experience.</description>
+    </item>
+    <item>
+      <title>Creating fully encrypted ZFS pool</title>
+      <link>https://gagor.pro/2021/11/creating-fully-encrypted-zfs-pool/</link>
+      <pubDate>Mon, 22 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2021/11/creating-fully-encrypted-zfs-pool/</guid>
+      <description>Learn how to create a fully encrypted ZFS pool on Linux, including steps for generating encryption keys and configuring ZFS for secure data storage.</description>
+    </item>
+    <item>
+      <title>Tweaking ASUS Zenbook UX305CA on Linux</title>
+      <link>https://gagor.pro/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</link>
+      <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/04/tweaking-asus-zenbook-ux305ca-on-linux/</guid>
+      <description>&lt;p&gt;Lately I was searching for mobile notebook that I could use for remote work. I checked f ThinkPad series but they were huge bricks that have nothing in common with &amp;lsquo;mobile&amp;rsquo; word. Then I saw ASUS Zenbook that I didn&amp;rsquo;t take into account before and it was exactly what I was searching for.&lt;/p&gt;
+&lt;p&gt;Configuration of Skylake based notebook right now is not straightforward - there are still glitches and small bugs that are waiting to be fixed. I want to sum up what I&amp;rsquo;ve done after installation. I started with fresh Ubuntu 16.04 to get Debian based distro with possibly latest kernel and patches.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Manual installation of Docker on Debian/Ubuntu</title>
+      <link>https://gagor.pro/2016/02/manual-installation-of-docker-on-debian-ubuntu/</link>
+      <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/02/manual-installation-of-docker-on-debian-ubuntu/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve played with Docker a little in it early days but didn&amp;rsquo;t stick for longer with it. It&amp;rsquo;s stable now so I wanted to check how it&amp;rsquo;s running now.&lt;/p&gt;
+&lt;p&gt;I really can&amp;rsquo;t accept this method of installation:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -fsSL https://get.docker.com/ | sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I think that world is going to it&amp;rsquo;s end when I see such scritps&amp;hellip; I prefer to do this manually, knowing exactly what I have to do.&lt;/p&gt;
+&lt;p&gt;Install prerequisites:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Intel Dual Band Wireless-AC 7260 for Desktop on Linux</title>
+      <link>https://gagor.pro/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/02/intel-dual-band-wireless-ac-7260-for-desktop-on-linux/</guid>
+      <description>&lt;p&gt;I just bought new wifi card for my desktop computer. Like in topic, it&amp;rsquo;s &lt;a href=&#34;http://www.intel.com/content/www/us/en/wireless-products/dual-band-wireless-ac-7260-bluetooth-desktop.html&#34;  target=&#34;_blank&#34;&gt;Intel Dual Band Wireless-AC 7260 for Desktop&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;I was searching for card that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;support AC standard&lt;/li&gt;
+&lt;li&gt;have 5GHz network support (2,4GHz channels are cluttered heavily in my neighborhood&lt;/li&gt;
+&lt;li&gt;have PCI/PCIx or USB3 connector&lt;/li&gt;
+&lt;li&gt;is Linux friendly (no modules compilation by hand, support for &lt;code&gt;aircrack-ng&lt;/code&gt;, &lt;code&gt;kismet&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This one is the only I found that comply my expectations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Grafana - installation and configuraton with InfluxDB and CollectD on Debian/Ubuntu</title>
+      <link>https://gagor.pro/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/01/grafana-installation-and-configuraton-with-influxdb-and-collectd-on-debian-ubuntu/</guid>
+      <description>&lt;p&gt;Now when you have &lt;a href=&#34;https://gagor.pro/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/&#34; &gt;CollectD&lt;/a&gt;
+ and &lt;a href=&#34;https://gagor.pro/2016/01/influxdb-installation-and-configuration-on-debianubuntu/&#34; &gt;InfluxDB&lt;/a&gt;
+ installed you may configure Grafana &amp;#x1f603;&lt;/p&gt;
+&lt;p&gt;First configure repo with current Grafana version (select your distro):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl https://packagecloud.io/gpg.key | sudo apt-key add -
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;deb https://packagecloud.io/grafana/testing/debian/ wheezy main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now install package (on wheezy I needed to install &lt;code&gt;apt-transport-https&lt;/code&gt; to allow installation of packages from repo via HTTPS):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install -y apt-transport-https
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install -y grafana
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;By default Grafana will use &lt;code&gt;sqlite&lt;/code&gt; database to keep information about users, etc:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>InfluxDB - installation and configuration on Debian/Ubuntu</title>
+      <link>https://gagor.pro/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</link>
+      <pubDate>Sat, 09 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/01/influxdb-installation-and-configuration-on-debianubuntu/</guid>
+      <description>&lt;p&gt;I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then… I found InfluxDB. Project is young but looks promising.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s start! On project page there is no info about repo but it&amp;rsquo;s available, configure it:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -sL https://repos.influxdata.com/influxdb.key | apt-key add -
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;deb https://repos.influxdata.com/debian wheezy stable&amp;#34;&lt;/span&gt; &amp;gt; /etc/apt.sources.list.d/influxdb.conf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;for Ubuntu use url like (of course selecting your version):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CollectD - installation and configuration with InfluxDB on Debian/Ubuntu</title>
+      <link>https://gagor.pro/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</link>
+      <pubDate>Fri, 08 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2016/01/collectd-installation-and-configuration-with-influxdb-on-debianubuntu/</guid>
+      <description>&lt;p&gt;I wanted/needed some statistics on few my machines. I saw earlier grafana and was impressed so this was starting point. Then I started reading about graphite, carbon and whisper, and then&amp;hellip; I found InfluxDB. Project is young but looks promising&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;Installation of &lt;code&gt;collectd&lt;/code&gt; is easy on Debian because packages are in default repo. One problem is that packages may be old, ex. on &lt;code&gt;wheezy&lt;/code&gt; it version 5.1. But in backports/backports-sloppy&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; you may find current 5.5, so enable backports first:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Extract password saved in Remmina</title>
+      <link>https://gagor.pro/2015/12/extract-password-saved-in-remmina/</link>
+      <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2015/12/extract-password-saved-in-remmina/</guid>
+      <description>&lt;p&gt;I had some passwords saved in remmina but like it always happen, I wasn&amp;rsquo;t been able to remember them when needed. Trying to restore them I found that they&amp;rsquo;re encrypted in &lt;em&gt;.remmina&lt;/em&gt; directory.&lt;/p&gt;
+&lt;p&gt;Then I used this script to decrypt them &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;:&lt;/p&gt;
+
+
+&lt;div class=&#34;terminal space shadow&#34;&gt;
+    &lt;div class=&#34;top&#34;&gt;
+        &lt;div class=&#34;btns&#34;&gt;
+            &lt;span class=&#34;circle red&#34;&gt;&lt;/span&gt;
+            &lt;span class=&#34;circle yellow&#34;&gt;&lt;/span&gt;
+            &lt;span class=&#34;circle green&#34;&gt;&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;title&#34;&gt;Extract script&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;terminalbody&#34;&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; base64
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;from&lt;/span&gt; Crypto.Cipher &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; DES3
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;secret &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; base64&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;decodestring(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;STRING FROM remmina.prefs&amp;gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;password &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; base64&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;decodestring(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;STRING FROM XXXXXXX.remmina&amp;gt;&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print DES3&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;new(secret[:&lt;span style=&#34;color:#ae81ff&#34;&gt;24&lt;/span&gt;], DES3&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;MODE_CBC, secret[&lt;span style=&#34;color:#ae81ff&#34;&gt;24&lt;/span&gt;:])&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;decrypt(password)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;br&gt;
+
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&#34;  target=&#34;_blank&#34;&gt;http://askubuntu.com/questions/290824/how-to-extract-saved-password-from-remmina&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Copy GTP partiotion table between disks</title>
+      <link>https://gagor.pro/2014/07/copy-gtp-partiotion-table-between-disks/</link>
+      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/07/copy-gtp-partiotion-table-between-disks/</guid>
+      <description>&lt;p&gt;When configuring RAID it&amp;rsquo;s quite important to have the same partition tables on every disk. I&amp;rsquo;v done this many times on msdos partition tables like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sfdisk -d /dev/sda | sfdisk /dev/sdb
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;but it&amp;rsquo;s not working any more on GPT partition tables. Hopefully it still can be done but with different toolstack &amp;#x1f604;&lt;/p&gt;
+&lt;p&gt;Install &lt;code&gt;gdisk&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install -y gdisk
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then use sgdisk like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sgdisk -R /dev/sd_dest /dev/sd_src
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sgdisk -G /dev/sd_dest
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;First command will copy partition from &lt;code&gt;/dev/sd_src&lt;/code&gt; to &lt;code&gt;/dev/sd_dest&lt;/code&gt;. Second will randomize partition UUID&amp;rsquo;s - needed only if you want to use disks in same machine (this is my case).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Install Steam on Debian/Ubuntu</title>
+      <link>https://gagor.pro/2014/04/install-steam-on-debian-ubuntu/</link>
+      <pubDate>Tue, 22 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/04/install-steam-on-debian-ubuntu/</guid>
+      <description>&lt;p&gt;These are few steps to get Steam running on Ubuntu:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget -c media.steampowered.com/client/installer/steam.deb
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;dpkg -i steam.deb
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install -f
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;solutions-for-some-issues&#34;&gt;Solutions for some issues&lt;/h2&gt;
+&lt;p&gt;Some time ago I needed 32 bit flash even on 64 bit system - I don&amp;rsquo;t need it currently but I&amp;rsquo;m living this as a tip.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install adobe-flashplugin:i386
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After Ubuntu upgrade I was unable to run Steam anymore - It shouted on me with strange &amp;ldquo;networking problem&amp;rdquo;. I have to clean Steam configuration with:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Debian - Upgrade MySQL to MariaDB</title>
+      <link>https://gagor.pro/2014/01/debian-upgrade-mysql-to-mariadb/</link>
+      <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2014/01/debian-upgrade-mysql-to-mariadb/</guid>
+      <description>&lt;p&gt;After reading some good opinions about MariaDB I wanted to give it a try. Upgrade looks quite straight forward but I found some issues a little tricky.&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Add repo and key:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat &amp;gt; /etc/apt/sources.list &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;&amp;lt;SRC
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb-src http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;SRC&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;(&lt;a href=&#34;https://downloads.mariadb.org/mariadb/repositories/#mirror=tweedo&amp;amp;#038;distro=Debian&amp;amp;#038;distro_release=wheezy&amp;amp;#038;version=5.5&#34;  target=&#34;_blank&#34;&gt;find more repositories here&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+)&lt;/p&gt;
+&lt;p&gt;Now install MariaDB:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install mariadb-server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It could be better to install &lt;code&gt;mariadb-server-5.5&lt;/code&gt; and &lt;code&gt;mariadb-client-5.5&lt;/code&gt; package instead, because of &lt;a href=&#34;https://mariadb.com/kb/en/installing-mariadb-deb-files/#upgrading-mariadb-server-and-mariadb-client-packages&#34;  target=&#34;_blank&#34;&gt;this error&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GearmanManager: wygodne zarządzanie workerami</title>
+      <link>https://gagor.pro/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/11/gearmanmanager-wygodne-zarzadzanie-workerami/</guid>
+      <description>&lt;p&gt;Niedawno &lt;a href=&#34;https://gagor.pl/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/&#34; title=&#34;Instalacja gearman-job-server 1.0.6 na Debianie Wheezy&#34;&gt;zainteresowałem się usługą Gearman&lt;/a&gt; i jedynej rzeczy której mi brakowało to jakiegoś łatwego mechanizmu zarządzającego workerami. Ale jak zwykle okazało się że inni mieli już ten problem i odpowiednie narzędzie istnieje - mowa o &lt;a href=&#34;https://github.com/brianlmoon/GearmanManager&#34; title=&#34;GearmanManager&#34; target=&#34;_blank&#34;&gt;GearmanManagerze&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;instalacja-gearmanmanagera&#34;&gt;Instalacja GearmanManagera&lt;/h2&gt;
+&lt;p&gt;Aby zainstalować GeramanManagera na serwerze gdzie już mamy Gearmana trzeba wykonać kilka kroków (&lt;a href=&#34;https://gagor.pl/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/#php-gearman-install&#34; title=&#34;Instalacja gearman-job-server 1.0.6 na Debianie Wheezy&#34;&gt;wcześniej powinniśmy też zainstalować moduł gearmana do php&amp;rsquo;a&lt;/a&gt;):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install git -y
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/brianlmoon/GearmanManager.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd GearmanManager/install
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;chmod +x install.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;./install.sh
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Detecting linux distro as redhat- or debian-compatible
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Where is your php executable? &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;usually /usr/bin&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/usr/bin
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Which PHP library to use, pecl/gearman or PEAR::Net_Gearman?
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; pecl
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;2&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; pear
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#? 1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Installing to /usr/local/share/gearman-manager
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Installing executable to /usr/local/bin/gearman-manager
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Installing configs to /etc/gearman-manager
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Installing init script to /etc/init.d/gearman-manager
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Install ok!  Run /etc/init.d/gearman-manager to start and stop
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Worker scripts can be installed in /etc/gearman-manager/workers, configuration can be edited in /etc/gearman-manager/config.ini
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Mamy działającego GearmanManagera. Zalecam przyglądnięcie się plikowi &lt;em&gt;config-advanced.ini&lt;/em&gt; bo jest tam kilka opcji, które warto dodatkowo ustawić.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Debian - zablokowanie aktualizacji pakietu</title>
+      <link>https://gagor.pro/2013/11/debian-zablokowanie-aktualizacji-pakietu/</link>
+      <pubDate>Tue, 05 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/11/debian-zablokowanie-aktualizacji-pakietu/</guid>
+      <description>&lt;p&gt;W teorii nie powinno się blokować aktualizacji pakietów bo łatają dziury itd&amp;hellip;. Ale! Zdarzyły mi się ostatnio dwie sytuacje, które do tego mnie zmusiły:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;aktualizacja hudsona kończyła się błędem przy starcie usługi,&lt;/li&gt;
+&lt;li&gt;aktualizacja domU Xen skończyła się problemem z kompatybilnością mechanizmu udev w systemie i jądrze (hypervisor miał starsze jądro niż spodziewało się DomU).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;W takich sytuacjach bardzo przydaje się możliwość zablokowania aktualizacji jednej &amp;ldquo;psującej&amp;rdquo; paczki na pewien okres czasu by nie opóźniać innych aktualizacji a sobie dać czas na rozpracowanie problemu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Instalacja gearman-job-server 1.0.6 na Debianie Wheezy</title>
+      <link>https://gagor.pro/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/</link>
+      <pubDate>Tue, 29 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/</guid>
+      <description>&lt;p&gt;Ostatnio trafiłem na ciekawą usługę, która pozwala oddelegować długo trwające zadania z usługi webowej. Mowa o &lt;a href=&#34;http://gearman.org/&#34; title=&#34;Gearman&#34; target=&#34;_blank&#34;&gt;Gearman&amp;rsquo;ie&lt;/a&gt;. Usługa jest o tyle ciekawa że nie narzuca ani języka dla klienta (większość popularnych ma gotowe biblioteki), ani język dla skryptów w tej usłudze nie jest narzucany. Można tę usługę wykorzystać jako most pomiędzy PHP a np. Javą/Pythonem lub do zlecenia zadań z serwera na Linux&amp;rsquo;ie do wykonania na serwerze Windowsowym (bo np. narzędzia dostępne są tylko dla Windowsa). O innych zaletach można poczytać na stronce więc nie będę przynudzać.&lt;br /&gt; Standardowo zainstalowałem paczkę z repo Debiania i rozbiłem się przy kompilacji modułu z PECL&amp;rsquo;a - w repo była jakaś prehistoryczna wersja. Postanowiłem uruchomić aktualną wersje 1.0.6 z gałęzi testowej przekompilowując ją na Wheezym (by uniknąć zależności z wersji testowej).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Debian - Instalacja Bittorrent Sync (btsync)</title>
+      <link>https://gagor.pro/2013/07/debian-instalacja-bittorrent-sync-btsync/</link>
+      <pubDate>Tue, 16 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/07/debian-instalacja-bittorrent-sync-btsync/</guid>
+      <description>&lt;p&gt;Bardzo spodobała mi się nowa aplikacja do zdalnej synchronizacji folderów z wykorzystaniem P2P. Ja wykorzystałem ją do automatycznych backupów archiwum zdjęć - zebrało mi się tego już prawie 130GB! Każde narzędzie, które chce np. je kompresować i raz na czas robić FULL backup jest skazane na porażkę - a fotek przybywa.&lt;/p&gt;
+&lt;p&gt;Na początek pobieramy interesującą nas wersję:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget http://btsync.s3-website-us-east-1.amazonaws.com/btsync_i386.tar.gz
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget http://btsync.s3-website-us-east-1.amazonaws.com/btsync_x64.tar.gz
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Oraz paczkę ze skryptami dla Debiana:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wget http://www.yeasoft.com/downloads/various/btsync-linux-deploy.tar.gz
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ja wyciągam z niej skrypt /etc/init.d/btsync i konfigurację /etc/*&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aktualizacja Debian Squeeze do Wheezy</title>
+      <link>https://gagor.pro/2012/09/aktualizacja-debian-squeeze-do-wheezy/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/09/aktualizacja-debian-squeeze-do-wheezy/</guid>
+      <description>&lt;p&gt;Obecnie dostępna jest już beta 2 Debiana Wheezy i utrzymywane są aktualizacje bezpieczeństwa więc powolutku można na testowych maszynach sprawdzać co i jak się zmieniło.&lt;/p&gt;
+&lt;p&gt;Ponieważ do finalnej wersji pewnie sporo się jeszcze zmieni to postaram się z czasem aktualizować ten post by zawierał bieżące informacje.&lt;/p&gt;
+&lt;p&gt;W razie wątpliwości patrz tutaj: http://wiki.debian.org/DebianTesting&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Robimy backup&lt;/li&gt;
+&lt;li&gt;Aktualizujemy źródła wskazywały na paczki gałęzi testing (poniższe polecenie nadpisze Twoje obecne repozytoria):&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat &amp;gt; /etc/apt/sources.list &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;&amp;lt;SRC
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb http://ftp.pl.debian.org/debian/ wheezy main non-free contrib
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb-src http://ftp.pl.debian.org/debian/ wheezy main non-free contrib
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb http://security.debian.org/ wheezy/updates main contrib non-free
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb-src http://security.debian.org/ wheezy/updates main contrib non-free
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb http://ftp.pl.debian.org/debian/ wheezy-updates main non-free contrib
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb-src http://ftp.pl.debian.org/debian/ wheezy-updates main non-free contrib
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;SRC&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Teraz odświeżamy repozytoria:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache: ograniczenie dostępu dla zalogowanych użytkowników z mod_rewrite i mod_auth_basic</title>
+      <link>https://gagor.pro/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</link>
+      <pubDate>Sun, 09 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/09/apache-ograniczenie-dostepu-dla-zalogowanych-uzytkownikow-z-mod_rewrite-i-mod_auth_basic/</guid>
+      <description>&lt;p&gt;Niedawno trafiłem na ciekawy problem w &lt;em&gt;mod_rewrite&lt;/em&gt; - by przekierowywać użytkowników logujących się jednym z modułów &lt;em&gt;mod_auth_basic&lt;/em&gt; do dedykowanych im katalogów, równocześnie blokując dostęp do katalogów innych użytkowników. Nie brzmi to jakoś strasznie ale problem okazał się być całkiem nietrywialnym. Teoretyczne rozwiązanie sprowadzało się do wyszukania loginu użytkownika ze ścieżki URI i porównania z nazwą użytkownika ze zmiennej &lt;em&gt;%{REMOTE_USER}&lt;/em&gt; - jeśli wartości się różnią to Forbidden. Ale szybko okazało się że w &lt;em&gt;RewriteCond&lt;/em&gt; zmienne z dopasowań można podstawiać tylko w pierwszym parametrze i że o ile można &lt;em&gt;RewriteCond&amp;rsquo;y&lt;/em&gt; połączyć wyrażeniami logicznymi typu &lt;em&gt;AND&lt;/em&gt;/&lt;em&gt;OR&lt;/em&gt; to nie ma możliwości porównania czy dopasowania z kolejnych &lt;em&gt;RewriteCond&amp;rsquo;ów&lt;/em&gt; są identyczne. Po kilku dniach szperania w dokumentacji i różnych tutorialach udało mi się trafić na jedną wartościową wskazówkę ale tej stronki już nie ma, więc opiszę problem dla potomnych.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wymuszenie fsck po restarcie</title>
+      <link>https://gagor.pro/2012/09/wymuszenie-fsck-po-restarcie/</link>
+      <pubDate>Sat, 08 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/09/wymuszenie-fsck-po-restarcie/</guid>
+      <description>&lt;p&gt;Jeżeli chcemy by po ponownym uruchomieniu w czasie startu zostały sprawdzone wszystkie dyski narzędziem to można to osiągnąć na dwa sposoby. Zawsze gdy tego potrzebuję zastanawiam się tylko jaki plik trzeba było utworzyć&amp;hellip; forcefsck, fsck, fsckforce&amp;hellip; więc notuję 😉&lt;/p&gt;
+&lt;h2 id=&#34;utworzenie-pliku-forcefsck&#34;&gt;Utworzenie pliku /forcefsck&lt;/h2&gt;
+&lt;p&gt;Pierwsza metoda polega na utworzeniu pliku forcefsck w głównym katalog, robimy to poniższym poleceniem:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo touch /forcefsck
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;polecenie-shutdown&#34;&gt;Polecenie shutdown&lt;/h2&gt;
+&lt;p&gt;Druga metoda wykorzystuje parametr -F polecenia shutdown ale nie działa na wszystkich dystrybucjach (w takiej sytuacji patrz pierwsza metoda):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xen - Konfiguracja interfejsu sieciowego Dom0 jako brdige’a dla VLAN’ów</title>
+      <link>https://gagor.pro/2012/06/xen-konfiguracja-interfejsu-sieciowego-dom0-jako-brdigea-dla-roznych-vlanow/</link>
+      <pubDate>Mon, 18 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/06/xen-konfiguracja-interfejsu-sieciowego-dom0-jako-brdigea-dla-roznych-vlanow/</guid>
+      <description>&lt;p&gt;VLAN&amp;rsquo;y są prostą metodą na separację sieci. Gdy mamy wiele sieci może zajść potrzeba by poszczególne DomU miały dostęp do różnych VLAN&amp;rsquo;ów (czasem nawet wielu równocześnie). Jeżeli serwer z Dom0 posiada minimum giga-bitową kartę sieciową (a najlepiej kilka) to powinniśmy być w stanie z godziwą jakością udostępnić systemom DomU różne VLAN&amp;rsquo;y z interfejsów gospodarza.&lt;/p&gt;
+&lt;p&gt;Zaprezentowane poniżej skrypty zapożyczyłem z tej strony: &lt;a title=&#34;http://renial.net/weblog/2007/02/27/xen-vlan&#34; href=&#34;http://renial.net/weblog/2007/02/27/xen-vlan&#34; rel=&#34;nofollow&#34;&gt;&lt;a href=&#34;http://renial.net/weblog/2007/02/27/xen-vlan&#34;  target=&#34;_blank&#34;&gt;http://renial.net/weblog/2007/02/27/xen-vlan&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CouchDB - Instalacja i wstępna konfiguracja</title>
+      <link>https://gagor.pro/2012/06/couchdb-instalacja-i-wstepna-konfiguracja/</link>
+      <pubDate>Fri, 08 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/06/couchdb-instalacja-i-wstepna-konfiguracja/</guid>
+      <description>&lt;p&gt;Gdy tworzymy pierwszą aplikację webową, która umożliwia upload plików przeważnie lądują one lokalnie w pewniej lokalizacji. Gdy druga aplikacja potrzebuje dostępu do tych plików wystarczy podać ścieżkę. Problemy zaczynają się gdy aplikacji jest kilka i rozmieszczonych na kilku serwerach. Można korzystać z sieciowych systemów plików ale to często nie jest zbyt wygodne - ciężko odpowiednio ustawić uprawnienia by pewne aplikacje miały dostęp do zapisu plików a inne nie, trzeba skonfigurować dany katalog w kilku miejscach w konfiguracji serwera WWW aby serwować pliki itp&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ponowne wygenerowanie kluczy serwera OpenSSH</title>
+      <link>https://gagor.pro/2012/02/ponowne-wygenerowanie-kluczy-serwera-openssh/</link>
+      <pubDate>Mon, 27 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/02/ponowne-wygenerowanie-kluczy-serwera-openssh/</guid>
+      <description>&lt;p&gt;Czasami odpalam klona jakiegoś systemu by później po drobnych zmianach uczynić go osobnym bytem. Jednym z kroków po odtworzeniu systemu jest wygenerowanie nowego zestawu kluczy dla serwera OpenSSH (by mój klient ssh nie siał warning&amp;rsquo;ami). Można to wykonać tak:&lt;/p&gt;
+&lt;p&gt;Najpierw kasujemy obecne klucze:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rm /etc/ssh/ssh_host_*
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Teraz generujemy nowe:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;dpkg-reconfigure openssh-server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I na koniec restartujemy usługę by załadować nowy zestaw kluczy (nie powinno to zerwać obecnej sesji, ale dla pewności lepiej zadanie odpalić w screen&amp;rsquo;ie):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xen na Squeeze - Instalowanie i konfiguracja hostów gości (DomU)</title>
+      <link>https://gagor.pro/2012/02/xen-na-squeeze-instalowanie-i-konfiguracja-hostow-gosci-domu/</link>
+      <pubDate>Fri, 24 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/02/xen-na-squeeze-instalowanie-i-konfiguracja-hostow-gosci-domu/</guid>
+      <description>&lt;p&gt;Ostatnio pisałem o &lt;a href=&#34;https://gagor.pl/2012/02/xen-na-squeeze-instalacja-i-konfiguracja-hypervisora/&#34;  target=&#34;_blank&#34;&gt;konfiguracji Dom0&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ - dzisiaj napiszę o uruchamianiu DomU.&lt;/p&gt;
+&lt;p&gt;Do instalacji DomU wykorzystuję skrypty z pakietu xen-tools, można go zainstalować poleceniem:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install xen-tools
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Oczywiście aby wszystko działało fajnie musimy ustawić kilka domyślnych opcji, robimy to edytując plik &lt;code&gt;/etc/xen-tools/xen-tools.conf&lt;/code&gt;. Lecimy po kolei:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# Virtual machine disks are created as logical volumes in
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# volume group &amp;#39;universe&amp;#39; (hint: LVM storage is much faster
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# than file)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lvm = universe
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Osobiście korzystam z LVM&amp;rsquo;a który zgodnie z hint&amp;rsquo;em jest znacznie szybszy od plików obrazów. Daje do tego bardzo wygodne możliwość w zarządzaniu rozmiarami wolumenów przydzielonych DomU, możliwość tworzenia snapshotów (np. na potrzeby backupu). Postawienie LVM&amp;rsquo;a w skrócie wygląda tak:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xen na Squeeze - instalacja i konfiguracja hypervisor’a</title>
+      <link>https://gagor.pro/2012/02/xen-na-squeeze-instalacja-i-konfiguracja-hypervisora/</link>
+      <pubDate>Thu, 23 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/02/xen-na-squeeze-instalacja-i-konfiguracja-hypervisora/</guid>
+      <description>&lt;h2 id=&#34;po-co-mi-to&#34;&gt;Po co mi to?&lt;/h2&gt;
+&lt;p&gt;Wiele razy miałem do czynienia z serwerami na których działało kilka/kilkanaście usług równocześnie, np. Apache (kilka stronek, webmail, phpmyadmin, itp), Postfix/Exim (poczta i żeby było fajnie to na kontach systemowych), Samba (jakieś zasoby dla pracowników), MySQL (baza dla stronek), PostgreSQL (bo jedna stronka potrzebowała), itd&amp;hellip;. Przy takiej konfiguracji pomijane są kwestie separacji usług zewnętrznych/wewnętrznych - no ale firma/instytucja mała nie ma sensu kasy na 3 kolejne serwery wydawać skoro działa&amp;hellip;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wstępne ładowanie programów przy starcie z ureadahead</title>
+      <link>https://gagor.pro/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</link>
+      <pubDate>Tue, 24 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/01/wstepne-ladowanie-programow-przy-starcie-z-ureadahead/</guid>
+      <description>&lt;p&gt;Jakiś czas temu korzystałem z &lt;a href=&#34;http://sourceforge.net/projects/preload/&#34;  target=&#34;_blank&#34;&gt;preload&amp;rsquo;a&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ który sam uczył się jakie aplikacje odpalam i te programy ładował już podczas startu - przeważnie nieco spowalnia to start systemu ale gdy już się załaduje to programy, które uruchamiam jako pierwsze startują &amp;ldquo;z kopa&amp;rdquo;. Od jakiegoś czasu popularniejszy jest instalowany domyślnie w Ubuntu ureadahead - pełni on podobną funkcję jak preload.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache mod_expires konfiguracja</title>
+      <link>https://gagor.pro/2012/01/apache-mod_expires-konfiguracja/</link>
+      <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/01/apache-mod_expires-konfiguracja/</guid>
+      <description>&lt;p&gt;Aby umożliwić odwiedzającym nasze strony cachowanie obrazków (tak by nie musieli pobierać ich każdorazowo bo przecież nie zmieniają się aż tak często) konieczne jest ustawienie nagłówków: Cache-Control, Expires dla odpowiednich typów plików. W Apachem jest do tego dedykowany moduł - mod_expires. W Debianie dostarczany jest on bez domyślnej &lt;strong&gt;globalnej&lt;/strong&gt; konfiguracji - a ja lubię gdy cacheuje mi się większość statyki. Zawsze można dostosować czas cachowania pod siebie względem określonego typu pliku, np. dla Java Scriptów ustawić na 1 dzień gdy często się zmieniają. Można też w samej aplikacji zmieniać ścieżkę do pliku by wymusić odświeżenie (lub podawać ścieżkę z jakimś losowym identyfikatorem wycinanym przez mod_rewrite).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Upgrade Debian Lenny do Squeeze</title>
+      <link>https://gagor.pro/2012/01/upgrade-debian-lenny-do-squeeze/</link>
+      <pubDate>Fri, 13 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/01/upgrade-debian-lenny-do-squeeze/</guid>
+      <description>&lt;p&gt;Co jakiś czas powtarza się sytuacja, gdy muszę zaktualizować jakiś serwerek z Lennym do Squeeze&amp;rsquo;a i za każdym razem muszę googlać za odpowiednimi źródłami, które paczki najpierw, etc&amp;hellip; Więc sobie zebrałem wszystko w poniższym poście.&lt;/p&gt;
+&lt;p&gt;W razie wątpliwości patrz tutaj: http://www.debian.org/releases/squeeze/releasenotes&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Zrób backup konfiguracji.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Trzeba zaktualizować źródła by wskazywały na squeeze&amp;rsquo;a (poniższe polecenie nadpisze Twoje obecne repozytoria):&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat &amp;gt; /etc/apt/sources.list &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;&amp;lt;SRC
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb http://ftp.pl.debian.org/debian/ squeeze main non-free contrib
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb-src http://ftp.pl.debian.org/debian/ squeeze main non-free contrib
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb http://security.debian.org/ squeeze/updates main contrib non-free
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb-src http://security.debian.org/ squeeze/updates main contrib non-free
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb http://ftp.pl.debian.org/debian/ squeeze-updates main non-free contrib
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb-src http://ftp.pl.debian.org/debian/ squeeze-updates main non-free contrib
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb http://backports.debian.org/debian-backports squeeze-backports main contrib non-free
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;SRC&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Teraz trzeba odświeżyć repozytoria:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>fail2ban - regułki dla dovecot’a</title>
+      <link>https://gagor.pro/2011/11/fail2ban-regulki-dla-dovecota/</link>
+      <pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/11/fail2ban-regulki-dla-dovecota/</guid>
+      <description>&lt;p&gt;Domyślna konfiguracja fail2ban&amp;rsquo;a (na Debianie) nie zawiera reguł pozwalających na blokowanie prób włamań na skrzynki POP/IMAP dla dovecota (no chyba że korzystamy z saslauthd). Można szybko utworzyć własny zestaw filtrów co przedstawię poniżej.&lt;/p&gt;
+&lt;p&gt;Tworzymy plik: &lt;em&gt;/etc/fail2ban/filter.d/dovecot.conf&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Definition]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;failregex = (?: pop3-login|imap-login): .*(?:Authentication failure|Aborted login \(auth failed|Aborted login \(tried to use disabled|Disconnected \(auth failed|Aborted login \(\d+ authentication attempts).*rip=(?P&amp;lt;host&amp;gt;\S*),.*
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ignoreregex =
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Później dopisujemy na końcu pliku: &lt;em&gt;/etc/fail2ban/jail.conf&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[dovecot]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;enabled  &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;filter   &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; dovecot
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;port     &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pop3,pop3s,imap,imaps
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;logpath  &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;log&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;mail&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;log
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;maxretry &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# te dwa poniżej wedle uznania - ja mam dobrze ustawione default&amp;#39;y&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#findtime = 1200&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#bantime  = 1200&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Zostało zrestartować fail2ban&amp;rsquo;a:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>X-Forwarded-For &#43; mod_rpaf - logowanie rzeczywistych adresów IP na Apache za reverse proxy</title>
+      <link>https://gagor.pro/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</link>
+      <pubDate>Mon, 28 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/11/x-forwarded-for-mod_rpaf-logowanie-rzeczywistych-adresow-ip-na-apache-za-reverse-proxy/</guid>
+      <description>&lt;p&gt;Gdy już ustawimy reverse proxy przed Apache szybko można zauważyć że w logach zamiast adresów IP zdalnych użytkowników pojawia się tylko jeden adres: adres naszego proxy. Również z poziomu php&amp;rsquo;a jako adres klienta widać IP naszego proxy.&lt;/p&gt;
+&lt;p&gt;By poradzić sobie z tym problemem trzeba na serwerze reverse proxy ustawić przekazywanie informacji o oryginalnym adresie IP klienta w nagłówku X-Forwarded-For. W przypadku gdy reverse proxy działa na nginx&amp;rsquo;e wystarczy dodać taki wpis:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ochrona usług przed atakami brute force z fail2ban’em</title>
+      <link>https://gagor.pro/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</link>
+      <pubDate>Mon, 03 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/10/ochrona-uslug-przed-atakami-brute-force-z-fail2banem/</guid>
+      <description>&lt;p&gt;Bardzo często konfigurując usługi dostępne publicznie poświęca się sporo czasu na maksymalne zwiększenie bezpieczeństwa przez &amp;ldquo;dopieszczanie&amp;rdquo; konfiguracji (certyfikaty z mocnym szyfrowaniem, ochronę pewnych stron hasłem, dostęp do SSH tylko kluczami, itd.) ale całkowicie pomija się przygotowanie systemu aktywnie monitorującego błędne próby autoryzacji. Oczywiście nie można umniejszać wagi pierwszego z wymienionych etapów ale zdecydowanie nie powinno pomijać się też tego drugiego. Przecież każdy admin chciałby wiedzieć gdy ktoś próbuje włamać się na jego serwer (FTP, HTTP, SSH, itp.) - tylko ilu z Nas zadaje sobie trud by uruchomić taki system?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>approx - cachujące proxy dla repozytoriów Debiana</title>
+      <link>https://gagor.pro/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</link>
+      <pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/09/approx-cachujace-proxy-dla-repozytoriow-debiana/</guid>
+      <description>&lt;p&gt;Wielu administratorów gdy zaczyna swoją przygodę zarządza jedną/dwoma maszynami&amp;hellip; Po pewnym czasie jest ich już kilka&amp;hellip; W którymś momencie dostrzega się zalety wirtualizacji i na kilku maszynach fizycznych działa kilkanaście czy kilkadziesiąt maszyn wirtualnych. W takiej sytuacji pobieranie aktualizacji dla wszystkich maszyn potrafi mocno zabić łącze.&lt;/p&gt;
+&lt;p&gt;I w tym momencie zaczynamy się zastanawiać czy może nie warto byłoby zrobić własnego mirror&amp;rsquo;a paczek dla naszego ulubionego distro&amp;hellip; do prywatnego użytku&amp;hellip; synchronizowanego w nocy by nikomu nie przeszkadzać&amp;hellip; i dostępnego nawet gdy będziemy offline&amp;hellip; Zaczynamy liczyć miejsce i okazuje się że repozytorium Debiana dla architektury i386 to prawie 60GB (sic!), no ale mamy kilka maszynek z arch amd64 i tutaj też prawie 60GB - auć. W tym miejscu wielu dochodzi do wniosku że to jeszcze nie pora na własnego mirror&amp;rsquo;a &amp;#x1f603;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zabezpieczenie Apachego na Debianie przed slowloris’em</title>
+      <link>https://gagor.pro/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</link>
+      <pubDate>Mon, 12 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/09/zabezpieczenie-apachego-na-debianie-przed-slowlorisem/</guid>
+      <description>&lt;p&gt;Od jakiegoś czasu dostępny jest w sieci skrypt &lt;a href=&#34;http://ha.ckers.org/slowloris/&#34;  target=&#34;_blank&#34;&gt;slowloris.pl&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ pozwalający z pojedynczego komputera wykonać atak DOS na zdalny serwer WWW. Atak polega na uruchomieniu wielu równoczesnych sesji i bardzo wolnym wysyłaniu komunikatów HTTP. Atakujący udaje &amp;ldquo;klienta z wolnym łączem&amp;rdquo; równocześnie uruchamiając kolejne sesje by po pewnym czasie zająć wszystkie dostępne. Serwer WWW przestaje wtedy odpowiadać na zapytania od innych klientów. Dodatkowo na źle wyskalowanych serwerach duża liczba procesów Apachego może spowodować swapowanie i błędy braku pamięci.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sprawdzenie który proces obciąża dyski</title>
+      <link>https://gagor.pro/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</link>
+      <pubDate>Fri, 02 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/09/sprawdzenie-ktory-proces-obciaza-dyski/</guid>
+      <description>&lt;p&gt;Na jednym z serwerów zauważyłem dziwny wzrost obciążenia. Tzw. LOAD od kilku dni po woli rósł. top pokazywał że dwa rdzenie CPU czekają na dane z dysku - tzw. io wait na poziomie 80~90% ale żaden proces w znaczącym stopniu nie obciążał CPU.&lt;/p&gt;
+&lt;p&gt;Jest kilka narzędzi (&lt;em&gt;&lt;strong&gt;iostat&lt;/strong&gt;&lt;/em&gt;, &lt;em&gt;&lt;strong&gt;wmstat&lt;/strong&gt;&lt;/em&gt;), które pozwalają monitorować obciążenie dysków ale ja nie szukałem informacji czy i w jakim stopniu dyski są obciążone - wiedziałem że są. Chciałem dowiedzieć się który proces generuje to obciążenie - by móc go ubić &amp;#x1f603;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Konfiguracja backportów na Debianie</title>
+      <link>https://gagor.pro/2011/08/konfiguracja-backportow-na-debianie/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/konfiguracja-backportow-na-debianie/</guid>
+      <description>&lt;p&gt;Tak się składa, że Debian ze względu na stosunkowo rzadkie wydawanie kolejnych wersji szybko staje się niezbyt świeży a dostępne w nim pakiety często nie spełaniają naszych oczekiwań. Nie ma najnowszej wersji Subversion&amp;hellip; Nie ma mod_security itd, itp&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Rozwiązaniem tego problemu może być instalacja pakietów z testowej gałęzi ale można polec na zależnościach. Można też kompilować ze źródeł&amp;hellip; Tak czy siak w obu przypadkach aktualizacja i utrzymanie tak zmodyfikowanego systemu byłoby jak wrzód na zadku.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Optymalizacja PHP z eAccelerator’em</title>
+      <link>https://gagor.pro/2011/08/optymalizacja-php-z-eacceleratorem/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/optymalizacja-php-z-eacceleratorem/</guid>
+      <description>&lt;p&gt;Przy okazji wykonywania kilku drobnych optymalizacji swojej stronki natknąłem się na eAccelerator&amp;rsquo;a. Ciekawy projekt, który w sposobie działania przypomina Zend Optimizer&amp;rsquo;a ale ma jedną zasadniczą zaletę - jest darmowy &amp;#x1f603;&lt;/p&gt;
+&lt;p&gt;Niestety nie ma go w repozytoriach Debiana, więc trzeba go sobie skompilować - cały proces jest dość prosty. Zaczynamy od pobrania najświeższej paczki, obecnie jest to wersja 0.9.5.3:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://bart.eaccelerator.net/source/0.9.5.3/eaccelerator-0.9.5.3.tar.bz2&#34;  target=&#34;_blank&#34;&gt;Pobierz eAccelerator&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Statystyki odwiedzin dla wielu serwisów z AWStats</title>
+      <link>https://gagor.pro/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</link>
+      <pubDate>Mon, 29 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/statystyki-odwiedzin-dla-wielu-serwisow-z-awstats/</guid>
+      <description>&lt;p&gt;Co prawda na swojej stronie zrobiłem kilka podstawowych statystyk i coś tam sobie loguję do bazy danych, ale gdyby się chwilę zastanowić to przecież to samo robi serwer www - wrzuca do logów każde zapytanie HTTP, kod błędu, nazwę agenta, itd. Dublowanie tych danych nie jest najbardziej optymalne.&lt;br /&gt; Stąd też chwilę pogooglałem i znalazłem świetny Open Source&amp;rsquo;owy projekt: &lt;strong&gt;AWStats&lt;/strong&gt;, który jest webowym analizatorem logów dla serwerów HTTP, FTP i SMTP.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Klastrowanie sesji PHP z memcached</title>
+      <link>https://gagor.pro/2011/08/klastrowanie-sesji-php-z-memcached/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/klastrowanie-sesji-php-z-memcached/</guid>
+      <description>&lt;p&gt;Klastrowanie to może zbyt dumnie powiedziane. Rozwiązanie to wyszukałem gdy chcąc skonfigurować dwa serwery apache do współpracy na rzecz jednego serwisu okazało się, że sejse trzymane są tylko przez jeden serwer a drugi nic o nich nie wie. To oczywiście nie pozwalało na prawidłowe działanie jakiegokolwiek serwisu korzystającego z sesji.&lt;/p&gt;
+&lt;p&gt;Pomysł jest taki, że zastępujemy domyśny mechanizm przechowywania sesji w plikach na dysku mechanizmem memcache. Ponieważ memcached działa jako usługa sieciowa, różne serwery mogą się odwoływać do puli memcached i odczytywać zapisane w niej dane. W przypadku sesji - nie jest ważne, kto ją utworzył - bo po jej wysłaniu do puli memcached staje się dostępna dla wszystkich klientów php z niej korzystających.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MySQL - dostęp zdalny na szybko</title>
+      <link>https://gagor.pro/2011/08/mysql-na-szybko/</link>
+      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/08/mysql-na-szybko/</guid>
+      <description>&lt;p&gt;Instalacja serwera MySQL na Debianie jest niezwykle prosta i sprowadza się do jednego polecenia:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install mysql-server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Polecenie to zainstaluje i uruchomi usługę serwerową MySQL. W czasie instalacji będziemy proszeni o podanie hasła dla root&amp;rsquo;a (które oczywiście dobrze jest zapamiętać bądź zapisać).&lt;/p&gt;
+&lt;p&gt;Tak zainstalowana baza nasłuchuje na lokalnym porcie (localhost:3306) umożliwiająć dostęp wyłącznie root&amp;rsquo;owi. Jest to bardzo bezpieczna konfiguracja&amp;hellip; Ale jeśli nie mamy zamiaru na tej samej maszynie instalować oprogramowania zarządzającego to nie zawsze jest to wygodne, tym bardziej gdy przykładowo mamy działającego phpmyadmin&amp;rsquo;a na jakimś serwerze www. W takim przypadku pierwszą rzeczą, którą robię jest udostępnienie dostępu zdalnego dla root&amp;rsquo;a. Warto zaznaczyć że uprawnienia root&amp;rsquo;a można nadać dowolnemu użytkownikowi (np. romanowi) co jest dużo bezpieczniejszą konfiguracją niż działanie bezpośrednio na koncie root&amp;rsquo;a (którego nazwa jest powszechnie znana).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

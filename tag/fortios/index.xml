@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>FortiOS on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/fortios/</link>
+    <description>Recent content in FortiOS on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/fortios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fortigate - VPN IPSec PSK XAuth z Android’a 4.x</title>
+      <link>https://gagor.pro/2013/03/fortigate-vpn-ipsec-psk-xauth-z-androida-4-x/</link>
+      <pubDate>Sat, 30 Mar 2013 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2013/03/fortigate-vpn-ipsec-psk-xauth-z-androida-4-x/</guid>
+      <description>&lt;p&gt;Do niedawna na moim telefonie VPN&amp;rsquo;ami były: PPTP lub L2TP - oba niespecjalnie mi się podobały. Ale od wersji 4-tej pojawiły się dwa nowe tryby: IPSec Xauth PSK i IPSec Xauth RSA. W pierwszym autoryzacja wykorzystuje login i hasło, w drugim certyfikaty.&lt;/p&gt;
+&lt;p&gt;Tryb IPSec Xauth PSK jest bardzo wygodny bo łatwo można połączyć go z zewnętrznymi mechanizmami uwierzytelniającymi np. LDAP, Active Directory, itp.&lt;/p&gt;
+&lt;p&gt;Pokażę jak skonfigurować swojego Fortigate&amp;rsquo;a by umożliwić połączenie z telefonów i tabletów na Androidzie 4.x do &amp;ldquo;Intranetu&amp;rdquo;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Większość konfiguracji można przeprowadzić tylko w trybie &lt;strong&gt;CLI&lt;/strong&gt; - zakładam że wiesz jak to zrobić. To co wygodniej można zrobić w trybie WWW to głównie tworzenie reguł dostępu na zaporze.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fortigate: Warning: SQL Logging is not enabled</title>
+      <link>https://gagor.pro/2012/04/fortigate-warning-sql-logging-is-not-enabled/</link>
+      <pubDate>Wed, 11 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/04/fortigate-warning-sql-logging-is-not-enabled/</guid>
+      <description>&lt;p&gt;Jeśli po aktualizacji firmware na swoim firewall&amp;rsquo;u do wersji MR3 natrafisz na komunikat &lt;strong&gt;Warning: SQL Logging is not enabled&lt;/strong&gt; przy dostępie do logów to prawdopodobnie musisz zmienić źródło logów dla interfejsu gui. Poniżej polecenie CLI i możliwe opcje:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;config log gui
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    set logdevice {memory | disk | fortianalyzer}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;end
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ja potrzebowałem ustawić tę opcję na &lt;em&gt;fortianalyzer&lt;/em&gt; by uzyskać dostęp do moich logów.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sniffowanie w FortiOS</title>
+      <link>https://gagor.pro/2012/01/sniffowanie-w-fortios/</link>
+      <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2012/01/sniffowanie-w-fortios/</guid>
+      <description>&lt;p&gt;Zawsze gdy potrzebuję zesniffować coś na żywo na Fortigate&amp;rsquo;ach muszę przeszukać &lt;a href=&#34;http://kb.fortinet.com&#34;  target=&#34;_blank&#34;&gt;Knowledge Base&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
+            style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
+            class=&#34;svg-inline--fa fa-external-link-alt fa-w-16&#34; role=&#34;img&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;
+            viewBox=&#34;0 0 512 512&#34;&gt;
+            &lt;title&gt;external link&lt;/title&gt;
+            &lt;path fill=&#34;currentColor&#34;
+                d=&#34;M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z&#34;&gt;
+            &lt;/path&gt;
+        &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
+ by przypomnieć sobie wszystkie polecenia do tego potrzebne. Tym razem robię notatki &amp;#x1f603;&lt;/p&gt;
+&lt;h2 id=&#34;sniffowanie&#34;&gt;Sniffowanie&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diagnose debug enable
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diagnose debug flow filter
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; addr      ip address
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; clear     clear filter
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; daddr     dest ip address
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; dport     destination port
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; negate    inverse filter
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; port      port
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; proto     protocol number
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; saddr     source ip address
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; sport     source port
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; vd        index of virtual domain
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# np.
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diagnose debug flow filter saddr 10.10.80.3
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diagnose debug flow filter daddr 8.8.8.8
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diagnose debug flow filter dport 53
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# wyświetl wyniki na konsoli
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diagnose debug flow show console enable
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# opcjonalne: wyświetla nazwy funkcji np. odwołania do routingu, itp
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diagnose debug flow show function-name enable
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# uruchomienie sniffowania - warto podać na końcu jakaś wartość
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# by sniffowanie zakończyło się po takiej liczbie pakietów
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# w przeciwnym wypadku wyniki będą się wypisywać na konsoli
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# aż uda nam się na oślep wyłączyć sniffowanie
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diagnose debug flow trace start 100
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# zresetowanie filtrowania flow
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diagnose debug reset
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# wyłączenie sniffowania
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diagnose debug disable
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;diagnostyka-tuneli-ip-sec&#34;&gt;Diagnostyka tuneli IP-Sec&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# tutaj jest dużo prościej, najpierw włączamy debuga
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diagnose debug enable
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# a potem
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diagnose debug application ike 2
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# lub dla bardzo, bardzo szczegółowych logów
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diagnose debug application ike -1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Niestety nie ma tutaj możliwości filtrowania (albo jeszcze o tym nie wiem), więc jeśli mamy dużo aktywnych tuneli to najlepiej zbierać wypisywane komunikaty do pliku i dopiero przeglądać.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Konfiguracja modemu USB iPlus na urządzeniach FortiGate</title>
+      <link>https://gagor.pro/2011/12/konfiguracja-modemu-usb-iplus-na-urzadzeniach-fortigate/</link>
+      <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2011/12/konfiguracja-modemu-usb-iplus-na-urzadzeniach-fortigate/</guid>
+      <description>&lt;p&gt;Zdarzyło mi się bawić sprzętowymi Firewallami firmy Fortigate - chcąc sprawdzić działanie pewnych funkcji potrzebowałem uruchomić dwa/trzy pudełka na osobnych łączach. Pomysł polegał na próbie zmuszenia pudełek do współpracy z modemem iPlus na USB.&lt;/p&gt;
+&lt;p&gt;Drugim fajnym zastosowaniem tego triku jest możliwość wykorzystania iPlusa jako &amp;ldquo;zapasowego łącza&amp;rdquo; w przypadku awarii głównego.&lt;/p&gt;
+&lt;p&gt;Dzięki pomocy inżyniera Fortigate szybko udało mi się zebrać potrzebne do działania parametry, które należy uruchomić poprzez command line (telnet/ssh).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

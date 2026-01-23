@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Satire on Tom&#39;s Blog</title>
+    <link>https://gagor.pro/tag/satire/</link>
+    <description>Recent content in Satire on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
+    <lastBuildDate>Sun, 16 Nov 2025 11:12:25 +0100</lastBuildDate>
+    <atom:link href="https://gagor.pro/tag/satire/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Catch 22</title>
+      <link>https://gagor.pro/book/2018/catch-22/</link>
+      <pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2018/catch-22/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Catch 22 by Joseph Heller&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Catch 22&lt;/q&gt;&lt;p&gt;Author: Joseph Heller&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Reading &lt;em&gt;Catch-22&lt;/em&gt; reminded me of the absurd humor from the TV series &lt;em&gt;M*A*S*H&lt;/em&gt;. Not that the characters are the same, but the mood often felt similar-chaotic, funny, and tragic at the same time.&lt;/p&gt;
+&lt;p&gt;What stood out most to me were the smugglers who turned the war into business opportunities. They acted like classical businessmen, caring little about the fighting as long as they could profit. Another strong theme is how far people will go to save themselves. Many pretend to be crazy-or maybe even become crazy-just to escape danger.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
