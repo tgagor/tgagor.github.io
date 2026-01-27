@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 19 Jan 2026 17:38:21 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 20:22:20 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/category/engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My IndieWeb Journey: A Guide to POSSE on a Hugo Static Site</title>
+      <link>https://gagor.pro/2026/01/my-indieweb-journey-a-guide-to-posse-on-a-hugo-static-site/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/01/my-indieweb-journey-a-guide-to-posse-on-a-hugo-static-site/</guid>
+      <description>My journey of integrating IndieWeb principles into my Hugo blog-from microformats to Brid.gy syndication and building a custom Webmention renderer.</description>
+    </item>
     <item>
       <title>Disable the pager for apt search</title>
       <link>https://gagor.pro/2026/01/disable-the-pager-for-apt-search/</link>

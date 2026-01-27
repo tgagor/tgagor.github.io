@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sat, 24 Jan 2026 21:13:04 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 20:22:20 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My IndieWeb Journey: A Guide to POSSE on a Hugo Static Site</title>
+      <link>https://gagor.pro/2026/01/my-indieweb-journey-a-guide-to-posse-on-a-hugo-static-site/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/01/my-indieweb-journey-a-guide-to-posse-on-a-hugo-static-site/</guid>
+      <description>My journey of integrating IndieWeb principles into my Hugo blog-from microformats to Brid.gy syndication and building a custom Webmention renderer.</description>
+    </item>
     <item>
       <title>Radical Candor</title>
       <link>https://gagor.pro/book/2026/radical-candor/</link>
