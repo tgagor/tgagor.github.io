@@ -4,7 +4,7 @@
     <title>LDAP on Tom&#39;s Blog</title>
     <link>https://gagor.pro/tag/ldap/</link>
     <description>Recent content in LDAP on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.155.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
     <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
@@ -16,7 +16,7 @@
       <guid>https://gagor.pro/2012/12/apache-mod_authnz_ldap-z-active-directory/</guid>
       <description>&lt;p&gt;Gdy już się dorobi systemu Active Directory wygodnie jest wykorzystać jego bazę użytkowników do autoryzacji w różnych miejscach, np. do pewnych &amp;ldquo;tajnych i tajniejszych&amp;rdquo; stron w Apache. Najprościej można to zrobić z wykorzystaniem LDAP.&lt;/p&gt;
 &lt;p&gt;Warto &lt;a title=&#34;ldapsearch w Active Directory&#34; href=&#34;https://gagor.pl/2012/12/ldapsearch-w-active-directory/&#34;&gt;sprawdzić czy i jak możemy dostać się do kontrolerów&lt;/a&gt;. Gdy już mamy wszystkie potrzebne parametry konfigurujemy Apachego - na początek aktywujemy moduły:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a2enmod ldap
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a2enmod ldap
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a2enmod authnz_ldap
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Teraz możemy edytujemy globalny plik konfiguracyjny mod_ldap&amp;rsquo;a by ustawić nieco cache&amp;rsquo;y (bardzo przydatne). Wartości można dostosować do potrzeb ale przykładowe powinny wystarczyć na początku:&lt;/p&gt;</description>
     </item>
@@ -27,7 +27,7 @@
       <guid>https://gagor.pro/2012/12/ldapsearch-w-active-directory/</guid>
       <description>&lt;p&gt;Można lubieć AD, można go nie lubieć&amp;hellip; Ale jak już się ma to warto czasem zintegrować go z tym&amp;hellip; i tamtym&amp;hellip; Od strony Linuksa najwygodniej można to osiągnąć przez LDAP. A żeby to dobrze zrobić trzeba najpierw przetestować czy aby wszystko działa jak byśmy sobie tego życzyli. I tutaj bardzo przydatne jest narzędzie &lt;code&gt;ldapsearch&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Do odpytywania LDAP&amp;rsquo;a potrzebujemy jeden pakiecik, który zawiera kilka narzędzi do jego obsługi:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install ldap-utils
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install ldap-utils
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Teraz możemy próbować przeszukiwać katalog np. tak:&lt;/p&gt;</description>
     </item>
   </channel>

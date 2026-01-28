@@ -4,7 +4,7 @@
     <title>Mod_rewrite on Tom&#39;s Blog</title>
     <link>https://gagor.pro/tag/mod_rewrite/</link>
     <description>Recent content in Mod_rewrite on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.155.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
     <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
@@ -16,7 +16,7 @@
       <guid>https://gagor.pro/2013/12/apache-precompressing-static-files-with-gzip/</guid>
       <description>&lt;p&gt;Some time ago I&amp;rsquo;ve show &lt;a href=&#34;https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/&#34; title=&#34;Nginx - kompresowanie plików dla gzip_static&#34;&gt;how to precompress &lt;em&gt;js&lt;/em&gt; and &lt;em&gt;css&lt;/em&gt; file with gzip to be available for Nginx&amp;rsquo;s mod_gzip&lt;/a&gt;. In default configuration Apache don&amp;rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.&lt;/p&gt;
 &lt;p&gt;Basically we will start with these rewrites to serve gzipped CSS/JS files if they exist and the client accepts gzip compression:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RewriteEngine on
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RewriteCond %{HTTP:Accept-encoding} gzip
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RewriteCond %{REQUEST_FILENAME}\.gz -s

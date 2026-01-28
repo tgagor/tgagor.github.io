@@ -4,7 +4,7 @@
     <title>Memcached on Tom&#39;s Blog</title>
     <link>https://gagor.pro/tag/memcached/</link>
     <description>Recent content in Memcached on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.155.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
     <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
@@ -22,7 +22,7 @@
       <pubDate>Fri, 21 Mar 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2014/03/checking-memcached-status/</guid>
       <description>&lt;p&gt;I need to check memory usage of memcached server so I used:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo stats | nc 127.0.0.1 &lt;span style=&#34;color:#ae81ff&#34;&gt;11211&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo stats | nc 127.0.0.1 &lt;span style=&#34;color:#ae81ff&#34;&gt;11211&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;STAT pid &lt;span style=&#34;color:#ae81ff&#34;&gt;2743&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;STAT uptime &lt;span style=&#34;color:#ae81ff&#34;&gt;263&lt;/span&gt;

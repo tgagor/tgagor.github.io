@@ -4,7 +4,7 @@
     <title>Gearman on Tom&#39;s Blog</title>
     <link>https://gagor.pro/tag/gearman/</link>
     <description>Recent content in Gearman on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.155.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
     <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
@@ -17,7 +17,7 @@
       <description>&lt;p&gt;Niedawno &lt;a href=&#34;https://gagor.pl/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/&#34; title=&#34;Instalacja gearman-job-server 1.0.6 na Debianie Wheezy&#34;&gt;zainteresowałem się usługą Gearman&lt;/a&gt; i jedynej rzeczy której mi brakowało to jakiegoś łatwego mechanizmu zarządzającego workerami. Ale jak zwykle okazało się że inni mieli już ten problem i odpowiednie narzędzie istnieje - mowa o &lt;a href=&#34;https://github.com/brianlmoon/GearmanManager&#34; title=&#34;GearmanManager&#34; target=&#34;_blank&#34;&gt;GearmanManagerze&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;instalacja-gearmanmanagera&#34;&gt;Instalacja GearmanManagera&lt;/h2&gt;
 &lt;p&gt;Aby zainstalować GeramanManagera na serwerze gdzie już mamy Gearmana trzeba wykonać kilka kroków (&lt;a href=&#34;https://gagor.pl/2013/10/instalacja-gearman-job-server-1-0-6-na-debianie-wheezy/#php-gearman-install&#34; title=&#34;Instalacja gearman-job-server 1.0.6 na Debianie Wheezy&#34;&gt;wcześniej powinniśmy też zainstalować moduł gearmana do php&amp;rsquo;a&lt;/a&gt;):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install git -y
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install git -y
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/brianlmoon/GearmanManager.git
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd GearmanManager/install
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;chmod +x install.sh

@@ -4,7 +4,7 @@
     <title>OpenSSL on Tom&#39;s Blog</title>
     <link>https://gagor.pro/tag/openssl/</link>
     <description>Recent content in OpenSSL on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.155.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
     <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
@@ -30,7 +30,7 @@
       <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</guid>
       <description>&lt;p&gt;Od jakiegoś czasu można kupić w &lt;a href=&#34;https://www.nazwa.pl/cennik/cennik-certyfikatow-ssl/&#34; title=&#34;Cennik&#34; target=&#34;_blank&#34;&gt;NetArcie certyfikaty SSL, a niedawno zrobili na nie promocję - 15zł za pierwszy rok&lt;/a&gt; (za certyfikat na jedną stronkę). Tzw. tanie i dobre. Po wyrobieniu certyfikatu i zapisaniu z panelu klienta mam pliczki: stonka.crt i netart_rootca.crt, które wrzucamy do Apachego, powiedzmy tak:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SSLCertificateFile /etc/ssl/certs/stonka.crt
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SSLCertificateFile /etc/ssl/certs/stonka.crt
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SSLCertificateKeyFile /etc/ssl/private/priv.key
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SSLCACertificateFile /etc/ssl/certs/netart_rootca.crt
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Certyfikat działa w Chromie ale nie weryfikuje się w Firefoxie i Internet Explorerze. FF wyświetla błąd: &lt;strong&gt;sec_error_unknown_issuer&lt;/strong&gt; - co oznacza brak certyfikatu wystawcy gdzieś w łańcuchu certyfikatów. W FAQ zero jak chodzi o konfigurację certyfikatów na serwerze poza NetArt&amp;rsquo;em&amp;hellip;&lt;/p&gt;</description>
@@ -43,13 +43,13 @@
       <description>&lt;p&gt;Chciałem zaimportować mój certyfikat &lt;a href=&#34;https://gagor.pro/2011/08/certyfikaty-selfsigned/&#34; &gt;self-signed&lt;/a&gt;
  do Nokii E72 by nie krzyczała przy sprawdzaniu poczty. Potrzebowałem certyfikatu w formacie DER, a miałem w PEM - chwilę szukałem jak dokonać konwersji, więc ku pamięci zapisuję kilka gotowych poleceń:&lt;/p&gt;
 &lt;h3 id=&#34;konwersja-certyfikatu-z-pem-na-der&#34;&gt;Konwersja certyfikatu z PEM na DER&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;openssl x509 -in in.crt -inform PEM -out out.crt -outform DER
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;openssl x509 -in in.crt -inform PEM -out out.crt -outform DER
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;konwersja-certyfikatu-z-der-na-pem&#34;&gt;Konwersja certyfikatu z DER na PEM&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;openssl x509 -in in.crt -inform DER -out out.crt -outform DER
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;openssl x509 -in in.crt -inform DER -out out.crt -outform DER
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;konwersja-klucza-z-formatu-pem-na-der&#34;&gt;Konwersja klucza z formatu PEM na DER&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;openssl rsa -in in.crt -inform PEM -out out.crt -outform DER
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;openssl rsa -in in.crt -inform PEM -out out.crt -outform DER
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;konwersja-klucza-z-formatu-der-na-pem&#34;&gt;Konwersja klucza z formatu DER na PEM&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;openssl rsa -in in.crt -inform DER -out out.crt -outform PEM
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;openssl rsa -in in.crt -inform DER -out out.crt -outform PEM
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Po konwersji certyfikat w formacie DER wystarczy wrzucić na kartę i otworzyć z menadżera plików, zainstalować.&lt;/p&gt;</description>
     </item>
     <item>

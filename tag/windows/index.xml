@@ -4,7 +4,7 @@
     <title>Windows on Tom&#39;s Blog</title>
     <link>https://gagor.pro/tag/windows/</link>
     <description>Recent content in Windows on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.155.0</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
     <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
@@ -104,7 +104,7 @@
 &lt;li&gt;Instalujemy Windows SDK i zaznaczamy wyłącznie &lt;code&gt;.NET Development Tools&lt;/code&gt; w kategorii &lt;code&gt;Developer Tools / Windows Development Tools&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Odpalamy CMD i w nim CorFlags z lokalizacji: &lt;code&gt;C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin&lt;/code&gt; (przynajmniej u mnie):&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin\
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CorFlags.exe c:\sciezka\do\pliku.exe /32BIT+
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Tyle - aplikacja uruchomiła się bez problemu jako 32 bitowa i korzystała z 32 bitowego ODBC.&lt;/p&gt;</description>
     </item>
@@ -127,7 +127,7 @@
       <pubDate>Wed, 04 Sep 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2013/09/dfs-sprawdzanie-statusu-replikacji/</guid>
       <description>&lt;p&gt;Ostatnio zbyt dużo grzebię przy &amp;ldquo;windach&amp;rdquo; - ale cóż, czasem trzeba. Ostatnio ustawiałem DFS&amp;rsquo;a z replikacją dla dwóch sporych zasobów i jedna z rzeczy, o którą się rozbiłem to brak jakiegokolwiek podglądu tej synchronizacji z GUI. Ale znalazłem jedno polecenie, które działa w shellu (choć to się chyba &lt;em&gt;batch&lt;/em&gt; tutaj nazywa) od Windows Server 2008 R2:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;dfsrdiag ReplicationState /member:nazwaservera
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;dfsrdiag ReplicationState /member:nazwaservera
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Polecenie co prawda nie podaje postępu procentowego ale można zobaczyć &amp;ldquo;czy coś jeszcze się synchronizuje&amp;rdquo; i czy nie ma żadnych błędów. Jeżeli to polecenie to za mało to można spróbować bardziej gadatliwej wersji:&lt;/p&gt;</description>
     </item>
     <item>
@@ -138,7 +138,7 @@
       <description>&lt;p&gt;Raz na jakiś czas trzeba coś niestandardowego wrzucić do instalacji w Active Directory a że nie wszystkie aplikacje mają dostępne paczki MSI to trzeba się nieco natrudzić.&lt;/p&gt;
 &lt;p&gt;Poniżej wrzucam skrypt, który instaluje GIMP&amp;rsquo;a 2.8 z domyślnego instalatora (wersja InnoSetup) przy okazji odinstalowując wcześniejsze wersje zainstalowane ręcznie.&lt;/p&gt;
 &lt;p&gt;Zapisujemy poniższy kod jako np. gimp-install.cmd&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@echo off
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;@echo off
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;REM  Installs GIMP
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cls
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo ----------------------------------------------------
