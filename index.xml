@@ -14,7 +14,35 @@
       <link>https://gagor.pro/bookmarks/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/bookmarks/</guid>
-      <description>&lt;p&gt;No bookmarks found.&lt;/p&gt;</description>
+      <description>&lt;div class=&#34;bookmarks-container h-feed&#34;&gt;&lt;div class=&#34;bookmark-year&#34;&gt;
+    &lt;h2 class=&#34;bookmark-year-header&#34; id=&#34;year-2026&#34;&gt;
+        &lt;a class=&#34;archive-header-link&#34; href=&#34;#year-2026&#34;&gt;2026&lt;/a&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;2&lt;/sup&gt;
+    &lt;/h2&gt;&lt;div class=&#34;bookmark-month&#34;&gt;
+    &lt;h3 class=&#34;bookmark-month-header&#34; id=&#34;month-2026-02 2026-02-2026-02&#34;&gt;
+        &lt;a class=&#34;archive-header-link&#34; href=&#34;#month-2026-02%202026-02-2026-02&#34;&gt;February&lt;/a&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;2&lt;/sup&gt;
+    &lt;/h3&gt;
+    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://boz.com/articles/ownership-and-entitlement&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://boz.com/articles/ownership-and-entitlement&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Ownership and Entitlement&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-02-01&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://artlung.com/likes/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://artlung.com/likes/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Likes at ArtLung.com&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-02-01&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
     </item>
     <item>
       <title>My IndieWeb Journey: A Guide to POSSE on a Hugo Static Site</title>
