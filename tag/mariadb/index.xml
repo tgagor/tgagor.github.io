@@ -4,7 +4,7 @@
     <title>MariaDB on Tom&#39;s Blog</title>
     <link>https://gagor.pro/tag/mariadb/</link>
     <description>Recent content in MariaDB on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.155.1</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
     <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
@@ -18,15 +18,15 @@
 &lt;ul&gt;
 &lt;li&gt;shutdown db&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;service mysql stop
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;service mysql stop
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;create text file with command like this (update user accordingly) ex. in /tmp/pwchange.txt&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SET&lt;/span&gt; PASSWORD &lt;span style=&#34;color:#66d9ef&#34;&gt;FOR&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;localhost&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; PASSWORD(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HereYourNewPassword&amp;#34;&lt;/span&gt;);
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SET&lt;/span&gt; PASSWORD &lt;span style=&#34;color:#66d9ef&#34;&gt;FOR&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;root&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;@&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;localhost&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; PASSWORD(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;HereYourNewPassword&amp;#34;&lt;/span&gt;);
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
 &lt;li&gt;start &lt;code&gt;mysqld&lt;/code&gt; with &lt;code&gt;--init-file&lt;/code&gt; param&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mysqld_safe --init-file&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/tmp/pwchange.txt
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mysqld_safe --init-file&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/tmp/pwchange.txt
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;sometimes you may require to point configuration file ex. &lt;code&gt;--defaults-file=/etc/mysql/my.cnf&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
@@ -37,7 +37,7 @@
       <description>&lt;p&gt;After reading some good opinions about MariaDB I wanted to give it a try. Upgrade looks quite straight forward but I found some issues a little tricky.&lt;/p&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Add repo and key:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat &amp;gt; /etc/apt/sources.list &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;&amp;lt;SRC
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat &amp;gt; /etc/apt/sources.list &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;lt;&amp;lt;SRC
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;deb-src http://mirrors.supportex.net/mariadb/repo/5.5/debian wheezy main
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;SRC&lt;/span&gt;
@@ -52,7 +52,7 @@
         &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
 )&lt;/p&gt;
 &lt;p&gt;Now install MariaDB:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get update
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get update
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install mariadb-server
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It could be better to install &lt;code&gt;mariadb-server-5.5&lt;/code&gt; and &lt;code&gt;mariadb-client-5.5&lt;/code&gt; package instead, because of &lt;a href=&#34;https://mariadb.com/kb/en/installing-mariadb-deb-files/#upgrading-mariadb-server-and-mariadb-client-packages&#34;  target=&#34;_blank&#34;&gt;this error&lt;span style=&#34;white-space: nowrap;&#34;&gt;&amp;thinsp;&lt;svg
             style=&#34;height: 0.7em; width: 0.7em;&#34; focusable=&#34;false&#34; data-prefix=&#34;fas&#34; data-icon=&#34;external-link-alt&#34;
@@ -73,7 +73,7 @@
       <description>&lt;p&gt;Wcześniej czy później zawsze pojawia się potrzeba zoptymalizowania naszej bazy MySQL. Przedstawię kilka zmian w konfiguracji, które powinny zwiększyć wydajność w większości przypadków.&lt;/p&gt;
 &lt;h2 id=&#34;myisam--key_buffer_size&#34;&gt;MyISAM - key_buffer_size&lt;/h2&gt;
 &lt;p&gt;Najprostszą optymalizacją baz/tabel z mechanizmem MyISAM jest odpowiednie dobranie bufora na cache dla kluczy i indeksów (dane nigdy nie są cachowane). Poniższe zapytanie pozwala oszacować zalecany rozmiar cache&amp;rsquo;u:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; CONCAT(ROUND(KBS&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;POWER(&lt;span style=&#34;color:#ae81ff&#34;&gt;1024&lt;/span&gt;,
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; CONCAT(ROUND(KBS&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;POWER(&lt;span style=&#34;color:#ae81ff&#34;&gt;1024&lt;/span&gt;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;IF&lt;/span&gt;(PowerOf1024&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#66d9ef&#34;&gt;IF&lt;/span&gt;(PowerOf1024&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,PowerOf1024)))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;.&lt;span style=&#34;color:#ae81ff&#34;&gt;4999&lt;/span&gt;),
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SUBSTR(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39; KMG&amp;#39;&lt;/span&gt;,&lt;span style=&#34;color:#66d9ef&#34;&gt;IF&lt;/span&gt;(PowerOf1024&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;IF&lt;/span&gt;(PowerOf1024&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;,PowerOf1024))&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;))
@@ -92,7 +92,7 @@
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2011/08/mysql-na-szybko/</guid>
       <description>&lt;p&gt;Instalacja serwera MySQL na Debianie jest niezwykle prosta i sprowadza się do jednego polecenia:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install mysql-server
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install mysql-server
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Polecenie to zainstaluje i uruchomi usługę serwerową MySQL. W czasie instalacji będziemy proszeni o podanie hasła dla root&amp;rsquo;a (które oczywiście dobrze jest zapamiętać bądź zapisać).&lt;/p&gt;
 &lt;p&gt;Tak zainstalowana baza nasłuchuje na lokalnym porcie (localhost:3306) umożliwiająć dostęp wyłącznie root&amp;rsquo;owi. Jest to bardzo bezpieczna konfiguracja&amp;hellip; Ale jeśli nie mamy zamiaru na tej samej maszynie instalować oprogramowania zarządzającego to nie zawsze jest to wygodne, tym bardziej gdy przykładowo mamy działającego phpmyadmin&amp;rsquo;a na jakimś serwerze www. W takim przypadku pierwszą rzeczą, którą robię jest udostępnienie dostępu zdalnego dla root&amp;rsquo;a. Warto zaznaczyć że uprawnienia root&amp;rsquo;a można nadać dowolnemu użytkownikowi (np. romanowi) co jest dużo bezpieczniejszą konfiguracją niż działanie bezpośrednio na koncie root&amp;rsquo;a (którego nazwa jest powszechnie znana).&lt;/p&gt;</description>
     </item>

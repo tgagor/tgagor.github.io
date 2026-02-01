@@ -4,7 +4,7 @@
     <title>Apache on Tom&#39;s Blog</title>
     <link>https://gagor.pro/tag/apache/</link>
     <description>Recent content in Apache on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.155.1</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
     <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
@@ -27,7 +27,7 @@
         &lt;div class=&#34;title&#34;&gt;Add new Apache conf file&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;terminalbody&#34;&gt;
-        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;filesmatch &amp;#34;\.(php|cgi|pl)$&amp;#34;&amp;gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;filesmatch &amp;#34;\.(php|cgi|pl)$&amp;#34;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Header unset Pragma
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Header unset Expires
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Header set Cache-Control &amp;#34;max-age=3600, public&amp;#34;
@@ -57,7 +57,7 @@
       <pubDate>Wed, 23 Dec 2015 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2015/12/apache-authbasic-but-excluding-ip/</guid>
       <description>&lt;p&gt;Allow from IP without password prompt, and also allow from any address with password prompt&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Order deny,allow
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Deny from all
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;AuthName &amp;#34;htaccess password prompt&amp;#34;
@@ -85,7 +85,7 @@
       <guid>https://gagor.pro/2013/12/apache-precompressing-static-files-with-gzip/</guid>
       <description>&lt;p&gt;Some time ago I&amp;rsquo;ve show &lt;a href=&#34;https://gagor.pl/2012/12/nginx-kompresowanie-plikow-dla-gzip_static/&#34; title=&#34;Nginx - kompresowanie plików dla gzip_static&#34;&gt;how to precompress &lt;em&gt;js&lt;/em&gt; and &lt;em&gt;css&lt;/em&gt; file with gzip to be available for Nginx&amp;rsquo;s mod_gzip&lt;/a&gt;. In default configuration Apache don&amp;rsquo;t have such module but similar functionality could be achieved with few custom rewirtes.&lt;/p&gt;
 &lt;p&gt;Basically we will start with these rewrites to serve gzipped CSS/JS files if they exist and the client accepts gzip compression:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RewriteEngine on
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RewriteCond %{HTTP:Accept-encoding} gzip
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;RewriteCond %{REQUEST_FILENAME}\.gz -s
@@ -132,7 +132,7 @@
       <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2013/10/certyfikaty-nazwassl-na-wlasnym-serwerze/</guid>
       <description>&lt;p&gt;Od jakiegoś czasu można kupić w &lt;a href=&#34;https://www.nazwa.pl/cennik/cennik-certyfikatow-ssl/&#34; title=&#34;Cennik&#34; target=&#34;_blank&#34;&gt;NetArcie certyfikaty SSL, a niedawno zrobili na nie promocję - 15zł za pierwszy rok&lt;/a&gt; (za certyfikat na jedną stronkę). Tzw. tanie i dobre. Po wyrobieniu certyfikatu i zapisaniu z panelu klienta mam pliczki: stonka.crt i netart_rootca.crt, które wrzucamy do Apachego, powiedzmy tak:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SSLCertificateFile /etc/ssl/certs/stonka.crt
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SSLCertificateFile /etc/ssl/certs/stonka.crt
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SSLCertificateKeyFile /etc/ssl/private/priv.key
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SSLCACertificateFile /etc/ssl/certs/netart_rootca.crt
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Certyfikat działa w Chromie ale nie weryfikuje się w Firefoxie i Internet Explorerze. FF wyświetla błąd: &lt;strong&gt;sec_error_unknown_issuer&lt;/strong&gt; - co oznacza brak certyfikatu wystawcy gdzieś w łańcuchu certyfikatów. W FAQ zero jak chodzi o konfigurację certyfikatów na serwerze poza NetArt&amp;rsquo;em&amp;hellip;&lt;/p&gt;</description>
@@ -144,7 +144,7 @@
       <guid>https://gagor.pro/2013/01/php-max_input_vars/</guid>
       <description>&lt;p&gt;W PHP 5.3 pojawiła się nowa zmienna: &lt;code&gt;max_input_vars&lt;/code&gt;, która limituje ilość pól możliwych do przesłania przez formularz, obcinając nadmiarowe. Pozwala to zapobiec atakom DoS na tablice hashujące (przynajmniej w tym jednym miejscu). Domyślna wartość tej zmiennej to 1000 i kreatywnym programistom udaje się tą wartość bez problemu osiągnąć &amp;#x1f603;&lt;/p&gt;
 &lt;p&gt;Warte odnotowania jest to że mając suhosin&amp;rsquo;a trzeba pamiętać o jeszcze dwóch innych zmiennych:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;max_input_vars &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;max_input_vars &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;suhosin&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;post&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;max_vars &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;suhosin&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;request&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;max_vars &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;3000&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Zmienne można zmienić od razu w &lt;code&gt;/etc/php5/apache2/php.ini&lt;/code&gt; (choć te dla suhosin&amp;rsquo;a lepiej wrzucić do &lt;code&gt;/etc/php5/conf.d/suhosin.ini&lt;/code&gt;). A jeszcze lepszym pomysłem jest ustawienie tych zmiennych bezpośrednio dla danego vhost&amp;rsquo;a, w Apache&amp;rsquo;m np. tak:&lt;/p&gt;</description>
@@ -156,7 +156,7 @@
       <guid>https://gagor.pro/2012/12/apache-mod_authnz_ldap-z-active-directory/</guid>
       <description>&lt;p&gt;Gdy już się dorobi systemu Active Directory wygodnie jest wykorzystać jego bazę użytkowników do autoryzacji w różnych miejscach, np. do pewnych &amp;ldquo;tajnych i tajniejszych&amp;rdquo; stron w Apache. Najprościej można to zrobić z wykorzystaniem LDAP.&lt;/p&gt;
 &lt;p&gt;Warto &lt;a title=&#34;ldapsearch w Active Directory&#34; href=&#34;https://gagor.pl/2012/12/ldapsearch-w-active-directory/&#34;&gt;sprawdzić czy i jak możemy dostać się do kontrolerów&lt;/a&gt;. Gdy już mamy wszystkie potrzebne parametry konfigurujemy Apachego - na początek aktywujemy moduły:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a2enmod ldap
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a2enmod ldap
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;a2enmod authnz_ldap
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Teraz możemy edytujemy globalny plik konfiguracyjny mod_ldap&amp;rsquo;a by ustawić nieco cache&amp;rsquo;y (bardzo przydatne). Wartości można dostosować do potrzeb ale przykładowe powinny wystarczyć na początku:&lt;/p&gt;</description>
     </item>

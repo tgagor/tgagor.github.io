@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Devops on Tom&#39;s Blog</title>
+    <title>DevOps on Tom&#39;s Blog</title>
     <link>https://gagor.pro/tag/devops/</link>
-    <description>Recent content in Devops on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.155.1</generator>
+    <description>Recent content in DevOps on Tom&#39;s Blog</description>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
     <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
@@ -162,7 +162,7 @@
       <guid>https://gagor.pro/2014/03/ansible-ssh-pipelining/</guid>
       <description>&lt;p&gt;In recent Ansible update to 1.5 version there is really nice feature &lt;em&gt;ssh pipelining&lt;/em&gt;. This option is serious alternative to &lt;em&gt;accelerated mode&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Just add to you config file (ex. &lt;code&gt;~/.ansible.cfg&lt;/code&gt;):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[ssh_connection]
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[ssh_connection]
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pipelining=True
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now run any playbook - you will see the difference &amp;#x1f604;&lt;/p&gt;
 &lt;p&gt;Source (and extended info about):&lt;br /&gt;
@@ -192,7 +192,7 @@
             &lt;/path&gt;
         &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
  and have a need to update &lt;code&gt;/etc/hosts&lt;/code&gt; with hostnames for easier configuration. I found this&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; one working:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; name: Update &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;etc&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;hosts
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; name: Update &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;etc&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;hosts
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  lineinfile: dest&lt;span style=&#34;color:#f92672&#34;&gt;=/&lt;/span&gt;etc&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;hosts regexp&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;.*{{item}}$&amp;#39;&lt;/span&gt; line&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;{{hostvars.{{item}}.ansible_default_ipv4.address}} {{item}}&amp;#39;&lt;/span&gt; state&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;present
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  with_items: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;{{groups.somegroup}}&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;

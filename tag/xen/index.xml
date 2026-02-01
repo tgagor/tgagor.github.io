@@ -4,7 +4,7 @@
     <title>Xen on Tom&#39;s Blog</title>
     <link>https://gagor.pro/tag/xen/</link>
     <description>Recent content in Xen on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.155.1</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
     <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
@@ -16,13 +16,13 @@
       <guid>https://gagor.pro/2016/01/xenserver-export-vm-to-file/</guid>
       <description>&lt;p&gt;Sometime you need to make quick and dirty image backup of VM running on XenServer and this post is about such case &amp;#x1f603;&lt;/p&gt;
 &lt;p&gt;List machines:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xl list
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xl list
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Name                    ID   Mem VCPUs    State    Time&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;s&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Domain-0                 &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;  &lt;span style=&#34;color:#ae81ff&#34;&gt;4066&lt;/span&gt;     &lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;     r-----  3526567.3
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;webfront1.example.com    &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;  &lt;span style=&#34;color:#ae81ff&#34;&gt;4096&lt;/span&gt;     &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;     r-----  3186487.2
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;webfront2.example.com    &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;  &lt;span style=&#34;color:#ae81ff&#34;&gt;2048&lt;/span&gt;     &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;     -b----  920408.2
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now you may export one:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xe vm-export vm&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;webfront1.example.com filename&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/srv/backup/webfront.xva
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xe vm-export vm&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;webfront1.example.com filename&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;/srv/backup/webfront.xva
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Export succeeded
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You may also use &lt;code&gt;uuid&lt;/code&gt; for that - list machines with &lt;code&gt;xe vm-list&lt;/code&gt; (best with &lt;code&gt;less&lt;/code&gt;) and then:&lt;/p&gt;</description>
     </item>
@@ -61,12 +61,12 @@
             &lt;/path&gt;
         &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
 . Przykład użycia:
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xen-create --hostname example-domu --ip 10.0.0.77 &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--gateway 10.0.0.1 --broadcast 10.0.0.255 --netmask 255.255.255.0 &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;--bridge br10 --vcpus &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; --memory&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;2G
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xen-create --hostname example-domu --ip 10.0.0.77 &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;--gateway 10.0.0.1 --broadcast 10.0.0.255 --netmask 255.255.255.0 &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;--bridge br10 --vcpus &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; --memory&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;2G
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;xen-delete-image&lt;/code&gt; - narzędzie do kasowania wirtualnych maszyn. Maszyna musi być wyłączona aby można było ją usunąć. Narzędzie to kasuje plik konfiguracyjny maszyny wirtualnej oraz przydzielone jej volumeny lvm. Przykład użycia:
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xen-delete-image nazwamaszyny
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xen-delete-image nazwamaszyny
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;zarządzanie-maszynami-wirtualnymi&#34;&gt;Zarządzanie maszynami wirtualnymi&lt;/h2&gt;
@@ -95,7 +95,7 @@
       <pubDate>Mon, 27 Feb 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2012/02/xen-ustawienie-autostartu-domu/</guid>
       <description>&lt;p&gt;Aby wybrane systemy DomU startowały automatycznie po restarcie hypervisora należy podlinkować ich pliki konfiguracyjne w katalogu &lt;code&gt;/etc/xen/auto&lt;/code&gt; po uprzednim jego utworzeniu. Przykładowo:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir /etc/xen/auto
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir /etc/xen/auto
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ln -s /etc/xen/example.cfg /etc/xen/auto/example.cfg
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Od teraz DomU &lt;code&gt;example&lt;/code&gt; będzie startować automatycznie.&lt;/p&gt;</description>
     </item>
@@ -105,11 +105,11 @@
       <pubDate>Sat, 25 Feb 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2012/02/xen-wlaczenie-live-migration/</guid>
       <description>&lt;p&gt;Jeżeli zdecydowaliśmy się na systemu DomU w obrazach to możemy korzystać z live migration. By uruchomić jej obsługę, trzeba w pliku &lt;code&gt;/etc/xen/xend-config.sxp&lt;/code&gt; odkomentować odpowiednie linie i ustawić adres IP:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(xend-relocation-server yes)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(xend-relocation-server yes)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(xend-relocation-port 8002)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(xend-relocation-address &amp;#39;10.0.10.91&amp;#39;)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;wykonywanie-migracji&#34;&gt;Wykonywanie migracji&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xm migrate --live nazwa-domu nazwa.lub.ip.zdalnego.hosta
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;xm migrate --live nazwa-domu nazwa.lub.ip.zdalnego.hosta
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
@@ -128,9 +128,9 @@
         &lt;/svg&gt;&lt;/span&gt; &lt;/a&gt;
  - dzisiaj napiszę o uruchamianiu DomU.&lt;/p&gt;
 &lt;p&gt;Do instalacji DomU wykorzystuję skrypty z pakietu xen-tools, można go zainstalować poleceniem:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install xen-tools
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install xen-tools
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Oczywiście aby wszystko działało fajnie musimy ustawić kilka domyślnych opcji, robimy to edytując plik &lt;code&gt;/etc/xen-tools/xen-tools.conf&lt;/code&gt;. Lecimy po kolei:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# Virtual machine disks are created as logical volumes in
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# Virtual machine disks are created as logical volumes in
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# volume group &amp;#39;universe&amp;#39; (hint: LVM storage is much faster
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;# than file)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lvm = universe

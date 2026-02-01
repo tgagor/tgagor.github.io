@@ -4,7 +4,7 @@
     <title>LVM on Tom&#39;s Blog</title>
     <link>https://gagor.pro/tag/lvm/</link>
     <description>Recent content in LVM on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.155.1</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
     <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
@@ -32,9 +32,9 @@
       <guid>https://gagor.pro/2012/06/dynamiczna-zmiana-rozmiaru-partycji-ext4-na-lvmie/</guid>
       <description>&lt;p&gt;Używam LVM&amp;rsquo;a zarówno na desktopie jak i wielu serwerach bo bardzo podoba mi się możliwość powiększenia akurat tej partycji, na której brakuje miejsca. O ile pamiętam jak powiększyć partycję XFS (xfs_growfs /punkt/montowania) to zawsze mam problem jak to zrobić na EXT3/4, więc notuję.&lt;/p&gt;
 &lt;p&gt;Powiększenie wolumenu LVM (np. o 10 gigabajtów):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lvextend -L+10G /dev/vggroup/vol
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lvextend -L+10G /dev/vggroup/vol
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Zwiększenie rozmiaru systemu plików do nowego rozmiaru wolumenu:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;resize2fs /dev/vggroup/vol
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;resize2fs /dev/vggroup/vol
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Powyższe polecenie można wykonać na zamontowanym zasobie - online.&lt;/p&gt;</description>
     </item>
   </channel>

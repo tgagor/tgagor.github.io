@@ -4,7 +4,7 @@
     <title>Bash on Tom&#39;s Blog</title>
     <link>https://gagor.pro/tag/bash/</link>
     <description>Recent content in Bash on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.155.1</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
     <lastBuildDate>Mon, 19 Jan 2026 17:38:21 +0100</lastBuildDate>
@@ -121,7 +121,7 @@
 &lt;p&gt;Some Git commands are unnecessarily verbose. You can make your life much easier with &lt;code&gt;bash-completions&lt;/code&gt;, but if you write it tens of times per day, it&amp;rsquo;s anyway a lot of typing&amp;hellip; and I&amp;rsquo;m a lazy man &amp;#x1f604;&lt;/p&gt;
 &lt;h2 id=&#34;simple-statuslog-checks&#34;&gt;Simple status/log checks&lt;/h2&gt;
 &lt;h3 id=&#34;git-s&#34;&gt;&lt;strong&gt;git s&lt;/strong&gt;&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  s &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; status --short --branch --untracked-files
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  s &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; status --short --branch --untracked-files
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Shows a short, branch-focused status with untracked files.&lt;/p&gt;</description>
     </item>
     <item>
@@ -192,7 +192,7 @@
         &lt;div class=&#34;title&#34;&gt;Switch to developer user&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;terminalbody&#34;&gt;
-        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;su developer -
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;su developer -
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;&lt;br&gt;
@@ -217,7 +217,7 @@
         &lt;div class=&#34;title&#34;&gt;Recursive pip uninstall&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;terminalbody&#34;&gt;
-        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; dep in &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;pip show python-neutronclient | grep Requires | sed &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;s/Requires: //g; s/,//g&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; ; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; dep in &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;pip show python-neutronclient | grep Requires | sed &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;s/Requires: //g; s/,//g&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; ; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  pip uninstall -y $dep ;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip uninstall -y python-neutronclient
@@ -261,7 +261,7 @@
         &lt;div class=&#34;title&#34;&gt;Install inotify-tools on Linux&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;terminalbody&#34;&gt;
-        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install -y inotify-tools
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt-get install -y inotify-tools
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;&lt;br&gt;
@@ -285,9 +285,9 @@
 .&lt;/p&gt;
 &lt;h2 id=&#34;wp-cli-installation&#34;&gt;WP-CLI installation&lt;/h2&gt;
 &lt;p&gt;First some requirements (as root):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install php5-cli php5-mysql mysql-client curl
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install php5-cli php5-mysql mysql-client curl
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And now installation of &lt;code&gt;wp-cli&lt;/code&gt; (as root too):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;chmod +x wp-cli.phar
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mv wp-cli.phar /usr/local/bin/wp
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Check if it&amp;rsquo;s working:&lt;/p&gt;</description>
@@ -305,8 +305,8 @@
       <pubDate>Mon, 11 Jan 2016 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2016/01/nagios-downtime-on-hostservice-from-command-line-with-curl/</guid>
       <description>&lt;p&gt;Sometimes deployment process or other heavy task may cause some Nagios checks to rise below normal levels and bother admin&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. If this is expected and you want to add downtime on host/service during this task you may use this script:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; die &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  echo $1;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  exit 1;
@@ -338,20 +338,20 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# This gives us the date/time X minutes from now&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ENDDATE&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;date &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;+%d-%m-%Y %H:%M:%S&amp;#34;&lt;/span&gt; -d &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$MINUTES&lt;span style=&#34;color:#e6db74&#34;&gt; min&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl --silent --show-error &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    --data cmd_typ&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;56&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    --data cmd_mod&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    --data host&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;$HOST &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    --data-urlencode &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;service=&lt;/span&gt;$SERVICENAME&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    --data-urlencode &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;com_data=&lt;/span&gt;$COMMENT&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    --data trigger&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    --data-urlencode &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;start_time=&lt;/span&gt;$STARTDATE&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    --data-urlencode &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;end_time=&lt;/span&gt;$ENDDATE&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    --data fixed&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    --data hours&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    --data minutes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    --data btnSubmit&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Commit &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    --insecure &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    $NAGURL -u &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$USER&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;$PASS&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;| grep -q &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Your command request was successfully submitted to Nagios for processing.&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; die &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Failed to con
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    --data cmd_typ&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;56&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    --data cmd_mod&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    --data host&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;$HOST &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    --data-urlencode &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;service=&lt;/span&gt;$SERVICENAME&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    --data-urlencode &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;com_data=&lt;/span&gt;$COMMENT&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    --data trigger&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    --data-urlencode &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;start_time=&lt;/span&gt;$STARTDATE&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    --data-urlencode &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;end_time=&lt;/span&gt;$ENDDATE&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    --data fixed&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    --data hours&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    --data minutes&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    --data btnSubmit&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Commit &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    --insecure &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;    $NAGURL -u &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$USER&lt;span style=&#34;color:#e6db74&#34;&gt;:&lt;/span&gt;$PASS&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;| grep -q &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Your command request was successfully submitted to Nagios for processing.&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; die &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Failed to con
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;tact nagios&amp;#34;&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo Scheduled downtime on nagios from $STARTDATE to $ENDDATE
@@ -363,7 +363,7 @@
       <pubDate>Thu, 08 May 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2014/05/changing-default-php-ini-file-for-php-cli-on-centos/</guid>
       <description>&lt;p&gt;On Debian in default installation you have different configuration files for PHP in Apache, FPM, CLI, etc. But on CentOS you have only one php.ini for all of them. In case I have, I need to have different configuration file for scripts running in CLI mode (more memory, etc). I could run it like this:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;php -c /etc/php-cli.ini script.php
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;php -c /etc/php-cli.ini script.php
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;But this a little burdensome. So I do it like this:&lt;/p&gt;</description>
     </item>
     <item>
@@ -372,7 +372,7 @@
       <pubDate>Thu, 08 May 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2014/05/command-to-change-root-password/</guid>
       <description>&lt;p&gt;Everybody knows &lt;code&gt;passwd&lt;/code&gt; command but it&amp;rsquo;s useless when you need to change ex. root password from command line without waiting for input. In such case oneliner below could help:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;root:new_password&amp;#34;&lt;/span&gt; | chpasswd
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;root:new_password&amp;#34;&lt;/span&gt; | chpasswd
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     <item>
@@ -381,10 +381,10 @@
       <pubDate>Tue, 18 Feb 2014 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2014/02/comparing-two-lists-in-bash/</guid>
       <description>&lt;p&gt;I had quite simple task - compare two lists of hosts and check if hosts from first one are also on the second one. I started with &lt;code&gt;diff&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diff -u biglist.txt hosts_to_check.txt | grep -E &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;^\+&amp;#34;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diff -u biglist.txt hosts_to_check.txt | grep -E &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;^\+&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It was fine but output needs some filtering to get what I want.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve found another example with &lt;code&gt;grep&lt;/code&gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;grep -Fxv -f biglist.txt hosts_to_check.txt | sort -n
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will search for all lines in &lt;em&gt;hosts_to_check.txt&lt;/em&gt; which don&amp;rsquo;t match any line in &lt;em&gt;biglist.txt&lt;/em&gt;. So after this I&amp;rsquo;ve got list of hosts that I have to check. That&amp;rsquo;s exactly what I need &amp;#x1f604;&lt;/p&gt;</description>
     </item>
     <item>
@@ -439,7 +439,7 @@
       <guid>https://gagor.pro/2013/04/tworzenie-patchy-z-poleceniami-diff-i-patch/</guid>
       <description>&lt;p&gt;Jest kilka powodów dla których tworzenie patchy jest przydatne - jeśli tu jesteś to pewnie masz jakiś własny&amp;hellip;&lt;/p&gt;
 &lt;h2 id=&#34;tworzenie-patcha&#34;&gt;Tworzenie patch&amp;rsquo;a&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diff -crB old new &amp;gt; from-old-to-new.patch
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;diff -crB old new &amp;gt; from-old-to-new.patch
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;W powyższym poleceniu założyłem że &lt;em&gt;old&lt;/em&gt; i &lt;em&gt;new&lt;/em&gt; to katalogi z wieloma podkatalogami i plikami - stąd opcja &lt;strong&gt;-r&lt;/strong&gt;. &lt;strong&gt;-c&lt;/strong&gt; dodaje kilka linijek &amp;ldquo;kontekstu&amp;rdquo; przez co łatwiej rozeznać się w patch&amp;rsquo;u. Opcja &lt;strong&gt;-B&lt;/strong&gt; ignoruje puste linie, których patchowanie mnie nie interesuje.&lt;/p&gt;
 &lt;h2 id=&#34;patchowanie&#34;&gt;Patchowanie&lt;/h2&gt;
 &lt;p&gt;Na początek zawsze warto wywołać polecenie z opcją &lt;strong&gt;-dry-run&lt;/strong&gt; by zobaczyć czy patch wykona się poprawnie:&lt;/p&gt;</description>
@@ -450,7 +450,7 @@
       <pubDate>Sun, 31 Mar 2013 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2013/03/rozsynchronizowane-serwery-ntp/</guid>
       <description>&lt;p&gt;Miałem ostatnio zabawną sytuację gdy kilka serwerów z zainstalowanym NTPD miało rozjazdy rzędu kilkunastu sekund. Wyszło na to że moje serwery synchronizowały się z różnymi zewnętrznymi serwerami NTP pomiędzy, którymi były rozjazdy i te rozjazdy synchronizowały się na moich serwerach. Jeden &amp;ldquo;z moich&amp;rdquo; ustanowiłem głównym a wszystkie inne przekierowałem na niego (komentując wszystkie inne serwery NTP w konfiguracji). Wymusiłem synchronizację:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ntp -q
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ntp -q
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Sprawdziłem jak duży jest offset i jitter (powinny być bardzo małe):&lt;/p&gt;</description>
     </item>
     <item>
@@ -483,7 +483,7 @@
       <guid>https://gagor.pro/2012/12/ldapsearch-w-active-directory/</guid>
       <description>&lt;p&gt;Można lubieć AD, można go nie lubieć&amp;hellip; Ale jak już się ma to warto czasem zintegrować go z tym&amp;hellip; i tamtym&amp;hellip; Od strony Linuksa najwygodniej można to osiągnąć przez LDAP. A żeby to dobrze zrobić trzeba najpierw przetestować czy aby wszystko działa jak byśmy sobie tego życzyli. I tutaj bardzo przydatne jest narzędzie &lt;code&gt;ldapsearch&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Do odpytywania LDAP&amp;rsquo;a potrzebujemy jeden pakiecik, który zawiera kilka narzędzi do jego obsługi:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install ldap-utils
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;apt-get install ldap-utils
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Teraz możemy próbować przeszukiwać katalog np. tak:&lt;/p&gt;</description>
     </item>
     <item>
@@ -523,7 +523,7 @@
       <pubDate>Fri, 31 Aug 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2012/08/przeszukiwanie-plikow-danego-typu-pod-katem-tekstu/</guid>
       <description>&lt;p&gt;Kiedyś poproszono mnie o przeszukanie wszystkich plików php na serwerze webowym po kątem wywołania pewnej funkcji. Oczywiste wydało mi się użycie rekurencyjnie grep&amp;rsquo;a, więc:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;grep -R &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;JAKAS_FUNKCJA&amp;#34;&lt;/span&gt; /var/www/*.php
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;grep -R &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;JAKAS_FUNKCJA&amp;#34;&lt;/span&gt; /var/www/*.php
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ale szybko okazało się że &lt;strong&gt;&lt;em&gt;grep&lt;/em&gt;&lt;/strong&gt; dopasowuje maskę &lt;strong&gt;*.php&lt;/strong&gt; również do katalogów, więc nie przeszukiwał katalogów które nie kończyły się na &lt;strong&gt;.php&lt;/strong&gt; ehhh&amp;hellip;..&lt;/p&gt;
 &lt;p&gt;Drugie podejście okazało się trafniejsze - najpierw poleceniem find wyszukuję wszystkie pliki php, a dopiero później grepuję (wypisując nazwę pliku i numer linii):&lt;/p&gt;</description>
     </item>
@@ -533,12 +533,12 @@
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2011/08/wysylanie-zalacznikow-poleceniem-mail/</guid>
       <description>&lt;p&gt;Kiedyś potrzebowałem w ramach testu obciążeniowego wysłać dużo wiadomości z załącznikami. Chciałem to zrobić na szybko z shell&amp;rsquo;a i tutaj chwilę musiałem pogooglać aby znaleźć działające polecenie. To co znalazłem wygląda tak:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;testowa wiadomosc&amp;#34;&lt;/span&gt;; uuencode test.zip test.zip&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;| mail -s &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Test&amp;#34;&lt;/span&gt; testowy@mail.pl
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;testowa wiadomosc&amp;#34;&lt;/span&gt;; uuencode test.zip test.zip&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;| mail -s &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Test&amp;#34;&lt;/span&gt; testowy@mail.pl
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Wiedząc już jak wysyłać maile z załącznikami, mały mail bombing mogłem zrobić tak:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i in &lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;seq &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; 100&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i in &lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;seq &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; 100&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   &lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;cat tekst.txt; uuencode test.zip test.zip&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   | mail -s &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Test &lt;/span&gt;$i&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; testowy@mail.pl;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;&lt;/span&gt;   | mail -s &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Test &lt;/span&gt;$i&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; testowy@mail.pl;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>

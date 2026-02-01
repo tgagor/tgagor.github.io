@@ -4,7 +4,7 @@
     <title>Tools on Tom&#39;s Blog</title>
     <link>https://gagor.pro/tag/tools/</link>
     <description>Recent content in Tools on Tom&#39;s Blog</description>
-    <generator>Hugo -- 0.155.1</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
     <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
@@ -34,7 +34,7 @@
         &lt;div class=&#34;title&#34;&gt;Example Ansible playbook&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;terminalbody&#34;&gt;
-        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- &lt;span style=&#34;color:#f92672&#34;&gt;hosts&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;web&lt;/span&gt;
+        &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- &lt;span style=&#34;color:#f92672&#34;&gt;hosts&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;web&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;gather_facts&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;sudo&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;True&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;...
@@ -65,7 +65,7 @@
       <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2012/01/moj-domyslny-config-dla-scite/</guid>
       <description>&lt;p&gt;Uruchamiamy SciTE i klikamy menu Options -&amp;gt; Open User Options File, wpisujemy dane:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# domyślne korzystanie z fontów o stałej szerokości&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# domyślne korzystanie z fontów o stałej szerokości&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;base&lt;span style=&#34;color:#f92672&#34;&gt;=$&lt;/span&gt;(font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;monospace)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;small&lt;span style=&#34;color:#f92672&#34;&gt;=$&lt;/span&gt;(font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;monospace)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;comment&lt;span style=&#34;color:#f92672&#34;&gt;=$&lt;/span&gt;(font&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;monospace)
