@@ -17,13 +17,24 @@
       <description>&lt;div class=&#34;bookmarks-container h-feed&#34;&gt;&lt;div class=&#34;bookmark-year&#34;&gt;
     &lt;h2 class=&#34;bookmark-year-header&#34; id=&#34;year-2026&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#year-2026&#34;&gt;2026&lt;/a&gt;
-        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;9&lt;/sup&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;10&lt;/sup&gt;
     &lt;/h2&gt;&lt;div class=&#34;bookmark-month&#34;&gt;
     &lt;h3 class=&#34;bookmark-month-header&#34; id=&#34;month-2026-02 2026-02-2026-02&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#month-2026-02%202026-02-2026-02&#34;&gt;February&lt;/a&gt;
-        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;9&lt;/sup&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;10&lt;/sup&gt;
     &lt;/h3&gt;
-    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://blog.codeminer42.com/modern-terminals-alacritty-kitty-and-ghostty/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://github.com/j178/prek&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://github.com/j178/prek&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Preak, a faster pre-commit replacement&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-02-01&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;Rust&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://blog.codeminer42.com/modern-terminals-alacritty-kitty-and-ghostty/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
                 &lt;span class=&#34;bookmark-title p-name&#34;&gt;
                     &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://blog.codeminer42.com/modern-terminals-alacritty-kitty-and-ghostty/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;The Modern Terminals Showdown: Alacritty, Kitty, and Ghostty&lt;/a&gt;
                 &lt;/span&gt;
