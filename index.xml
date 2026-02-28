@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Thu, 19 Feb 2026 15:51:16 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 12:58:41 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prek, a pre-commit alternative</title>
+      <link>https://gagor.pro/2026/02/prek-a-pre-commit-alternative/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/02/prek-a-pre-commit-alternative/</guid>
+      <description>Prek is a Rust-based pre-commit alternative that maintains full config compatibility while delivering significantly faster hook execution.</description>
+    </item>
     <item>
       <title>Bookmarks</title>
       <link>https://gagor.pro/bookmarks/</link>
@@ -17,13 +24,48 @@
       <description>&lt;div class=&#34;bookmarks-container h-feed&#34;&gt;&lt;div class=&#34;bookmark-year&#34;&gt;
     &lt;h2 class=&#34;bookmark-year-header&#34; id=&#34;year-2026&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#year-2026&#34;&gt;2026&lt;/a&gt;
-        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;17&lt;/sup&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;20&lt;/sup&gt;
     &lt;/h2&gt;&lt;div class=&#34;bookmark-month&#34;&gt;
     &lt;h3 class=&#34;bookmark-month-header&#34; id=&#34;month-2026-02 2026-02-2026-02&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#month-2026-02%202026-02-2026-02&#34;&gt;February&lt;/a&gt;
-        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;17&lt;/sup&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;20&lt;/sup&gt;
     &lt;/h3&gt;
-    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://www.loggly.com/ultimate-guide/using-journalctl/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://hawksley.org/2026/02/17/timeframe.html&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://hawksley.org/2026/02/17/timeframe.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;How I built Timeframe, our family e-paper dashboard - Joel Hawksley&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-02-27&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;frame&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://words.filippo.io/dependabot/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://words.filippo.io/dependabot/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Turn Dependabot Off&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-02-27&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;security&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;DevOps&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://www.justinmklam.com/posts/2026/02/beginners-guide-split-keyboards/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://www.justinmklam.com/posts/2026/02/beginners-guide-split-keyboards/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;A Beginner’s Guide to Split Keyboards | justinmklam | blog&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-02-27&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;keyboard&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;ergonomy&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://www.loggly.com/ultimate-guide/using-journalctl/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
                 &lt;span class=&#34;bookmark-title p-name&#34;&gt;
                     &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://www.loggly.com/ultimate-guide/using-journalctl/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Usign journalctl&lt;/a&gt;
                 &lt;/span&gt;

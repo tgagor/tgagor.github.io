@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 12:58:41 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/tag/best-practices/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prek, a pre-commit alternative</title>
+      <link>https://gagor.pro/2026/02/prek-a-pre-commit-alternative/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/02/prek-a-pre-commit-alternative/</guid>
+      <description>Prek is a Rust-based pre-commit alternative that maintains full config compatibility while delivering significantly faster hook execution.</description>
+    </item>
     <item>
       <title>Do not respond in anger</title>
       <link>https://gagor.pro/2025/12/do-not-respond-in-anger/</link>
