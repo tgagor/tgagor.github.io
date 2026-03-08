@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Fri, 27 Feb 2026 12:58:41 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 10:27:09 +0100</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prek, a pre-commit alternative</title>
@@ -24,8 +24,26 @@
       <description>&lt;div class=&#34;bookmarks-container h-feed&#34;&gt;&lt;div class=&#34;bookmark-year&#34;&gt;
     &lt;h2 class=&#34;bookmark-year-header&#34; id=&#34;year-2026&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#year-2026&#34;&gt;2026&lt;/a&gt;
-        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;20&lt;/sup&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;21&lt;/sup&gt;
     &lt;/h2&gt;&lt;div class=&#34;bookmark-month&#34;&gt;
+    &lt;h3 class=&#34;bookmark-month-header&#34; id=&#34;month-2026-03 2026-03-2026-03&#34;&gt;
+        &lt;a class=&#34;archive-header-link&#34; href=&#34;#month-2026-03%202026-03-2026-03&#34;&gt;March&lt;/a&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;1&lt;/sup&gt;
+    &lt;/h3&gt;
+    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://youglish.com/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://youglish.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;English words pronunciation search engine&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-03-06&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;english&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;learning&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;bookmark-month&#34;&gt;
     &lt;h3 class=&#34;bookmark-month-header&#34; id=&#34;month-2026-02 2026-02-2026-02&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#month-2026-02%202026-02-2026-02&#34;&gt;February&lt;/a&gt;
         &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;20&lt;/sup&gt;
@@ -1561,11 +1579,11 @@
         d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
     &lt;/path&gt;
 &lt;/svg&gt;
-            &lt;a href=&#34;https://github.com/tgagor/docker-centos&#34; target=&#34;_blank&#34;&gt;tgagor/docker-centos&lt;/a&gt;
-             - CentOS docker images, build weekly with latest security updates
+            &lt;a href=&#34;https://github.com/tgagor/docker-gemini-cli&#34; target=&#34;_blank&#34;&gt;tgagor/docker-gemini-cli&lt;/a&gt;
+             - Gemini CLI wrapped as a Docker image, so you don&amp;#39;t need to trash your OS with Node and it&amp;#39;s dependencies.
             &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/docker-centos?style=flat-square&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/docker-centos?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/docker-gemini-cli?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/docker-gemini-cli?style=flat-square&#34;&gt;
             &lt;/div&gt;
           &lt;/li&gt;
         
@@ -1578,11 +1596,11 @@
         d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
     &lt;/path&gt;
 &lt;/svg&gt;
-            &lt;a href=&#34;https://github.com/tgagor/docker-gemini-cli&#34; target=&#34;_blank&#34;&gt;tgagor/docker-gemini-cli&lt;/a&gt;
-             - Gemini CLI wrapped as a Docker image, so you don&amp;#39;t need to trash your OS with Node and it&amp;#39;s dependencies.
+            &lt;a href=&#34;https://github.com/tgagor/docker-centos&#34; target=&#34;_blank&#34;&gt;tgagor/docker-centos&lt;/a&gt;
+             - CentOS docker images, build weekly with latest security updates
             &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/docker-gemini-cli?style=flat-square&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/docker-gemini-cli?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/docker-centos?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/docker-centos?style=flat-square&#34;&gt;
             &lt;/div&gt;
           &lt;/li&gt;
         
