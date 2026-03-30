@@ -24,13 +24,103 @@
       <description>&lt;div class=&#34;bookmarks-container h-feed&#34;&gt;&lt;div class=&#34;bookmark-year&#34;&gt;
     &lt;h2 class=&#34;bookmark-year-header&#34; id=&#34;year-2026&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#year-2026&#34;&gt;2026&lt;/a&gt;
-        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;21&lt;/sup&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;29&lt;/sup&gt;
     &lt;/h2&gt;&lt;div class=&#34;bookmark-month&#34;&gt;
     &lt;h3 class=&#34;bookmark-month-header&#34; id=&#34;month-2026-03 2026-03-2026-03&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#month-2026-03%202026-03-2026-03&#34;&gt;March&lt;/a&gt;
-        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;1&lt;/sup&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;9&lt;/sup&gt;
     &lt;/h3&gt;
-    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://youglish.com/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://www.bejarano.io/terraform-performance/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://www.bejarano.io/terraform-performance/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Advanced Terraform performance optimization&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-03-30&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;terraform&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;performance&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://blog.hofstede.it/shell-tricks-that-actually-make-life-easier-and-save-your-sanity/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://blog.hofstede.it/shell-tricks-that-actually-make-life-easier-and-save-your-sanity/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Shell Tricks That Actually Make Life Easier (And Save Your Sanity) |
+ Larvitz Blog&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-03-28&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;bash&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;zsh&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;shell&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://github.com/hectorvent/floci&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://github.com/hectorvent/floci&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;A free, open-source local AWS emulator&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-03-24&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;localstack&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://ssl-config.mozilla.org/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://ssl-config.mozilla.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;SSL Configuration Generator&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-03-19&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;ssl&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;security&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;nginx&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;apache&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://translate.kagi.com/?from=auto&amp;amp;to=linkedin&amp;amp;text=&amp;#43;nie&amp;#43;chce&amp;#43;mi&amp;#43;si%C4%99&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://translate.kagi.com/?from=auto&amp;amp;to=linkedin&amp;amp;text=&amp;#43;nie&amp;#43;chce&amp;#43;mi&amp;#43;si%C4%99&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Translage Kagi - everyone can use now the LinkedIn Speak&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-03-19&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://www.removepaywall.com/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://www.removepaywall.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;RemovePaywall&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-03-11&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://deweloperuch.pl&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://deweloperuch.pl&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Deweloperuch - Ceny Nieruchomości&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-03-09&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://bulldogjob.pl/readme/czym-jest-architecture-decision-record&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://bulldogjob.pl/readme/czym-jest-architecture-decision-record&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;What is Architecture Decision Record (ADR)&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-03-09&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;architecture&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;it&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://youglish.com/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
                 &lt;span class=&#34;bookmark-title p-name&#34;&gt;
                     &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://youglish.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;English words pronunciation search engine&lt;/a&gt;
                 &lt;/span&gt;
@@ -1698,6 +1788,23 @@
         d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
     &lt;/path&gt;
 &lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/docker-opencode-cli&#34; target=&#34;_blank&#34;&gt;tgagor/docker-opencode-cli&lt;/a&gt;
+             - OpenCode wrapped as a Docker image, so you don&amp;#39;t need to trash your OS with Node and it&amp;#39;s dependencies. 
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/docker-opencode-cli?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/docker-opencode-cli?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        
+      
+        
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
             &lt;a href=&#34;https://github.com/tgagor/frameo-miniatures&#34; target=&#34;_blank&#34;&gt;tgagor/frameo-miniatures&lt;/a&gt;
              - A fast, efficient CLI tool to prepare and optimize photo collections for Frameo digital photo frames.
             &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
@@ -1994,6 +2101,18 @@
         &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
           &lt;img src=&#34;https://img.shields.io/docker/stars/tgagor/gemini-cli?style=flat-square&#34; alt=&#34;Docker Stars&#34;&gt;
           &lt;img src=&#34;https://img.shields.io/docker/pulls/tgagor/gemini-cli?style=flat-square&#34; alt=&#34;Docker Pulls&#34;&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      
+      &lt;li&gt;
+        &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 40 30&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+          &lt;path d=&#34;M37.413,12.315c-0.933,-0.627 -3.382,-0.896 -5.163,-0.415c-0.097,-1.774 -1.012,-3.27 -2.685,-4.573l-0.619,-0.416l-0.414,0.624c-0.811,1.232 -1.153,2.873 -1.032,4.366c0.095,0.92 0.415,1.953 1.032,2.703c-2.318,1.345 -4.455,1.039 -13.919,1.039l-14.61,0c-0.042,2.137 0.302,6.248 2.915,9.593c0.289,0.37 0.604,0.727 0.948,1.072c2.126,2.128 5.336,3.689 10.138,3.693c7.325,0.007 13.601,-3.953 17.419,-13.527c1.257,0.02 4.572,0.225 6.195,-2.911c0.039,-0.052 0.413,-0.831 0.413,-0.831l-0.618,-0.415l0,-0.002Zm-27.875,-1.953l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm-21.232,0l-4.108,0l-0,4.108l4.108,0l0,-4.108Zm5.308,-5.19l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm5.308,-0l-4.108,-0l-0,4.108l4.108,0l0,-4.108Zm0,-5.19l-4.108,0l-0,4.109l4.108,-0l0,-4.109Z&#34;/&gt;
+        &lt;/svg&gt;
+        &lt;a href=&#34;https://hub.docker.com/r/tgagor/opencode-cli&#34; target=&#34;_blank&#34;&gt;tgagor/opencode-cli&lt;/a&gt;
+         - Run the OpenCode without needing to install Node.js or its dependencies on your local system.
+        &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/stars/tgagor/opencode-cli?style=flat-square&#34; alt=&#34;Docker Stars&#34;&gt;
+          &lt;img src=&#34;https://img.shields.io/docker/pulls/tgagor/opencode-cli?style=flat-square&#34; alt=&#34;Docker Pulls&#34;&gt;
         &lt;/div&gt;
       &lt;/li&gt;
       
