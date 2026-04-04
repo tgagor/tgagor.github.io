@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 19 Jan 2026 17:38:21 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 14:16:19 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/tag/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu variant optimized with x86-64-v3</title>
+      <link>https://gagor.pro/2026/04/ubuntu-variant-optimized-with-x86-64-v3/</link>
+      <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/04/ubuntu-variant-optimized-with-x86-64-v3/</guid>
+      <description>Explore how to enable and use the x86-64-v3 optimized Ubuntu variant for better performance on modern hardware without sacrificing stability.</description>
+    </item>
     <item>
       <title>Disable the pager for apt search</title>
       <link>https://gagor.pro/2026/01/disable-the-pager-for-apt-search/</link>
