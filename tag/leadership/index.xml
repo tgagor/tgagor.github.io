@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.159.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sat, 24 Jan 2026 21:13:04 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 19:21:42 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/tag/leadership/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Radical Candor</title>
@@ -425,6 +425,20 @@
 &lt;/figure&gt;
 
 &lt;p&gt;Drive: The Surprising Truth About What Motivates Us is a book that I recently read and found to be highly insightful. The author, Daniel H. Pink, explores the science of motivation and argues that the traditional carrot-and-stick approach is outdated and ineffective. He claims that in today&amp;rsquo;s rapidly changing and complex world, autonomy, mastery, and purpose are the most important drivers of motivation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Unicorn Project</title>
+      <link>https://gagor.pro/book/2021/projekt-jednorozec/</link>
+      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2021/projekt-jednorozec/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Projekt Jednorożec by Gene Kim&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Projekt Jednorożec&lt;/q&gt;&lt;p&gt;Powieść o szansie w epoce przewrotów cyfrowych&lt;/p&gt;&lt;p&gt;Author: Gene Kim&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I read the Polish translation of this book, which serves as a modern sequel to &lt;a href=&#34;https://gagor.pro/book/2018/projekt-feniks/&#34; &gt;The Phoenix Project&lt;/a&gt;
+. While the core philosophy remains the same, this new volume updates the technical landscape-replacing references to palmtops with contemporary tools like Kubernetes and Docker. If you&amp;rsquo;ve already read the original, this feels like a timely refresh rather than a complete retread.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Od dobrego do wielkiego</title>

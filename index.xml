@@ -7,7 +7,7 @@
     <generator>Hugo -- 0.159.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sat, 04 Apr 2026 14:16:19 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 19:21:42 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu variant optimized with x86-64-v3</title>
@@ -31,13 +31,24 @@
       <description>&lt;div class=&#34;bookmarks-container h-feed&#34;&gt;&lt;div class=&#34;bookmark-year&#34;&gt;
     &lt;h2 class=&#34;bookmark-year-header&#34; id=&#34;year-2026&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#year-2026&#34;&gt;2026&lt;/a&gt;
-        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;30&lt;/sup&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;31&lt;/sup&gt;
     &lt;/h2&gt;&lt;div class=&#34;bookmark-month&#34;&gt;
     &lt;h3 class=&#34;bookmark-month-header&#34; id=&#34;month-2026-04 2026-04-2026-04&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#month-2026-04%202026-04-2026-04&#34;&gt;April&lt;/a&gt;
-        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;1&lt;/sup&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;2&lt;/sup&gt;
     &lt;/h3&gt;
-    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://debian.griffo.io/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://larm.dev/tools/response-time&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://larm.dev/tools/response-time&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Website Response Time Checker — Test From Multiple Global Locations&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-04-10&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;CDN&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://debian.griffo.io/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
                 &lt;span class=&#34;bookmark-title p-name&#34;&gt;
                     &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://debian.griffo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Interesting Debian repo with: zig ghostty lazygit yazi eza uv fzf
  zoxide bun tigerbeetle deno&lt;/a&gt;
@@ -1561,7 +1572,7 @@
       <description>A guide to switching from bash to Zsh, with Oh My Zsh, Powerlevel10k, and useful plugins for a better terminal experience.</description>
     </item>
     <item>
-      <title>Projekt Jednorożec</title>
+      <title>The Unicorn Project</title>
       <link>https://gagor.pro/book/2021/projekt-jednorozec/</link>
       <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/book/2021/projekt-jednorozec/</guid>
@@ -1569,7 +1580,10 @@
     &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
          alt=&#34;Cover of book Projekt Jednorożec by Gene Kim&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
             &lt;q&gt;Projekt Jednorożec&lt;/q&gt;&lt;p&gt;Powieść o szansie w epoce przewrotów cyfrowych&lt;/p&gt;&lt;p&gt;Author: Gene Kim&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
+&lt;/figure&gt;
+
+&lt;p&gt;I read the Polish translation of this book, which serves as a modern sequel to &lt;a href=&#34;https://gagor.pro/book/2018/projekt-feniks/&#34; &gt;The Phoenix Project&lt;/a&gt;
+. While the core philosophy remains the same, this new volume updates the technical landscape-replacing references to palmtops with contemporary tools like Kubernetes and Docker. If you&amp;rsquo;ve already read the original, this feels like a timely refresh rather than a complete retread.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Creating fully encrypted ZFS pool</title>

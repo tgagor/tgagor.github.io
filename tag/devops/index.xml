@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>DevOps on Tom&#39;s Blog</title>
+    <title>Devops on Tom&#39;s Blog</title>
     <link>https://gagor.pro/tag/devops/</link>
-    <description>Recent content in DevOps on Tom&#39;s Blog</description>
+    <description>Recent content in Devops on Tom&#39;s Blog</description>
     <generator>Hugo -- 0.159.2</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
@@ -125,17 +125,6 @@
       <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2022/06/back-on-the-big-stage/</guid>
       <description>Announcing my return to the big stage with a talk on managing Docker base images at scale, presented at the Devoxx 2022 conference in Kraków.</description>
-    </item>
-    <item>
-      <title>Projekt Jednorożec</title>
-      <link>https://gagor.pro/book/2021/projekt-jednorozec/</link>
-      <pubDate>Thu, 09 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/book/2021/projekt-jednorozec/</guid>
-      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
-    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
-         alt=&#34;Cover of book Projekt Jednorożec by Gene Kim&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
-            &lt;q&gt;Projekt Jednorożec&lt;/q&gt;&lt;p&gt;Powieść o szansie w epoce przewrotów cyfrowych&lt;/p&gt;&lt;p&gt;Author: Gene Kim&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
     </item>
     <item>
       <title>Projekt Feniks</title>
