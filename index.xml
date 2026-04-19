@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 14 Apr 2026 09:11:43 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 09:13:51 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu variant optimized with x86-64-v3</title>
@@ -31,13 +31,106 @@
       <description>&lt;div class=&#34;bookmarks-container h-feed&#34;&gt;&lt;div class=&#34;bookmark-year&#34;&gt;
     &lt;h2 class=&#34;bookmark-year-header&#34; id=&#34;year-2026&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#year-2026&#34;&gt;2026&lt;/a&gt;
-        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;32&lt;/sup&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;40&lt;/sup&gt;
     &lt;/h2&gt;&lt;div class=&#34;bookmark-month&#34;&gt;
     &lt;h3 class=&#34;bookmark-month-header&#34; id=&#34;month-2026-04 2026-04-2026-04&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#month-2026-04%202026-04-2026-04&#34;&gt;April&lt;/a&gt;
-        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;3&lt;/sup&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;11&lt;/sup&gt;
     &lt;/h3&gt;
-    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://web.devopstopologies.com/index.html&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;How I run multiple $10K MRR companies on a $20/month tech stack |
+ Steve Hanov&amp;#39;s Blog&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-04-17&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://goodfirstissue.dev/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://goodfirstissue.dev/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Good First Issue curates easy pickings from popular open-source
+ projects, and helps you make your first contribution to open-source&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-04-17&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;github&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;open-source&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://scottlawsonbc.com/post/shooting-down-ideas&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://scottlawsonbc.com/post/shooting-down-ideas&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Shooting Down Ideas Is Not a Skill&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-04-16&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;leadership&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;management&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://ai.georgeliu.com/p/running-google-gemma-4-locally-with&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://ai.georgeliu.com/p/running-google-gemma-4-locally-with&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Running Google Gemma 4 Locally With LM Studio’s New Headless CLI &amp;amp; Claude Code&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-04-16&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;AI&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://jai.scs.stanford.edu/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://jai.scs.stanford.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;jai - easy containment for AI agents&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-04-16&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;AI&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;security&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://www.youtube.com/watch?v=jv8tt7ocKSI&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://www.youtube.com/watch?v=jv8tt7ocKSI&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;All Parents Should See This - Michael McIntyre Stand Up Comedy&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-04-16&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;leadership&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;parenting&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://www.youtube.com/watch?v=E0pufb_n0x0&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://www.youtube.com/watch?v=E0pufb_n0x0&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;How to Explain “Mental Load” to Your Partner? (Therapist Explains)&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-04-16&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;leadership&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;psychology&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://hbr.org/2022/05/38-smart-questions-to-ask-in-a-job-interview&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://hbr.org/2022/05/38-smart-questions-to-ask-in-a-job-interview&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;38 Smart Questions to Ask in a Job Interview as a candidate&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-04-16&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;hiring&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://web.devopstopologies.com/index.html&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
                 &lt;span class=&#34;bookmark-title p-name&#34;&gt;
                     &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://web.devopstopologies.com/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;DevOps Team Topologies explained&lt;/a&gt;
                 &lt;/span&gt;
