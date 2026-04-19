@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 05 Jan 2026 20:24:09 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 09:35:05 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/category/human-factors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Wall of Shame</title>
+      <link>https://gagor.pro/2026/04/the-wall-of-shame/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/04/the-wall-of-shame/</guid>
+      <description>&lt;p&gt;There was a team, which I joined to help with &amp;ldquo;DevOps&amp;rsquo; stuff&amp;rdquo;. 5 or 6 people, good engineers, focused and busy. They had their habbits, processes and rituals. All more or less working fine&amp;hellip; Except the review process. They were producing a lot of changes, but struggled to review them on time, which was blocking other team members and resulting in tasks being moved from sprint to sprint, without the real progress.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Do not respond in anger</title>
       <link>https://gagor.pro/2025/12/do-not-respond-in-anger/</link>
