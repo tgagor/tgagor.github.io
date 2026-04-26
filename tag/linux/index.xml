@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sat, 04 Apr 2026 14:16:19 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 17:50:34 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/tag/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Ghostty as default terminal on Ubuntu 26.04</title>
+      <link>https://gagor.pro/2026/04/setting-ghostty-as-default-terminal-on-ubuntu-26.04/</link>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/04/setting-ghostty-as-default-terminal-on-ubuntu-26.04/</guid>
+      <description>A quick guide on how to set the GPU-accelerated Ghostty terminal as the default on Ubuntu 26.04 using the new configuration method.</description>
+    </item>
     <item>
       <title>Ubuntu variant optimized with x86-64-v3</title>
       <link>https://gagor.pro/2026/04/ubuntu-variant-optimized-with-x86-64-v3/</link>

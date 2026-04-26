@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 21 Apr 2026 19:34:09 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 17:50:34 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Ghostty as default terminal on Ubuntu 26.04</title>
+      <link>https://gagor.pro/2026/04/setting-ghostty-as-default-terminal-on-ubuntu-26.04/</link>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/04/setting-ghostty-as-default-terminal-on-ubuntu-26.04/</guid>
+      <description>A quick guide on how to set the GPU-accelerated Ghostty terminal as the default on Ubuntu 26.04 using the new configuration method.</description>
+    </item>
     <item>
       <title>The Wall of Shame</title>
       <link>https://gagor.pro/2026/04/the-wall-of-shame/</link>
@@ -38,13 +45,36 @@
       <description>&lt;div class=&#34;bookmarks-container h-feed&#34;&gt;&lt;div class=&#34;bookmark-year&#34;&gt;
     &lt;h2 class=&#34;bookmark-year-header&#34; id=&#34;year-2026&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#year-2026&#34;&gt;2026&lt;/a&gt;
-        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;41&lt;/sup&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;43&lt;/sup&gt;
     &lt;/h2&gt;&lt;div class=&#34;bookmark-month&#34;&gt;
     &lt;h3 class=&#34;bookmark-month-header&#34; id=&#34;month-2026-04 2026-04-2026-04&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#month-2026-04%202026-04-2026-04&#34;&gt;April&lt;/a&gt;
-        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;12&lt;/sup&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;14&lt;/sup&gt;
     &lt;/h3&gt;
-    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://isitagentready.com/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://jumpstartsignal.com/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://jumpstartsignal.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Jumpstart Signal | Sustainable Stock Screening&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-04-26&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;stocks&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;trading&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://wazuh.com&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://wazuh.com&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Wazuh - Open Source XDR. Open Source SIEM.&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-04-22&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;security&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://isitagentready.com/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
                 &lt;span class=&#34;bookmark-title p-name&#34;&gt;
                     &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://isitagentready.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Is Your Site Agent-Ready?&lt;/a&gt;
                 &lt;/span&gt;
@@ -1978,6 +2008,23 @@
         
       
         
+          &lt;li &gt;
+            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
+    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
+    &lt;path
+        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
+    &lt;/path&gt;
+&lt;/svg&gt;
+            &lt;a href=&#34;https://github.com/tgagor/java-tuner&#34; target=&#34;_blank&#34;&gt;tgagor/java-tuner&lt;/a&gt;
+             - A small, statically linked CLI tool that simplifies tuning of Java applications for containerized environments. It automatically detects available CPU and memory resources, then generates optimal JVM options to improve performance and reliability.
+            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/java-tuner?style=flat-square&#34;&gt;
+              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/java-tuner?style=flat-square&#34;&gt;
+            &lt;/div&gt;
+          &lt;/li&gt;
+        
+      
+        
       
         
       
@@ -2127,23 +2174,6 @@
       
         
       
-        
-      
-        
-          &lt;li &gt;
-            &lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34;
-    stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;
-    &lt;path
-        d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;
-    &lt;/path&gt;
-&lt;/svg&gt;
-            &lt;a href=&#34;https://github.com/tgagor/java-tuner&#34; target=&#34;_blank&#34;&gt;tgagor/java-tuner&lt;/a&gt;
-             - A small, statically linked CLI tool that simplifies tuning of Java applications for containerized environments. It automatically detects available CPU and memory resources, then generates optimal JVM options to improve performance and reliability.
-            &lt;div class=&#34;shortcode-icons-badges&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo stars&#34; src=&#34;https://img.shields.io/github/stars/tgagor/java-tuner?style=flat-square&#34;&gt;
-              &lt;img alt=&#34;GitHub Repo forks&#34; src=&#34;https://img.shields.io/github/forks/tgagor/java-tuner?style=flat-square&#34;&gt;
-            &lt;/div&gt;
-          &lt;/li&gt;
         
       
         
