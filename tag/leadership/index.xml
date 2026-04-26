@@ -7,8 +7,21 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Tue, 21 Apr 2026 19:03:04 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 20:32:26 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/tag/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Team Topologies</title>
+      <link>https://gagor.pro/book/2026/team-topologies/</link>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2026/team-topologies/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Team Topologies by Matthew Skelton, Manuel Pais&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Team Topologies&lt;/q&gt;&lt;p&gt;Organizing Business and Technology Teams for Fast Flow&lt;/p&gt;&lt;p&gt;Authors: Matthew Skelton,  Manuel Pais&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Team Topologies is a must-read for anyone involved in building software at scale. It moves away from the &amp;ldquo;everyone should talk to everyone&amp;rdquo; fallacy and introduces a pragmatic, team-first approach to organizational design. By focusing on cognitive load and the flow of value, Skelton and Pais provide a clear vocabulary for discussing team structures and their interactions.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Radical Candor</title>
       <link>https://gagor.pro/book/2026/radical-candor/</link>
