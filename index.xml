@@ -7,7 +7,7 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sun, 26 Apr 2026 20:32:26 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 23:55:17 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting Ghostty as default terminal on Ubuntu 26.04</title>
@@ -58,8 +58,63 @@
       <description>&lt;div class=&#34;bookmarks-container h-feed&#34;&gt;&lt;div class=&#34;bookmark-year&#34;&gt;
     &lt;h2 class=&#34;bookmark-year-header&#34; id=&#34;year-2026&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#year-2026&#34;&gt;2026&lt;/a&gt;
-        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;44&lt;/sup&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;48&lt;/sup&gt;
     &lt;/h2&gt;&lt;div class=&#34;bookmark-month&#34;&gt;
+    &lt;h3 class=&#34;bookmark-month-header&#34; id=&#34;month-2026-05 2026-05-2026-05&#34;&gt;
+        &lt;a class=&#34;archive-header-link&#34; href=&#34;#month-2026-05%202026-05-2026-05&#34;&gt;May&lt;/a&gt;
+        &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;4&lt;/sup&gt;
+    &lt;/h3&gt;
+    &lt;div class=&#34;bookmark-entries&#34;&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://death-of-scrum.net/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://death-of-scrum.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;The Death of Scrum - An Interactive Essay&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-05-04&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;scrum&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;agile&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://basecamp.com/shapeup&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://basecamp.com/shapeup&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Shape Up - Stop Running in Circles and Ship Work that Matters&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-05-04&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;scrum&lt;/span&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;agile&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;blockquote&gt;I was referred from &amp;#34;Death of Scrum&amp;#34; page, as better approach to It&lt;/blockquote&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://agentskills.io/home&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://agentskills.io/home&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Agent Skills&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-05-04&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;AI&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;blockquote&gt;A standardized way to give AI agents new capabilities and expertise.&lt;/blockquote&gt;
+        &lt;/article&gt;&lt;article class=&#34;bookmark-entry h-entry h-bookmark&#34;&gt;&lt;a class=&#34;u-url&#34; href=&#34;https://www.ghost.charity/&#34; hidden&gt;&lt;/a&gt;&lt;div class=&#34;bookmark-row&#34;&gt;
+                &lt;span class=&#34;bookmark-title p-name&#34;&gt;
+                    &lt;a class=&#34;u-bookmark-of&#34; href=&#34;https://www.ghost.charity/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Ghostbox — Disposable little dev machines&lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&#34;bookmark-tags-row&#34;&gt;
+                &lt;span class=&#34;bookmark-date-inline&#34;&gt;2026-05-01&lt;/span&gt;
+                &lt;div class=&#34;bookmark-tags&#34;&gt;
+                    &lt;span class=&#34;p-category&#34;&gt;VPS&lt;/span&gt;&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;blockquote&gt;free, disposable machines&lt;/blockquote&gt;
+        &lt;/article&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&#34;bookmark-month&#34;&gt;
     &lt;h3 class=&#34;bookmark-month-header&#34; id=&#34;month-2026-04 2026-04-2026-04&#34;&gt;
         &lt;a class=&#34;archive-header-link&#34; href=&#34;#month-2026-04%202026-04-2026-04&#34;&gt;April&lt;/a&gt;
         &lt;sup class=&#34;archive-count&#34;&gt;&amp;nbsp;15&lt;/sup&gt;
@@ -6405,8 +6460,8 @@ wieczorem by była gotowa na następny dzień).&lt;/p&gt;</description>
       <link>https://gagor.pro/2011/08/klastrowanie-sesji-php-z-memcached/</link>
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://gagor.pro/2011/08/klastrowanie-sesji-php-z-memcached/</guid>
-      <description>&lt;p&gt;Klastrowanie to może zbyt dumnie powiedziane. Rozwiązanie to wyszukałem gdy chcąc skonfigurować dwa serwery apache do współpracy na rzecz jednego serwisu okazało się, że sejse trzymane są tylko przez jeden serwer a drugi nic o nich nie wie. To oczywiście nie pozwalało na prawidłowe działanie jakiegokolwiek serwisu korzystającego z sesji.&lt;/p&gt;
-&lt;p&gt;Pomysł jest taki, że zastępujemy domyśny mechanizm przechowywania sesji w plikach na dysku mechanizmem memcache. Ponieważ memcached działa jako usługa sieciowa, różne serwery mogą się odwoływać do puli memcached i odczytywać zapisane w niej dane. W przypadku sesji - nie jest ważne, kto ją utworzył - bo po jej wysłaniu do puli memcached staje się dostępna dla wszystkich klientów php z niej korzystających.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Klastrowanie to może zbyt dumnie powiedziane. Rozwiązanie to wyszukałem gdy chcąc skonfigurować dwa serwery apache do współpracy na rzecz jednego serwisu okazało się, że sejse trzymane są tylko przez jeden serwer a drugi nic o nich nie wie. To oczywiście nie pozwalało na prawidłowe działanie jakiegokolwiek serwisu korzystającego z sesji.&lt;/p&gt;
+&lt;p&gt;Pomysł jest taki, że zastępujemy domyśny mechanizm przechowywania sesji w plikach na dysku mechanizmem memcache. Ponieważ memcached działa jako usługa sieciowa, różne serwery mogą się odwoływać do puli memcached i odczytywać zapisane w niej dane. W przypadku sesji - nie jest ważne, kto ją utworzył - bo po jej wysłaniu do puli memcached staje się dostępna dla wszystkich klientów php z niej korzystających.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MySQL - dostęp zdalny na szybko</title>
