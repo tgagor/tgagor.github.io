@@ -2416,14 +2416,6 @@ wieczorem by była gotowa na następny dzień).&lt;/p&gt;</description>
  (ostatnio miałem problem z tym linkiem więc proponuję pogooglać)&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Klastrowanie sesji PHP z memcached</title>
-      <link>https://gagor.pro/2011/08/klastrowanie-sesji-php-z-memcached/</link>
-      <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
-      <guid>https://gagor.pro/2011/08/klastrowanie-sesji-php-z-memcached/</guid>
-      <description>&lt;p&gt;Klastrowanie to może zbyt dumnie powiedziane. Rozwiązanie to wyszukałem gdy chcąc skonfigurować dwa serwery apache do współpracy na rzecz jednego serwisu okazało się, że sejse trzymane są tylko przez jeden serwer a drugi nic o nich nie wie. To oczywiście nie pozwalało na prawidłowe działanie jakiegokolwiek serwisu korzystającego z sesji.&lt;/p&gt;
-&lt;p&gt;Pomysł jest taki, że zastępujemy domyśny mechanizm przechowywania sesji w plikach na dysku mechanizmem memcache. Ponieważ memcached działa jako usługa sieciowa, różne serwery mogą się odwoływać do puli memcached i odczytywać zapisane w niej dane. W przypadku sesji - nie jest ważne, kto ją utworzył - bo po jej wysłaniu do puli memcached staje się dostępna dla wszystkich klientów php z niej korzystających.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>MySQL - dostęp zdalny na szybko</title>
       <link>https://gagor.pro/2011/08/mysql-na-szybko/</link>
       <pubDate>Sat, 27 Aug 2011 00:00:00 +0000</pubDate>
