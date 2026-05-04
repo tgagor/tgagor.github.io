@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Mon, 04 May 2026 23:59:40 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 01:06:01 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to prepare presentation for a Conference</title>
+      <link>https://gagor.pro/2026/05/how-to-prepare-presentation-for-a-conference/</link>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/2026/05/how-to-prepare-presentation-for-a-conference/</guid>
+      <description>Learn how to build impactful conference presentations by focusing on storytelling, narrative throughlines, and audience experience rather than just slides.</description>
+    </item>
     <item>
       <title>Setting Ghostty as default terminal on Ubuntu 26.04</title>
       <link>https://gagor.pro/2026/04/setting-ghostty-as-default-terminal-on-ubuntu-26.04/</link>
