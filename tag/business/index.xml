@@ -7,8 +7,21 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Content licensed under (CC BY-SA 4.0)</copyright>
-    <lastBuildDate>Sun, 26 Apr 2026 20:32:26 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 11:39:18 +0200</lastBuildDate>
     <atom:link href="https://gagor.pro/tag/business/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managing Humans</title>
+      <link>https://gagor.pro/book/2026/managing-humans/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://gagor.pro/book/2026/managing-humans/</guid>
+      <description>&lt;figure style=&#34;display:flex;&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;images/book-cover.webp&#34;
+         alt=&#34;Cover of book Managing Humans by Michael Lopp&#34; width=&#34;220&#34;/&gt; &lt;figcaption style=&#34;margin-left: 1em; float: right;&#34;&gt;
+            &lt;q&gt;Managing Humans&lt;/q&gt;&lt;p&gt;Biting and Humorous Tales of a Software Engineering Manager&lt;/p&gt;&lt;p&gt;Author: Michael Lopp&lt;/p&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If you manage people, this book is worth reading. Rather than offering complete solutions, it presents the author&amp;rsquo;s gut feelings based on his experience with what works and what doesn&amp;rsquo;t. It&amp;rsquo;s written lightly, with plenty of humor and healthy doses of sarcasm that make it engaging without being cynical.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Team Topologies</title>
       <link>https://gagor.pro/book/2026/team-topologies/</link>
