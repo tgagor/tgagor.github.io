@@ -22,6 +22,7 @@ All pages on my site are licensed under <a rel="license" rel="noopener noreferre
 ## Licensing
 
 All pages on my site are licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
+Remember to provide back link when referring to materials from the page.
 
 ## Languages supported
 
